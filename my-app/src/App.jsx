@@ -25,6 +25,8 @@ import MusicAmps from "./pages/MusicAmps";
 import InflatableGames from "./pages/InflatableGames";
 import GeneratorHierSection from "./pages/GeneratorHierSection";
 import PartyEntertainer from "./pages/PartyEntertainer";
+import BookingForm from "./pages/Booking";
+
 const App = () => {
   return (
     <>
@@ -67,6 +69,7 @@ const App = () => {
           path="/category/party-entertainer"
           element={<PartyEntertainer />}
         />
+        <Route path="/booking" element={<BookingForm />} />
       </Routes>
     </>
   );

@@ -72,6 +72,97 @@ export const cardSlidesImagesData = [
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_200/4f8762ce64cbbaface30371b88ba58d1",
   },
 ];
+export const submenuItems = [
+  { title: "New For 2024!", url: "/category/news-2024" },
+  { title: "Indoor Soft Play Packages", url: "/category/indoor-soft-play" },
+  { title: "Christmas Inflatables", url: "/category/chrismis-inflatables" },
+  { title: "Bouncy Castles", url: "/category/bouncy-castles" },
+  { title: "Disco Domes", url: "/category/disco-domes" },
+  { title: "Assault Course", url: "/category/asult-course" },
+  { title: "Bounce & Slide Combos", url: "/category/bounce-slide-combos" },
+  { title: "ADULT CASTLES", url: "/category/adult-castles" },
+  { title: "Soft Play", url: "/category/soft-play" },
+  { title: "Party Add-ons", url: "/category/party-add-ons" },
+  { title: "Music Amps", url: "/category/music-amps" },
+  { title: "Inflatable Games", url: "/category/inflatable-games" },
+  {
+    title: "Generator Hire Section",
+    url: "/category/generator-hier-section",
+  },
+  { title: "Party Entertainer", url: "/category/party-entertainer" },
+];
+export const ribbons = [
+  {
+    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-blue.png",
+    title: "New for 2024!",
+    url: "/category/news-2024",
+  },
+  {
+    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-green.png",
+    title: "Indoor soft plays pakages",
+    url: "/category/indoor-soft-play",
+  },
+  {
+    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-orange.png",
+    title: "Chrismiss Inflatable",
+    url: "/category/chrismis-inflatables",
+  },
+  {
+    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-pink.png",
+    title: "Bouncy castels",
+    url: "/category/bouncy-castles",
+  },
+  {
+    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-blue.png",
+    title: "Disco Domes",
+    url: "/category/disco-domes",
+  },
+  {
+    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-green.png",
+    title: "Assults course",
+    url: "/category/asult-course",
+  },
+  {
+    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-orange.png",
+    title: "Bounce and slides combos",
+    url: "/category/bounce-slide-combos",
+  },
+  {
+    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-pink.png",
+    title: "Adult castles",
+    url: "/category/adult-castles",
+  },
+  {
+    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-blue.png",
+    title: "Soft Play",
+    url: "/category/soft-play",
+  },
+  {
+    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-green.png",
+    title: "Party Add-ons",
+    url: "/category/party-add-ons",
+  },
+  {
+    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-orange.png",
+    title: "Music Amps",
+    url: "/category/music-amps",
+  },
+  {
+    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-pink.png",
+    title: "Inflatable Games",
+    url: "/category/inflatable-games",
+  },
+  {
+    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-blue.png",
+    title: "Generator Hire Section",
+    url: "/category/generator-hier-section",
+  },
+  {
+    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-green.png",
+    title: "Party Entertainer",
+    url: "/category/party-entertainer",
+  },
+];
 export const cardData = [
   {
     price: "99$",
@@ -116,64 +207,7 @@ export const cardData = [
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/a3e7b5feaadfb7232518570528b3d7cf",
   },
 ];
-export const ribbons = [
-  {
-    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-blue.png",
-    title: "New for 2024!",
-  },
-  {
-    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-green.png",
-    title: "Indoor soft plays pakages",
-  },
-  {
-    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-orange.png",
-    title: "Chrismiss Inflatable",
-  },
-  {
-    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-pink.png",
-    title: "Bouncy castels",
-  },
-  {
-    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-pink.png",
-    title: "Disco Domes",
-  },
-  {
-    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-pink.png",
-    title: "Assults course",
-  },
-  {
-    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-pink.png",
-    title: "Bounce and slides combos",
-  },
-  {
-    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-pink.png",
-    title: "Adult castles",
-  },
-  {
-    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-pink.png",
-    title: "Soft Play",
-  },
-  {
-    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-pink.png",
-    title: "Party Add-ons",
-  },
-  {
-    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-pink.png",
-    title: "Music Amps",
-  },
-  {
-    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-pink.png",
-    title: "Inflatable Games",
-  },
-  {
-    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-pink.png",
-    title: "Generator Hire Section",
-  },
-  {
-    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-pink.png",
-    title: "Party Entertainer",
-  },
-];
+
 export const cardImages = [
   {
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_200/6865b8be3d792e5bb053e865cf12e0c0",
@@ -515,22 +549,72 @@ export const chrismisList2 = [
     li: "We hire to Leeds Morley Pudsey Rothwell Wakefield Castleford Pontefract Barnsley and Huddersfield as standard. If you are outside these areas please call the office on 07531522289 as occassionally we may be able to deliver out of area at quieter times.",
   },
 ];
-export const submenuItems = [
-  { title: "New For 2024!", url: "/category/news-2024" },
-  { title: "Indoor Soft Play Packages", url: "/category/indoor-soft-play" },
-  { title: "Christmas Inflatables", url: "/category/chrismis-inflatables" },
-  { title: "Bouncy Castles", url: "/category/bouncy-castles" },
-  { title: "Disco Domes", url: "/category/disco-domes" },
-  { title: "Assault Course", url: "/category/asult-course" },
-  { title: "Bounce & Slide Combos", url: "/category/bounce-slide-combos" },
-  { title: "ADULT CASTLES", url: "/category/adult-castles" },
-  { title: "Soft Play", url: "/category/soft-play" },
-  { title: "Party Add-ons", url: "/category/party-add-ons" },
-  { title: "Music Amps", url: "/category/music-amps" },
-  { title: "Inflatable Games", url: "/category/inflatable-games" },
+export const bookingFormData = [
   {
-    title: "Generator Hire Section",
-    url: "/category/generator-hier-section",
+    label: "Name",
+    name: "name",
+    type: "text",
+    placeholder: "Enter your name",
+    rules: {
+      required: "Name is required",
+      minLength: {
+        value: 3,
+        message: "Name must be at least 3 characters long",
+      },
+    },
   },
-  { title: "Party Entertainer", url: "/category/party-entertainer" },
+  {
+    label: "Email",
+    name: "email",
+    type: "email",
+    placeholder: "Enter your email",
+    rules: {
+      required: "Email is required",
+      pattern: {
+        value: /^\S+@\S+\.\S+$/,
+        message: "Invalid email address",
+      },
+    },
+  },
+  {
+    label: "Phone",
+    name: "phone",
+    type: "tel",
+    placeholder: "Enter your phone number",
+    rules: {
+      required: "Phone number is required",
+      pattern: {
+        value: /^\d{10}$/,
+        message: "Phone number must be 10 digits",
+      },
+    },
+  },
+  {
+    label: "Address",
+    name: "address",
+    type: "text",
+    placeholder: "Enter your address",
+    rules: {
+      required: "Address is required",
+    },
+  },
+
+  {
+    label: "Item Name",
+    name: "itemDetail.name",
+    type: "text",
+    placeholder: "Enter item name",
+    rules: {
+      required: "Item name is required",
+    },
+  },
+  {
+    label: "Item Price",
+    name: "itemDetail.price",
+    type: "number",
+    placeholder: "Enter item price",
+    rules: {
+      required: "Item price is required",
+    },
+  },
 ];

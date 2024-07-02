@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ bgImg, title, img, price, w }) => {
   return (
-    <main className={`relative w-[${w}vw] overflow-hidden`}>
+    <main className={`relative w-[17vw] overflow-hidden`}>
       <p
         style={{ textShadow: "2px 2px 0 white" }}
         className="absolute top-[1vw] left-[7vw] font-bold text-[1.5vw]"

@@ -1,25 +1,28 @@
 import React from "react";
 import { ribbons } from "../data";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 const Ribbons = () => {
   const variant = {};
   return (
     <>
-      <aside className="ml-[-1vw]  ">
+      <aside className="ml-[-1vw] flex flex-col mt-[2vw]">
         {ribbons?.map((elem, ind) => (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: ind * 0.3 }}
             key={ind}
-            className="relative"
+            className="relative "
           >
-            <figure className="w-full max-w-[30vw]">
-              <img src={elem.img} alt="slide image" className="w-full" />
-            </figure>
-            <p className="translate-y-[-4.8vw] text-white  ml-[2vw] font-ab   font-bold text-[1.5vw]">
-              {elem.title}
-            </p>
+            <Link to={elem.url}>
+              <figure className="w-full max-w-[25vw] mt-[-2vw] ">
+                <img src={elem.img} alt="slide image" className="w-full" />
+              </figure>
+              <p className="transition-all duration-300 hover:translate-x-[1vw] translate-y-[-4.8vw] text-white  ml-[2vw] font-ab   font-bold text-[1.5vw]">
+                {elem.title}
+              </p>
+            </Link>
           </motion.div>
         ))}
         <article className="ml-[2vw]">

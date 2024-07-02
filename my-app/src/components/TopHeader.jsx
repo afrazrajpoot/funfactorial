@@ -1,5 +1,5 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 const TopHeader = () => {
   let socialImages = [
     {
@@ -40,7 +40,8 @@ const TopHeader = () => {
         <section>
           <article>
             <figure>
-              <img
+              <motion.img
+                whileHover={{ scale: 1.2 }}
                 src="https://www.funfactorleeds.co.uk/theme/fun-factor-leeds@1x.png"
                 alt="img"
               />
@@ -94,7 +95,6 @@ const TopHeader = () => {
           </figure>
         </section>
       </header>
-     
     </>
   );
 };
