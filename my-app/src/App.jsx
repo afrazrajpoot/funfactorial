@@ -1,35 +1,37 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Ribbons from "./components/Ribbons";
-import DownloadParties from "./pages/DownloadParties";
-import PrivacyPolicy from "./pages/PrivacyPolicy";
-import About from "./pages/About";
-import Faqs from "./pages/Faqs";
-import Contact from "./pages/Contact";
-import TermAndCondition from "./pages/TermAndCondition";
-import Cancellations from "./pages/Cancellations";
-import News2024 from "./pages/News2024";
-import IndoorSoftPlay from "./pages/IndoorSoftPlay";
-import ChrismisInflatables from "./pages/ChrismisInflatables";
-import BouncyCastles from "./pages/BouncyCastles";
-import DiscoDomes from "./pages/DiscoDomes";
-import AsultCourse from "./pages/AsultCourse";
-import BounceSlideCombo from "./pages/BounceSlideCombo";
-import AdultCastles from "./pages/AdultCastles";
-import SoftPlay from "./pages/SoftPlay";
-import PartyAddOns from "./pages/PartyAddOns";
-import MusicAmps from "./pages/MusicAmps";
-import InflatableGames from "./pages/InflatableGames";
-import GeneratorHierSection from "./pages/GeneratorHierSection";
-import PartyEntertainer from "./pages/PartyEntertainer";
-import BookingForm from "./pages/Booking";
 
+// Lazy load the pages
+const Home = lazy(() => import("./pages/Home"));
+const Ribbons = lazy(() => import("./components/Ribbons"));
+const DownloadParties = lazy(() => import("./pages/DownloadParties"));
+const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy"));
+const About = lazy(() => import("./pages/About"));
+const Faqs = lazy(() => import("./pages/Faqs"));
+const Contact = lazy(() => import("./pages/Contact"));
+const TermAndCondition = lazy(() => import("./pages/TermAndCondition"));
+const Cancellations = lazy(() => import("./pages/Cancellations"));
+const News2024 = lazy(() => import("./pages/News2024"));
+const IndoorSoftPlay = lazy(() => import("./pages/IndoorSoftPlay"));
+const ChrismisInflatables = lazy(() => import("./pages/ChrismisInflatables"));
+const BouncyCastles = lazy(() => import("./pages/BouncyCastles"));
+const DiscoDomes = lazy(() => import("./pages/DiscoDomes"));
+const AsultCourse = lazy(() => import("./pages/AsultCourse"));
+const BounceSlideCombo = lazy(() => import("./pages/BounceSlideCombo"));
+const AdultCastles = lazy(() => import("./pages/AdultCastles"));
+const SoftPlay = lazy(() => import("./pages/SoftPlay"));
+const PartyAddOns = lazy(() => import("./pages/PartyAddOns"));
+const MusicAmps = lazy(() => import("./pages/MusicAmps"));
+const InflatableGames = lazy(() => import("./pages/InflatableGames"));
+const GeneratorHierSection = lazy(() => import("./pages/GeneratorHierSection"));
+const PartyEntertainer = lazy(() => import("./pages/PartyEntertainer"));
+const BookingForm = lazy(() => import("./pages/Booking"));
+const Detail = lazy(() => import("./dynamicPages/Detail"));
 const App = () => {
   return (
-    <>
+    <Suspense fallback={<div>Loading...</div>}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/downloadParty" element={<DownloadParties />} />
@@ -70,8 +72,9 @@ const App = () => {
           element={<PartyEntertainer />}
         />
         <Route path="/booking" element={<BookingForm />} />
+        <Route path="/:id" element={<Detail />} />
       </Routes>
-    </>
+    </Suspense>
   );
 };
 

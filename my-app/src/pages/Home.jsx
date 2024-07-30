@@ -111,7 +111,7 @@ const Home = () => {
             </figure>
             <section className="grid grid-cols-4 gap-[3vw] pr-[3vw]">
               {cardData?.map((elem, ind) => (
-                <Card key={ind} {...elem} w="16.5" />
+                <Card key={ind} {...elem} w="16.5" ind={ind} />
               ))}
             </section>
           </article>
