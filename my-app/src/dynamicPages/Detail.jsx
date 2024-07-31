@@ -44,7 +44,7 @@ const Detail = () => {
                       key={i}
                       className={`w-full px-[1vw] py-[0.5vw] text-[1vw] font-medium text-black transition duration-300  border-b-[1px] hover:bg-gray-200 ${
                         detail === button
-                          ? "border-l-[1px] border-r-[1px] border-t-[1px] border-b-0 hover:bg-white"
+                          ? "border-l-[1px] border-r-[1px] border-t-[1px] border-b-[0px]  hover:bg-white"
                           : ""
                       }`}
                     >

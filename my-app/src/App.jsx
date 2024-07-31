@@ -2,6 +2,7 @@ import React, { Suspense, lazy } from "react";
 import { Route, Routes } from "react-router-dom";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Loading from "./components/Loader";
 
 // Lazy load the pages
 const Home = lazy(() => import("./pages/Home"));
@@ -31,7 +32,7 @@ const BookingForm = lazy(() => import("./pages/Booking"));
 const Detail = lazy(() => import("./dynamicPages/Detail"));
 const App = () => {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={<Loading />}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/downloadParty" element={<DownloadParties />} />

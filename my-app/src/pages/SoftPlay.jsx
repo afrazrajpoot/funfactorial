@@ -20,31 +20,34 @@ const SoftPlay = () => {
   ];
   return (
     <main className="flex items-start ">
-      <section className="mt-[1vw]">
+      <section className="mt-[1vw] hidden lg:block">
         <Ribbons />
       </section>
 
       <section className="p-[2vw]">
-        <h1 className="text-[#ed145b] text-[2.3vw] font-medium font-ab">
+        <h1 className="text-red-500 lg:w-[73.5vw] ml-[-2vw] px-[4vw] lg:px-[0vw] font-medium text-[7vw] w-[100vw]  lg:ml-[0vw]  lg:text-left text-center lg:text-[2.5vw] font-ab">
           SOFT PLAY HIRE LEEDS & SOFT PLAY HIRE WAKEFIELD
         </h1>
-        <article className="flex flex-col gap-[1vw]">
+        <article className="flex flex-col gap-[4vw] lg:gap-[1vw]">
           {softPlayData.map((item, index) => (
-            <p className="text-[1vw] font-pt mt-[1vw]" key={index}>
+            <p
+              className="lg:text-[1vw] px-[3vw] lg:px-[0vw] font-pt mt-[1vw]"
+              key={index}
+            >
               {item.info}
             </p>
           ))}
         </article>
-        <p className="text-[1vw] font-pt mt-[1vw]">
+        <p className="lg:text-[1vw] font-pt mt-[1vw]">
           Before booking online we recommend you call the office on{" "}
           <span className="font-bold">07531522289</span>
           to confirm we can accommodate the delivery and collection times if
           hiring a hall!
         </p>
-        <p className="mt-[1vw] font-pt text-[1vw]">
+        <p className="lg:mt-[1vw] font-pt mt-[3vw] lg:text-[1vw]">
           Please note our Soft Play sets are for Indoor Use only.
         </p>
-        <article className="grid grid-cols-4 gap-[3vw] pr-[3vw] mt-[1.5vw]">
+        <article className="lg:grid mt-[6vw] lg:mt-[1vw]  lg:grid-cols-4 lg:gap-[1vw] flex flex-col gap-[9vw]">
           {cardData?.map((elem, ind) => (
             <Card key={ind} {...elem} w="16.5" />
           ))}

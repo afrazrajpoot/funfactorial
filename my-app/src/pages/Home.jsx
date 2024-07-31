@@ -32,7 +32,7 @@ const Home = () => {
   return (
     <main className="">
       <section className="grid grid-cols-7 mt-[1vw] gap-[1vw]">
-        <aside className="flex flex-col gap-[1vw] col-span-2">
+        <aside className="lg:flex hidden flex-col gap-[1vw] col-span-2">
           <figure className="w-full ">
             <img
               src="https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/special-offers@1x.jpg"
@@ -48,7 +48,7 @@ const Home = () => {
             />
           </figure>
         </aside>
-        <section className="  col-span-5">
+        <section className="  col-span-5 hidden lg:block">
           <Slider {...settings}>
             {slideImages?.map((image, index) => {
               return (
@@ -61,12 +61,15 @@ const Home = () => {
         </section>
       </section>
 
-      <section className="grid grid-cols-12 gap-[2vw] mt-[2vw]">
-        <article className="col-span-3">
+      <section className="grid grid-cols-12   gap-[2vw] mt-[2vw]">
+        <article className="col-span-3 hidden lg:block">
           <Ribbons />
         </article>
-        <section className="col-span-9">
-          <motion.article className="flex gap-[2vw] relative" ref={ref}>
+        <section className="col-span-9 ">
+          <motion.article
+            className="lg:flex gap-[2vw] hidden  relative"
+            ref={ref}
+          >
             {cardImages?.map((image, index) => (
               <motion.div
                 key={index}
@@ -95,21 +98,22 @@ const Home = () => {
           <article className="flex items-center mt-[4vw]">
             <Details />
           </article>
-          <article>
-            <figure className="w-full max-w-[75vw]">
+          <article className=" mt-[4vw] lg:mt-[1vw]">
+            <figure className="w-[100vw]  lg:w-full lg:max-w-[75vw]">
               <img
+                className="lg:h-[5vw] h-[14vw]"
                 src="https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-title-background.png"
                 alt="img"
               />
             </figure>
-            <figure className="translate-y-[-4.5vw] translate-x-[5vw] w-full max-w-[30vw]">
+            <figure className="lg:translate-y-[-4vw] translate-y-[-10vw] translate-x-[15vw]  lg:translate-x-[5vw] w-[70vw] lg:w-full lg:max-w-[30vw]">
               <img
                 src="https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/check-out-some-of-our-products.png"
                 className="w-full"
                 alt="img"
               />
             </figure>
-            <section className="grid grid-cols-4 gap-[3vw] pr-[3vw]">
+            <section className="lg:grid  lg:grid-cols-4 lg:gap-[3vw] pr-[3vw] flex flex-col gap-[9vw]">
               {cardData?.map((elem, ind) => (
                 <Card key={ind} {...elem} w="16.5" ind={ind} />
               ))}

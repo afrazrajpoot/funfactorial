@@ -36,7 +36,7 @@ const TopHeader = () => {
   ];
   return (
     <>
-      <header className="flex gap-[30vw] ml-[3.5vw] ">
+      <header className="lg:flex p-[2vw]  lg:gap-[30vw] ml-[3.5vw] ">
         <section>
           <article>
             <figure>
@@ -47,12 +47,12 @@ const TopHeader = () => {
               />
             </figure>
           </article>
-          <article className="flex gap-[1vw] mt-[-3vw] w-full max-w-[3vw] ml-[6vw]">
+          <article className="flex gap-[1vw] mt-[-3vw] w-full max-w-[15vw] lg:max-w-[3vw] ml-[30vw] lg:ml-[6vw]">
             {socialImages.map((socialImage) => (
               <img src={socialImage.img} alt="google" className="w-full" />
             ))}
           </article>
-          <article className="flex ml-[2vw] mt-[1vw]">
+          <article className="lg:flex ml-[2vw] mt-[1vw] hidden ">
             <section className="flex items-center gap-[1vw]">
               {imagesGroup.map((imageGroup) => (
                 <figure className="w-full max-w-[4vw]">
@@ -71,21 +71,21 @@ const TopHeader = () => {
           </article>
         </section>
         <section className="flex flex-col gap-[1vw] mt-[2vw]">
-          <h1 className="text-red-500 text-[2vw] font-bold text-center">
+          <h1 className="text-red-500 text-[4vw] lg:text-[2vw] font-bold text-center">
             CALL US TODAY ON
           </h1>
 
-          <figure className="flex flex-col gap-[1vw]">
+          <figure className="flex flex-col gap-[1vw] ml-[-2vw] lg:ml-[0vw] mt-[4vw] lg:mt-[0vw]">
             {imagesGroup2.map((imageGroup2) => {
               return (
                 <>
-                  <figure className="flex justify-center ">
+                  <figure className="flex justify-center mt-[4vw] lg:mt-[0vw]">
                     <img src={imageGroup2.img} alt="img" />
                   </figure>
                 </>
               );
             })}
-            <figure className="w-full max-w-[17vw] ml-[5.5vw]">
+            <figure className="w-full max-w-[50vw] lg:max-w-[17vw] ml-[20vw] lg:ml-[5.5vw] mt-[4vw] lg:mt-[0vw]">
               <img
                 src="https://www.funfactorleeds.co.uk/theme/email-address@1x.png"
                 alt="img"

@@ -26,12 +26,12 @@ const Header = () => {
   }, []);
 
   return (
-    <header>
+    <header className="">
       <article>
         <section>
-          <div className="bg-[#40327a] h-[10vh] w-full rounded-md"></div>
-          <article className="bg-[#dd0042] p-[2vw] w-full max-w-[95vw] mt-[1vw] m-auto rounded-md flex justify-around">
-            <figure className="w-full max-w-[23vw]">
+          <div className="bg-[#40327a] hidden lg:block h-[10vh] w-full rounded-md"></div>
+          <article className="bg-[#dd0042] mt-[4vw] p-[2vw] w-full max-w-[95vw] lg:mt-[1vw] m-auto rounded-md flex lg:justify-around lg:flex-row flex-col lg:gap-[0vw] gap-[4vw]">
+            <figure className="w-full max-w-[50vw] ml-[20vw] lg:ml-[0vw] lg:max-w-[23vw]">
               <img
                 src="https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/check-availability@1x.png"
                 alt="img"
@@ -41,11 +41,11 @@ const Header = () => {
 
             <form
               action=""
-              className="flex gap-[3vw] ml-[5vw] w-full items-center"
+              className="flex lg:flex-row flex-col gap-[3vw] lg:ml-[5vw] w-full items-center"
             >
               <select
                 name="delivery"
-                className="bg-white p-[1vw] rounded-md w-full max-w-[15vw]"
+                className="bg-white p-[3vw] lg:p-[1vw] rounded-md w-full lg:max-w-[15vw]"
               >
                 <option value="Select delivery area">
                   Select delivery area
@@ -55,16 +55,16 @@ const Header = () => {
                 <option value="4">4</option>
                 <option value="5">5</option>
               </select>
-              <div className="w-full max-w-[15vw]">
+              <div className="w-full lg:max-w-[15vw]">
                 <input
                   type="date"
                   name=""
-                  className="rounded-md p-[1vw] w-full"
+                  className="rounded-md p-[3vw] lg:p-[1vw] w-full"
                 />
               </div>
               <select
                 name="delivery"
-                className="bg-white p-[1vw] w-full max-w-[15vw] rounded-md"
+                className="bg-white p-[3vw] lg:p-[1vw] w-full lg:max-w-[15vw] rounded-md"
               >
                 <option value="Select delivery area">
                   Select delivery area
@@ -74,14 +74,16 @@ const Header = () => {
                 <option value="4">4</option>
                 <option value="5">5</option>
               </select>
-              <div className="bg-[#40327a] p-[1vw] h-[7vh] w-full max-w-[10vw] rounded-md mt-[0.3vw]">
-                <p className="text-white font-bold">Search</p>
+              <div className="bg-[#40327a] lg:p-[1vw] h-[7vh] w-full lg:max-w-[10vw] rounded-md mt-[0.3vw]">
+                <p className="text-white font-bold text-center lg:mt-[0vw] mt-[3vw]">
+                  Search
+                </p>
               </div>
             </form>
           </article>
         </section>
       </article>
-      <nav className="bg-custom-gradient flex gap-[3vw] shadow-lg mt-[1vw] p-[2vw] justify-center relative">
+      <nav className="bg-custom-gradient hidden lg:flex gap-[3vw] shadow-lg mt-[1vw] p-[2vw] justify-center relative">
         {navData?.map((item, index) => (
           <div key={index} className="relative">
             <Link
