@@ -21,7 +21,7 @@ const PartyEntertainer = () => {
   ];
   return (
     <main className="flex items-start">
-      <section className="mt-[1vw]">
+      <section className="mt-[1vw] hidden lg:block">
         <Ribbons />
       </section>
       <section className="p-[2vw]">
@@ -31,21 +31,21 @@ const PartyEntertainer = () => {
             alt="img"
           />
         </figure>
-        <p className="text-blue-700 font-bold font-ab text-[2vw] mt-[1vw]">
+        <p className="text-blue-700 text-center lg:text-left  font-bold font-ab lg:text-[2vw] mt-[1vw]">
           WWW.SANDRA-ENTERTAINMENT.CO.UK
         </p>
-        <p className="text-[2vw] font-medium mt-[2vw] font-ab  text-[#00b0f0]">
+        <p className="lg:text-[2vw] font-medium mt-[2vw] text-center lg:text-left font-ab  text-[#00b0f0]">
           BIG EVENTS FOR LITTLE PEOPLE WITH SANDRA WAS ESTABLISHED IN 2004 TO
           PROVIDE A MOBILE CHILDREN’S ENTERTAINMENT SERVICE THROUGHOUT
           YORKSHIRE. SANDRA OFFERS VALUE FOR MONEY, QUALITY PACKAGES AND HIGH
           STANDARDS OF PROFESSIONALISM.
         </p>
-        <p className="text-[2vw] font-medium mt-[2vw] font-ab  text-[#00b0f0]">
+        <p className="lg:text-[2vw] text-center lg:text-left font-medium mt-[2vw] font-ab  text-[#00b0f0]">
           Call Sandra: 07709252579
         </p>
         <article>
           {partyImages?.map((image, index) => (
-            <figure key={index} className="w-full max-w-[60vw]">
+            <figure key={index} className="w-full lg:max-w-[60vw]">
               <img src={image.img} className="w-full" alt="party entertainer" />
             </figure>
           ))}

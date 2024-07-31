@@ -52,19 +52,23 @@ const PrivacyPolicy = () => {
   ];
   return (
     <main className="flex gap-[2vw]">
-      <section className="mt-[1vw]">
+      <section className="mt-[1vw] hidden lg:block">
         <Ribbons />
       </section>
 
-      <section className="flex flex-col gap-[2vw] p-[1vw]">
-        <h1 className="text-[#ed145b] text-[2.3vw] font-medium font-ab">
+      <section className="flex flex-col gap-[5vw] lg:gap-[2vw] p-[1vw]">
+        <h1 className="text-[#ed145b] text-[10vw] text-center lg:text-left lg:mt-[2vw] mt-[10vw] lg:text-[2.3vw] font-medium font-ab">
           PRIVACY POLICY
         </h1>
         {privacyPolicyData.map((item, index) => {
           return (
             <div key={index}>
-              <h2 className="text-[1.3vw]  font-bold ">{item.title}</h2>
-              <p className="text-[1vw]">{item.info}</p>
+              <h2 className="lg:text-[1.3vw]  text-center lg:text-left font-bold ">
+                {item.title}
+              </h2>
+              <p className="lg:text-[1vw] text-center lg:text-left text-[3.5vw]">
+                {item.info}
+              </p>
             </div>
           );
         })}

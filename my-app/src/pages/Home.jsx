@@ -115,7 +115,7 @@ const Home = () => {
             </figure>
             <section className="lg:grid  lg:grid-cols-4 lg:gap-[3vw] pr-[3vw] flex flex-col gap-[9vw]">
               {cardData?.map((elem, ind) => (
-                <Card key={ind} {...elem} w="16.5" ind={ind} />
+                <Card key={ind} {...elem} w="16.5" ind={ind} ml={"5.5vw"} />
               ))}
             </section>
           </article>

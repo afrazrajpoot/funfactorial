@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Card = ({ bgImg, title, img, price, w, ind }) => {
+const Card = ({ bgImg, title, img, price, w, ind, ml }) => {
   return (
     <main
-      className={`relative lg:w-[17vw] overflow-hidden w-[90vw] lg:ml-[0vw] ml-[5vw]`}
+      className={`relative lg:w-[17vw] overflow-hidden w-[90vw] lg:ml-[0vw] ml-[${ml}]`}
     >
       <p
         style={{ textShadow: "2px 2px 0 white" }}

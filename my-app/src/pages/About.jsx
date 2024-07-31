@@ -29,28 +29,35 @@ const About = () => {
   ];
   return (
     <main className="flex items-start">
-      <section className="mt-[1vw]">
+      <section className="mt-[1vw] hidden lg:block">
         <Ribbons />
       </section>
       <section className="mt-[1vw]">
-        <h1 className="text-[#ed145b] text-[2.3vw]  font-ab">About US</h1>
+        <h1 className="text-[#ed145b] text-[10vw] text-center lg:text-left mt-[10vw] lg:mt-[1vw] lg:text-[2.3vw]  font-ab">
+          About US
+        </h1>
         <article className="flex flex-col gap-[1.5vw] mt-[1vw]">
           {aboutData.map((item, index) => (
-            <p key={index} className="w-full max-w-[60vw]">
+            <p
+              key={index}
+              className="w-full text-center lg:text-left px-[3vw] lg:px-[0vw] lg:max-w-[60vw]"
+            >
               {item.info}
             </p>
           ))}
         </article>
-        <ul className="mt-[1vw]">
+        <ul className="mt-[1vw] px-[3vw] lg:px-[0vw]">
           {lists.map((elem, ind) => (
             <li key={ind}>{elem}</li>
           ))}
         </ul>
-        <p className="mt-[1vw]">
+        <p className="mt-[1vw] px-[3vw] lg:px-[0vw]">
           Please feel free to contact us and we will be delighted to talk to
           you!
         </p>
-        <p className="font-bold mt-[1vw]">Regards, Silvia & Derek</p>
+        <p className="font-bold mt-[1vw] px-[3vw] lg:px-[0vw]">
+          Regards, Silvia & Derek
+        </p>
       </section>
     </main>
   );
