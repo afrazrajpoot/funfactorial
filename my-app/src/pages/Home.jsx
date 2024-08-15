@@ -66,10 +66,7 @@ const Home = () => {
           <Ribbons />
         </article>
         <section className="col-span-9 ">
-          <motion.article
-            className="lg:flex gap-[2vw] hidden  relative"
-            ref={ref}
-          >
+          <motion.article className="lg:flex gap-[2vw] hidden  relative" ref={ref}>
             {cardImages?.map((image, index) => (
               <motion.div
                 key={index}
@@ -115,7 +112,7 @@ const Home = () => {
             </figure>
             <section className="lg:grid  lg:grid-cols-4 lg:gap-[3vw] pr-[3vw] flex flex-col gap-[9vw]">
               {cardData?.map((elem, ind) => (
-                <Card key={ind} {...elem} w="16.5" ind={ind} ml={"5.5vw"} />
+                <Card key={ind} {...elem} w="16.5" ind={ind} ml={"4vw"} />
               ))}
             </section>
           </article>

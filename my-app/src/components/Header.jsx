@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { navData, submenuItems } from "../data";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import { FormControl, InputLabel, MenuItem, Select, TextField, Button } from "@mui/material";
 
 const Header = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [deliveryArea, setDeliveryArea] = useState("");
   const dropdownRef = useRef(null);
 
   const handleDropdownToggle = () => {
@@ -13,9 +15,11 @@ const Header = () => {
   };
 
   const handleClickOutside = (event) => {
-    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-      setDropdownOpen(false);
-    }
+    setDropdownOpen(false);
+  };
+
+  const handleDeliveryChange = (event) => {
+    setDeliveryArea(event.target.value);
   };
 
   useEffect(() => {
@@ -24,7 +28,56 @@ const Header = () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
-
+  const selectOptions = [
+    [
+      "BD11",
+      "HD8",
+      "LS1",
+      "LS2",
+      "LS3",
+      "LS4",
+      "LS5",
+      "LS6",
+      "LS7",
+      "LS8",
+      "LS9",
+      "LS10",
+      "LS11",
+      "LS12",
+      "LS13",
+      "LS14",
+      "LS15",
+      "LS16",
+      "LS17",
+      "LS18",
+      "LS19",
+      "LS20",
+      "WF1",
+      "WF2",
+      "WF3",
+      "WF4",
+      "WF5",
+      "WF6",
+      "WF7",
+      "WF8",
+      "WF9",
+      "WF10",
+    ],
+    [
+      "New For 2024 ",
+      "Indoor Soft Play Pakages",
+      "Christmas Inflatable",
+      "Bouncy Castles",
+      "Disco Domes",
+      "Assault Course",
+      "Bouncy & Slides Combos",
+      "ADULT CASTLES",
+      "Soft Play",
+      "Party Add-ons",
+      "Inflatable Games",
+      "Ganerator Hire Section",
+    ],
+  ];
   return (
     <header className="">
       <article>
@@ -43,42 +96,48 @@ const Header = () => {
               action=""
               className="flex lg:flex-row flex-col gap-[3vw] lg:ml-[5vw] w-full items-center"
             >
-              <select
-                name="delivery"
-                className="bg-white p-[3vw] lg:p-[1vw] rounded-md w-full lg:max-w-[15vw]"
+              <FormControl className="w-full lg:max-w-[15vw]">
+                <InputLabel shrink={false}>{!deliveryArea && "Set delivery area"}</InputLabel>
+                <Select
+                  value={deliveryArea}
+                  onChange={handleDeliveryChange}
+                  className="bg-white rounded-md w-full"
+                >
+                  {selectOptions[0].map((option, index) => (
+                    <MenuItem key={index} value={option}>
+                      {option}
+                    </MenuItem>
+                  ))}
+                </Select>
+              </FormControl>
+              <TextField
+                type="date"
+                margin="dense"
+                InputLabelProps={{ shrink: true }}
+                className="rounded-md w-full lg:max-w-[15vw] bg-white"
+              />
+              <FormControl className="w-full lg:max-w-[15vw]">
+                <InputLabel shrink={false}>{!deliveryArea && "Select Date First"}</InputLabel>
+
+                <Select
+                  value={deliveryArea}
+                  onChange={handleDeliveryChange}
+                  className="bg-white rounded-md w-full"
+                >
+                  {selectOptions[1].map((option, index) => (
+                    <MenuItem key={index} value={option}>
+                      {option}
+                    </MenuItem>
+                  ))}
+                </Select>
+              </FormControl>
+              <Button
+                variant="contained"
+                className="bg-[#40327a] lg:p-[1vw] h-[7vh] w-full lg:max-w-[10vw] rounded-md mt-[0.3vw]"
+                style={{ backgroundColor: "#40327a", color: "white", fontWeight: "bold" }}
               >
-                <option value="Select delivery area">
-                  Select delivery area
-                </option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-              </select>
-              <div className="w-full lg:max-w-[15vw]">
-                <input
-                  type="date"
-                  name=""
-                  className="rounded-md p-[3vw] lg:p-[1vw] w-full"
-                />
-              </div>
-              <select
-                name="delivery"
-                className="bg-white p-[3vw] lg:p-[1vw] w-full lg:max-w-[15vw] rounded-md"
-              >
-                <option value="Select delivery area">
-                  Select delivery area
-                </option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-              </select>
-              <div className="bg-[#40327a] lg:p-[1vw] h-[7vh] w-full lg:max-w-[10vw] rounded-md mt-[0.3vw]">
-                <p className="text-white font-bold text-center lg:mt-[0vw] mt-[3vw]">
-                  Search
-                </p>
-              </div>
+                Search
+              </Button>
             </form>
           </article>
         </section>

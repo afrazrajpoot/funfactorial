@@ -41,20 +41,19 @@ const Cancellations = () => {
     },
   ];
   return (
-    <main className="flex items-start">
-      <section className="mt-[1vw]">
+    <main className="flex items-start w-full">
+      <section className="mt-[1vw] hidden lg:block">
         <Ribbons />
       </section>
-      <section className="mt-[1vw]">
-        <h1 className="text-[#ed145b] text-[2.3vw] font-medium font-ab">
+      <section className="mt-[1vw] w-full">
+        <h1 className="text-[#ed145b] mt-[4vw] text-center text-[7vw] lg:text-left lg:text-[2.3vw] font-medium font-ab">
           CANCELLATIONS…
         </h1>
         <article className="flex flex-col gap-[1vw] mt-[1vw]">
           {cancellationData.map((cancellation, ind) => (
             <div className="flex" key={ind}>
-              <p className=" text-[1vw] font-pt w-full max-w-[65vw]">
-                <span className="font-bold font-pt">{cancellation.title}</span>{" "}
-                {cancellation.info}
+              <p className="  lg:text-[1vw] p-[3vw] lg:p-[0vw] font-pt w-full lg:max-w-[65vw]">
+                <span className="font-bold font-pt">{cancellation.title}</span> {cancellation.info}
               </p>
             </div>
           ))}

@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.scrollbar-custom {
+  /* Applying Tailwind CSS utilities for customizing the scrollbar */
+  @apply scrollbar scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-300;
+}
+
+.header-container {
+  @apply lg:hidden fixed top-0 w-full shadow-xl z-50;
+}
+
+.header {
+  @apply w-full h-[50px] bg-red-500 flex items-center justify-between px-4;
+}
+
+.header-text {
+  @apply text-white font-bold;
+}
+
+.nav-container {
+  @apply bg-red-500 w-full absolute shadow-xl z-40 overflow-hidden;
+}
+
+.nav-content {
+  @apply p-[3vw];
+}
+
+.nav-item {
+  @apply text-white py-2;
+}
+
+.submenu {
+  @apply pl-4 max-h-40 overflow-y-auto scrollbar-custom;
+}

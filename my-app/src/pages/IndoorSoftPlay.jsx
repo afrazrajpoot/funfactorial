@@ -37,13 +37,13 @@ const IndoorSoftPlay = () => {
         </article>
         <p className="font-bold text-[2vw] lg:px-[0vw] mt-[4vw] lg:w-[50vw] px-[2vw] lg:text-[1vw] lg:mt-[1vw]">
           If there is not a package below to suit your needs, please{" "}
-          <span className="text-[#ed145b] font-bold underline">contact</span> Us
-          with your enquiry or call the office on 07531522289 as we will be able
-          to put a bespoke package together for you.
+          <span className="text-[#ed145b] font-bold underline">contact</span> Us with your enquiry
+          or call the office on 07531522289 as we will be able to put a bespoke package together for
+          you.
         </p>
         <article className="lg:grid mt-[6vw] lg:mt-[1vw]  lg:grid-cols-4 lg:gap-[1vw] flex flex-col gap-[9vw]">
           {cardData?.map((elem, ind) => (
-            <Card key={ind} {...elem} w="16.5" />
+            <Card key={ind} {...elem} w="16.5" ml={"4.5vw"} />
           ))}
         </article>
       </section>

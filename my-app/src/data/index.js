@@ -166,43 +166,37 @@ export const ribbons = [
 export const cardData = [
   {
     price: "99$",
-    bgImg:
-      "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-orange.png",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-orange.png",
     title: "Princess Disco Deluxe Bounce & Slide Combo 12ft by 18ft",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/774ad10b0cf9bab00c4a4275220a4e31",
   },
   {
     price: "50$",
-    bgImg:
-      "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-green.png",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-green.png",
     title: "Gladiator Duel 24 x 16 ft",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/94448457b6677b1bab584a24a1d31baa",
   },
   {
     price: "70$",
-    bgImg:
-      "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
     title: "13ft x 13ft Deluxe Inflatable Christmas Santas Grotto",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/7ebf45031bda9543a8da829d532d796c",
   },
   {
     price: "80$",
-    bgImg:
-      "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-blue.png",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-blue.png",
     title: "3D Dinosaur Bouncy Castle with Slide",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/74063d59d1921b3412635ecaac0e7919",
   },
   {
     price: "90$",
-    bgImg:
-      "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
     title: "Christmas Snow Globe 19ft x 16ft",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/a3e7b5feaadfb7232518570528b3d7cf",
   },
   {
     price: "100$",
-    bgImg:
-      "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
     title: "Christmas Snow Globe 19ft x 16ft",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/a3e7b5feaadfb7232518570528b3d7cf",
   },
@@ -251,6 +245,25 @@ export const navData = [
   {
     title: "Products",
     url: "#",
+    submenu: [
+      { title: "New For 2024!", url: "/category/news-2024" },
+      { title: "Indoor Soft Play Packages", url: "/category/indoor-soft-play" },
+      { title: "Christmas Inflatables", url: "/category/chrismis-inflatables" },
+      { title: "Bouncy Castles", url: "/category/bouncy-castles" },
+      { title: "Disco Domes", url: "/category/disco-domes" },
+      { title: "Assault Course", url: "/category/asult-course" },
+      { title: "Bounce & Slide Combos", url: "/category/bounce-slide-combos" },
+      { title: "ADULT CASTLES", url: "/category/adult-castles" },
+      { title: "Soft Play", url: "/category/soft-play" },
+      { title: "Party Add-ons", url: "/category/party-add-ons" },
+      { title: "Music Amps", url: "/category/music-amps" },
+      { title: "Inflatable Games", url: "/category/inflatable-games" },
+      {
+        title: "Generator Hire Section",
+        url: "/category/generator-hier-section",
+      },
+      { title: "Party Entertainer", url: "/category/party-entertainer" },
+    ],
   },
   {
     title: "Home",

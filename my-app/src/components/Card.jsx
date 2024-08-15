@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 
 const Card = ({ bgImg, title, img, price, w, ind, ml }) => {
   return (
-    <main
-      className={`relative lg:w-[17vw] overflow-hidden w-[90vw] lg:ml-[0vw] ml-[${ml}]`}
-    >
+    <main className={`relative lg:w-[17vw] overflow-hidden w-[90vw] lg:ml-[0vw] ml-[5vw]`}>
       <p
         style={{ textShadow: "2px 2px 0 white" }}
         className="absolute top-[1vw] left-[43vw]  lg:left-[7vw] font-bold lg:text-[1.5vw]"
@@ -13,11 +11,7 @@ const Card = ({ bgImg, title, img, price, w, ind, ml }) => {
         {price}
       </p>
       <figure className="w-full">
-        <img
-          src={bgImg}
-          alt="img"
-          className="lg:w-full w-[97vw] lg:max-w-[30vw] lg:h-[60vh]"
-        />
+        <img src={bgImg} alt="img" className="lg:w-full w-[97vw] lg:max-w-[30vw] lg:h-[60vh]" />
         <img
           src={img}
           alt="img"

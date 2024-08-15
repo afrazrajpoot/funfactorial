@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import MobileHeader from "./MobileHeader";
 const TopHeader = () => {
   let socialImages = [
     {
@@ -36,7 +37,8 @@ const TopHeader = () => {
   ];
   return (
     <>
-      <header className="lg:flex p-[2vw]  lg:gap-[30vw] ml-[3.5vw] ">
+      <MobileHeader />
+      <header className="lg:flex p-[2vw]  lg:gap-[30vw] ml-[3.5vw] mt-[15vw] lg:mt-[1vw]">
         <section>
           <article>
             <figure>
