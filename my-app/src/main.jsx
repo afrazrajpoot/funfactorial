@@ -12,21 +12,24 @@ import { Provider } from "react-redux";
 import { store } from "./store/store.js";
 import { Toaster } from "sonner";
 import MobileHeader from "./components/MobileHeader.jsx";
+import { GlobalState } from "./context/globalState.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <Provider store={store}>
-        <main className="bg-[#B2FFFF] p-[0.2vw]" style={{ backgroundAttachment: "fixed" }}>
-          <TopHeader />
-          <section className="bg-white rounded-md w-full max-w-[100vw] overflow-x-hidden">
-            <Header />
+        <GlobalState>
+          <main className="bg-[#B2FFFF] p-[0.2vw]" style={{ backgroundAttachment: "fixed" }}>
+            <TopHeader />
+            <section className="bg-white rounded-md w-full max-w-[100vw] overflow-x-hidden">
+              <Header />
 
-            <Toaster />
-            <App />
-            <Footer />
-          </section>
-        </main>
+              <Toaster />
+              <App />
+              <Footer />
+            </section>
+          </main>
+        </GlobalState>
       </Provider>
     </BrowserRouter>
   </React.StrictMode>

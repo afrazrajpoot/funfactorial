@@ -1,45 +1,81 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Ribbons from "../components/Ribbons";
-import { contactData } from "../data";
+import { contactData, contactFormData } from "../data";
+import { useForm, Controller } from "react-hook-form";
+import axios from "axios";
+import { useGlobalState } from "../context/globalState";
+import { useCreateBookingMutation } from "../store/storeApi";
+import { toast } from "sonner";
+// Helper function to get current year and month
+const getCurrentYearMonth = () => {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, "0"); // Months are zero-based
+  return { year, month };
+};
 
 const Contact = () => {
-  const contactFormData = [
-    {
-      label: "Your Name",
-      type: "text",
-      name: "name",
-      placeHolder: "Your Name",
+  const { year, month } = getCurrentYearMonth();
+  const { itemDetail, setItemDetail } = useGlobalState();
+  const [booking, { isLoading, isError, error, isSuccess, data: responseData }] =
+    useCreateBookingMutation();
+  const {
+    handleSubmit,
+    control,
+    watch,
+    reset,
+    setValue, // Used to set default values
+    formState: { errors },
+  } = useForm({
+    defaultValues: {
+      startDate: `${year}-${month}-01`, // Setting default to the first day of the current month
+      endDate: `${year}-${month}-31`, // Setting default to the last day of the current month
     },
-    {
-      label: "Your Email Address",
-      type: "text",
-      name: "email",
-      placeHolder: "Your Email Address",
-    },
-    {
-      label: "Your Phone Number",
-      type: "text",
-      name: "phone",
-      placeHolder: "Your Phone Number",
-    },
-    {
-      label: "Your Location",
-      type: "text",
-      name: "location",
-      placeHolder: "Your Location",
-    },
-    {
-      label: "Your Enquiry",
-      type: "textarea",
-      name: "enquiry",
-      placeHolder: "Your Enquiry",
-    },
-  ];
+  });
+
+  // Watch the values of startDate and endDate
+  const startDate = watch("startDate");
+  const endDate = watch("endDate");
+
+  const onSubmit = async (data) => {
+    // console.log("Form Data:", data); // Check the form data in the console
+
+    // Prepare FormData
+
+    try {
+      booking({ ...data, itemDetail });
+    } catch (err) {
+      console.error("Error booking:", err.response?.data || err.message);
+    }
+  };
+
   const textShadowStyle = {
     textShadow:
       "0 0 0 #000, -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000",
-    color: "#fff", // Setting text color to white for contrast
+    color: "#fff",
   };
+  useEffect(() => {
+    if (isSuccess) {
+      setItemDetail(null);
+      // console.log(responseData, "res data");
+      reset();
+     
+      toast.success(responseData.message, {
+        position: "top-right",
+        duration: 1000,
+        autoClose: 3000,
+      });
+    }
+    if (isError) {
+
+toast.error(error?.data?.message, {
+  position: "top-right",
+  duration: 1000,
+  autoClose: 3000,
+})
+      console.log(error, "error");
+    }
+  }, [isSuccess, isError, error]);
   return (
     <main className="flex items-start p-4">
       <section className="hidden lg:block">
@@ -78,32 +114,56 @@ const Contact = () => {
           <h2 className="text-blue-500 text-[3vw] lg:text-[1.5vw] text-center mt-[-1vw] p-[0.4vw] font-medium font-ab">
             Quick Enquiry Form
           </h2>
-          <form action="" className="bg-white p-[2vw] flex flex-col">
+          <form onSubmit={handleSubmit(onSubmit)} className="bg-white p-[2vw] flex flex-col">
             {contactFormData?.map((elem, ind) => (
-              <div key={ind} className="mb-4 bg-white flex items-center">
+              <div key={ind} className="mb-4 flex flex-col lg:flex-row lg:items-center">
                 <label
                   htmlFor={elem.name}
-                  className="w-[30vw] lg:translate-x-[10vw] text-[3vw] lg:text-[1vw] text-center"
+                  className="lg:w-[30vw] text-[3vw] lg:text-[1vw] text-center lg:text-left"
                 >
                   {elem.label}:
                 </label>
-                {elem.type === "textarea" ? (
-                  <textarea
-                    rows={5}
+                <div className="flex-1 flex flex-col">
+                  <Controller
                     name={elem.name}
-                    id={elem.name}
-                    placeholder={elem.placeHolder}
-                    className="border border-black text-[3vw] lg:text-[1vw] p-[0.5vw] rounded-md flex-1"
+                    control={control}
+                    rules={{
+                      ...elem.rules,
+                      validate:
+                        elem.name === "endDate"
+                          ? (value) =>
+                              new Date(value) >= new Date(startDate) ||
+                              "End date cannot be before start date"
+                          : undefined,
+                    }}
+                    render={({ field }) =>
+                      elem.type === "textarea" ? (
+                        <textarea
+                          {...field}
+                          rows={5}
+                          placeholder={elem.placeHolder}
+                          className={`border border-black text-[3vw] lg:text-[1vw] p-[0.5vw] rounded-md flex-1 ${
+                            errors[elem.name] ? "border-red-500" : ""
+                          }`}
+                        />
+                      ) : (
+                        <input
+                          {...field}
+                          type={elem.type}
+                          placeholder={elem.placeHolder}
+                          className={`border border-black text-[3vw] lg:text-[1vw] p-[1.5vw] lg:p-[0.5vw] rounded-md flex-1 ${
+                            errors[elem.name] ? "border-red-500" : ""
+                          }`}
+                        />
+                      )
+                    }
                   />
-                ) : (
-                  <input
-                    type={elem.type}
-                    name={elem.name}
-                    id={elem.name}
-                    placeholder={elem.placeHolder}
-                    className="border border-black text-[3vw] lg:text-[1vw] p-[1.5vw] lg:p-[0.5vw] rounded-md flex-1"
-                  />
-                )}
+                  {errors[elem.name] && (
+                    <p className="text-red-500 text-[2.5vw] lg:text-[0.8vw] mt-1 lg:ml-2">
+                      {errors[elem.name]?.message}
+                    </p>
+                  )}
+                </div>
               </div>
             ))}
             <input
@@ -111,8 +171,6 @@ const Contact = () => {
               type="submit"
               className="bg-[#ed145b] hover:cursor-pointer hover:bg-yellow-400 p-[1.5vw] lg:p-[0.5vw] rounded-md shadow-lg font-playwrite text-[3vw] lg:text-[1.5vw] w-full max-w-[30vw] lg:max-w-[12vw] ml-[55vw] lg:ml-[41.5vw] mt-[1vw]"
               value={"send enquiry"}
-              name=""
-              id=""
             />
           </form>
         </article>

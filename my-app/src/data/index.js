@@ -631,3 +631,61 @@ export const bookingFormData = [
     },
   },
 ];
+
+export const contactFormData = [
+  {
+    label: "Your Name",
+    type: "text",
+    name: "name",
+    placeHolder: "Your Name",
+    rules: { required: "Name is required" },
+  },
+  {
+    label: "Your Email Address",
+    type: "text",
+    name: "email",
+    placeHolder: "Your Email Address",
+    rules: {
+      required: "Email is required",
+      pattern: {
+        value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/,
+        message: "Invalid email address",
+      },
+    },
+  },
+  {
+    label: "Your Phone Number",
+    type: "text",
+    name: "phone",
+    placeHolder: "Your Phone Number",
+    rules: { required: "Phone number is required" },
+  },
+  {
+    label: "Your Location",
+    type: "text",
+    name: "location",
+    placeHolder: "Your Location",
+    rules: { required: "Location is required" },
+  },
+  {
+    label: "Start Date",
+    type: "date",
+    name: "startDate",
+    placeHolder: "Start Date",
+    rules: { required: "Start date is required" },
+  },
+  {
+    label: "End Date",
+    type: "date",
+    name: "endDate",
+    placeHolder: "End Date",
+    rules: { required: "End date is required" },
+  },
+  {
+    label: "Address",
+    type: "textarea",
+    name: "address",
+    placeHolder: "Your address",
+    rules: { required: "Address is required" },
+  },
+];

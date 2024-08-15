@@ -19,6 +19,7 @@
     "@mui/x-date-pickers": "^7.8.0",
     "@reduxjs/toolkit": "^2.2.6",
     "@tailwindcss/custom-forms": "^0.2.1",
+    "axios": "^1.7.4",
     "dayjs": "^1.11.11",
     "framer-motion": "^11.2.12",
     "react": "^18.3.1",

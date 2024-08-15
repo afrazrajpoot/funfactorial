@@ -1,35 +1,67 @@
-import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import { cardData, newsData } from "../data";
 import Ribbons from "../components/Ribbons";
-
+import { Button } from "@mui/material";
+import { useGlobalState } from "../context/globalState";
+import { useAvalbilityMutation } from "../store/storeApi";
+import Loading from "../components/Loader";
+import { toast } from "sonner";
 const Detail = () => {
   const [detail, setDetail] = useState("Details");
   const { id } = useParams(); // Destructure 'id' from useParams
   const index = Number(id); // Convert 'id' to a number to use as an index
 
   // Ensure the index is within the bounds of the array
-  const data = index >= 0 && index < cardData.length ? cardData[index] : null;
+  const itemData = index >= 0 && index < cardData.length ? cardData[index] : null;
 
-  //   alert(detail);
+ 
   const buttons = ["Details", "size", "Suitability", "Tests"];
+  const { itemDetail, setItemDetail } = useGlobalState();
+  const navigate = useNavigate();
+  const [available, { isLoading, isSuccess, isError, data }] = useAvalbilityMutation();
+  const handleClick = async () => {
+    await available({ itemName: itemData.title });
+  };
+  useEffect(() => {
+    if (isSuccess) {
+    
+      toast.success(data?.message,{
+        position: "top-center",
+        duration: 3000,
+        closeOnClick: true,
+        pauseOnHover: true,
+      });
+      console.log("data", data);
+    }
+    if (isError) {
+      setItemDetail({ name: itemData?.title, price: itemData?.price, id: id });
+      navigate(`/contact`);
+      console.log("data", data);
+    }
+    console.log(itemData, "item data");
+  }, [isSuccess, isError]);
   return (
     <main className="flex mt-[3vw] w-full">
       <section className="mt-[1vw] hidden lg:block">
         <Ribbons />
       </section>
       <section className="p-[2vw] w-full lg:max-w-[80vw]">
-        {data ? (
+        {itemData ? (
           <div className="">
             <div className="bg-red-600 w-full p-[1vw] lg:p-[0.5vw]">
               <h1 className="font-bold font-ab text-center text-[4vw] lg:text-[2vw] text-white">
-                {data.title}
+                {itemData.title}
               </h1>
             </div>
 
             <article className="flex lg:flex-row flex-col">
               <figure className="w-full lg:max-w-[24vw]">
-                <img src={data?.img} alt="img" className="bg-red-600 p-[1vw] lg:p-[0.5vw] w-full" />
+                <img
+                  src={itemData?.img}
+                  alt="img"
+                  className="bg-red-600 p-[1vw] lg:p-[0.5vw] w-full"
+                />
               </figure>
 
               <section className="lg:mt-[1vw] p-[1vw] mt-[3vw]">
@@ -84,6 +116,14 @@ const Detail = () => {
                       )}
                     </div>
                   ))}
+
+                  <Button
+                    onClick={handleClick}
+                    variant="contained"
+                    className="mt-[2vw] lg:mt-[1vw] p-[1vw] bg-blue-500 "
+                  >
+                    {isLoading ? <Loading /> : `Book now ${itemData?.price}`}
+                  </Button>
                 </article>
               </section>
             </article>

@@ -1,4 +1,6 @@
 const mongoose = require("mongoose");
+
+// Item schema for item details in the booking
 const itemSchema = new mongoose.Schema({
   name: {
     type: String,
@@ -9,8 +11,13 @@ const itemSchema = new mongoose.Schema({
     required: true,
   },
 });
-const bookingModel = new mongoose.Schema(
+
+// Booking schema
+const bookingSchema = new mongoose.Schema(
   {
+    id: {
+      type: String,
+    },
     name: {
       type: String,
       required: true,
@@ -27,23 +34,28 @@ const bookingModel = new mongoose.Schema(
       type: String,
       required: true,
     },
-
-    time: {
+    startDate: {
       type: String,
       required: true,
     },
-    date: {
-      type: Date,
+    endDate: {
+      type: String,
       required: true,
     },
-    itemDetail: itemSchema,
 
-    available: {
+    itemDetail: {
+      type: itemSchema,
+      required: true,
+    },
+    book: {
       type: Boolean,
-      default: true,
+      default: false,
+    },
+    total: {
+      type: Number,
     },
   },
   { timestamps: true }
 );
 
-module.exports = mongoose.model("Booking", bookingModel);
+module.exports = mongoose.model("Booking", bookingSchema);

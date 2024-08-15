@@ -11,7 +11,14 @@ export const storeApi = createApi({
         body: data,
       }),
     }),
+    avalbility: builder.mutation({
+      query: (data) => ({
+        url: "/api/v1/availability",
+        method: "POST",
+        body: data,
+      }),
+    }),
   }),
 });
 
-export const { useCreateBookingMutation } = storeApi;
+export const { useCreateBookingMutation,useAvalbilityMutation } = storeApi;
