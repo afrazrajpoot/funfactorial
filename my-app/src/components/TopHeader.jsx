@@ -41,15 +41,16 @@ const TopHeader = () => {
       <header className="lg:flex p-[2vw]  lg:gap-[30vw] ml-[3.5vw] mt-[15vw] lg:mt-[1vw]">
         <section>
           <article>
-            <figure>
+            <figure className="w-full max-w-[10vw]  shadow-md">
               <motion.img
                 whileHover={{ scale: 1.2 }}
-                src="https://www.funfactorleeds.co.uk/theme/fun-factor-leeds@1x.png"
+                // src="https://www.funfactorleeds.co.uk/theme/fun-factor-leeds@1x.png"
+                src="/logo.jpg"
                 alt="img"
               />
             </figure>
           </article>
-          <article className="flex gap-[1vw] mt-[-3vw] w-full max-w-[15vw] lg:max-w-[3vw] ml-[30vw] lg:ml-[6vw]">
+          <article className="flex gap-[1vw] mt-[1vw] w-full max-w-[15vw] lg:max-w-[3vw] ml-[30vw] lg:ml-[6vw]">
             {socialImages.map((socialImage) => (
               <img src={socialImage.img} alt="google" className="w-full" />
             ))}
