@@ -34,11 +34,7 @@ const Home = () => {
       <section className="grid grid-cols-7 mt-[1vw] gap-[1vw]">
         <aside className="lg:flex hidden flex-col gap-[1vw] col-span-2">
           <figure className="w-full ">
-            <img
-              src="https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/special-offers@1x.jpg"
-              alt="aside image"
-              className="h-[64vh]"
-            />
+            <img src="/images/sideHome.jpg" alt="aside image" className="h-[64vh]" />
           </figure>
           <figure className="w-full">
             <img

@@ -4,7 +4,10 @@ const sendEmail = require("../utils/sendMail");
 
 exports.createBooking = async (req, res, next) => {
   try {
-    const { name, email, phone, address, startDate, endDate, time, itemDetail } = req.body;
+    const { name, email, phone, address, startDate, endDate, itemDetail } = req.body;
+
+    // Log input data for debugging
+    console.log("create booking", name, email, phone, address, startDate, endDate, itemDetail);
 
     // Validate all required fields
     if (!name || !email || !phone || !address || !startDate || !endDate || !itemDetail) {
@@ -26,33 +29,31 @@ exports.createBooking = async (req, res, next) => {
       throw new CustomError("Item price must be a valid number", 400);
     }
 
-    // Validate dates
+    // Validate and parse startDate and endDate
     const start = new Date(startDate);
     const end = new Date(endDate);
     const currentDate = new Date();
 
-    if (start > end) {
-      throw new CustomError("Start date must not be after end date", 400);
-    }
-
-    if (start < currentDate) {
+    if (start < currentDate.setHours(0, 0, 0, 0)) {
       throw new CustomError("Start date cannot be in the past", 400);
     }
 
-    // Calculate the number of days
-    const days = Math.ceil((end - start) / (1000 * 60 * 60 * 24));
+    if (end <= start) {
+      throw new CustomError("End date must be after the start date", 400);
+    }
 
     // Find conflicting bookings for the same item
     const conflictingBookings = await Booking.find({
       "itemDetail.name": itemName,
-      $or: [{ startDate: { $gte: start } }],
+      $or: [{ startDate: { $lte: end }, endDate: { $gte: start } }],
     });
 
     if (conflictingBookings.length > 0) {
-      throw new CustomError(`Already booked`, 400);
+      throw new CustomError(`Already booked for the selected dates`, 400);
     }
 
-    // Calculate total price
+    // Calculate total price based on the number of days
+    const days = Math.ceil((end - start) / (1000 * 60 * 60 * 24));
     const totalPrice = pricePerDay * days;
 
     // Create a new booking
@@ -63,22 +64,20 @@ exports.createBooking = async (req, res, next) => {
       address,
       startDate: start,
       endDate: end,
-      time,
       itemDetail: {
         name: itemName,
         price: pricePerDay,
       },
       total: totalPrice,
-      days: days,
     });
 
     const savedBooking = await newBooking.save();
 
     // Send confirmation email
-    await sendBookingConfirmationEmail(savedBooking);
+    await sendEmail(savedBooking);
 
     res.status(201).json({
-      message: `Booking successful for ${itemName} for ${days} days`,
+      message: `Booking successful for ${itemName} from ${start.toDateString()} to ${end.toDateString()}`,
       booking: savedBooking,
     });
   } catch (error) {
