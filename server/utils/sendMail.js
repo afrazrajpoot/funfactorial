@@ -16,7 +16,7 @@ function sendEmail(to, subject, text, html, email) {
   // Define email options
   const mailOptions = {
     from: email, // Sender address
-    to: to, // List of receivers
+    to: to, // List of receiversa
     subject: subject, // Subject line
     text: text, // Plain text body
     html: html, // HTML body

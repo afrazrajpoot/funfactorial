@@ -8,6 +8,7 @@ import { FormControl, InputLabel, MenuItem, Select, TextField, Button } from "@m
 const Header = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [deliveryArea, setDeliveryArea] = useState("");
+  const [firstDate, setFirstDate] = useState("");
   const dropdownRef = useRef(null);
 
   const handleDropdownToggle = () => {
@@ -20,6 +21,9 @@ const Header = () => {
 
   const handleDeliveryChange = (event) => {
     setDeliveryArea(event.target.value);
+  };
+  const handleClickFirstDate = (event) => {
+    setFirstDate(event.target.value);
   };
 
   useEffect(() => {
@@ -117,11 +121,11 @@ const Header = () => {
                 className="rounded-md w-full lg:max-w-[15vw] bg-white"
               />
               <FormControl className="w-full lg:max-w-[15vw]">
-                <InputLabel shrink={false}>{!deliveryArea && "Select Date First"}</InputLabel>
+                <InputLabel shrink={false}>{!firstDate && "Select Date First"}</InputLabel>
 
                 <Select
-                  value={deliveryArea}
-                  onChange={handleDeliveryChange}
+                  value={firstDate}
+                  onChange={handleClickFirstDate}
                   className="bg-white rounded-md w-full"
                 >
                   {selectOptions[1].map((option, index) => (

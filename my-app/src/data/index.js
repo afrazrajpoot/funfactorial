@@ -195,10 +195,70 @@ export const cardData = [
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/a3e7b5feaadfb7232518570528b3d7cf",
   },
   {
-    price: "100$",
+    price: "350$",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "75 foot Party Time Assault Course",
+    img: "/images/IMG-20240815-WA0018.jpg",
+  },
+  {
+    price: "124.99$",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-blue.png",
+    title: "Adult & Children's Disco Theme Castle 15' by 15",
+    img: "/images/IMG-20240815-WA0027.jpg",
+  },
+  {
+    price: "99.99$",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-orange.png",
+    title: "Deluxe DINOSAUR Bouncy Castle 12x13",
+    img: "/images/IMG-20240815-WA0021.jpg",
+  },
+  {
+    price: "99.99$",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-green.png",
+    title: "Deluxe FOOTBALL Bouncy Castle 12x13",
+    img: "/images/IMG-20240815-WA0020.jpg",
+  },
+  {
+    price: "99.99$",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-orange.png",
+    title: "Princess Disco Deluxe Bounce & Slide Combo 12ft by 18ft",
+    img: "/images/IMG-20240815-WA0019.jpg",
+  },
+  {
+    price: "24.99$",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-green.png",
+    title: "Giant connect 4 game",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300,fl_png8/8e11fb2590d43c6d0c94c978e456bc71",
+  },
+  {
+    price: "24.99$",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
     title: "Christmas Snow Globe 19ft x 16ft",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/a3e7b5feaadfb7232518570528b3d7cf",
+  },
+  {
+    price: "119.99$",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-blue.png",
+    title: "Bounce & Slide 12ft by 18ft Party Theme",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/a0edbab7a9e69cbaad94f39059dcdd7c",
+  },
+  {
+    price: "99.99$",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-orange.png",
+    title: "Pillow Bash",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/e4574dbcd6425f92d360d8255c9a5f9a",
+  },
+  {
+    price: "124.99$",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-green.png",
+    title: "Vibrant Disco Bouncy Castle",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/c884c8a2eb553bd86970e5f4f57a6381",
+  },
+  {
+    price: "124.99$",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "13ft x 13ft Deluxe Inflatable Christmas Santas Grotto",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/7ebf45031bda9543a8da829d532d796c",
   },
 ];
 
@@ -235,6 +295,25 @@ export const slideImages = [
   },
   {
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_1000/e5663abc9d427c1fd243044502af9087",
+  },
+
+  {
+    img: "/images/IMG-20240815-WA0012.jpg",
+  },
+  {
+    img: "/images/IMG-20240815-WA0014.jpg",
+  },
+  {
+    img: "/images/IMG-20240815-WA0015.jpg",
+  },
+  {
+    img: "/images/IMG-20240815-WA0016.jpg",
+  },
+  {
+    img: "/images/IMG-20240815-WA0017.jpg",
+  },
+  {
+    img: "/images/IMG-20240815-WA0030.jpg",
   },
 ];
 export const navData = [

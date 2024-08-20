@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Slider from "react-slick";
 import { bgImageCard } from "../assets/bg";
 import Card from "../components/Card";
@@ -7,7 +7,9 @@ import Details from "../components/Details";
 import Ribbons from "../components/Ribbons";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { useGlobalState } from "../context/globalState";
 const Home = () => {
+  const { data, setData } = useGlobalState();
   var settings = {
     dots: true,
     infinite: true,
@@ -29,10 +31,13 @@ const Home = () => {
     visible: { opacity: 1, y: 0 },
     hidden: { opacity: 0, y: 50 },
   };
+  useEffect(() => {
+    setData(cardData);
+  }, [data]);
   return (
     <main className="">
       <section className="grid grid-cols-7 mt-[1vw] gap-[1vw]">
-        <aside className="lg:flex hidden flex-col gap-[1vw] col-span-2">
+        {/* <aside className="lg:flex hidden flex-col gap-[1vw] col-span-2">
           <figure className="w-full ">
             <img src="/images/sideHome.jpg" alt="aside image" className="h-[64vh]" />
           </figure>
@@ -43,8 +48,8 @@ const Home = () => {
               className="w-[26vw]"
             />
           </figure>
-        </aside>
-        <section className="  col-span-5 hidden lg:block">
+        </aside> */}
+        <section className="  col-span-12 hidden lg:block">
           <Slider {...settings}>
             {slideImages?.map((image, index) => {
               return (
@@ -106,8 +111,8 @@ const Home = () => {
                 alt="img"
               />
             </figure>
-            <section className="lg:grid  lg:grid-cols-4 lg:gap-[3vw] pr-[3vw] flex flex-col gap-[9vw]">
-              {cardData?.map((elem, ind) => (
+            <section className="lg:grid   lg:grid-cols-4 lg:gap-[3vw] pr-[3vw] flex flex-col gap-[9vw]">
+              {data?.map((elem, ind) => (
                 <Card key={ind} {...elem} w="16.5" ind={ind} ml={"4vw"} />
               ))}
             </section>
