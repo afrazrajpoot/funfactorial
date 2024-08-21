@@ -17,14 +17,16 @@ const Card = ({ bgImg, title, img, price, w, ind, ml }) => {
       >
         {price}
       </p>
-      <figure className="w-full">
+      <div className="w-full overflow-hidden">
         <img src={bgImg} alt="img" className="lg:w-full w-[97vw] lg:max-w-[30vw] lg:h-[65vh]" />
-        <img
-          src={img}
-          alt="img"
-          className="absolute top-[20vw] lg:top-[6vw] h-[15vw] w-[74vw] lg:w-[15vw] left-[8vw] lg:left-[1vw] transform transition-transform duration-300 ease-in-out hover:scale-110"
-        />
-      </figure>
+        <figure className="w-full overflow-hidden">
+          <img
+            src={img}
+            alt="img"
+            className="absolute top-[20vw] lg:top-[6vw] h-[15vw] w-[74vw] lg:w-[15vw] left-[8vw] lg:left-[1vw] transform transition-transform object-cover duration-300  ease-in-out hover:scale-110"
+          />
+        </figure>
+      </div>
       <Link to={`/${ind}`}>
         <p className="absolute  font-ab  text-[4.5vw] px-[15vw] top-[93vw]   lg:top-[22vw] transition-all duration-300 hover:text-yellow-400 hover:cursor-pointer  lg:w-full lg:max-w-[17vw] text-center ml-[0vw] lg:text-[1.5vw] font-bold text-white lg:px-[1.5vw] ">
           {title}
