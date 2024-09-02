@@ -16,7 +16,7 @@ const Card = ({ title, img, price, ind, rating = 4.5, w }) => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className={`relative w-[85vw] lg:w-[${w}vw] lg:ml-[0vw] ml-[7.5vw] lg:h-[30vw] h-[100vw]  mx-auto overflow-hidden rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-3xl bg-gradient-to-br from-purple-400 via-pink-500 to-red-500`}
+      className={`relative w-[85vw] lg:w-[17vw] lg:ml-[0vw] ml-[7.5vw] lg:h-[30vw] h-[100vw]  mx-auto overflow-hidden rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-3xl bg-gradient-to-br from-purple-400 via-pink-500 to-red-500`}
     >
       <div className="absolute inset-0 bg-white bg-opacity-10 backdrop-blur-sm" />
 

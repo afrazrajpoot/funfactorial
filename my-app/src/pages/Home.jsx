@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useGlobalState } from "../context/globalState";
 import { FaChevronLeft, FaChevronRight, FaStar } from "react-icons/fa";
+import Ribbons from "../components/Ribbons";
 
 const Home = () => {
   const { data, setData } = useGlobalState();
@@ -141,11 +142,16 @@ const Home = () => {
               Discover Our Amazing Products
             </h2>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            {data?.map((elem, ind) => (
-              <Card key={ind} {...elem} w="22" ind={ind} />
-            ))}
-          </div>
+          <section className="flex gap-1">
+            <section className="mt-4 hidden lg:block lg:w-[25vw]">
+              <Ribbons />
+            </section>
+            <article className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+              {data?.map((elem, ind) => (
+                <Card key={ind} {...elem} ind={ind} />
+              ))}
+            </article>
+          </section>
         </div>
       </section>
     </main>

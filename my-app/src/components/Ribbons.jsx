@@ -25,7 +25,7 @@ const Ribbons = () => {
             </Link>
           </motion.div>
         ))}
-        <article className="ml-[2vw]">
+        {/* <article className="ml-[2vw]">
           <div className="bg-[#d50039] p-[3vw] mt-[2vw] rounded-md">
             <figure className="w-full max-w-[10vw]">
               <img
@@ -55,7 +55,7 @@ const Ribbons = () => {
             </form>
           </div>
           <div className="border-[1px] border-b-black mt-[1vw]"></div>
-        </article>
+        </article> */}
       </aside>
     </>
   );
