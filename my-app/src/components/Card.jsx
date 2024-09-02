@@ -1,38 +1,72 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useGlobalState } from "../context/globalState";
-
-const Card = ({ bgImg, title, img, price, w, ind, ml }) => {
-  const { itemDetail, setItemDetail } = useGlobalState();
+import { FaShoppingCart, FaInfoCircle, FaStar, FaTag, FaEye } from "react-icons/fa";
+import { motion } from "framer-motion";
+const Card = ({ title, img, price, ind, rating = 4.5, w }) => {
+  const { setItemDetail } = useGlobalState();
   const navigate = useNavigate();
+  console.log(w, "w");
   const handleClick = () => {
     setItemDetail({ name: title, price: price });
     navigate(`/${ind}`);
   };
+
   return (
-    <main className={`relative lg:w-[17vw] overflow-hidden w-[90vw] lg:ml-[0vw] ml-[5vw]`}>
-      <p
-        style={{ textShadow: "2px 2px 0 white" }}
-        className="absolute top-[1vw] left-[43vw]  lg:left-[7vw] font-bold lg:text-[1.5vw]"
-      >
-        {price}
-      </p>
-      <div className="w-full overflow-hidden">
-        <img src={bgImg} alt="img" className="lg:w-full w-[97vw] lg:max-w-[30vw] lg:h-[65vh]" />
-        <figure className="w-full overflow-hidden">
-          <img
-            src={img}
-            alt="img"
-            className="absolute top-[20vw] lg:top-[6vw] h-[15vw] w-[74vw] lg:w-[15vw] left-[8vw] lg:left-[1vw] transform transition-transform object-cover duration-300  ease-in-out hover:scale-110"
-          />
-        </figure>
-      </div>
-      <Link to={`/${ind}`}>
-        <p className="absolute  font-ab  text-[4.5vw] px-[15vw] top-[93vw]   lg:top-[22vw] transition-all duration-300 hover:text-yellow-400 hover:cursor-pointer  lg:w-full lg:max-w-[17vw] text-center ml-[0vw] lg:text-[1.5vw] font-bold text-white lg:px-[1.5vw] ">
-          {title}
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      className={`relative w-[85vw] lg:w-[${w}vw] lg:ml-[0vw] ml-[7.5vw] lg:h-[30vw] h-[100vw]  mx-auto overflow-hidden rounded-2xl shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-3xl bg-gradient-to-br from-purple-400 via-pink-500 to-red-500`}
+    >
+      <div className="absolute inset-0 bg-white bg-opacity-10 backdrop-blur-sm" />
+
+      <div className="absolute top-4 left-4 bg-white bg-opacity-20 text-white px-3 py-1 rounded-full shadow-lg backdrop-blur-sm">
+        <p className="font-bold text-sm flex items-center">
+          <FaTag className="mr-1" /> SALE
         </p>
-      </Link>
-    </main>
+      </div>
+
+      <div className="absolute top-4 right-4 bg-white bg-opacity-20 text-white px-3 py-1 rounded-full shadow-lg backdrop-blur-sm">
+        <p className="font-bold text-lg flex items-center">
+          {price} <FaTag className="ml-1 text-green-300" />
+        </p>
+      </div>
+
+      <img
+        src={img}
+        alt={title}
+        className="absolute lg:h-[20vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-xl transition-transform duration-300 hover:scale-110"
+      />
+
+      <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/70 to-transparent backdrop-blur-sm">
+        <h3 className="text-white text-2xl font-bold mb-2 truncate">{title}</h3>
+        <div className="flex justify-between items-center mb-4">
+          <div className="flex items-center">
+            <FaStar className="text-yellow-300 mr-1" />
+            <span className="text-white font-semibold">{rating}</span>
+          </div>
+          <div className="text-white flex items-center">
+            <FaEye className="mr-1" /> 1.2k views
+          </div>
+        </div>
+        <div className="flex justify-between items-center">
+          <Link
+            to={`/${ind}`}
+            className="text-white hover:text-yellow-400 transition-colors duration-300 flex items-center"
+          >
+            <FaInfoCircle className="mr-2" />
+            Details
+          </Link>
+          <button
+            onClick={handleClick}
+            className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 px-4 rounded-full transition-all duration-300 transform hover:scale-105 flex items-center"
+          >
+            <FaShoppingCart className="mr-2" />
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </motion.div>
   );
 };
 

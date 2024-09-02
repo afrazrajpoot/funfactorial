@@ -1,123 +1,152 @@
 import React, { useEffect } from "react";
 import Slider from "react-slick";
-import { bgImageCard } from "../assets/bg";
 import Card from "../components/Card";
-import { cardData, cardImages, ribbons, slideImages } from "../data";
+import { cardData, cardImages, slideImages } from "../data";
 import Details from "../components/Details";
-import Ribbons from "../components/Ribbons";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useGlobalState } from "../context/globalState";
+import { FaChevronLeft, FaChevronRight, FaStar } from "react-icons/fa";
+
 const Home = () => {
   const { data, setData } = useGlobalState();
-  var settings = {
+  const { ref, inView } = useInView({
+    triggerOnce: false,
+    threshold: 0.1,
+  });
+
+  const CustomArrow = ({ direction, onClick }) => {
+    const Icon = direction === "next" ? FaChevronRight : FaChevronLeft;
+    return (
+      <button
+        onClick={onClick}
+        className={`absolute top-1/2 transform -translate-y-1/2 ${
+          direction === "next" ? "right-4" : "left-4"
+        } z-10 bg-white bg-opacity-50 rounded-full p-3 hover:bg-opacity-75 transition-all duration-200`}
+      >
+        <Icon className="text-3xl text-gray-800" />
+      </button>
+    );
+  };
+
+  const sliderSettings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
+    nextArrow: <CustomArrow direction="next" />,
+    prevArrow: <CustomArrow direction="prev" />,
   };
-  const textShadowStyle = {
-    textShadow:
-      "0 0 0 #000, -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000",
-    color: "#fff", // Setting text color to white for contrast
+
+  const cardSliderSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    nextArrow: <CustomArrow direction="next" />,
+    prevArrow: <CustomArrow direction="prev" />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
-  const { ref, inView } = useInView({
-    triggerOnce: false, // Trigger animation only once
-    threshold: 0.5, // Percentage of element in view to trigger animation
-  });
-  const variants = {
-    visible: { opacity: 1, y: 0 },
-    hidden: { opacity: 0, y: 50 },
-  };
+
   useEffect(() => {
     setData(cardData);
-  }, [data]);
-  return (
-    <main className="">
-      <section className="grid grid-cols-7 mt-[1vw] gap-[1vw]">
-        {/* <aside className="lg:flex hidden flex-col gap-[1vw] col-span-2">
-          <figure className="w-full ">
-            <img src="/images/sideHome.jpg" alt="aside image" className="h-[64vh]" />
-          </figure>
-          <figure className="w-full">
-            <img
-              src="https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/weather-background.jpg"
-              alt="aside image"
-              className="w-[26vw]"
-            />
-          </figure>
-        </aside> */}
-        <section className="  col-span-12 hidden lg:block">
-          <Slider {...settings}>
-            {slideImages?.map((image, index) => {
-              return (
-                <div key={index} className="w-full h-[87vh]">
-                  <img src={image.img} alt="slide image" className="w-full" />
-                </div>
-              );
-            })}
-          </Slider>
-        </section>
-      </section>
+  }, []);
 
-      <section className="grid grid-cols-12   gap-[2vw] mt-[2vw]">
-        <article className="col-span-3 hidden lg:block">
-          <Ribbons />
-        </article>
-        <section className="col-span-9 ">
-          <motion.article className="lg:flex gap-[2vw] hidden  relative" ref={ref}>
+  return (
+    <main className="min-h-screen">
+      <section className="w-full mx-auto px-4 py-8">
+        <div className="mb-16">
+          <Slider {...sliderSettings}>
+            {slideImages?.map((image, index) => (
+              <div key={index} className="relative h-[60vh] md:h-[80vh] lg:h-[90vh]">
+                <img
+                  src={image.img}
+                  alt="slide image"
+                  className="w-full h-full object-cover rounded-2xl shadow-2xl"
+                />
+                <div className="absolute inset-0  to-transparent flex items-center">
+                  <div className="ml-8 md:ml-16 max-w-lg">
+                    <h2 className="text-white text-3xl md:text-5xl font-bold mb-4">
+                      {image.title}
+                    </h2>
+                    <p className="text-gray-200 text-lg md:text-xl mb-6">{image.description}</p>
+                    <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full transition duration-300 transform hover:scale-105">
+                      Explore Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </Slider>
+        </div>
+
+        <div className="mb-16" ref={ref}>
+          <h2 className="text-4xl font-bold mb-8 text-center text-gray-800">
+            <span className="inline-block mr-2">
+              <FaStar className="text-yellow-400" />
+            </span>
+            Featured Products
+          </h2>
+          <Slider {...cardSliderSettings}>
             {cardImages?.map((image, index) => (
               <motion.div
                 key={index}
                 initial="hidden"
                 animate={inView ? "visible" : "hidden"}
-                variants={variants}
-                transition={{ duration: 0.6 }}
-                className="flex flex-col justify-center"
-                style={{ position: "relative" }}
+                variants={{
+                  visible: { opacity: 1, y: 0 },
+                  hidden: { opacity: 0, y: 50 },
+                }}
+                transition={{ duration: 0.6, delay: index * 0.1 }}
+                className="px-3"
               >
-                <figure className={`w-[16.5vw]`}>
-                  <img src={image.img} alt="slide image" className={`w-full`} />
-                </figure>
-                <figure className="w-[16.5vw] absolute top-[14vw]">
-                  <img src={bgImageCard} alt="bgimage" className="w-full" />
-                  <p
-                    style={textShadowStyle}
-                    className="translate-y-[-2.5vw] font-playwrite text-white text-center font-bold text-[1vw]"
-                  >
-                    {image.title}
-                  </p>
-                </figure>
+                <div className="relative overflow-hidden rounded-2xl shadow-xl transform transition-all duration-300 hover:scale-105 group">
+                  <img src={image.img} alt={image.title} className="w-full h-72 object-cover" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <div>
+                      <h3 className="text-white text-2xl font-bold mb-2">{image.title}</h3>
+                      <p className="text-gray-300">{image.description}</p>
+                    </div>
+                  </div>
+                </div>
               </motion.div>
             ))}
-          </motion.article>
-          <article className="flex items-center mt-[4vw]">
-            <Details />
-          </article>
-          <article className=" mt-[4vw] lg:mt-[1vw]">
-            <figure className="w-[100vw]  lg:w-full lg:max-w-[75vw]">
-              <img
-                className="lg:h-[5vw] h-[14vw]"
-                src="https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-title-background.png"
-                alt="img"
-              />
-            </figure>
-            <figure className="lg:translate-y-[-4vw] translate-y-[-10vw] translate-x-[15vw]  lg:translate-x-[5vw] w-[70vw] lg:w-full lg:max-w-[30vw]">
-              <img
-                src="https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/check-out-some-of-our-products.png"
-                className="w-full"
-                alt="img"
-              />
-            </figure>
-            <section className="lg:grid   lg:grid-cols-4 lg:gap-[3vw] pr-[3vw] flex flex-col gap-[9vw]">
-              {data?.map((elem, ind) => (
-                <Card key={ind} {...elem} w="16.5" ind={ind} ml={"4vw"} />
-              ))}
-            </section>
-          </article>
-        </section>
+          </Slider>
+        </div>
+
+        <Details />
+
+        <div className="mt-16">
+          <div className="relative mb-12">
+            <div className="bg-gradient-to-r from-purple-500 to-pink-500 h-32 rounded-2xl shadow-lg"></div>
+            <h2 className="absolute inset-0 flex items-center justify-center text-4xl font-bold text-white">
+              Discover Our Amazing Products
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            {data?.map((elem, ind) => (
+              <Card key={ind} {...elem} w="22" ind={ind} />
+            ))}
+          </div>
+        </div>
       </section>
     </main>
   );

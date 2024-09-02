@@ -59,7 +59,7 @@ const Contact = () => {
       setItemDetail(null);
       // console.log(responseData, "res data");
       reset();
-     
+
       toast.success(responseData.message, {
         position: "top-right",
         duration: 1000,
@@ -67,18 +67,17 @@ const Contact = () => {
       });
     }
     if (isError) {
-
-toast.error(error?.data?.message, {
-  position: "top-right",
-  duration: 1000,
-  autoClose: 3000,
-})
+      toast.error(error?.data?.message, {
+        position: "top-right",
+        duration: 1000,
+        autoClose: 3000,
+      });
       console.log(error, "error");
     }
   }, [isSuccess, isError, error]);
   return (
-    <main className="flex items-start p-4">
-      <section className="hidden lg:block">
+    <main className="flex items-start p-4 gap-[5vw]">
+      <section className="hidden lg:block lg:w-1/4">
         <Ribbons />
       </section>
       <section className="ml-4">

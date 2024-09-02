@@ -41,11 +41,11 @@ const IndoorSoftPlay = () => {
           or call the office on 07531522289 as we will be able to put a bespoke package together for
           you.
         </p>
-        <article className="lg:grid mt-[6vw] lg:mt-[1vw]  lg:grid-cols-4 lg:gap-[1vw] flex flex-col gap-[9vw]">
+        <section className="lg:grid ml-[12vw]  lg:grid-cols-4 lg:gap-[3vw] pr-[3vw] flex flex-col ">
           {cardData?.map((elem, ind) => (
-            <Card key={ind} {...elem} w="16.5" ml={"4.5vw"} />
+            <Card key={ind} {...elem} w="16" ind={ind} ml={"4vw"} />
           ))}
-        </article>
+        </section>
       </section>
     </main>
   );

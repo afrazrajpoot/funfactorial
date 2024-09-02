@@ -7,129 +7,130 @@ import { useGlobalState } from "../context/globalState";
 import { useAvalbilityMutation } from "../store/storeApi";
 import Loading from "../components/Loader";
 import { toast } from "sonner";
+import {
+  FaStar,
+  FaInfoCircle,
+  FaRuler,
+  FaCheckCircle,
+  FaFlask,
+  FaShoppingCart,
+} from "react-icons/fa";
+
 const Detail = () => {
   const [detail, setDetail] = useState("Details");
-  const { id } = useParams(); // Destructure 'id' from useParams
-  const index = Number(id); // Convert 'id' to a number to use as an index
-
-  // Ensure the index is within the bounds of the array
+  const { id } = useParams();
+  const index = Number(id);
   const itemData = index >= 0 && index < cardData.length ? cardData[index] : null;
 
- 
-  const buttons = ["Details", "size", "Suitability", "Tests"];
+  const buttons = [
+    { name: "Details", icon: <FaInfoCircle /> },
+    { name: "Size", icon: <FaRuler /> },
+    { name: "Suitability", icon: <FaCheckCircle /> },
+    { name: "Tests", icon: <FaFlask /> },
+  ];
+
   const { itemDetail, setItemDetail } = useGlobalState();
   const navigate = useNavigate();
   const [available, { isLoading, isSuccess, isError, data }] = useAvalbilityMutation();
+
   const handleClick = async () => {
     await available({ itemName: itemData.title });
   };
+
   useEffect(() => {
     if (isSuccess) {
-    
-      toast.success(data?.message,{
+      toast.success(data?.message, {
         position: "top-center",
         duration: 3000,
         closeOnClick: true,
         pauseOnHover: true,
       });
-      console.log("data", data);
     }
     if (isError) {
       setItemDetail({ name: itemData?.title, price: itemData?.price, id: id });
       navigate(`/contact`);
-      console.log("data", data);
     }
-    console.log(itemData, "item data");
   }, [isSuccess, isError]);
+
   return (
-    <main className="flex mt-[3vw] w-full">
-      <section className="mt-[1vw] hidden lg:block">
+    <main className="flex mt-8 w-full bg-white">
+      <section className="mt-4 hidden lg:block">
         <Ribbons />
       </section>
-      <section className="p-[2vw] w-full lg:max-w-[80vw]">
+      <section className="p-8 w-full lg:max-w-[80vw]">
         {itemData ? (
-          <div className="">
-            <div className="bg-red-600 w-full p-[1vw] lg:p-[0.5vw]">
-              <h1 className="font-bold font-ab text-center text-[4vw] lg:text-[2vw] text-white">
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="bg-gradient-to-r from-red-600 to-red-800 w-full p-4">
+              <h1 className="font-bold font-ab text-center text-4xl lg:text-5xl text-white">
                 {itemData.title}
               </h1>
             </div>
 
             <article className="flex lg:flex-row flex-col">
-              <figure className="w-full lg:max-w-[24vw]">
-                <img
-                  src={itemData?.img}
-                  alt="img"
-                  className="bg-red-600 p-[1vw] lg:p-[0.5vw] w-full"
-                />
+              <figure className="w-full lg:max-w-[24vw] p-4">
+                <img src={itemData?.img} alt="img" className="rounded-lg shadow-md w-full" />
               </figure>
 
-              <section className="lg:mt-[1vw] p-[1vw] mt-[3vw]">
-                <div className="flex">
+              <section className="lg:mt-4 p-6 flex-grow">
+                <div className="flex mb-6">
                   {buttons.map((button, i) => (
                     <button
-                      onClick={() => setDetail(button)}
+                      onClick={() => setDetail(button.name)}
                       key={i}
-                      className={`w-full  px-[1vw] py-[1vw] lg:py-[0.5vw] text-[3vw] lg:text-[1vw] font-medium text-black transition duration-300  border-b-[1px] hover:bg-gray-200 ${
-                        detail === button
-                          ? "border-l-[1px] border-r-[1px] border-t-[1px] border-b-0  hover:bg-white"
-                          : ""
+                      className={`flex items-center justify-center w-full px-4 py-2 text-sm lg:text-base font-medium text-gray-700 transition duration-300 border-b-2 hover:bg-gray-100 ${
+                        detail === button.name
+                          ? "border-red-600 text-red-600"
+                          : "border-transparent"
                       }`}
                     >
-                      {button}
+                      {button.icon}
+                      <span className="ml-2">{button.name}</span>
                     </button>
                   ))}
                 </div>
-                {/* <div className="border-[0.5px] mt-[1vw]"></div> */}
-                <h1 className="lg:text-[2.3vw] text-[3vw] font-ab font-medium mt-[2vw] lg:mt-[1vw]">
-                  🌟 DISCOVER THE LATEST THRILLS OF 2024 AT FUN FACTOR LEEDS! 🎉✨
+
+                <h1 className="text-2xl lg:text-3xl font-ab font-bold mt-6 text-gray-800 flex items-center">
+                  <FaStar className="text-yellow-400 mr-2" />
+                  DISCOVER THE LATEST THRILLS OF 2024 AT FUN FACTOR LEEDS!
                 </h1>
-                <p className="font-pt w-full lg:max-w-[70vw] mt-[2vw] lg:mt-[1vw] text-[2.5vw] lg:text-[1vw]">
+
+                <p className="font-pt mt-4 text-gray-600">
                   Welcome to our New Arrivals page. Fun Factor Leeds is thrilled to unveil the
                   hottest additions for 2024 that promise to elevate your celebrations to new
                   heights. Let's dive into the latest arrivals that will add a splash of joy and
                   entertainment to your events!
                 </p>
-                <article className="flex flex-col gap-[2vw]">
+
+                <article className="mt-8 space-y-8">
                   {newsData?.map((elem, ind) => (
-                    <div key={ind} className="flex flex-col">
-                      <h2 className="lg:text-[2.3vw] text-[3vw] font-ab font-medium mt-[2vw] lg:mt-[1vw]">
+                    <div key={ind} className="bg-gray-50 p-4 rounded-lg">
+                      <h2 className="text-xl lg:text-2xl font-ab font-bold text-gray-800">
                         {elem.title}
                       </h2>
-                      <p className="w-full lg:max-w-[60vw] font-pt text-[3vw] lg:text-[1vw]">
-                        {elem.info}
-                      </p>
-                      {ind === 0 && (
-                        <p className="text-blue-500 font-medium font-pt lg:text-[1vw] mt-[1vw]">
-                          👉Press here to Add Giant Disco Dome Bouncy Castle to Your Event!
-                        </p>
-                      )}
-                      {ind === 1 && (
-                        <p className="text-blue-500 font-medium font-pt lg:text-[1vw] mt-[1vw]">
-                          👉Press here to Add Disco Bouncy Castle to Your Event!
-                        </p>
-                      )}
-                      {ind === 2 && (
-                        <p className="text-blue-500 font-medium font-pt lg:text-[1vw] mt-[1vw]">
-                          👉 Press here to Add 3D Dinosaur Bouncy castle to Your Event!
-                        </p>
-                      )}
+                      <p className="mt-2 text-gray-600">{elem.info}</p>
+                      <Link
+                        to="#"
+                        className="text-blue-500 font-medium mt-2 inline-block hover:underline"
+                      >
+                        👉 Add {elem.title} to Your Event!
+                      </Link>
                     </div>
                   ))}
 
                   <Button
                     onClick={handleClick}
                     variant="contained"
-                    className="mt-[2vw] lg:mt-[1vw] p-[1vw] bg-blue-500 "
+                    className="mt-6 p-3 bg-blue-500 hover:bg-blue-600 transition duration-300 w-full"
+                    startIcon={<FaShoppingCart />}
                   >
-                    {isLoading ? <Loading /> : `Book now ${itemData?.price}`}
+                    {isLoading ? <Loading /> : `Book now for ${itemData?.price}`}
                   </Button>
                 </article>
               </section>
             </article>
           </div>
         ) : (
-          <p>Data not found</p>
+          <p className="text-center text-gray-600 text-xl">Data not found</p>
         )}
       </section>
     </main>
