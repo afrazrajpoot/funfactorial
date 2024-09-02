@@ -1,49 +1,51 @@
 import React from "react";
 import Ribbons from "../components/Ribbons";
-import { cardData, indoorData, indoorLinking } from "../data";
 import Card from "../components/Card";
+import { cardData } from "../data";
 
-const IndoorSoftPlay = () => {
+const SoftPlay = () => {
+  const softPlayData = [
+    {
+      info: "Our Soft Play Hire sets are very popular for under 5's that don't just want to bounce!",
+    },
+    {
+      info: "Small children can be daunted by the noise, or nervous around so many excited children who they don’t know at a Soft Play Centre that you may want to create you own Soft Play Area either at home or in a local hall.",
+    },
+    {
+      info: "Soft Play is perfect for birthday parties, christenings or weddings where you need to entertain small children and babies.",
+    },
+    {
+      info: "You can hire the Soft Play set on its own or as part of a package where we offer generous discounts. The smaller soft play sets can fit in your house, and you can add on extras to fit in the space you have, or the larger soft play sets are perfect in a hall where you can add additional toys, bouncy castles, slides or obstacle course, the possibilities are endless.",
+    },
+  ];
   return (
-    <main className="flex items-start gap-[1vw] mt-[1vw]">
-      <section className="hidden lg:block">
+    <main className="flex items-start ">
+      <section className="mt-[1vw] hidden lg:block">
         <Ribbons />
       </section>
-      <section>
-        <p className="text-red-500 font-medium text-[7vw] w-[100vw]  lg:ml-[0vw]  lg:text-left text-center lg:text-[2.5vw] font-ab">
-          SOFT PLAY & BOUNCY CASTLE PACKAGES AVAILABLE FROM FUN FACTOR LEEDS
-        </p>
-        <article className="flex flex-col gap-[2vw] mt-[1vw]">
-          {indoorData?.map((item, index) => {
-            return (
-              <div key={index}>
-                <p className=" font-pt px-[2vw] lg:px-[0vw] lg:text-left lg:text-[1vw] text-center">
-                  {item.info}
-                </p>
-              </div>
-            );
-          })}
-        </article>
 
-        <article className="flex lg:flex-row flex-col lg:justify-start lg:mt-[1vw] mt-[4vw] justify-center lg:items-start items-center gap-[0.5vw]">
-          {indoorLinking?.map((elem, ind) => (
-            <div key={ind} className="">
-              <p className="  text-[#ed145b] underline font-pt font-medium text-[2vw] lg:text-[1vw] mt-[1vw]">
-                <span className="font-bold text-black">|</span>
-                {elem.url}
-              </p>
-            </div>
+      <section className="p-[2vw]">
+        <h1 className="text-red-500 lg:w-[73.5vw] ml-[-2vw] px-[4vw] lg:px-[0vw] font-medium text-[7vw] w-[100vw]  lg:ml-[0vw]  lg:text-left text-center lg:text-[2.5vw] font-ab">
+          SOFT PLAY HIRE LEEDS & SOFT PLAY HIRE WAKEFIELD
+        </h1>
+        <article className="flex flex-col gap-[4vw] lg:gap-[1vw]">
+          {softPlayData.map((item, index) => (
+            <p className="lg:text-[1vw] px-[3vw] lg:px-[0vw] font-pt mt-[1vw]" key={index}>
+              {item.info}
+            </p>
           ))}
         </article>
-        <p className="font-bold text-[2vw] lg:px-[0vw] mt-[4vw] lg:w-[50vw] px-[2vw] lg:text-[1vw] lg:mt-[1vw]">
-          If there is not a package below to suit your needs, please{" "}
-          <span className="text-[#ed145b] font-bold underline">contact</span> Us with your enquiry
-          or call the office on 07531522289 as we will be able to put a bespoke package together for
-          you.
+        <p className="lg:text-[1vw] font-pt mt-[1vw]">
+          Before booking online we recommend you call the office on{" "}
+          <span className="font-bold">07531522289</span>
+          to confirm we can accommodate the delivery and collection times if hiring a hall!
         </p>
-        <section className="lg:grid ml-[12vw]  lg:grid-cols-4 lg:gap-[3vw] pr-[3vw] flex flex-col ">
+        <p className="lg:mt-[1vw] font-pt mt-[3vw] lg:text-[1vw]">
+          Please note our Soft Play sets are for Indoor Use only.
+        </p>
+        <section className="lg:grid   lg:grid-cols-4 lg:gap-[3vw] pr-[3vw] flex flex-col gap-[9vw]">
           {cardData?.map((elem, ind) => (
-            <Card key={ind} {...elem} w="16" ind={ind} ml={"4vw"} />
+            <Card key={ind} {...elem} ind={ind} ml={"4vw"} />
           ))}
         </section>
       </section>
@@ -51,4 +53,4 @@ const IndoorSoftPlay = () => {
   );
 };
 
-export default IndoorSoftPlay;
+export default SoftPlay;
