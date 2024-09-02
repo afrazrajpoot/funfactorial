@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from "react";
+import React, { Suspense, lazy, useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -31,6 +31,7 @@ const GeneratorHierSection = lazy(() => import("./pages/GeneratorHierSection"));
 const PartyEntertainer = lazy(() => import("./pages/PartyEntertainer"));
 const BookingForm = lazy(() => import("./pages/Booking"));
 const Detail = lazy(() => import("./dynamicPages/Detail"));
+
 const App = () => {
   return (
     <Suspense fallback={<Loading />}>

@@ -16,7 +16,7 @@ const Ribbons = () => {
             className="relative "
           >
             <Link to={elem.url}>
-              <figure className="w-full max-w-[25vw] mt-[-2vw] ">
+              <figure className="w-full max-w-[35vw] mt-[-2vw] ">
                 <img src={elem.img} alt="slide image" className="w-full" />
               </figure>
               <p className="transition-all duration-300 hover:translate-x-[1vw] translate-y-[-4.8vw] text-white  ml-[2vw] font-ab   font-bold text-[1.5vw]">
@@ -27,8 +27,9 @@ const Ribbons = () => {
         ))}
         <article className="ml-[2vw]">
           <div className="bg-[#d50039] p-[3vw] mt-[2vw] rounded-md">
-            <figure>
+            <figure className="w-full max-w-[10vw]">
               <img
+                className="w-full"
                 src="https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/join-our-newsletter.png"
                 alt="msg"
               />

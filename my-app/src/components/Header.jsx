@@ -8,18 +8,24 @@ import { FormControl, InputLabel, MenuItem, Select, TextField, Button } from "@m
 const Header = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [deliveryArea, setDeliveryArea] = useState("");
+  const [firstDate, setFirstDate] = useState("");
   const dropdownRef = useRef(null);
+  const [scrollPosition, setScrollPosition] = useState(0);
 
   const handleDropdownToggle = () => {
     setDropdownOpen(!dropdownOpen);
   };
 
-  const handleClickOutside = (event) => {
+  const handleClickOutside = () => {
     setDropdownOpen(false);
   };
 
   const handleDeliveryChange = (event) => {
     setDeliveryArea(event.target.value);
+  };
+
+  const handleClickFirstDate = (event) => {
+    setFirstDate(event.target.value);
   };
 
   useEffect(() => {
@@ -28,6 +34,19 @@ const Header = () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   const selectOptions = [
     [
       "BD11",
@@ -65,7 +84,7 @@ const Header = () => {
     ],
     [
       "New For 2024 ",
-      "Indoor Soft Play Pakages",
+      "Indoor Soft Play Packages",
       "Christmas Inflatable",
       "Bouncy Castles",
       "Disco Domes",
@@ -75,11 +94,12 @@ const Header = () => {
       "Soft Play",
       "Party Add-ons",
       "Inflatable Games",
-      "Ganerator Hire Section",
+      "Generator Hire Section",
     ],
   ];
+
   return (
-    <header className="">
+    <header>
       <article>
         <section>
           <div className="bg-[#40327a] hidden lg:block h-[10vh] w-full rounded-md"></div>
@@ -117,11 +137,11 @@ const Header = () => {
                 className="rounded-md w-full lg:max-w-[15vw] bg-white"
               />
               <FormControl className="w-full lg:max-w-[15vw]">
-                <InputLabel shrink={false}>{!deliveryArea && "Select Date First"}</InputLabel>
+                <InputLabel shrink={false}>{!firstDate && "Select Date First"}</InputLabel>
 
                 <Select
-                  value={deliveryArea}
-                  onChange={handleDeliveryChange}
+                  value={firstDate}
+                  onChange={handleClickFirstDate}
                   className="bg-white rounded-md w-full"
                 >
                   {selectOptions[1].map((option, index) => (
@@ -142,7 +162,14 @@ const Header = () => {
           </article>
         </section>
       </article>
-      <nav className="bg-custom-gradient hidden lg:flex gap-[3vw] shadow-lg mt-[1vw] p-[2vw] justify-center relative">
+      <nav
+        className={`bg-gradient-to-br from-purple-400 via-pink-500 to-red-500 hidden lg:flex gap-[3vw] shadow-lg p-[2vw] justify-center mt-[2vw] ${
+          scrollPosition > 500 && "mt-[0vw] opacity-90"
+        } transition-all duration-300 ${
+          scrollPosition > 500 ? "fixed top-0 left-0 w-full z-50" : ""
+        } `}
+        style={{ position: scrollPosition > 500 ? "fixed " : "relative" }}
+      >
         {navData?.map((item, index) => (
           <div key={index} className="relative">
             <Link

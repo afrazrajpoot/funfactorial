@@ -30,10 +30,7 @@ const SoftPlay = () => {
         </h1>
         <article className="flex flex-col gap-[4vw] lg:gap-[1vw]">
           {softPlayData.map((item, index) => (
-            <p
-              className="lg:text-[1vw] px-[3vw] lg:px-[0vw] font-pt mt-[1vw]"
-              key={index}
-            >
+            <p className="lg:text-[1vw] px-[3vw] lg:px-[0vw] font-pt mt-[1vw]" key={index}>
               {item.info}
             </p>
           ))}
@@ -41,17 +38,16 @@ const SoftPlay = () => {
         <p className="lg:text-[1vw] font-pt mt-[1vw]">
           Before booking online we recommend you call the office on{" "}
           <span className="font-bold">07531522289</span>
-          to confirm we can accommodate the delivery and collection times if
-          hiring a hall!
+          to confirm we can accommodate the delivery and collection times if hiring a hall!
         </p>
         <p className="lg:mt-[1vw] font-pt mt-[3vw] lg:text-[1vw]">
           Please note our Soft Play sets are for Indoor Use only.
         </p>
-        <article className="lg:grid mt-[6vw] lg:mt-[1vw]  lg:grid-cols-4 lg:gap-[1vw] flex flex-col gap-[9vw]">
+        <section className="lg:grid   lg:grid-cols-4 lg:gap-[3vw] pr-[3vw] flex flex-col gap-[9vw]">
           {cardData?.map((elem, ind) => (
-            <Card key={ind} {...elem} w="16.5" />
+            <Card key={ind} {...elem} w="16.5" ind={ind} ml={"4vw"} />
           ))}
-        </article>
+        </section>
       </section>
     </main>
   );
