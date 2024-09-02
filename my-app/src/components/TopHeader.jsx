@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import MobileHeader from "./MobileHeader";
 import Slider from "react-slick";
 import { slideImages } from "../data";
+import { Link } from "react-router-dom";
 
 const TopHeader = () => {
   const sliderSettings = {
@@ -50,11 +51,11 @@ const TopHeader = () => {
 
         <header className="absolute top-0 left-0 w-full h-full flex items-center justify-center p-[2vw] lg:justify-between lg:p-[4vw]">
           <section>
-            <article>
+            <Link to="/" className="w-full block">
               <figure className="w-full max-w-[20vw] shadow-md">
                 <motion.img whileHover={{ scale: 1.2 }} src="/logo.png" alt="img" />
               </figure>
-            </article>
+            </Link>
           </section>
           <section className="flex flex-col gap-[1vw] text-white text-center lg:text-left">
             <h1 className="text-[4vw] lg:text-[2vw] font-bold">CALL US TODAY ON</h1>

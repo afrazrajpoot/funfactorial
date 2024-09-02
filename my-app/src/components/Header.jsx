@@ -163,7 +163,7 @@ const Header = () => {
         </section>
       </article>
       <nav
-        className={`bg-gradient-to-br from-purple-400 via-pink-500 to-red-500 hidden lg:flex gap-[3vw] shadow-lg p-[2vw] justify-center mt-[2vw] ${
+        className={`bg-gradient-to-br from-purple-400 via-pink-500 to-red-500 hidden lg:flex gap-[3vw] shadow-lg p-[2vw] justify-center mt-[vw] ${
           scrollPosition > 500 && "mt-[-1.0vw] opacity-90"
         } transition-all duration-300 ${
           scrollPosition > 500 ? "fixed top-0 left-0 w-full z-50" : ""
