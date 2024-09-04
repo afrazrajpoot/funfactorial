@@ -3,6 +3,7 @@ const app = express();
 const cors = require("cors");
 const createBooking = require("./route/bookingRoute");
 const userRoute = require("./route/userRoute");
+const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY|| 'sk_test_51Pu11eP0ezYRXFX8yz8zNnZiarj7JHmhyTtv00CJ7rzop8QIqsdSf77oF9Ns2aSLyooF0NAf6lA8RxNixa6plW5l00H5RauTlp');
 // Middleware
 app.use(cors("*")); // Allow cross-origin requests
 app.use(express.json()); // Parse JSON bodies
