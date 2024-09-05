@@ -9,7 +9,7 @@ const TopHeader = () => {
   const sliderSettings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
@@ -21,12 +21,6 @@ const TopHeader = () => {
   const imagesGroup2 = [
     {
       img: "https://www.funfactorleeds.co.uk/theme/phone-number-1@1x.png",
-    },
-    {
-      img: "https://bouncycastlenetwork-res.cloudinary.com/c_scale,w_500,fl_png8/v1469464856/card-logos",
-    },
-    {
-      img: "https://www.funfactorleeds.co.uk/theme/we-deliver@1x.png",
     },
   ];
 
@@ -58,7 +52,7 @@ const TopHeader = () => {
             </Link>
           </section>
           <section className="flex flex-col gap-[1vw] text-white text-center lg:text-left">
-            <h1 className="text-[4vw] lg:text-[2vw] font-bold">CALL US TODAY ON</h1>
+            <h1 className="text-[4vw] lg:text-[2vw] text-center font-bold">CALL US TODAY ON</h1>
 
             <figure className="flex flex-col gap-[1vw] mt-[2vw] lg:mt-[1vw]">
               {imagesGroup2.map((imageGroup2, index) => (
@@ -66,7 +60,10 @@ const TopHeader = () => {
                   <img src={imageGroup2.img} alt="img" />
                 </figure>
               ))}
-              <figure className="w-full max-w-[50vw] lg:max-w-[17vw] lg:ml-[0] mt-[4vw] lg:mt-[1vw]">
+              <p className="font-bold text-purple-900 text-[1.2vw]">
+                We deliver across West Yorkshire area
+              </p>
+              <figure className="w-full max-w-[50vw] lg:max-w-[17vw] lg:ml-[3vw] mt-[4vw] lg:mt-[1vw]">
                 <img
                   src="https://www.funfactorleeds.co.uk/theme/email-address@1x.png"
                   alt="img"

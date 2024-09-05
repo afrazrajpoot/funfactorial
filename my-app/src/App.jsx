@@ -25,7 +25,7 @@ const BounceSlideCombo = lazy(() => import("./pages/BounceSlideCombo"));
 const AdultCastles = lazy(() => import("./pages/AdultCastles"));
 const SoftPlay = lazy(() => import("./pages/SoftPlay"));
 const PartyAddOns = lazy(() => import("./pages/PartyAddOns"));
-const MusicAmps = lazy(() => import("./pages/MusicAmps"));
+// const MusicAmps = lazy(() => import("./pages/MusicAmps"));
 const InflatableGames = lazy(() => import("./pages/InflatableGames"));
 const GeneratorHierSection = lazy(() => import("./pages/GeneratorHierSection"));
 const PartyEntertainer = lazy(() => import("./pages/PartyEntertainer"));
@@ -56,7 +56,7 @@ const App = () => {
         <Route path="/category/adult-castles" element={<AdultCastles />} />
         <Route path="/category/soft-play" element={<SoftPlay />} />
         <Route path="/category/party-add-ons" element={<PartyAddOns />} />
-        <Route path="/category/music-amps" element={<MusicAmps />} />
+        {/* <Route path="/category/music-amps" element={<MusicAmps />} /> */}
         <Route path="/category/inflatable-games" element={<InflatableGames />} />
         <Route path="/category/generator-hier-section" element={<GeneratorHierSection />} />
         <Route path="/category/party-entertainer" element={<PartyEntertainer />} />

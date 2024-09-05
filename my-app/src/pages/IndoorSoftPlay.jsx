@@ -19,12 +19,12 @@ const SoftPlay = () => {
     },
   ];
   return (
-    <main className="flex items-start ">
+    <main className="flex items-start pr-[5vw] mt-[3vw] overflow-x-hidden overflow-y-hidden">
       <section className="mt-[1vw] hidden lg:block">
         <Ribbons />
       </section>
 
-      <section className="p-[2vw]">
+      <section className="ml-[3vw] lg:w-[67vw] pr-[4vw]">
         <h1 className="text-red-500 lg:w-[73.5vw] ml-[-2vw] px-[4vw] lg:px-[0vw] font-medium text-[7vw] w-[100vw]  lg:ml-[0vw]  lg:text-left text-center lg:text-[2.5vw] font-ab">
           SOFT PLAY HIRE LEEDS & SOFT PLAY HIRE WAKEFIELD
         </h1>
@@ -43,7 +43,7 @@ const SoftPlay = () => {
         <p className="lg:mt-[1vw] font-pt mt-[3vw] lg:text-[1vw]">
           Please note our Soft Play sets are for Indoor Use only.
         </p>
-        <section className="lg:grid   lg:grid-cols-4 lg:gap-[3vw] pr-[3vw] flex flex-col gap-[9vw]">
+        <section className="lg:grid   lg:grid-cols-4 mt-[3vw] lg:gap-x-[9vw]  flex flex-col">
           {cardData?.map((elem, ind) => (
             <Card key={ind} {...elem} ind={ind} ml={"4vw"} />
           ))}

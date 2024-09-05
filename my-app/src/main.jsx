@@ -19,15 +19,14 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <Provider store={store}>
         <GlobalState>
-          <main className="bg-[#B2FFFF] p-[0.2vw]" style={{ backgroundAttachment: "fixed" }}>
+          <main className="bg-white " style={{ backgroundAttachment: "fixed" }}>
             <TopHeader />
-            <section className="bg-white rounded-md w-full max-w-[100vw] overflow-x-hidden">
-              <Header />
 
-              <Toaster />
-              <App />
-              <Footer />
-            </section>
+            <Header />
+
+            <Toaster />
+            <App />
+            {/* <Footer /> */}
           </main>
         </GlobalState>
       </Provider>

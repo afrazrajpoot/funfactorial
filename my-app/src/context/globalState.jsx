@@ -1,13 +1,14 @@
 import React, { createContext, useContext, useState } from "react";
 const globalContext = createContext();
 export const GlobalState = ({ children }) => {
-  const [data,setData] = useState([])
+  const [data, setData] = useState([]);
+  const [search, setSearch] = useState("");
   const [itemDetail, setItemDetail] = useState({
     name: "",
     price: "",
   });
   return (
-    <globalContext.Provider value={{ itemDetail, setItemDetail,data,setData }}>
+    <globalContext.Provider value={{ itemDetail, setItemDetail, data, setData, search, setSearch }}>
       {children}
     </globalContext.Provider>
   );
