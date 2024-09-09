@@ -318,7 +318,7 @@ export const slideImages = [
 ];
 export const navData = [
   {
-    title: "Download Party invitations",
+    title: "Events",
     url: "/downloadParty",
   },
   {

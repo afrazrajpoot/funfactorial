@@ -2,11 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Font-face for Genty */
+@font-face {
+  font-family: "Genty";
+  src: url("/fonts/GentyDemo-Regular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* 
+body {
+  font-family: "Genty", sans-serif;
+} */
+
+/* Custom scrollbar (if using Tailwind's scrollbar plugin) */
 .scrollbar-custom {
   /* Applying Tailwind CSS utilities for customizing the scrollbar */
   @apply scrollbar scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-300;
 }
 
+/* Header styles */
 .header-container {
   @apply lg:hidden fixed top-0 w-full shadow-xl z-50;
 }
@@ -19,6 +33,7 @@
   @apply text-white font-bold;
 }
 
+/* Navigation styles */
 .nav-container {
   @apply bg-red-500 w-full absolute shadow-xl z-40 overflow-hidden;
 }

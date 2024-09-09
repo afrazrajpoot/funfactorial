@@ -117,7 +117,7 @@ const Header = () => {
     <header>
       <article>
         <section>
-          <article className="bg-[#C8A2C8] mt-[4vw] p-[2vw] w-full max-w-[95vw] lg:mt-[1vw] m-auto rounded-md flex lg:justify-around lg:flex-row flex-col lg:gap-[0vw] gap-[4vw]">
+          <article className="bg-[#ffceff] mt-[4vw] p-[2vw] w-full max-w-[95vw] lg:mt-[1vw] m-auto rounded-md flex lg:justify-around lg:flex-row flex-col lg:gap-[0vw] gap-[4vw]">
             <figure className="w-full max-w-[50vw] ml-[20vw] lg:ml-[0vw] lg:max-w-[23vw]">
               <img
                 src="https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/check-availability@1x.png"
@@ -177,10 +177,10 @@ const Header = () => {
         </section>
       </article>
       <nav
-        className={`bg-white hidden lg:flex gap-[3vw] shadow-lg p-[2vw] justify-center mt-[1vw] ${
-          scrollPosition > 500 && "mt-[0px] opacity-90"
+        className={`bg-[#ffceff] hidden lg:flex gap-[3vw] shadow-lg p-[2vw] justify-center mt-[1vw] ${
+          scrollPosition > 500 && "mt-[-1px] opacity-90"
         } transition-all duration-300 ${
-          scrollPosition > 500 ? "fixed top-0 left-0 w-full z-50" : ""
+          scrollPosition > 500 ? "fixed mt-[-5px] left-0 top-0 w-full z-50" : ""
         } `}
         style={{ position: scrollPosition > 500 ? "fixed " : "relative" }}
       >
@@ -190,18 +190,18 @@ const Header = () => {
               to={item.url}
               className="text-black font-bold hover:text-[#dd0042] hover:underline"
               ref={index === 1 ? buttonRef : null}
-              onMouseOver={index === 1 ? handleDropdownToggle : undefined}
+              onClick={index === 1 ? handleDropdownToggle : undefined}
             >
               <motion.p
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1, delay: index * 0.1 }}
-                className="text-[1.3vw] text-[#C8A2C8] transition-all duration-300 hover:translate-x-3 hover:text-yellow-400 font-ab"
+                className="text-[1.3vw] text-black transition-all duration-300 hover:translate-x-3 hover:text-yellow-400 font-ab"
               >
                 {item.title} {index === 1 && <ArrowDropDownIcon />}
               </motion.p>
               {index === 5 && (
-                <div className="flex items-center border-[1px] pr-[1vw] pl-[0.5vw] rounded-md">
+                <div className="flex items-center bg-white border-[1px] pr-[1vw] pl-[0.5vw] rounded-md">
                   <FaSearch className="text-black text-[1vw] mr-[0.5vw]" />{" "}
                   {/* Adjust size and margin */}
                   <form action="" className="w-full">

@@ -80,28 +80,27 @@ const Home = () => {
     <main className="min-h-screen">
       <section className="w-full mx-auto px-4 py-8">
         <div className="mb-16">
-          <Slider {...sliderSettings}>
-            {slideImages?.map((image, index) => (
-              <div key={index} className="relative h-[60vh] md:h-[80vh] lg:h-[90vh]">
-                <img
-                  src={image.img}
-                  alt="slide image"
-                  className="w-full h-full object-cover rounded-2xl shadow-2xl"
-                />
-                <div className="absolute inset-0  to-transparent flex items-center">
-                  <div className="ml-8 md:ml-16 max-w-lg">
-                    <h2 className="text-white text-3xl md:text-5xl font-bold mb-4">
-                      {image.title}
-                    </h2>
-                    <p className="text-gray-200 text-lg md:text-xl mb-6">{image.description}</p>
-                    <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full transition duration-300 transform hover:scale-105">
-                      Explore Now
-                    </button>
-                  </div>
-                </div>
+          {/* <Slider {...sliderSettings}> */}
+          {/* {slideImages?.map((image, index) => ( */}
+          <div className="relative h-[60vh] md:h-[80vh] lg:h-[90vh]">
+            <img
+              // src={image.img}
+              src="/images/firstImage.jpg"
+              alt="slide image"
+              className="w-full h-full object-cover rounded-2xl shadow-2xl"
+            />
+            <div className="absolute inset-0  to-transparent flex items-center">
+              <div className="ml-8 md:ml-16 max-w-lg">
+                {/* <h2 className="text-white text-3xl md:text-5xl font-bold mb-4">{image.title}</h2>
+                <p className="text-gray-200 text-lg md:text-xl mb-6">{image.description}</p> */}
+                <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-full transition duration-300 transform hover:scale-105">
+                  Explore Now
+                </button>
               </div>
-            ))}
-          </Slider>
+            </div>
+          </div>
+          {/* ))} */}
+          {/* </Slider> */}
         </div>
 
         <Details />
@@ -113,7 +112,7 @@ const Home = () => {
               <Ribbons />
             </section>
             <article className="">
-              <article className="grid grid-cols-4 gap-x-[6vw]">
+              <article className="grid grid-cols-1 gap-y-[10vw] lg:gap-y-[1vw] lg:grid-cols-4 lg:gap-x-[6vw]">
                 {data?.map((elem, ind) => (
                   <Card key={ind} {...elem} ind={ind} />
                 ))}

@@ -26,7 +26,7 @@ const DownloadParties = () => {
 
   return (
     <main className="">
-      <section className="mt-[1vw] flex items-start">
+      <section className="mt-[1vw] flex gap-[2vw] items-start">
         <aside className="hidden lg:block">
           <Ribbons />
         </aside>
@@ -68,14 +68,9 @@ const DownloadParties = () => {
                   {elem.title}
                 </p>
                 <motion.figure className="w-full lg:max-w-[15vw] p-[1vw] bg-white rounded-md overflow-hidden cursor-pointer">
-                  <img
-                    src={elem.img}
-                    alt="img"
-                    className="w-full object-cover"
-                  />
+                  <img src={elem.img} alt="img" className="w-full object-cover" />
                   <p className="text-center text-[1.2vw]">
-                    Download:{" "}
-                    <span className="text-[#256ec2] font-bold">PDF</span> /{" "}
+                    Download: <span className="text-[#256ec2] font-bold">PDF</span> /{" "}
                     <span className="text-[#256ec2] font-bold">JPG</span>
                   </p>
                 </motion.figure>
