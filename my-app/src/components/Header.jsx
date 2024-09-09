@@ -180,7 +180,7 @@ const Header = () => {
         className={`bg-[#ffceff] hidden lg:flex gap-[3vw] shadow-lg p-[2vw] justify-center mt-[1vw] ${
           scrollPosition > 500 && "mt-[-1px] opacity-90"
         } transition-all duration-300 ${
-          scrollPosition > 500 ? "fixed mt-[-5px] left-0 top-0 w-full z-50" : ""
+          scrollPosition > 500 ? "sticky mt-[-1.1vw] left-0 top-0 w-full z-50" : ""
         } `}
         style={{ position: scrollPosition > 500 ? "fixed " : "relative" }}
       >
