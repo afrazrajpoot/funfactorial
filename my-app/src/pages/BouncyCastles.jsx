@@ -36,25 +36,22 @@ const BouncyCastles = () => {
     },
   ];
   return (
-    <main className="flex items-start mt-[1vw]">
+    <main className="flex items-start mt-[1vw] overflow-x-hidden overflow-y-hidden">
       <section className="hidden lg:block">
         <Ribbons />
       </section>
-      <section className="p-[2vw]">
+      <section className="p-[2vw] w-[75vw]">
         <h1 className="text-red-500 lg:mt-[1vw] mt-[5vw] lg:w-[73.5vw] font-medium text-[7vw] w-[100vw]  lg:ml-[0vw]  lg:text-left text-center lg:text-[2.5vw] font-ab">
           BOUNCY CASTLE HIRE IN LEEDS & WAKEFIELD AREAS
         </h1>
         <p className="mt-[1vw] font-pt px-[5vw] lg:px-[0vw] lg:text-[1vw]">
-          Please take a look at our range of bouncy castles for hire in west
-          Yorkshire! We're operating in the whole of Leeds & Wakefield - just
-          take a look at our range of bouncy castles for hire in Leeds and our
-          inflatables in Wakefield. For more information click 'book online' or
-          give us a call on <span className="font-bold">07531522289</span> to
-          find out more.
+          Please take a look at our range of bouncy castles for hire in west Yorkshire! We're
+          operating in the whole of Leeds & Wakefield - just take a look at our range of bouncy
+          castles for hire in Leeds and our inflatables in Wakefield. For more information click
+          'book online' or give us a call on <span className="font-bold">07531522289</span> to find
+          out more.
         </p>
-        <p className="font-pt lg:text-[1vw] mt-[1vw]">
-          Booking a bouncy castle is so easy.
-        </p>
+        <p className="font-pt lg:text-[1vw] mt-[1vw]">Booking a bouncy castle is so easy.</p>
         <article className="ml-[1vw] mt-[1vw]">
           <ul className="list-disc ml-5">
             {bouncyList1?.map((item, index) => (

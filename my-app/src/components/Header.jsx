@@ -4,20 +4,32 @@ import { motion } from "framer-motion";
 import { navData, submenuItems } from "../data";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import { FormControl, InputLabel, MenuItem, Select, TextField, Button } from "@mui/material";
+import { FaSearch } from "react-icons/fa";
+import { useGlobalState } from "../context/globalState";
 
 const Header = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [deliveryArea, setDeliveryArea] = useState("");
   const [firstDate, setFirstDate] = useState("");
   const dropdownRef = useRef(null);
+  const buttonRef = useRef(null);
   const [scrollPosition, setScrollPosition] = useState(0);
-
+  // const [search, setSearch] = useState("");
+  const { search, setSearch } = useGlobalState();
   const handleDropdownToggle = () => {
     setDropdownOpen(!dropdownOpen);
   };
 
-  const handleClickOutside = () => {
-    setDropdownOpen(false);
+  const handleClickOutside = (event) => {
+    // Close the dropdown only if the click is outside both the dropdown and the toggle button
+    if (
+      dropdownRef.current &&
+      !dropdownRef.current.contains(event.target) &&
+      buttonRef.current &&
+      !buttonRef.current.contains(event.target)
+    ) {
+      setDropdownOpen(false);
+    }
   };
 
   const handleDeliveryChange = (event) => {
@@ -27,7 +39,10 @@ const Header = () => {
   const handleClickFirstDate = (event) => {
     setFirstDate(event.target.value);
   };
-
+  const handleSearch = (e) => {
+    // console.log(e.target.value);
+    setSearch(e.target.value);
+  };
   useEffect(() => {
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
@@ -102,8 +117,7 @@ const Header = () => {
     <header>
       <article>
         <section>
-          <div className="bg-[#40327a] hidden lg:block h-[10vh] w-full rounded-md"></div>
-          <article className="bg-[#dd0042] mt-[4vw] p-[2vw] w-full max-w-[95vw] lg:mt-[1vw] m-auto rounded-md flex lg:justify-around lg:flex-row flex-col lg:gap-[0vw] gap-[4vw]">
+          <article className="bg-[#C8A2C8] mt-[4vw] p-[2vw] w-full max-w-[95vw] lg:mt-[1vw] m-auto rounded-md flex lg:justify-around lg:flex-row flex-col lg:gap-[0vw] gap-[4vw]">
             <figure className="w-full max-w-[50vw] ml-[20vw] lg:ml-[0vw] lg:max-w-[23vw]">
               <img
                 src="https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/check-availability@1x.png"
@@ -163,8 +177,8 @@ const Header = () => {
         </section>
       </article>
       <nav
-        className={`bg-gradient-to-br from-purple-400 via-pink-500 to-red-500 hidden lg:flex gap-[3vw] shadow-lg p-[2vw] justify-center mt-[vw] ${
-          scrollPosition > 500 && "mt-[-1.0vw] opacity-90"
+        className={`bg-white hidden lg:flex gap-[3vw] shadow-lg p-[2vw] justify-center mt-[1vw] ${
+          scrollPosition > 500 && "mt-[0px] opacity-90"
         } transition-all duration-300 ${
           scrollPosition > 500 ? "fixed top-0 left-0 w-full z-50" : ""
         } `}
@@ -175,30 +189,46 @@ const Header = () => {
             <Link
               to={item.url}
               className="text-black font-bold hover:text-[#dd0042] hover:underline"
-              onClick={index === 1 ? handleDropdownToggle : undefined}
+              ref={index === 1 ? buttonRef : null}
+              onMouseOver={index === 1 ? handleDropdownToggle : undefined}
             >
               <motion.p
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1, delay: index * 0.1 }}
-                className="text-[1.3vw] text-white transition-all duration-300 hover:translate-x-3 hover:text-yellow-400 font-ab"
+                className="text-[1.3vw] text-[#C8A2C8] transition-all duration-300 hover:translate-x-3 hover:text-yellow-400 font-ab"
               >
                 {item.title} {index === 1 && <ArrowDropDownIcon />}
               </motion.p>
+              {index === 5 && (
+                <div className="flex items-center border-[1px] pr-[1vw] pl-[0.5vw] rounded-md">
+                  <FaSearch className="text-black text-[1vw] mr-[0.5vw]" />{" "}
+                  {/* Adjust size and margin */}
+                  <form action="" className="w-full">
+                    <input
+                      type="text"
+                      onChange={handleSearch}
+                      placeholder="Search"
+                      className="p-[0.5vw] text-black focus:outline-none w-full"
+                    />
+                  </form>
+                </div>
+              )}
             </Link>
+
             {index === 1 && dropdownOpen && (
               <motion.div
-                initial={{ scale: 0.5, opacity: 0 }}
-                animate={{ opacity: 1, scale: 1 }}
+                initial={{ height: 0.5, opacity: 0 }}
+                animate={{ opacity: 1, height: "auto" }}
                 transition={{ duration: 0.5 }}
                 ref={dropdownRef}
-                className="absolute z-50 left-0 mt-2 bg-[#ff0056] w-[15vw] rounded-md shadow-lg"
+                className="absolute z-50 left-0 mt-2 bg-white w-[15vw] rounded-md shadow-lg"
               >
                 {submenuItems.map((submenuItem, submenuIndex) => (
                   <Link
                     key={submenuIndex}
-                    to={submenuItem.url}
-                    className="block px-4 py-2 text-white hover:text-yellow-400 transition-all duration-300 hover:translate-y-[-0.1vw] font-ab font-bold text-center text-[1vw]"
+                    to={submenuItem?.url}
+                    className="block px-4 py-2 text-[#C8A2C8] hover:text-yellow-400 transition-all duration-300 hover:translate-y-[-0.1vw] font-ab font-bold text-center text-[1vw]"
                   >
                     {submenuItem.title}
                   </Link>

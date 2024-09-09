@@ -163,7 +163,7 @@ export const ribbons = [
     url: "/category/party-entertainer",
   },
 ];
-export const cardData = [
+export let cardData = [
   {
     price: "150$",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-orange.png",
@@ -348,30 +348,31 @@ export const navData = [
     title: "Home",
     url: "/",
   },
-  {
-    title: "Privacy policy",
-    url: "/privacy",
-  },
+
   {
     title: "About",
     url: "/about",
   },
-  {
-    title: "Faqs",
-    url: "/faqs",
-  },
+  // {
+  //   title: "Faqs",
+  //   url: "/faqs",
+  // },
   {
     title: "Contact us",
     url: "/contact",
   },
   {
-    title: "Term and condition",
-    url: "/termandcondition",
+    type: "text",
+    placeholder: "search",
   },
-  {
-    title: "Cancellation",
-    url: "/cancellation",
-  },
+  // {
+  //   title: "Term and condition",
+  //   url: "/termandcondition",
+  // },
+  // {
+  //   title: "Cancellation",
+  //   url: "/cancellation",
+  // },
 ];
 export const DownloadPartiesData = [
   {

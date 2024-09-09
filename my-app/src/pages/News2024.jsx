@@ -5,7 +5,7 @@ import Card from "../components/Card";
 
 const News2024 = () => {
   return (
-    <main className="flex flex-col lg:flex-row">
+    <main className="flex flex-col lg:flex-row pr-[5vw] mt-[3vw]">
       <section className="mt-4 hidden lg:block lg:w-[25vw]">
         <Ribbons />
       </section>
@@ -33,7 +33,7 @@ const News2024 = () => {
             </div>
           ))}
         </article>
-        <section className="lg:grid   lg:grid-cols-4 lg:gap-[3vw] pr-[3vw] flex flex-col gap-[9vw]">
+        <section className="lg:grid   lg:grid-cols-4 lg:gap-x-[6vw]  flex flex-col ">
           {cardData?.map((elem, ind) => (
             <Card key={ind} {...elem} w={17} ind={ind} ml={"5vw"} />
           ))}
