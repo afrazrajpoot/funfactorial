@@ -185,10 +185,10 @@ const Header = () => {
         style={{ position: scrollPosition > 500 ? "fixed " : "relative" }}
       >
         {navData?.map((item, index) => (
-          <div key={index} className="relative">
+          <div key={index} className="relative flex">
             <Link
               to={item.url}
-              className="text-black font-bold hover:text-[#dd0042] hover:underline"
+              className="text-black font-bold  items-center hover:text-[#dd0042] hover:underline"
               ref={index === 1 ? buttonRef : null}
               onClick={index === 1 ? handleDropdownToggle : undefined}
             >
@@ -200,11 +200,32 @@ const Header = () => {
               >
                 {item.title} {index === 1 && <ArrowDropDownIcon />}
               </motion.p>
-              {index === 5 && (
-                <div className="flex items-center bg-white border-[1px] pr-[1vw] pl-[0.5vw] rounded-md">
+            </Link>
+            {index === 1 && dropdownOpen && (
+              <motion.div
+                initial={{ height: 0.5, opacity: 0 }}
+                animate={{ opacity: 1, height: "auto" }}
+                transition={{ duration: 0.5 }}
+                ref={dropdownRef}
+                className="absolute z-50 left-0 mt-[3vw] bg-white w-[15vw] rounded-md shadow-lg"
+              >
+                {submenuItems.map((submenuItem, submenuIndex) => (
+                  <Link
+                    key={submenuIndex}
+                    to={submenuItem?.url}
+                    className="block px-4 py-2  text-[#C8A2C8] hover:text-yellow-400 transition-all duration-300 hover:translate-y-[-0.1vw] font-ab font-bold text-center text-[1vw]"
+                  >
+                    {submenuItem.title}
+                  </Link>
+                ))}
+              </motion.div>
+            )}
+            <div>
+              {index === 8 && (
+                <div className="flex ml-[1vw] items-center bg-white border-[1px] pr-[1vw] pl-[0.5vw] rounded-md">
                   <FaSearch className="text-black text-[1vw] mr-[0.5vw]" />{" "}
                   {/* Adjust size and margin */}
-                  <form action="" className="w-full">
+                  <form action="" className="w-[15vw]">
                     <input
                       type="text"
                       onChange={handleSearch}
@@ -214,27 +235,7 @@ const Header = () => {
                   </form>
                 </div>
               )}
-            </Link>
-
-            {index === 1 && dropdownOpen && (
-              <motion.div
-                initial={{ height: 0.5, opacity: 0 }}
-                animate={{ opacity: 1, height: "auto" }}
-                transition={{ duration: 0.5 }}
-                ref={dropdownRef}
-                className="absolute z-50 left-0 mt-2 bg-white w-[15vw] rounded-md shadow-lg"
-              >
-                {submenuItems.map((submenuItem, submenuIndex) => (
-                  <Link
-                    key={submenuIndex}
-                    to={submenuItem?.url}
-                    className="block px-4 py-2 text-[#C8A2C8] hover:text-yellow-400 transition-all duration-300 hover:translate-y-[-0.1vw] font-ab font-bold text-center text-[1vw]"
-                  >
-                    {submenuItem.title}
-                  </Link>
-                ))}
-              </motion.div>
-            )}
+            </div>
           </div>
         ))}
       </nav>
