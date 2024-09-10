@@ -177,7 +177,7 @@ const Header = () => {
         </section>
       </article>
       <nav
-        className={`bg-[#ffceff] hidden lg:flex gap-[3vw] shadow-lg p-[2vw] justify-center mt-[1vw] ${
+        className={`bg-[#ffceff] hidden lg:flex gap-[3vw] shadow-lg p-[2vw] justify-center mt-[0vw] ${
           scrollPosition > 500 && "mt-[-1px] opacity-90"
         } transition-all duration-300 ${
           scrollPosition > 500 ? "sticky mt-[-1.1vw] left-0 top-0 w-full z-50" : ""

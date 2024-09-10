@@ -25,10 +25,10 @@ exports.registerUser = async (req, res, next) => {
     return next(new AppError(err.message, 500));
   }
 };
+
 exports.getAllUser = async (req, res, next) => {
   try {
     const { userType } = req.body;
-
     // Validate userType
     if (!userType) {
       return res.status(400).json({
