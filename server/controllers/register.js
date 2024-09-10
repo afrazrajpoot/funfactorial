@@ -87,7 +87,7 @@ exports.getUserLocation = async (req, res, next) => {
       // Save the updated user document
       await user.save();
 
-      console.log(user, "user");
+      // console.log(user, "user");
       res.status(200).json({
         status: "success",
         data: user,
@@ -125,5 +125,18 @@ exports.loginUser = async (req, res, next) => {
     });
   } catch (err) {
     return next(new AppError(err.message, 500));
+  }
+};
+
+exports.toggleType = async (req, res) => {
+  try {
+    const id = req.params.id;
+    const user = await User.findByIdAndUpdate(id, { userType: req.body.userType }, { new: true });
+    res.status(200).json({
+      status: "success",
+      data: user,
+    });
+  } catch (err) {
+    console.log(err);
   }
 };

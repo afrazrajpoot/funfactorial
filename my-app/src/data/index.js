@@ -353,6 +353,10 @@ export const navData = [
     title: "About",
     url: "/about",
   },
+  {
+    title: "Privacy policy",
+    url: "/#",
+  },
   // {
   //   title: "Faqs",
   //   url: "/faqs",
@@ -365,14 +369,14 @@ export const navData = [
     type: "text",
     placeholder: "search",
   },
-  // {
-  //   title: "Term and condition",
-  //   url: "/termandcondition",
-  // },
-  // {
-  //   title: "Cancellation",
-  //   url: "/cancellation",
-  // },
+  {
+    title: "Term and condition",
+    url: "/termandcondition",
+  },
+  {
+    title: "Cancellation",
+    url: "/cancellation",
+  },
 ];
 export const DownloadPartiesData = [
   {
