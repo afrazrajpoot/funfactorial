@@ -14,8 +14,10 @@ const Header = () => {
   const dropdownRef = useRef(null);
   const buttonRef = useRef(null);
   const [scrollPosition, setScrollPosition] = useState(0);
-  // const [search, setSearch] = useState("");
   const { search, setSearch } = useGlobalState();
+  const [suggestions, setSuggestions] = useState([]);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+
   const handleDropdownToggle = () => {
     setDropdownOpen(!dropdownOpen);
   };
@@ -39,11 +41,41 @@ const Header = () => {
   const handleClickFirstDate = (event) => {
     setFirstDate(event.target.value);
   };
+
   const handleSearch = (e) => {
-    // console.log(e.target.value);
-    setSearch(e.target.value);
+    const searchTerm = e.target.value;
+    setSearch(searchTerm);
+
+    // Generate suggestions based on the search term
+    if (searchTerm.length > 0) {
+      // This is a mock suggestion list. In a real application, you'd fetch this from your backend or a predefined list.
+      const mockSuggestions = [
+        "Bouncy Castle",
+        "Soft Play",
+        "Disco Dome",
+        "Inflatable Slide",
+        "Party Package",
+      ].filter((item) => item.toLowerCase().includes(searchTerm.toLowerCase()));
+
+      setSuggestions(mockSuggestions);
+      setShowSuggestions(true);
+    } else {
+      setSuggestions([]);
+      setShowSuggestions(false);
+    }
+  };
+
+  const handleSuggestionClick = (suggestion) => {
+    setSearch(suggestion);
+    setShowSuggestions(false);
   };
   useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setShowSuggestions(false);
+      }
+    };
+
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
@@ -117,7 +149,7 @@ const Header = () => {
     <header>
       <article>
         <section>
-          <article className="bg-[#ffceff] mt-[4vw] p-[2vw] w-full max-w-[95vw] lg:mt-[1vw] m-auto rounded-md flex lg:justify-around lg:flex-row flex-col lg:gap-[0vw] gap-[4vw]">
+          <article className="bg-[#f06eaa] mt-[4vw] p-[2vw] w-full max-w-[95vw] lg:mt-[1vw] m-auto rounded-md flex lg:justify-around lg:flex-row flex-col lg:gap-[0vw] gap-[4vw]">
             <figure className="w-full max-w-[50vw] ml-[20vw] lg:ml-[0vw] lg:max-w-[23vw]">
               <img
                 src="https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/check-availability@1x.png"
@@ -177,15 +209,15 @@ const Header = () => {
         </section>
       </article>
       <nav
-        className={`bg-[#ffceff] hidden lg:flex gap-[3vw] shadow-lg p-[2vw] justify-center mt-[0vw] ${
-          scrollPosition > 500 && "mt-[-1px] opacity-90"
+        className={`bg-[#f06eaa] hidden lg:flex gap-[3vw] shadow-lg p-[2vw] justify-center mt-[1vw] ${
+          scrollPosition > 500 && "mt-[-1.1px] opacity-90"
         } transition-all duration-300 ${
-          scrollPosition > 500 ? "sticky mt-[-1.1vw] left-0 top-0 w-full z-50" : ""
+          scrollPosition > 500 ? "sticky left-0 top-0 w-full z-50" : ""
         } `}
-        style={{ position: scrollPosition > 500 ? "fixed " : "relative" }}
+        style={{ position: scrollPosition > 500 ? "fixed" : "relative" }}
       >
         {navData?.map((item, index) => (
-          <div key={index} className="relative flex">
+          <div key={index} className="relative flex gap-[1vw]">
             <Link
               to={item.url}
               className="text-black font-bold  items-center hover:text-[#dd0042] hover:underline"
@@ -213,7 +245,7 @@ const Header = () => {
                   <Link
                     key={submenuIndex}
                     to={submenuItem?.url}
-                    className="block px-4 py-2  text-[#C8A2C8] hover:text-yellow-400 transition-all duration-300 hover:translate-y-[-0.1vw] font-ab font-bold text-center text-[1vw]"
+                    className="block px-4 py-2  text-[black] hover:text-yellow-400 transition-all duration-300 hover:translate-y-[-0.1vw] font-ab font-bold text-center text-[1vw]"
                   >
                     {submenuItem.title}
                   </Link>
@@ -221,18 +253,34 @@ const Header = () => {
               </motion.div>
             )}
             <div>
-              {index === 8 && (
-                <div className="flex ml-[1vw] items-center bg-white border-[1px] pr-[1vw] pl-[0.5vw] rounded-md">
-                  <FaSearch className="text-black text-[1vw] mr-[0.5vw]" />{" "}
-                  {/* Adjust size and margin */}
+              {index === 4 && (
+                <div className="flex translate-x-[20vw] items-center bg-white border-[1px] pr-[1vw] pl-[0.5vw] rounded-md relative">
+                  <FaSearch className="text-black text-[1vw] mr-[0.5vw]" />
                   <form action="" className="w-[15vw]">
                     <input
                       type="text"
                       onChange={handleSearch}
+                      value={search}
                       placeholder="Search"
                       className="p-[0.5vw] text-black focus:outline-none w-full"
                     />
                   </form>
+                  {showSuggestions && suggestions.length > 0 && (
+                    <div
+                      ref={dropdownRef}
+                      className="absolute top-full left-0 w-full bg-white border border-gray-300 rounded-b-md shadow-lg z-50"
+                    >
+                      {suggestions.map((suggestion, index) => (
+                        <div
+                          key={index}
+                          className="p-2 hover:bg-gray-100 cursor-pointer"
+                          onClick={() => handleSuggestionClick(suggestion)}
+                        >
+                          {suggestion}
+                        </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
               )}
             </div>

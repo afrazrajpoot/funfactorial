@@ -12,7 +12,7 @@ const Ribbons = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: ind * 0.3 }}
           key={ind}
-          className="relative bg-[#ffceff] w-[23vw] p-[1vw] rounded-md transition-all duration-300 hover:shadow-lg hover:shadow-pink-300/50 hover:-translate-y-1"
+          className="relative bg-[#f06eaa] w-[23vw] p-[1vw] rounded-md transition-all duration-300 hover:shadow-lg hover:shadow-pink-300/50 hover:-translate-y-1"
         >
           <Link to={elem.url}>
             <p className="  transition-all duration-300  text-black ml-[2vw] font-ab font-bold text-[1.5vw]">

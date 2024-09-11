@@ -318,8 +318,8 @@ export const slideImages = [
 ];
 export const navData = [
   {
-    title: "Events",
-    url: "/downloadParty",
+    title: "Home",
+    url: "/",
   },
   {
     title: "Products",
@@ -345,14 +345,14 @@ export const navData = [
     ],
   },
   {
-    title: "Home",
-    url: "/",
+    title: "Events",
+    url: "/downloadParty",
   },
 
-  {
-    title: "About",
-    url: "/about",
-  },
+  // {
+  //   title: "About",
+  //   url: "/about",
+  // },
   {
     title: "Privacy policy",
     url: "/#",
@@ -369,14 +369,14 @@ export const navData = [
     type: "text",
     placeholder: "search",
   },
-  {
-    title: "Term and condition",
-    url: "/termandcondition",
-  },
-  {
-    title: "Cancellation",
-    url: "/cancellation",
-  },
+  // {
+  //   title: "Term and condition",
+  //   url: "/termandcondition",
+  // },
+  // {
+  //   title: "Cancellation",
+  //   url: "/cancellation",
+  // },
 ];
 export const DownloadPartiesData = [
   {

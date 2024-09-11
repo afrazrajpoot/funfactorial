@@ -29,7 +29,7 @@ const TopHeader = () => {
       <MobileHeader />
 
       <div className="relative overflow-hidden">
-        <Slider {...sliderSettings} className="h-[50vw] lg:h-[25vw]">
+        {/* <Slider {...sliderSettings} className="h-[50vw] lg:h-[25vw]">
           {slideImages.map((image, index) => (
             <div key={index} className="relative h-[50vw] lg:h-[25vw]">
               <div
@@ -41,8 +41,16 @@ const TopHeader = () => {
               <div className="absolute inset-0 bg-green-200 opacity-50"></div>
             </div>
           ))}
-        </Slider>
-
+        </Slider> */}
+        <div className="relative h-[50vw] lg:h-[25vw]">
+          <div
+            className="absolute inset-0 bg-cover bg-center"
+            style={{
+              backgroundImage: `url(/images/firstImage.jpg)`,
+            }}
+          />
+          <div className="absolute inset-0 bg-green-200 opacity-50"></div>
+        </div>
         <header className="absolute top-0 left-0 w-full h-full flex items-center justify-center p-[2vw] lg:justify-between lg:p-[4vw]">
           <section>
             <Link to="/" className="w-full block">
@@ -55,11 +63,7 @@ const TopHeader = () => {
             <h1 className="text-[4vw] lg:text-[2vw] text-center font-bold">CALL US TODAY ON</h1>
 
             <figure className="flex flex-col gap-[1vw] mt-[2vw] lg:mt-[1vw]">
-              {imagesGroup2.map((imageGroup2, index) => (
-                <figure key={index} className="flex justify-center">
-                  <img src={imageGroup2.img} alt="img" />
-                </figure>
-              ))}
+              <h1 className="text-[4vw] lg:text-[2.5vw] text-center font-bold">07xxxxxxxx</h1>
               <p className="font-bold text-purple-900 text-[1.2vw]">
                 We deliver across West Yorkshire area
               </p>
