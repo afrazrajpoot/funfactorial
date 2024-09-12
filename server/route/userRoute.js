@@ -7,10 +7,10 @@ const {
   getUserLocation,
   loginUser,
   toggleType,
-} = require("../controllers/register");
+} = require("../controller/register");
 router.route("/registerUser").post(registerUser);
 router.route("/getUsers").post(getAllUser);
 router.route("/getUserLocation").post(getUserLocation);
 router.route("/login").post(loginUser);
-router.route("/userType/:id").post(toggleType);
+router.route("/toggleType/:id").put(toggleType);
 module.exports = router;

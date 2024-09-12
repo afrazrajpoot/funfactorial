@@ -25,10 +25,10 @@ exports.registerUser = async (req, res, next) => {
     return next(new AppError(err.message, 500));
   }
 };
-
 exports.getAllUser = async (req, res, next) => {
   try {
     const { userType } = req.body;
+    console.log(userType, "user type");
     // Validate userType
     if (!userType) {
       return res.status(400).json({
@@ -131,6 +131,7 @@ exports.loginUser = async (req, res, next) => {
 exports.toggleType = async (req, res) => {
   try {
     const id = req.params.id;
+    console.log(id, "user id");
     const user = await User.findByIdAndUpdate(id, { userType: req.body.userType }, { new: true });
     res.status(200).json({
       status: "success",

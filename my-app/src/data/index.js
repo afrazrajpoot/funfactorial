@@ -165,97 +165,97 @@ export const ribbons = [
 ];
 export let cardData = [
   {
-    price: "150$",
+    price: "150£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-orange.png",
     title: "Football Bouncy Castle - Red & Blue",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/ddc7d624a46b27b7c16a954552d44422",
   },
   {
-    price: "160$",
+    price: "160£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-green.png",
     title: "Butterflies Bouncy Castle with slide - Pink & Purple",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/e0d0224831a65f54228277794b3a773d",
   },
   {
-    price: "170$",
+    price: "170£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
     title: "Cars Bouncy Castle - Green & Light Blue",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/432e3e7ac2d7d5d9a126ce3ed1d93f6b",
   },
   {
-    price: "180$",
+    price: "180£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-blue.png",
     title: "Princess Bouncy Castle - Pink & Purple",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/5a63d814a1d43a6bebd83c18bd714721",
   },
   {
-    price: "190$",
+    price: "190£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
     title: "Juniors Inflatable Bouncy Slide - Pink & Purple",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/9dd4542f2d34635027d1d274261a8511",
   },
   {
-    price: "350$",
+    price: "350£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
     title: "Bouncy Castle with slide Combi - Pink & Purple",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/6508cf0425ed24f47a6c8f9bfcf354f1",
   },
   {
-    price: "124.99$",
+    price: "124.99£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-blue.png",
     title: "Juniors Bouncy Castle - Red & Blue",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/c8f3b441a4c1a216c1932e6bf32b3865",
   },
   {
-    price: "199.99$",
+    price: "199.99£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-orange.png",
     title: "Diggers Bouncy Castle with slide - Red & Blue",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/031d87a70672935bcf24c13eba40aa15",
   },
   {
-    price: "199.99$",
+    price: "199.99£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-green.png",
     title: "Juniors Inflatable Bouncy Slide - Green & Light Blue",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/2bf5ff658cb589e53f75814341cd0b5c",
   },
   {
-    price: "190.99$",
+    price: "190.99£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-orange.png",
     title: "Dinosaurs Bouncy Castle - Green & Light Blue",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/c343f91d3e2847346e5ad1f27b37d50f",
   },
   {
-    price: "124.99$",
+    price: "124.99£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-green.png",
     title: "Giant Velcro Dartboard Game",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/2af47dcd2a88431355099bd3124d3f00",
   },
   {
-    price: "124.99$",
+    price: "124.99£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
     title: "Giant Inflatable Events Mega Slide - Multi Coloured",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/7f66dce2158e0f5c0b4e2462012a82fd",
   },
   {
-    price: "120.99$",
+    price: "120.99£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-blue.png",
     title: "Unicorn Bouncy Castle - Pink & Purple",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/068d9d8e50b27d16579c9f8301ada306",
   },
   {
-    price: "199.99$",
+    price: "199.99£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-orange.png",
     title: "Girly Pink Bouncy Castle - Pink & Purple",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/9484a85f958e794c7f7ea386b41823f7",
   },
   {
-    price: "144.99$",
+    price: "144.99£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-green.png",
     title: "Princess Bouncy Castle with slide - Pink & Purple",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/61f036a3f033b3695cc2eea6ec556001",
   },
   {
-    price: "154.99$",
+    price: "154.99£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
     title: "Jungle Bouncy Castle - Green & Light Blue",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/a2f304ef30af8d338cc320664cbe4bbf",
@@ -668,7 +668,7 @@ export const bookingFormData = [
     rules: {
       required: "Email is required",
       pattern: {
-        value: /^\S+@\S+\.\S+$/,
+        value: /^\S+@\S+\.\S+£/,
         message: "Invalid email address",
       },
     },
@@ -681,7 +681,7 @@ export const bookingFormData = [
     rules: {
       required: "Phone number is required",
       pattern: {
-        value: /^\d{10}$/,
+        value: /^\d{10}£/,
         message: "Phone number must be 10 digits",
       },
     },
@@ -732,7 +732,7 @@ export const contactFormData = [
     rules: {
       required: "Email is required",
       pattern: {
-        value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/,
+        value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}£/,
         message: "Invalid email address",
       },
     },
