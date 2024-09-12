@@ -94,17 +94,17 @@ export const submenuItems = [
 export const ribbons = [
   {
     img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-blue.png",
-    title: "New for 2024!",
+    title: "Fun Fairs",
     url: "/category/news-2024",
   },
   {
     img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-green.png",
-    title: "Indoor soft plays pakages",
+    title: "Indoor Bouncy Casttle",
     url: "/category/indoor-soft-play",
   },
   {
     img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-orange.png",
-    title: "Chrismiss Inflatable",
+    title: "Event Packages",
     url: "/category/chrismis-inflatables",
   },
   {
@@ -114,42 +114,38 @@ export const ribbons = [
   },
   {
     img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-blue.png",
-    title: "Disco Domes",
+    title: "Go Karting",
     url: "/category/disco-domes",
   },
   {
     img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-green.png",
-    title: "Assults course",
+    title: "Zorb balls",
     url: "/category/asult-course",
   },
   {
     img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-orange.png",
-    title: "Bounce and slides combos",
+    title: "Football Penalty Shoutout",
     url: "/category/bounce-slide-combos",
   },
   {
     img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-pink.png",
-    title: "Adult castles",
+    title: "Obstode Assault Course",
     url: "/category/adult-castles",
   },
   {
     img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-blue.png",
-    title: "Soft Play",
+    title: "Other inflatables",
     url: "/category/soft-play",
   },
   {
     img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-green.png",
-    title: "Party Add-ons",
+    title: "Disco Dome",
     url: "/category/party-add-ons",
   },
-  {
-    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-orange.png",
-    title: "Music Amps",
-    url: "/category/music-amps",
-  },
+
   {
     img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-pink.png",
-    title: "Inflatable Games",
+    title: "Inflatable Slides",
     url: "/category/inflatable-games",
   },
   {
@@ -161,6 +157,11 @@ export const ribbons = [
     img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-green.png",
     title: "Party Entertainer",
     url: "/category/party-entertainer",
+  },
+  {
+    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-orange.png",
+    title: "All Products",
+    url: "/category/music-amps",
   },
 ];
 export let cardData = [
@@ -259,6 +260,150 @@ export let cardData = [
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
     title: "Jungle Bouncy Castle - Green & Light Blue",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/a2f304ef30af8d338cc320664cbe4bbf",
+  },
+  {
+    price: "154.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "Adults Jungle Themed Bouncy Castle - Red & Blue",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/baa1e0a2298cc21bd9ddecfbeecd098d",
+  },
+  {
+    price: "154.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "Bungee Run Hire 35ft",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/6f4b7828f05693d1f3fc3772724e2ab8",
+  },
+  {
+    price: "154.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "Diggers Bouncy Castle with slide - Red & Blue",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/031d87a70672935bcf24c13eba40aa15",
+  },
+  {
+    price: "154.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "Premium Entertainment Experience Package",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/e4e06a453f235ffca2519d2d33f5d920",
+  },
+  {
+    price: "154.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "Premium Entertainment Experience Package",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/068d9d8e50b27d16579c9f8301ada306",
+  },
+  {
+    price: "154.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "Unicorn Bouncy Castle - Pink & Purple",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/068d9d8e50b27d16579c9f8301ada306",
+  },
+  {
+    price: "175.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "Adults Happy Birthday Themed Bouncy Castle - Green & Light Blue",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/9eec50bece18a4474b7a6a8a2cb47e20",
+  },
+  {
+    price: "125.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "Basketball Shootout Game",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/642475086aa267a93cd646ee33ac2910",
+  },
+  {
+    price: "175.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "30ft Obstacle Assault Course Blue Fun Run",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/bcf5b03a4052eadc358718a8e83f2702",
+  },
+  {
+    price: "180.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "Adults Superheroes Themed Bouncy Castle - Green & Light Blue",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/ea471e81e90b8bfe25934af7b2757c9a",
+  },
+  {
+    price: "145.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "Circus Bouncy Castle with slide - Red & Blue",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/73d628ebd4e07edf50fe730829fbdd15",
+  },
+  {
+    price: "125.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "Giant Velcro Dartboard Game",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/2af47dcd2a88431355099bd3124d3f00",
+  },
+  {
+    price: "45.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "SAFETY SUPERVISORS STAFFING",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/94a5161af6006339a3553b1a0b468507",
+  },
+  {
+    price: "135.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "Party Time Pink Bouncy Castle Hire - Pink & Purple",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/7436ded1e3d82f763837834baf099d51",
+  },
+  {
+    price: "135.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "Party Time Pink Bouncy Castle Hire - Pink & Purple",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/7436ded1e3d82f763837834baf099d51",
+  },
+  {
+    price: "135.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "Peppa Pig Bouncy Castle",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/b8f8af7b7b9826a403db5e810b58c64c",
+  },
+  {
+    price: "35.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "Giant Connect 4 Game",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/07bf24c3a21f3c6e8737f4b6f074d34c",
+  },
+  {
+    price: "175.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "Adults Cars Themed Bouncy Castle - Green & Light Blue",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/0493dfc6ed6591e809fb52089155b17a",
+  },
+  {
+    price: "105.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "Superheroes Bouncy Castle - Green & Light Blue",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/303c7e7fd9dd0cd42d9484c6c9877fa8",
+  },
+  {
+    price: "135.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "Mermaids Bouncy Castle - Pink & Purple",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/718108814488107da6aca8edd7d2eac5",
+  },
+  {
+    price: "175.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "Adults Diggers Themed Bouncy Castle - Red & Blue",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/97dce3fda92d7b7a39805625aadc524b",
+  },
+  {
+    price: "175.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "Adults Dinosaurs Themed Bouncy Castle - Red & Blue",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/acb89bc2783214a3662208464b6a7f38",
+  },
+  {
+    price: "175.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "Adults Diggers Themed Bouncy Castle - Green & Light Blue",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/4d85502de5dd5101635d67d51f80cbc6",
+  },
+  {
+    price: "175.99£",
+    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+    title: "Adults Christmas Theme Bouncy Castle Hire - Green & Light Blue",
+    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/fb374af97a85ab256772d4a8222d2dd7",
   },
 ];
 
