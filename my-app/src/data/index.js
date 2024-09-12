@@ -507,6 +507,10 @@ export const navData = [
   //   url: "/faqs",
   // },
   {
+    title: "Cancellation",
+    url: "/cancellation",
+  },
+  {
     title: "Contact us",
     url: "/contact",
   },
@@ -517,10 +521,6 @@ export const navData = [
   // {
   //   title: "Term and condition",
   //   url: "/termandcondition",
-  // },
-  // {
-  //   title: "Cancellation",
-  //   url: "/cancellation",
   // },
 ];
 export const DownloadPartiesData = [

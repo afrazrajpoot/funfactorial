@@ -149,7 +149,7 @@ const Header = () => {
     <header>
       <article>
         <section>
-          <article className="bg-[#f3e4c5] mt-[4vw] p-[2vw] w-full max-w-[95vw] lg:mt-[1vw] m-auto rounded-md flex lg:justify-around lg:flex-row flex-col lg:gap-[0vw] gap-[4vw]">
+          <article className="bg-[#f06eaa] mt-[4vw] p-[2vw] w-full max-w-[95vw] lg:mt-[1vw] m-auto rounded-md flex lg:justify-around lg:flex-row flex-col lg:gap-[0vw] gap-[4vw]">
             <figure className="w-full max-w-[50vw] ml-[20vw] lg:ml-[0vw] lg:max-w-[23vw]">
               <img
                 src="https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/check-availability@1x.png"
@@ -209,7 +209,7 @@ const Header = () => {
         </section>
       </article>
       <nav
-        className={`bg-[#f3e4c5] hidden lg:flex gap-[3vw] shadow-lg p-[2vw] justify-center mt-[1vw] ${
+        className={`bg-[#f06eaa] hidden lg:flex gap-[3vw] shadow-lg p-[2vw] justify-center mt-[1vw] ${
           scrollPosition > 500 && "mt-[-1.1px] opacity-90"
         } transition-all duration-300 ${
           scrollPosition > 500 ? "sticky left-0 top-0 w-full z-50" : ""
@@ -217,10 +217,10 @@ const Header = () => {
         style={{ position: scrollPosition > 500 ? "fixed" : "relative" }}
       >
         {navData?.map((item, index) => (
-          <div key={index} className="relative flex gap-[1vw]">
+          <div key={index} className="relative flex">
             <Link
               to={item.url}
-              className="text-black font-bold  items-center hover:text-[#dd0042] hover:underline"
+              className="text-black font-bold  items-center  hover:underline"
               ref={index === 1 ? buttonRef : null}
               onClick={index === 1 ? handleDropdownToggle : undefined}
             >
@@ -228,7 +228,7 @@ const Header = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1, delay: index * 0.1 }}
-                className="text-[1.3vw] text-black transition-all duration-300 hover:translate-x-3 hover:text-[#f06eaa] font-ab"
+                className="text-[1.3vw] text-black  transition-all duration-300 hover:translate-x-3  font-ab"
               >
                 {item.title} {index === 1 && <ArrowDropDownIcon />}
               </motion.p>
@@ -245,7 +245,7 @@ const Header = () => {
                   <Link
                     key={submenuIndex}
                     to={submenuItem?.url}
-                    className="block px-4 py-2  text-[black] hover:text-[#f06eaa] transition-all duration-300 hover:translate-y-[-0.1vw] font-ab font-bold text-center text-[1vw]"
+                    className="block px-4 py-2  text-[black]  transition-all duration-300 hover:translate-y-[-0.1vw] font-ab font-bold text-center text-[1vw]"
                   >
                     {submenuItem.title}
                   </Link>
@@ -253,8 +253,8 @@ const Header = () => {
               </motion.div>
             )}
             <div>
-              {index === 4 && (
-                <div className="flex translate-x-[20vw] items-center bg-white border-[1px] pr-[1vw] pl-[0.5vw] rounded-md relative">
+              {index === 5 && (
+                <div className="flex translate-x-[15vw] items-center  bg-white border-[1px] pr-[1vw] pl-[0.5vw] rounded-md relative">
                   <FaSearch className="text-black text-[1vw] mr-[0.5vw]" />
                   <form action="" className="w-[15vw]">
                     <input

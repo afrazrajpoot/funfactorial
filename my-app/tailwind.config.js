@@ -12,6 +12,7 @@ export default {
         playwrite: ["Playwrite NZ", "cursive"], // Add this line
         ab: ["Oswald", "sans-serif"],
         pt: ["PT Sans", "sans-serif"],
+        genty: ["Genty", "sans-serif"],
       },
     },
   },

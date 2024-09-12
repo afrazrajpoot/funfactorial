@@ -19,7 +19,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <Provider store={store}>
         <GlobalState>
-          <main className="bg-white " style={{ backgroundAttachment: "fixed" }}>
+          <main className="bg-white  font-Genty" style={{ backgroundAttachment: "fixed" }}>
             <TopHeader />
 
             <Header />
