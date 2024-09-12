@@ -7,7 +7,7 @@ const {
   getUserLocation,
   loginUser,
   toggleType,
-} = require("../controller/register");
+} = require("../controllers/register");
 router.route("/registerUser").post(registerUser);
 router.route("/getUsers").post(getAllUser);
 router.route("/getUserLocation").post(getUserLocation);
