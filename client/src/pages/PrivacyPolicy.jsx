@@ -5,11 +5,11 @@ const PrivacyPolicy = () => {
   const privacyPolicyData = [
     {
       title: "Who is responsible for your data?",
-      info: `Our data protection officer is <span className=' font-bold'>Derek Homan</span>. The data protection officer is responsible for making sure that your data is stored and processed safely. You can contact them on <span className=' font-bold'>07931522289</span>.`,
+      info: `Our data protection officer is responsible for managing your personal data. The data protection officer is responsible for making sure that your data is stored and processed safely. You can contact them anytime.`,
     },
     {
       title: "Why do we process and store your data?",
-      info: "We need to store and process your data if you make an enquiry or place an order with us, to allow us to provide our services as a <span className=' font-bold'>Equipment hirer</span>. This includes your name, contact details, and IP address. We also need to store your details for tax and insurance reasons.",
+      info: "We need to store and process your data if you make an enquiry or place an order with us, to allow us to provide our services as a Equipment hirer. This includes your name, contact details, and IP address. We also need to store your details for tax and insurance reasons.",
     },
     {
       title: "How long will we keep your data?",
@@ -20,7 +20,7 @@ const PrivacyPolicy = () => {
       info: "Our data protection officer is responsible for managing access to the personal data we store. Generally speaking, only the data protection officer and authorised members of staff will access your data.",
     },
     {
-      info: "Some of the services we use will also store a copy of your data. For example, our website provider <span className='text-blue-400'>Booking Online Ltd</span>, our email provider <span className='text-blue-400'>Fastmail</span>, and any providers they use to provide their services. If you send your details over a social media platform, that platform may keep a copy of your messages.",
+      info: "Some of the services we use will also store a copy of your data. For example, our website provider Booking Online Ltd, our email provider Fastmail, and any providers they use to provide their services. If you send your details over a social media platform, that platform may keep a copy of your messages.",
     },
     {
       title: "Who else might your data be shared with?",
@@ -47,7 +47,7 @@ const PrivacyPolicy = () => {
     },
     {
       title: "How do you make a complaint about our use of your data?",
-      info: "<span className='text-blue-400'>The Information Commissioners’ Office (ICO)</span>. is the authority for data protection in the UK. If you have an unresolvable problem with us and our use of your data, they are who you should contact.",
+      info: "The Information Commissioners’ Office (ICO). is the authority for data protection in the UK. If you have an unresolvable problem with us and our use of your data, they are who you should contact.",
     },
   ];
   return (

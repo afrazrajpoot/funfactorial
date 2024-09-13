@@ -34,7 +34,7 @@ const Cancellations = () => {
     },
     {
       title: "Wet / Adverse Weather:",
-      info: "With regards to bad weather we will be in contact with you to make alternative arrangements. Cancellations due to adverse weather can only be made by premium inflatables staff. We can not hire with wind gust speeds exceeding 24mph and heavy rain or snow. Light showers and all types of sunshine including heatwaves are fine for our equipment and will not effect their use. We will not charge any additional fees for bad weather cancellations but we will also not issue any refunds. You must select a new date within 6 months.",
+      info: "With regards to bad weather we will be in contact with you to make alternative arrangements. Cancellations due to adverse weather can only be made by funrides staff. We can not hire with wind gust speeds exceeding 24mph and heavy rain or snow. Light showers and all types of sunshine including heatwaves are fine for our equipment and will not effect their use. We will not charge any additional fees for bad weather cancellations but we will also not issue any refunds. You must select a new date within 6 months.",
     },
   ];
 

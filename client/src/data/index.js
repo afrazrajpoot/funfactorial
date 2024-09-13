@@ -500,7 +500,7 @@ export const navData = [
   // },
   {
     title: "Privacy policy",
-    url: "/#",
+    url: "/privacy",
   },
   // {
   //   title: "Faqs",

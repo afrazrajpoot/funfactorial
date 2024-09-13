@@ -149,7 +149,7 @@ const Header = () => {
     <header>
       <article>
         <section>
-          <article className="bg-[#f06eaa] mt-[4vw] p-[2vw] w-full max-w-[95vw] lg:mt-[1vw] m-auto rounded-md flex lg:justify-around lg:flex-row flex-col lg:gap-[0vw] gap-[4vw]">
+          <article className="bg-[#f06eaa] mt-[4vw] mb-[2vw] p-[2vw] w-full max-w-[95vw] lg:mt-[1vw] m-auto rounded-md flex lg:justify-around lg:flex-row flex-col lg:gap-[0vw] gap-[4vw]">
             <figure className="w-full max-w-[50vw] ml-[20vw] lg:ml-[0vw] lg:max-w-[23vw]">
               <img
                 src="https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/check-availability@1x.png"
@@ -183,7 +183,7 @@ const Header = () => {
                 className="rounded-md w-full lg:max-w-[15vw] bg-white"
               />
               <FormControl className="w-full lg:max-w-[15vw]">
-                <InputLabel shrink={false}>{!firstDate && "Select Date First"}</InputLabel>
+                <InputLabel shrink={false}>{!firstDate && "Select Category First"}</InputLabel>
 
                 <Select
                   value={firstDate}
@@ -209,7 +209,7 @@ const Header = () => {
         </section>
       </article>
       <nav
-        className={`bg-[#f06eaa] hidden lg:flex gap-[3vw] shadow-lg p-[2vw] justify-center mt-[1vw] ${
+        className={`bg-[#f06eaa] hidden lg:flex gap-[3vw] shadow-lg p-[2vw] justify-center ${
           scrollPosition > 500 && "mt-[-1.1px] opacity-90"
         } transition-all duration-300 ${
           scrollPosition > 500 ? "sticky left-0 top-0 w-full z-50" : ""
