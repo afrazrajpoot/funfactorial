@@ -1,178 +1,186 @@
-import React, { useEffect } from "react";
-import Ribbons from "../components/Ribbons";
-import { contactData, contactFormData } from "../data";
+import React, { useEffect, useState } from "react";
 import { useForm, Controller } from "react-hook-form";
+import { useStripe } from "@stripe/react-stripe-js";
 import axios from "axios";
+import { toast } from "sonner";
 import { useGlobalState } from "../context/globalState";
 import { useCreateBookingMutation } from "../store/storeApi";
-import { toast } from "sonner";
-// Helper function to get current year and month
+import Ribbons from "../components/Ribbons";
+import { contactData, contactFormData } from "../data";
+import CryptoJS from 'crypto-js';
+
 const getCurrentYearMonth = () => {
   const now = new Date();
-  const year = now.getFullYear();
-  const month = String(now.getMonth() + 1).padStart(2, "0"); // Months are zero-based
-  return { year, month };
+  return {
+    year: now.getFullYear(),
+    month: String(now.getMonth() + 1).padStart(2, "0"),
+  };
 };
 
 const Contact = () => {
   const { year, month } = getCurrentYearMonth();
+  const [decryptedData, setDecryptedData] = useState({});
   const { itemDetail, setItemDetail } = useGlobalState();
-  const [booking, { isLoading, isError, error, isSuccess, data: responseData }] =
-    useCreateBookingMutation();
+  const [booking, { isLoading, isError, error, isSuccess, data: responseData }] = useCreateBookingMutation();
+  const stripe = useStripe();
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
   const {
     handleSubmit,
     control,
     watch,
     reset,
-    setValue, // Used to set default values
     formState: { errors },
   } = useForm({
     defaultValues: {
-      startDate: `${year}-${month}-01`, // Setting default to the first day of the current month
-      endDate: `${year}-${month}-31`, // Setting default to the last day of the current month
+      startDate: `${year}-${month}-01`,
+      endDate: `${year}-${month}-31`,
+      postalCode: "",
     },
   });
 
-  // Watch the values of startDate and endDate
   const startDate = watch("startDate");
   const endDate = watch("endDate");
 
   const onSubmit = async (data) => {
-    // console.log("Form Data:", data); // Check the form data in the console
+    if (!stripe) {
+      toast.error("Stripe is not loaded. Please try again later.");
+      return;
+    }
 
-    // Prepare FormData
+    setIsSubmitting(true);
 
     try {
-      booking({ ...data, itemDetail });
+      // Request a Checkout Session from the server
+      const { data: { sessionId } } = await axios.post('http://localhost:9000/payment-sheet', {
+        amount: parseInt(decryptedData), // Amount in cents
+      });
+
+      // Redirect to Stripe Checkout
+      const { error } = await stripe.redirectToCheckout({ sessionId });
+
+      if (error) {
+        toast.error(`Payment error: ${error.message}`);
+      }
     } catch (err) {
-      console.error("Error booking:", err.response?.data || err.message);
+      toast.error(`Submission error: ${err.message}`);
+      console.error("Error during submission:", err.response?.data || err.message);
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
-  const textShadowStyle = {
-    textShadow:
-      "0 0 0 #000, -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000",
-    color: "#fff",
+  const SECRET_KEY = import.meta.env.VITE_SECRET_KEY;
+
+  const decryptAndGetFromLocalStorage = (key) => {
+    const encryptedData = localStorage.getItem(key);
+    if (encryptedData) {
+      const bytes = CryptoJS.AES.decrypt(encryptedData, SECRET_KEY);
+      const decryptedData = bytes.toString(CryptoJS.enc.Utf8);
+      return JSON.parse(decryptedData);
+    }
+    return null;
   };
+
+  useEffect(() => {
+    const decryptedData = decryptAndGetFromLocalStorage('data');
+    setDecryptedData(decryptedData?.price.slice(0, 3));
+  }, []);
+
   useEffect(() => {
     if (isSuccess) {
       setItemDetail(null);
-      // console.log(responseData, "res data");
       reset();
-
-      toast.success(responseData.message, {
-        position: "top-right",
-        duration: 1000,
-        autoClose: 3000,
-      });
+      toast.success(responseData.message);
     }
     if (isError) {
-      toast.error(error?.data?.message, {
-        position: "top-right",
-        duration: 1000,
-        autoClose: 3000,
-      });
-      console.log(error, "error");
+      toast.error(error?.data?.message || "An error occurred");
     }
-  }, [isSuccess, isError, error]);
+  }, [isSuccess, isError, error, responseData, setItemDetail, reset]);
+
   return (
-    <main className="flex items-start p-4 gap-[5vw]">
+    <main className="flex flex-col lg:flex-row items-start p-4 gap-8 ">
       <section className="hidden lg:block lg:w-1/4">
         <Ribbons />
       </section>
-      <section className="ml-4">
-        <h1 className="text-[#ed145b] text-center lg:text-left text-[7vw] lg:text-[2.3vw] font-medium font-ab mb-4">
-          CONTACT FUN FACTOR LEEDS
+      <section className="flex-1">
+        <h1 className="text-[#ed145b] text-center lg:text-left text-4xl lg:text-5xl font-medium font-ab mb-6">
+          Contact Fun Factor Leeds
         </h1>
-        <p className="mb-4 lg:text-[1vw]">
+        <p className="mb-6 text-lg">
           It couldn't be easier to get in touch with us here at Fun Factor Leeds. You can use the
-          contact form at the bottom of this page or:
+          contact form below or reach out through:
         </p>
-        <ul className="list-disc ml-[4vw] text-[1vw]">
+        <ul className="list-disc ml-8 text-lg space-y-2 mb-6">
           {contactData?.map((elem, ind) => (
-            <li key={ind} className="mb-2">
-              <h2 className="font-bold text-[3vw] lg:text-[1vw] inline">{elem.title}</h2>
-              <p
-                className={`${
-                  ind === 0 ? "text-black" : "text-blue-400 lg:text-[1vw] text-[3vw]"
-                } inline ml-2 text-[3vw] lg:text-[1vw]`}
-              >
+            <li key={ind}>
+              <span className="font-bold">{elem.title}:</span>{" "}
+              <span className={ind === 0 ? "text-black" : "text-blue-600"}>
                 {elem.info}
-              </p>
+              </span>
             </li>
           ))}
         </ul>
-        <p className="mt-[1vw] text-[3vw] lg:text-[1vw]">
-          We operate 7 days a week 365 days a year.
-        </p>
-        <p className="mt-[1vw] text-[3vw] lg:text-[1vw]">
+        <p className="text-lg mb-2">We operate 7 days a week, 365 days a year.</p>
+        <p className="text-lg mb-8">
           Fun Factor Leeds for all your bouncy castle hire & soft play hire needs in Leeds,
           Wakefield, Castleford, Pontefract and surrounding areas.
         </p>
-        <article className="mt-[1vw] bg-blue-200 pt-[2vw] shadow-lg rounded-md">
-          <h2 className="text-blue-500 text-[3vw] lg:text-[1.5vw] text-center mt-[-1vw] p-[0.4vw] font-medium font-ab">
+        <div className="bg-gradient-to-r from-blue-100 to-blue-200 rounded-lg shadow-xl p-6">
+          <h2 className="text-blue-600 text-2xl text-center font-medium font-ab mb-6">
             Quick Enquiry Form
           </h2>
-          <form onSubmit={handleSubmit(onSubmit)} className="bg-white p-[2vw] flex flex-col">
+          <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
             {contactFormData?.map((elem, ind) => (
-              <div key={ind} className="mb-4 flex flex-col lg:flex-row lg:items-center">
-                <label
-                  htmlFor={elem.name}
-                  className="lg:w-[30vw] text-[3vw] lg:text-[1vw] text-center lg:text-left"
-                >
+              <div key={ind} className="flex flex-col lg:flex-row lg:items-center">
+                <label htmlFor={elem.name} className="lg:w-1/3 text-lg font-medium mb-2 lg:mb-0">
                   {elem.label}:
                 </label>
-                <div className="flex-1 flex flex-col">
+                <div className="flex-1">
                   <Controller
                     name={elem.name}
                     control={control}
                     rules={{
                       ...elem.rules,
-                      validate:
-                        elem.name === "endDate"
-                          ? (value) =>
-                              new Date(value) >= new Date(startDate) ||
-                              "End date cannot be before start date"
-                          : undefined,
+                      validate: elem.name === "endDate"
+                        ? (value) => new Date(value) >= new Date(startDate) || "End date cannot be before start date"
+                        : undefined,
                     }}
-                    render={({ field }) =>
+                    render={({ field }) => (
                       elem.type === "textarea" ? (
                         <textarea
                           {...field}
                           rows={5}
                           placeholder={elem.placeHolder}
-                          className={`border border-black text-[3vw] lg:text-[1vw] p-[0.5vw] rounded-md flex-1 ${
-                            errors[elem.name] ? "border-red-500" : ""
-                          }`}
+                          className={`w-full p-3 border rounded-md ${errors[elem.name] ? 'border-red-500' : 'border-gray-300'}`}
                         />
                       ) : (
                         <input
                           {...field}
                           type={elem.type}
                           placeholder={elem.placeHolder}
-                          className={`border border-black text-[3vw] lg:text-[1vw] p-[1.5vw] lg:p-[0.5vw] rounded-md flex-1 ${
-                            errors[elem.name] ? "border-red-500" : ""
-                          }`}
+                          className={`w-full p-3 border rounded-md ${errors[elem.name] ? 'border-red-500' : 'border-gray-300'}`}
                         />
                       )
-                    }
+                    )}
                   />
                   {errors[elem.name] && (
-                    <p className="text-red-500 text-[2.5vw] lg:text-[0.8vw] mt-1 lg:ml-2">
-                      {errors[elem.name]?.message}
-                    </p>
+                    <p className="text-red-500 text-sm mt-1">{errors[elem.name]?.message}</p>
                   )}
                 </div>
               </div>
             ))}
-            <input
-              style={textShadowStyle}
-              type="submit"
-              className="bg-[#ed145b] hover:cursor-pointer hover:bg-yellow-400 p-[1.5vw] lg:p-[0.5vw] rounded-md shadow-lg font-playwrite text-[3vw] lg:text-[1.5vw] w-full max-w-[30vw] lg:max-w-[12vw] ml-[55vw] lg:ml-[41.5vw] mt-[1vw]"
-              value={"send enquiry"}
-            />
+            <div className="flex justify-end">
+              <button
+                type="submit"
+                disabled={isSubmitting || isLoading}
+                className="bg-[#ed145b] hover:bg-[#ff1a6b] text-white font-bold py-3 px-6 rounded-md shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {isSubmitting || isLoading ? 'Processing...' : 'Send Enquiry'}
+              </button>
+            </div>
           </form>
-        </article>
+        </div>
       </section>
     </main>
   );

@@ -166,52 +166,76 @@ export const ribbons = [
 ];
 export let cardData = [
   {
-    price: "150£",
+    price: "900£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-orange.png",
-    title: "Football Bouncy Castle - Red & Blue",
-    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/ddc7d624a46b27b7c16a954552d44422",
+    title: "Go kart",
+    img: "/images/img2.jpg",
+    size:['4 karts-inflatable track size<','16m (L) x 12m (W) = 192m²','Required space: 17m X 13m'],
+    description: "Experience the ultimate adventure with our new Go kart bouncy castle! This 4-kart inflatable track size will be perfect for your adventurous adventures. Our Go kart bouncy castle features a 16m (L) x 12m (W) surface area and a required space of 17m x 13m. The castle boasts a comfortable, yet secure",
+    suitability:['Suitable for all ages','Perfect for various events','Indoor on hard surface - Yes','Outdoor on grass - Yes','Outdoor on hard surface - Yes']
   },
   {
-    price: "160£",
+    price: "900£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-green.png",
-    title: "Butterflies Bouncy Castle with slide - Pink & Purple",
-    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/e0d0224831a65f54228277794b3a773d",
+    title: "Zorb balls",
+    img: "/images/zorbBalls.jpg",
+    size:['4 Zorb balls-inflatable track size-25m(L) X 25m(W) =192m²'],
+    description: "Let's dive into the thrill of the unknown! The Zorb Ball is perfect for those craving excitement. It's a safe and exhilarating experience where you roll downhill inside a transparent plastic orb. The Zorb consists of two balls with an air layer in between, making the ride both fun and secure. In essence, Zorb experiences are all about enjoyment with a touch of adventure, rather than fear.",
+    suitability:['Age-5 & adults','Suitable for all ages','Perfect for various events','Indoor on hard surface - Yes','Outdoor on grass - Yes','Outdoor on hard surface - no']
   },
   {
-    price: "170£",
+    price: "950£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
-    title: "Cars Bouncy Castle - Green & Light Blue",
-    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/432e3e7ac2d7d5d9a126ce3ed1d93f6b",
+    title: "Mega Wave Bouncy Slide",
+    img: "/images/megaWaveSlide.jpg",
+    size:['1m(L) x 7m(W) x 6(H) Required space – 10m x 7m'],
+    description: "This 25ft Wave slide is designed for the over 5's and also for adultsThe wave slide is an added dimension to the standard slide, and side by side a standard slide, this one is more attractive giving the think of the wave. Kids absolutelylove the wave slide which is seen when you see them racing to climb itagain.",
+    suitability:['Age-5 & adults','Suitable for all ages','Indoor on hard surface – yes, if ceiling is high enough','Indoor on hard surface - Yes','Outdoor on grass - Yes','Outdoor on hard surface - yes']
   },
   {
-    price: "180£",
+    price: "800£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-blue.png",
-    title: "Princess Bouncy Castle - Pink & Purple",
-    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/5a63d814a1d43a6bebd83c18bd714721",
+    title: "Rainbow Giant Slide ",
+    img: "/images/rainbowGiant.jpg",
+    size:['Item size: 9m (L) x 7m(W),','Required space:10mx8m'],
+    description: "Rainbow Slide is a fantastic addition to any birthday party or event, guaranteed to keep children entertained with its exhilarating drop. Its vibrant, multicolored design adds a touch of excitement. With its thrilling ride and eye-catching appearance, the Rainbow slide is sure to be a hit at any celebration.",
+    suitability:['Age-3 & adults','Suitable for all ages','Indoor on hard surface – yes, if ceiling is high enough','Indoor on hard surface - Yes','Outdoor on grass - Yes','Outdoor on hard surface - yes']
   },
   {
-    price: "190£",
+    price: "700£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
-    title: "Juniors Inflatable Bouncy Slide - Pink & Purple",
-    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/9dd4542f2d34635027d1d274261a8511",
+    title: "Toddler Slide",
+    img: "/images/toddlerSlide.jpg",
+    size:['Item size: 8m (L) x 5m(W),','Required space:9mx6m'],
+    description: "Designed for the under 6's. This attraction is a bouncy castle and 10ft slide attached. The unders 6's find theslide easy to climb and whizz down to the bouncy area that is surrounded by images of Disney characters.",
+    suitability:['Age-under 6','Suitable for all ages','Indoor on hard surface – yes, if ceiling is high enough','Indoor on hard surface - Yes','Outdoor on grass - Yes','Outdoor on hard surface - yes']
   },
   {
-    price: "350£",
+    price: "300£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
     title: "Bouncy Castle with slide Combi - Pink & Purple",
-    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/6508cf0425ed24f47a6c8f9bfcf354f1",
+    img: "/images/shootOut.jpg",
+    size:['Item size: 5m (L) x 5m(W) =25m²,','Required space:6mx6m'],
+    description: "Introducing our Bouncy Castle – the ultimate attraction for kids under 6! This delightful bouncy castle is perfect for adding a splash of fun and excitement to any birthday party or event. With its vibrant colors and playful design, it’s sure to captivate young imaginations and keep little ones entertained for hours. Ideal for creating unforgettable memories, this bouncy castle combines safety with joy, making it a fantastic choice for any celebration.",
+    suitability:['Age-under 6','Suitable for all ages','Indoor on hard surface – yes, if ceiling is high enough','Indoor on hard surface - Yes','Outdoor on grass - Yes','Outdoor on hard surface - yes']
   },
   {
-    price: "124.99£",
+    price: "200£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-blue.png",
-    title: "Juniors Bouncy Castle - Red & Blue",
+    title: "Penalty SHoot Out",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/c8f3b441a4c1a216c1932e6bf32b3865",
+    size:['Item size: 5m (L) x 3m(W) =25m²,'],
+    description: "Try your hand at scoring a goal with this exciting attraction that appeals to all ages! Kids are drawn in by the fun cartoon characters, while adults are eager to show off their skills. This engaging challenge is perfect for testing your accuracy and coordination. It's a fantastic way to get into the spirit of the World Cup and adds a lively, competitive edge to any event. Get ready to kick, score, and enjoy the fun!",
+    suitability:['Age-3+ and Adult','Suitable for all ages','Indoor on hard surface – yes, if ceiling is high enough','Indoor on hard surface - Yes','Outdoor on grass - Yes','Outdoor on hard surface - yes']
   },
   {
-    price: "199.99£",
+    price: "400£",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-orange.png",
-    title: "Diggers Bouncy Castle with slide - Red & Blue",
-    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/031d87a70672935bcf24c13eba40aa15",
+    title: "Chocolate Fountain",
+    img: "/images/fountain.jpg",
+    size:['Item size: 5m (L) x 3m(W) =25m²,'],
+    description: "Indulge in a luxurious treat with our Chocolate Fountain, featuring five cascading levels and a large capacity that holds up to 6 kg of your favorite ingredients. This delightful centerpiece is perfect for any event or celebration, creating a continuous flow of rich, melted chocolate that invites guests to dip fruits, marshmallows, and other treats. With its sleek stainless steel design and user-friendly operation, the Chocolate Fountain adds a touch of decadence and interactive fun to your gathering, ensuring a memorable experience for everyone. Our service provides Choice of 10 Dips, Unlimited Belgian Chocolate for up to 200 people (more available on request)",
+    suitability:['Age-3+ and Adult','Suitable for all ages','Indoor on hard surface – yes, if ceiling is high enough','Indoor on hard surface - Yes','Outdoor on grass - Yes','Outdoor on hard surface - yes']
   },
   {
     price: "199.99£",
@@ -877,7 +901,7 @@ export const contactFormData = [
     rules: {
       required: "Email is required",
       pattern: {
-        value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}£/,
+        // value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}£/,
         message: "Invalid email address",
       },
     },
@@ -917,4 +941,17 @@ export const contactFormData = [
     placeHolder: "Your address",
     rules: { required: "Address is required" },
   },
+  {
+    name: "postalCode",
+    label: "Postal Code",
+    type: "text",
+    placeHolder: "Enter your postal code",
+    rules: {
+      required: "Postal code is required",
+      pattern: {
+        value: /^[A-Za-z0-9\s-]+$/,
+        message: "Invalid postal code format"
+      }
+    }
+  }
 ];
