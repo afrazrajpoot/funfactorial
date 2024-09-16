@@ -51,8 +51,8 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      // Request a Checkout Session from the server
-      const { data: { sessionId } } = await axios.post('http://localhost:9000/payment-sheet', {
+      // Request a Checkout Session from the server 
+      const { data: { sessionId } } = await axios.post('https://www.funrides.co.uk/payment-sheet', {
         amount: parseInt(decryptedData), // Amount in cents
       });
 
