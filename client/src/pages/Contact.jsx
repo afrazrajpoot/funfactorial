@@ -52,7 +52,7 @@ const Contact = () => {
 
     try {
       // Request a Checkout Session from the server 
-      const { data: { sessionId } } = await axios.post('https://www.funrides.co.uk/payment-sheet', {
+      const { data: { sessionId } } = await axios.post('https://www.api.funrides.co.uk/payment-sheet', {
         amount: parseInt(decryptedData), // Amount in cents
       });
 
