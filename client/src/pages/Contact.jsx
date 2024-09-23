@@ -112,11 +112,11 @@ const Contact = () => {
       const amount = parseInt(decryptedData); // Amount in cents
   
       // Request a Checkout Session from the server
-      const { data: { sessionId } } = await axios.post('http://localhost:9000/payment-sheet', {
+      const { data: { sessionId } } = await axios.post('https://www.api.funrides.co.uk/payment-sheet', {
         amount,
         currency: "gbp",
     
-        img: `http://localhost:5173/${itemDetail.image}`,
+        img: `https://www.funrides.co.uk/${itemDetail.image}`,
       });
   
       // Redirect to Stripe Checkout
