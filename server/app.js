@@ -10,13 +10,13 @@ app.use(express.json()); // Parse JSON bodies
 app.use(express.urlencoded({ extended: true })); // Parse URL-encoded bodies
 
 // Routes
-app.use("/api/v1", createBooking);
+app.use("/api/v1", createBooking); 
 
 // Error handler
 app.use("/api/v1", userRoute);
 app.post('/payment-sheet', async (req, res) => {
   try {
-    const { amount } = req.body; // Amount in pence (e.g., 950 for £9.50)
+    const { amount,img} = req.body; // Amount in pence (e.g., 950 for £9.50)
 
     if (typeof amount !== 'number' || amount <= 0) {
       return res.status(400).send('Invalid amount');
@@ -30,16 +30,17 @@ app.post('/payment-sheet', async (req, res) => {
           currency: 'gbp', // Currency in GBP
           product_data: {
             name: 'Service Payment',
+            images: [img],
           },
           unit_amount: amount, // Amount in pence
         },
         quantity: 1,
       }],
       mode: 'payment',
-      success_url: `https://www.funrides.co.uk/`,
+      success_url: `https://www.funrides.co.uk/success`,
       cancel_url: `https://www.funrides.co.uk/`,
     });
-
+    console.log(session,'session')
     // Respond with the sessionId
     res.json({ sessionId: session.id });
   } catch (error) {

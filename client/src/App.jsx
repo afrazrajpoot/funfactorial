@@ -4,6 +4,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Loading from "./components/Loader";
 import { Toaster } from "sonner";
+import Success from "./pages/Success";
+import AllProducts from "./pages/AllProducts";
 
 // Lazy load the pages
 const Home = lazy(() => import("./pages/Home"));
@@ -57,11 +59,13 @@ const App = () => {
         <Route path="/category/soft-play" element={<SoftPlay />} />
         <Route path="/category/party-add-ons" element={<PartyAddOns />} />
         {/* <Route path="/category/music-amps" element={<MusicAmps />} /> */}
+        <Route path="/all-products" element={<AllProducts />} />
         <Route path="/category/inflatable-games" element={<InflatableGames />} />
         <Route path="/category/generator-hier-section" element={<GeneratorHierSection />} />
         <Route path="/category/party-entertainer" element={<PartyEntertainer />} />
         <Route path="/booking" element={<BookingForm />} />
         <Route path="/:id" element={<Detail />} />
+        <Route path="/success" element={<Success />} />
       </Routes>
     </Suspense>
   );

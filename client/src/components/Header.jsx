@@ -170,19 +170,12 @@ const Header = () => {
       <article>
         <section>
           <article className="bg-[#f06eaa] mt-[4vw] mb-[2vw] p-[2vw] w-full max-w-[95vw] lg:mt-[1vw] m-auto rounded-md flex lg:justify-around lg:flex-row flex-col lg:gap-[0vw] gap-[4vw]">
-            <figure className="w-full max-w-[50vw] ml-[20vw] lg:ml-[0vw] lg:max-w-[23vw]">
-              <img
-                src="https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/check-availability@1x.png"
-                alt="img"
-                className="w-full"
-              />
-            </figure>
-
+            <motion.p whileHover={{scale:1.1}} className="font-genty text-[2vw] text-purple-600">Check Availibility && Book ONline</motion.p>
             <form
               action=""
               className="flex lg:flex-row flex-col gap-[3vw] lg:ml-[5vw] w-full items-center"
             >
-              <FormControl className="w-full lg:max-w-[15vw]">
+              <FormControl className="w-full lg:max-w-[15vw] ">
                 <InputLabel shrink={false}>{!deliveryArea && "Set delivery area"}</InputLabel>
                 <Select
                   value={deliveryArea}

@@ -13,7 +13,7 @@ const Home = () => {
     threshold: 0.1,
   });
 
-  const images = ["/images/img1.jpg", "/images/img2.jpg", "/images/img3.jpg", "/images/img4.jpg"];
+  const images = ["/images/img2.jpg", "/images/zorbBalls.jpg", "/images/IMG-20240815-WA0014.jpg", "/images/img4.jpg"];
 
   useEffect(() => {
     setData(cardData);

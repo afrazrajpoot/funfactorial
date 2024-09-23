@@ -19,6 +19,7 @@ import {
   FaCalendarAlt,
   FaUsers,
 } from "react-icons/fa";
+import {SizeTable,InflatableDetailsTable} from "../components/InflatableDetailsTable";
 
 const DetailContent = ({ itemData }) => (
   <Fade in={true} timeout={500}>
@@ -48,14 +49,15 @@ const SizeContent = ({ itemData }) => (
         <FaRuler className="text-blue-500 mr-3" />
         Size Information
       </h2>
-      <div className="bg-blue-50 p-6 rounded-lg shadow-md">
+      {/* <div className="bg-blue-50 p-6 rounded-lg shadow-md">
         <h3 className="text-xl font-semibold text-blue-700 mb-4">Dimensions</h3>
         <ul className="list-disc pl-5 space-y-2 text-blue-800">
           {itemData?.size?.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
         </ul>
-      </div>
+      </div> */}
+      <SizeTable  size={itemData?.size} />
     </div>
   </Fade>
 );
@@ -65,16 +67,9 @@ const SuitabilityContent = ({ itemData }) => (
     <div className="space-y-6">
       <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 flex items-center">
         <FaUsers className="text-purple-500 mr-3" />
-        Suitability
+        Suitability 
       </h2>
-      <div className="bg-purple-50 p-6 rounded-lg shadow-md">
-        <h3 className="text-xl font-semibold text-purple-700 mb-4">Event and Surface Suitability</h3>
-        <ul className="list-disc pl-5 space-y-2 text-purple-800">
-          {itemData?.suitability?.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
-      </div>
+      <InflatableDetailsTable size={itemData?.size} suitability={itemData?.suitability} />
     </div>
   </Fade>
 );
@@ -141,7 +136,7 @@ const Detail = () => {
     }
     if (isError) {
       setItemDetail({ name: itemData?.title, price: itemData?.price, id: id });
-      encryptAndSaveToLocalStorage('data', { name: itemData?.title, price: itemData?.price, id: id });
+      encryptAndSaveToLocalStorage('data', { name: itemData?.title, price: itemData?.price, id: id,image:itemData?.img });
       navigate(`/contact`);
     }
   }, [isSuccess, isError, itemData]);
