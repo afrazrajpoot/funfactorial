@@ -16,12 +16,15 @@ app.use("/api/v1", createBooking);
 app.use("/api/v1", userRoute);
 app.post('/payment-sheet', async (req, res) => {
   try {
-    const { amount,img} = req.body; // Amount in pence (e.g., 950 for £9.50)
-
+    const { amount, img } = req.body; // Amount in pounds
+    
+    // Check if the amount is valid
     if (typeof amount !== 'number' || amount <= 0) {
       return res.status(400).send('Invalid amount');
     }
 
+    // Convert pounds to pence
+    const amountInPence = amount * 100;
     // Create a Checkout Session
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
@@ -32,7 +35,7 @@ app.post('/payment-sheet', async (req, res) => {
             name: 'Service Payment',
             images: [img],
           },
-          unit_amount: amount, // Amount in pence
+          unit_amount: amountInPence, // Amount in pence
         },
         quantity: 1,
       }],
@@ -40,8 +43,6 @@ app.post('/payment-sheet', async (req, res) => {
       success_url: `https://www.funrides.co.uk/success`,
       cancel_url: `https://www.funrides.co.uk/`,
     });
-    console.log(session,'session')
-    // Respond with the sessionId
     res.json({ sessionId: session.id });
   } catch (error) {
     console.error('Error creating Checkout Session:', error);

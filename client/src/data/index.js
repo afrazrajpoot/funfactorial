@@ -104,7 +104,7 @@ export const ribbons = [
   },
   {
     img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-orange.png",
-    title: "INdoor Bouncy Castles Event Packages",
+    title: "Indoor Bouncy Castles Event Packages",
     url: "/category/chrismis-inflatables",
   },
   {
