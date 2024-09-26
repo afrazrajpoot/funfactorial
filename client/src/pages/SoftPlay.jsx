@@ -3,54 +3,30 @@ import Ribbons from "../components/Ribbons";
 import Card from "../components/Card";
 import { cardData } from "../data";
 
-const SoftPlay = () => {
-  const softPlayData = [
-    {
-      info: "Our Soft Play Hire sets are very popular for under 5's that don't just want to bounce!",
-    },
-    {
-      info: "Small children can be daunted by the noise, or nervous around so many excited children who they don’t know at a Soft Play Centre that you may want to create you own Soft Play Area either at home or in a local hall.",
-    },
-    {
-      info: "Soft Play is perfect for birthday parties, christenings or weddings where you need to entertain small children and babies.",
-    },
-    {
-      info: "You can hire the Soft Play set on its own or as part of a package where we offer generous discounts. The smaller soft play sets can fit in your house, and you can add on extras to fit in the space you have, or the larger soft play sets are perfect in a hall where you can add additional toys, bouncy castles, slides or obstacle course, the possibilities are endless.",
-    },
-  ];
+const AsultCourse = () => {
   return (
-    <main className="flex items-start mt-[3vw]">
-      <section className="mt-[1vw] hidden lg:block">
+    <main className="flex items-start gap-[2vw] pr-[5vw] overflow-hidden">
+      {/* Ribbons Section */}
+      <section className="mt-[2vw] hidden lg:block">
         <Ribbons />
       </section>
 
-      <section className="p-[2vw] w-4/5">
-        <h1 className="text-red-500 lg:w-[73.5vw] ml-[-2vw] px-[4vw] lg:px-[0vw] font-medium text-[7vw] w-[100vw]  lg:ml-[0vw]  lg:text-left text-center lg:text-[2.5vw] font-ab">
-          SOFT PLAY HIRE LEEDS & SOFT PLAY HIRE WAKEFIELD
+      {/* Main Content Section */}
+      <section className="lg:w-[68vw] w-full flex flex-col items-center">
+        {/* Heading */}
+        <h1 className="text-center text-[#ed145b] mt-[5vw] lg:mt-[2vw] font-bold text-[7vw] lg:text-[2.5vw] lg:w-full">
+          Other Inflatable
         </h1>
-        <article className="flex flex-col gap-[4vw] lg:gap-[1vw]">
-          {softPlayData.map((item, index) => (
-            <p className="lg:text-[1vw] px-[3vw] lg:px-[0vw] font-pt mt-[1vw]" key={index}>
-              {item.info}
-            </p>
+
+        {/* Card Grid */}
+        <article className="lg:grid lg:grid-cols-4 lg:gap-[3vw] mt-[5vw] lg:mt-[2vw] flex flex-col gap-[6vw] items-center">
+          {cardData?.map((elem, ind) => (
+            <Card key={ind} {...elem} w="16.5" />
           ))}
         </article>
-        <p className="lg:text-[1vw] font-pt mt-[1vw]">
-          Before booking online we recommend you call the office on{" "}
-          <span className="font-bold">07531522289</span>
-          to confirm we can accommodate the delivery and collection times if hiring a hall!
-        </p>
-        <p className="lg:mt-[1vw] font-pt mt-[3vw] lg:text-[1vw]">
-          Please note our Soft Play sets are for Indoor Use only.
-        </p>
-        <section className="lg:grid   lg:grid-cols-4 lg:gap-[3vw]  flex flex-col gap-[9vw]">
-          {cardData?.map((elem, ind) => (
-            <Card key={ind} {...elem} w="16.5" ind={ind} ml={"4vw"} />
-          ))}
-        </section>
       </section>
     </main>
   );
 };
 
-export default SoftPlay;
+export default AsultCourse;

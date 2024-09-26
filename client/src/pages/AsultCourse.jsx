@@ -5,19 +5,21 @@ import { cardData } from "../data";
 
 const AsultCourse = () => {
   return (
-    <main className="flex items-start gap-[2vw] pr-[5vw]">
-      <section className="mt-[1vw] hidden lg:block">
+    <main className="flex items-start gap-[2vw] pr-[5vw] overflow-hidden">
+      {/* Ribbons Section */}
+      <section className="mt-[2vw] hidden lg:block">
         <Ribbons />
       </section>
-      <section className="p-[2vw]">
-        <h1 className="text-[#ed145b] mt-[5vw] lg:mt-[0vw] lg:text-[2.3vw] font-bold text-center">
-          ASSAULT COURSE
+
+      {/* Main Content Section */}
+      <section className="lg:w-[68vw] w-full flex flex-col items-center">
+        {/* Heading */}
+        <h1 className="text-center text-[#ed145b] mt-[5vw] lg:mt-[2vw] font-bold text-[7vw] lg:text-[2.5vw] lg:w-full">
+          Zorb Balls
         </h1>
-        <h1 className="text-[#ed145b] lg:text-[2.3vw] font-bold mt-[1vw] text-center">
-          ABSOLUTELY AWESOME SELECTION OF EVENT INFLATABLES AVAILABLE TO HIRE.
-        </h1>
-        <p className="text-blue-700 mt-[1vw] lg:text-[1vw] text-center">www.funfactorleeds.co.uk</p>
-        <article className="lg:grid mt-[6vw] lg:mt-[1vw] ml-[-3vw]  lg:grid-cols-4 lg:gap-x-[7vw] flex flex-col">
+
+        {/* Card Grid */}
+        <article className="lg:grid lg:grid-cols-4 lg:gap-[3vw] mt-[5vw] lg:mt-[2vw] flex flex-col gap-[6vw] items-center">
           {cardData?.map((elem, ind) => (
             <Card key={ind} {...elem} w="16.5" />
           ))}

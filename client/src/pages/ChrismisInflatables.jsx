@@ -1,44 +1,25 @@
 import React from "react";
 import Ribbons from "../components/Ribbons";
-import { cardData, chrismisList, chrismisList2 } from "../data";
+import { cardData } from "../data";
 import Card from "../components/Card";
 
 const ChrismisInflatables = () => {
   return (
-    <main className="flex items-start gap-[2vw] mt-[1vw] pr-[5vw] overflow-x-hidden overflow-y-hidden">
+    <main className="flex items-start gap-[2vw] mt-[2vw] pr-[5vw] overflow-hidden">
+      {/* Ribbons Section */}
       <section className="hidden lg:block">
         <Ribbons />
       </section>
-      <section className="lg:w-[68vw]">
-        <p className="text-red-500 lg:w-[73.5vw] font-medium text-[7vw] w-[100vw]  lg:ml-[0vw]  lg:text-left text-center lg:text-[2.5vw] font-ab">
-          HIRE CHRISTMAS INFLATABLES & PROPS IN LEEDS, WAKEFIELD, PONTEFRACT, BARNSLEY, HUDDERSFIELD
-        </p>
-        <p className="font-pt lg:text-[1vw] mt-[1vw] px-[3vw] lg:px-[0vw]">
-          Booking a bouncy castle is so easy.
-        </p>
-        <article className="mt-[1vw]">
-          <ul className="list-disc ml-5 px-[3vw] lg:px-[0vw]">
-            {chrismisList.map((item, index) => (
-              <li key={index} className="font-pt lg:text-[1vw]">
-                {item.li}
-              </li>
-            ))}
-          </ul>
-        </article>
-        <p className="mt-[1vw] font-pt lg:text-[1vw] px-[3vw] lg:px-[0vw]">
-          If you need more reasons to book with Fun Factor Leeds....
-        </p>
-        <article className="ml-[1vw]">
-          <ul className="list-disc ml-5 px-[3vw] lg:px-[0vw]">
-            {chrismisList2.map((item, index) => (
-              <li key={index} className="font-pt  lg:text-[1vw]">
-                {item.li}
-              </li>
-            ))}
-          </ul>
-        </article>
-        <p className="text-blue-400 mt-[2vw] ml-[1vw]">Home About Us Contact Us</p>
-        <article className="lg:grid mt-[6vw] lg:mt-[1vw]   lg:grid-cols-4 lg:gap-[5vw] flex flex-col gap-[9vw]">
+      
+      {/* Main Content Section */}
+      <section className="lg:w-[68vw] w-full flex flex-col items-center">
+        {/* Heading */}
+        <h1 className="text-center text-white bg-gradient-to-r from-red-500 to-yellow-500 font-bold lg:text-[2.5vw] text-[7vw] py-2 px-4 rounded-md shadow-lg lg:w-full w-[90%] mb-[3vw]">
+          Indoor Bouncy Castles Event Packages
+        </h1>
+        
+        {/* Card Grid */}
+        <article className="lg:grid mt-[3vw] lg:mt-[2vw] lg:grid-cols-4 lg:gap-[3vw] flex flex-col gap-[6vw] w-full items-center">
           {cardData?.map((elem, ind) => (
             <Card key={ind} {...elem} w="16.5" />
           ))}

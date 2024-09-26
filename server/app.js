@@ -17,6 +17,7 @@ app.use("/api/v1", userRoute);
 app.post('/payment-sheet', async (req, res) => {
   try {
     const { amount, img } = req.body; // Amount in pounds
+    console.log(amount, 'amount');
     
     // Check if the amount is valid
     if (typeof amount !== 'number' || amount <= 0) {
@@ -25,6 +26,7 @@ app.post('/payment-sheet', async (req, res) => {
 
     // Convert pounds to pence
     const amountInPence = amount * 100;
+
     // Create a Checkout Session
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ['card'],
@@ -40,15 +42,20 @@ app.post('/payment-sheet', async (req, res) => {
         quantity: 1,
       }],
       mode: 'payment',
-      success_url: `https://www.funrides.co.uk/success`,
-      cancel_url: `https://www.funrides.co.uk/`,
+      success_url: `http://localhost:5173/success`,
+      cancel_url: `http://localhost:5173/`,
     });
+    
+    console.log(session, 'session');
+    
+    // Respond with the sessionId
     res.json({ sessionId: session.id });
   } catch (error) {
     console.error('Error creating Checkout Session:', error);
     res.status(500).send('Internal Server Error');
   }
 });
+
 app.all("*", (req, res) => {
   res.status(404).send("Not Found");
 });

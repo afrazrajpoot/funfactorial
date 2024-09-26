@@ -74,7 +74,7 @@ exports.createBooking = async (req, res, next) => {
     const savedBooking = await newBooking.save();
 
     // Send confirmation email
-    await sendEmail(savedBooking);
+    // await sendEmail(savedBooking);
 
     res.status(201).json({
       message: `Booking successful for ${itemName} from ${start.toDateString()} to ${end.toDateString()}`,
@@ -135,3 +135,18 @@ exports.checkinAvailibility = async (req, res, next) => {
     next(err); // Pass the correct error object
   }
 };
+
+exports.getBookingDetail = async (req,res,next)=>{
+  try{
+    const bookingDetail = await Booking.find()
+    if(!bookingDetail){
+      return next(new CustomError("Boking detail not found",400))
+    }
+    res.status(200).json({
+      bookingDetail
+    })
+  }catch(err){
+    console.error("Error getting booking detail:", err);
+    next(err); // Pass the correct error object
+  }
+}

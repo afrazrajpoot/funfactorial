@@ -304,7 +304,7 @@ export let cardData = [
   bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
   title: "Jungle Bouncy Castle - Green & Light Blue",
   description: "Premium Inflatables, your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds, Wakefield, and surrounding areas.\n\nDelivering you a choice of the UK's latest, most on-trend new purchases and additions to our outstanding Premium 2024 Fleet!!\n\nNever to be mistaken for lesser services offering low-quality, older, cheap bouncy castles for hire!!\n\nThe Jungle Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon jungle artwork finished in a modern gloss to match the premium gloss finish on all our inflatables.\n\nIf this inflatable wasn't already good enough, why not take your special event to the next level by adding our Premium Entertainment Experience — the ultimate bouncy castle upgrade, including disco lights & a big Bluetooth speaker.\n\nThe Jungle Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions. This castle can easily be paired with slides, ball pools, soft play, and a matching mat setup to make an incredible package.\n\nSafety and hygiene are the paramount priority here at Premium Inflatables! All our Premium inflatables, Soft Play, Ball Pools, Balls, and Mats come fully sanitized for every use.\n\nWhy Choose Premium Inflatables Bouncy Castle Hire Wakefield?\n\nHave our RPii trained team deliver and set up this inflatable at your chosen home or venue.\n\nNow available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surrounding areas.",
-  img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/a2f304ef30af8d338cc320664cbe4bbf",
+  img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_1000/432e3e7ac2d7d5d9a126ce3ed1d93f6b",
   suitability:['Suitable For Children','Not Suitable For Adults','Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface'],
     size:['Unit Size:	12ft	15ft	9.5ft','Required Space:	15ft	21ft	10ft','Required Access Width:	3ft'],
 }
@@ -319,12 +319,44 @@ export let cardData = [
   size:['Unit Size:	15ft	12ft	9.5ft','Required Space:	21ft	15ft	10ft'],
 }
 ,
-  {
-    price: 154.99 + 125,
-    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
-    title: "Bungee Run Hire 35ft",
-    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/6f4b7828f05693d1f3fc3772724e2ab8",
-  },
+{
+  price: 154.99 + 125,  // Total price calculation
+  bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+  title: "Bungee Run Hire 35ft",
+  img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/6f4b7828f05693d1f3fc3772724e2ab8",
+  description: `
+    Unmatched Bungee Run Hire in Leeds and Wakefield
+    Welcome to Premium Inflatables, your premier destination for unparalleled Bungee Run Hire in Leeds and Wakefield. Elevate your events with our exceptional services that redefine inflatable fun.
+    
+    **100% Five-Star Reviews Delivering All Promises**
+    At Premium Inflatables, our commitment to excellence is reflected in our 100% five-star rating on Google. With hundreds of reviews from satisfied customers, we take pride in consistently delivering premium products and service. This unparalleled reputation sets us apart from the rest of the events and entertainment competition. Please be assured that your event is in the hands of trusted RPii trained professionals.
+    
+    **Premium Guarantees**
+    - New fully sanitised 2024 Premium Inflatables & accessories
+    - Delivering on time every time!
+    - Punctual collections
+    - Friendly, polite team dedicated to making your event safe and successful
+    - Around the clock customer service team
+    
+    It is our duty to help create The Best! Premium Events & Entertainment of 2024. We understand that organizing events can be stressful, but with our premium equipment, it’s one less thing to worry about. All our hire inflatables are fully compliant with safety standards and come with insurance and certification.
+    
+    **Features of Bungee Run Hire:**
+    - A fun, action-packed game for both kids and adults
+    - Vibrant colors and eye-catching design
+    - Suitable for various occasions like kids' parties and corporate events
+    
+    **Unrivaled Customer Satisfaction**
+    Our impressive reviews and 100% Five Star ratings on Google reflect our dedication to excellence. We are the #1 rated Bungee Run Hire company and guarantee customer satisfaction with each service.
+    
+    **The Premium Difference**
+    From safety to hygiene, we go beyond ordinary services to offer unmatched experiences. Our fleet of 2024 Premium Inflatables is fully sanitised and offers a cutting-edge, safe, and fun experience.
+
+    **Expertise You Can Trust**
+    With 15 years of experience, we are committed to ensuring your event's success. From the latest inflatables to our exceptional team, Premium Inflatables is your best choice for Bungee Run Hire across multiple areas.
+  `,
+  suitability:['Suitable For Children','Suitable For Adults','Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface'],
+  size:['Unit Size:	12ft	35ft	10ft'],
+},
   {
     price: 154.99 +125,
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
@@ -369,18 +401,16 @@ export let cardData = [
     title: "Premium Entertainment Experience Package",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/068d9d8e50b27d16579c9f8301ada306",
   },
-  {
-    price: 154.99 +125,
-    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
-    title: "Unicorn Bouncy Castle - Pink & Purple",
-    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/068d9d8e50b27d16579c9f8301ada306",
-  },
-  {
-    price: 175.99 +125,
-    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
-    title: "Adults Happy Birthday Themed Bouncy Castle - Green & Light Blue",
-    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/9eec50bece18a4474b7a6a8a2cb47e20",
-  },
+  { price: 154.99 + 125, bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png", title: "Unicorn Bouncy Castle - Pink & Purple", img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/068d9d8e50b27d16579c9f8301ada306", description: "100% Five-Star Reviews Delivering All Promises\nAt Premium Inflatables, our commitment to excellence is reflected in our 100% five-star rating on Google. With hundreds of reviews from satisfied customers, we take pride in consistently delivering premium products and service. This unparalleled reputation sets us apart from the rest of the events and entertainment competition. Please be assured that your event is in the hands of trusted RPii-trained professionals.\n\nPremium Inflatables Guarantees\n- New fully sanitized 2024 Premium Inflatables & accessories\n- Delivering on time every time!\n- Punctual collections\n- Friendly, polite team dedicated to making your event safe and successful every time!\n- Around-the-clock customer service team\n\nWe understand that event planning can be stressful. Rest assured, once you’ve booked with us, you’ll have one less thing to worry about when it comes to your bouncy castles, slides, and inflatable games.\n\nOur under-5s Unicorn Themed Bouncy Castle is perfect for birthdays or special events. It boasts a modern gloss finish with classic cartoon artwork. This inflatable can be paired with slides, ball pools, and soft play for a premium deluxe package. Ideal for indoor or outdoor occasions.\n\nLooking for another theme? Check out our themed options for this same-sized castle:\n- Girly Pink Bouncy Castle\n- Mermaids Bouncy Castle\n- Princess Bouncy Castle\n- Butterflies Bouncy Castle\n\nSafety and hygiene are our top priorities! All our inflatables are fully sanitized, and we provide PAT testing where required, along with risk assessments and method statements. Our team is RPii trained and compliant with EN14960 & HSE guidelines.\n\nPremium Inflatables now available to hire across Leeds, Wakefield, and many surrounding areas.",
+
+    suitability:['Suitable For Children','Not Suitable For Adults','Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface','Not Suitable Outdoors on Artificial Grass','Not Suitable Outdoors on Flags'],
+    size:['Unit Size:	9ft	11.5ft	8ft','Required Space:	12ft	17ft	8.5ft','Required Access Width:	3ft'],
+   },
+   { price: 175.99 + 125, bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png", title: "Adults Happy Birthday Themed Bouncy Castle - Green & Light Blue", img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/9eec50bece18a4474b7a6a8a2cb47e20", description: "One of our new purchases and additions to our outstanding premium 2024 fleet!\n\nThe Happy Birthday Themed bouncy castle is an amazing addition to any birthday party or event. It features classic cartoon happy birthday artwork finished in a modern gloss, matching the premium gloss finish on all our inflatables.\n\nFor an even more exciting experience, you can upgrade your event with disco lights and a big Bluetooth speaker, taking the fun to the next level!\n\nThis bouncy castle is ideal for all your indoor and outdoor events and special occasions. Pair it with slides, ball pools, soft play, and matching mats for an incredible package.\n\nOur trained team will deliver and set up the inflatable at your home or chosen venue.\n\nPremium Inflatables are now available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby, and surrounding areas." ,
+    suitability:['Indoors on Hard Surface','Outdoors on Artificial Grass','Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface','Not Suitable Outdoors on Artificial Grass','Not Suitable Outdoors on Flags'],
+    size:['Unit Size:	15ft	12ft	9.5ft','Required Space:	21ft	15ft	10ft'],
+
+   },
   {
     price: 125.99 +125,
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",

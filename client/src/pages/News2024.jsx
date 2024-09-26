@@ -10,7 +10,7 @@ const News2024 = () => {
         <Ribbons />
       </section>
       <section className="mt-4 lg:w-4/5  px-4 lg:px-8">
-        <h1 className="font-medium text-4xl lg:text-5xl text-center lg:text-left font-ab mb-4">
+        {/* <h1 className="font-medium text-4xl lg:text-5xl text-center lg:text-left font-ab mb-4">
           🌟 DISCOVER THE LATEST THRILLS OF 2024 AT FUN FACTOR LEEDS! 🎉✨
         </h1>
         <p className="text-black text-lg lg:text-xl text-center lg:text-left font-ab mb-8">
@@ -32,7 +32,10 @@ const News2024 = () => {
               </p>
             </div>
           ))}
-        </article>
+        </article> */}
+         <h1 className="font-medium text-4xl  lg:text-5xl text-center lg:text-left font-ab mb-4">
+          🌟 Fun Fairs! 🎉✨
+        </h1>
         <section className="lg:grid   lg:grid-cols-4 lg:gap-x-[6vw]  flex flex-col ">
           {cardData?.map((elem, ind) => (
             <Card key={ind} {...elem} w={17} ind={ind} ml={"5vw"} />

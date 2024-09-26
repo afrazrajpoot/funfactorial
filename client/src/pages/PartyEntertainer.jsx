@@ -1,52 +1,27 @@
 import React from "react";
 import Ribbons from "../components/Ribbons";
+import Card from "../components/Card";
+import { cardData } from "../data";
 
-const PartyEntertainer = () => {
-  const partyImages = [
-    {
-      img: "https://www.funfactorleeds.co.uk/userfiles/screenshot-2019-08-28-at-094118-1.png",
-    },
-    {
-      img: "https://www.funfactorleeds.co.uk/userfiles/screenshot-2019-08-28-at-094127.png",
-    },
-    {
-      img: "https://www.funfactorleeds.co.uk/userfiles/screenshot-2019-08-28-at-094108.png",
-    },
-    {
-      img: "https://www.funfactorleeds.co.uk/userfiles/screenshot-2019-08-28-at-094109.png",
-    },
-    {
-      img: "https://www.funfactorleeds.co.uk/userfiles/screenshot-2019-08-28-at-094118.png",
-    },
-  ];
+const AsultCourse = () => {
   return (
-    <main className="flex items-start mt-[3vw]">
-      <section className="mt-[1vw] hidden lg:block">
+    <main className="flex items-start gap-[2vw] pr-[5vw] overflow-hidden">
+      {/* Ribbons Section */}
+      <section className="mt-[2vw] hidden lg:block">
         <Ribbons />
       </section>
-      <section className="p-[2vw] w-[100vw]">
-        <figure>
-          <img
-            src="https://www.funfactorleeds.co.uk/userfiles/screenshot-2019-08-28-at-095353.png"
-            alt="img"
-          />
-        </figure>
-        <p className="text-blue-700 text-center lg:text-left  font-bold font-ab lg:text-[2vw] mt-[1vw]">
-          WWW.SANDRA-ENTERTAINMENT.CO.UK
-        </p>
-        <p className="lg:text-[2vw] font-medium mt-[2vw] text-center lg:text-left font-ab  text-[#00b0f0]">
-          BIG EVENTS FOR LITTLE PEOPLE WITH SANDRA WAS ESTABLISHED IN 2004 TO PROVIDE A MOBILE
-          CHILDREN’S ENTERTAINMENT SERVICE THROUGHOUT YORKSHIRE. SANDRA OFFERS VALUE FOR MONEY,
-          QUALITY PACKAGES AND HIGH STANDARDS OF PROFESSIONALISM.
-        </p>
-        <p className="lg:text-[2vw] text-center lg:text-left font-medium mt-[2vw] font-ab  text-[#00b0f0]">
-          Call Sandra: 07709252579
-        </p>
-        <article>
-          {partyImages?.map((image, index) => (
-            <figure key={index} className="w-full lg:max-w-[60vw]">
-              <img src={image.img} className="w-full" alt="party entertainer" />
-            </figure>
+
+      {/* Main Content Section */}
+      <section className="lg:w-[68vw] w-full flex flex-col items-center">
+        {/* Heading */}
+        <h1 className="text-center text-[#ed145b] mt-[5vw] lg:mt-[2vw] font-bold text-[7vw] lg:text-[2.5vw] lg:w-full">
+          Obstacle Assult Course 
+        </h1>
+
+        {/* Card Grid */}
+        <article className="lg:grid lg:grid-cols-4 lg:gap-[3vw] mt-[5vw] lg:mt-[2vw] flex flex-col gap-[6vw] items-center">
+          {cardData?.map((elem, ind) => (
+            <Card key={ind} {...elem} w="16.5" />
           ))}
         </article>
       </section>
@@ -54,4 +29,4 @@ const PartyEntertainer = () => {
   );
 };
 
-export default PartyEntertainer;
+export default AsultCourse;

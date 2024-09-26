@@ -21,7 +21,7 @@ import {
 } from "react-icons/fa";
 import {SizeTable,InflatableDetailsTable} from "../components/InflatableDetailsTable";
 
-const DetailContent = ({ itemData }) => (
+const DetailContent = ({ itemData }) => ( 
   <Fade in={true} timeout={500}>
     <div className="space-y-6">
       <h1 className="text-3xl lg:text-4xl font-bold text-gray-800 flex items-center">
@@ -32,10 +32,14 @@ const DetailContent = ({ itemData }) => (
         {itemData.description}
       </p>
       <div className="bg-gray-100 p-6 rounded-lg shadow-inner">
-        <h2 className="text-2xl font-bold text-gray-800 mb-4 flex items-center">
-          <FaDollarSign className="text-green-500 mr-2" />
-          Price
-        </h2>
+        <div className="flex justify-between items-center mb-4">
+          <h2 className="text-2xl font-bold text-gray-800 flex items-center">
+            £  Price
+          </h2>
+          <div className="bg-blue-500 hover:cursor-pointer text-white px-3 py-1 rounded-full text-sm font-semibold">
+            {itemData.isPremium ? "Drop and Go" : "2 operators"}
+          </div>
+        </div>
         <p className="text-3xl font-bold text-green-600">{itemData.price}</p>
       </div>
     </div>

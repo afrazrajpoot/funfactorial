@@ -1,41 +1,32 @@
-const cron = require("node-cron");
-const bookingModel = require("../models/bookingModel");
+const cron = require('node-cron');
+const mongoose = require('mongoose');
+const BookingModel = require('../models/bookingModel');
 
-const startBookingCleanupJob = () => {
-  // Run the job every 3, 6, 9, 12, 15, ..., 57 seconds past the minute
-  const seconds = Array.from({ length: 20 }, (_, i) => i * 3);
+const CLEANUP_INTERVAL = '0 * * * *'; // Run every hour
 
-  seconds.forEach((second) => {
-    cron.schedule(`10 * * * * *`, async () => {
-      console.log(`Cron job running at ${second} seconds past the minute...`);
+async function cleanupExpiredBookings() {
+  const now = new Date();
+  // Setting current date to midnight UTC
+  const currentDateMidnightUTC = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()));
 
-      try {
-        const now = new Date();
-        console.log("Current time:", now);
+  console.log(`Running booking cleanup at ${now.toISOString()}`);
 
-        // Find bookings where endDate is before the current date
-        const expiredBookings = await bookingModel.find({
-          endDate: { $lte: now },
-        });
+  try {
+    // Delete bookings where endDate is less than the current date (midnight UTC)
+    const result = await BookingModel.deleteMany({ endDate: { $lt: currentDateMidnightUTC } });
+    console.log(`Deleted ${result.deletedCount} expired bookings`);
+  } catch (error) {
+    console.error('Error during booking cleanup:', error);
+  }
+}
 
-        console.log("Expired bookings found:", expiredBookings);
-
-        if (expiredBookings.length > 0) {
-          // Delete expired bookings
-          await bookingModel.deleteMany({
-            _id: { $in: expiredBookings.map((booking) => booking._id) },
-          });
-          console.log(`Deleted ${expiredBookings.length} expired bookings`);
-        } else {
-          console.log("No expired bookings to delete");
-        }
-      } catch (err) {
-        console.error("Error deleting expired bookings:", err);
-      }
-    });
+function startBookingCleanupJob() {
+  cron.schedule(CLEANUP_INTERVAL, cleanupExpiredBookings, {
+    scheduled: true,
+    timezone: 'UTC',
   });
 
-  console.log("Booking cleanup jobs scheduled to run every 3 seconds");
-};
+  console.log(`Booking cleanup job scheduled to run ${CLEANUP_INTERVAL}`);
+}
 
 module.exports = startBookingCleanupJob;

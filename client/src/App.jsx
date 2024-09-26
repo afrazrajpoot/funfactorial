@@ -7,6 +7,7 @@ import { Toaster } from "sonner";
 import Success from "./pages/Success";
 import AllProducts from "./pages/AllProducts";
 
+
 // Lazy load the pages
 const Home = lazy(() => import("./pages/Home"));
 const Ribbons = lazy(() => import("./components/Ribbons"));
@@ -33,7 +34,7 @@ const GeneratorHierSection = lazy(() => import("./pages/GeneratorHierSection"));
 const PartyEntertainer = lazy(() => import("./pages/PartyEntertainer"));
 const BookingForm = lazy(() => import("./pages/Booking"));
 const Detail = lazy(() => import("./dynamicPages/Detail"));
-
+const Admin = lazy(() => import("./pages/Admin"));
 const App = () => {
   return (
     <Suspense fallback={<Loading />}>
@@ -66,6 +67,7 @@ const App = () => {
         <Route path="/booking" element={<BookingForm />} />
         <Route path="/:id" element={<Detail />} />
         <Route path="/success" element={<Success />} />
+        <Route path="admin" element ={<Admin />} />
       </Routes>
     </Suspense>
   );
