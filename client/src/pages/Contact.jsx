@@ -142,7 +142,7 @@ const Contact = () => {
       // Payment processing
       const {
         data: { sessionId },
-      } = await axios.post("https://www.funrides.co.uk/payment-sheet", {
+      } = await axios.post("https://api.funrides.co.uk/payment-sheet", {
         amount,
         currency: "gbp",
         img: `https://www.funrides.co.uk/${itemDetail.image}`,
