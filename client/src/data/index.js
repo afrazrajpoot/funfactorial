@@ -970,7 +970,7 @@ export const contactData = [
   },
   {
     title: "Email us:",
-    info: "info@funfactorleeds.co.uk",
+    info: "enquiries@funrides.co.uk",
   },
   {
     title: "Add us on:",

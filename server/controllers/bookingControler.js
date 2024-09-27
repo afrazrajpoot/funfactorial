@@ -35,6 +35,7 @@ exports.createBooking = async (req, res, next) => {
     const currentDate = new Date();
 
     if (start < currentDate.setHours(0, 0, 0, 0)) {
+      console.log("create booking", name, email, phone, address, startDate, endDate, itemDetail);
       throw new CustomError("Start date cannot be in the past", 400);
     }
 
