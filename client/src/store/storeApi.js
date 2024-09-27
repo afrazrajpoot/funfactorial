@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export const storeApi = createApi({
   reducerPath: "storeApi",
-  baseQuery: fetchBaseQuery({ baseUrl: `http://localhost:9000` }),
+  baseQuery: fetchBaseQuery({ baseUrl: `https://api.funrides.co.uk` }),
   endpoints: (builder) => ({
     createBooking: builder.mutation({
       query: (data) => ({

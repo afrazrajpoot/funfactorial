@@ -25,22 +25,37 @@ dependencies:
     version: 6.0.0-alpha.18(styled-components@6.1.12)
   '@mui/x-date-pickers':
     specifier: ^7.8.0
-    version: 7.12.1(@emotion/react@11.13.0)(@emotion/styled@11.13.0)(@mui/material@5.16.7)(@types/react@18.3.3)(dayjs@1.11.12)(react-dom@18.3.1)(react@18.3.1)
+    version: 7.12.1(@emotion/react@11.13.0)(@emotion/styled@11.13.0)(@mui/material@5.16.7)(@types/react@18.3.3)(date-fns@2.30.0)(dayjs@1.11.12)(react-dom@18.3.1)(react@18.3.1)
   '@reduxjs/toolkit':
     specifier: ^2.2.6
     version: 2.2.7(react-redux@9.1.2)(react@18.3.1)
+  '@stripe/react-stripe-js':
+    specifier: ^2.8.0
+    version: 2.8.0(@stripe/stripe-js@4.5.0)(react-dom@18.3.1)(react@18.3.1)
+  '@stripe/stripe-js':
+    specifier: ^4.4.0
+    version: 4.5.0
   '@tailwindcss/custom-forms':
     specifier: ^0.2.1
     version: 0.2.1(tailwindcss@3.4.10)
   axios:
     specifier: ^1.7.4
     version: 1.7.4
+  crypto-js:
+    specifier: ^4.2.0
+    version: 4.2.0
+  date-fns:
+    specifier: ^2.13.0
+    version: 2.30.0
   dayjs:
     specifier: ^1.11.11
     version: 1.11.12
   framer-motion:
     specifier: ^11.2.12
     version: 11.3.28(react-dom@18.3.1)(react@18.3.1)
+  lucide-react:
+    specifier: ^0.441.0
+    version: 0.441.0(react@18.3.1)
   react:
     specifier: ^18.3.1
     version: 18.3.1
@@ -53,6 +68,9 @@ dependencies:
   react-hook-form:
     specifier: ^7.52.1
     version: 7.52.2(react@18.3.1)
+  react-icons:
+    specifier: ^5.3.0
+    version: 5.3.0(react@18.3.1)
   react-intersection-observer:
     specifier: ^9.10.3
     version: 9.13.0(react-dom@18.3.1)(react@18.3.1)
@@ -1023,7 +1041,7 @@ packages:
       react-is: 18.3.1
     dev: false
 
-  /@mui/x-date-pickers@7.12.1(@emotion/react@11.13.0)(@emotion/styled@11.13.0)(@mui/material@5.16.7)(@types/react@18.3.3)(dayjs@1.11.12)(react-dom@18.3.1)(react@18.3.1):
+  /@mui/x-date-pickers@7.12.1(@emotion/react@11.13.0)(@emotion/styled@11.13.0)(@mui/material@5.16.7)(@types/react@18.3.3)(date-fns@2.30.0)(dayjs@1.11.12)(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-Zj8kt3SCQbJp1qhMi+A3I4KqB8i5OY2Q11mdOEathFhqN/SQm1sUjIa1G09cGP1dPDgK1a6KM6qJGNtcw/nuWA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -1067,6 +1085,7 @@ packages:
       '@mui/utils': 5.16.6(@types/react@18.3.3)(react@18.3.1)
       '@types/react-transition-group': 4.4.11
       clsx: 2.1.1
+      date-fns: 2.30.0
       dayjs: 1.11.12
       prop-types: 15.8.1
       react: 18.3.1
@@ -1255,6 +1274,24 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@stripe/react-stripe-js@2.8.0(@stripe/stripe-js@4.5.0)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-Vf1gNEuBxA9EtxiLghm2ZWmgbADNMJw4HW6eolUu0DON/6mZvWZgk0KHolN0sozNJwYp0i/8hBsDBcBUWcvnbw==}
+    peerDependencies:
+      '@stripe/stripe-js': ^1.44.1 || ^2.0.0 || ^3.0.0 || ^4.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@stripe/stripe-js': 4.5.0
+      prop-types: 15.8.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    dev: false
+
+  /@stripe/stripe-js@4.5.0:
+    resolution: {integrity: sha512-dMOzc58AOlsF20nYM/avzV8RFhO/vgYTY7ajLMH6mjlnZysnOHZxsECQvjEmL8Q/ukPwHkOnxSPW/QGCCnp7XA==}
+    engines: {node: '>=12.16'}
+    dev: false
 
   /@tailwindcss/custom-forms@0.2.1(tailwindcss@3.4.10):
     resolution: {integrity: sha512-XdP5XY6kxo3x5o50mWUyoYWxOPV16baagLoZ5uM41gh6IhXzhz/vJYzqrTb/lN58maGIKlpkxgVsQUNSsbAS3Q==}
@@ -1700,6 +1737,10 @@ packages:
       shebang-command: 2.0.0
       which: 2.0.2
 
+  /crypto-js@4.2.0:
+    resolution: {integrity: sha512-KALDyEYgpY+Rlob/iriUtjV6d5Eq+Y191A5g4UqLAi8CyGP9N1+FdVbkc1SxKc2r4YAYqG8JzO2KGL+AizD70Q==}
+    dev: false
+
   /css-color-keywords@1.0.0:
     resolution: {integrity: sha512-FyyrDHZKEjXDpNJYvVsV960FiqQyXc/LlYmsxl2BcdMb2WPx0OGRVgTg55rPSyLSNMqP52R9r8geSp7apN3Ofg==}
     engines: {node: '>=4'}
@@ -1744,6 +1785,13 @@ packages:
       call-bind: 1.0.7
       es-errors: 1.3.0
       is-data-view: 1.0.1
+
+  /date-fns@2.30.0:
+    resolution: {integrity: sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==}
+    engines: {node: '>=0.11'}
+    dependencies:
+      '@babel/runtime': 7.25.0
+    dev: false
 
   /date-fns@3.6.0:
     resolution: {integrity: sha512-fRHTG8g/Gif+kSh50gaGEdToemgfj74aRX3swtiouboip5JDLAyDE9F11nHMIcvOaXeOC6D7SpNhi7uFyB7Uww==}
@@ -2759,6 +2807,14 @@ packages:
       yallist: 3.1.1
     dev: true
 
+  /lucide-react@0.441.0(react@18.3.1):
+    resolution: {integrity: sha512-0vfExYtvSDhkC2lqg0zYVW1Uu9GsI4knuV9GP9by5z0Xhc4Zi5RejTxfz9LsjRmCyWVzHCJvxGKZWcRyvQCWVg==}
+    peerDependencies:
+      react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc
+    dependencies:
+      react: 18.3.1
+    dev: false
+
   /make-event-props@1.6.2:
     resolution: {integrity: sha512-iDwf7mA03WPiR8QxvcVHmVWEPfMY1RZXerDVNCRYW7dUr2ppH3J58Rwb39/WG39yTZdRSxr3x+2v22tvI0VEvA==}
     dev: false
@@ -3181,6 +3237,14 @@ packages:
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18 || ^19
+    dependencies:
+      react: 18.3.1
+    dev: false
+
+  /react-icons@5.3.0(react@18.3.1):
+    resolution: {integrity: sha512-DnUk8aFbTyQPSkCfF8dbX6kQjXA9DktMeJqfjrg6cK9vwQVMxmcA3BfP4QoiztVmEHtwlTgLFsPuH2NskKT6eg==}
+    peerDependencies:
+      react: '*'
     dependencies:
       react: 18.3.1
     dev: false
