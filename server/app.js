@@ -17,8 +17,9 @@ app.use("/api/v1", userRoute);
 app.post('/payment-sheet', async (req, res) => {
   try {
     const { amount, img } = req.body; // Amount in pounds
-    console.log(amount, 'amount');
-    
+    console.log(amount,img, 'amount');
+    let productImages = `https://www.funrides.co.uk${img}`
+    console.log(productImages, 'productImages')
     // Check if the amount is valid
     if (typeof amount !== 'number' || amount <= 0) {
       return res.status(400).send('Invalid amount');
@@ -35,7 +36,7 @@ app.post('/payment-sheet', async (req, res) => {
           currency: 'gbp', // Currency in GBP
           product_data: {
             name: 'Service Payment',
-            images: [img],
+            images: [productImages],
           },
           unit_amount: amountInPence, // Amount in pence
         },

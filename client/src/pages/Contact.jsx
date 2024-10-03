@@ -60,6 +60,8 @@ const Contact = () => {
   const [decryptedData, setDecryptedData] = useState({});
   const [payment, setPAyment] = useState({});
   const { itemDetail, setItemDetail } = useGlobalState();
+
+  console.log(itemDetail.image,'image')
   // const [booking, { isLoading, isError, error, isSuccess, data: responseData }] = useCreateBookingMutation();
   const stripe = useStripe();
 
@@ -130,7 +132,7 @@ const Contact = () => {
           itemDetail,
         })
       );
-  
+     
       // Check if Stripe is loaded
       if (!stripe) {
         toast.error("Stripe is not loaded. Please try again later.");
@@ -145,7 +147,7 @@ const Contact = () => {
       } = await axios.post("https://api.funrides.co.uk/payment-sheet", {
         amount,
         currency: "gbp",
-        img: `https://www.funrides.co.uk/${itemDetail.image}`,
+        img: itemDetail.image,
       });
   
       const paymentResponse = await stripe.redirectToCheckout({ sessionId });

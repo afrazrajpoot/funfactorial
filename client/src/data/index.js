@@ -780,7 +780,7 @@ suitability:['Indoors on Hard Surface','Outdoors on Artificial Grass','Outdoors 
   Price: 175,
   bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
   title: "Adults Christmas Theme Bouncy Castle Hire - Green & Light Blue",
-  img: "/cProduct/Adults Christmas Theme Bouncy Castle Hire - Green & Light Blue.webp",
+  img: "/cProduct/C1.png",
    description:`Adults Christmas Theme Bouncy Castle Hire - Green & Light Blue
 
 Adults Bouncy Castle Hire
@@ -815,9 +815,9 @@ suitability:['Indoors on Hard Surface	','Outdoors on Artificial Grass','Outdoors
 },
 {
   price: 175,
-  bgImg: "/cProduct/Adults Christmas Theme Bouncy Castle Hire - Pink & Purple.webp",
+  bgImg: "/cProduct/C2.png",
   title: "One of our new purchases and additions to our outstanding premium 2024 fleet!!",
-  img: "/cProduct/Adults Christmas Theme Bouncy Castle Hire - Pink & Purple.webp",
+  img: "/cProduct/C2.png",
    description:`The Party Time Themed bouncy castle is a amazing addition to any birthday party or event, 
 boasting the classic cartoon party time artwork which is finished in a modern gloss to match
  the premium gloss finish on all our inflatables.
@@ -848,9 +848,9 @@ suitability:['Indoors on Hard Surface',
 
 {
   price: 135,
-  bgImg: "/cProduct/Adults Christmas Theme Bouncy Castle Hire - Pink & Purple.webp",
+  bgImg: "/cProduct/Adults Christmas Theme Bouncy Castle Hire - Pink & Purple.png",
   title: "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
-  img: "/cProduct/Christmas Bouncy Castle - Green & Light Blue.webp",
+  img: "/cProduct/C3.png",
    description:`Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!
 
 Never to be mistaken with lesser lower services offering low quality older cheap bouncy castles for hire!!
@@ -893,10 +893,10 @@ suitability:['Suitable For Children',
 
 {
   price: 135,
-  bgImg: "/cProduct/Adults Christmas Theme Bouncy Castle Hire - Pink & Purple.webp",
+  bgImg: "/cProduct/Adults Christmas Theme Bouncy Castle Hire - Pink & Purple.png",
   title: "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
-  img: "/cProduct/Christmas Bouncy Castle Hire - Red & Blue.webp",
-   description:`Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!
+  img: "/cProduct/C4.png",
+   description:`Delivering you a choice of UK's latest m32003ost on trend new purchases and additions to our outstanding Premium 2024 Fleet!!
 
 Never to be mistaken with lesser lower services offering low quality older cheap bouncy castles for hire!!
 
@@ -951,10 +951,10 @@ suitability:['Indoors on Hard Surface',
 {
   price: 175,
  Offer :145,
-  bgImg: "/cProduct/Adults Christmas Theme Bouncy Castle Hire - Pink & Purple.webp",
+  bgImg: "/cProduct/C5.png",
   title: "3D Dinosaur Bouncy Castle With Front Slide",
-  img: "/p3i/3DDinosaurBouncyCastleWithFrontSlide.webp",
-  images:['/p3i/3D Dinosaur Bouncy Castle With Front Slide2.webp','/p3i/3D Dinosaur Bouncy Castle With Front Slide2.webp','/p3i/3D Dinosaur Bouncy Castle With Front Slide4.webp','/p3i/3D Dinosaur Bouncy Castle With Front Slide5.webp'],
+  img: "/p3i/P1.png",
+  images:['/p3i/p2.png','/p3i/p3.png','/p3i/p4.png','/p3i/p5.png'],
    description:`https://youtu.be/s2w_4OBgKs8`,
 
 size:['12ft,15ft,9.5ft',
@@ -977,10 +977,10 @@ suitability:['Not Suitable For Adults','Indoors on Hard Surface',
 {
   price: 175,
   Offer: 145,
-  bgImg: "/p3i/Adults Christmas Theme Bouncy Castle Hire - Pink & Purple.webp",
+  bgImg: "/p3i/Adults Christmas Theme Bouncy Castle Hire - Pink & Purple.png",
   title: "3D Lion Bouncy Castle With Front Slide",
-  img: "/p3i/3D Lion Bouncy Castle With Front Slide.webp",
-  images:['/p3i/3D Dinosaur Bouncy Castle With Front Slide2.webp','/p3i/3D Dinosaur Bouncy Castle With Front Slide2.webp','/p3i/3D Dinosaur Bouncy Castle With Front Slide4.webp','/p3i/3D Dinosaur Bouncy Castle With Front Slide5.webp'],
+  img: "/p3i/p6.png",
+  images:['/p3i/p2.png','/p3i/p3.png','/p3i/p4.png','/p3i/p5.png'],
    description:`3D Lion Jungle Theme Bounce N' Slide
 Contact Premium Inflatables
 It couldn't be easier to get in touch with the team here at Premium inflatables. 
@@ -1009,10 +1009,10 @@ suitability:['Not Suitable For Adults	','Indoors on Hard Surface',
 {
   price: 175,
   Offer: 145,
-  bgImg: "/p3i/3DDinosaurBouncyCastleWithFrontSlide.webp",
+  bgImg: "/p3i/3DDinosaurBouncyCastleWithFrontSlide.png",
   title: "3D Monster Truck Bouncy Castle With Front Slide",
-  img: "/p3i/3D Lion Bouncy Castle With Front Slide.webp",
-  images:['/p3i/3DDinosaurBouncyCastleWithFrontSlide.webp','/p3i/3DMonsterTruckBouncyCastleWithFrontSlide.webp','/p3i/3DUnicornBouncyCastleWithFrontSlide.webp','/p3i/Premium3dInflatables.webp'],
+  img: "/p3i/p8.png",
+  images:['/p3i/p7.png','/p3i/p8.png','/p3i/p9.png'],
    description:`3D Unicorn Bounce N' Slide
 Available to hire from November
 Click Here For Reservations
