@@ -242,7 +242,7 @@ export let cardData = [
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-green.png",
     title: "Juniors Inflatable Bouncy Slide - Green & Light Blue",
     description: "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings. Delivering you a choice of the UK's latest, most on-trend new purchases and additions to our outstanding Premium 2024 Fleet!! Never to be mistaken with lesser, lower services offering low-quality, older, cheap bouncy castles for hire!!\n\nThe under 5’s / Toddlers Green and Light Blue 5ft Platform slide is a great addition to any party or event. Our bouncy inflatable slide is finished in a modern gloss to match the premium gloss finish on all our inflatables.\n\nThe bouncy slide is ideal for all your indoor or outdoor events and entertainment.\n\nIf this amazing inflatable wasn't already good enough, why not take your party or special event to the next level by adding the under 5’s / Toddlers bouncy castle or Matching Soft Play, creating the perfect package for your party to keep everyone entertained.",
-    size:['Unit Size:	12ft	12ft	8ft'],
+    size:['12ft,12ft,8ft'],
     suitability:['Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface'],
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/2bf5ff658cb589e53f75814341cd0b5c"
   },
@@ -252,7 +252,7 @@ export let cardData = [
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-orange.png",
     title: "Dinosaurs Bouncy Castle - Green & Light Blue",
     description: "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.\n\nDelivering you a choice of the UK's latest, most on-trend new purchases and additions to our outstanding Premium 2024 Fleet!!\n\nNever to be mistaken with lesser, lower services offering low-quality, older, cheap bouncy castles for hire!!\n\nOur under 5's / Toddlers Dinosaurs Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork which is finished in a modern gloss to match the premium gloss finish on all our bouncy castles and inflatables.\n\nThe Dinosaurs Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with matching toddlers slides, ball pools, soft play, and matching mat set up to make an incredible premium deluxe package.\n\nWhy Choose Premium Inflatables Bouncy Castle Hire Wakefield?\n\nHave our RPii-trained team deliver and set up this inflatable at your chosen home or venue.\n\nNow available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings.",
-    size:['Unit Size:	9ft	11.5ft	8ft','Required Space:	12ft	17ft	8.5ft'],
+    size:['9ft,11.5ft,8ft','12ft,17ft,8.5ft'],
     suitability:['Indoors on Hard Surface','Outdoors on Artificial Grass','Outdoors on Flags','Outdoors on Grass','Outdoors on Hard Surface'],
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/c343f91d3e2847346e5ad1f27b37d50f"
   },
@@ -262,7 +262,7 @@ export let cardData = [
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-green.png",
     title: "Giant Velcro Dartboard Game",
     description: "100% Five-Star Reviews Delivering All Promises. At Premium Inflatables, our commitment to excellence is reflected in our 100% five-star rating on Google. With hundreds of reviews from satisfied customers, we take pride in consistently delivering premium products and service. This unparalleled reputation sets us apart from the rest of the events and entertainment competition. Please be assured that your event is in the hands of trusted RPii trained professionals.",
-    size:['Unit Size:	8ft	8ft	10ft'],
+    size:['8ft,8ft,10ft'],
     suitability:['Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface','Suitable For Children','	Suitable For Adults'],
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/2af47dcd2a88431355099bd3124d3f00"
   }
@@ -279,7 +279,7 @@ export let cardData = [
     title: "Unicorn Bouncy Castle - Pink & Purple",
     description: "The Unicorns Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon unicorns artwork which is finished in a modern gloss to match the premium gloss finish on all our inflatables.\n\nIf this amazing inflatable wasn't already good enough, why not take your special event to the next level by adding our Premium Entertainment Experience—the ultimate bouncy castle upgrade to include disco lights & a big Bluetooth speaker.\n\nThe Unicorns Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with slides, ball pools, soft play, and matching mat setup to make an incredible package.\n\nWhy Choose Premium Inflatables Bouncy Castle Hire Wakefield?\n\nHave our trained team deliver and set up this inflatable at your chosen home or venue.\n\nNow available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings.",
     suitability:['Suitable For Children','Not Suitable For Adults','Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface'],
-    size:['Unit Size:	12ft	15ft	9.5ft','Required Space:	15ft	21ft	10ft','Required Access Width:	3ft'],
+    size:['12ft,15ft,9.5ft','15ft,21ft,10ft','3ft'],
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/068d9d8e50b27d16579c9f8301ada306"
   }
 ,  
@@ -296,7 +296,7 @@ export let cardData = [
     description: "One of our new purchases and additions to our outstanding premium 2024 fleet!!\n\nThe Princess Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon princess artwork which is finished in a modern gloss to match the premium gloss finish on all our inflatables.\n\nIf this amazing inflatable wasn't already good enough, why not take your special event to the next level by adding the ultimate bouncy castle upgrade to include disco lights & a big Bluetooth speaker.\n\nThe Princess Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with slides, ball pools, soft play, and a matching mat setup to make an incredible package.\n\nHave our trained team deliver and set up this inflatable at your home or chosen venue.\n\nPremium Inflatables now available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings.",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/61f036a3f033b3695cc2eea6ec556001",
     suitability:['Indoors on Hard Surface','Outdoors on Artificial Grass','Outdoors on Flags','Outdoors on Grass','Outdoors on Hard Surface'],
-    size:['Unit Size:	15ft	12ft	9.5ft','Required Space:	21ft	15ft	10ft'],
+    size:['15ft,12ft,9.5ft','21ft,15ft,10ft'],
   }
 ,  
 {
@@ -306,7 +306,7 @@ export let cardData = [
   description: "Premium Inflatables, your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds, Wakefield, and surrounding areas.\n\nDelivering you a choice of the UK's latest, most on-trend new purchases and additions to our outstanding Premium 2024 Fleet!!\n\nNever to be mistaken for lesser services offering low-quality, older, cheap bouncy castles for hire!!\n\nThe Jungle Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon jungle artwork finished in a modern gloss to match the premium gloss finish on all our inflatables.\n\nIf this inflatable wasn't already good enough, why not take your special event to the next level by adding our Premium Entertainment Experience — the ultimate bouncy castle upgrade, including disco lights & a big Bluetooth speaker.\n\nThe Jungle Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions. This castle can easily be paired with slides, ball pools, soft play, and a matching mat setup to make an incredible package.\n\nSafety and hygiene are the paramount priority here at Premium Inflatables! All our Premium inflatables, Soft Play, Ball Pools, Balls, and Mats come fully sanitized for every use.\n\nWhy Choose Premium Inflatables Bouncy Castle Hire Wakefield?\n\nHave our RPii trained team deliver and set up this inflatable at your chosen home or venue.\n\nNow available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surrounding areas.",
   img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_1000/432e3e7ac2d7d5d9a126ce3ed1d93f6b",
   suitability:['Suitable For Children','Not Suitable For Adults','Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface'],
-    size:['Unit Size:	12ft	15ft	9.5ft','Required Space:	15ft	21ft	10ft','Required Access Width:	3ft'],
+    size:['12ft,15ft,9.5ft','15ft,21ft,10ft','3ft'],
 }
 ,
 {
@@ -316,7 +316,7 @@ export let cardData = [
   description: "One of our new purchases and additions to our outstanding Premium 2024 fleet!!\n\nThe Jungle Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon jungle artwork, finished in a modern gloss to match the premium gloss finish on all our inflatables.\n\nIf this inflatable wasn't already good enough, why not take your special event to the next level by adding the ultimate bouncy castle upgrade, including disco lights & a big Bluetooth speaker.\n\nThe Jungle Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with slides, ball pools, soft play, and a matching mat setup to make an incredible package.\n\nHave our trained team deliver and set up this inflatable at your home or chosen venue.\n\nPremium Inflatables is now available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surrounding areas.",
   img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/baa1e0a2298cc21bd9ddecfbeecd098d",
   suitability:['Indoors on Hard Surface','Outdoors on Artificial Grass','Outdoors on Flags','Outdoors on Grass','Outdoors on Hard Surface'],
-  size:['Unit Size:	15ft	12ft	9.5ft','Required Space:	21ft	15ft	10ft'],
+  size:['15ft,12ft,9.5ft','21ft,15ft,10ft'],
 }
 ,
 {
@@ -355,7 +355,7 @@ export let cardData = [
     With 15 years of experience, we are committed to ensuring your event's success. From the latest inflatables to our exceptional team, Premium Inflatables is your best choice for Bungee Run Hire across multiple areas.
   `,
   suitability:['Suitable For Children','Suitable For Adults','Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface'],
-  size:['Unit Size:	12ft	35ft	10ft'],
+  size:['12ft,35ft,10ft'],
 },
   {
     price: 154.99 +125,
@@ -386,7 +386,7 @@ export let cardData = [
   Why Choose Premium Inflatables Bouncy Castle Hire Wakefield?
   - Have our RPii trained team deliver and set up this premium inflatable at your home or venue across Leeds, Wakefield, Tingley, Morley, and surrounding areas.`,
   suitability:['Suitable For Children','Not Suitable For Adults','Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface'],
-  size:['Unit Size:	12ft	16ft	9.5ft','Required Space:	15ft	22ft	10ft','Required Access Width:	3ft'],
+  size:['12ft,16ft,9.5ft','15ft,22ft,10ft','3ft'],
   },
   
   {
@@ -404,11 +404,11 @@ export let cardData = [
   { price: 154.99 + 125, bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png", title: "Unicorn Bouncy Castle - Pink & Purple", img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/068d9d8e50b27d16579c9f8301ada306", description: "100% Five-Star Reviews Delivering All Promises\nAt Premium Inflatables, our commitment to excellence is reflected in our 100% five-star rating on Google. With hundreds of reviews from satisfied customers, we take pride in consistently delivering premium products and service. This unparalleled reputation sets us apart from the rest of the events and entertainment competition. Please be assured that your event is in the hands of trusted RPii-trained professionals.\n\nPremium Inflatables Guarantees\n- New fully sanitized 2024 Premium Inflatables & accessories\n- Delivering on time every time!\n- Punctual collections\n- Friendly, polite team dedicated to making your event safe and successful every time!\n- Around-the-clock customer service team\n\nWe understand that event planning can be stressful. Rest assured, once you’ve booked with us, you’ll have one less thing to worry about when it comes to your bouncy castles, slides, and inflatable games.\n\nOur under-5s Unicorn Themed Bouncy Castle is perfect for birthdays or special events. It boasts a modern gloss finish with classic cartoon artwork. This inflatable can be paired with slides, ball pools, and soft play for a premium deluxe package. Ideal for indoor or outdoor occasions.\n\nLooking for another theme? Check out our themed options for this same-sized castle:\n- Girly Pink Bouncy Castle\n- Mermaids Bouncy Castle\n- Princess Bouncy Castle\n- Butterflies Bouncy Castle\n\nSafety and hygiene are our top priorities! All our inflatables are fully sanitized, and we provide PAT testing where required, along with risk assessments and method statements. Our team is RPii trained and compliant with EN14960 & HSE guidelines.\n\nPremium Inflatables now available to hire across Leeds, Wakefield, and many surrounding areas.",
 
     suitability:['Suitable For Children','Not Suitable For Adults','Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface','Not Suitable Outdoors on Artificial Grass','Not Suitable Outdoors on Flags'],
-    size:['Unit Size:	9ft	11.5ft	8ft','Required Space:	12ft	17ft	8.5ft','Required Access Width:	3ft'],
+    size:['9ft,11.5ft,8ft','12ft,17ft,8.5ft','3ft'],
    },
    { price: 175.99 + 125, bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png", title: "Adults Happy Birthday Themed Bouncy Castle - Green & Light Blue", img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/9eec50bece18a4474b7a6a8a2cb47e20", description: "One of our new purchases and additions to our outstanding premium 2024 fleet!\n\nThe Happy Birthday Themed bouncy castle is an amazing addition to any birthday party or event. It features classic cartoon happy birthday artwork finished in a modern gloss, matching the premium gloss finish on all our inflatables.\n\nFor an even more exciting experience, you can upgrade your event with disco lights and a big Bluetooth speaker, taking the fun to the next level!\n\nThis bouncy castle is ideal for all your indoor and outdoor events and special occasions. Pair it with slides, ball pools, soft play, and matching mats for an incredible package.\n\nOur trained team will deliver and set up the inflatable at your home or chosen venue.\n\nPremium Inflatables are now available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby, and surrounding areas." ,
     suitability:['Indoors on Hard Surface','Outdoors on Artificial Grass','Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface','Not Suitable Outdoors on Artificial Grass','Not Suitable Outdoors on Flags'],
-    size:['Unit Size:	15ft	12ft	9.5ft','Required Space:	21ft	15ft	10ft'],
+    size:['15ft,12ft,9.5ft','21ft,15ft,10ft'],
 
    },
   {
@@ -440,7 +440,7 @@ export let cardData = [
   
   Our office is open 7 days a week from 6am to 10pm. You are always welcome to leave us a message 24 hours a day.`,
   suitability:['Suitable For Children','Suitable For Adults','Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface'],
-  size:['Unit Size:	10ft	30ft	11ft','Slide Platform Height:			6ft','Required Access Width:	4ft	'],
+  size:['10ft,30ft,11ft','6ft','4ft	'],
   }
 ,  
 {
@@ -484,7 +484,7 @@ Have our trained team deliver and set up this inflatable at your home or chosen 
 
 Premium Inflatables are now available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings.`,
 suitability:['Indoors on Hard Surface','Outdoors on Artificial Grass','Outdoors on Flags','Outdoors on Grass','Outdoors on Hard Surface'],
-size:['Unit Size:	15ft	12ft	9.5ft','Required Space:	21ft	15ft	10ft'],
+size:['15ft,12ft,9.5ft','21ft,15ft,10ft'],
 }
 ,
 {
@@ -522,7 +522,7 @@ Why Choose **Premium Inflatables Circus Bouncy Castle Hire Wakefield**?
 
 Now available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby, and surrounding areas.`,
 suitability:['Suitable For Children','Not Suitable For Adults','Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface'],
-size:['Unit Size:	12ft	15ft	9.5ft','Required Space:	15ft	21ft	10ft','Required Access Width:	3ft'],
+size:['12ft,15ft,9.5ft','15ft,21ft,10ft','3ft'],
 }
 ,
  
@@ -570,7 +570,7 @@ Our **RPii trained team** will deliver and set up this inflatable at your home o
 
 Now available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby, and surrounding areas.`,
 suitability:['Suitable For Children','Not Suitable For Adults','Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface'],
-size:['Unit Size:	15ft	12ft	9.5ft','Required Space:	21ft	15ft	10ft'],
+size:['15ft,12ft,9.5ft','21ft,15ft,10ft'],
 }
 ,
   
@@ -592,7 +592,7 @@ The aim is to block your opponent's pieces while trying to connect four of your 
 - Depth: 84 cm
 
 This super fun game can easily be paired with our Didi Cars & Hoppers Package for amazing entertainment at your child's birthday party celebrations.
-
+cardData
 **Safety and Hygiene** are our top priorities! All our premium inflatables, soft play items, ball pools, and mats are fully sanitized after every use.
 
 **Why Choose Premium Inflatables?** 
@@ -625,7 +625,7 @@ Our trained team will deliver and set up this inflatable at your home or chosen 
 
 **Available for Hire Across:**
 Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby, and surrounding areas.`,
-size:['Unit Size:	15ft	12ft	9.5ft','Required Space:	21ft	15ft	10ft'],
+size:['15ft,12ft,9.5ft','21ft,15ft,10ft'],
 suitability:['Indoors on Hard Surface','Outdoors on Artificial Grass','Outdoors on Flags','Outdoors on Grass','Outdoors on Hard Surface'],
 }
 ,
@@ -653,7 +653,7 @@ The Superheroes bouncy castle is perfect for both indoor and outdoor events. It 
 
 **Check Our Reviews:** 
 CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK`,
-size:['Unit Size:	9ft	11.5ft	8ft','Required Space:	12ft	17ft	8.5ft'],
+size:['9ft,11.5ft,8ft','12ft,17ft,8.5ft'],
 suitability:['Indoors on Hard Surface','Outdoors on Artificial Grass','Outdoors on Flags','Outdoors on Grass','Outdoors on Hard Surface'],
 
 }
@@ -709,7 +709,7 @@ This Bounce N' Slide bouncy castle can be part of our 'Bounce N' Slide Castle So
 CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK
 
 Our RPii trained team will deliver and set up this premium inflatable at your chosen home or venue across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby, and surrounding areas.`,
-size:['Unit Size:	12ft	16ft	9.5ft','Required Space:	16ft	22ft	10ft','Required Access Width:	3ft'],
+size:['12ft,16ft,9.5ft','16ft,22ft,10ft','3ft'],
 suitability:['Suitable For Children','Not Suitable For Adults','Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface'],
 }
 ,
@@ -736,7 +736,7 @@ Our trained team will deliver and set up this inflatable at your home or chosen 
 
 **Available Across Multiple Locations:**
 Premium Inflatables are now available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby, and surrounding areas.`,
-size:['Unit Size:	15ft	12ft	9.5ft','Required Space:	21ft	15ft	10ft'],
+size:['15ft,12ft,9.5ft','21ft,15ft,10ft'],
 suitability:['Indoors on Hard Surface','Outdoors on Artificial Grass','Outdoors on Flags','Outdoors on Grass','Outdoors on Hard Surface'],
 
 }
@@ -772,11 +772,273 @@ At Premium Inflatables, our commitment to excellence is reflected in our 100% fi
 
 **Guaranteed Turn Up & Delivery**
 Premium Inflatables, Yorkshire's number #1 leaders in the inflatable hire industry, offer delivery across all of Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby, and surrounding areas.`,
-size:['Unit Size:	15ft	12ft	9.5ft','Required Space:	21ft	15ft	10ft'],
+size:['15ft,12ft,9.5ft','21ft,15ft,10ft'],
 suitability:['Indoors on Hard Surface','Outdoors on Artificial Grass','Outdoors on Flags','Outdoors on Grass','Outdoors on Hard Surface'],
 
-}
+},
+{
+  Price: 175,
+  bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
+  title: "Adults Christmas Theme Bouncy Castle Hire - Green & Light Blue",
+  img: "/cProduct/Adults Christmas Theme Bouncy Castle Hire - Green & Light Blue.webp",
+   description:`Adults Christmas Theme Bouncy Castle Hire - Green & Light Blue
 
+Adults Bouncy Castle Hire
+New 2024 Premium Model includes Bluetooth Speaker
+The New 2024 Adults / Any Age Premium Bouncy Castle now available to hire at Premium Inflatables
+
+Adults Bouncy Castle Measurements
+Wide - 15ft
+Length - 15ft
+Height - 11.5ft
+Party Time Birthday Bouncy Castle Celebrations Theme
+The Party Time Themed bouncy castle is a amazing addition to any birthday party or event, boasting the classic cartoon party time 
+celebrations artwork which is finished in a modern gloss to match the premium gloss finish on all our new fleet of 2024 Premium Inflatables.
+The Party Time Themed bouncy castle is Ideal for all your indoor birthday bouncy castle parties and outdoor events.
+This castle can be easily paired with our range of Inflatable Slides, Inflatable Action Games and Inflatable Assault Courses
+Do not forget to check out our Promotional Price Premium Packages with savings of £££'s !!
+
+100% Five-Star Review Rated - A Testimony to Excellence
+At Premium Inflatables, our commitment to excellence is reflected in our 100% five-star rating on Google. With hundreds of reviews 
+from satisfied customers, we take pride in consistently delivering premium products and service. This unparalleled reputation sets 
+us apart from the competition and ensures that your event is in the hands of trusted professionals. Have our RPii trained team deliver 
+and setup this inflatable at your chosen home or venue.
+
+100% Guaranteed Turn Up & Delivery
+Premium Inflatable Yorkshire's number #1 leaders in the inflatable hire industry offer delivery across all of Leeds, Wakefield, Tingley, 
+Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, 
+Selby & surroundings.`,
+
+size:['15ft,15ft,11.5ft','18ft,21ft,12ft'],
+suitability:['Indoors on Hard Surface	','Outdoors on Artificial Grass','Outdoors on Flags	','Outdoors on Grass','Outdoors on Hard Surface'],
+
+},
+{
+  price: 175,
+  bgImg: "/cProduct/Adults Christmas Theme Bouncy Castle Hire - Pink & Purple.webp",
+  title: "One of our new purchases and additions to our outstanding premium 2024 fleet!!",
+  img: "/cProduct/Adults Christmas Theme Bouncy Castle Hire - Pink & Purple.webp",
+   description:`The Party Time Themed bouncy castle is a amazing addition to any birthday party or event, 
+boasting the classic cartoon party time artwork which is finished in a modern gloss to match
+ the premium gloss finish on all our inflatables.
+
+If this amazing inflatable wasn't already good enough why not take your special event to the
+ next level by adding the ultimate bouncy castle upgrade to include disco light's & big Bluetooth speaker.
+
+The Party Time Themed bouncy castle is Ideal for all your indoor and outdoor events and special 
+occasions. This castle can be easily paired with slides, ball pools, soft play and matching mat set up to make an incredible package.
+
+Have our trained team deliver and setup this inflatable at your home or chosen venue.
+
+Premium Inflatables now available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, 
+Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, 
+Wentbridge, Sherburn in Elmet, Selby & surroundings.`,
+
+size:['15ft,12ft,9.5ft',
+  '21ft,15ft,10ft'],
+suitability:['Indoors on Hard Surface',	
+  'Outdoors on Artificial Grass',	
+  'Outdoors on Flags',	
+  'Outdoors on Grass	', 
+  'Outdoors on Hard Surface'],
+
+},
+
+
+
+{
+  price: 135,
+  bgImg: "/cProduct/Adults Christmas Theme Bouncy Castle Hire - Pink & Purple.webp",
+  title: "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
+  img: "/cProduct/Christmas Bouncy Castle - Green & Light Blue.webp",
+   description:`Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!
+
+Never to be mistaken with lesser lower services offering low quality older cheap bouncy castles for hire!!
+
+The Christmas bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon cars artwork
+ which is finished in a modern gloss to match the premium gloss finish on all our inflatables.
+
+If this amazing inflatable wasn't already good enough why not take your special event to the next level by adding our Premium 
+Entertainment Experience the ultimate bouncy castle upgrade to include disco light's & big Bluetooth speaker.
+
+The Christmas Themed bouncy castle is Ideal for all your indoor and outdoor events and special occasions. This castle can be 
+easily paired with slides, ball pools, soft play and matching mat set up to make an incredible package.
+
+Safety and Hygiene are the Paramount Priority here at Premium Inflatables!!
+All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use.
+Why Choose Premium Inflatables Bouncy Castle Hire Wakefield?
+CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK
+
+Have our trained team deliver and setup this inflatable at your chosen home or venue
+
+Now available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, 
+Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings.`,
+
+size:['12ft,15ft,9.5ft',
+  '15ft,21ft,10ft','3.7m,4.6m,2.9m','4.6m,6.4m,3.0m'],
+suitability:['Suitable For Children',	
+  'Not Suitable For Adults'	,
+  'Suitable For',
+  'Indoors on Hard Surface',	
+  'Outdoors on Grass',	
+  'Outdoors on Hard Surface',	
+  'Not Suitable For',
+  'Outdoors on Artificial Grass',	
+  'Outdoors on Flags'],
+
+  additionalInformation :"If you'd like to speak with us, call on 0113 460 138 alternatively email us at info@premiuminflatables.co.uk or take a look at our contact page You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!"
+}
+,
+
+
+{
+  price: 135,
+  bgImg: "/cProduct/Adults Christmas Theme Bouncy Castle Hire - Pink & Purple.webp",
+  title: "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
+  img: "/cProduct/Christmas Bouncy Castle Hire - Red & Blue.webp",
+   description:`Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!
+
+Never to be mistaken with lesser lower services offering low quality older cheap bouncy castles for hire!!
+
+The Christmas Theme bouncy castle is an amazing addition to any birthday party or event, a modern gloss to match the premium 
+gloss finish on all our inflatables.
+
+If this amazing inflatable wasn't already good enough why not take your special event to the next level by adding our Premium 
+Entertainment Experience the ultimate bouncy castle upgrade to include disco light's & big Bluetooth speaker.
+
+The Christmas Theme bouncy castle is ideal for all your indoor and outdoor events and special occasions. This castle can be easily 
+paired with slides, ball pools, soft play and matching mat set up to make an incredible package.
+
+Our new purchases and additions to our outstanding premium 2024 fleet!!
+
+The Christmas Theme bouncy castle is an amazing addition to any birthday party or event, a modern gloss to match the premium gloss
+ finish on all our inflatables.
+
+If this amazing inflatable wasn't already good enough why not take your special event to the next level by adding our Premium 
+Entertainment Experience the ultimate bouncy castle upgrade to include disco light's & big Bluetooth speaker.
+
+The Christmas Theme bouncy castle is Ideal for all your indoor and outdoor events and special occasions. This castle can be easily 
+paired with slides, ball pools, soft play and matching mat set up to make an incredible package.
+
+Safety and Hygiene are the Paramount Priority here at Premium Inflatables!!
+All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use.
+Why Choose Premium Inflatables Bouncy Castle Hire Wakefield?
+CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK
+
+Have our trained team deliver and setup this inflatable at your chosen home or venue
+
+Now available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, 
+Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings.`,
+
+size:['12ft,15ft,9.5ft',
+  '15ft,21ft,10ft','3.7m,4.6m,2.9m',
+    '4.6m,6.4m,3.0m','0.9m'	],
+suitability:['Indoors on Hard Surface',	
+  'Outdoors on Grass',	
+  'Outdoors on Hard Surface',
+  'Not Suitable For',
+  'Outdoors on Artificial Grass',	
+  'Outdoors on Flags'],
+
+  additionalInformation :"If you'd like to speak with us, call on 0113 460 138 alternatively email us at info@premiuminflatables.co.uk or take a look at our contact page You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
+  users:['Max Users @ 1.0	        7',
+    'Max Users @ 1.25	6',
+    'Max Users @ 1.5	        4',
+    'Max Users @ 1.8	        4']
+}
+,
+
+{
+  price: 175,
+ Offer :145,
+  bgImg: "/cProduct/Adults Christmas Theme Bouncy Castle Hire - Pink & Purple.webp",
+  title: "3D Dinosaur Bouncy Castle With Front Slide",
+  img: "/p3i/3DDinosaurBouncyCastleWithFrontSlide.webp",
+  images:['/p3i/3D Dinosaur Bouncy Castle With Front Slide2.webp','/p3i/3D Dinosaur Bouncy Castle With Front Slide2.webp','/p3i/3D Dinosaur Bouncy Castle With Front Slide4.webp','/p3i/3D Dinosaur Bouncy Castle With Front Slide5.webp'],
+   description:`https://youtu.be/s2w_4OBgKs8`,
+
+size:['12ft,15ft,9.5ft',
+  '','3.7m,4.6m,2.9m'	],
+suitability:['Not Suitable For Adults','Indoors on Hard Surface',	
+  'Outdoors on Artificial Grass',	
+  'Outdoors on Flags',	
+  'Outdoors on Grass',	
+  'Outdoors on Hard Surface'],
+
+  additionalInformation :"If you'd like to speak with us, call on 0113 460 138 alternatively email us at info@premiuminflatables.co.uk or take a look at our contact page You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
+  users:['Max Users @ 1.0	        6',
+    'Max Users @ 1.25	5',
+    'Max Users @ 1.5	        4',
+    'Max Users @ 1.8	        4',]
+},
+
+
+
+{
+  price: 175,
+  Offer: 145,
+  bgImg: "/p3i/Adults Christmas Theme Bouncy Castle Hire - Pink & Purple.webp",
+  title: "3D Lion Bouncy Castle With Front Slide",
+  img: "/p3i/3D Lion Bouncy Castle With Front Slide.webp",
+  images:['/p3i/3D Dinosaur Bouncy Castle With Front Slide2.webp','/p3i/3D Dinosaur Bouncy Castle With Front Slide2.webp','/p3i/3D Dinosaur Bouncy Castle With Front Slide4.webp','/p3i/3D Dinosaur Bouncy Castle With Front Slide5.webp'],
+   description:`3D Lion Jungle Theme Bounce N' Slide
+Contact Premium Inflatables
+It couldn't be easier to get in touch with the team here at Premium inflatables. 
+You can use the contact form or:
+
+Call our office on: 0113 460 1386
+Mobile / WhatsApp / Text - us on: 07482511995
+Email us at: info@premiuminflatables.co.uk`,
+
+size:[' 12ft,16ft,9.5ft',
+  '16ft,22ft,10ft','4.9m,6.7m,3.0m','3.7m,4.9m,2.9m'	],
+suitability:['Not Suitable For Adults	','Indoors on Hard Surface',	
+  'Outdoors on Artificial Grass',	
+  'Outdoors on Flags',	
+  'Outdoors on Grass',	
+  'Outdoors on Hard Surface'],
+
+  additionalInformation :"If you'd like to speak with us, call on 0113 460 138 alternatively email us at info@premiuminflatables.co.uk or take a look at our contact page You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
+  users:['Max Users @ 1.0	        6',
+    'Max Users @ 1.25	5',
+    'Max Users @ 1.5	        4',
+    'Max Users @ 1.8	        4',]
+},
+
+
+{
+  price: 175,
+  Offer: 145,
+  bgImg: "/p3i/3DDinosaurBouncyCastleWithFrontSlide.webp",
+  title: "3D Monster Truck Bouncy Castle With Front Slide",
+  img: "/p3i/3D Lion Bouncy Castle With Front Slide.webp",
+  images:['/p3i/3DDinosaurBouncyCastleWithFrontSlide.webp','/p3i/3DMonsterTruckBouncyCastleWithFrontSlide.webp','/p3i/3DUnicornBouncyCastleWithFrontSlide.webp','/p3i/Premium3dInflatables.webp'],
+   description:`3D Unicorn Bounce N' Slide
+Available to hire from November
+Click Here For Reservations
+Contact Premium Inflatables
+It couldn't be easier to get in touch with the team here at 
+Premium inflatables. You can use the contact form or:
+
+Call our office on: 0113 460 1386
+Mobile / WhatsApp / Text - us on: 07482511995
+Email us at: info@premiuminflatables.co.uk`,
+
+size:[' 12ft,	15ft	,9.5ft',
+  '3.7m	,4.6m	,2.9m'	],
+suitability:['Suitable For',
+  'Indoors on Hard Surface'	,
+  'Outdoors on Artificial Grass',	
+  'Outdoors on Flags',	
+  'Outdoors on Grass',	
+  'Outdoors on Hard Surface'],
+
+  additionalInformation :"If you'd like to speak with us, call on 0113 460 138 alternatively email us at info@premiuminflatables.co.uk or take a look at our contact page You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
+  users:['Max Users @ 1.0	        6',
+    'Max Users @ 1.25	5',
+    'Max Users @ 1.5	        4',
+    'Max Users @ 1.8	        4',]
+}
 ];
 
 export const cardImages = [

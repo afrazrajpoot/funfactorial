@@ -1,99 +1,98 @@
-import React, { useState } from "react";
-import { navData } from "../data";
-import { Link } from "react-router-dom";
-import { motion, AnimatePresence } from "framer-motion";
-import "../index.css"; // Import the index.css file
+import React, { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { FaBars, FaTimes, FaChevronDown, FaChevronUp, FaHome, FaBoxOpen, FaInfoCircle, FaEnvelope, FaMobileAlt, FaTshirt, FaBook } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+
+// Mocked navigation data
+const navData = [
+  { title: 'Home', url: '/', icon: FaHome },
+  { 
+    title: 'Products', 
+    url: '/products',
+    icon: FaBoxOpen,
+    submenu: [
+      { title: 'Electronics', url: '/products/electronics', icon: FaMobileAlt },
+      { title: 'Clothing', url: '/products/clothing', icon: FaTshirt },
+      { title: 'Books', url: '/products/books', icon: FaBook },
+    ]
+  },
+  { title: 'About', url: '/about', icon: FaInfoCircle },
+  { title: 'Contact', url: '/contact', icon: FaEnvelope },
+];
 
 const MobileHeader = () => {
-  const [showNav, setShowNav] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const [activeSubmenu, setActiveSubmenu] = useState(null);
 
-  const navVariants = {
-    hidden: { height: 0, opacity: 0 },
-    visible: { height: "auto", opacity: 1 },
-  };
-
-  const submenuVariants = {
-    hidden: { height: 0, opacity: 0, overflow: "hidden" },
-    visible: { height: "auto", opacity: 1, overflow: "hidden" },
-  };
-
-  const toggleSubmenu = (index) => {
-    if (activeSubmenu === index) {
-      setActiveSubmenu(null);
-    } else {
-      setActiveSubmenu(index);
-    }
-  };
+  const toggleMenu = () => setIsOpen(!isOpen);
+  const toggleSubmenu = (index) => setActiveSubmenu(activeSubmenu === index ? null : index);
 
   return (
-    <main className="header-container">
-      <div className="header" onClick={() => setShowNav(!showNav)}>
-        <div className="header-text">My App</div>
-        <div className="header-text cursor-pointer">{showNav ? "Cancel" : "Menu"}</div>
-      </div>
+    <div className="relative z-10 lg:hidden">
+      <header className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-4 flex justify-between items-center shadow-md">
+      <motion.section whileHover={{scale:1.1}} className="mt-[-4vw] relative">
+            <Link to="/" className="w-full block">
+              <p className="font-genty text-[#f06eaa] text-[6vw] text-center">Fun</p>
+              <p className="font-genty text-[#f06eaa] text-[6vw] absolute top-[5.5vw]">Rides</p>
+
+            </Link>
+          </motion.section>
+        <button onClick={toggleMenu} className="focus:outline-none transition-transform duration-300 ease-in-out transform hover:scale-110">
+          {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+        </button>
+      </header>
+
       <AnimatePresence>
-        {showNav && (
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            exit="hidden"
-            variants={navVariants}
-            transition={{ duration: 0.5 }}
-            className="nav-container"
+        {isOpen && (
+          <motion.nav
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.3 }}
+            className="absolute top-full left-0 right-0 bg-white shadow-lg rounded-b-lg overflow-hidden"
           >
-            <div className="nav-content">
-              {navData?.map((elem, ind) => (
-                <div key={ind}>
-                  <div className="flex justify-between items-center">
-                    <Link to={elem.url} onClick={() => setShowNav(false)}>
-                      <motion.p
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1 }}
-                        transition={{ delay: ind * 0.1 }}
-                        className="nav-item"
-                      >
-                        {elem.title}
-                      </motion.p>
-                    </Link>
-                    {elem.submenu && (
-                      <div className="text-white cursor-pointer" onClick={() => toggleSubmenu(ind)}>
-                        {activeSubmenu === ind ? "-" : "+"}
-                      </div>
+            <ul className="py-2">
+              {navData.map((item, index) => (
+                <li key={index} className="border-b border-gray-200 last:border-b-0">
+                  <div 
+                    className="flex items-center justify-between px-4 py-3 hover:bg-gray-100 cursor-pointer transition-colors duration-300"
+                    onClick={() => item.submenu ? toggleSubmenu(index) : null}
+                  >
+                    <div className="flex items-center space-x-3">
+                      <item.icon className="text-blue-600" size={20} />
+                      <span className="text-gray-800 font-medium">{item.title}</span>
+                    </div>
+                    {item.submenu && (
+                      activeSubmenu === index ? <FaChevronUp className="text-gray-600" size={16} /> : <FaChevronDown className="text-gray-600" size={16} />
                     )}
                   </div>
                   <AnimatePresence>
-                    {elem.submenu && activeSubmenu === ind && (
-                      <motion.div
-                        initial="hidden"
-                        animate="visible"
-                        exit="hidden"
-                        variants={submenuVariants}
-                        transition={{ duration: 0.5 }}
-                        className="submenu scrollbar-custom"
+                    {item.submenu && activeSubmenu === index && (
+                      <motion.ul
+                        initial={{ opacity: 0, height: 0 }}
+                        animate={{ opacity: 1, height: 'auto' }}
+                        exit={{ opacity: 0, height: 0 }}
+                        transition={{ duration: 0.3 }}
+                        className="bg-gray-50"
                       >
-                        {elem.submenu.map((subElem, subInd) => (
-                          <Link to={subElem.url} key={subInd} onClick={() => setShowNav(false)}>
-                            <motion.p
-                              initial={{ opacity: 0 }}
-                              animate={{ opacity: 1 }}
-                              transition={{ delay: subInd * 0.1 }}
-                              className="nav-item"
-                            >
-                              {subElem.title}
-                            </motion.p>
-                          </Link>
+                        {item.submenu.map((subItem, subIndex) => (
+                          <li key={subIndex} className="px-8 py-2 hover:bg-gray-100 cursor-pointer transition-colors duration-300">
+                            <div className="flex items-center space-x-3">
+                              <subItem.icon className="text-purple-600" size={16} />
+                              <span className="text-gray-600">{subItem.title}</span>
+                            </div>
+                          </li>
                         ))}
-                      </motion.div>
+                      </motion.ul>
                     )}
                   </AnimatePresence>
-                </div>
+                </li>
               ))}
-            </div>
-          </motion.div>
+            </ul>
+          </motion.nav>
         )}
       </AnimatePresence>
-    </main>
+    </div>
   );
 };
 

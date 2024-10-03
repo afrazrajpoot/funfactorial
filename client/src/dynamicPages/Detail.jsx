@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
+import { motion, AnimatePresence } from "framer-motion";
 import { cardData } from "../data";
 import Ribbons from "../components/Ribbons";
 import { Button, Fade, Grow } from "@mui/material";
@@ -18,8 +19,11 @@ import {
   FaDollarSign,
   FaCalendarAlt,
   FaUsers,
+  FaArrowLeft,
+  FaArrowRight,
+  FaTimes,
 } from "react-icons/fa";
-import {SizeTable,InflatableDetailsTable} from "../components/InflatableDetailsTable";
+import {SizeTable, InflatableDetailsTable, UsersTable} from "../components/InflatableDetailsTable";
 
 const DetailContent = ({ itemData }) => ( 
   <Fade in={true} timeout={500}>
@@ -28,19 +32,29 @@ const DetailContent = ({ itemData }) => (
         <FaStar className="text-yellow-400 mr-3" />
         Description
       </h1>
-      <p className="text-lg text-gray-600 leading-relaxed">
-        {itemData.description}
-      </p>
+     
+    
+     {
+      itemData.description === 'https://youtu.be/s2w_4OBgKs8' ? <iframe width="560" height="315" src="https://www.youtube.com/embed/s2w_4OBgKs8?si=JXavX1ge11h_6zxD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>: <p className="text-lg text-gray-600 leading-relaxed">
+      {itemData.description}
+    </p>
+     }
       <div className="bg-gray-100 p-6 rounded-lg shadow-inner">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-2xl font-bold text-gray-800 flex items-center">
-            £  Price
+            Price
           </h2>
+         
           <div className="bg-blue-500 hover:cursor-pointer text-white px-3 py-1 rounded-full text-sm font-semibold">
             {itemData.isPremium ? "Drop and Go" : "2 operators"}
           </div>
         </div>
-        <p className="text-3xl font-bold text-green-600">{itemData.price}</p>
+        <p className="text-3xl font-bold text-green-600">£{itemData.price}</p>
+        <h2 className="text-2xl font-bold text-gray-800 flex items-center">
+             Offer Price
+          </h2>
+        <p className="text-3xl font-bold text-green-600">£{itemData.Offer}</p>
+
       </div>
     </div>
   </Fade>
@@ -78,23 +92,132 @@ const SuitabilityContent = ({ itemData }) => (
   </Fade>
 );
 
+const Users = ({ itemData }) => (
+  <Fade in={true} timeout={500}>
+    <div className="space-y-6">
+      <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 flex items-center">
+        <FaUsers className="text-purple-500 mr-3" />
+        Users 
+      </h2>
+      <UsersTable size={itemData?.size} suitability={itemData?.users} />
+    </div>
+  </Fade>
+);
+
 const TestsContent = ({ itemData }) => (
   <Fade in={true} timeout={500}>
     <div className="space-y-6">
       <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 flex items-center">
         <FaFlask className="text-red-500 mr-3" />
-        Safety Tests
+        Additional information
       </h2>
       <div className="bg-red-50 p-6 rounded-lg shadow-md">
         <p className="text-lg text-red-800 leading-relaxed">
-          All our products, including the {itemData.title}, undergo rigorous safety tests to ensure they meet the highest standards.
-          Your safety is our top priority, and we spare no effort in making sure our equipment
-          is secure and reliable for all users.
+        {itemData.additionalInformation}
         </p>
       </div>
     </div>
   </Fade>
 );
+
+const ImagePreview = ({ images }) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const nextImage = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+  };
+
+  const prevImage = () => {
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+  };
+
+  return (
+    <div className="relative w-full h-64 lg:h-96">
+      <AnimatePresence initial={false}>
+        <motion.img
+          key={currentIndex}
+          src={images[currentIndex]}
+          alt={`Image ${currentIndex + 1}`}
+          className="absolute w-full h-full object-cover rounded-lg shadow-md"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 0.5 }}
+        />
+      </AnimatePresence>
+      <button
+        onClick={prevImage}
+        className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full"
+      >
+        <FaArrowLeft />
+      </button>
+      <button
+        onClick={nextImage}
+        className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full"
+      >
+        <FaArrowRight />
+      </button>
+    </div>
+  );
+};
+
+const ImageModal = ({ image, onClose }) => (
+  <motion.div
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}
+    className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50"
+    onClick={onClose}
+  >
+    <motion.div
+      initial={{ scale: 0.8 }}
+      animate={{ scale: 1 }}
+      exit={{ scale: 0.8 }}
+      className="relative max-w-3xl max-h-[90vh] overflow-hidden"
+      onClick={(e) => e.stopPropagation()}
+    >
+      <img src={image} alt="Full size preview" className="w-full h-full object-contain" />
+      <button
+        onClick={onClose}
+        className="absolute top-4 right-4 text-white bg-black bg-opacity-50 rounded-full p-2"
+      >
+        <FaTimes size={24} />
+      </button>
+    </motion.div>
+  </motion.div>
+);
+
+const ImageGrid = ({ images }) => {
+  const [selectedImage, setSelectedImage] = useState(null);
+
+  return (
+    <>
+      <div className="grid grid-cols-3 gap-2 mt-4">
+        {images.map((image, index) => (
+          <motion.div
+            key={index}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="cursor-pointer overflow-hidden rounded-lg shadow-md"
+            onClick={() => setSelectedImage(image)}
+          >
+            <img src={image} alt={`Thumbnail ${index + 1}`} className="w-full h-20 object-cover" />
+          </motion.div>
+        ))}
+      </div>
+      <AnimatePresence>
+        {selectedImage && (
+          <ImageModal image={selectedImage} onClose={() => setSelectedImage(null)} />
+        )}
+      </AnimatePresence>
+    </>
+  );
+};
+
+
+
+
+
 
 const Detail = () => {
   const [activeTab, setActiveTab] = useState("Description");
@@ -108,6 +231,7 @@ const Detail = () => {
     { name: "Size", icon: <FaRuler /> },
     { name: "Suitability", icon: <FaUsers /> },
     { name: "Tests", icon: <FaFlask /> },
+    { name: "Users", icon: <FaUsers /> },
   ];
 
   const { itemDetail, setItemDetail } = useGlobalState();
@@ -126,8 +250,7 @@ const Detail = () => {
 
   useEffect(() => {
     if (itemData === null) {
-      // Redirect to a different page if itemData is null
-      navigate('/'); // or any other page you want to redirect to
+      navigate('/');
     }
 
     if (isSuccess) {
@@ -140,7 +263,7 @@ const Detail = () => {
     }
     if (isError) {
       setItemDetail({ name: itemData?.title, price: itemData?.price, id: id });
-      encryptAndSaveToLocalStorage('data', { name: itemData?.title, price: itemData?.price, id: id,image:itemData?.img });
+      encryptAndSaveToLocalStorage('data', { name: itemData?.title, price: itemData?.price, id: id, image: itemData?.img });
       navigate(`/contact`);
     }
   }, [isSuccess, isError, itemData]);
@@ -155,6 +278,8 @@ const Detail = () => {
         return <SuitabilityContent itemData={itemData} />;
       case "Tests":
         return <TestsContent itemData={itemData} />;
+      case "Users":
+        return <Users itemData={itemData} />;
       default:
         return <DetailContent itemData={itemData} />;
     }
@@ -176,12 +301,13 @@ const Detail = () => {
               </div>
 
               <article className="flex lg:flex-row flex-col p-6">
-                <figure className="w-full lg:w-1/3 p-4">
-                  <img src={itemData.img} alt={itemData.title} className="rounded-lg shadow-md w-full object-cover h-64 lg:h-auto" />
-                </figure>
+                <div className="w-full lg:w-1/3 p-4">
+                  <ImagePreview images={itemData.images || [itemData.img]} />
+                  <ImageGrid images={itemData.images || [itemData.img]} />
+                </div>
 
                 <section className="lg:w-2/3 lg:ml-8 flex flex-col">
-                  <div className="flex mb-6 bg-gray-200 rounded-lg p-2">
+                  <div className="flex flex-col lg:flex-row mb-6 bg-gray-200 rounded-lg p-2">
                     {buttons?.map((button, i) => (
                       <button
                         onClick={() => setActiveTab(button.name)}

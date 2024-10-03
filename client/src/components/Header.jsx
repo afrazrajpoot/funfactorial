@@ -170,7 +170,7 @@ const Header = () => {
       <article>
         <section>
           <article className="bg-[#f06eaa] mt-[4vw] mb-[2vw] p-[2vw] w-full max-w-[95vw] lg:mt-[1vw] m-auto rounded-md flex lg:justify-around lg:flex-row flex-col lg:gap-[0vw] gap-[4vw]">
-            <motion.p whileHover={{scale:1.1}} className="font-genty text-[2vw] text-purple-600">Check Availibility && Book ONline</motion.p>
+            <motion.p whileHover={{scale:1.1}} className="font-genty text-[12vw] lg:text-[2vw] text-purple-600">Check Availibility && Book ONline</motion.p>
             <form
               action=""
               className="flex lg:flex-row flex-col gap-[3vw] lg:ml-[5vw] w-full items-center"

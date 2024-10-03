@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Ribbons = () => {
   return (
-    <aside className="ml-[-1vw] flex flex-col mt-[1vw] gap-[1.5vw]">
+    <aside className="ml-[-1vw] flex flex-col mt-[1vw] gap-[1.5vw] ">
       {ribbons?.map((elem, ind) => (
         <motion.div
           initial={{ opacity: 0 }}

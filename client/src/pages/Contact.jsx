@@ -181,7 +181,7 @@ const Contact = () => {
   useEffect(() => {
     const decryptedData = decryptAndGetFromLocalStorage("data");
     setItemDetail(decryptedData);
-    setDecryptedData(decryptedData?.price.slice(0, 3));
+    setDecryptedData(decryptedData?.price);
     // console.log(payment, "payment");
   }, [setItemDetail]);
 

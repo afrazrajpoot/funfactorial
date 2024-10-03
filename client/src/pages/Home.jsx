@@ -78,7 +78,7 @@ const Home = () => {
 
           <div className="mt-16">
             <section className="flex flex-col lg:flex-row gap-8">
-              <section className="lg:w-1/4">
+              <section className="lg:w-1/4 hidden lg:block">
                 <Ribbons />
               </section>
               <article className="lg:w-3/4">
