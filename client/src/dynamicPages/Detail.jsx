@@ -50,10 +50,13 @@ const DetailContent = ({ itemData }) => (
           </div>
         </div>
         <p className="text-3xl font-bold text-green-600">£{itemData.price}</p>
-        <h2 className="text-2xl font-bold text-gray-800 flex items-center">
+        {itemData.Offer && <>
+          <h2 className="text-2xl font-bold text-gray-800 flex items-center">
              Offer Price
           </h2>
-        <p className="text-3xl font-bold text-green-600">£{itemData.Offer}</p>
+       <p className="text-3xl font-bold text-green-600">£{itemData.Offer}</p>
+        </>
+       }
 
       </div>
     </div>

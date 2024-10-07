@@ -166,7 +166,7 @@ export const ribbons = [
 ];
 export const cardData = [
   {
-    price: "900£",
+    price: "900",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-orange.png",
     title: "Go kart",
     img: "/images/img2.jpg",
@@ -175,7 +175,7 @@ export const cardData = [
     suitability:['Suitable for all ages','Perfect for various events','Indoor on hard surface - Yes','Outdoor on grass - Yes','Outdoor on hard surface - Yes']
   },
   {
-    price: "900£",
+    price: "900",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-green.png",
     title: "Zorb balls",
     img: "/images/zorbBalls.jpg",
@@ -184,7 +184,7 @@ export const cardData = [
     suitability:['Age-5 & adults','Suitable for all ages','Perfect for various events','Indoor on hard surface - Yes','Outdoor on grass - Yes','Outdoor on hard surface - no']
   },
   {
-    price: "950£",
+    price: "950",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
     title: "Mega Wave Bouncy Slide",
     img: "/images/megaWave.png",
@@ -193,7 +193,7 @@ export const cardData = [
     suitability:['Age-5 & adults','Suitable for all ages','Indoor on hard surface – yes, if ceiling is high enough','Indoor on hard surface - Yes','Outdoor on grass - Yes','Outdoor on hard surface - yes']
   },
   {
-    price: "800£",
+    price: "800",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-blue.png",
     title: "Rainbow Giant Slide ",
     img: "/images/rainbowGiant.jpg",
@@ -202,7 +202,7 @@ export const cardData = [
     suitability:['Age-3 & adults','Suitable for all ages','Indoor on hard surface – yes, if ceiling is high enough','Indoor on hard surface - Yes','Outdoor on grass - Yes','Outdoor on hard surface - yes']
   },
   {
-    price: "700£",
+    price: "700",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
     title: "Toddler Slide",
     img: "/images/toddlerSlide.jpg",
@@ -211,7 +211,7 @@ export const cardData = [
     suitability:['Age-under 6','Suitable for all ages','Indoor on hard surface – yes, if ceiling is high enough','Indoor on hard surface - Yes','Outdoor on grass - Yes','Outdoor on hard surface - yes']
   },
   {
-    price: "300£",
+    price: "300",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
     title: "Bouncy Castle with slide Combi - Pink & Purple",
     img: "/images/shootOut.jpg",
@@ -220,7 +220,7 @@ export const cardData = [
     suitability:['Age-under 6','Suitable for all ages','Indoor on hard surface – yes, if ceiling is high enough','Indoor on hard surface - Yes','Outdoor on grass - Yes','Outdoor on hard surface - yes']
   },
   {
-    price: "200£",
+    price: "200",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-blue.png",
     title: "Penalty SHoot Out",
     img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/c8f3b441a4c1a216c1932e6bf32b3865",
@@ -229,7 +229,7 @@ export const cardData = [
     suitability:['Age-3+ and Adult','Suitable for all ages','Indoor on hard surface – yes, if ceiling is high enough','Indoor on hard surface - Yes','Outdoor on grass - Yes','Outdoor on hard surface - yes']
   },
   {
-    price: "400£",
+    price: "400",
     bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-orange.png",
     title: "Chocolate Fountain",
     img: "/images/fountain.jpg",
