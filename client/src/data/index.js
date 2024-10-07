@@ -237,170 +237,14 @@ export let cardData = [
     description: "Indulge in a luxurious treat with our Chocolate Fountain, featuring five cascading levels and a large capacity that holds up to 6 kg of your favorite ingredients. This delightful centerpiece is perfect for any event or celebration, creating a continuous flow of rich, melted chocolate that invites guests to dip fruits, marshmallows, and other treats. With its sleek stainless steel design and user-friendly operation, the Chocolate Fountain adds a touch of decadence and interactive fun to your gathering, ensuring a memorable experience for everyone. Our service provides Choice of 10 Dips, Unlimited Belgian Chocolate for up to 200 people (more available on request)",
     suitability:['Age-3+ and Adult','Suitable for all ages','Indoor on hard surface – yes, if ceiling is high enough','Indoor on hard surface - Yes','Outdoor on grass - Yes','Outdoor on hard surface - yes']
   },
-  {
-    price: 199.99 +125,
-    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-green.png",
-    title: "Juniors Inflatable Bouncy Slide - Green & Light Blue",
-    description: "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings. Delivering you a choice of the UK's latest, most on-trend new purchases and additions to our outstanding Premium 2024 Fleet!! Never to be mistaken with lesser, lower services offering low-quality, older, cheap bouncy castles for hire!!\n\nThe under 5’s / Toddlers Green and Light Blue 5ft Platform slide is a great addition to any party or event. Our bouncy inflatable slide is finished in a modern gloss to match the premium gloss finish on all our inflatables.\n\nThe bouncy slide is ideal for all your indoor or outdoor events and entertainment.\n\nIf this amazing inflatable wasn't already good enough, why not take your party or special event to the next level by adding the under 5’s / Toddlers bouncy castle or Matching Soft Play, creating the perfect package for your party to keep everyone entertained.",
-    size:['12ft,12ft,8ft'],
-    suitability:['Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface'],
-    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/2bf5ff658cb589e53f75814341cd0b5c"
-  },
+ 
   
-  {
-    price: 190.99 + 125,
-    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-orange.png",
-    title: "Dinosaurs Bouncy Castle - Green & Light Blue",
-    description: "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.\n\nDelivering you a choice of the UK's latest, most on-trend new purchases and additions to our outstanding Premium 2024 Fleet!!\n\nNever to be mistaken with lesser, lower services offering low-quality, older, cheap bouncy castles for hire!!\n\nOur under 5's / Toddlers Dinosaurs Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork which is finished in a modern gloss to match the premium gloss finish on all our bouncy castles and inflatables.\n\nThe Dinosaurs Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with matching toddlers slides, ball pools, soft play, and matching mat set up to make an incredible premium deluxe package.\n\nWhy Choose Premium Inflatables Bouncy Castle Hire Wakefield?\n\nHave our RPii-trained team deliver and set up this inflatable at your chosen home or venue.\n\nNow available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings.",
-    size:['9ft,11.5ft,8ft','12ft,17ft,8.5ft'],
-    suitability:['Indoors on Hard Surface','Outdoors on Artificial Grass','Outdoors on Flags','Outdoors on Grass','Outdoors on Hard Surface'],
-    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/c343f91d3e2847346e5ad1f27b37d50f"
-  },
-  
-  {
-    price: 124.99 + 125,
-    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-green.png",
-    title: "Giant Velcro Dartboard Game",
-    description: "100% Five-Star Reviews Delivering All Promises. At Premium Inflatables, our commitment to excellence is reflected in our 100% five-star rating on Google. With hundreds of reviews from satisfied customers, we take pride in consistently delivering premium products and service. This unparalleled reputation sets us apart from the rest of the events and entertainment competition. Please be assured that your event is in the hands of trusted RPii trained professionals.",
-    size:['8ft,8ft,10ft'],
-    suitability:['Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface','Suitable For Children','	Suitable For Adults'],
-    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/2af47dcd2a88431355099bd3124d3f00"
-  }
-,  
-  {
-    price: 124.99 + 125,
-    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
-    title: "Giant Inflatable Events Mega Slide - Multi Coloured",
-    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/7f66dce2158e0f5c0b4e2462012a82fd",
-  },
-  {
-    price: 120.99 + 125,
-    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-blue.png",
-    title: "Unicorn Bouncy Castle - Pink & Purple",
-    description: "The Unicorns Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon unicorns artwork which is finished in a modern gloss to match the premium gloss finish on all our inflatables.\n\nIf this amazing inflatable wasn't already good enough, why not take your special event to the next level by adding our Premium Entertainment Experience—the ultimate bouncy castle upgrade to include disco lights & a big Bluetooth speaker.\n\nThe Unicorns Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with slides, ball pools, soft play, and matching mat setup to make an incredible package.\n\nWhy Choose Premium Inflatables Bouncy Castle Hire Wakefield?\n\nHave our trained team deliver and set up this inflatable at your chosen home or venue.\n\nNow available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings.",
-    suitability:['Suitable For Children','Not Suitable For Adults','Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface'],
-    size:['12ft,15ft,9.5ft','15ft,21ft,10ft','3ft'],
-    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/068d9d8e50b27d16579c9f8301ada306"
-  }
-,  
-  {
-    price: 199.99 + 125,
-    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-orange.png",
-    title: "Girly Pink Bouncy Castle - Pink & Purple",
-    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/9484a85f958e794c7f7ea386b41823f7",
-  },
-  {
-    price: 144.99+125,
-    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-green.png",
-    title: "Princess Bouncy Castle with Slide - Pink & Purple",
-    description: "One of our new purchases and additions to our outstanding premium 2024 fleet!!\n\nThe Princess Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon princess artwork which is finished in a modern gloss to match the premium gloss finish on all our inflatables.\n\nIf this amazing inflatable wasn't already good enough, why not take your special event to the next level by adding the ultimate bouncy castle upgrade to include disco lights & a big Bluetooth speaker.\n\nThe Princess Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with slides, ball pools, soft play, and a matching mat setup to make an incredible package.\n\nHave our trained team deliver and set up this inflatable at your home or chosen venue.\n\nPremium Inflatables now available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings.",
-    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/61f036a3f033b3695cc2eea6ec556001",
-    suitability:['Indoors on Hard Surface','Outdoors on Artificial Grass','Outdoors on Flags','Outdoors on Grass','Outdoors on Hard Surface'],
-    size:['15ft,12ft,9.5ft','21ft,15ft,10ft'],
-  }
-,  
-{
-  price: 154.99 +125,
-  bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
-  title: "Jungle Bouncy Castle - Green & Light Blue",
-  description: "Premium Inflatables, your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds, Wakefield, and surrounding areas.\n\nDelivering you a choice of the UK's latest, most on-trend new purchases and additions to our outstanding Premium 2024 Fleet!!\n\nNever to be mistaken for lesser services offering low-quality, older, cheap bouncy castles for hire!!\n\nThe Jungle Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon jungle artwork finished in a modern gloss to match the premium gloss finish on all our inflatables.\n\nIf this inflatable wasn't already good enough, why not take your special event to the next level by adding our Premium Entertainment Experience — the ultimate bouncy castle upgrade, including disco lights & a big Bluetooth speaker.\n\nThe Jungle Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions. This castle can easily be paired with slides, ball pools, soft play, and a matching mat setup to make an incredible package.\n\nSafety and hygiene are the paramount priority here at Premium Inflatables! All our Premium inflatables, Soft Play, Ball Pools, Balls, and Mats come fully sanitized for every use.\n\nWhy Choose Premium Inflatables Bouncy Castle Hire Wakefield?\n\nHave our RPii trained team deliver and set up this inflatable at your chosen home or venue.\n\nNow available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surrounding areas.",
-  img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_1000/432e3e7ac2d7d5d9a126ce3ed1d93f6b",
-  suitability:['Suitable For Children','Not Suitable For Adults','Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface'],
-    size:['12ft,15ft,9.5ft','15ft,21ft,10ft','3ft'],
-}
-,
-{
-  price: 154.99 +125,
-  bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
-  title: "Adults Jungle Themed Bouncy Castle - Red & Blue",
-  description: "One of our new purchases and additions to our outstanding Premium 2024 fleet!!\n\nThe Jungle Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon jungle artwork, finished in a modern gloss to match the premium gloss finish on all our inflatables.\n\nIf this inflatable wasn't already good enough, why not take your special event to the next level by adding the ultimate bouncy castle upgrade, including disco lights & a big Bluetooth speaker.\n\nThe Jungle Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with slides, ball pools, soft play, and a matching mat setup to make an incredible package.\n\nHave our trained team deliver and set up this inflatable at your home or chosen venue.\n\nPremium Inflatables is now available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surrounding areas.",
-  img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/baa1e0a2298cc21bd9ddecfbeecd098d",
-  suitability:['Indoors on Hard Surface','Outdoors on Artificial Grass','Outdoors on Flags','Outdoors on Grass','Outdoors on Hard Surface'],
-  size:['15ft,12ft,9.5ft','21ft,15ft,10ft'],
-}
-,
-{
-  price: 154.99 + 125,  // Total price calculation
-  bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
-  title: "Bungee Run Hire 35ft",
-  img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/6f4b7828f05693d1f3fc3772724e2ab8",
-  description: `
-    Unmatched Bungee Run Hire in Leeds and Wakefield
-    Welcome to Premium Inflatables, your premier destination for unparalleled Bungee Run Hire in Leeds and Wakefield. Elevate your events with our exceptional services that redefine inflatable fun.
-    
-    **100% Five-Star Reviews Delivering All Promises**
-    At Premium Inflatables, our commitment to excellence is reflected in our 100% five-star rating on Google. With hundreds of reviews from satisfied customers, we take pride in consistently delivering premium products and service. This unparalleled reputation sets us apart from the rest of the events and entertainment competition. Please be assured that your event is in the hands of trusted RPii trained professionals.
-    
-    **Premium Guarantees**
-    - New fully sanitised 2024 Premium Inflatables & accessories
-    - Delivering on time every time!
-    - Punctual collections
-    - Friendly, polite team dedicated to making your event safe and successful
-    - Around the clock customer service team
-    
-    It is our duty to help create The Best! Premium Events & Entertainment of 2024. We understand that organizing events can be stressful, but with our premium equipment, it’s one less thing to worry about. All our hire inflatables are fully compliant with safety standards and come with insurance and certification.
-    
-    **Features of Bungee Run Hire:**
-    - A fun, action-packed game for both kids and adults
-    - Vibrant colors and eye-catching design
-    - Suitable for various occasions like kids' parties and corporate events
-    
-    **Unrivaled Customer Satisfaction**
-    Our impressive reviews and 100% Five Star ratings on Google reflect our dedication to excellence. We are the #1 rated Bungee Run Hire company and guarantee customer satisfaction with each service.
-    
-    **The Premium Difference**
-    From safety to hygiene, we go beyond ordinary services to offer unmatched experiences. Our fleet of 2024 Premium Inflatables is fully sanitised and offers a cutting-edge, safe, and fun experience.
 
-    **Expertise You Can Trust**
-    With 15 years of experience, we are committed to ensuring your event's success. From the latest inflatables to our exceptional team, Premium Inflatables is your best choice for Bungee Run Hire across multiple areas.
-  `,
-  suitability:['Suitable For Children','Suitable For Adults','Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface'],
-  size:['12ft,35ft,10ft'],
-},
-  {
-    price: 154.99 +125,
-    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
-    title: "Diggers Bouncy Castle with Slide - Red & Blue",
-    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/031d87a70672935bcf24c13eba40aa15",
-    description: `100% Five-Star Reviews Delivering on All Promises
-  At Premium Inflatables, our commitment to excellence is reflected in our 100% five-star rating on Google. With hundreds of reviews from satisfied customers, we take pride in consistently delivering premium products and services. This unparalleled reputation sets us apart from the competition and ensures that your event is in the hands of trusted professionals.
+
+,
   
-  Premium Guarantees:
-  - New fully sanitised 2024 Premium Inflatables & accessories.
-  - Delivering on time, every time!
-  - Punctual collections.
-  - Approachable, friendly, polite RPii trained team dedicated to making your event safe & successful every time!
-  - Around-the-clock customer service team to answer all your calls and messages. 
-  
-  We understand, as parents, it can be stressful organizing your children's special day. Once booked with Premium Inflatables, please rest assured that your Premium Bouncy Castles, Slides, and Soft Play are one less thing to worry about.
-  
-  New 2024 Diggers Theme Bounce N' Slide:
-  The Diggers Themed bouncy castle with slide is an amazing addition to any birthday party or event, boasting the classic cartoon diggers artwork finished in a modern gloss to match the premium gloss finish on all our inflatables. 
-  
-  If this inflatable wasn't already good enough, take your event to the next level by adding disco lights & a big Bluetooth speaker!
-  
-  The Diggers Themed bouncy castle with slide is ideal for all your indoor and outdoor events. Easily paired with ball pools, soft play, matching mats, or bigger super slides for a full package catering to different age groups.
-  
-  Require Another Theme? We’ve got you covered! Check out our themed versions of this Bounce N' Slide Bouncy Castle with Slide Combo.
-  
-  Why Choose Premium Inflatables Bouncy Castle Hire Wakefield?
-  - Have our RPii trained team deliver and set up this premium inflatable at your home or venue across Leeds, Wakefield, Tingley, Morley, and surrounding areas.`,
-  suitability:['Suitable For Children','Not Suitable For Adults','Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface'],
-  size:['12ft,16ft,9.5ft','15ft,22ft,10ft','3ft'],
-  },
-  
-  {
-    price: 154.99 +125,
-    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
-    title: "Premium Entertainment Experience Package",
-    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/e4e06a453f235ffca2519d2d33f5d920",
-  },
-  {
-    price: 154.99 + 125,
-    bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png",
-    title: "Premium Entertainment Experience Package",
-    img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/068d9d8e50b27d16579c9f8301ada306",
-  },
+
+
   { price: 154.99 + 125, bgImg: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/castle-pink.png", title: "Unicorn Bouncy Castle - Pink & Purple", img: "https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_300/068d9d8e50b27d16579c9f8301ada306", description: "100% Five-Star Reviews Delivering All Promises\nAt Premium Inflatables, our commitment to excellence is reflected in our 100% five-star rating on Google. With hundreds of reviews from satisfied customers, we take pride in consistently delivering premium products and service. This unparalleled reputation sets us apart from the rest of the events and entertainment competition. Please be assured that your event is in the hands of trusted RPii-trained professionals.\n\nPremium Inflatables Guarantees\n- New fully sanitized 2024 Premium Inflatables & accessories\n- Delivering on time every time!\n- Punctual collections\n- Friendly, polite team dedicated to making your event safe and successful every time!\n- Around-the-clock customer service team\n\nWe understand that event planning can be stressful. Rest assured, once you’ve booked with us, you’ll have one less thing to worry about when it comes to your bouncy castles, slides, and inflatable games.\n\nOur under-5s Unicorn Themed Bouncy Castle is perfect for birthdays or special events. It boasts a modern gloss finish with classic cartoon artwork. This inflatable can be paired with slides, ball pools, and soft play for a premium deluxe package. Ideal for indoor or outdoor occasions.\n\nLooking for another theme? Check out our themed options for this same-sized castle:\n- Girly Pink Bouncy Castle\n- Mermaids Bouncy Castle\n- Princess Bouncy Castle\n- Butterflies Bouncy Castle\n\nSafety and hygiene are our top priorities! All our inflatables are fully sanitized, and we provide PAT testing where required, along with risk assessments and method statements. Our team is RPii trained and compliant with EN14960 & HSE guidelines.\n\nPremium Inflatables now available to hire across Leeds, Wakefield, and many surrounding areas.",
 
     suitability:['Suitable For Children','Not Suitable For Adults','Indoors on Hard Surface','Outdoors on Grass','Outdoors on Hard Surface','Not Suitable Outdoors on Artificial Grass','Not Suitable Outdoors on Flags'],
@@ -1038,7 +882,2957 @@ suitability:['Suitable For',
     'Max Users @ 1.25	5',
     'Max Users @ 1.5	        4',
     'Max Users @ 1.8	        4',]
+},
+
+
+{
+  price: 175,
+  Offer: 145,
+  bgImg: "/p3i/3DDinosaurBouncyCastleWithFrontSlide.png",
+  title: "Bounce N' Slide Soft Play Package - Red / Blue",
+  img: "/p3i/p8.png",
+  images:['/p3i/p7.png','/p3i/p8.png','/p3i/p9.png'],
+   description:`3D Unicorn Bounce N' Slide
+Available to hire from November
+Click Here For Reservations
+Contact Premium Inflatables
+It couldn't be easier to get in touch with the team here at 
+Premium inflatables. You can use the contact form or:
+
+Call our office on: 0113 460 1386
+Mobile / WhatsApp / Text - us on: 07482511995
+Email us at: info@premiuminflatables.co.uk`,
+
+size:[' 12ft,	15ft	,9.5ft',
+  '3.7m	,4.6m	,2.9m'	],
+suitability:['Suitable For',
+  'Indoors on Hard Surface'	,
+  'Outdoors on Artificial Grass',	
+  'Outdoors on Flags',	
+  'Outdoors on Grass',	
+  'Outdoors on Hard Surface'],
+
+  additionalInformation :"If you'd like to speak with us, call on 0113 460 138 alternatively email us at info@premiuminflatables.co.uk or take a look at our contact page You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
+  users:['Max Users @ 1.0	        6',
+    'Max Users @ 1.25	5',
+    'Max Users @ 1.5	        4',
+    'Max Users @ 1.8	        4',]
+},
+
+
+{
+  price: 245,
+  Offer: 195,
+  bgImg: "",
+  title: "The Mega Soft Play Plain Red/Blue Castle with Slide Package",
+  img: "/newProducts/bounceSlide.png",
+  images: ['/newProducts/bounceSlide.png','/newProducts/bounceSlide.png'],
+  description: `The bouncy castle with slide is 12x16ft is ideal for all your indoor and outdoor events and special occasions. This castle is paired with a foam ball pool, 17 pieces of soft play, and matching 9 mat set up to make an incredible package. Contact Premium Inflatables to make a booking:
+Call: 0113 460 1386
+Mobile / WhatsApp / Text: 07482511995
+Email: info@premiuminflatables.co.uk`,
+
+  size: ['12ft, 16ft, 9.5ft', '3.7m, 4.9m, 2.9m'],
+  suitability: [
+    'Suitable For',
+    'Indoors on Hard Surface',
+    'Outdoors on Artificial Grass',
+    'Outdoors on Flags',
+    'Outdoors on Grass',
+    'Outdoors on Hard Surface',
+    'Children (Not Suitable For Adults)'
+  ],
+  
+  additionalInformation: `We do not hire our soft play & foam ball pools for outdoor use. Please make enquiries for alternatives on our Contact Page. If you'd like to speak with us, call on 0113 460 1386 or email us at info@premiuminflatables.co.uk. You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!`,
+  
+  users: [
+    'Max Users @ 1.0    6',
+    'Max Users @ 1.25   5',
+    'Max Users @ 1.5    4',
+    'Max Users @ 1.8    4'
+  ],
+
+  additionalDetails: {
+    "Required Space": ["16ft, 22ft, 10ft", "4.9m, 6.7m, 3.0m"],
+    "Required Access Width": ["3ft", "0.9m"],
+    "Unit Size": ["12ft, 16ft, 9.5ft", "3.7m, 4.9m, 2.9m"]
+  },
+
+  extras: [
+    'Foam Ball Pool',
+    'Soft Play 18pc & 9xMega Mat Set Up - Red / Blue',
+    'Add Didi Cars and Hoppers for extra fun!'
+  ],
+
+  regionsAvailable: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 'Rothwell', 
+    'Methley', 'Normanton', 'Featherstone', 'Pontefract', 'Castleford', 
+    'Knottingley', 'Darrington', 'Wentbridge', 'Sherburn in Elmet', 'Selby'
+  ]
 }
+,
+
+{
+  price: 245,
+  Offer: null,
+  bgImg: "/p3i/.png",
+  title: "Butterflies Bounce N' Slide Soft Play Package - Pink / Purple",
+  img: "/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple3.png",
+  images: ["/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple3.png", "/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple5.png", "/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple6.png","/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple7.png","/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple8.png","/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple9.png","/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple10.png","/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple7.png"],
+  description: `Introducing our new Amazing Mega Pink and Purple Butterflies Soft Play
+  Package for all your beautiful little girls out there!!
+
+  It contains our highly sort after 12ft x 16ft x 9.5ft (Width/Length/Height)
+  Bouncy Castle with slide combination it has the pretty and colourful butterfly
+  theme on the Castle, it is paired with our foam ball pool,9x Mega Mat set up with matching 17 pieces of soft play!
+
+  *We do not hire our soft play & foam ball pools for outdoor use please make enquiries
+  for alternatives on our Contact Page If you'd like to speak with us, call on 0113 460 1386 
+  alternatively email us at info@premiuminflatables.co.uk`,
+  size: ['12ft, 16ft, 9.5ft', '3.7m, 4.9m, 2.9m'],
+  suitability: [
+    'Suitable For',
+    'Indoors on Hard Surface',
+    'Outdoors on Artificial Grass',
+    'Outdoors on Flags',
+    'Outdoors on Grass',
+    'Outdoors on Hard Surface'
+  ],
+  additionalInformation: "If you'd like to speak with us, call on 0113 460 1386 or email us at info@premiuminflatables.co.uk. You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
+  users: [
+    'Max Users @ 1.0 6',
+    'Max Users @ 1.25 5',
+    'Max Users @ 1.5 4',
+    'Max Users @ 1.8 4'
+  ],
+  dimensions: {
+    unitSize: { width: '12ft', length: '16ft', height: '9.5ft' },
+    requiredSpace: { width: '16ft', length: '22ft', height: '10ft' },
+    requiredAccessWidth: '3ft',
+  },
+  metricDimensions: {
+    unitSize: { width: '3.7m', length: '4.9m', height: '2.9m' },
+    requiredSpace: { width: '4.9m', length: '6.7m', height: '3.0m' },
+    requiredAccessWidth: '0.9m'
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ]
+}
+,
+{
+  price: 295,
+  Offer: null,
+  bgImg: "",
+  title: "Butterflies Soft Play + Slide + Bouncy Castle - Pink / Purple",
+  img: "/newProducts/Butterflies Soft Play + Slide + BouncyCastlePinkPurple.png",
+  images: ['/newProducts/Butterflies Soft Play + Slide + BouncyCastlePinkPurple'],
+  description: `Our Amazing Super Size Soft Play Package Pink and Purple Butterflies
+  Theme for all your beautiful butterflies lovers out there. They can
+  flutter all around this amazing set up to their hearts content, it will
+  certainly keep them entertained! It contains our highly sort after 9x11ft
+  Bouncy Castle with the butterfly theme, Juniors 5ft platform glossy Pink
+  slide also the foam ball pool, 9x Mega Mat set up with matching pink/purple
+  18 pieces of soft play!
+
+  *We do not hire our soft play & foam ball pools for outdoor use. For alternatives, 
+  make enquiries on our Contact Page. Call on 0113 460 1386 or email at info@premiuminflatables.co.uk.`,
+  size: ['9ft, 11.5ft, 8ft', '2.7m, 3.5m, 2.4m'],
+  suitability: [
+    'Suitable For',
+    'Indoors on Hard Surface',
+    'Outdoors on Artificial Grass',
+    'Outdoors on Flags',
+    'Outdoors on Grass',
+    'Outdoors on Hard Surface'
+  ],
+  additionalInformation: "For enquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
+  users: [
+    'Max Users @ 1.0 6',
+    'Max Users @ 1.25 5',
+    'Max Users @ 1.5 4',
+    'Max Users @ 1.8 4'
+  ],
+  dimensions: {
+    unitSize: { width: '9ft', length: '11.5ft', height: '8ft' },
+    requiredSpace: { width: '12ft', length: '17ft', height: '8.5ft' },
+    requiredAccessWidth: '3ft',
+    slidePlatformHeight: '5ft'
+  },
+  metricDimensions: {
+    unitSize: { width: '2.7m', length: '3.5m', height: '2.4m' },
+    requiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' },
+    slidePlatformHeight: '1.5m',
+    requiredAccessWidth: '0.9m'
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ]
+}
+,
+
+
+{
+  price: 195,
+  Offer: null,
+  bgImg: "/p3i/ButterfliesBouncyCastleJuniorsPackage.png",
+  title: "Butterflies Soft Play Bouncy Castle Juniors Package - Pink / Purple",
+  img: "/newProducts/Butterflies Soft Play Bouncy Castle Juniors Package - Pink Purple.png",
+  images: ["/newProducts/Butterflies Soft Play Bouncy Castle Juniors Package - Pink Purple1.png","/newProducts/Butterflies Soft Play Bouncy Castle Juniors Package - Pink Purple2.png","/newProducts/Butterflies Soft Play Bouncy Castle Juniors Package - Pink Purple.png","/newProducts/Butterflies Soft Play Bouncy Castle Juniors Package - Pink Purple2.png"],
+  description: `This Butterflies Bouncy Castle & Ball pool, Soft Play Package is made
+  for all your beautiful little girls out there! This pretty Pink and Purple Bouncy castle 
+  includes a foam ball pool with complimentary Purple/Silver Commercial Balls and matching 
+  soft play so they can run, roll and play to their hearts content.
+  
+  This package is a must for Indoor Birthday Parties. Create and make their dreams come true
+  in this girly pink/purple butterfly fantasy land!
+  
+  Butterflies Bouncy Castle 9ft x 11ft
+  Foam Ball Pool
+  Matching Soft Play
+  
+  *We do not hire our soft play & foam ball pools for outdoor use. For alternatives, 
+  make enquiries on our Contact Page. Call on 0113 460 1386 or email at info@premiuminflatables.co.uk.`,
+  size: ['9ft, 11.5ft, 8ft', '2.7m, 3.5m, 2.4m'],
+  suitability: [
+    'Suitable For',
+    'Indoors on Hard Surface',
+    'Outdoors on Artificial Grass',
+    'Outdoors on Flags',
+    'Outdoors on Grass',
+    'Outdoors on Hard Surface'
+  ],
+  additionalInformation: "For enquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
+  users: [
+    'Max Users @ 1.0 6',
+    'Max Users @ 1.25 5',
+    'Max Users @ 1.5 4',
+    'Max Users @ 1.8 4'
+  ],
+  dimensions: {
+    unitSize: { width: '9ft', length: '11.5ft', height: '8ft' },
+    requiredSpace: { width: '12ft', length: '17ft', height: '8.5ft' },
+    requiredAccessWidth: '3ft'
+  },
+  metricDimensions: {
+    unitSize: { width: '2.7m', length: '3.5m', height: '2.4m' },
+    requiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' },
+    requiredAccessWidth: '0.9m'
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  videoLink: "https://youtu.be/aft2d6uo0tI"
+}
+,
+{
+  price: 245,
+  nextMorningCollection: 50,
+  title: "Butterflies Soft Play Bouncy Castle Package - Pink / Purple",
+  img: "/newProducts/Butterflies Soft Play Bouncy Castle Package - PinkPurple1.png",
+  images: [
+    "/newProducts/butterFliesBounce.png",
+    "/newProducts/ButterfliesBounceNSlideSoft PlayPackagePinkPurple4.png",
+    "/newProducts/butterFly.png"
+  ],
+  description: `Wow, look at this Mega Pink and Purple Butterflies Soft Play Package for all your beautiful little girls out there! 
+  It contains our highly sought-after 12x15ft Bouncy Castle with the butterfly theme, along with a foam ball pool, 
+  a 9 Mega Mat setup with matching 17 pieces of soft play. 
+  This package is a must for indoor birthday celebrations, creating a pretty party space for your little girls.`,
+  safetyHygiene: "Safety and Hygiene are our paramount priority. All inflatables, soft play, ball pools, balls, and mats are fully sanitized after each use.",
+  size: ['12ft, 15ft, 9.5ft', '3.7m, 4.6m, 2.9m'],
+  suitability: [
+    'Suitable For',
+    'Indoors on Hard Surface',
+    'Outdoors on Artificial Grass',
+    'Outdoors on Flags',
+    'Outdoors on Grass',
+    'Outdoors on Hard Surface'
+  ],
+  additionalInformation: "For enquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.",
+  users: [
+    'Max Users @ 1.0 7',
+    'Max Users @ 1.25 6',
+    'Max Users @ 1.5 5',
+    'Max Users @ 1.8 4'
+  ],
+  dimensions: {
+    unitSize: { width: '12ft', length: '15ft', height: '9.5ft' },
+    requiredSpace: { width: '15ft', length: '21ft', height: '10ft' },
+    requiredAccessWidth: '3ft'
+  },
+  metricDimensions: {
+    unitSize: { width: '3.7m', length: '4.6m', height: '2.9m' },
+    requiredSpace: { width: '4.6m', length: '6.4m', height: '3.0m' },
+    requiredAccessWidth: '0.9m'
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  videoLink: "https://youtu.be/aft2d6uo0tI"
+}
+,
+
+
+{
+  price: 245,
+  nextMorningCollection: 50,
+  title: "Cars Bounce N' Slide Soft Play Package - Red / Blue",
+  img: "/newProducts/Cars Bounce N' Slide Soft Play PackageRed Blue.png",
+  images: [
+    "/newProducts/Cars Bounce N' Slide Soft Play PackageRedBlue1.png",
+    "/newProducts/Cars Bounce N' Slide Soft Play PackageRedBlue2.png",
+    "/newProducts/Cars Bounce N' Slide Soft Play PackageRedBlue3.png",
+    "/newProducts/Cars Bounce N' Slide Soft Play PackageRedBlue4.png",
+    "/newProducts/Cars Bounce N' Slide Soft Play PackageRedBlue5.png",
+    "/newProducts/Cars Bounce N' Slide Soft Play PackageRedBlue6.png",
+    "/newProducts/Cars Bounce N' Slide Soft Play PackageRedBlue7.png"
+  ],
+  description: `The Cars Themed Mega Soft Play Package is an amazing addition to any birthday party or event. If your boys love fast cars, then this is the castle for them! It features our classic cartoon cars artwork on a bouncy castle with a slide combination finished in a premium gloss. It also includes a foam ball pool, 17 pieces of soft play, and a matching 9-mat setup, creating an incredible package for indoor and outdoor events.`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables. All our Premium inflatables, Bouncy N' Slide Bouncy Castles, Soft Play, Ball Pools, Balls, and Mats come fully sanitized after every use.",
+  size: ['12ft x 16ft x 9.5ft', '3.7m x 4.9m x 2.9m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Artificial Grass',
+    'Outdoor on Flags',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface'
+  ],
+  additionalInformation: `We do not hire our soft play & foam ball pools for outdoor use. Please make enquiries for alternatives on our Contact Page. For enquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  dimensions: {
+    unitSize: { width: '12ft', length: '16ft', height: '9.5ft' },
+    requiredSpace: { width: '15ft', length: '22ft', height: '10ft' },
+    requiredAccessWidth: '3ft'
+  },
+  metricDimensions: {
+    unitSize: { width: '3.7m', length: '4.9m', height: '2.9m' },
+    requiredSpace: { width: '4.6m', length: '6.7m', height: '3.0m' },
+    requiredAccessWidth: '0.9m'
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  videoLink: "",
+}
+,
+
+{
+  price: 245,
+  title: "Cars Soft Play Bouncy Castle Package - Green / Light Blue",
+  img: "/newProducts/Cars Soft Play Bouncy Castle PackageGreen.png",
+  images: [
+    "/newProducts/Cars Soft Play Bouncy CastlePackageGreenLight Blue1.png",
+    "/newProducts/CarsSoftPlayBouncyCastlePackageRedBlue.png"
+  ],
+  description: `The Cars Themed Mega Soft Play Package is an amazing addition to any birthday party or event, featuring classic cartoon cars artwork finished in a modern gloss to match the premium gloss finish on all our inflatables. This package includes a fantastic 12x15ft bouncy castle, foam ball pool, 17 pieces of soft play, and a matching 9-mat setup, making it a perfect choice for both indoor and outdoor events.`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables. All our Premium inflatables, Soft Play, Ball Pools, Balls, and Mats are fully sanitized after every use.",
+  size: ['12ft x 15ft x 9.5ft', '3.7m x 4.6m x 2.9m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Artificial Grass',
+    'Outdoor on Flags',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface'
+  ],
+  additionalInformation: `For enquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  dimensions: {
+    unitSize: { width: '12ft', length: '15ft', height: '9.5ft' },
+    requiredSpace: { width: '15ft', length: '21ft', height: '10ft' },
+    requiredAccessWidth: '3ft'
+  },
+  metricDimensions: {
+    unitSize: { width: '3.7m', length: '4.6m', height: '2.9m' },
+    requiredSpace: { width: '4.6m', length: '6.4m', height: '3.0m' },
+    requiredAccessWidth: '0.9m'
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ]
+}
+,
+{
+  price: 245,
+  Offer: 50,
+  title: "Cars Soft Play Bouncy Castle Package - Red / Blue",
+  img: "/newProducts/CarsSoftPlayBouncyCastlePackageRedBlue1.png",
+  images: [
+    "/newProducts/CarsSoftPlayBouncyCastlePackageRedBlue2.png",
+    "/newProducts/CarsSoftPlayBouncyCastlePackageRedBlue3.png"
+  ],
+  description: `The Cars Themed Mega Soft Play Package is an amazing addition to any birthday party or event, featuring classic cartoon cars artwork finished in a modern gloss to match the premium gloss finish on all our inflatables. This package includes a fantastic 12x15ft bouncy castle, foam ball pool, 18 pieces of soft play, and a matching 9-mat setup, making it a perfect choice for both indoor and outdoor events.`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables. All our Premium inflatables, Soft Play, Ball Pools, Balls, and Mats are fully sanitized after every use.",
+  size: ['12ft x 15ft x 9.5ft', '3.7m x 4.6m x 2.9m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Artificial Grass',
+    'Outdoor on Flags',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface'
+  ],
+  additionalInformation: `For enquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  dimensions: {
+    unitSize: { width: '12ft', length: '15ft', height: '9.5ft' },
+    requiredSpace: { width: '15ft', length: '21ft', height: '10ft' },
+    requiredAccessWidth: '3ft'
+  },
+  metricDimensions: {
+    unitSize: { width: '3.7m', length: '4.6m', height: '2.9m' },
+    requiredSpace: { width: '4.6m', length: '6.4m', height: '3.0m' },
+    requiredAccessWidth: '0.9m'
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ]
+}
+
+,
+
+{
+  price: 245,
+  Offer: 50,
+  title: "Circus Bounce N' Slide Soft Play Package - Red / Blue",
+  img: "/newProducts/CircusBouncyCastleBallPool1.png",
+  images: [
+    "/newProducts/CircusBouncyCastleBallPool2.png"
+  ],
+  description: `Roll up Roll up! Come into our Amazing Premium Circus! This Mega Pack includes our Bouncy Slide Castle with matching Circus foam ball pool and soft play, keeping the under 5’s & toddlers entertained. Paired with a colour-coordinated Red/Blue soft play set and matching mats, this Circus Mega Package will make your birthday party unforgettable!`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables. All our Premium inflatables, Soft Play, Ball Pools, Balls, and Mats are fully sanitized after every use.",
+  size: ['12ft x 16ft x 9.5ft', '3.7m x 4.9m x 2.9m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Artificial Grass',
+    'Outdoor on Flags',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface'
+  ],
+  additionalInformation: `For enquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  dimensions: {
+    unitSize: { width: '12ft', length: '16ft', height: '9.5ft' },
+    requiredSpace: { width: '16ft', length: '22ft', height: '10ft' },
+    requiredAccessWidth: '3ft'
+  },
+  metricDimensions: {
+    unitSize: { width: '3.7m', length: '4.9m', height: '2.9m' },
+    requiredSpace: { width: '4.9m', length: '6.7m', height: '3.0m' },
+    requiredAccessWidth: '0.9m'
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ]
+}
+,
+
+
+{
+  price: 195,
+  nextMorningCollection: 50,
+  title: "Circus Bouncy Castle & Matching Inflatable Ball Pool",
+  img: "/newProducts/Circus Bouncy Castle & Matching inflatable Ball Pool1.png",
+  images: [
+    "/newProducts/Circus Bouncy Castle & Matching inflatable Ball Pool1.png",
+    "/newProducts/Circus Bouncy Castle & Matching inflatable Ball Pool2.png",
+    "/newProducts/Circus Bouncy Castle & Matching inflatable Ball Pool3.png",
+    "/newProducts/Circus Bouncy Castle & Matching inflatable Ball Pool4.png",
+    "/newProducts/Circus Bouncy Castle & Matching inflatable Ball Pool5.png",
+    "/newProducts/Circus Bouncy Castle & Matching inflatable Ball Pool6.png",
+    "/newProducts/Circus Bouncy Castle & Matching inflatable Ball Pool7.png",
+    "/newProducts/Circus Bouncy Castle & Matching inflatable Ball Pool8.png",
+    "/newProducts/Circus Bouncy Castle & Matching inflatable Ball Pool9.png",
+    "/newProducts/Circus Bouncy Castle & Matching inflatable Ball Pool10.png",
+    "/newProducts/Circus Bouncy Castle & Matching inflatable Ball Pool11.png"
+  ],
+  description: `The Circus Printed Themed bouncy castle and matching ball pool are amazing additions to any birthday party or event, boasting classic cartoon circus artwork finished in a modern gloss. Our premium circus-themed ball pool comes with commercial colour-coordinated balls to enhance the children's birthday party experience. Upgrade your event by adding our Premium Entertainment Experience, featuring disco lights and a big Bluetooth speaker!`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables! All our Premium inflatables, Circus Bouncy Castle, Circus Ball Pools, Soft Play, and Mats come fully sanitized for every use.",
+  size: ['12ft x 15ft x 9.5ft', '3.7m x 4.6m x 2.9m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface'
+  ],
+  additionalInformation: `For inquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  dimensions: {
+    unitSize: { width: '12ft', length: '15ft', height: '9.5ft' },
+    requiredSpace: { width: '15ft', length: '21ft', height: '10ft' },
+    requiredAccessWidth: '3ft'
+  },
+  metricDimensions: {
+    unitSize: { width: '3.7m', length: '4.6m', height: '2.9m' },
+    requiredSpace: { width: '4.6m', length: '6.4m', height: '3.0m' },
+    requiredAccessWidth: '0.9m'
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  videoLink: "https://youtu.be/swRNKBUhYHU"
+}
+,
+
+{
+  price: 195,
+  nextMorningCollection: 50,
+  title: "Circus Soft Play Bouncy Castle Juniors Package - Red Blue",
+  img: "/newProducts/CircusBounceN'SlideSoftPlayPackageRedBlue.png",
+  images: [
+    "/newProducts/CircusBounceN'SlideSoftPlayPackageRedBlue.png",
+    "/newProducts/CircusBounceN'SlideSoftPlayPackageRedBlue1.png",
+    "/newProducts/CircusBounceN'SlideSoftPlayPackageRedBlue2.png",
+    "/newProducts/CircusBounceN'SlideSoftPlayPackageRedBlue3.png",
+    "/newProducts/CircusBounceN'SlideSoftPlayPackageRedBlue4.png",
+    "/newProducts/CircusBounceN'SlideSoftPlayPackageRedBlue5.png",
+    "/newProducts/CircusBounceN'SlideSoftPlayPackageRedBlue6.png",
+    "/newProducts/CircusBounceN'SlideSoftPlayPackageRedBlue6.png",
+
+
+  ],
+  description: `We’ve carefully selected our Red and Blue Circus Mega Pack, featuring a highly demanded 9ft x 11ft bouncy castle measuring 8ft in height, perfect for all your indoor hires. This package is coupled with a foam ball pool, keeping the under 5’s & toddlers entertained, along with a 17-piece matching Circus Soft Play set and matching Red/Blue Mega Mat set, completing your Circus Mega Package fit for your Circus Birthday Party Celebrations.`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables! All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitized for every use.",
+  size: ['9ft x 11.5ft x 8ft', '2.7m x 3.5m x 2.4m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface'
+  ],
+  additionalInformation: `Why not add our fun 4x didi cars and 4x animal hoppers to your package? They will definitely keep your little monkeys entertained. For inquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  dimensions: {
+    unitSize: { width: '9ft', length: '11.5ft', height: '8ft' },
+    requiredSpace: { width: '12ft', length: '17ft', height: '8.5ft' }
+  },
+  metricDimensions: {
+    unitSize: { width: '2.7m', length: '3.5m', height: '2.4m' },
+    requiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' }
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  videoLink: "https://youtu.be/vO9JZOY8wrA"
+}
+,
+
+{
+  price: 245,
+  title: "Circus Soft Play Bouncy Castle Package - Green / Light Blue",
+  img: "/newProducts/CircusSoftPlayBouncyCastleJuniorsPackageRedBlue.png",
+  images: [
+    "/newProducts/CircusSoftPlayBouncyCastleJuniorsPackageRedBlue1.png",
+    "/newProducts/CircusSoftPlayBouncyCastleJuniorsPackageRedBlue2.png",
+    "/newProducts/CircusSoftPlayBouncyCastleJuniorsPackageRedBlue3.png",
+    "/newProducts/CircusSoftPlayBouncyCastleJuniorsPackageRedBlue8.png",
+    "/newProducts/CircusSoftPlayBouncyCastleJuniorsPackageRedBlue4.png",
+    "/newProducts/CircusSoftPlayBouncyCastleJuniorsPackageRedBlue5.png",
+    "/newProducts/CircusSoftPlayBouncyCastleJuniorsPackageRedBlue6.png",
+    "/newProducts/CircusSoftPlayBouncyCastleJuniorsPackageRedBlue7.png",
+
+  ],
+  description: `We’ve carefully selected our Green and Light Blue Circus Mega Pack, featuring a highly demanded 12x15ft bouncy castle measuring 9.5ft in height, perfect for all your indoor hires. This package is coupled with a foam ball pool, keeping the under 5’s & toddlers entertained, along with a 17-piece matching Soft Play set and matching Green / Light Blue Mega Mat set, completing your Circus Mega Package fit for your Circus Theme Birthday Party Celebrations.`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables! All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitized for every use.",
+  size: ['12ft x 15ft x 9.5ft', '3.7m x 4.6m x 2.9m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface'
+  ],
+  additionalInformation: `Why not add our fun 4x didi cars and 4x animal hoppers to your package? They will definitely keep your little monkeys entertained. For inquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  dimensions: {
+    unitSize: { width: '12ft', length: '15ft', height: '9.5ft' },
+    requiredSpace: { width: '15ft', length: '21ft', height: '10ft' },
+    requiredAccessWidth: '3ft'
+  },
+  metricDimensions: {
+    unitSize: { width: '3.7m', length: '4.6m', height: '2.9m' },
+    requiredSpace: { width: '4.6m', length: '6.4m', height: '3.0m' },
+    requiredAccessWidth: '0.9m'
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ]
+}
+,
+
+{
+  price: 245,
+  title: "Circus Soft Play Bouncy Castle Package - Red / Blue",
+  img: "/newProducts/CircusSoftPlayBouncyCastleJuniorsPackageRedBlue9.png",
+  images: [
+    "/newProducts/CircusSoftPlayBouncyCastleJuniorsPackageRedBlue9.png",
+    "/newProducts/CircusSoftPlayBouncyCastlePackageGreenLightBlue.png",
+    "/newProducts/CircusSoftPlayBouncyCastlePackageGreenLightBlue1.png",
+    "/newProducts/CircusSoftPlayBouncyCastlePackageGreenLightBlue2.png",
+    "/newProducts/CircusSoftPlayBouncyCastlePackageGreenLightBlue3.png",
+    "/newProducts/CircusSoftPlayBouncyCastlePackageGreenLightBlue3.png",
+    "/newProducts/CircusSoftPlayBouncyCastlePackageRedBlue.png",
+    "/newProducts/CircusSoftPlayBouncyCastlePackageRedBlue1.png",
+
+  ],
+  description: `We’ve carefully selected our Circus Mega Pack, featuring a highly demanded 12ft x 15ft bouncy castle measuring 9.5ft in height, perfect for all your indoor hires. This package is coupled with a foam ball pool, keeping the under 5’s, toddlers, and older kids entertained, along with a 16-piece matching Circus soft play and matching mat set, completing your Circus Mega Package fit for your Birthday Party Celebrations.`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables! All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitized for every use.",
+  additionalCosts: {
+    nextMorningCollection: 50
+  },
+  size: ['12ft x 15ft x 9.5ft', '3.7m x 4.6m x 2.9m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface'
+  ],
+  additionalInformation: `Why not add our fun 4x didi cars and 4x animal hoppers to your package? They will definitely keep your little monkeys entertained. For inquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  dimensions: {
+    unitSize: { width: '12ft', length: '15ft', height: '9.5ft' },
+    requiredSpace: { width: '15ft', length: '21ft', height: '10ft' },
+    requiredAccessWidth: '3ft'
+  },
+  metricDimensions: {
+    unitSize: { width: '3.7m', length: '4.6m', height: '2.9m' },
+    requiredSpace: { width: '4.6m', length: '6.4m', height: '3.0m' },
+    requiredAccessWidth: '0.9m'
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ]
+}
+,
+
+{
+  price: 245,
+  title: "Diggers Bounce N' Slide Soft Play Package - Red / Blue",
+  img: "/newProducts/diggers-soft-play-bouncy-castle-package-green-light-blue.png",
+  images: [
+    "/newProducts/diggers-soft-play-bouncy-castle-package-green-light-blue1.png",
+    "/newProducts/diggers-soft-play-bouncy-castle-package-green-light-blue2.png",
+    "/newProducts/DiggersBounceN'SlideSoftPlayPackageRedBlue.png"
+  ],
+  description: `The Diggers Themed Mega Soft Play Package is where your little boys can jump, bounce, slide, and play at being mini Diggers! This package features a 12x16ft Diggers Bouncy Castle with Slide, foam ball pool, 18-piece soft play, and 9 matching mats. Perfect for all indoor and outdoor events and special occasions.`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority at Premium Inflatables! All our inflatables, Soft Play, Ball Pools, Balls, and Mats come fully sanitized for every use.",
+  additionalCosts: {
+    nextMorningCollection: 50
+  },
+  size: ['12ft x 16ft x 9.5ft', '3.7m x 4.9m x 2.9m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface'
+  ],
+  additionalInformation: `Why not add our fun 4x Didi cars and animal hoppers to your package? They'll keep the kids entertained throughout your party. For inquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  dimensions: {
+    unitSize: { width: '12ft', length: '16ft', height: '9.5ft' },
+    requiredSpace: { width: '15ft', length: '22ft', height: '10ft' },
+    requiredAccessWidth: '3ft'
+  },
+  metricDimensions: {
+    unitSize: { width: '3.7m', length: '4.9m', height: '2.9m' },
+    requiredSpace: { width: '4.6m', length: '6.7m', height: '3.0m' },
+    requiredAccessWidth: '0.9m'
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ]
+}
+,
+
+{
+  price: 195,
+  title: "Diggers Soft Play Bouncy Castle Juniors Package - Red / Blue",
+  img: "/newProducts/DiggersSoftPlayBouncyCastleJuniorsPackageRedBlue.png",
+  images: [
+    "/newProducts/DiggersSoftPlayBouncyCastleJuniorsPackageRedBlue1.png",
+    "/newProducts/DiggersSoftPlayBouncyCastleJuniorsPackageRedBlue2.png",
+    "/newProducts/DiggersSoftPlayBouncyCastleJuniorsPackageRedBlue.png"
+  ],
+  description: `The Diggers Themed Mega Soft Play Under 5's Package offers a perfect way for little boys to bounce and play like mini Diggers! This set includes a 9ft x 11ft x 8ft bouncy castle, foam ball pool, matching 18-piece soft play set, and a 9x matching mega mat, creating a premium package ideal for toddlers.`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority at Premium Inflatables! All our inflatables, Soft Play, Ball Pools, Balls, and Mats are fully sanitized for every use.",
+  additionalCosts: {
+    nextMorningCollection: 50
+  },
+  size: ['9ft x 11.5ft x 8ft', '2.7m x 3.5m x 2.4m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface'
+  ],
+  additionalInformation: `Need more for bigger parties? Add our popular 4x Didi Cars, Hoppers, or Giant Connect 4 to keep everyone entertained. For inquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  dimensions: {
+    unitSize: { width: '9ft', length: '11.5ft', height: '8ft' },
+    requiredSpace: { width: '12ft', length: '17ft', height: '8.5ft' },
+    requiredAccessWidth: '3ft'
+  },
+  metricDimensions: {
+    unitSize: { width: '2.7m', length: '3.5m', height: '2.4m' },
+    requiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' },
+    requiredAccessWidth: '0.9m'
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ]
+}
+,
+
+{
+  price: 245,
+  title: "Diggers Soft Play Bouncy Castle Package - Green / Light Blue",
+  img: "/newProducts/DiggersSoftPlayBouncyCastleJuniorsPackageRedBlue3.png",
+  images: [
+    "/newProducts/DiggersSoftPlayBouncyCastleJuniorsPackageRedBlue3.png",
+    "/newProducts/DiggersSoftPlayBouncyCastleJuniorsPackageRedBlue4.png",
+    "/newProducts/dinosaurs-juniors-slide-bouncy-castle-green-light-blue.png"
+  ],
+  description: `The Green and Light Blue Diggers Mega Pack features a 12ft x 15ft bouncy castle perfect for indoor hires with a height of 9.5ft. This package also includes a matching low-height foam ball pool and a 18-piece soft play set laid out on a mega mat. Designed to keep toddlers and under 5's entertained with its luxury gloss finish, perfect for your Diggers-themed party.`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority at Premium Inflatables! All inflatables, soft play, ball pools, balls, and mats are fully sanitized before every use.",
+  additionalCosts: {
+    nextMorningCollection: 50 // Optional based on the previous package
+  },
+  size: ['12ft x 15ft x 9.5ft', '3.7m x 4.6m x 2.9m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface'
+  ],
+  additionalInformation: `Add optional extras like 4x Didi Cars and 4x Animal Hoppers to keep the little ones entertained. For inquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  dimensions: {
+    unitSize: { width: '12ft', length: '15ft', height: '9.5ft' },
+    requiredSpace: { width: '15ft', length: '21ft', height: '10ft' },
+    requiredAccessWidth: '3ft'
+  },
+  metricDimensions: {
+    unitSize: { width: '3.7m', length: '4.6m', height: '2.9m' },
+    requiredSpace: { width: '4.6m', length: '6.4m', height: '3.0m' },
+    requiredAccessWidth: '0.9m'
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ]
+}
+,
+
+{
+  price: 195,
+  title: "Dinosaurs Juniors Slide + Bouncy Castle - Green / Light Blue",
+  img: "/newProducts/dinosaurs-soft-play-bouncy-castle-juniors-package-green-light-blue.png",
+  images: [
+    "/newProducts/dinosaurs-soft-play-bouncy-castle-juniors-package-green-light-blue.png",
+    "/newProducts/DinosaursJuniorsSlideBouncyCastleGreenLightBlue1.png",
+    "/newProducts/DinosaursJuniorsSlideBouncyCastleGreenLightBlue2.png"
+  ],
+  description: `This package features a 9ft x 11.5ft Dinosaurs-themed bouncy castle combined with a juniors inflatable slide. Perfect for your indoor or outdoor party, the platform height of the slide is 5ft, making it ideal for younger children. The package is available in a stylish Green and Light Blue design with a focus on safety and hygiene.`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority at Premium Inflatables! All inflatables, soft play, ball pools, balls, and mats are fully sanitized before every use.",
+  additionalCosts: {
+    nextMorningCollection: 50
+  },
+  size: ['9ft , 11.5ft , 8ft', '2.7m , 3.5m , 2.4m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface'
+  ],
+  additionalInformation: `Add optional extras like 4x Didi Cars and 4x Animal Hoppers to keep the little ones entertained. For inquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  dimensions: {
+    unitSize: { width: '9ft', length: '11.5ft', height: '8ft' },
+    requiredSpace: { width: '12ft', length: '17ft', height: '8.5ft' },
+    requiredAccessWidth: '3ft'
+  },
+  metricDimensions: {
+    unitSize: { width: '2.7m', length: '3.5m', height: '2.4m' },
+    requiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' },
+    requiredAccessWidth: '0.9m'
+  },
+  slideDetails: {
+    slideSize: { width: '12ft', length: '12ft', height: '8ft' },
+    platformHeight: '5ft'
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ]
+}
+,
+
+{
+  price: 195,
+  title: "Dinosaurs Soft Play Bouncy Castle Juniors Package - Green / Light Blue",
+  img: "/newProducts/dinosaurs-soft-play-bouncy-castle-juniors-package-green-light-blue1.png",
+  images: [
+    "/newProducts/dinosaurs-soft-play-bouncy-castle-juniors-package-green-light-blue2.png",
+    "/newProducts/dinosaurs-soft-play-bouncy-castle-juniors-package-red-blue.png",
+    // "/newProducts/DinosaursSoftPlayBouncyCastleGreenLightBlue2.png"
+  ],
+  description: `The Dinosaurs Themed Mega Soft Play Package is perfect for any birthday party or event, featuring a Dinosaurs-themed 9ft x 11ft bouncy castle paired with a ball pool, 18 pieces of soft play, and 9 matching mats. This package brings hours of fun and excitement with its vibrant Green and Light Blue design. Ideal for indoor events due to its 8ft height, it’s also perfect for outdoor use at your chosen venue.`,
+  safetyHygiene: "Safety and Hygiene are our top priorities at Premium Inflatables! All inflatables, soft play, ball pools, balls, and mats are fully sanitized before every use.",
+  additionalCosts: {
+    nextMorningCollection: 50
+  },
+  size: ['9ft , 11.5ft , 8ft', '2.7m , 3.5m , 2.4m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface'
+  ],
+  ballPool: {
+    description: "Foam ball pool included in the package, suitable for indoor and outdoor use.",
+    size: ['Foam Ball Pool: Green / Light Blue'],
+    suitability: [
+      'Indoor on Hard Surface',
+      'Outdoor on Grass',
+      'Outdoor on Hard Surface'
+    ]
+  },
+  softPlay: {
+    description: "Includes 18 pieces of soft play with a 9x matching mat set up, perfect for toddlers and young children.",
+    size: ['18pc Soft Play & 9xMega Mat Set'],
+    suitability: [
+      'Indoor on Hard Surface',
+      'Outdoor on Grass',
+      'Outdoor on Hard Surface'
+    ]
+  },
+  extras: {
+    didiCars: "Optional: 4x Didi Cars & 4x Hoppers available to keep all the children entertained.",
+    connectFour: "Optional: Giant Connect 4 Game for added fun and competition."
+  },
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  dimensions: {
+    unitSize: { width: '9ft', length: '11.5ft', height: '8ft' },
+    requiredSpace: { width: '12ft', length: '17ft', height: '8.5ft' },
+    requiredAccessWidth: '3ft'
+  },
+  metricDimensions: {
+    unitSize: { width: '2.7m', length: '3.5m', height: '2.4m' },
+    requiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' },
+    requiredAccessWidth: '0.9m'
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ]
+}
+,
+{
+  price: 195,
+  title: "Dinosaurs Soft Play Bouncy Castle Juniors Package - Red / Blue",
+  img: "/newProducts/dinosaurs-soft-play-bouncy-castle-juniors-package-red-blue1.png",
+  images: [
+    "/newProducts/dinosaurs-soft-play-bouncy-castle-juniors-package-red-blue2.png",
+    "/newProducts/dinosaurs-soft-play-bouncy-castle-juniors-package-red-blue3.png",
+    "/newProducts/dinosaurs-soft-play-bouncy-castle-juniors-package-red-blue4.png",
+    "/newProducts/dinosaurs-soft-play-bouncy-castle-juniors-package-red-blue5.png",
+    "/newProducts/dinosaurs-soft-play-bouncy-castle-juniors-package-red-blue6.png",
+    "/newProducts/dinosaurs-soft-play-bouncy-castle-package-green-light-blue.png"
+
+  ],
+  description: `The Red and Blue Dinosaur Themed Mega Soft Play Package is perfect for toddlers and young children. 
+  This package features a 9x11ft dinosaur-themed bouncy castle, foam ball pool, and soft play pieces, ideal for both 
+  indoor and outdoor events. Children can engage in imaginative play as little dinosaurs, enjoying hours of entertainment.`,
+  safetyHygiene: "Safety and Hygiene are our top priorities at Premium Inflatables! All inflatables, soft play, ball pools, and mats are fully sanitized before every use.",
+  additionalCosts: {
+    nextMorningCollection: 50
+  },
+  size: ['9ft , 11.5ft , 8ft', '2.7m , 3.5m , 2.4m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface',
+    'Not Suitable for Outdoors on Artificial Grass or Flags'
+  ],
+  ballPool: {
+    description: "Foam ball pool included in the package, suitable for both indoor and outdoor events.",
+    size: ['Foam Ball Pool: Red / Blue'],
+    suitability: [
+      'Indoor on Hard Surface',
+      'Outdoor on Grass',
+      'Outdoor on Hard Surface'
+    ]
+  },
+  softPlay: {
+    description: "Includes 18 pieces of soft play with a 9x matching mat setup, perfect for toddlers and young children.",
+    size: ['18pc Soft Play & 9xMega Mat Set'],
+    suitability: [
+      'Indoor on Hard Surface',
+      'Outdoor on Grass',
+      'Outdoor on Hard Surface'
+    ]
+  },
+  extras: {
+    didiCars: "Optional: 4x Didi Cars & 4x Hoppers available to keep all the little dinosaurs entertained.",
+    miniSlide: "Optional: Mini Slide available for added fun.",
+    connectFour: "Optional: Giant Connect 4 Game for added fun and competition."
+  },
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  dimensions: {
+    unitSize: { width: '9ft', length: '11.5ft', height: '8ft' },
+    requiredSpace: { width: '12ft', length: '17ft', height: '8.5ft' },
+    requiredAccessWidth: '3ft'
+  },
+  metricDimensions: {
+    unitSize: { width: '2.7m', length: '3.5m', height: '2.4m' },
+    requiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' },
+    requiredAccessWidth: '0.9m'
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  videoLink: "https://youtu.be/i0Eha00_I3U"
+}
+,
+
+{
+  price: 245,
+  title: "Dinosaurs Soft Play Bouncy Castle Package - Green / Light Blue",
+  img: "/newProducts/dinosaurs-soft-play-bouncy-castle-package-green-light-blue1.png",
+  images: [
+    "/newProducts/dinosaurs-soft-play-bouncy-castle-package-green-light-blue2.png",
+    "/newProducts/dinosaurs-soft-play-slide-bouncy-castle-green-light-blue.png",
+    // "/newProducts/DinosaursSoftPlayBouncyCastleGreenBlue2.png"
+  ],
+  description: `The Green and Light Blue Dinosaur Themed Mega Soft Play Package is perfect for children's parties 
+  and events. This package features a 12x15ft dinosaur-themed bouncy castle, foam ball pool, 17 pieces of soft play, 
+  and a 9 matching mat set, offering a fun and engaging experience for all the little guests.`,
+  safetyHygiene: "All our premium inflatables, soft play, ball pools, balls, and mats come fully sanitized before every use to ensure safety and hygiene.",
+  additionalCosts: {
+    nextMorningCollection: 50
+  },
+  size: ['12ft , 15ft , 9.5ft', '3.7m , 4.6m , 2.9m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface',
+    'Not Suitable for Outdoors on Artificial Grass or Flags'
+  ],
+  ballPool: {
+    description: "Foam ball pool included in the package, suitable for both indoor and outdoor events.",
+    size: ['Foam Ball Pool: Green / Light Blue'],
+    suitability: [
+      'Indoor on Hard Surface',
+      'Outdoor on Grass',
+      'Outdoor on Hard Surface'
+    ]
+  },
+  softPlay: {
+    description: "Includes 17 pieces of soft play with a 9x matching mat setup, perfect for toddlers and young children.",
+    size: ['17pc Soft Play & 9xMega Mat Set'],
+    suitability: [
+      'Indoor on Hard Surface',
+      'Outdoor on Grass',
+      'Outdoor on Hard Surface'
+    ]
+  },
+  extras: {
+    didiCars: "Optional: Didi Cars & Hoppers available for added fun, safe and easy to use both indoors and outdoors.",
+    connectFour: "Optional: Giant Connect 4 Game for added fun and competition."
+  },
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  dimensions: {
+    unitSize: { width: '12ft', length: '15ft', height: '9.5ft' },
+    requiredSpace: { width: '15ft', length: '21ft', height: '10ft' },
+    requiredAccessWidth: '3ft'
+  },
+  metricDimensions: {
+    unitSize: { width: '3.7m', length: '4.6m', height: '2.9m' },
+    requiredSpace: { width: '4.6m', length: '6.4m', height: '3.0m' },
+    requiredAccessWidth: '0.9m'
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  videoLink: "https://youtu.be/i0Eha00_I3U"
+}
+,
+
+{
+  price: 245,
+  title: "Football Bounce N' Slide Soft Play Package - Red / Blue",
+  img: "/newProducts/football-bounce-n-slide-soft-play-package-red-blue.png",
+  images: [
+    "/newProducts/FootballBounceSlideSoftPlayPackage1.png",
+    "/newProducts/FootballBounceSlideSoftPlayPackage2.png"
+  ],
+  description: `The Football Mega Soft Play Package is a perfect choice for football fans. It includes a 12x16ft 
+  red and blue bouncy castle with a slide, a foam ball pool, 17 pieces of matching soft play, and 9 mats to create a fun and exciting 
+  party experience. Ideal for both indoor and outdoor events, but soft play and ball pools are restricted to indoor use only.`,
+  safetyHygiene: "All inflatables, soft play, ball pools, balls, and mats are fully sanitized for each use, prioritizing safety and hygiene.",
+  additionalCosts: {
+    nextMorningCollection: 50
+  },
+  size: ['12ft , 16ft , 9.5ft', '3.7m , 4.9m , 2.9m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface',
+    'Not Suitable for Outdoors on Artificial Grass or Flags'
+  ],
+  ballPool: {
+    description: "Foam ball pool included, suitable for indoor use only.",
+    size: ['Foam Ball Pool: Red / Blue'],
+    suitability: [
+      'Indoor on Hard Surface'
+    ]
+  },
+  softPlay: {
+    description: "17 pieces of soft play with matching mats, designed for young children.",
+    size: ['17pc Soft Play & 9xMega Mat Set'],
+    suitability: [
+      'Indoor on Hard Surface',
+      'Outdoor on Grass',
+      'Outdoor on Hard Surface'
+    ]
+  },
+  slide: {
+    description: "Football-themed inflatable bouncy castle with slide, perfect for kids' events.",
+    size: ['Width: 3.7m, Length: 4.9m, Height: 2.9m'],
+    suitability: [
+      'Indoor on Hard Surface',
+      'Outdoor on Grass',
+      'Outdoor on Hard Surface',
+      'Not Suitable for Outdoors on Artificial Grass or Flags'
+    ]
+  },
+  extras: {
+    didiCars: "Optional: Add Didi Cars and animal hoppers for extra fun. They can be used both inside and outside.",
+    connectFour: "Optional: Add a Giant Connect 4 Game."
+  },
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  dimensions: {
+    unitSize: { width: '12ft', length: '16ft', height: '9.5ft' },
+    requiredSpace: { width: '16ft', length: '22ft', height: '10ft' },
+    requiredAccessWidth: '3ft'
+  },
+  metricDimensions: {
+    unitSize: { width: '3.7m', length: '4.9m', height: '2.9m' },
+    requiredSpace: { width: '4.9m', length: '6.7m', height: '3.0m' },
+    requiredAccessWidth: '0.9m'
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  videoLink: "https://youtu.be/i0Eha00_I3U"
+}
+,
+
+{
+  price: 245,
+  title: "Happy Birthday Soft Play Bouncy Castle Package - Green / Light Blue",
+  img: "/newProducts/happy-birthday-soft-play-bouncy-castle-package-red-blue.png",
+  images: [
+    "/newProducts/happy-birthday-soft-play-bouncy-castle-package-green-light-blue.png",
+    // "/newProducts/HappyBirthdayBouncyCastlePackage2.png"
+  ],
+  description: `Celebrate your special day with the Happy Birthday Soft Play Bouncy Castle Package in vibrant green and light blue. 
+  It includes a 15x12ft bouncy castle with slide, a matching foam ball pool, 18 pieces of soft play, and a 9-mat setup. 
+  Perfect for children's parties both indoors and outdoors.`,
+  safetyHygiene: "All inflatables, soft play, ball pools, balls, and mats are fully sanitized for each use, prioritizing safety and hygiene.",
+  size: ['15ft , 12ft , 9.5ft', '4.6m , 3.7m , 2.9m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface',
+    'Not Suitable for Outdoors on Artificial Grass or Flags'
+  ],
+  ballPool: {
+    description: "Foam ball pool included, matching the green/light blue theme.",
+    size: ['Foam Ball Pool: Green / Light Blue'],
+    suitability: [
+      'Indoor on Hard Surface'
+    ]
+  },
+  softPlay: {
+    description: "18 pieces of soft play with matching mats, ideal for young children.",
+    size: ['18pc Soft Play & 9xMega Mat Set'],
+    suitability: [
+      'Indoor on Hard Surface',
+      'Outdoor on Grass',
+      'Outdoor on Hard Surface'
+    ]
+  },
+  slide: {
+    description: "Birthday-themed inflatable bouncy castle with slide in green and light blue colors, perfect for children's events.",
+    size: ['Width: 4.6m, Length: 3.7m, Height: 2.9m'],
+    suitability: [
+      'Indoor on Hard Surface',
+      'Outdoor on Grass',
+      'Outdoor on Hard Surface',
+      'Not Suitable for Outdoors on Artificial Grass or Flags'
+    ]
+  },
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  dimensions: {
+    unitSize: { width: '15ft', length: '12ft', height: '9.5ft' },
+    requiredSpace: { width: '21ft', length: '15ft', height: '10ft' },
+    requiredAccessWidth: '3ft'
+  },
+  metricDimensions: {
+    unitSize: { width: '4.6m', length: '3.7m', height: '2.9m' },
+    requiredSpace: { width: '6.4m', length: '4.6m', height: '3.0m' },
+    requiredAccessWidth: '0.9m'
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  videoLink: "https://youtu.be/HappyBirthdayBouncyCastleVideo"
+}
+,
+{
+  price: 195,
+  title: "Jungle Juniors Slide + Bouncy Castle - Green / Light Blue",
+  img: "/newProducts/jungle-juniors-slide-bouncy-castle-green-light-blue1.png",
+  images: [
+    "/newProducts/jungle-juniors-slide-bouncy-castle-green-light-blue2.png",
+    "/newProducts/jungle-soft-play-bouncy-castle-juniors-package-green-light-blue.png"
+  ],
+  description: `The Jungle Juniors Slide and Bouncy Castle package is an exciting addition to any children's birthday party or event. 
+  Featuring vibrant green and light blue colors with jungle-themed artwork, this premium inflatable package includes a bouncy castle 
+  and a slide that are perfect for indoor and outdoor settings. Designed with safety and fun in mind, it’s ideal for children under 5.`,
+  safetyHygiene: "All inflatables, soft play, ball pools, balls, and mats are fully sanitized for each use, prioritizing safety and hygiene.",
+  premiumGuarantees: [
+    "New fully sanitized 2024 Premium Inflatables & accessories.",
+    "Delivering on time every time.",
+    "Punctual collections.",
+    "Friendly, polite team dedicated to making your event a success.",
+    "24/7 customer service for all inquiries."
+  ],
+  size: ['9ft , 11ft , 8ft', '2.7m , 3.5m , 2.4m'],
+  slideSize: ['12ft , 12ft , 8ft', '3.7m , 3.7m , 2.4m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Artificial Grass',
+    'Outdoor on Flags',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface',
+    'Not Suitable for Outdoors on Artificial Grass or Flags'
+  ],
+  bouncyCastle: {
+    description: "Jungle-themed bouncy castle, ideal for low-ceiling venues.",
+    size: { width: '9ft', length: '11ft', height: '8ft' },
+    requiredSpace: { width: '12ft', length: '17ft', height: '8.5ft' },
+    metricSize: { width: '2.7m', length: '3.5m', height: '2.4m' },
+    metricRequiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' }
+  },
+  juniorsSlide: {
+    description: "Juniors inflatable slide designed for safe play.",
+    size: { width: '12ft', length: '12ft', height: '8ft' },
+    slidePlatformHeight: '5ft',
+    requiredSpace: { width: '3.7m', length: '3.7m', height: '2.4m' }
+  },
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  videoLink: "https://youtu.be/JungleJuniorsSlideBouncyCastleVideo",
+  nextMorningCollectionFee: 50
+}
+,
+
+{
+  price: 195,
+  title: "Jungle Soft Play Bouncy Castle Juniors Package - Green / Light Blue",
+  img: "/newProducts/jungle-soft-play-bouncy-castle-juniors-package-green-light-blue1.png",
+  images: [
+    "/newProducts/jungle-soft-play-bouncy-castle-juniors-package-green-light-blue2.png",
+    "/newProducts/jungle-soft-play-bouncy-castle-juniors-package-green-light-blue3.png",
+    // "/newProducts/juniors-slide-bouncy-castle-green-light-blue.png",
+
+  ],
+  description: `The Jungle themed Mega Soft Play Under 5's Package is an amazing addition to any birthday party or event, 
+  boasting the classic cartoon jungle artwork which is finished in a modern gloss to match the premium gloss finish on all our inflatables. 
+  The Toddlers Jungle Bouncy Castle is perfect for low ceiling indoor venues, paired with a matching luxury foam ball pool and 
+  soft play pieces for endless fun!`,
+  safetyHygiene: "Safety and hygiene are our paramount priorities! All our Premium inflatables, Soft Play, Ball Pools, Balls, and Mats come fully sanitized for every use.",
+  premiumGuarantees: [
+    "New fully sanitized 2024 Premium Inflatables & accessories.",
+    "Delivering on time every time.",
+    "Punctual collections.",
+    "Friendly, polite team dedicated to making your event a success.",
+    "24/7 customer service for all inquiries."
+  ],
+  size: ['9ft , 11ft , 8ft', '2.7m , 3.5m , 2.4m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Artificial Grass',
+    'Outdoor on Flags',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface'
+  ],
+  bouncyCastle: {
+    description: "Jungle-themed bouncy castle, ideal for low-ceiling venues.",
+    size: { width: '9ft', length: '11ft', height: '8ft' },
+    requiredSpace: { width: '12ft', length: '17ft', height: '8.5ft' },
+    metricSize: { width: '2.7m', length: '3.5m', height: '2.4m' },
+    metricRequiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' }
+  },
+  users: [
+    'Suitable for Children under 5',
+    'Not Suitable for Adults'
+  ],
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  videoLink: "https://youtu.be/JungleSoftPlayBouncyCastle",
+  nextMorningCollectionFee: 50,
+  extras: [
+    "Didi Cars and Hoppers",
+    "Giant Connect 4 Game"
+  ]
+}
+,
+
+{
+  price: 195,
+  title: "Juniors Slide + Bouncy Castle - Green / Light Blue",
+  img: "/newProducts/juniors-slide-bouncy-castle-green-light-blue.png",
+  images: [
+    "/newProducts/juniors-slide-bouncy-castle-pink-purple.png",
+    "/newProducts/juniors-slide-bouncy-castle-red-blue.png",
+    // "/newProducts/jungle-soft-play-bouncy-castle-juniors-package-green-light-blue.png",
+  ],
+  description: `Premium Inflatables your local bouncy castle hire near you. Number #1 Google 
+  Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings. Delivering you a choice of UK's latest most on trend new purchases and additions 
+  to our outstanding Premium 2024 Fleet!! Never to be mistaken with lesser lower services offering low quality older cheap bouncy castles for hire!!
+  
+  The Plain No Theme Bouncy Castle in Green / Light blue paired with matching Green / Light blue Slide is an amazing 
+  addition to any children's birthday party or event, boasting the classic plain no theme colour way which is finished 
+  in a modern gloss to match the premium gloss finish on all our inflatables. The Plain no Themed bouncy castle and slide package is Ideal for all your indoor and outdoor events and special occasions. 
+  This package can be easily upgraded and paired with ball pools, soft play and matching mat set up to make an incredible package.`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables!! All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use.",
+  premiumGuarantees: [
+    "New fully sanitized 2024 Premium Inflatables & accessories.",
+    "Delivering on time every time.",
+    "Punctual collections.",
+    "Friendly, polite team dedicated to making your event a success.",
+    "24/7 customer service for all inquiries."
+  ],
+  size: ['12ft , 12ft , 8ft', '3.7m , 3.7m , 2.4m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Artificial Grass',
+    'Outdoor on Flags',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface'
+  ],
+  bouncyCastle: {
+    description: "Plain No Theme Bouncy Castle in Green/Light Blue paired with matching slide, ideal for all events.",
+    size: { width: '9ft', length: '11ft', height: '8ft' },
+    requiredSpace: { width: '12ft', length: '17ft', height: '8.5ft' },
+    metricSize: { width: '2.7m', length: '3.5m', height: '2.4m' },
+    metricRequiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' }
+  },
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  videoLink: "https://youtu.be/JuniorsSlideBouncyCastle",
+  nextMorningCollectionFee: 50,
+  extras: [
+    "Didi Cars and Hoppers",
+    "Giant Connect 4 Game"
+  ]
+}
+,
+
+{
+  price: 245,
+  title: "Mega Pack Soft Play with Air Juggler & Large Castle - Jungle Green / Light Blue",
+  img: "/newProducts/mega-pack-soft-play-with-air-juggler-and-large-castle-jungle-green-light-blue.png",
+  images: [
+    "/newProducts/mega-pack-soft-play-with-air-juggler-and-large-castle-jungle-green-light-blue1.png",
+    "/newProducts/mega-pack-soft-play-with-air-juggler-and-large-castle-jungle-green-light-blue2.png",
+    "/newProducts/mega-pack-soft-play-with-air-juggler-and-large-castle-jungle-green-light-blue3.png",
+    "/newProducts/mega-pack-soft-play-with-air-juggler-and-large-castle-jungle-green-light-blue4.png",
+    "/newProducts/mega-pack-soft-play-with-air-juggler-and-large-castle-jungle-green-light-blue5.png",
+    "/newProducts/mega-pack-soft-play-with-air-juggler-and-large-castle-jungle-green-light-blue6.png",
+    "/newProducts/mega-pack-soft-play-with-air-juggler-and-large-castle-jungle-green-light-blue7.png",
+    "/newProducts/mega-pack-soft-play-with-air-juggler-and-large-castle-jungle-green-light-blue8.png",
+    "/newProducts/mega-pack-soft-play-with-air-juggler-and-large-castle-jungle-green-light-blue9.png",
+
+    // "/newProducts/mega-pack-soft-play-jungle-package.png",
+  ],
+  description: `Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review 
+  Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings. Delivering you a choice of UK's latest most on trend new purchases and additions 
+  to our outstanding Premium 2024 Fleet!! Never to be mistaken with lesser lower services offering low quality older cheap bouncy castles for hire!!
+  
+  We’ve carefully selected our Green & Light Blue Jungle Mega Pack, putting together our highly demanded 12ft x 15ft Jungle 
+  bouncy castle which measures 9.5ft in height perfect fit for all your indoor hires, coupled with the floating ball feature 
+  on our matching air juggler Jungle ball pool keeping the under 5’s & toddlers entertained every time, not forgetting our 17pc 
+  matching Jungle Soft Play set + matching Green / Light Blue Mega Mat set completing your Green Jungle Mega Package fit for your 
+  Jungle themed Birthday Party Celebrations.`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables!! All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use.",
+  premiumGuarantees: [
+    "New fully sanitized 2024 Premium Inflatables & accessories.",
+    "Delivering on time every time.",
+    "Punctual collections.",
+    "Friendly, polite team dedicated to making your event a success.",
+    "24/7 customer service for all inquiries."
+  ],
+  size: ['12ft , 15ft , 9.5ft', '3.7m , 4.6m , 2.9m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Artificial Grass',
+    'Outdoor on Flags',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface'
+  ],
+  bouncyCastle: {
+    description: "12ft x 15ft Jungle Bouncy Castle with Air Juggler Matching Jungle Ball Pool and 17pc Soft Play set.",
+    size: { width: '12ft', length: '15ft', height: '9.5ft' },
+    requiredSpace: { width: '15ft', length: '21ft', height: '10ft' },
+    metricSize: { width: '3.7m', length: '4.6m', height: '2.9m' },
+    metricRequiredSpace: { width: '4.6m', length: '6.4m', height: '3.0m' }
+  },
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  videoLink: "https://youtu.be/EFeBLmetHes",
+  extras: [
+    "Didi Wiggle Cars & Hoppers",
+    "Giant Connect 4 Game"
+  ]
+}
+,
+
+{
+  price: 195,
+  title: "Mermaids Juniors Slide + Bouncy Castle - Pink / Purple",
+  img: "/newProducts/mermaids-juniors-slide-bouncy-castle-pink-purple.png",
+  images: [
+    "/newProducts/mermaids-juniors-slide-bouncy-castle-pink-purple1.png",
+    "/newProducts/mermaids-soft-play-slide-bouncy-castle-pink-purple.png",
+    // "/newProducts/mermaids-juniors-slide-bouncy-castle-package.png",
+  ],
+  description: `Perfect for any mermaid-themed event, our Mermaids Juniors Slide and Bouncy Castle package 
+  combines fun and excitement in beautiful pink and purple colors. This inflatable duo will keep the kids entertained 
+  for hours and make their special day unforgettable!`,
+  size: [
+    { unit: "Juniors Inflatable Bouncy Slide", dimensions: '12ft x 12ft x 8ft', requiredSpace: '15ft x 17ft x 9ft', slidePlatformHeight: '5ft' },
+    { unit: "Juniors Inflatable Bouncy Slide (metric)", dimensions: '3.7m x 3.7m x 2.4m', requiredSpace: '4.6m x 5.2m x 2.7m', slidePlatformHeight: '1.5m' },
+    { unit: "Mermaids Bouncy Castle", dimensions: '9.0ft x 11.5ft x 8.0ft', requiredSpace: '12.0ft x 17.0ft x 8.5ft' },
+    { unit: "Mermaids Bouncy Castle (metric)", dimensions: '2.7m x 3.5m x 2.4m', requiredSpace: '3.7m x 5.2m x 2.6m' }
+  ],
+  suitability: [
+    { unit: "Juniors Inflatable Bouncy Slide", suitableFor: ['Children'], notSuitableFor: ['Adults'], locations: ['Indoor on Hard Surface', 'Outdoor on Grass', 'Outdoor on Hard Surface'] },
+    { unit: "Mermaids Bouncy Castle", suitableFor: ['Children'], notSuitableFor: ['Adults'], locations: ['Indoor on Hard Surface', 'Outdoor on Grass', 'Outdoor on Hard Surface'] }
+  ]
+},
+{
+  price: 195,
+  title: "Party Time Bouncy Castle & Matching Inflatable Ball Pool",
+  img: "/newProducts/party-time-bouncy-castle-inflatable-ball-pool.png",
+  images: [
+    "/newProducts/party-time-bouncy-castle-inflatable-ball-pool1.png",
+    "/newProducts/party-time-bouncy-castle-inflatable-ball-pool2.png",
+    "/newProducts/party-time-bouncy-castle-inflatable-ball-pool3.png",
+    "/newProducts/party-time-bouncy-castle-inflatable-ball-pool4.png",
+    "/newProducts/party-time-bouncy-castle-inflatable-ball-pool5.png"
+  ],
+  description: `The Party Time Themed bouncy castle and inflatable ball pool is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork which is finished in a modern gloss to match the premium gloss finish on all our inflatables. If this amazing inflatable wasn't already good enough, why not take your special event to the next level by adding our Premium Entertainment Experience—the ultimate bouncy castle upgrade to include disco lights & a big Bluetooth speaker. The Party Time Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with slides, soft play, and a matching mat setup to make an incredible package.`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables!! All our Premium inflatables come fully sanitised for every use.",
+  premiumGuarantees: [
+    "New fully sanitized Premium Inflatables & accessories.",
+    "Delivering on time every time.",
+    "Punctual collections.",
+    "Friendly, polite team dedicated to making your event a success.",
+    "24/7 customer service for all inquiries."
+  ],
+  size: ['12ft', '15ft', '9.5ft', '3.7m', '4.6m', '2.9m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface',
+    'Outdoor on Artificial Grass',
+    'Outdoor on Flags'
+  ],
+  bouncyCastle: {
+    description: "12ft x 15ft Party Time Printed Bouncy Castle with matching inflatable ball pool.",
+    size: { width: '12ft', length: '15ft', height: '9.5ft' },
+    requiredSpace: { width: '15ft', length: '21ft', height: '10ft' },
+    metricSize: { width: '3.7m', length: '4.6m', height: '2.9m' },
+    metricRequiredSpace: { width: '4.6m', length: '6.4m', height: '3.0m' }
+  },
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  contactInfo: {
+    phone: "0113 460 1386",
+    email: "info@premiuminflatables.co.uk",
+    bookingOnline: true
+  },
+  videoLink: "https://youtu.be/EFeBLmetHes",
+  extras: [
+    "Slides",
+    "Soft Play",
+    "Matching Mat Set"
+  ]
+}
+,
+
+{
+  price: 195,
+  title: "Party Time Juniors Slide + Bouncy Castle - Green / Light Blue",
+  nextMorningCollection: 50,
+  img: "/newProducts/party-time-juniors-slide-bouncy-castle-green-light-blue1.png",
+  images: [
+    "/newProducts/party-time-juniors-slide-bouncy-castle-pink-purple.png",
+   
+  ],
+  description: `Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings. Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!! Never to be mistaken with lesser lower services offering low quality older cheap bouncy castles for hire!!`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables!! All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use.",
+  whyChooseUs: `Why Choose Premium Inflatables Bouncy Castle Hire Wakefield? CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK. Have our trained team deliver and setup this inflatable at your chosen home or venue.`,
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone',
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington',
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  contactInfo: {
+    phone: "0113 460 1386",
+    email: "info@premiuminflatables.co.uk",
+    bookingOnline: true
+  },
+  dimensions: {
+    unitSize: {
+      imperial: { width: '12ft', length: '12ft', height: '8ft' },
+      metric: { width: '3.7m', length: '3.7m', height: '2.4m' },
+      slidePlatformHeight: { imperial: '5ft', metric: '1.5m' }
+    },
+    requiredSpace: {
+      imperial: { width: '12.0ft', length: '17.0ft', height: '8.5ft' },
+      metric: { width: '3.7m', length: '5.2m', height: '2.6m' }
+    }
+  },
+  suitability: [ 
+   
+      'Indoors on Hard Surface'
+    ,
+  
+      'Outdoors on Grass',
+      'Outdoors on Hard Surface',
+      'Outdoors on Artificial Grass',
+      'Outdoors on Flags'
+    ]
+,
+  extras: [
+    "Slides",
+    "Soft Play",
+    "Matching Mat Set"
+  ]
+}
+
+
+,
+
+{
+  price: 195,
+  title: "Party Time Soft Play Bouncy Castle Juniors Package - Pink / Purple",
+  img: "/newProducts/party-time-soft-play-bouncy-castle-juniors-package-red-blue.png",
+  images: [
+    "/newProducts/party-time-soft-play-bouncy-castle-juniors-package-pink-purple1.png",
+    "/newProducts/party-time-soft-play-bouncy-castle-juniors-package-pink-purple2.png",
+    "/newProducts/party-time-soft-play-bouncy-castle-juniors-package-pink-purple3.png",
+
+ 
+  ],
+  description: `The Party Time Themed Mega Soft Play Package features a 9ft, 11ft bouncy castle perfect for indoor and outdoor events, with the classic cartoon Party Time artwork in a modern gloss finish. This package also includes a foam ball pool and matching soft play set to ensure endless fun for your little ones.`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority at Premium Inflatables! All inflatables, soft play, ball pools, balls, and mats are fully sanitized before every use.",
+  additionalCosts: {
+    nextMorningCollection: 0 // Optional costs can be added if applicable
+  },
+  size: ['9ft, 11ft, 8ft', '2.7m, 3.5m, 2.4m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface'
+  ],
+  additionalInformation: `Consider adding our package of Didi Cars and Hoppers for safe, fun, and easy entertainment. For inquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  dimensions: {
+    unitSize: { width: '9ft', length: '11ft', height: '8ft' },
+    requiredSpace: { width: '12ft', length: '17ft', height: '8.5ft' },
+    requiredAccessWidth: '3ft'
+  },
+  metricDimensions: {
+    unitSize: { width: '2.7m', length: '3.5m', height: '2.4m' },
+    requiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' },
+    requiredAccessWidth: '0.9m'
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ]
+}
+
+,
+
+{
+  price: 245,
+  title: "Party Time Soft Play Bouncy Castle Package - Green / Light Blue",
+  img: "/newProducts/party-time-soft-play-bouncy-castle-package-red-blue.png",
+  images: [
+    "/newProducts/party-time-soft-play-bouncy-castle-package-red-blue1.png",
+    "/newProducts/party-time-soft-play-bouncy-castle-package-red-blue2.png",
+ 
+  ],
+  description: `The Party Time Themed Mega Soft Play Package features a 12ft, 15ft bouncy castle, perfect for indoor and outdoor events. This package also includes a foam ball pool and matching soft play set, designed to keep children entertained with its bright colors and fun design.`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority at Premium Inflatables! All inflatables, soft play, ball pools, balls, and mats are fully sanitized before every use.",
+  additionalCosts: {
+    nextMorningCollection: 0 // Optional costs can be added if applicable
+  },
+  size: ['12ft, 15ft, 9.5ft', '3.7m, 4.6m, 2.9m'],
+  suitability: [
+    'Indoor on Hard Surface',
+    'Outdoor on Grass',
+    'Outdoor on Hard Surface'
+  ],
+  additionalInformation: `Add optional extras like a ball pool and soft play sets to enhance your party experience. For inquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
+  users: [
+    'Suitable for Children',
+    'Not Suitable for Adults'
+  ],
+  dimensions: {
+    unitSize: { width: '12ft', length: '15ft', height: '9.5ft' },
+    requiredSpace: { width: '15ft', length: '21ft', height: '10ft' },
+    requiredAccessWidth: '3ft'
+  },
+  metricDimensions: {
+    unitSize: { width: '3.7m', length: '4.6m', height: '2.9m' },
+    requiredSpace: { width: '4.6m', length: '6.4m', height: '3.0m' },
+    requiredAccessWidth: '0.9m'
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse', 
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone', 
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington', 
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ]
+}
+,
+
+{
+  price: 245,
+  title: "Peppa Pig Soft Play & Bouncy Castle Package",
+  nextMorningCollection: 50,
+  img: "/newProducts/peppa-pig-soft-play-and-bouncy-castle-package.png",
+  images: [
+    "/newProducts/peppa-pig-soft-play-and-bouncy-castle-package1.png",
+    "/newProducts/peppa-pig-soft-play-and-bouncy-castle-package2.png",
+    "/newProducts/peppa-pig-soft-play-and-bouncy-castle-package3.png",
+    "/newProducts/peppa-pig-soft-play-and-bouncy-castle-package4.png",
+    "/newProducts/peppa-pig-soft-play-and-bouncy-castle-package5.png",
+
+    
+  ],
+  description: `Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings. Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!! Never to be mistaken with lesser lower services offering low quality older cheap bouncy castles for hire!!`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables!! All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use.",
+  whyChooseUs: `Why Choose Premium Inflatables Bouncy Castle Hire Wakefield? CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK. Have our trained team deliver and setup this inflatable at your chosen home or venue.`,
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone',
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington',
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  contactInfo: {
+    phone: "0113 460 1386",
+    email: "info@premiuminflatables.co.uk",
+    bookingOnline: true
+  },
+  size:['12ft,12ft,9.5ft','3.7m,3.7m,2.9m'],
+
+    requiredSpace: {
+      imperial: { width: '15ft', length: '19ft' },
+      metric: { width: '4.6m', length: '5.8m' }
+    },
+    requiredAccessWidth: {
+      imperial: '3ft',
+      metric: '0.9m'
+    },
+  
+  suitability: [ 
+    'Indoors on Hard Surface',
+    'Outdoors on Grass',
+    'Outdoors on Hard Surface'
+  ],
+  extras: [
+    "Didi Cars",
+    "Hoppers",
+    "Matching Pink Soft Play (17pc) + Mega Mat",
+    "Pink Ball Pool + Matching Pink/Purple Commercial Balls"
+  ]
+}
+,
+{
+  price: 155,
+  title: "Premium Jungle Soft Play with Air Juggler Ball Pool - Green / Light Blue",
+  nextMorningCollection: 50,
+  img: "/newProducts/premium-jungle-soft-play-with-air-juggler-ball-pool-green-light-blue.png",
+  images: [
+    "/newProducts/premium-jungle-soft-play-with-air-juggler-ball-pool-green-light-blue.png",
+  
+  ],
+  description: `Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!! We’ve carefully selected our Premium Jungle Package perfect fit for all your indoor hires, coupled with the floating ball feature on our matching air juggler ball pool keeping the under 5’s & toddlers entertained every time, not forgetting our 16pc matching Jungle Soft Play set + matching Green/Blue Mega Mat set completing your Premium Jungle Package fit for your little Monkeys Birthday Party Celebration.`,
+  safetyHygiene: "We do not hire our soft play & foam ball pools for outdoor use. Please make enquiries for alternatives on our Contact Page. All our inflatables and equipment are fully sanitised for every use.",
+  whyChooseUs: `Why Choose Premium Inflatables Bouncy Castle Hire Wakefield? CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK. Have our trained team deliver and setup this inflatable at your chosen home or venue.`,
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone',
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington',
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  contactInfo: {
+    phone: "0113 460 1386",
+    email: "info@premiuminflatables.co.uk",
+    bookingOnline: true
+  },
+  dimensions: {
+    unitSize: {
+      imperial: { width: 'N/A', length: 'N/A', height: 'N/A' },
+      metric: { width: 'N/A', length: 'N/A', height: 'N/A' }
+    },
+    requiredSpace: {
+      imperial: { width: 'N/A', length: 'N/A' },
+      metric: { width: 'N/A', length: 'N/A' }
+    }
+  },
+  suitability: [ 
+    'Indoors on Hard Surface',
+    'Outdoors on Grass',
+    'Outdoors on Artificial Grass',
+    'Outdoors on Flags',
+    'Outdoors on Hard Surface'
+  ],
+  extras: [
+    "Air Juggler Matching Ball Pool",
+    "16pc Jungle Soft Play Set",
+    "Matching Green/Blue Mega Mat",
+    "Didi Wiggle Cars",
+    "Hoppers"
+  ]
+}
+,
+{
+  price: 245,
+  title: "Princess Bounce N' Slide Soft Play Package - Pink / Purple",
+  img: "/newProducts/princess-juniors-slide-bouncy-castle-pink-purple.png",
+  images: [
+    "/newProducts/princess-bounce-n-slide-soft-play-package-pink-purple1.png",
+    "/newProducts/princess-bounce-n-slide-soft-play-package-pink-purple2.png",
+    "/newProducts/princess-bounce-n-slide-soft-play-package-pink-purple3.png",
+    "/newProducts/princess-bounce-n-slide-soft-play-package-pink-purple4.png",
+    "/newProducts/princess-bounce-n-slide-soft-play-package-pink-purple5.png",
+    "/newProducts/princess-bounce-n-slide-soft-play-package-pink-purple6.png",
+    "/newProducts/princess-bounce-n-slide-soft-play-package-pink-purple7.png",
+    "/newProducts/princess-bounce-n-slide-soft-play-package-pink-purple8.png",
+   
+  ],
+  description: `Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings. The Princess Themed Mega Soft Play Package is an amazing set up! It will keep all your Princesses entertained throughout the day! Its Pink/Purple colours are a fabulous addition to your birthday celebrations. The Princess Themed bouncy castle with Slide 12x16ft is perfect for all your indoor and outdoor events and special occasions. This castle is paired with a foam ball pool, 17 pieces of soft play and matching 9 Mega mat set up to make an incredible package.`,
+  safetyHygiene: "We ensure all our inflatables are fully sanitized before every use. Please note that soft play & foam ball pools are not hired for outdoor use. For alternatives, please contact us.",
+  whyChooseUs: `Why Choose Premium Inflatables Bouncy Castle Hire Leeds and Wakefield? CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK. Our trained team will deliver and set up the inflatables at your chosen venue.`,
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone',
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington',
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  contactInfo: {
+    phone: "0113 460 1386",
+    email: "info@premiuminflatables.co.uk",
+    bookingOnline: true
+  },
+  // dimensions: {
+  //   unitSize: {
+  //     imperial: { width: '12ft', length: '16ft', height: '9.5ft' },
+  //     metric: { width: '3.7m', length: '4.9m', height: '2.9m' }
+  //   },
+  size :['12ft,16ft,9.5ft','3.7m,4.9m,2.9m'],
+    requiredSpace: {
+      imperial: { width: '16ft', length: '22ft', height: '10ft' },
+      metric: { width: '4.9m', length: '6.7m', height: '3.0m' }
+    },
+    requiredAccessWidth: {
+      imperial: '3ft',
+      metric: '0.9m'
+    },
+
+  suitability: [
+    'Indoors on Hard Surface',
+    'Outdoors on Grass',
+    'Outdoors on Artificial Grass',
+    'Outdoors on Flags',
+    'Outdoors on Hard Surface'
+  ],
+  castleSuitability: {
+    for: 'Children',
+    notFor: 'Adults',
+    limitations: [
+      'Not suitable outdoors on Artificial Grass',
+      'Not suitable outdoors on Flags'
+    ]
+  },
+  extras: [
+    "Foam Ball Pool - Pink/Purple",
+    "17pc Matching Soft Play",
+    "9pc Mega Mat",
+    "Didi Cars",
+    "Hoppers"
+  ]
+}
+,
+{
+  price: 195,
+  title: "Princess Juniors Slide + Bouncy Castle - Pink / Purple",
+  img: "/newProducts/princess-soft-play-slide-bouncy-castle-pink-purple.png",
+  images: [
+  "/newProducts/princess-soft-play-bouncy-castle-package-pink-purple1.png",
+  "/newProducts/princess-soft-play-bouncy-castle-package-pink-purple2.png",
+  "/newProducts/princess-soft-play-bouncy-castle-package-pink-purple3.png",
+  "/newProducts/princess-soft-play-bouncy-castle-package-pink-purple4.png",
+  "/newProducts/princess-soft-play-bouncy-castle-package-pink-purple5.png",
+  "/newProducts/princess-soft-play-bouncy-castle-package-pink-purple6.png",
+  "/newProducts/princess-soft-play-bouncy-castle-package-pink-purple7.png",
+  "/newProducts/princess-soft-play-bouncy-castle-package-pink-purple8.png",
+
+  ],
+  description: `Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings. The Princess Themed bouncy castle paired with matching Pink & Purple slide is an amazing addition to any children's birthday party or event, boasting the classic Princess artwork with a modern gloss finish. The package is perfect for all indoor and outdoor events and can be upgraded with ball pools, soft play, and matching mat set up.`,
+  safetyHygiene: "All inflatables, soft play, ball pools, balls, and mats are fully sanitized before every use to ensure the highest level of safety and hygiene.",
+  whyChooseUs: `Why Choose Premium Inflatables Bouncy Castle Hire Leeds and Wakefield? CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK. Our trained team will deliver and set up the inflatables at your chosen venue.`,
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone',
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington',
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  contactInfo: {
+    phone: "0113 460 1386",
+    email: "info@premiuminflatables.co.uk",
+    bookingOnline: true
+  },
+  size:['12ft,12ft,8ft','3.7m,3.7m,2.7m'],
+  dimensions: {
+    juniorSlide: {
+      imperial: { width: '12ft', length: '12ft', height: '8ft', platformHeight: '5ft' },
+      metric: { width: '3.7m', length: '3.7m', height: '2.4m', platformHeight: '1.5m' },
+      requiredSpace: {
+        imperial: { width: '15ft', length: '17ft', height: '9ft' },
+        metric: { width: '4.6m', length: '5.2m', height: '2.7m' }
+      }
+    },
+    bouncyCastle: {
+      imperial: { width: '9ft', length: '11.5ft', height: '8ft' },
+      metric: { width: '2.7m', length: '3.5m', height: '2.4m' },
+      requiredSpace: {
+        imperial: { width: '12ft', length: '17ft', height: '8.5ft' },
+        metric: { width: '3.7m', length: '5.2m', height: '2.6m' }
+      }
+    }
+  },
+  suitability: [
+    'Indoors on Hard Surface',
+    'Outdoors on Grass',
+    'Outdoors on Artificial Grass',
+    'Outdoors on Flags',
+    'Outdoors on Hard Surface'
+  ],
+  slideSuitability: {
+    for: 'Children',
+    notFor: 'Adults',
+    limitations: [
+      'Not suitable outdoors on Artificial Grass',
+      'Not suitable outdoors on Flags'
+    ]
+  },
+  castleSuitability: {
+    for: 'Children',
+    notFor: 'Adults',
+    limitations: [
+      'Not suitable outdoors on Artificial Grass',
+      'Not suitable outdoors on Flags'
+    ]
+  },
+  extras: [
+    "Foam Ball Pool",
+    "Soft Play",
+    "Matching Mats",
+    "Didi Cars",
+    "Hoppers"
+  ]
+}
+,
+
+{
+  price: 295,
+  title: "Princess Soft Play + Slide + Bouncy Castle - Pink / Purple",
+  img: "/newProducts/princess-soft-play-slide-bouncy-castle-pink-purple.png",
+  images: [
+    "/newProducts/princess-soft-play-slide-bouncy-castle-pink-purple.png",
+  ],
+  description: `Premium Inflatables brings you the Princess Themed Super Size Soft Play package with a mini platform slide, foam ball pool, soft play setup, and matching 9-mat layout, ideal for all your indoor and outdoor events. This premium package is perfect for celebrating your little princess’s birthday or any special occasion.`,
+  safetyHygiene: "All inflatables, soft play, ball pools, and mats are fully sanitized for every hire to ensure the highest level of safety and hygiene.",
+  whyChooseUs: `Why Choose Premium Inflatables Bouncy Castle Hire Leeds and Wakefield? CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK. Our trained team will deliver and set up this package at your chosen venue.`,
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone',
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington',
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  contactInfo: {
+    phone: "0113 460 1386",
+    email: "info@premiuminflatables.co.uk",
+    bookingOnline: true
+  },
+  dimensions: {
+    juniorSlide: {
+      imperial: { width: '12ft', length: '12ft', height: '8ft', platformHeight: '5ft' },
+      metric: { width: '3.7m', length: '3.7m', height: '2.4m', platformHeight: '1.5m' },
+      requiredSpace: {
+        imperial: { width: '15ft', length: '17ft', height: '9ft' },
+        metric: { width: '4.6m', length: '5.2m', height: '2.7m' }
+      }
+    },
+    bouncyCastle: {
+      imperial: { width: '9ft', length: '11.5ft', height: '8ft' },
+      metric: { width: '2.7m', length: '3.5m', height: '2.4m' },
+      requiredSpace: {
+        imperial: { width: '12ft', length: '17ft', height: '8.5ft' },
+        metric: { width: '3.7m', length: '5.2m', height: '2.6m' }
+      }
+    },
+    foamBallPool: {
+      suitableFor: ['Indoor Indoors on Hard Surface', 'Outdoor Outdoors on Artificial Grass', 'Outdoor Outdoors on Flags', 'Outdoor Outdoors on Grass', 'Outdoor Outdoors on Hard Surface']
+    },
+    softPlaySetup: {
+      description: "Soft Play 18pc & 9xMega Mat Set Up",
+      suitableFor: ['Indoor Indoors on Hard Surface', 'Outdoor Outdoors on Artificial Grass', 'Outdoor Outdoors on Flags', 'Outdoor Outdoors on Grass', 'Outdoor Outdoors on Hard Surface']
+    }
+  },
+  size:['12ft,12ft,8ft','3.7m,3.7m,2.4mx1.5m,'],
+  suitability: [
+    'Indoors on Hard Surface',
+    'Outdoors on Grass',
+    'Outdoors on Artificial Grass',
+    'Outdoors on Flags',
+    'Outdoors on Hard Surface'
+  ],
+  slideSuitability: {
+    for: 'Children',
+    notFor: 'Adults',
+    limitations: [
+      'Not suitable outdoors on Artificial Grass',
+      'Not suitable outdoors on Flags'
+    ]
+  },
+  castleSuitability: {
+    for: 'Children',
+    notFor: 'Adults',
+    limitations: [
+      'Not suitable outdoors on Artificial Grass',
+      'Not suitable outdoors on Flags'
+    ]
+  },
+  extras: [
+    "Didi Cars",
+    "Hoppers"
+  ]
+}
+,
+
+{
+  price: 195,
+  nextMorningCollection: 50,
+  title: "Sea World Juniors Slide + Bouncy Castle - Green / Light Blue",
+  img: "/newProducts/sea-world-juniors-slide-bouncy-castle-green-light-blue.png",
+  images: [
+    "/newProducts/sea-world-juniors-slide-bouncy-castle-green-light-blue.png",
+  ],
+  description: `Premium Inflatables presents the Sea World Bouncy Castle with a mini slide in Green & Light Blue, perfect for kids' parties and events. This inflatable is ideal for both indoor and outdoor setups and is part of our Premium 2024 Fleet, ensuring the latest trends and high-quality materials.`,
+  safetyHygiene: "Safety and Hygiene are paramount. All inflatables, soft play items, ball pools, mats, and equipment are fully sanitized before each hire for your peace of mind.",
+  whyChooseUs: `Why Choose Premium Inflatables Bouncy Castle Hire Wakefield? CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK. Our experienced team will deliver and set up at your preferred venue, ensuring a smooth and safe experience.`,
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone',
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington',
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  contactInfo: {
+    phone: "0113 460 1386",
+    email: "info@premiuminflatables.co.uk",
+    bookingOnline: true
+  },
+  dimensions: {
+    juniorSlide: {
+      imperial: { width: '12ft', length: '12ft', height: '8ft', platformHeight: '5ft' },
+      metric: { width: '3.7m', length: '3.7m', height: '2.4m', platformHeight: '1.5m' }
+    },
+    bouncyCastle: {
+      imperial: { width: '9ft', length: '11.5ft', height: '8ft' },
+      metric: { width: '2.7m', length: '3.5m', height: '2.4m' },
+      requiredSpace: {
+        imperial: { width: '12ft', length: '17ft', height: '8.5ft' },
+        metric: { width: '3.7m', length: '5.2m', height: '2.6m' }
+      }
+    }
+  },
+  // size:['9ft,11ft,8ft']
+  suitability: [
+    'Indoors on Hard Surface',
+    'Outdoors on Grass',
+    'Outdoors on Artificial Grass',
+    'Outdoors on Flags',
+    'Outdoors on Hard Surface'
+  ],
+  slideSuitability: {
+    for: 'Children',
+    notFor: 'Adults',
+    limitations: [
+      'Not suitable outdoors on Artificial Grass',
+      'Not suitable outdoors on Flags'
+    ]
+  },
+  castleSuitability: {
+    for: 'Children',
+    notFor: 'Adults',
+    limitations: [
+      'Not suitable outdoors on Artificial Grass',
+      'Not suitable outdoors on Flags'
+    ]
+  }
+}
+,
+
+{
+  price: 195,
+  nextMorningCollection: 50,
+  title: "Soft Play Bouncy Castle Juniors Package - Green / Light Blue",
+  img: "/newProducts/soft-play-bouncy-castle-juniors-package-green-light-blue.png",
+  images: [
+  "/newProducts/soft-play-bouncy-castle-juniors-package-green-light-blue.png",
+  ],
+  description: `Premium Inflatables presents the Soft Play Bouncy Castle Juniors Package in Green & Light Blue. This inflatable package is designed for toddlers and young children, providing a safe and fun environment. The setup includes a bouncy castle, ball pool, and soft play with a mega mat setup, ideal for indoor and outdoor use.`,
+  safetyHygiene: "All inflatables, soft play items, ball pools, and mats are fully sanitized for each hire, ensuring maximum safety and hygiene.",
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone',
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington',
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  contactInfo: {
+    phone: "0113 460 1386",
+    email: "info@premiuminflatables.co.uk",
+    bookingOnline: true
+  },
+  dimensions: {
+    toddlersBouncyCastle: {
+      imperial: { width: '9ft', length: '11.5ft', height: '8ft', requiredSpace: { width: '12ft', length: '17ft', height: '8.5ft' }, accessWidth: '3ft' },
+      metric: { width: '2.7m', length: '3.5m', height: '2.4m', requiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' }, accessWidth: '0.9m' }
+    },
+    ballPool: "Plain - Green / Light Blue",
+    softPlay: "18pc & 9xMega Mat Set Up - Green / Light Blue"
+  },
+  suitability: [
+    'Indoors on Hard Surface',
+    'Outdoors on Artificial Grass',
+    'Outdoors on Flags',
+    'Outdoors on Grass',
+    'Outdoors on Hard Surface'
+  ],
+  toddlersBouncyCastleSuitability: {
+    for: 'Children',
+    notFor: 'Adults',
+    limitations: [
+      'Not suitable outdoors on Artificial Grass',
+      'Not suitable outdoors on Flags'
+    ]
+  },
+  ballPoolSuitability: {
+    for: 'Indoor and Outdoor use',
+    surfaces: [
+      'Indoors on Hard Surface',
+      'Outdoors on Artificial Grass',
+      'Outdoors on Flags',
+      'Outdoors on Grass',
+      'Outdoors on Hard Surface'
+    ]
+  },
+  softPlaySuitability: {
+    surfaces: [
+      'Indoors on Hard Surface',
+      'Outdoors on Artificial Grass',
+      'Outdoors on Flags',
+      'Outdoors on Grass',
+      'Outdoors on Hard Surface'
+    ]
+  }
+}
+,
+{
+  price: 195,
+  nextMorningCollection: 50,
+  title: "Soft Play Bouncy Castle Juniors Package - Red / Blue",
+  img: "/newProducts/soft-play-bouncy-castle-juniors-package-red-blue.png",
+  images: [
+  "/newProducts/soft-play-bouncy-castle-juniors-package-red-blue.png",
+  ],
+  description: `Premium Inflatables presents the Soft Play Bouncy Castle Juniors Package in Red & Blue. This inflatable package is designed for toddlers and young children, providing a fun and safe play environment. The setup includes a bouncy castle, ball pool, and soft play with a mega mat setup, ideal for both indoor and outdoor settings.`,
+  safetyHygiene: "All inflatables, soft play items, ball pools, and mats are fully sanitized for each hire, ensuring maximum safety and hygiene.",
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone',
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington',
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  contactInfo: {
+    phone: "0113 460 1386",
+    email: "info@premiuminflatables.co.uk",
+    bookingOnline: true
+  },
+  dimensions: {
+    juniorsBouncyCastle: {
+      imperial: { width: '9ft', length: '11.5ft', height: '8ft', requiredSpace: { width: '12ft', length: '17ft', height: '8.5ft' } },
+      metric: { width: '2.7m', length: '3.5m', height: '2.4m', requiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' } }
+    },
+    ballPool: "Plain - Red / Blue",
+    foamBallPool: "Foam Ball Pool - Red / Blue",
+    softPlay: "18pc & 9xMega Mat Set Up - Red / Blue"
+  },
+  suitability: [
+    'Indoors on Hard Surface',
+    'Outdoors on Artificial Grass',
+    'Outdoors on Flags',
+    'Outdoors on Grass',
+    'Outdoors on Hard Surface'
+  ],
+  juniorsBouncyCastleSuitability: {
+    for: 'Children',
+    notFor: 'Adults',
+    limitations: [
+      'Not suitable outdoors on Artificial Grass',
+      'Not suitable outdoors on Flags'
+    ]
+  },
+  ballPoolSuitability: {
+    for: 'Indoor and Outdoor use',
+    surfaces: [
+      'Indoors on Hard Surface',
+      'Outdoors on Artificial Grass',
+      'Outdoors on Flags',
+      'Outdoors on Grass',
+      'Outdoors on Hard Surface'
+    ]
+  },
+  foamBallPoolSuitability: {
+    for: 'Indoor and Outdoor use',
+    surfaces: [
+      'Indoors on Hard Surface',
+      'Outdoors on Artificial Grass',
+      'Outdoors on Flags',
+      'Outdoors on Grass',
+      'Outdoors on Hard Surface'
+    ]
+  },
+  softPlaySuitability: {
+    surfaces: [
+      'Indoors on Hard Surface',
+      'Outdoors on Artificial Grass',
+      'Outdoors on Flags',
+      'Outdoors on Grass',
+      'Outdoors on Hard Surface'
+    ]
+  }
+}
+,
+{
+  price: 245,
+  title: "Soft Play Bouncy Castle Package - Green / Light Blue",
+  img: "/newProducts/soft-play-bouncy-castle-package-green-light-blue.png",
+  images: [
+    "/newProducts/soft-play-bouncy-castle-package-green-light-blue1.png",
+    "/newProducts/soft-play-bouncy-castle-package-green-light-blue2.png",
+    "/newProducts/soft-play-bouncy-castle-package-green-light-blue3.png",
+    "/newProducts/soft-play-bouncy-castle-package-green-light-blue4.png",
+    
+  ],
+  description: `Premium Inflatables presents the Soft Play Bouncy Castle Package in Green & Light Blue. This premium inflatable setup offers a bouncy castle, ball pool, and a soft play area with a mega mat setup. Ideal for children, this package is available for both indoor and outdoor settings, ensuring a fun and safe experience.`,
+  safetyHygiene: "All inflatables, soft play items, ball pools, and mats are fully sanitized for each hire, ensuring maximum safety and hygiene.",
+  note: "Soft play and foam ball pools are not available for outdoor use. Please contact us for alternatives.",
+  contactInfo: {
+    phone: "0113 460 1386",
+    email: "info@premiuminflatables.co.uk",
+    bookingOnline: true
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone',
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington',
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  dimensions: {
+    bouncyCastle: {
+      imperial: { width: '15ft', length: '12ft', height: '9.5ft', requiredSpace: { width: '21ft', length: '15ft', height: '10ft' } },
+      metric: { width: '4.6m', length: '3.7m', height: '2.9m', requiredSpace: { width: '6.4m', length: '4.6m', height: '3.0m' } }
+    },
+    ballPool: "Plain - Green / Light Blue",
+    softPlay: "18pc & 9xMega Mat Set Up - Green / Light Blue"
+  },
+  suitability: [
+    'Indoors on Hard Surface',
+    'Outdoors on Artificial Grass',
+    'Outdoors on Flags',
+    'Outdoors on Grass',
+    'Outdoors on Hard Surface'
+  ],
+  bouncyCastleSuitability: {
+    for: 'Children',
+    notFor: 'Adults',
+    limitations: [
+      'Not suitable outdoors on Artificial Grass',
+      'Not suitable outdoors on Flags'
+    ]
+  },
+  ballPoolSuitability: {
+    for: 'Indoor and Outdoor use',
+    surfaces: [
+      'Indoors on Hard Surface',
+      'Outdoors on Artificial Grass',
+      'Outdoors on Flags',
+      'Outdoors on Grass',
+      'Outdoors on Hard Surface'
+    ]
+  },
+  softPlaySuitability: {
+    surfaces: [
+      'Indoors on Hard Surface',
+      'Outdoors on Artificial Grass',
+      'Outdoors on Flags',
+      'Outdoors on Grass',
+      'Outdoors on Hard Surface'
+    ]
+  }
+}
+,
+
+{
+  price: 245,
+  title: "Soft Play Bouncy Castle Package - Pink / Purple",
+  img: "/newProducts/soft-play-bouncy-castle-package-pink-purple.png",
+  images: [
+    "/newProducts/soft-play-bouncy-castle-package-pink-purple.png",
+  ],
+  description: `Premium Inflatables presents the Soft Play Bouncy Castle Package in Pink & Purple. This premium package offers a vibrant bouncy castle, ball pool, and a soft play area with a mega mat setup. Ideal for children, this package is perfect for both indoor and outdoor settings, providing a fun and sanitized experience.`,
+  safetyHygiene: "All inflatables, soft play items, ball pools, and mats are fully sanitized for each hire, ensuring maximum safety and hygiene.",
+  note: "Soft play and foam ball pools are not available for outdoor use. Please contact us for alternatives.",
+  contactInfo: {
+    phone: "0113 460 1386",
+    email: "info@premiuminflatables.co.uk",
+    bookingOnline: true
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone',
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington',
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  dimensions: {
+    bouncyCastle: {
+      imperial: { width: '12ft', length: '15ft', height: '9.5ft', requiredSpace: { width: '15ft', length: '21ft', height: '10ft' } },
+      metric: { width: '3.7m', length: '4.6m', height: '2.9m', requiredSpace: { width: '4.6m', length: '6.4m', height: '3.0m' } }
+    },
+    ballPool: "Plain - Pink / Purple",
+    softPlay: "18pc & 9xMega Mat Set Up - Pink / Purple"
+  },
+  suitability: [
+    'Indoors on Hard Surface',
+    'Outdoors on Artificial Grass',
+    'Outdoors on Flags',
+    'Outdoors on Grass',
+    'Outdoors on Hard Surface'
+  ],
+  bouncyCastleSuitability: {
+    for: 'Children',
+    notFor: 'Adults',
+    limitations: [
+      'Not suitable outdoors on Artificial Grass',
+      'Not suitable outdoors on Flags'
+    ]
+  },
+  ballPoolSuitability: {
+    for: 'Indoor and Outdoor use',
+    surfaces: [
+      'Indoors on Hard Surface',
+      'Outdoors on Artificial Grass',
+      'Outdoors on Flags',
+      'Outdoors on Grass',
+      'Outdoors on Hard Surface'
+    ]
+  },
+  softPlaySuitability: {
+    surfaces: [
+      'Indoors on Hard Surface',
+      'Outdoors on Artificial Grass',
+      'Outdoors on Flags',
+      'Outdoors on Grass',
+      'Outdoors on Hard Surface'
+    ]
+  }
+}
+,
+
+{
+  price: 295,
+  title: "Soft Play + Slide + Bouncy Castle - Green / Light Blue",
+  img: "/newProducts/soft-play-slide-bouncy-castle-green-light-blue.png",
+  images: [
+   "/newProducts/soft-play-slide-bouncy-castle-green-light-blue.png",
+  ],
+  description: `Premium Inflatables brings you the Soft Play + Slide + Bouncy Castle Package in Green & Light Blue. This premium package includes a bouncy castle, mini platform slide, foam ball pool, soft play pieces, and matching mats. Ideal for children's parties and events, this modern setup with a gloss finish is designed to keep kids entertained both indoors and outdoors.`,
+  safetyHygiene: "All inflatables, soft play items, ball pools, and mats are fully sanitized for each hire, ensuring maximum safety and hygiene.",
+  note: "This soft play and foam ball pool are not suitable for outdoor use. Please contact us for alternatives.",
+  contactInfo: {
+    phone: "0113 460 1386",
+    email: "info@premiuminflatables.co.uk",
+    bookingOnline: true
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone',
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington',
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  dimensions: {
+    bouncyCastle: {
+      imperial: { width: '9ft', length: '11ft', height: '8ft', requiredSpace: { width: '12ft', length: '17ft', height: '8.5ft' } },
+      metric: { width: '2.7m', length: '3.5m', height: '2.4m', requiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' } }
+    },
+    slide: {
+      imperial: { width: '12ft', length: '12ft', height: '8ft', slidePlatformHeight: '5ft' },
+      metric: { width: '3.7m', length: '3.7m', height: '2.4m', slidePlatformHeight: '1.5m' }
+    },
+    foamBallPool: "Foam Ball Pool - Green / Light Blue",
+    softPlay: "18pc & 9xMega Mat Set Up - Green / Light Blue"
+  },
+  suitability: [
+    'Indoors on Hard Surface',
+    'Outdoors on Artificial Grass',
+    'Outdoors on Flags',
+    'Outdoors on Grass',
+    'Outdoors on Hard Surface'
+  ],
+  bouncyCastleSuitability: {
+    for: 'Children',
+    notFor: 'Adults',
+    limitations: [
+      'Not suitable outdoors on Artificial Grass',
+      'Not suitable outdoors on Flags'
+    ]
+  },
+  ballPoolSuitability: {
+    for: 'Indoor and Outdoor use',
+    surfaces: [
+      'Indoors on Hard Surface',
+      'Outdoors on Artificial Grass',
+      'Outdoors on Flags',
+      'Outdoors on Grass',
+      'Outdoors on Hard Surface'
+    ]
+  },
+  slideSuitability: {
+    for: 'Children',
+    notFor: 'Adults',
+    limitations: [
+      'Not suitable outdoors on Artificial Grass',
+      'Not suitable outdoors on Flags'
+    ]
+  },
+  softPlaySuitability: {
+    surfaces: [
+      'Indoors on Hard Surface',
+      'Outdoors on Artificial Grass',
+      'Outdoors on Flags',
+      'Outdoors on Grass',
+      'Outdoors on Hard Surface'
+    ]
+  }
+}
+,
+{
+  price: 195,
+  title: "Superheroes Juniors Slide + Bouncy Castle - Green / Light Blue",
+  img: "/newProducts/superheroes-juniors-slide-bouncy-castle-green-light-blue.png",
+  images: [
+    "/newProducts/superheroes-juniors-slide-bouncy-castle-green-light-blue.png",
+   
+  ],
+  description: `The Superheroes Juniors Slide + Bouncy Castle in Green & Light Blue is a thrilling addition to any children's party or event. This package includes a superheroes-themed bouncy castle paired with a matching slide. The setup features classic cartoon party-time artwork with a modern gloss finish, perfect for both indoor and outdoor events.`,
+  safetyHygiene: "All inflatables, soft play items, ball pools, and mats are fully sanitized for each hire, ensuring maximum safety and hygiene.",
+  note: "Add-ons like Didi Cars and Hoppers are available to enhance the package, providing fun and versatility for both indoor and outdoor use.",
+  contactInfo: {
+    phone: "0113 460 1386",
+    email: "info@premiuminflatables.co.uk",
+    bookingOnline: true
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone',
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington',
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  dimensions: {
+    bouncyCastle: {
+      imperial: { width: '9ft', length: '11.5ft', height: '8ft', requiredSpace: { width: '12ft', length: '17ft', height: '8.5ft' } },
+      metric: { width: '2.7m', length: '3.5m', height: '2.4m', requiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' } }
+    },
+    slide: {
+      imperial: { width: '12ft', length: '12ft', height: '8ft', slidePlatformHeight: '5ft' },
+      metric: { width: '3.7m', length: '3.7m', height: '2.4m', slidePlatformHeight: '1.5m' }
+    }
+  },
+  suitability: [
+    'Indoors on Hard Surface',
+    'Outdoors on Artificial Grass',
+    'Outdoors on Flags',
+    'Outdoors on Grass',
+    'Outdoors on Hard Surface'
+  ],
+  bouncyCastleSuitability: {
+    for: 'Children',
+    notFor: 'Adults',
+    limitations: [
+      'Not suitable outdoors on Artificial Grass',
+      'Not suitable outdoors on Flags'
+    ]
+  },
+  slideSuitability: {
+    for: 'Children',
+    notFor: 'Adults',
+    limitations: [
+      'Not suitable outdoors on Artificial Grass',
+      'Not suitable outdoors on Flags'
+    ]
+  }
+}
+,
+{
+  price: 195,
+  title: "Superheroes Juniors Slide + Bouncy Castle - Red / Blue",
+  img: "/newProducts/superheroes-juniors-slide-bouncy-castle-red-blue.png",
+  images: [
+    "/newProducts/superheroes-juniors-slide-bouncy-castle-red-blue.png",
+
+  ],
+  description: `The Superheroes Juniors Slide + Bouncy Castle in Red & Blue is a fantastic choice for children's parties or events. Featuring superheroes-themed designs, this bouncy castle and slide combo offers both fun and safety for the kids. The package showcases vibrant colors and a modern glossy finish, suitable for both indoor and outdoor use.`,
+  safetyHygiene: "All inflatables, soft play items, ball pools, and mats are thoroughly sanitized before every use, prioritizing safety and hygiene.",
+  note: "Consider adding Didi Cars and Hoppers to the package, which are versatile and fun for kids, suitable for both indoor and outdoor events.",
+  contactInfo: {
+    phone: "0113 460 1386",
+    email: "info@premiuminflatables.co.uk",
+    bookingOnline: true
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone',
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington',
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  dimensions: {
+    bouncyCastle: {
+      imperial: { width: '9ft', length: '11.5ft', height: '8ft', requiredSpace: { width: '12ft', length: '17ft', height: '8.5ft' } },
+      metric: { width: '2.7m', length: '3.5m', height: '2.4m', requiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' } }
+    },
+    slide: {
+      imperial: { width: '12ft', length: '12ft', height: '8ft', slidePlatformHeight: '5ft' },
+      metric: { width: '3.7m', length: '3.7m', height: '2.4m', slidePlatformHeight: '1.5m' }
+    }
+  },
+  suitability: [
+    'Indoors on Hard Surface',
+    'Outdoors on Artificial Grass',
+    'Outdoors on Flags',
+    'Outdoors on Grass',
+    'Outdoors on Hard Surface'
+  ],
+  bouncyCastleSuitability: {
+    for: 'Children',
+    notFor: 'Adults',
+    limitations: [
+      'Not suitable outdoors on Artificial Grass',
+      'Not suitable outdoors on Flags'
+    ]
+  },
+  slideSuitability: {
+    for: 'Children',
+    notFor: 'Adults',
+    limitations: [
+      'Not suitable outdoors on Artificial Grass',
+      'Not suitable outdoors on Flags'
+    ]
+  }
+}
+,
+
+{
+  price: 195,
+  title: "Superheroes Soft Play Bouncy Castle Juniors Package - Green / Light Blue",
+  img: "/newProducts/superheroes-soft-play-bouncy-castle-juniors-package-green-light-blue.png",
+  images: [
+    "/newProducts/superheroes-soft-play-bouncy-castle-juniors-package-green-light-blue!!!.png",
+    "/newProducts/superheroes-soft-play-bouncy-castle-juniors-package-green-light-blue!!.png",
+      "/newProducts/superheroes-soft-play-bouncy-castle-juniors-package-green-light-blue!.png",
+        "/newProducts/superheroes-soft-play-bouncy-castle-juniors-package-green-light-blue!!.png"
+  ],
+  description: `The Superheroes Soft Play Bouncy Castle Juniors Package in Green and Light Blue is the perfect addition to any children's party or event. Featuring vibrant cartoon Superheroes artwork, this package includes a themed bouncy castle, foam ball pool, 18 pieces of soft play, and a 9 Mega mat setup. This premium package offers safety and hygiene, with all items thoroughly sanitized before each use.`,
+  safetyHygiene: "Safety and Hygiene are the paramount priority at Premium Inflatables! All our inflatables, soft play, ball pools, and mats come fully sanitized for every use.",
+  note: "Consider adding Didi Cars and Hoppers for extra fun. These safe, easy-to-use toys are perfect for indoor and outdoor events.",
+  contactInfo: {
+    phone: "0113 460 1386",
+    email: "info@premiuminflatables.co.uk",
+    bookingOnline: true
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone',
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington',
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  dimensions: {
+    bouncyCastle: {
+      imperial: { width: '9ft', length: '11.5ft', height: '8ft', requiredSpace: { width: '12ft', length: '17ft', height: '8.5ft' } },
+      metric: { width: '2.7m', length: '3.5m', height: '2.4m', requiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' } }
+    },
+    foamBallPool: {
+      suitability: [
+        'Indoors on Hard Surface',
+        'Outdoors on Artificial Grass',
+        'Outdoors on Flags',
+        'Outdoors on Grass',
+        'Outdoors on Hard Surface'
+      ]
+    },
+    softPlay: {
+      suitability: [
+        'Indoors on Hard Surface',
+        'Outdoors on Artificial Grass',
+        'Outdoors on Flags',
+        'Outdoors on Grass',
+        'Outdoors on Hard Surface'
+      ]
+    }
+  },
+  suitability: {
+    for: 'Children',
+    notFor: 'Adults'
+  },
+  additionalActivities: [
+    {
+      name: "Didi Cars & Hoppers",
+      description: "Super Fun optional extras to keep everyone occupied. Kids can hop on and start wiggling, perfect for indoor and outdoor use."
+    },
+    {
+      name: "Giant Connect 4 Game",
+      description: "Every child loves competing in this classic game."
+    }
+  ],
+  largerOptions: "If you require a larger bouncy castle for more maximum users, check out our Bigger Bouncy Castle Indoor Soft Play Packages.",
+  whyChoose: "Choose Premium Inflatables for trained delivery and setup at your chosen home or venue."
+}
+,
+
+{
+  price: 195,
+  title: "Superheroes Soft Play Bouncy Castle Juniors Package - Red / Blue",
+  img: "/newProducts/superheroes-soft-play-bouncy-castle-juniors-package-red-blue.png",
+  images: [
+    "/newProducts/superheroes-soft-play-bouncy-castle-juniors-package-red-blue1.png",
+    "/newProducts/superheroes-soft-play-bouncy-castle-juniors-package-red-blue2.png",
+    "/newProducts/superheroes-soft-play-bouncy-castle-juniors-package-red-blue3.png",
+    "/newProducts/superheroes-soft-play-bouncy-castle-juniors-package-red-blue4.png",
+    "/newProducts/superheroes-soft-play-bouncy-castle-juniors-package-red-blue5.png",
+    "/newProducts/superheroes-soft-play-bouncy-castle-juniors-package-red-blue6.png",
+
+  
+  ],
+  description: `The Superheroes Soft Play Bouncy Castle Juniors Package in Red and Blue is the ultimate choice for any children's party! This impressive package features a themed bouncy castle, a foam ball pool, a matching 17-piece Superheroes soft play set, and a Mega mat setup. Ideal for both indoor and outdoor hires, this bouncy castle guarantees fun, no matter the season!`,
+  safetyHygiene: "Safety and Hygiene are paramount at Premium Inflatables! All inflatables, soft play, ball pools, and mats are fully sanitized for every use.",
+  note: "Consider adding our fun 4x Didi Cars and 4x Animal Hoppers to keep your little Superheroes entertained!",
+  contactInfo: {
+    phone: "0113 460 1386",
+    email: "info@premiuminflatables.co.uk",
+    bookingOnline: true
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone',
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington',
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  dimensions: {
+    bouncyCastle: {
+      imperial: { width: '9ft', length: '11.5ft', height: '8ft', requiredSpace: { width: '12ft', length: '17ft', height: '8.5ft' } },
+      metric: { width: '2.7m', length: '3.5m', height: '2.4m', requiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' } }
+    },
+    foamBallPool: {
+      suitability: [
+        'Indoors on Hard Surface',
+        'Outdoors on Artificial Grass',
+        'Outdoors on Flags',
+        'Outdoors on Grass',
+        'Outdoors on Hard Surface'
+      ]
+    },
+    softPlay: {
+      suitability: [
+        'Indoors on Hard Surface',
+        'Outdoors on Artificial Grass',
+        'Outdoors on Flags',
+        'Outdoors on Grass',
+        'Outdoors on Hard Surface'
+      ]
+    }
+  },
+  suitability: {
+    for: 'Children',
+    notFor: 'Adults'
+  },
+  additionalActivities: [
+    {
+      name: "Didi Cars & Hoppers",
+      description: "Add fun with 4x Didi Cars and 4x Animal Hoppers to keep the kids entertained!"
+    }
+  ],
+  largerOptions: "If you need a larger bouncy castle for more users, check out our Bigger Bouncy Castle Indoor Soft Play Packages.",
+  whyChoose: "Choose Premium Inflatables for trained delivery and setup at your chosen home or venue."
+}
+,
+
+{
+  price: 245,
+  title: "Superheroes Soft Play Bouncy Castle Package - Red / Blue",
+  img: "/newProducts/superheroes-soft-play-bouncy-castle-package-red-blue.png",
+  images: [
+    "/newProducts/superheroes-soft-play-bouncy-castle-package-red-blue1.png",
+    "/newProducts/superheroes-soft-play-bouncy-castle-package-red-blue2.png",
+    "/newProducts/superheroes-soft-play-bouncy-castle-package-red-blue3.png",
+    "/newProducts/superheroes-soft-play-bouncy-castle-package-red-blue4.png",
+    "/newProducts/superheroes-soft-play-bouncy-castle-package-red-blue5.png",
+  
+  ],
+  description: `The Superheroes Soft Play Bouncy Castle Package in Red and Blue is the perfect choice for your children's birthday party! Featuring a spacious 12ft x 15ft bouncy castle with a height of 9.5ft, this package is ideal for indoor hires. It includes a foam ball pool, 17-piece matching Superhero soft play, and a red/blue Mega mat setup, ensuring endless entertainment for children of all ages.`,
+  safetyHygiene: "Safety and Hygiene are paramount at Premium Inflatables! All inflatables, soft play, ball pools, and mats are fully sanitized for every use.",
+  note: "Consider adding our fun 4x Didi Cars and 4x Hoppers to keep your little monkeys entertained!",
+  contactInfo: {
+    phone: "0113 460 1386",
+    email: "info@premiuminflatables.co.uk",
+    bookingOnline: true
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone',
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington',
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  dimensions: {
+    bouncyCastle: {
+      imperial: { width: '12ft', length: '15ft', height: '9.5ft', requiredSpace: { width: '15ft', length: '21ft', height: '10ft' }, accessWidth: '3ft' },
+      metric: { width: '3.7m', length: '4.6m', height: '2.9m', requiredSpace: { width: '4.6m', length: '6.4m', height: '3.0m' }, accessWidth: '0.9m' }
+    },
+    foamBallPool: {
+      suitability: [
+        'Indoors on Hard Surface',
+        'Outdoors on Artificial Grass',
+        'Outdoors on Flags',
+        'Outdoors on Grass',
+        'Outdoors on Hard Surface'
+      ]
+    },
+    softPlay: {
+      suitability: [
+        'Indoors on Hard Surface',
+        'Outdoors on Artificial Grass',
+        'Outdoors on Flags',
+        'Outdoors on Grass',
+        'Outdoors on Hard Surface'
+      ]
+    }
+  },
+  suitability: {
+    for: 'Children',
+    notFor: 'Adults'
+  },
+  additionalActivities: [
+    {
+      name: "Didi Cars & Hoppers",
+      description: "Add fun with 4x Didi Cars and 4x Animal Hoppers to keep the kids entertained!"
+    }
+  ],
+  largerOptions: "If you need a larger bouncy castle for more users, check out our Bigger Bouncy Castle Indoor Soft Play Packages.",
+  whyChoose: "Choose Premium Inflatables for trained delivery and setup at your chosen home or venue."
+}
+,
+
+{
+  price: 195,
+  title: "Bouncy Castle - Pink / Purple",
+  img: "/newProducts/unicorn-juniors-slide-bouncy-castle-pink-purple.png",
+  images: [
+    "/newProducts/unicorn-juniors-slide-bouncy-castle-pink-purple1.png",
+    "/newProducts/unicorn-juniors-slide-bouncy-castle-pink-purple2.png",
+    "/newProducts/unicorn-juniors-slide-bouncy-castle-pink-purple3.png",
+   
+  ],
+  description: `Introducing our Unicorn Themed Bouncy Castle and Slide Package in Pink and Purple, an amazing addition to any children's birthday party or event. This package features classic cartoon unicorn artwork, finished in a modern gloss, ensuring it stands out at any occasion. It's perfect for indoor and outdoor events, and can be easily upgraded with ball pools, soft play, and matching mat setups for a complete experience.`,
+  safetyHygiene: "Safety and Hygiene are paramount at Premium Inflatables! All inflatables, soft play, ball pools, and mats are fully sanitized for every use.",
+  note: "Consider adding our package of Didi Cars and Hoppers to your party for extra fun!",
+  contactInfo: {
+    phone: "0113 460 1386",
+    email: "info@premiuminflatables.co.uk",
+    bookingOnline: true
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone',
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington',
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  dimensions: {
+    bouncyCastle: {
+      imperial: { width: '9ft', length: '11.5ft', height: '8ft', requiredSpace: { width: '12ft', length: '17ft', height: '8.5ft' }, accessWidth: '3ft' },
+      metric: { width: '2.7m', length: '3.5m', height: '2.4m', requiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' }, accessWidth: '0.9m' }
+    },
+    slide: {
+      imperial: { width: '12ft', length: '12ft', height: '8ft', requiredSpace: { width: '15ft', length: '17ft', height: '9ft' }, platformHeight: '5ft' },
+      metric: { width: '3.7m', length: '3.7m', height: '2.4m', requiredSpace: { width: '4.6m', length: '5.2m', height: '2.7m' }, platformHeight: '1.5m' }
+    }
+  },
+  suitability: {
+    for: 'Children',
+    notFor: 'Adults'
+  },
+  additionalActivities: [
+    {
+      name: "Didi Cars & Hoppers",
+      description: "Add super fun Didi Cars and Hoppers to your package for safe and easy entertainment for kids!"
+    }
+  ],
+  largerOptions: "If you need a larger bouncy castle for more users, check out our Bigger Bouncy Castle Indoor Soft Play Packages.",
+  whyChoose: "Choose Premium Inflatables for trained delivery and setup at your chosen home or venue."
+}
+,
+{
+  price: 195,
+  title: "Unicorn Soft Play Bouncy Castle Juniors Package - Pink / Purple",
+  img: "/newProducts/unicorn-soft-play-bouncy-castle-juniors-package-pink-purple.png",
+  images: [
+    "/newProducts/unicorn-soft-play-bouncy-castle-juniors-package-pink-purple1.png",
+    "/newProducts/unicorn-soft-play-bouncy-castle-juniors-package-pink-purple2.png",
+    "/newProducts/unicorn-soft-play-bouncy-castle-juniors-package-pink-purple3.png",
+    
+  ],
+  description: `Introducing our Unicorn Soft Play Bouncy Castle Juniors Package in Pink and Purple, perfect for your little girls who adore My Little Pony! This vibrant package includes a colourful Unicorn Themed Bouncy Castle, a foam ball pool, 18 pieces of soft play, and a matching 9x mat setup. This safe environment allows kids to roll, play, and pretend to be beautiful unicorns! Ideal for indoor venues, this package features a 9x11ft Toddler Castle.`,
+  safetyHygiene: "Safety and Hygiene are paramount at Premium Inflatables! All inflatables, soft play, ball pools, and mats are fully sanitized for every use.",
+  additionalActivities: [
+    {
+      name: "Didi Cars & Hoppers",
+      description: "Add super fun Didi Cars and Hoppers to your package! They are safe, fun, and easy to use, allowing kids to hop on and start wiggling! Perfect for both indoor and outdoor use."
+    },
+    {
+      name: "Giant Connect 4 Game",
+      description: "Every child loves the challenge of catching 4x in a row with our Giant Connect 4 Game."
+    }
+  ],
+  contactInfo: {
+    phone: "0113 460 1386",
+    email: "info@premiuminflatables.co.uk",
+    bookingOnline: true
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone',
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington',
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  dimensions: {
+    bouncyCastle: {
+      imperial: { width: '9ft', length: '11.5ft', height: '8ft', requiredSpace: { width: '12ft', length: '17ft', height: '8.5ft' }, accessWidth: '3ft' },
+      metric: { width: '2.7m', length: '3.5m', height: '2.4m', requiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' }, accessWidth: '0.9m' }
+    },
+    foamBallPool: {
+      imperial: { width: 'varies', length: 'varies', height: 'varies', suitableFor: 'Indoor and Outdoor' },
+      metric: { width: 'varies', length: 'varies', height: 'varies', suitableFor: 'Indoor and Outdoor' }
+    },
+    softPlay: {
+      imperial: { pcs: '18', matSize: '9x', suitableFor: 'Indoor and Outdoor' },
+      metric: { pcs: '18', matSize: '9x', suitableFor: 'Indoor and Outdoor' }
+    }
+  },
+  suitability: {
+    for: 'Children',
+    notFor: 'Adults'
+  },
+  largerOptions: "For larger groups, look up our Bigger Bouncy Castle Indoor Soft Play Packages.",
+  whyChoose: "Choose Premium Inflatables for trained delivery and setup at your chosen home or venue."
+}
+,
+
+{
+  price: 245,
+  title: "Unicorn Soft Play Bouncy Castle Package - Pink / Purple",
+  img: "/newProducts/unicorn-soft-play-bouncy-castle-package-pink-purple.png",
+  images: [
+    "/newProducts/unicorn-soft-play-bouncy-castle-package-pink-purple1.png",
+    "/newProducts/unicorn-soft-play-bouncy-castle-package-pink-purple2.png",
+    "/newProducts/unicorn-soft-play-bouncy-castle-package-pink-purple3.png",
+    "/newProducts/unicorn-soft-play-bouncy-castle-package-pink-purple4.png",
+    "/newProducts/unicorn-soft-play-bouncy-castle-package-pink-purple5.png",
+  
+  ],
+  description: `Introducing our Unicorn Soft Play Bouncy Castle Package in Pink and Purple, perfect for little girls who love My Little Pony! This vibrant package includes a 12x15ft Unicorn Themed Bouncy Castle, a foam ball pool, 17 pieces of soft play, and a matching 9 mat setup. This safe environment allows kids to roll, play, and pretend to be beautiful unicorns! Ideal for all indoor venues.`,
+  safetyHygiene: "Safety and Hygiene are paramount at Premium Inflatables! All inflatables, soft play, ball pools, and mats are fully sanitized for every use.",
+  additionalActivities: [
+    {
+      name: "Didi Cars & Hoppers",
+      description: "Add fun Didi cars and animal hoppers to your package to keep the kids entertained throughout the party!"
+    }
+  ],
+  contactInfo: {
+    phone: "0113 460 1386",
+    email: "info@premiuminflatables.co.uk",
+    bookingOnline: true
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone',
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington',
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  dimensions: {
+    bouncyCastle: {
+      imperial: { width: '12ft', length: '15ft', height: '9.5ft', requiredSpace: { width: '15ft', length: '21ft', height: '10ft' }, accessWidth: '3ft' },
+      metric: { width: '3.7m', length: '4.6m', height: '2.9m', requiredSpace: { width: '4.6m', length: '6.4m', height: '3.0m' }, accessWidth: '0.9m' }
+    },
+    foamBallPool: {
+      imperial: { width: 'varies', length: 'varies', height: 'varies', suitableFor: 'Indoor and Outdoor' },
+      metric: { width: 'varies', length: 'varies', height: 'varies', suitableFor: 'Indoor and Outdoor' }
+    },
+    softPlay: {
+      imperial: { pcs: '17', matSize: '9x', suitableFor: 'Indoor and Outdoor' },
+      metric: { pcs: '17', matSize: '9x', suitableFor: 'Indoor and Outdoor' }
+    }
+  },
+  suitability: {
+    for: 'Children',
+    notFor: 'Adults'
+  },
+  largerOptions: "For larger groups, please contact us for alternative packages.",
+  whyChoose: "Choose Premium Inflatables for trained delivery and setup at your chosen home or venue.",
+  nextMorningCollection: {
+    available: true,
+    fee: 50
+  }
+}
+,
+
+{
+  price: 295,
+  title: "Unicorn Soft Play + Slide + Bouncy Castle - Pink / Purple",
+  img: "/newProducts/unicorn-soft-play-slide-bouncy-castle-pink-purple.png",
+  images: [
+    "/newProducts/unicorn-soft-play-slide-bouncy-castle-pink-purple1.png",
+  
+  ],
+  description: `Introducing the Unicorn Soft Play + Slide + Bouncy Castle Package in Pink and Purple! Perfect for birthday celebrations, this mystical-themed package includes a 9x11ft Unicorn Bouncy Castle, a 12ft x 12ft Mini Pink Purple Slide, a foam ball pool, 17 pieces of soft play, and a matching 9 mat setup. It's ideal for both indoor and outdoor events, allowing your little ones to celebrate their special day in style!`,
+  safetyHygiene: "Safety and Hygiene are paramount at Premium Inflatables! All inflatables, soft play, ball pools, and mats come fully sanitized for every use.",
+  additionalActivities: [
+    {
+      name: "Didi Cars & Hoppers",
+      description: "Add 4 Didi cars and 4 hoppers to your package for extra fun and entertainment!"
+    }
+  ],
+  contactInfo: {
+    phone: "0113 460 1386",
+    email: "info@premiuminflatables.co.uk",
+    bookingOnline: true
+  },
+  availableLocations: [
+    'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
+    'Rothwell', 'Methley', 'Normanton', 'Featherstone',
+    'Pontefract', 'Castleford', 'Knottingley', 'Darrington',
+    'Wentbridge', 'Sherburn in Elmet', 'Selby & surroundings'
+  ],
+  dimensions: {
+    bouncyCastle: {
+      imperial: { width: '9ft', length: '11.5ft', height: '8ft', requiredSpace: { width: '12ft', length: '17ft', height: '8.5ft' }, accessWidth: '3ft' },
+      metric: { width: '2.7m', length: '3.5m', height: '2.4m', requiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' }, accessWidth: '0.9m' }
+    },
+    slide: {
+      imperial: { width: '12ft', length: '12ft', height: '8ft', requiredSpace: { width: '15ft', length: '17ft', height: '9ft' }, slidePlatformHeight: '5ft' },
+      metric: { width: '3.7m', length: '3.7m', height: '2.4m', requiredSpace: { width: '4.6m', length: '5.2m', height: '2.7m' }, slidePlatformHeight: '1.5m' }
+    },
+    foamBallPool: {
+      imperial: { suitableFor: 'Indoor and Outdoor' },
+      metric: { suitableFor: 'Indoor and Outdoor' }
+    },
+    softPlay: {
+      imperial: { pcs: '17', matSize: '9x', suitableFor: 'Indoor and Outdoor' },
+      metric: { pcs: '17', matSize: '9x', suitableFor: 'Indoor and Outdoor' }
+    }
+  },
+  suitability: {
+    for: 'Children',
+    notFor: 'Adults'
+  },
+  whyChoose: "Choose Premium Inflatables for trained delivery and setup at your chosen home or venue.",
+  nextMorningCollection: {
+    available: true,
+    fee: 50
+  }
+}
+
 ];
 
 export const cardImages = [
