@@ -141,4 +141,4 @@ export const SizeTable = ({ size }) => {
       </table>
     </ResponsiveTable>
   );
-};
+};  

@@ -11,10 +11,10 @@ const AllProducts = () => {
   useEffect(() => {
     setData(cardData);
     if (search) {
-      setData(
-        cardData.filter((item) =>
-          item.title[0].toLowerCase().includes(search.toLowerCase())
-        )
+      setData( cardData
+        // cardData.filter((item) =>
+        //   item.title[0].toLowerCase().includes(search.toLowerCase())
+        // )
       );
     }
   }, [search, setData]);

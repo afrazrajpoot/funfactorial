@@ -294,7 +294,7 @@ const Detail = () => {
         {itemData ? (
           <Grow in={true} timeout={800}>
             <div className="bg-white rounded-lg shadow-xl overflow-hidden">
-              <div className="bg-gradient-to-r from-red-600 to-red-800 w-full p-6" style={{ backgroundImage: `url(${itemData.bgImg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+              <div className="bg-gradient-to-r from-red-600 to-red-800 w-full p-6">
                 <h1 className="font-bold text-center text-4xl lg:text-5xl text-white">
                   {itemData.title}
                 </h1>
