@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { cardData } from "../data";
+import { cardData, products } from "../data";
 import Ribbons from "../components/Ribbons";
 import { Button, Fade, Grow } from "@mui/material";
 import { useGlobalState } from "../context/globalState";
@@ -50,11 +50,7 @@ const DetailContent = ({ itemData }) => (
           </div>
         </div>
         <p className="text-3xl font-bold text-green-600">£{itemData.price}</p>
-        <h2 className="text-2xl font-bold text-gray-800 flex items-center">
-             Offer Price
-          </h2>
-        <p className="text-3xl font-bold text-green-600">£{itemData.Offer}</p>
-
+      
       </div>
     </div>
   </Fade>
@@ -75,7 +71,7 @@ const SizeContent = ({ itemData }) => (
           ))}
         </ul>
       </div> */}
-      <SizeTable  size={itemData?.size} />
+      <SizeTable  size={itemData?.size} s={itemData?.s1} />
     </div>
   </Fade>
 );
@@ -110,6 +106,8 @@ const TestsContent = ({ itemData }) => (
       <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 flex items-center">
         <FaFlask className="text-red-500 mr-3" />
         Additional information
+4:31 PM
+
       </h2>
       <div className="bg-red-50 p-6 rounded-lg shadow-md">
         <p className="text-lg text-red-800 leading-relaxed">
@@ -120,15 +118,15 @@ const TestsContent = ({ itemData }) => (
   </Fade>
 );
 
-const ImagePreview = ({ images }) => {
+const ImagePreview = ({ image }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const nextImage = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % image.length);
   };
 
   const prevImage = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + image.length) % image.length);
   };
 
   return (
@@ -136,7 +134,8 @@ const ImagePreview = ({ images }) => {
       <AnimatePresence initial={false}>
         <motion.img
           key={currentIndex}
-          src={images[currentIndex]}
+          // src={}
+          src={`https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_200/${image[currentIndex]}`}
           alt={`Image ${currentIndex + 1}`}
           className="absolute w-full h-full object-cover rounded-lg shadow-md"
           initial={{ opacity: 0 }}
@@ -176,7 +175,7 @@ const ImageModal = ({ image, onClose }) => (
       className="relative max-w-3xl max-h-[90vh] overflow-hidden"
       onClick={(e) => e.stopPropagation()}
     >
-      <img src={image} alt="Full size preview" className="w-full h-full object-contain" />
+      <img src={`https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_200/${image}`} alt="Full size preview" className="w-full h-full object-contain" />
       <button
         onClick={onClose}
         className="absolute top-4 right-4 text-white bg-black bg-opacity-50 rounded-full p-2"
@@ -201,7 +200,7 @@ const ImageGrid = ({ images }) => {
             className="cursor-pointer overflow-hidden rounded-lg shadow-md"
             onClick={() => setSelectedImage(image)}
           >
-            <img src={image} alt={`Thumbnail ${index + 1}`} className="w-full h-20 object-cover" />
+            <img src={`https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_200/${image}`} alt={`Thumbnail ${index + 1}`} className="w-full h-20 object-cover" />
           </motion.div>
         ))}
       </div>
@@ -224,14 +223,13 @@ const Detail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const index = Number(id);
-  const itemData = index >= 0 && index < cardData.length ? cardData[index] : null;
+  const itemData = index >= 0 && index < products.length ? products[index] : null;
 
   const buttons = [
     { name: "Description", icon: <FaInfoCircle /> },
-    { name: "Size", icon: <FaRuler /> },
+    { name: itemData.size?"Size":null, icon: itemData.size ? <FaRuler />:null },
     { name: "Suitability", icon: <FaUsers /> },
-    { name: "Tests", icon: <FaFlask /> },
-    { name: "Users", icon: <FaUsers /> },
+ 
   ];
 
   const { itemDetail, setItemDetail } = useGlobalState();
@@ -267,13 +265,13 @@ const Detail = () => {
       navigate(`/contact`);
     }
   }, [isSuccess, isError, itemData]);
-
+  console.log(itemData,'itemData')
   const renderContent = () => {
     switch (activeTab) {
       case "Description":
         return <DetailContent itemData={itemData} />;
       case "Size":
-        return <SizeContent itemData={itemData} />;
+        return itemData.size && <SizeContent itemData={itemData} />;
       case "Suitability":
         return <SuitabilityContent itemData={itemData} />;
       case "Tests":
@@ -294,7 +292,7 @@ const Detail = () => {
         {itemData ? (
           <Grow in={true} timeout={800}>
             <div className="bg-white rounded-lg shadow-xl overflow-hidden">
-              <div className="bg-gradient-to-r from-red-600 to-red-800 w-full p-6" style={{ backgroundImage: `url(${itemData.bgImg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+              <div className="bg-gradient-to-r from-red-600 to-red-800 w-full p-6">
                 <h1 className="font-bold text-center text-4xl lg:text-5xl text-white">
                   {itemData.title}
                 </h1>
@@ -302,8 +300,8 @@ const Detail = () => {
 
               <article className="flex lg:flex-row flex-col p-6">
                 <div className="w-full lg:w-1/3 p-4">
-                  <ImagePreview images={itemData.images || [itemData.img]} />
-                  <ImageGrid images={itemData.images || [itemData.img]} />
+                  <ImagePreview image={ [itemData.image.url]} />
+                  <ImageGrid images={[itemData.image.url]} />
                 </div>
 
                 <section className="lg:w-2/3 lg:ml-8 flex flex-col">
