@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Card from "../components/Card";
-import { cardData } from "../data";
+import { cardData, products } from "../data";
 import Details from "../components/Details";
 import { useInView } from "react-intersection-observer";
 import { useGlobalState } from "../context/globalState";
@@ -83,7 +83,7 @@ const Home = () => {
               </section>
               <article className="lg:w-3/4">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-                  {data?.map((elem, ind) => (
+                  {products?.map((elem, ind) => (
                     <Card key={ind} {...elem} ind={ind} />
                   ))}
                 </div>
