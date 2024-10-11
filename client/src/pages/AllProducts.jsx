@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Card from '../components/Card';
-import { cardData } from '../data';
+import { products } from '../data';
 import { useGlobalState } from '../context/globalState';
 import Ribbons from '../components/Ribbons';
 
@@ -9,10 +9,10 @@ const AllProducts = () => {
   const { data, setData, search } = useGlobalState();
 
   useEffect(() => {
-    setData(cardData);
+    setData(products);
     if (search) {
       setData(
-        cardData.filter((item) =>
+        products.filter((item) =>
           item.title[0].toLowerCase().includes(search.toLowerCase())
         )
       );
