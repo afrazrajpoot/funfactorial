@@ -24,12 +24,56 @@ const Card = ({ title, price, ind,image, rating = 4.5, w }) => {
       {Number(price.replace(/[^0-9.-]+/g, "")) + 125}<FaTag className="ml-1" />
     </p>
       </div>
+      {title === '30ft Jungle Mini Assault Course Fun Run' ? (
+        <img
+        src={`/images/30ft-jun.png`}
+        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
+        alt={title}
+        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+      />
+      ) : 
+      title === '3D Dinosaur Bouncy Castle With Front Slide' ? (
+        <img
+        src={`/images/dainosor-gr.png`}
+        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
+        alt={title}
+        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+      />
+      ) : 
+      title === '3D Lion Bouncy Castle With Front Slide' ? (
+        <img
+        src={`/images/lion-ye.png`}
+        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
+        alt={title}
+        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+      />
+      ) : 
+      title === '3D Monster Truck Bouncy Castle With Front Slide' ? (
+        <img
+        src={`/images/truck-bl.png`}
+        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
+        alt={title}
+        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+      />
+      ) 
+      : 
+      title === 'Bungee Run Hire 35ft' ? (
+        <img
+        src={`/images/bungee.png`}
+        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
+        alt={title}
+        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+      />
+      )
+      : (
       <img
         src={`https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_700/${image?.url}`}
         onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
         alt={title}
         className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
-      />
+      />)
+      }
+      
 
       <div className="absolute bottom-0 left-0 right-0 p-4 bg-white">
         <h3 className="text-gray-800 text-xl font-bold mb-2 truncate">{title}</h3>
