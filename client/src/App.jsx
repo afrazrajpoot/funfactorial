@@ -49,7 +49,6 @@ const App = () => {
         <Route path="/termandcondition" element={<TermAndCondition />} />
         <Route path="/cancellation" element={<Cancellations />} />
         <Route path="/category/news-2024" element={<News2024 />} />
-
         <Route path="/category/indoor-soft-play" element={<IndoorSoftPlay />} />
         <Route path="/category/chrismis-inflatables" element={<ChrismisInflatables />} />
         <Route path="/category/bouncy-castles" element={<BouncyCastles />} />

@@ -139,8 +139,8 @@ const Contact = () => {
         return;
       }
   
-      const amount = parseInt(decryptedData); // Assuming amount is in cents
-  
+      const amount =decryptedData.price; // Assuming amount is in cents
+     
       // Payment processing
       const {
         data: { sessionId },
@@ -183,10 +183,10 @@ const Contact = () => {
   useEffect(() => {
     const decryptedData = decryptAndGetFromLocalStorage("data");
     setItemDetail(decryptedData);
-    setDecryptedData(decryptedData?.price);
+    setDecryptedData(decryptedData);
     // console.log(payment, "payment");
   }, [setItemDetail]);
-
+  // console.log(item,'decrypted data')
   return (
     <LocalizationProvider dateAdapter={AdapterDateFns}>
       <Box

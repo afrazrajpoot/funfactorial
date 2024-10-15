@@ -1,7 +1,7 @@
 import React from "react";
 import Ribbons from "../components/Ribbons";
 import Card from "../components/Card";
-import { cardData } from "../data";
+import { cardData, products } from "../data";
 
 const SoftPlay = () => {
   const softPlayData = [
@@ -47,7 +47,7 @@ const SoftPlay = () => {
           🌟 Birthday Parties! 🎉✨
         </h1>
         <section className="lg:grid   lg:grid-cols-4 mt-[3vw] lg:gap-x-[9vw]  flex flex-col">
-          {cardData?.map((elem, ind) => (
+          {products?.map((elem, ind) => (
             <Card key={ind} {...elem} ind={ind} ml={"4vw"} />
           ))}
         </section>

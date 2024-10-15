@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { cardData, products } from "../data";
+import { products, } from "../data";
 import Ribbons from "../components/Ribbons";
 import { Button, Fade, Grow } from "@mui/material";
 import { useGlobalState } from "../context/globalState";
@@ -36,7 +36,7 @@ const DetailContent = ({ itemData }) => (
     
      {
       itemData.description === 'https://youtu.be/s2w_4OBgKs8' ? <iframe width="560" height="315" src="https://www.youtube.com/embed/s2w_4OBgKs8?si=JXavX1ge11h_6zxD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>: <p className="text-lg text-gray-600 leading-relaxed">
-      {itemData.description}
+      {/* {itemData.description} */}
     </p>
      }
       <div className="bg-gray-100 p-6 rounded-lg shadow-inner">
@@ -44,13 +44,49 @@ const DetailContent = ({ itemData }) => (
           <h2 className="text-2xl font-bold text-gray-800 flex items-center">
             Price
           </h2>
+          <p className="text-3xl font-bold text-green-600"> £{Number(itemData.price.replace(/[^0-9.-]+/g, "")) + 125}</p>
          
-          <div className="bg-blue-500 hover:cursor-pointer text-white px-3 py-1 rounded-full text-sm font-semibold">
+          {/* <div className="bg-blue-500 hover:cursor-pointer text-white px-3 py-1 rounded-full text-sm font-semibold">
             {itemData.isPremium ? "Drop and Go" : "2 operators"}
-          </div>
+          </div> */}
         </div>
-        <p className="text-3xl font-bold text-green-600">£{itemData.price}</p>
-      
+        {itemData?.description?.overview && itemData?.description?.overview?.map((item, index) => (
+          <div key={index}>
+            <p className="text-[1vw] text-gray-700 mb-2">
+              {item}
+            </p>
+            </div>
+        ))}
+         {itemData?.description?.features && itemData?.description?.features?.map((item, index) => (
+          <div key={index}>
+            <p className="text-[1vw] text-gray-700 mb-2">
+              {item}
+            </p>
+            </div>
+        ))}
+         <h2 className="text-2xl font-bold text-gray-800 flex items-center">
+            Availability
+          </h2>
+      <div className="flex flex-wrap gap-[0.5vw]">
+      {
+          itemData?.locations_available?.map((item, index) => (
+            <div key={index} className="">
+              <p className="text-[1vw] text-gray-700">
+                {item}
+              </p>
+              </div>
+          ))
+        }
+        {
+          itemData?.locations?.map((item, index) => (
+            <div key={index} className="">
+              <p className="text-[1vw] text-gray-700">
+                {item}
+              </p>
+              </div>
+          ))
+        }
+      </div>
       </div>
     </div>
   </Fade>
@@ -63,14 +99,35 @@ const SizeContent = ({ itemData }) => (
         <FaRuler className="text-blue-500 mr-3" />
         Size Information
       </h2>
-      {/* <div className="bg-blue-50 p-6 rounded-lg shadow-md">
+      <div className="bg-blue-50 p-6 rounded-lg shadow-md">
         <h3 className="text-xl font-semibold text-blue-700 mb-4">Dimensions</h3>
-        <ul className="list-disc pl-5 space-y-2 text-blue-800">
-          {itemData?.size?.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
-      </div> */}
+        <div className="overflow-x-auto">
+          <table className="min-w-full bg-white border border-gray-300">
+            <thead className="bg-gray-200">
+              <tr>
+                <th className="px-4 py-2 text-left text-blue-800"> </th>
+                <th className="px-4 py-2 text-left text-blue-800">Width</th>
+                <th className="px-4 py-2 text-left text-blue-800">Length</th>
+                <th className="px-4 py-2 text-left text-blue-800">Height</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="px-4 py-2 font-semibold text-blue-800">Unit Size</td>
+                <td className="px-4 py-2">{itemData?.size?.unit_size?.width}</td>
+                <td className="px-4 py-2">{itemData?.size?.unit_size?.length}</td>
+                <td className="px-4 py-2">{itemData?.size?.unit_size?.height}</td>
+              </tr>
+              <tr>
+                <td className="px-4 py-2 font-semibold text-blue-800">Required Space</td>
+                <td className="px-4 py-2">{itemData?.size?.required_space?.width}</td>
+                <td className="px-4 py-2">{itemData?.size?.required_space?.length}</td>
+                <td className="px-4 py-2">{itemData?.size?.required_space?.height}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
       <SizeTable  size={itemData?.size} s={itemData?.s1} />
     </div>
   </Fade>
@@ -88,17 +145,29 @@ const SuitabilityContent = ({ itemData }) => (
   </Fade>
 );
 
-const Users = ({ itemData }) => (
-  <Fade in={true} timeout={500}>
-    <div className="space-y-6">
-      <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 flex items-center">
-        <FaUsers className="text-purple-500 mr-3" />
-        Users 
-      </h2>
-      <UsersTable size={itemData?.size} suitability={itemData?.users} />
-    </div>
-  </Fade>
-);
+const Users = (data) => {
+  const max_users_by_height  = data?.itemData?.users?.max_users_by_height || []
+
+
+  return (
+    <table className="w-full table-auto border-collapse">
+      <thead>
+        <tr className="bg-gray-200">
+          <th className="px-4 py-2 text-left border">Height</th>
+          <th className="px-4 py-2 text-left border">Max Users</th>
+        </tr>
+      </thead>
+      <tbody>
+        {max_users_by_height?.map((entry, index) => (
+          <tr key={index}>
+            <td className="border px-4 py-2">{entry?.height}</td>
+            <td className="border px-4 py-2">{entry?.max_users}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  );
+};
 
 const TestsContent = ({ itemData }) => (
   <Fade in={true} timeout={500}>
@@ -128,14 +197,24 @@ const ImagePreview = ({ image }) => {
   const prevImage = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + image.length) % image.length);
   };
-
+  // console.log(image,'imagw')
+  let imgUrl = `https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/${image[currentIndex]}`
+  if(image[0] ==='2.png'){
+    imgUrl = '/images/2.png'
+  }else if(image[0] ==='3.png'){
+    imgUrl='/images/3.png'
+  }else if(image[0] ==='4.png'){
+    imgUrl='/images/4.png'
+  }else if(image[0] ==='5.png'){
+    imgUrl='/images/5.png'
+  }
   return (
     <div className="relative w-full h-64 lg:h-96">
       <AnimatePresence initial={false}>
         <motion.img
           key={currentIndex}
           // src={}
-          src={`https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_200/${image[currentIndex]}`}
+          src={`${imgUrl}`}
           alt={`Image ${currentIndex + 1}`}
           className="absolute w-full h-full object-cover rounded-lg shadow-md"
           initial={{ opacity: 0 }}
@@ -160,8 +239,20 @@ const ImagePreview = ({ image }) => {
   );
 };
 
-const ImageModal = ({ image, onClose }) => (
-  <motion.div
+const ImageModal = ({ image, onClose }) => {
+  let imgUrl = `https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/${image}`
+  if(image ==='2.png'){
+    imgUrl = '/images/2.png'
+  }else if(image ==='3.png'){
+    imgUrl='/images/3.png'
+  }else if(image ==='4.png'){
+    imgUrl='/images/4.png'
+  }else if(image ==='5.png'){
+    imgUrl='/images/5.png'
+  }
+console.log(image,'modal image')
+  return (
+    <motion.div
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     exit={{ opacity: 0 }}
@@ -175,7 +266,7 @@ const ImageModal = ({ image, onClose }) => (
       className="relative max-w-3xl max-h-[90vh] overflow-hidden"
       onClick={(e) => e.stopPropagation()}
     >
-      <img src={`https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_200/${image}`} alt="Full size preview" className="w-full h-full object-contain" />
+      <img src={`${imgUrl}`} alt="Full size preview" className="w-full h-full object-contain" />
       <button
         onClick={onClose}
         className="absolute top-4 right-4 text-white bg-black bg-opacity-50 rounded-full p-2"
@@ -184,15 +275,26 @@ const ImageModal = ({ image, onClose }) => (
       </button>
     </motion.div>
   </motion.div>
-);
+  )
+}
 
 const ImageGrid = ({ images }) => {
   const [selectedImage, setSelectedImage] = useState(null);
-
+  let imgUrl = `https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/${images[0]}`
+  if(images[0] ==='2.png'){
+    imgUrl = '/images/2.png'
+  }else if(images[0]==='3.png'){
+    imgUrl='/images/3.png'
+  }else if(images[0]==='4.png'){
+    imgUrl='/images/4.png'
+  }else if(images[0]==='5.png'){
+    imgUrl='/images/5.png'
+  }
+  console.log(images,'grid images')
   return (
     <>
       <div className="grid grid-cols-3 gap-2 mt-4">
-        {images.map((image, index) => (
+        {images?.map((image, index) => (
           <motion.div
             key={index}
             whileHover={{ scale: 1.05 }}
@@ -200,7 +302,7 @@ const ImageGrid = ({ images }) => {
             className="cursor-pointer overflow-hidden rounded-lg shadow-md"
             onClick={() => setSelectedImage(image)}
           >
-            <img src={`https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_200/${image}`} alt={`Thumbnail ${index + 1}`} className="w-full h-20 object-cover" />
+            <img src={`${imgUrl}`} alt={`Thumbnail ${index + 1}`} className="w-full object-cover" />
           </motion.div>
         ))}
       </div>
@@ -221,14 +323,19 @@ const ImageGrid = ({ images }) => {
 const Detail = () => {
   const [activeTab, setActiveTab] = useState("Description");
   const { id } = useParams();
+  const [numberPrice, setNumberPrice] = useState()
   const navigate = useNavigate();
   const index = Number(id);
-  const itemData = index >= 0 && index < products.length ? products[index] : null;
+  const itemData =  products[index];
+  // console.log('====================================');
+  // console.log('itemData', itemData);
+  // console.log('====================================');
 
   const buttons = [
     { name: "Description", icon: <FaInfoCircle /> },
-    { name: itemData.size?"Size":null, icon: itemData.size ? <FaRuler />:null },
+    { name: itemData?.size ? "Size":null, icon: itemData?.size ? <FaRuler />:null },
     { name: "Suitability", icon: <FaUsers /> },
+    { name: "Users", icon: <FaUsers /> },
  
   ];
 
@@ -236,7 +343,7 @@ const Detail = () => {
   const [available, { isLoading, isSuccess, isError, data }] = useAvalbilityMutation();
 
   const handleClick = async () => {
-    await available({ itemName: itemData.title });
+    await available({ itemName: itemData?.title });
   };
 
   const SECRET_KEY = import.meta.env.VITE_SECRET_KEY;
@@ -260,12 +367,13 @@ const Detail = () => {
       });
     }
     if (isError) {
-      setItemDetail({ name: itemData?.title, price: itemData?.price, id: id });
-      encryptAndSaveToLocalStorage('data', { name: itemData?.title, price: itemData?.price, id: id, image: itemData?.img });
+
+      setItemDetail({ name: itemData?.title, price: parseFloat(itemData.price.replace(/£/, '')), id: id });
+      encryptAndSaveToLocalStorage('data', { name: itemData?.title, price: parseFloat(itemData.price.replace(/£/, '')) ,id: id, image: itemData?.img });
       navigate(`/contact`);
     }
   }, [isSuccess, isError, itemData]);
-  console.log(itemData,'itemData')
+
   const renderContent = () => {
     switch (activeTab) {
       case "Description":
@@ -285,6 +393,7 @@ const Detail = () => {
 
   return (
     <main className="flex mt-8 w-full bg-gray-100 min-h-screen">
+
       <section className="mt-4 hidden lg:block">
         <Ribbons />
       </section>
@@ -294,14 +403,14 @@ const Detail = () => {
             <div className="bg-white rounded-lg shadow-xl overflow-hidden">
               <div className="bg-gradient-to-r from-red-600 to-red-800 w-full p-6">
                 <h1 className="font-bold text-center text-4xl lg:text-5xl text-white">
-                  {itemData.title}
+                  {itemData?.title}
                 </h1>
               </div>
 
               <article className="flex lg:flex-row flex-col p-6">
                 <div className="w-full lg:w-1/3 p-4">
-                  <ImagePreview image={ [itemData.image.url]} />
-                  <ImageGrid images={[itemData.image.url]} />
+                  <ImagePreview image={ [itemData?.image?.url]} />
+                  <ImageGrid images={[itemData?.image?.url]} />
                 </div>
 
                 <section className="lg:w-2/3 lg:ml-8 flex flex-col">
@@ -342,6 +451,7 @@ const Detail = () => {
           <p className="text-center text-gray-600 text-xl">Data not found</p>
         )}
       </section>
+      
     </main>
   );
 };

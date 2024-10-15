@@ -8,6 +8,8 @@ import {
   FaLeaf,
   FaFlag,
   FaRuler,
+  FaChild,
+  FaUser,
 } from "react-icons/fa";
 
 const ResponsiveTable = ({ children }) => (
@@ -19,8 +21,7 @@ const ResponsiveTable = ({ children }) => (
 );
 
 export const InflatableDetailsTable = ({ suitability }) => {
-  const suitableItems = suitability?.filter((item) => !item.includes("Not Suitable")) || [];
-  const notSuitableItems = suitability?.filter((item) => item.includes("Not Suitable")) || [];
+  const { suitable_for, suitable_surfaces, unsuitable_surfaces } = suitability;
 
   return (
     <ResponsiveTable>
@@ -32,28 +33,50 @@ export const InflatableDetailsTable = ({ suitability }) => {
           </tr>
         </thead>
         <tbody>
-          {suitableItems.map((item, index) => (
+          {/* Render people suitability */}
+          {suitable_for?.map((item, index) => (
             <tr key={index}>
+              <td className="border px-4 py-2 font-semibold whitespace-nowrap">
+                {item?.suitable === "Yes" ? (
+                  <FaCheck className="mr-2 text-green-500 inline" />
+                ) : (
+                  <FaTimes className="mr-2 text-red-500 inline" />
+                )}
+                {item?.suitable === "Yes" ? "Suitable for" : "Not Suitable for"}
+              </td>
+              <td className="border px-4 py-2">
+                {item?.category === "Children" && <FaChild className="mr-2 text-yellow-500 inline" />}
+                {item?.category === "Adults" && <FaUser className="mr-2 text-gray-600 inline" />}
+                {item?.category}
+              </td>
+            </tr>
+          ))}
+
+          {/* Render suitable surfaces */}
+          {suitable_surfaces?.map((surface, index) => (
+            <tr key={`suitable-surface-${index}`}>
               <td className="border px-4 py-2 font-semibold whitespace-nowrap">
                 <FaCheck className="mr-2 text-green-500 inline" /> Suitable for
               </td>
               <td className="border px-4 py-2">
-                {item === "Indoors on Hard Surface" && <FaHome className="mr-2 text-gray-600 inline" />}
-                {item === "Outdoors on Grass" && <FaTree className="mr-2 text-green-600 inline" />}
-                {item === "Outdoors on Hard Surface" && <FaRoad className="mr-2 text-gray-600 inline" />}
-                {item}
+                {surface === "Indoors on Hard Surface" && <FaHome className="mr-2 text-gray-600 inline" />}
+                {surface === "Outdoors on Grass" && <FaTree className="mr-2 text-green-600 inline" />}
+                {surface === "Outdoors on Hard Surface" && <FaRoad className="mr-2 text-gray-600 inline" />}
+                {surface}
               </td>
             </tr>
           ))}
-          {notSuitableItems.map((item, index) => (
-            <tr key={`not-${index}`}>
+
+          {/* Render unsuitable surfaces */}
+          {unsuitable_surfaces?.map((surface, index) => (
+            <tr key={`unsuitable-surface-${index}`}>
               <td className="border px-4 py-2 font-semibold whitespace-nowrap">
                 <FaTimes className="mr-2 text-red-500 inline" /> Not Suitable for
               </td>
               <td className="border px-4 py-2">
-                {item === "Not Suitable For Outdoors on Artificial Grass" && <FaLeaf className="mr-2 text-green-400 inline" />}
-                {item === "Not Suitable For Outdoors on Flags" && <FaFlag className="mr-2 text-blue-500 inline" />}
-                {item}
+                {surface === "Outdoors on Artificial Grass" && <FaLeaf className="mr-2 text-green-400 inline" />}
+                {surface === "Outdoors on Flags" && <FaFlag className="mr-2 text-blue-500 inline" />}
+                {surface}
               </td>
             </tr>
           ))}

@@ -1,6 +1,6 @@
 import React from "react";
 import Ribbons from "../components/Ribbons";
-import { cardData, newsData } from "../data";
+import { cardData, newsData, products } from "../data";
 import Card from "../components/Card";
 
 const News2024 = () => {
@@ -37,9 +37,9 @@ const News2024 = () => {
           🌟 Fun Fairs! 🎉✨
         </h1>
         <section className="lg:grid   lg:grid-cols-4 lg:gap-x-[6vw]  flex flex-col ">
-          {cardData?.map((elem, ind) => (
-            <Card key={ind} {...elem} w={17} ind={ind} ml={"5vw"} />
-          ))}
+        {products?.map((elem, ind) => (
+                    <Card key={ind} {...elem} ind={ind} />
+                  ))}
         </section>
       </section>
     </main>

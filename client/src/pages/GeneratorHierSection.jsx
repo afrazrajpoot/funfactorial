@@ -1,7 +1,7 @@
 import React from "react";
 import Ribbons from "../components/Ribbons";
 import Card from "../components/Card";
-import { cardData } from "../data";
+import { cardData, products } from "../data";
 
 const GeneratorHierSection = () => {
   const generatorList = [
@@ -42,7 +42,7 @@ const GeneratorHierSection = () => {
           <span className="text-[#ed145b] font-bold">07531522289</span> for advice.
         </p>
         <article className="lg:grid mt-[6vw] lg:mt-[3vw] lg:grid-cols-4 lg:gap-[4vw] flex flex-col gap-[9vw]">
-          {cardData?.map((elem, ind) => (
+          {products?.map((elem, ind) => (
             <Card key={ind} {...elem} w="16.5" ml={"3.5vw"} />
           ))}
         </article>

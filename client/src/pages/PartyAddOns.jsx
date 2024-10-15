@@ -1,7 +1,7 @@
 import React from "react";
 import Ribbons from "../components/Ribbons";
 import Card from "../components/Card";
-import { cardData } from "../data";
+import { cardData, products } from "../data";
 
 const AsultCourse = () => {
   return (
@@ -20,7 +20,7 @@ const AsultCourse = () => {
 
         {/* Card Grid */}
         <article className="lg:grid lg:grid-cols-4 lg:gap-[3vw] mt-[5vw] lg:mt-[2vw] flex flex-col gap-[6vw] items-center">
-          {cardData?.map((elem, ind) => (
+          {products?.map((elem, ind) => (
             <Card key={ind} {...elem} w="16.5" />
           ))}
         </article>
