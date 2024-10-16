@@ -12,7 +12,6 @@ const Card = ({ title, price, ind,image, rating = 4.5, w }) => {
     setItemDetail({ name: title, price: price });
     navigate(`/${ind}`);
   };
-
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -21,7 +20,7 @@ const Card = ({ title, price, ind,image, rating = 4.5, w }) => {
     >
       <div className="absolute top-4 right-4 bg-green-500 text-white px-3 py-1 rounded-full shadow-md z-10">
       <p className="font-bold text-lg flex items-center">£
-      {Number(price.replace(/[^0-9.-]+/g, "")) + 125}<FaTag className="ml-1" />
+      {Number(price?.replace(/[^0-9.-]+/g, "")) + 125}<FaTag className="ml-1" />
     </p>
       </div>
       {title === '30ft Jungle Mini Assault Course Fun Run' ? (

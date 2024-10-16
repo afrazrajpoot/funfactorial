@@ -120,7 +120,6 @@ export const UsersTable = ({ suitability }) => {
 
 
 export const SizeTable = ({ size ,s}) => {
-  console.log(s);
 if(s === 's1'){
   return (
     <div className="p-4">

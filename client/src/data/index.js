@@ -160,7 +160,7 @@ export const ribbons = [
   },
   {
     img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-orange.png",
-    title: "All Products",
+    title: "All Products",    
     url: "/all-products",
   },
 ];
@@ -262,8 +262,8 @@ export let cardData = [
     "/cProduct/C1.png",
 
   ],
-  description: `Hire the brand new 2024 Adults Christmas Theme Bouncy Castle! Available in Green and Light Blue, this premium bouncy castle includes a Bluetooth speaker, ideal for all indoor and outdoor events. The Party Time Celebrations Theme brings classic cartoon party artwork with a modern gloss finish, perfect for birthdays and special occasions. Pair it with our range of Inflatable Slides, Action Games, or Assault Courses.`,
-  safetyHygiene: "Fully sanitized for every hire. Premium Inflatables ensures safety and hygiene are a top priority.",
+  description: `Hire the brand new 2024 Adults Christmas Theme Bouncy Castle! Available in Green and Light Blue, this funrides bouncy castle includes a Bluetooth speaker, ideal for all indoor and outdoor events. The Party Time Celebrations Theme brings classic cartoon party artwork with a modern gloss finish, perfect for birthdays and special occasions. Pair it with our range of Inflatable Slides, Action Games, or Assault Courses.`,
+  safetyHygiene: "Fully sanitized for every hire. funrides ensures safety and hygiene are a top priority.",
   features: [
     {
       name: "Bluetooth Speaker",
@@ -272,7 +272,7 @@ export let cardData = [
   ],
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
   availableLocations: [
@@ -310,7 +310,7 @@ export let cardData = [
       'Outdoors on Hard Surface'
     ]
   ,
-  whyChoose: "Rated 100% Five-Star on Google, Premium Inflatables delivers excellence with guaranteed turn up and delivery.",
+  whyChoose: "Rated 100% Five-Star on Google, funrides delivers excellence with guaranteed turn up and delivery.",
   nextMorningCollection: {
     available: true,
     fee: 50
@@ -324,7 +324,7 @@ export let cardData = [
   title: "Party Time Themed Bouncy Castle Hire - Green & Light Blue",
   img: "/cProduct/C2.png",
   images:["/cProduct/C2.png"],
-  description: `One of the newest additions to our outstanding premium 2024 fleet, the Party Time Themed Bouncy Castle is perfect for any birthday party or event. Featuring classic cartoon artwork with a modern gloss finish, this inflatable can take your event to the next level with optional disco lights and a Bluetooth speaker upgrade. Ideal for indoor and outdoor occasions, it can also be paired with slides, ball pools, soft play, and matching mat setups for an incredible package.
+  description: `One of the newest additions to our outstanding funrides 2024 fleet, the Party Time Themed Bouncy Castle is perfect for any birthday party or event. Featuring classic cartoon artwork with a modern gloss finish, this inflatable can take your event to the next level with optional disco lights and a Bluetooth speaker upgrade. Ideal for indoor and outdoor occasions, it can also be paired with slides, ball pools, soft play, and matching mat setups for an incredible package.
 
 Have our trained team deliver and set up the inflatable at your home or chosen venue. Available for hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, and surrounding areas.`,
   size: [
@@ -347,7 +347,7 @@ Have our trained team deliver and set up the inflatable at your home or chosen v
       "Outdoors on Hard Surface"
     ]
   ,
-  additionalInformation: `Next morning collection available for £50. Have this bouncy castle delivered and set up by our RPii trained team at your chosen venue across Leeds and Wakefield areas. Contact us at 0113 460 138 or email info@premiuminflatables.co.uk.`
+  additionalInformation: `Next morning collection available for £50. Have this bouncy castle delivered and set up by our RPii trained team at your chosen venue across Leeds and Wakefield areas. Contact us at 0113 460 138 or email enquiries@funrides.co.uk.`
 }
 
 
@@ -363,7 +363,7 @@ Have our trained team deliver and set up the inflatable at your home or chosen v
   title: "Party Time Themed Bouncy Castle Hire - Green & Light Blue",
   img: "/cProduct/C3.png",
   images:["/cProduct/C3.png"],
-  description: `One of our new additions to the outstanding premium 2024 fleet, the Party Time Themed Bouncy Castle is perfect for any birthday party or event. It features classic cartoon party time artwork with a modern gloss finish to match the premium gloss on all our inflatables. 
+  description: `One of our new additions to the outstanding funrides 2024 fleet, the Party Time Themed Bouncy Castle is perfect for any birthday party or event. It features classic cartoon party time artwork with a modern gloss finish to match the funrides gloss on all our inflatables. 
    
    Take your special event to the next level with our optional upgrade to include disco lights and a Bluetooth speaker. This inflatable is ideal for both indoor and outdoor occasions, and can be paired with slides, ball pools, soft play, and matching mat setups for an incredible package.
 
@@ -383,7 +383,7 @@ Have our trained team deliver and set up the inflatable at your home or chosen v
       "Outdoors on Hard Surface"
     ]
   ,
-  additionalInformation: `Next morning collection available for £50. For bookings and enquiries, contact us at 0113 460 138 or via email at info@premiuminflatables.co.uk. You can also check availability and book online.`
+  additionalInformation: `Next morning collection available for £50. For bookings and enquiries, contact us at 0113 460 138 or via email at enquiries@funrides.co.uk. You can also check availability and book online.`
 }
 
 ,
@@ -407,7 +407,7 @@ suitability:['Not Suitable For Adults','Indoors on Hard Surface',
   'Outdoors on Grass',	
   'Outdoors on Hard Surface'],
 
-  additionalInformation :"If you'd like to speak with us, call on 0113 460 138 alternatively email us at info@premiuminflatables.co.uk or take a look at our contact page You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
+  additionalInformation :"If you'd like to speak with us, call on 0113 460 138 alternatively email us at enquiries@funrides.co.uk or take a look at our contact page You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
   users:['Max Users @ 1.0	        6',
     'Max Users @ 1.25	5',
     'Max Users @ 1.5	        4',
@@ -425,13 +425,13 @@ suitability:['Not Suitable For Adults','Indoors on Hard Surface',
   img: "/p3i/p6.png",
   images:['/p3i/p2.png','/p3i/p3.png','/p3i/p4.png','/p3i/p5.png'],
    description:`3D Lion Jungle Theme Bounce N' Slide
-Contact Premium Inflatables
-It couldn't be easier to get in touch with the team here at Premium inflatables. 
+Contact funrides
+It couldn't be easier to get in touch with the team here at funrides. 
 You can use the contact form or:
 
 Call our office on: 0113 460 1386
 Mobile / WhatsApp / Text - us on: 07482511995
-Email us at: info@premiuminflatables.co.uk`,
+Email us at: enquiries@funrides.co.uk`,
 
 size:[' 12ft,16ft,9.5ft',
   '16ft,22ft,10ft','4.9m,6.7m,3.0m','3.7m,4.9m,2.9m'	],
@@ -441,7 +441,7 @@ suitability:['Not Suitable For Adults	','Indoors on Hard Surface',
   'Outdoors on Grass',	
   'Outdoors on Hard Surface'],
 
-  additionalInformation :"If you'd like to speak with us, call on 0113 460 138 alternatively email us at info@premiuminflatables.co.uk or take a look at our contact page You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
+  additionalInformation :"If you'd like to speak with us, call on 0113 460 138 alternatively email us at enquiries@funrides.co.uk or take a look at our contact page You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
   users:['Max Users @ 1.0	        6',
     'Max Users @ 1.25	5',
     'Max Users @ 1.5	        4',
@@ -460,13 +460,13 @@ suitability:['Not Suitable For Adults	','Indoors on Hard Surface',
    description:`3D Unicorn Bounce N' Slide
 Available to hire from November
 Click Here For Reservations
-Contact Premium Inflatables
+Contact funrides
 It couldn't be easier to get in touch with the team here at 
-Premium inflatables. You can use the contact form or:
+funrides. You can use the contact form or:
 
 Call our office on: 0113 460 1386
 Mobile / WhatsApp / Text - us on: 07482511995
-Email us at: info@premiuminflatables.co.uk`,
+Email us at: enquiries@funrides.co.uk`,
 
 size:[' 12ft,	15ft	,9.5ft',
   '3.7m	,4.6m	,2.9m'	],
@@ -477,7 +477,7 @@ suitability:['Suitable For',
   'Outdoors on Grass',	
   'Outdoors on Hard Surface'],
 
-  additionalInformation :"If you'd like to speak with us, call on 0113 460 138 alternatively email us at info@premiuminflatables.co.uk or take a look at our contact page You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
+  additionalInformation :"If you'd like to speak with us, call on 0113 460 138 alternatively email us at enquiries@funrides.co.uk or take a look at our contact page You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
   users:['Max Users @ 1.0	        6',
     'Max Users @ 1.25	5',
     'Max Users @ 1.5	        4',
@@ -493,9 +493,9 @@ suitability:['Suitable For',
   title: "Bounce N' Slide Soft Play Package - Red / Blue",
   img: "/newProducts/bounceSlide.png",
   images:[" /newProducts/bounceSlide2.png"],
-  description: `The Mega Soft Play Plain Red/Blue Castle with Slide Package is one of the top-rated 2024 Premium additions, perfect for all your birthday parties and special events. This amazing package includes a 12x16ft bouncy castle with a slide, a foam ball pool, 17 pieces of soft play, and a 9 mat setup, all finished in a premium gloss to match the rest of our inflatables.
+  description: `The Mega Soft Play Plain Red/Blue Castle with Slide Package is one of the top-rated 2024 Premium additions, perfect for all your birthday parties and special events. This amazing package includes a 12x16ft bouncy castle with a slide, a foam ball pool, 17 pieces of soft play, and a 9 mat setup, all finished in a funrides gloss to match the rest of our inflatables.
   
-  Why settle for less? Choose the premium service that offers the latest, high-quality inflatables! Add to the fun with our Didi Cars and Hoppers—super fun, safe, and perfect for any event, indoors or outdoors.
+  Why settle for less? Choose the funrides service that offers the latest, high-quality inflatables! Add to the fun with our Didi Cars and Hoppers—super fun, safe, and perfect for any event, indoors or outdoors.
   
   Please note that we do not hire our soft play and foam ball pools for outdoor use, but we are happy to suggest alternatives. Just get in touch for more info!`,
 
@@ -520,7 +520,7 @@ suitability:['Suitable For',
     'Outdoors on Grass',
     'Outdoors on Hard Surface'
   ],
-  additionalInformation: `Next morning collection available for £50. For bookings and enquiries, contact us at 0113 460 1386 or via email at info@premiuminflatables.co.uk. You can also check availability and book online using the 'Check Availability' and 'Book Online' buttons.`
+  additionalInformation: `Next morning collection available for £50. For bookings and enquiries, contact us at 0113 460 1386 or via email at enquiries@funrides.co.uk. You can also check availability and book online using the 'Check Availability' and 'Book Online' buttons.`
 }
 ,
 
@@ -533,9 +533,9 @@ suitability:['Suitable For',
   bgImg: "/cProduct/Butterflies Soft Play Package - Pink & Purple.png",
   img: "/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple3.png",
   images:["/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple5.png","/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple6.png","/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple7.png","/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple8.png","/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple9.png","/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple10.png",],
-  description: `Introducing the amazing Mega Pink and Purple Butterflies Soft Play Package, designed for beautiful little girls and perfect for birthday celebrations! This highly sought-after 12x16ft butterfly-themed bouncy castle with a slide is paired with a foam ball pool, a 9-mat setup, and 17 matching soft play pieces. With a pretty butterfly theme and premium gloss finish, this package is ideal for any indoor bounce and slide party.
+  description: `Introducing the amazing Mega Pink and Purple Butterflies Soft Play Package, designed for beautiful little girls and perfect for birthday celebrations! This highly sought-after 12x16ft butterfly-themed bouncy castle with a slide is paired with a foam ball pool, a 9-mat setup, and 17 matching soft play pieces. With a pretty butterfly theme and funrides gloss finish, this package is ideal for any indoor bounce and slide party.
   
-  Premium Inflatables prioritizes safety and hygiene. All inflatables, soft play, ball pools, and mats are fully sanitized after every use. Why not add fun with 4x Didi Cars and animal hoppers to keep the kids entertained?
+  funrides prioritizes safety and hygiene. All inflatables, soft play, ball pools, and mats are fully sanitized after every use. Why not add fun with 4x Didi Cars and animal hoppers to keep the kids entertained?
   
   Note: We do not hire soft play or ball pools for outdoor use. Please contact us for alternatives.`,
 size:{
@@ -559,7 +559,7 @@ suitability: [
   'Outdoors on Hard Surface'
 ],
 
-  additionalInformation: `For bookings and enquiries, contact us at 0113 460 1386 or via email at info@premiuminflatables.co.uk. You can also check availability and book online using the 'Check Availability' and 'Book Online' buttons.`
+  additionalInformation: `For bookings and enquiries, contact us at 0113 460 1386 or via email at enquiries@funrides.co.uk. You can also check availability and book online using the 'Check Availability' and 'Book Online' buttons.`
 }
 
 ,
@@ -571,7 +571,7 @@ suitability: [
   img: "/newProducts/Butterflies Soft Play + Slide + BouncyCastlePinkPurple.png",
   description: `Introducing the Amazing Super Size Soft Play Package with Pink and Purple Butterflies Theme. This beautiful package is perfect for all butterfly lovers and is guaranteed to keep kids entertained! It includes a 9x11ft Bouncy Castle with a butterfly theme, a Juniors 5ft platform glossy Pink Slide, a foam ball pool, and a 9-Mega Mat setup with 18 matching pieces of soft play.
   
-  This package is ideal for indoor birthday celebrations and comes with a total height of just 8ft for both the Bouncy Castle and Juniors Slide. Our Premium Inflatables are fully sanitized for every use to ensure safety and hygiene.
+  This package is ideal for indoor birthday celebrations and comes with a total height of just 8ft for both the Bouncy Castle and Juniors Slide. Our funrides are fully sanitized for every use to ensure safety and hygiene.
   
   Why not add 4x Didi cars and 4x Animal hoppers for extra fun? Our trained team will deliver and set up the inflatables at your home or chosen venue.`,
 size:{
@@ -598,7 +598,7 @@ suitability: [
   'Outdoors on Grass',
   'Outdoors on Hard Surface'
 ],
-  additionalInformation: `For bookings and enquiries, contact us at 0113 460 1386 or via email at info@premiuminflatables.co.uk. You can also check availability and book online using the 'Check Availability' and 'Book Online' buttons.`
+  additionalInformation: `For bookings and enquiries, contact us at 0113 460 1386 or via email at enquiries@funrides.co.uk. You can also check availability and book online using the 'Check Availability' and 'Book Online' buttons.`
 }
 
 ,
@@ -625,7 +625,7 @@ suitability: [
   Matching Soft Play
   
   *We do not hire our soft play & foam ball pools for outdoor use. For alternatives, 
-  make enquiries on our Contact Page. Call on 0113 460 1386 or email at info@premiuminflatables.co.uk.`,
+  make enquiries on our Contact Page. Call on 0113 460 1386 or email at enquiries@funrides.co.uk.`,
   // size: ['9ft, 11.5ft, 8ft', '2.7m, 3.5m, 2.4m'],
   suitability: [
     'Suitable For',
@@ -635,7 +635,7 @@ suitability: [
     'Outdoors on Grass',
     'Outdoors on Hard Surface'
   ],
-  additionalInformation: "For enquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
+  additionalInformation: "For enquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
   users: [
     'Max Users @ 1.0 6',
     'Max Users @ 1.25 5',
@@ -688,7 +688,7 @@ suitability: [
     'Outdoors on Grass',
     'Outdoors on Hard Surface'
   ],
-  additionalInformation: "For enquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.",
+  additionalInformation: "For enquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.",
   users: [
     'Max Users @ 1.0 7',
     'Max Users @ 1.25 6',
@@ -733,8 +733,8 @@ size:{
     "/newProducts/Cars Bounce N' Slide Soft Play PackageRedBlue6.png",
     "/newProducts/Cars Bounce N' Slide Soft Play PackageRedBlue7.png"
   ],
-  description: `The Cars Themed Mega Soft Play Package is an amazing addition to any birthday party or event. If your boys love fast cars, then this is the castle for them! It features our classic cartoon cars artwork on a bouncy castle with a slide combination finished in a premium gloss. It also includes a foam ball pool, 17 pieces of soft play, and a matching 9-mat setup, creating an incredible package for indoor and outdoor events.`,
-  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables. All our Premium inflatables, Bouncy N' Slide Bouncy Castles, Soft Play, Ball Pools, Balls, and Mats come fully sanitized after every use.",
+  description: `The Cars Themed Mega Soft Play Package is an amazing addition to any birthday party or event. If your boys love fast cars, then this is the castle for them! It features our classic cartoon cars artwork on a bouncy castle with a slide combination finished in a funrides gloss. It also includes a foam ball pool, 17 pieces of soft play, and a matching 9-mat setup, creating an incredible package for indoor and outdoor events.`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at funrides. All our funrides, Bouncy N' Slide Bouncy Castles, Soft Play, Ball Pools, Balls, and Mats come fully sanitized after every use.",
   // size: ['12ft x 16ft x 9.5ft', '3.7m x 4.9m x 2.9m'],
   suitability: [
     'Indoor on Hard Surface',
@@ -745,7 +745,7 @@ size:{
       'Suitable for Children',
     'Not Suitable for Adults'
   ],
-  additionalInformation: `We do not hire our soft play & foam ball pools for outdoor use. Please make enquiries for alternatives on our Contact Page. For enquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+  additionalInformation: `We do not hire our soft play & foam ball pools for outdoor use. Please make enquiries for alternatives on our Contact Page. For enquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
   users: [
   
   ],
@@ -780,8 +780,8 @@ size:{
     "/newProducts/Cars Soft Play Bouncy CastlePackageGreenLight Blue1.png",
    
   ],
-  description: `The Cars Themed Mega Soft Play Package is an amazing addition to any birthday party or event, featuring classic cartoon cars artwork finished in a modern gloss to match the premium gloss finish on all our inflatables. This package includes a fantastic 12x15ft bouncy castle, foam ball pool, 17 pieces of soft play, and a matching 9-mat setup, making it a perfect choice for both indoor and outdoor events.`,
-  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables. All our Premium inflatables, Soft Play, Ball Pools, Balls, and Mats are fully sanitized after every use.",
+  description: `The Cars Themed Mega Soft Play Package is an amazing addition to any birthday party or event, featuring classic cartoon cars artwork finished in a modern gloss to match the funrides gloss finish on all our inflatables. This package includes a fantastic 12x15ft bouncy castle, foam ball pool, 17 pieces of soft play, and a matching 9-mat setup, making it a perfect choice for both indoor and outdoor events.`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at funrides. All our funrides, Soft Play, Ball Pools, Balls, and Mats are fully sanitized after every use.",
   // size: ['12ft , 15ft , 9.5ft', '3.7m , 4.6m , 2.9m'],
   suitability: [
     'Indoor on Hard Surface',
@@ -792,7 +792,7 @@ size:{
        'Suitable for Children',
     'Not Suitable for Adults'
   ],
-  additionalInformation: `For enquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+  additionalInformation: `For enquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
   users: [
  
   ],
@@ -828,8 +828,8 @@ size:{
     "/newProducts/CarsSoftPlayBouncyCastlePackageRedBlue3.png",
   
   ],
-  description: `The Cars Themed Mega Soft Play Package is an amazing addition to any birthday party or event, featuring classic cartoon cars artwork finished in a modern gloss to match the premium gloss finish on all our inflatables. This package includes a fantastic 12x15ft bouncy castle, foam ball pool, 18 pieces of soft play, and a matching 9-mat setup, making it a perfect choice for both indoor and outdoor events.`,
-  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables. All our Premium inflatables, Soft Play, Ball Pools, Balls, and Mats are fully sanitized after every use.",
+  description: `The Cars Themed Mega Soft Play Package is an amazing addition to any birthday party or event, featuring classic cartoon cars artwork finished in a modern gloss to match the funrides gloss finish on all our inflatables. This package includes a fantastic 12x15ft bouncy castle, foam ball pool, 18 pieces of soft play, and a matching 9-mat setup, making it a perfect choice for both indoor and outdoor events.`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at funrides. All our funrides, Soft Play, Ball Pools, Balls, and Mats are fully sanitized after every use.",
   // size: ['12ft , 15ft , 9.5ft', '3.7m , 4.6m , 2.9m'],
   suitability: [
     'Indoor on Hard Surface',
@@ -840,7 +840,7 @@ size:{
         'Suitable for Children',
     'Not Suitable for Adults'
   ],
-  additionalInformation: `For enquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+  additionalInformation: `For enquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
   users: [
 
   ],
@@ -876,7 +876,7 @@ size:{
     "/newProducts/CircusBouncyCastleBallPool2.png"
   ],
   description: `Roll up Roll up! Come into our Amazing Premium Circus! This Mega Pack includes our Bouncy Slide Castle with matching Circus foam ball pool and soft play, keeping the under 5’s & toddlers entertained. Paired with a colour-coordinated Red/Blue soft play set and matching mats, this Circus Mega Package will make your birthday party unforgettable!`,
-  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables. All our Premium inflatables, Soft Play, Ball Pools, Balls, and Mats are fully sanitized after every use.",
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at funrides. All our funrides, Soft Play, Ball Pools, Balls, and Mats are fully sanitized after every use.",
   // size: ['12ft , 16ft , 9.5ft', '3.7m , 4.9m , 2.9m'],
   suitability: [
     'Indoor on Hard Surface',
@@ -887,7 +887,7 @@ size:{
        'Suitable for Children',
     'Not Suitable for Adults'
   ],
-  additionalInformation: `For enquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+  additionalInformation: `For enquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
   users: [
  
   ],
@@ -932,8 +932,8 @@ size:{
     "/newProducts/Circus Bouncy Castle & Matching inflatable Ball Pool10.png",
     "/newProducts/Circus Bouncy Castle & Matching inflatable Ball Pool11.png"
   ],
-  description: `The Circus Printed Themed bouncy castle and matching ball pool are amazing additions to any birthday party or event, boasting classic cartoon circus artwork finished in a modern gloss. Our premium circus-themed ball pool comes with commercial colour-coordinated balls to enhance the children's birthday party experience. Upgrade your event by adding our Premium Entertainment Experience, featuring disco lights and a big Bluetooth speaker!`,
-  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables! All our Premium inflatables, Circus Bouncy Castle, Circus Ball Pools, Soft Play, and Mats come fully sanitized for every use.",
+  description: `The Circus Printed Themed bouncy castle and matching ball pool are amazing additions to any birthday party or event, boasting classic cartoon circus artwork finished in a modern gloss. Our funrides circus-themed ball pool comes with commercial colour-coordinated balls to enhance the children's birthday party experience. Upgrade your event by adding our Premium Entertainment Experience, featuring disco lights and a big Bluetooth speaker!`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at funrides! All our funrides, Circus Bouncy Castle, Circus Ball Pools, Soft Play, and Mats come fully sanitized for every use.",
   // size: ['12ft , 15ft , 9.5ft', '3.7m , 4.6m , 2.9m'],
   suitability: [
     'Indoor on Hard Surface',
@@ -942,7 +942,7 @@ size:{
       'Suitable for Children',
     'Not Suitable for Adults'
   ],
-  additionalInformation: `For inquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+  additionalInformation: `For inquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
   users: [
   
   ],
@@ -987,7 +987,7 @@ size:{
 
   ],
   description: `We’ve carefully selected our Red and Blue Circus Mega Pack, featuring a highly demanded 9ft x 11ft bouncy castle measuring 8ft in height, perfect for all your indoor hires. This package is coupled with a foam ball pool, keeping the under 5’s & toddlers entertained, along with a 17-piece matching Circus Soft Play set and matching Red/Blue Mega Mat set, completing your Circus Mega Package fit for your Circus Birthday Party Celebrations.`,
-  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables! All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitized for every use.",
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at funrides! All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitized for every use.",
   // size: ['9ft , 11.5ft , 8ft', '2.7m , 3.5m , 2.4m'],
   suitability: [
     'Indoor on Hard Surface',
@@ -996,7 +996,7 @@ size:{
       'Suitable for Children',
     'Not Suitable for Adults'
   ],
-  additionalInformation: `Why not add our fun 4x didi cars and 4x animal hoppers to your package? They will definitely keep your little monkeys entertained. For inquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+  additionalInformation: `Why not add our fun 4x didi cars and 4x animal hoppers to your package? They will definitely keep your little monkeys entertained. For inquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
   users: [
   
   ],
@@ -1037,7 +1037,7 @@ size:{
 
   ],
   description: `We’ve carefully selected our Green and Light Blue Circus Mega Pack, featuring a highly demanded 12x15ft bouncy castle measuring 9.5ft in height, perfect for all your indoor hires. This package is coupled with a foam ball pool, keeping the under 5’s & toddlers entertained, along with a 17-piece matching Soft Play set and matching Green / Light Blue Mega Mat set, completing your Circus Mega Package fit for your Circus Theme Birthday Party Celebrations.`,
-  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables! All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitized for every use.",
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at funrides! All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitized for every use.",
   // size: ['12ft , 15ft , 9.5ft', '3.7m , 4.6m , 2.9m'],
   suitability: [
     'Indoor on Hard Surface',
@@ -1046,7 +1046,7 @@ size:{
        'Suitable for Children',
     'Not Suitable for Adults'
   ],
-  additionalInformation: `Why not add our fun 4x didi cars and 4x animal hoppers to your package? They will definitely keep your little monkeys entertained. For inquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+  additionalInformation: `Why not add our fun 4x didi cars and 4x animal hoppers to your package? They will definitely keep your little monkeys entertained. For inquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
   users: [
  
   ],
@@ -1088,7 +1088,7 @@ size:{
 
   ],
   description: `We’ve carefully selected our Circus Mega Pack, featuring a highly demanded 12ft x 15ft bouncy castle measuring 9.5ft in height, perfect for all your indoor hires. This package is coupled with a foam ball pool, keeping the under 5’s, toddlers, and older kids entertained, along with a 16-piece matching Circus soft play and matching mat set, completing your Circus Mega Package fit for your Birthday Party Celebrations.`,
-  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables! All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitized for every use.",
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at funrides! All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitized for every use.",
   additionalCosts: {
     nextMorningCollection: 50
   },
@@ -1100,7 +1100,7 @@ size:{
       'Suitable for Children',
     'Not Suitable for Adults'
   ],
-  additionalInformation: `Why not add our fun 4x didi cars and 4x animal hoppers to your package? They will definitely keep your little monkeys entertained. For inquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+  additionalInformation: `Why not add our fun 4x didi cars and 4x animal hoppers to your package? They will definitely keep your little monkeys entertained. For inquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
   users: [
   
   ],
@@ -1136,7 +1136,7 @@ size:{
     "/newProducts/DiggersBounceN'SlideSoftPlayPackageRedBlue.png"
   ],
   description: `The Diggers Themed Mega Soft Play Package is where your little boys can jump, bounce, slide, and play at being mini Diggers! This package features a 12x16ft Diggers Bouncy Castle with Slide, foam ball pool, 18-piece soft play, and 9 matching mats. Perfect for all indoor and outdoor events and special occasions.`,
-  safetyHygiene: "Safety and Hygiene are the Paramount Priority at Premium Inflatables! All our inflatables, Soft Play, Ball Pools, Balls, and Mats come fully sanitized for every use.",
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority at funrides! All our inflatables, Soft Play, Ball Pools, Balls, and Mats come fully sanitized for every use.",
   additionalCosts: {
     nextMorningCollection: 50
   },
@@ -1148,7 +1148,7 @@ size:{
        'Suitable for Children',
     'Not Suitable for Adults'
   ],
-  additionalInformation: `Why not add our fun 4x Didi cars and animal hoppers to your package? They'll keep the kids entertained throughout your party. For inquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
+  additionalInformation: `Why not add our fun 4x Didi cars and animal hoppers to your package? They'll keep the kids entertained throughout your party. For inquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
   users: [
  
   ],
@@ -1183,8 +1183,8 @@ size:{
     "/newProducts/DiggersSoftPlayBouncyCastleJuniorsPackageRedBlue2.png",
     "/newProducts/DiggersSoftPlayBouncyCastleJuniorsPackageRedBlue.png"
   ],
-  description: `The Diggers Themed Mega Soft Play Under 5's Package offers a perfect way for little boys to bounce and play like mini Diggers! This set includes a 9ft x 11ft x 8ft bouncy castle, foam ball pool, matching 18-piece soft play set, and a 9x matching mega mat, creating a premium package ideal for toddlers.`,
-  safetyHygiene: "Safety and Hygiene are the Paramount Priority at Premium Inflatables! All our inflatables, Soft Play, Ball Pools, Balls, and Mats are fully sanitized for every use.",
+  description: `The Diggers Themed Mega Soft Play Under 5's Package offers a perfect way for little boys to bounce and play like mini Diggers! This set includes a 9ft x 11ft x 8ft bouncy castle, foam ball pool, matching 18-piece soft play set, and a 9x matching mega mat, creating a funrides package ideal for toddlers.`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority at funrides! All our inflatables, Soft Play, Ball Pools, Balls, and Mats are fully sanitized for every use.",
   additionalCosts: {
     nextMorningCollection: 50
   },
@@ -1196,7 +1196,7 @@ size:{
       'Suitable for Children',
     'Not Suitable for Adults'
   ],
-  additionalInformation: `Need more for bigger parties? Add our popular 4x Didi Cars, Hoppers, or Giant Connect 4 to keep everyone entertained. For inquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
+  additionalInformation: `Need more for bigger parties? Add our popular 4x Didi Cars, Hoppers, or Giant Connect 4 to keep everyone entertained. For inquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
   users: [
   
   ],
@@ -1232,7 +1232,7 @@ size:{
     "/newProducts/dinosaurs-juniors-slide-bouncy-castle-green-light-blue.png"
   ],
   description: `The Green and Light Blue Diggers Mega Pack features a 12ft x 15ft bouncy castle perfect for indoor hires with a height of 9.5ft. This package also includes a matching low-height foam ball pool and a 18-piece soft play set laid out on a mega mat. Designed to keep toddlers and under 5's entertained with its luxury gloss finish, perfect for your Diggers-themed party.`,
-  safetyHygiene: "Safety and Hygiene are the Paramount Priority at Premium Inflatables! All inflatables, soft play, ball pools, balls, and mats are fully sanitized before every use.",
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority at funrides! All inflatables, soft play, ball pools, balls, and mats are fully sanitized before every use.",
   additionalCosts: {
     nextMorningCollection: 50 // Optional based on the previous package
   },
@@ -1244,7 +1244,7 @@ size:{
        'Suitable for Children',
     'Not Suitable for Adults'
   ],
-  additionalInformation: `Add optional extras like 4x Didi Cars and 4x Animal Hoppers to keep the little ones entertained. For inquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
+  additionalInformation: `Add optional extras like 4x Didi Cars and 4x Animal Hoppers to keep the little ones entertained. For inquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
   users: [
  
   ],
@@ -1280,7 +1280,7 @@ size:{
     "/newProducts/DinosaursJuniorsSlideBouncyCastleGreenLightBlue2.png"
   ],
   description: `This package features a 9ft x 11.5ft Dinosaurs-themed bouncy castle combined with a juniors inflatable slide. Perfect for your indoor or outdoor party, the platform height of the slide is 5ft, making it ideal for younger children. The package is available in a stylish Green and Light Blue design with a focus on safety and hygiene.`,
-  safetyHygiene: "Safety and Hygiene are the Paramount Priority at Premium Inflatables! All inflatables, soft play, ball pools, balls, and mats are fully sanitized before every use.",
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority at funrides! All inflatables, soft play, ball pools, balls, and mats are fully sanitized before every use.",
   additionalCosts: {
     nextMorningCollection: 50
   },
@@ -1292,7 +1292,7 @@ size:{
        'Suitable for Children',
     'Not Suitable for Adults'
   ],
-  additionalInformation: `Add optional extras like 4x Didi Cars and 4x Animal Hoppers to keep the little ones entertained. For inquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
+  additionalInformation: `Add optional extras like 4x Didi Cars and 4x Animal Hoppers to keep the little ones entertained. For inquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
   users: [
  
   ],
@@ -1340,7 +1340,7 @@ size:{
   description: `The Red and Blue Dinosaur Themed Mega Soft Play Package is perfect for toddlers and young children. 
   This package features a 9x11ft dinosaur-themed bouncy castle, foam ball pool, and soft play pieces, ideal for both 
   indoor and outdoor events. Children can engage in imaginative play as little dinosaurs, enjoying hours of entertainment.`,
-  safetyHygiene: "Safety and Hygiene are our top priorities at Premium Inflatables! All inflatables, soft play, ball pools, and mats are fully sanitized before every use.",
+  safetyHygiene: "Safety and Hygiene are our top priorities at funrides! All inflatables, soft play, ball pools, and mats are fully sanitized before every use.",
   additionalCosts: {
     nextMorningCollection: 50
   },
@@ -1416,7 +1416,7 @@ size:{
   description: `The Green and Light Blue Dinosaur Themed Mega Soft Play Package is perfect for children's parties 
   and events. This package features a 12x15ft dinosaur-themed bouncy castle, foam ball pool, 17 pieces of soft play, 
   and a 9 matching mat set, offering a fun and engaging experience for all the little guests.`,
-  safetyHygiene: "All our premium inflatables, soft play, ball pools, balls, and mats come fully sanitized before every use to ensure safety and hygiene.",
+  safetyHygiene: "All our funrides, soft play, ball pools, balls, and mats come fully sanitized before every use to ensure safety and hygiene.",
   additionalCosts: {
     nextMorningCollection: 50
   },
@@ -1639,12 +1639,12 @@ size:{
     // "/newProducts/juniors-slide-bouncy-castle-green-light-blue.png",
   ],
   description: `The Jungle themed Mega Soft Play Under 5's Package is an amazing addition to any birthday party or event, 
-  boasting the classic cartoon jungle artwork which is finished in a modern gloss to match the premium gloss finish on all our inflatables. 
+  boasting the classic cartoon jungle artwork which is finished in a modern gloss to match the funrides gloss finish on all our inflatables. 
   The Toddlers Jungle Bouncy Castle is perfect for low ceiling indoor venues, paired with a matching luxury foam ball pool and 
   soft play pieces for endless fun!`,
-  safetyHygiene: "Safety and hygiene are our paramount priorities! All our Premium inflatables, Soft Play, Ball Pools, Balls, and Mats come fully sanitized for every use.",
+  safetyHygiene: "Safety and hygiene are our paramount priorities! All our funrides, Soft Play, Ball Pools, Balls, and Mats come fully sanitized for every use.",
   premiumGuarantees: [
-    "New fully sanitized 2024 Premium Inflatables & accessories.",
+    "New fully sanitized 2024 funrides & accessories.",
     "Delivering on time every time.",
     "Punctual collections.",
     "Friendly, polite team dedicated to making your event a success.",
@@ -1695,12 +1695,12 @@ size:{
 
   ],
   description: `The Jungle themed Mega Soft Play Under 5's Package is an amazing addition to any birthday party or event, 
-  boasting the classic cartoon jungle artwork which is finished in a modern gloss to match the premium gloss finish on all our inflatables. 
+  boasting the classic cartoon jungle artwork which is finished in a modern gloss to match the funrides gloss finish on all our inflatables. 
   The Toddlers Jungle Bouncy Castle is perfect for low ceiling indoor venues, paired with a matching luxury foam ball pool and 
   soft play pieces for endless fun!`,
-  safetyHygiene: "Safety and hygiene are our paramount priorities! All our Premium inflatables, Soft Play, Ball Pools, Balls, and Mats come fully sanitized for every use.",
+  safetyHygiene: "Safety and hygiene are our paramount priorities! All our funrides, Soft Play, Ball Pools, Balls, and Mats come fully sanitized for every use.",
   premiumGuarantees: [
-    "New fully sanitized 2024 Premium Inflatables & accessories.",
+    "New fully sanitized 2024 funrides & accessories.",
     "Delivering on time every time.",
     "Punctual collections.",
     "Friendly, polite team dedicated to making your event a success.",
@@ -1751,17 +1751,17 @@ size:{
     "/newProducts/juniors-slide-bouncy-castle-red-blue.png",
     // "/newProducts/jungle-soft-play-bouncy-castle-juniors-package-green-light-blue.png",
   ],
-  description: `Premium Inflatables your local bouncy castle hire near you. Number #1 Google 
+  description: `funrides your local bouncy castle hire near you. Number #1 Google 
   Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings. Delivering you a choice of UK's latest most on trend new purchases and additions 
   to our outstanding Premium 2024 Fleet!! Never to be mistaken with lesser lower services offering low quality older cheap bouncy castles for hire!!
   
   The Plain No Theme Bouncy Castle in Green / Light blue paired with matching Green / Light blue Slide is an amazing 
   addition to any children's birthday party or event, boasting the classic plain no theme colour way which is finished 
-  in a modern gloss to match the premium gloss finish on all our inflatables. The Plain no Themed bouncy castle and slide package is Ideal for all your indoor and outdoor events and special occasions. 
+  in a modern gloss to match the funrides gloss finish on all our inflatables. The Plain no Themed bouncy castle and slide package is Ideal for all your indoor and outdoor events and special occasions. 
   This package can be easily upgraded and paired with ball pools, soft play and matching mat set up to make an incredible package.`,
-  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables!! All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use.",
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at funrides!! All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use.",
   premiumGuarantees: [
-    "New fully sanitized 2024 Premium Inflatables & accessories.",
+    "New fully sanitized 2024 funrides & accessories.",
     "Delivering on time every time.",
     "Punctual collections.",
     "Friendly, polite team dedicated to making your event a success.",
@@ -1819,7 +1819,7 @@ size:{
 
     // "/newProducts/mega-pack-soft-play-jungle-package.png",
   ],
-  description: `Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review 
+  description: `funrides your local bouncy castle hire near you. Number #1 Google Review 
   Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings. Delivering you a choice of UK's latest most on trend new purchases and additions 
   to our outstanding Premium 2024 Fleet!! Never to be mistaken with lesser lower services offering low quality older cheap bouncy castles for hire!!
   
@@ -1828,9 +1828,9 @@ size:{
   on our matching air juggler Jungle ball pool keeping the under 5’s & toddlers entertained every time, not forgetting our 17pc 
   matching Jungle Soft Play set + matching Green / Light Blue Mega Mat set completing your Green Jungle Mega Package fit for your 
   Jungle themed Birthday Party Celebrations.`,
-  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables!! All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use.",
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at funrides!! All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use.",
   premiumGuarantees: [
-    "New fully sanitized 2024 Premium Inflatables & accessories.",
+    "New fully sanitized 2024 funrides & accessories.",
     "Delivering on time every time.",
     "Punctual collections.",
     "Friendly, polite team dedicated to making your event a success.",
@@ -1916,10 +1916,10 @@ size:{
     "/newProducts/party-time-bounce-n-slide-soft-play-package-red-blue5.png",
   
   ],
-  description: `The Party Time Themed bouncy castle and inflatable ball pool is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork which is finished in a modern gloss to match the premium gloss finish on all our inflatables. If this amazing inflatable wasn't already good enough, why not take your special event to the next level by adding our Premium Entertainment Experience—the ultimate bouncy castle upgrade to include disco lights & a big Bluetooth speaker. The Party Time Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with slides, soft play, and a matching mat setup to make an incredible package.`,
-  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables!! All our Premium inflatables come fully sanitised for every use.",
+  description: `The Party Time Themed bouncy castle and inflatable ball pool is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork which is finished in a modern gloss to match the funrides gloss finish on all our inflatables. If this amazing inflatable wasn't already good enough, why not take your special event to the next level by adding our Premium Entertainment Experience—the ultimate bouncy castle upgrade to include disco lights & a big Bluetooth speaker. The Party Time Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with slides, soft play, and a matching mat setup to make an incredible package.`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at funrides!! All our funrides come fully sanitised for every use.",
   premiumGuarantees: [
-    "New fully sanitized Premium Inflatables & accessories.",
+    "New fully sanitized funrides & accessories.",
     "Delivering on time every time.",
     "Punctual collections.",
     "Friendly, polite team dedicated to making your event a success.",
@@ -1957,7 +1957,7 @@ size:{
   ],
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
   videoLink: "https://youtu.be/EFeBLmetHes",
@@ -1979,9 +1979,9 @@ size:{
     "/newProducts/party-time-juniors-slide-bouncy-castle-pink-purple.png",
    
   ],
-  description: `Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings. Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!! Never to be mistaken with lesser lower services offering low quality older cheap bouncy castles for hire!!`,
-  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables!! All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use.",
-  whyChooseUs: `Why Choose Premium Inflatables Bouncy Castle Hire Wakefield? CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK. Have our trained team deliver and setup this inflatable at your chosen home or venue.`,
+  description: `funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings. Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!! Never to be mistaken with lesser lower services offering low quality older cheap bouncy castles for hire!!`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at funrides!! All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use.",
+  whyChooseUs: `Why Choose funrides Bouncy Castle Hire Wakefield? CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK. Have our trained team deliver and setup this inflatable at your chosen home or venue.`,
   availableLocations: [
     'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
     'Rothwell', 'Methley', 'Normanton', 'Featherstone',
@@ -1991,7 +1991,7 @@ size:{
   ],
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
  size:{
@@ -2041,7 +2041,7 @@ size:{
  
   ],
   description: `The Party Time Themed Mega Soft Play Package features a 9ft, 11ft bouncy castle perfect for indoor and outdoor events, with the classic cartoon Party Time artwork in a modern gloss finish. This package also includes a foam ball pool and matching soft play set to ensure endless fun for your little ones.`,
-  safetyHygiene: "Safety and Hygiene are the Paramount Priority at Premium Inflatables! All inflatables, soft play, ball pools, balls, and mats are fully sanitized before every use.",
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority at funrides! All inflatables, soft play, ball pools, balls, and mats are fully sanitized before every use.",
   additionalCosts: {
     nextMorningCollection: 0 // Optional costs can be added if applicable
   },
@@ -2053,7 +2053,7 @@ size:{
         'Suitable for Children',
     'Not Suitable for Adults'
   ],
-  additionalInformation: `Consider adding our package of Didi Cars and Hoppers for safe, fun, and easy entertainment. For inquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
+  additionalInformation: `Consider adding our package of Didi Cars and Hoppers for safe, fun, and easy entertainment. For inquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
   users: [
 
   ],
@@ -2090,7 +2090,7 @@ size:{
  
   ],
   description: `The Party Time Themed Mega Soft Play Package features a 12ft, 15ft bouncy castle, perfect for indoor and outdoor events. This package also includes a foam ball pool and matching soft play set, designed to keep children entertained with its bright colors and fun design.`,
-  safetyHygiene: "Safety and Hygiene are the Paramount Priority at Premium Inflatables! All inflatables, soft play, ball pools, balls, and mats are fully sanitized before every use.",
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority at funrides! All inflatables, soft play, ball pools, balls, and mats are fully sanitized before every use.",
   additionalCosts: {
     nextMorningCollection: 0 // Optional costs can be added if applicable
   },
@@ -2102,7 +2102,7 @@ size:{
       'Suitable for Children',
     'Not Suitable for Adults'
   ],
-  additionalInformation: `Add optional extras like a ball pool and soft play sets to enhance your party experience. For inquiries, call 0113 460 1386 or email info@premiuminflatables.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
+  additionalInformation: `Add optional extras like a ball pool and soft play sets to enhance your party experience. For inquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
   users: [
   
   ],
@@ -2142,9 +2142,9 @@ size:{
 
     
   ],
-  description: `Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings. Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!! Never to be mistaken with lesser lower services offering low quality older cheap bouncy castles for hire!!`,
-  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at Premium Inflatables!! All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use.",
-  whyChooseUs: `Why Choose Premium Inflatables Bouncy Castle Hire Wakefield? CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK. Have our trained team deliver and setup this inflatable at your chosen home or venue.`,
+  description: `funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings. Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!! Never to be mistaken with lesser lower services offering low quality older cheap bouncy castles for hire!!`,
+  safetyHygiene: "Safety and Hygiene are the Paramount Priority here at funrides!! All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use.",
+  whyChooseUs: `Why Choose funrides Bouncy Castle Hire Wakefield? CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK. Have our trained team deliver and setup this inflatable at your chosen home or venue.`,
   availableLocations: [
     'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
     'Rothwell', 'Methley', 'Normanton', 'Featherstone',
@@ -2153,7 +2153,7 @@ size:{
   ],
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
   // size:['12ft,12ft,9.5ft','3.7m,3.7m,2.9m'],
@@ -2187,14 +2187,14 @@ size:{
   s1:'s30',
   title: "Premium Jungle Soft Play with Air Juggler Ball Pool - Green / Light Blue",
   nextMorningCollection: 50,
-  img: "/newProducts/premium-jungle-soft-play-with-air-juggler-ball-pool-green-light-blue.png",
+  img: "/newProducts/funrides-jungle-soft-play-with-air-juggler-ball-pool-green-light-blue.png",
   images: [
-    "/newProducts/premium-jungle-soft-play-with-air-juggler-ball-pool-green-light-blue.png",
+    "/newProducts/funrides-jungle-soft-play-with-air-juggler-ball-pool-green-light-blue.png",
   
   ],
-  description: `Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!! We’ve carefully selected our Premium Jungle Package perfect fit for all your indoor hires, coupled with the floating ball feature on our matching air juggler ball pool keeping the under 5’s & toddlers entertained every time, not forgetting our 16pc matching Jungle Soft Play set + matching Green/Blue Mega Mat set completing your Premium Jungle Package fit for your little Monkeys Birthday Party Celebration.`,
+  description: `funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!! We’ve carefully selected our Premium Jungle Package perfect fit for all your indoor hires, coupled with the floating ball feature on our matching air juggler ball pool keeping the under 5’s & toddlers entertained every time, not forgetting our 16pc matching Jungle Soft Play set + matching Green/Blue Mega Mat set completing your Premium Jungle Package fit for your little Monkeys Birthday Party Celebration.`,
   safetyHygiene: "We do not hire our soft play & foam ball pools for outdoor use. Please make enquiries for alternatives on our Contact Page. All our inflatables and equipment are fully sanitised for every use.",
-  whyChooseUs: `Why Choose Premium Inflatables Bouncy Castle Hire Wakefield? CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK. Have our trained team deliver and setup this inflatable at your chosen home or venue.`,
+  whyChooseUs: `Why Choose funrides Bouncy Castle Hire Wakefield? CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK. Have our trained team deliver and setup this inflatable at your chosen home or venue.`,
   availableLocations: [
     'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
     'Rothwell', 'Methley', 'Normanton', 'Featherstone',
@@ -2203,7 +2203,7 @@ size:{
   ],
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
 size:{
@@ -2250,9 +2250,9 @@ size:{
     "/newProducts/princess-bounce-n-slide-soft-play-package-pink-purple8.png",
    
   ],
-  description: `Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings. The Princess Themed Mega Soft Play Package is an amazing set up! It will keep all your Princesses entertained throughout the day! Its Pink/Purple colours are a fabulous addition to your birthday celebrations. The Princess Themed bouncy castle with Slide 12x16ft is perfect for all your indoor and outdoor events and special occasions. This castle is paired with a foam ball pool, 17 pieces of soft play and matching 9 Mega mat set up to make an incredible package.`,
+  description: `funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings. The Princess Themed Mega Soft Play Package is an amazing set up! It will keep all your Princesses entertained throughout the day! Its Pink/Purple colours are a fabulous addition to your birthday celebrations. The Princess Themed bouncy castle with Slide 12x16ft is perfect for all your indoor and outdoor events and special occasions. This castle is paired with a foam ball pool, 17 pieces of soft play and matching 9 Mega mat set up to make an incredible package.`,
   safetyHygiene: "We ensure all our inflatables are fully sanitized before every use. Please note that soft play & foam ball pools are not hired for outdoor use. For alternatives, please contact us.",
-  whyChooseUs: `Why Choose Premium Inflatables Bouncy Castle Hire Leeds and Wakefield? CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK. Our trained team will deliver and set up the inflatables at your chosen venue.`,
+  whyChooseUs: `Why Choose funrides Bouncy Castle Hire Leeds and Wakefield? CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK. Our trained team will deliver and set up the inflatables at your chosen venue.`,
   availableLocations: [
     'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
     'Rothwell', 'Methley', 'Normanton', 'Featherstone',
@@ -2261,7 +2261,7 @@ size:{
   ],
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
   size: {
@@ -2317,9 +2317,9 @@ size:{
   "/newProducts/princess-soft-play-bouncy-castle-package-pink-purple8.png",
 
   ],
-  description: `Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings. The Princess Themed bouncy castle paired with matching Pink & Purple slide is an amazing addition to any children's birthday party or event, boasting the classic Princess artwork with a modern gloss finish. The package is perfect for all indoor and outdoor events and can be upgraded with ball pools, soft play, and matching mat set up.`,
+  description: `funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings. The Princess Themed bouncy castle paired with matching Pink & Purple slide is an amazing addition to any children's birthday party or event, boasting the classic Princess artwork with a modern gloss finish. The package is perfect for all indoor and outdoor events and can be upgraded with ball pools, soft play, and matching mat set up.`,
   safetyHygiene: "All inflatables, soft play, ball pools, balls, and mats are fully sanitized before every use to ensure the highest level of safety and hygiene.",
-  whyChooseUs: `Why Choose Premium Inflatables Bouncy Castle Hire Leeds and Wakefield? CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK. Our trained team will deliver and set up the inflatables at your chosen venue.`,
+  whyChooseUs: `Why Choose funrides Bouncy Castle Hire Leeds and Wakefield? CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK. Our trained team will deliver and set up the inflatables at your chosen venue.`,
   availableLocations: [
     'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
     'Rothwell', 'Methley', 'Normanton', 'Featherstone',
@@ -2328,7 +2328,7 @@ size:{
   ],
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
   // size:['12ft,12ft,8ft','3.7m,3.7m,2.7m'],
@@ -2383,9 +2383,9 @@ suitability: [
   images: [
     "/newProducts/princess-soft-play-slide-bouncy-castle-pink-purple.png",
   ],
-  description: `Premium Inflatables brings you the Princess Themed Super Size Soft Play package with a mini platform slide, foam ball pool, soft play setup, and matching 9-mat layout, ideal for all your indoor and outdoor events. This premium package is perfect for celebrating your little princess’s birthday or any special occasion.`,
+  description: `funrides brings you the Princess Themed Super Size Soft Play package with a mini platform slide, foam ball pool, soft play setup, and matching 9-mat layout, ideal for all your indoor and outdoor events. This funrides package is perfect for celebrating your little princess’s birthday or any special occasion.`,
   safetyHygiene: "All inflatables, soft play, ball pools, and mats are fully sanitized for every hire to ensure the highest level of safety and hygiene.",
-  whyChooseUs: `Why Choose Premium Inflatables Bouncy Castle Hire Leeds and Wakefield? CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK. Our trained team will deliver and set up this package at your chosen venue.`,
+  whyChooseUs: `Why Choose funrides Bouncy Castle Hire Leeds and Wakefield? CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK. Our trained team will deliver and set up this package at your chosen venue.`,
   availableLocations: [
     'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
     'Rothwell', 'Methley', 'Normanton', 'Featherstone',
@@ -2394,7 +2394,7 @@ suitability: [
   ],
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
  size:{
@@ -2455,9 +2455,9 @@ suitability: [
   images: [
     "/newProducts/sea-world-juniors-slide-bouncy-castle-green-light-blue.png",
   ],
-  description: `Premium Inflatables presents the Sea World Bouncy Castle with a mini slide in Green & Light Blue, perfect for kids' parties and events. This inflatable is ideal for both indoor and outdoor setups and is part of our Premium 2024 Fleet, ensuring the latest trends and high-quality materials.`,
+  description: `funrides presents the Sea World Bouncy Castle with a mini slide in Green & Light Blue, perfect for kids' parties and events. This inflatable is ideal for both indoor and outdoor setups and is part of our Premium 2024 Fleet, ensuring the latest trends and high-quality materials.`,
   safetyHygiene: "Safety and Hygiene are paramount. All inflatables, soft play items, ball pools, mats, and equipment are fully sanitized before each hire for your peace of mind.",
-  whyChooseUs: `Why Choose Premium Inflatables Bouncy Castle Hire Wakefield? CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK. Our experienced team will deliver and set up at your preferred venue, ensuring a smooth and safe experience.`,
+  whyChooseUs: `Why Choose funrides Bouncy Castle Hire Wakefield? CLICK HERE TO SEE OUR GOOGLE CLIENT REVIEWS FEEDBACK. Our experienced team will deliver and set up at your preferred venue, ensuring a smooth and safe experience.`,
   availableLocations: [
     'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
     'Rothwell', 'Methley', 'Normanton', 'Featherstone',
@@ -2466,7 +2466,7 @@ suitability: [
   ],
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
  size:{
@@ -2511,7 +2511,7 @@ suitability: [
   images: [
   "/newProducts/soft-play-bouncy-castle-juniors-package-green-light-blue.png",
   ],
-  description: `Premium Inflatables presents the Soft Play Bouncy Castle Juniors Package in Green & Light Blue. This inflatable package is designed for toddlers and young children, providing a safe and fun environment. The setup includes a bouncy castle, ball pool, and soft play with a mega mat setup, ideal for indoor and outdoor use.`,
+  description: `funrides presents the Soft Play Bouncy Castle Juniors Package in Green & Light Blue. This inflatable package is designed for toddlers and young children, providing a safe and fun environment. The setup includes a bouncy castle, ball pool, and soft play with a mega mat setup, ideal for indoor and outdoor use.`,
   safetyHygiene: "All inflatables, soft play items, ball pools, and mats are fully sanitized for each hire, ensuring maximum safety and hygiene.",
   availableLocations: [
     'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
@@ -2521,7 +2521,7 @@ suitability: [
   ],
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
  size:{
@@ -2559,7 +2559,7 @@ suitability: [
   images: [
   "/newProducts/soft-play-bouncy-castle-juniors-package-red-blue.png",
   ],
-  description: `Premium Inflatables presents the Soft Play Bouncy Castle Juniors Package in Red & Blue. This inflatable package is designed for toddlers and young children, providing a fun and safe play environment. The setup includes a bouncy castle, ball pool, and soft play with a mega mat setup, ideal for both indoor and outdoor settings.`,
+  description: `funrides presents the Soft Play Bouncy Castle Juniors Package in Red & Blue. This inflatable package is designed for toddlers and young children, providing a fun and safe play environment. The setup includes a bouncy castle, ball pool, and soft play with a mega mat setup, ideal for both indoor and outdoor settings.`,
   safetyHygiene: "All inflatables, soft play items, ball pools, and mats are fully sanitized for each hire, ensuring maximum safety and hygiene.",
   availableLocations: [
     'Leeds', 'Wakefield', 'Tingley', 'Morley', 'Lofthouse',
@@ -2569,7 +2569,7 @@ suitability: [
   ],
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
 size:{
@@ -2611,12 +2611,12 @@ size:{
     "/newProducts/soft-play-bouncy-castle-package-green-light-blue4.png",
     
   ],
-  description: `Premium Inflatables presents the Soft Play Bouncy Castle Package in Green & Light Blue. This premium inflatable setup offers a bouncy castle, ball pool, and a soft play area with a mega mat setup. Ideal for children, this package is available for both indoor and outdoor settings, ensuring a fun and safe experience.`,
+  description: `funrides presents the Soft Play Bouncy Castle Package in Green & Light Blue. This funrides setup offers a bouncy castle, ball pool, and a soft play area with a mega mat setup. Ideal for children, this package is available for both indoor and outdoor settings, ensuring a fun and safe experience.`,
   safetyHygiene: "All inflatables, soft play items, ball pools, and mats are fully sanitized for each hire, ensuring maximum safety and hygiene.",
   note: "Soft play and foam ball pools are not available for outdoor use. Please contact us for alternatives.",
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
   availableLocations: [
@@ -2666,12 +2666,12 @@ size:{
   images: [
     "/newProducts/soft-play-bouncy-castle-package-pink-purple.png",
   ],
-  description: `Premium Inflatables presents the Soft Play Bouncy Castle Package in Pink & Purple. This premium package offers a vibrant bouncy castle, ball pool, and a soft play area with a mega mat setup. Ideal for children, this package is perfect for both indoor and outdoor settings, providing a fun and sanitized experience.`,
+  description: `funrides presents the Soft Play Bouncy Castle Package in Pink & Purple. This funrides package offers a vibrant bouncy castle, ball pool, and a soft play area with a mega mat setup. Ideal for children, this package is perfect for both indoor and outdoor settings, providing a fun and sanitized experience.`,
   safetyHygiene: "All inflatables, soft play items, ball pools, and mats are fully sanitized for each hire, ensuring maximum safety and hygiene.",
   note: "Soft play and foam ball pools are not available for outdoor use. Please contact us for alternatives.",
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
   availableLocations: [
@@ -2715,12 +2715,12 @@ size:{
   images: [
    "/newProducts/soft-play-slide-bouncy-castle-green-light-blue.png",
   ],
-  description: `Premium Inflatables brings you the Soft Play + Slide + Bouncy Castle Package in Green & Light Blue. This premium package includes a bouncy castle, mini platform slide, foam ball pool, soft play pieces, and matching mats. Ideal for children's parties and events, this modern setup with a gloss finish is designed to keep kids entertained both indoors and outdoors.`,
+  description: `funrides brings you the Soft Play + Slide + Bouncy Castle Package in Green & Light Blue. This funrides package includes a bouncy castle, mini platform slide, foam ball pool, soft play pieces, and matching mats. Ideal for children's parties and events, this modern setup with a gloss finish is designed to keep kids entertained both indoors and outdoors.`,
   safetyHygiene: "All inflatables, soft play items, ball pools, and mats are fully sanitized for each hire, ensuring maximum safety and hygiene.",
   note: "This soft play and foam ball pool are not suitable for outdoor use. Please contact us for alternatives.",
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
   availableLocations: [
@@ -2772,7 +2772,7 @@ size:{
   note: "Add-ons like Didi Cars and Hoppers are available to enhance the package, providing fun and versatility for both indoor and outdoor use.",
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
   availableLocations: [
@@ -2821,7 +2821,7 @@ size:{
   note: "Consider adding Didi Cars and Hoppers to the package, which are versatile and fun for kids, suitable for both indoor and outdoor events.",
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
   availableLocations: [
@@ -2868,12 +2868,12 @@ size:{
       "/newProducts/superheroes-soft-play-bouncy-castle-juniors-package-green-light-blue!.png",
         "/newProducts/superheroes-soft-play-bouncy-castle-juniors-package-green-light-blue!!.png"
   ],
-  description: `The Superheroes Soft Play Bouncy Castle Juniors Package in Green and Light Blue is the perfect addition to any children's party or event. Featuring vibrant cartoon Superheroes artwork, this package includes a themed bouncy castle, foam ball pool, 18 pieces of soft play, and a 9 Mega mat setup. This premium package offers safety and hygiene, with all items thoroughly sanitized before each use.`,
-  safetyHygiene: "Safety and Hygiene are the paramount priority at Premium Inflatables! All our inflatables, soft play, ball pools, and mats come fully sanitized for every use.",
+  description: `The Superheroes Soft Play Bouncy Castle Juniors Package in Green and Light Blue is the perfect addition to any children's party or event. Featuring vibrant cartoon Superheroes artwork, this package includes a themed bouncy castle, foam ball pool, 18 pieces of soft play, and a 9 Mega mat setup. This funrides package offers safety and hygiene, with all items thoroughly sanitized before each use.`,
+  safetyHygiene: "Safety and Hygiene are the paramount priority at funrides! All our inflatables, soft play, ball pools, and mats come fully sanitized for every use.",
   note: "Consider adding Didi Cars and Hoppers for extra fun. These safe, easy-to-use toys are perfect for indoor and outdoor events.",
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
   availableLocations: [
@@ -2923,7 +2923,7 @@ suitability: [
     }
   ],
   largerOptions: "If you require a larger bouncy castle for more maximum users, check out our Bigger Bouncy Castle Indoor Soft Play Packages.",
-  whyChoose: "Choose Premium Inflatables for trained delivery and setup at your chosen home or venue."
+  whyChoose: "Choose funrides for trained delivery and setup at your chosen home or venue."
 }
 ,
 
@@ -2943,11 +2943,11 @@ suitability: [
   
   ],
   description: `The Superheroes Soft Play Bouncy Castle Juniors Package in Red and Blue is the ultimate choice for any children's party! This impressive package features a themed bouncy castle, a foam ball pool, a matching 17-piece Superheroes soft play set, and a Mega mat setup. Ideal for both indoor and outdoor hires, this bouncy castle guarantees fun, no matter the season!`,
-  safetyHygiene: "Safety and Hygiene are paramount at Premium Inflatables! All inflatables, soft play, ball pools, and mats are fully sanitized for every use.",
+  safetyHygiene: "Safety and Hygiene are paramount at funrides! All inflatables, soft play, ball pools, and mats are fully sanitized for every use.",
   note: "Consider adding our fun 4x Didi Cars and 4x Animal Hoppers to keep your little Superheroes entertained!",
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
   availableLocations: [
@@ -2993,7 +2993,7 @@ suitability: [
     }
   ],
   largerOptions: "If you need a larger bouncy castle for more users, check out our Bigger Bouncy Castle Indoor Soft Play Packages.",
-  whyChoose: "Choose Premium Inflatables for trained delivery and setup at your chosen home or venue."
+  whyChoose: "Choose funrides for trained delivery and setup at your chosen home or venue."
 }
 ,
 
@@ -3011,11 +3011,11 @@ suitability: [
   
   ],
   description: `The Superheroes Soft Play Bouncy Castle Package in Red and Blue is the perfect choice for your children's birthday party! Featuring a spacious 12ft x 15ft bouncy castle with a height of 9.5ft, this package is ideal for indoor hires. It includes a foam ball pool, 17-piece matching Superhero soft play, and a red/blue Mega mat setup, ensuring endless entertainment for children of all ages.`,
-  safetyHygiene: "Safety and Hygiene are paramount at Premium Inflatables! All inflatables, soft play, ball pools, and mats are fully sanitized for every use.",
+  safetyHygiene: "Safety and Hygiene are paramount at funrides! All inflatables, soft play, ball pools, and mats are fully sanitized for every use.",
   note: "Consider adding our fun 4x Didi Cars and 4x Hoppers to keep your little monkeys entertained!",
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
   availableLocations: [
@@ -3061,7 +3061,7 @@ suitability: [
     }
   ],
   largerOptions: "If you need a larger bouncy castle for more users, check out our Bigger Bouncy Castle Indoor Soft Play Packages.",
-  whyChoose: "Choose Premium Inflatables for trained delivery and setup at your chosen home or venue."
+  whyChoose: "Choose funrides for trained delivery and setup at your chosen home or venue."
 }
 ,
 
@@ -3077,11 +3077,11 @@ suitability: [
    
   ],
   description: `Introducing our Unicorn Themed Bouncy Castle and Slide Package in Pink and Purple, an amazing addition to any children's birthday party or event. This package features classic cartoon unicorn artwork, finished in a modern gloss, ensuring it stands out at any occasion. It's perfect for indoor and outdoor events, and can be easily upgraded with ball pools, soft play, and matching mat setups for a complete experience.`,
-  safetyHygiene: "Safety and Hygiene are paramount at Premium Inflatables! All inflatables, soft play, ball pools, and mats are fully sanitized for every use.",
+  safetyHygiene: "Safety and Hygiene are paramount at funrides! All inflatables, soft play, ball pools, and mats are fully sanitized for every use.",
   note: "Consider adding our package of Didi Cars and Hoppers to your party for extra fun!",
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
   availableLocations: [
@@ -3113,7 +3113,7 @@ suitability: [
     }
   ],
   largerOptions: "If you need a larger bouncy castle for more users, check out our Bigger Bouncy Castle Indoor Soft Play Packages.",
-  whyChoose: "Choose Premium Inflatables for trained delivery and setup at your chosen home or venue."
+  whyChoose: "Choose funrides for trained delivery and setup at your chosen home or venue."
 }
 ,
 {
@@ -3128,7 +3128,7 @@ suitability: [
     
   ],
   description: `Introducing our Unicorn Soft Play Bouncy Castle Juniors Package in Pink and Purple, perfect for your little girls who adore My Little Pony! This vibrant package includes a colourful Unicorn Themed Bouncy Castle, a foam ball pool, 18 pieces of soft play, and a matching 9x mat setup. This safe environment allows kids to roll, play, and pretend to be beautiful unicorns! Ideal for indoor venues, this package features a 9x11ft Toddler Castle.`,
-  safetyHygiene: "Safety and Hygiene are paramount at Premium Inflatables! All inflatables, soft play, ball pools, and mats are fully sanitized for every use.",
+  safetyHygiene: "Safety and Hygiene are paramount at funrides! All inflatables, soft play, ball pools, and mats are fully sanitized for every use.",
   additionalActivities: [
     {
       name: "Didi Cars & Hoppers",
@@ -3141,7 +3141,7 @@ suitability: [
   ],
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
   availableLocations: [
@@ -3171,7 +3171,7 @@ suitability: [
 ' Not for Adults'
 ],
   largerOptions: "For larger groups, look up our Bigger Bouncy Castle Indoor Soft Play Packages.",
-  whyChoose: "Choose Premium Inflatables for trained delivery and setup at your chosen home or venue."
+  whyChoose: "Choose funrides for trained delivery and setup at your chosen home or venue."
 }
 ,
 
@@ -3189,7 +3189,7 @@ suitability: [
   
   ],
   description: `Introducing our Unicorn Soft Play Bouncy Castle Package in Pink and Purple, perfect for little girls who love My Little Pony! This vibrant package includes a 12x15ft Unicorn Themed Bouncy Castle, a foam ball pool, 17 pieces of soft play, and a matching 9 mat setup. This safe environment allows kids to roll, play, and pretend to be beautiful unicorns! Ideal for all indoor venues.`,
-  safetyHygiene: "Safety and Hygiene are paramount at Premium Inflatables! All inflatables, soft play, ball pools, and mats are fully sanitized for every use.",
+  safetyHygiene: "Safety and Hygiene are paramount at funrides! All inflatables, soft play, ball pools, and mats are fully sanitized for every use.",
   additionalActivities: [
     {
       name: "Didi Cars & Hoppers",
@@ -3198,7 +3198,7 @@ suitability: [
   ],
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
   availableLocations: [
@@ -3228,7 +3228,7 @@ suitability: [
 ' Not for Adults'
 ],
   largerOptions: "For larger groups, please contact us for alternative packages.",
-  whyChoose: "Choose Premium Inflatables for trained delivery and setup at your chosen home or venue.",
+  whyChoose: "Choose funrides for trained delivery and setup at your chosen home or venue.",
   nextMorningCollection: {
     available: true,
     fee: 50
@@ -3246,7 +3246,7 @@ suitability: [
   
   ],
   description: `Introducing the Unicorn Soft Play + Slide + Bouncy Castle Package in Pink and Purple! Perfect for birthday celebrations, this mystical-themed package includes a 9x11ft Unicorn Bouncy Castle, a 12ft x 12ft Mini Pink Purple Slide, a foam ball pool, 17 pieces of soft play, and a matching 9 mat setup. It's ideal for both indoor and outdoor events, allowing your little ones to celebrate their special day in style!`,
-  safetyHygiene: "Safety and Hygiene are paramount at Premium Inflatables! All inflatables, soft play, ball pools, and mats come fully sanitized for every use.",
+  safetyHygiene: "Safety and Hygiene are paramount at funrides! All inflatables, soft play, ball pools, and mats come fully sanitized for every use.",
   additionalActivities: [
     {
       name: "Didi Cars & Hoppers",
@@ -3255,7 +3255,7 @@ suitability: [
   ],
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
   availableLocations: [
@@ -3289,7 +3289,7 @@ size:{
   ' Not for Adults'
   ],
 
-  whyChoose: "Choose Premium Inflatables for trained delivery and setup at your chosen home or venue.",
+  whyChoose: "Choose funrides for trained delivery and setup at your chosen home or venue.",
   nextMorningCollection: {
     available: true,
     fee: 50
@@ -3304,8 +3304,8 @@ size:{
   images: [
     "/glossy/47-bouncy-castle-plain-no-theme-green-and-light-blue.png",
   ],
-  description: `Our New 2024 Premium Model Plain No Theme bouncy castle is an amazing addition to any birthday party or event. Aesthetically pleasing with a modern gloss finish to match all our Premium Inflatables and accessories.`,
-  safetyHygiene: "Safety and Hygiene are paramount at Premium Inflatables! All inflatables, soft play, ball pools, and mats come fully sanitized for every use.",
+  description: `Our New 2024 Premium Model Plain No Theme bouncy castle is an amazing addition to any birthday party or event. Aesthetically pleasing with a modern gloss finish to match all our funrides and accessories.`,
+  safetyHygiene: "Safety and Hygiene are paramount at funrides! All inflatables, soft play, ball pools, and mats come fully sanitized for every use.",
   additionalActivities: [
     {
       name: "Premium Entertainment Experience",
@@ -3314,7 +3314,7 @@ size:{
   ],
   contactInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     bookingOnline: true
   },
   availableLocations: [
@@ -3364,7 +3364,7 @@ size:{
     'Outdoors on Grass',
     'Outdoors on Hard Surface'
   ],
-  whyChoose: "Choose Premium Inflatables for trained delivery and setup at your chosen home or venue. We guarantee punctual collections and a friendly, dedicated team.",
+  whyChoose: "Choose funrides for trained delivery and setup at your chosen home or venue. We guarantee punctual collections and a friendly, dedicated team.",
   nextMorningCollection: {
     available: true,
     fee: 50
@@ -3383,7 +3383,7 @@ size:{
   ],
   additionalInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     contactPage: "/contact",
     bookingOnline: true,
     bookingMessage: "You can make a booking online using the 'Check Availability' and 'Book Online' buttons!"
@@ -3457,7 +3457,7 @@ size:{
   price: 245,
   s1:'s72',
   title: "Soft Play Bouncy Castle Package - Green / Light Blue",
-  description: "This premium package includes a Green and Light Blue Bouncy Castle and a Soft Play set. Ideal for children's parties and events, delivered and set up by our trained team across Leeds, Wakefield, and surrounding areas. Our inflatables and soft play items are sanitized before every use for maximum hygiene and safety.",
+  description: "This funrides package includes a Green and Light Blue Bouncy Castle and a Soft Play set. Ideal for children's parties and events, delivered and set up by our trained team across Leeds, Wakefield, and surrounding areas. Our inflatables and soft play items are sanitized before every use for maximum hygiene and safety.",
   img: "/glossy/152-soft-play-bouncy-castle-package-green-light-blue.png",
   images: [
     "/glossy/152-soft-play-bouncy-castle-package-green-light-blue-1.png",
@@ -3468,7 +3468,7 @@ size:{
   ],
   additionalInfo: {
     phone: "0113 460 1386",
-    email: "info@premiuminflatables.co.uk",
+    email: "enquiries@funrides.co.uk",
     contactPage: "/contact",
     googleReviewsLink: "/google-reviews",
     bookingOnline: true,
@@ -3538,7 +3538,7 @@ size:{
   nextMorningCollectionFee: 50,
   s1:'s73',
   title: "Adults Bouncy Castle - Plain No Theme - Green & Light Blue",
-  description: "This premium bouncy castle is an excellent addition to any birthday party or event. With a modern gloss finish and vibrant green and light blue colors, it brings excitement to both indoor and outdoor events. Perfect for adults and children alike.",
+  description: "This funrides bouncy castle is an excellent addition to any birthday party or event. With a modern gloss finish and vibrant green and light blue colors, it brings excitement to both indoor and outdoor events. Perfect for adults and children alike.",
   img: "/glossy/181-adults-bouncy-castle-plain-no-theme-green-and-light-blue.png",
   images: [
     "/glossy/181-adults-bouncy-castle-plain-no-theme-green-and-light-blue.png",
@@ -3547,7 +3547,7 @@ size:{
   additionalInfo: {
     fiveStarReviews: "100% Five-Star Reviews Delivering All Promises",
     premiumGuarantees: [
-      "New fully sanitized 2024 Premium Inflatables & accessories",
+      "New fully sanitized 2024 funrides & accessories",
       "Delivering on time every time!",
       "Punctual collections",
       "Approachable friendly polite team dedicated to making your event safe and successful",
@@ -3556,7 +3556,7 @@ size:{
     googleReviewsLink: "/google-reviews",
     contactDetails: {
       phone: "0113 460 1386",
-      email: "info@premiuminflatables.co.uk",
+      email: "enquiries@funrides.co.uk",
       contactPage: "/contact"
     },
     bookingOptions: {
@@ -3631,7 +3631,7 @@ size:{
   nextMorningCollectionFee: 50,
   s1: 's74',
   title: "Toddlers Bouncy Castle - Green & Light Blue",
-  description: "Our under 5's / Toddlers Plain No Theme bouncy castle is an amazing addition to any birthday party or event, a modern gloss to match the premium gloss finish on all our inflatables. Ideal for all your indoor and outdoor events and special occasions.",
+  description: "Our under 5's / Toddlers Plain No Theme bouncy castle is an amazing addition to any birthday party or event, a modern gloss to match the funrides gloss finish on all our inflatables. Ideal for all your indoor and outdoor events and special occasions.",
   img: "/glossy/252-toddlers-bouncy-castle-green-and-light-blue.png",
   images: [
     "/glossy/252-toddlers-bouncy-castle-green-and-light-blue.png"
@@ -3647,7 +3647,7 @@ size:{
     googleReviewsLink: "/google-reviews",
     contactDetails: {
       phone: "0113 460 1386",
-      email: "info@premiuminflatables.co.uk",
+      email: "enquiries@funrides.co.uk",
       contactPage: "/contact"
     },
     bookingOptions: {
@@ -3724,7 +3724,7 @@ size:{
   nextMorningCollectionFee: 50,
   s1: "s75",
   title: "Happy Birthday Bouncy Castle - Red & Blue",
-  description: "The Happy Birthday Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon happy birthday artwork which is finished in a modern gloss to match the premium gloss finish on all our inflatables. Ideal for all your indoor and outdoor events and special occasions. Upgrade to include disco lights & a big Bluetooth speaker!",
+  description: "The Happy Birthday Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon happy birthday artwork which is finished in a modern gloss to match the funrides gloss finish on all our inflatables. Ideal for all your indoor and outdoor events and special occasions. Upgrade to include disco lights & a big Bluetooth speaker!",
   img: "/hbd/53-happy-birthday-bouncy-castle-red-and-blue.png",
   images: [
     "/hbd/53-happy-birthday-bouncy-castle-red-and-blue.png"
@@ -3738,7 +3738,7 @@ size:{
     googleReviewsLink: "/google-reviews",
     contactDetails: {
       phone: "0113 460 1386",
-      email: "info@premiuminflatables.co.uk",
+      email: "enquiries@funrides.co.uk",
       contactPage: "/contact"
     },
     bookingOptions: {
@@ -3813,7 +3813,7 @@ size:{
   nextMorningCollectionFee: 50,
   s1:'s76',
   title: "Happy Birthday Bouncy Castle - Pink & Purple",
-  description: "The Happy Birthday Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon happy birthday artwork which is finished in a modern gloss to match the premium gloss finish on all our inflatables. Ideal for all your indoor and outdoor events and special occasions. Upgrade to include disco lights & a big Bluetooth speaker!",
+  description: "The Happy Birthday Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon happy birthday artwork which is finished in a modern gloss to match the funrides gloss finish on all our inflatables. Ideal for all your indoor and outdoor events and special occasions. Upgrade to include disco lights & a big Bluetooth speaker!",
   img: "/hbd/54-happy-birthday-bouncy-castle-pink-and-purple.png",
   images: [
     "/hbd/54-happy-birthday-bouncy-castle-pink-and-purple.png"
@@ -3827,7 +3827,7 @@ size:{
     googleReviewsLink: "/google-reviews",
     contactDetails: {
       phone: "0113 460 1386",
-      email: "info@premiuminflatables.co.uk",
+      email: "enquiries@funrides.co.uk",
       contactPage: "/contact"
     },
     bookingOptions: {
@@ -3889,7 +3889,7 @@ size:{
   nextMorningCollectionFee: 50,
   s1:'s77',
   title: "Happy Birthday Bouncy Castle with Slide - Red & Blue",
-  description: "The Happy Birthday Themed bouncy castle with slide is an amazing addition to any birthday party or event, boasting the classic cartoon happy birthday artwork which is finished in a modern gloss to match the premium gloss finish on all our inflatables. Ideal for all your indoor and outdoor events and special occasions. Upgrade to include disco lights & a big Bluetooth speaker!",
+  description: "The Happy Birthday Themed bouncy castle with slide is an amazing addition to any birthday party or event, boasting the classic cartoon happy birthday artwork which is finished in a modern gloss to match the funrides gloss finish on all our inflatables. Ideal for all your indoor and outdoor events and special occasions. Upgrade to include disco lights & a big Bluetooth speaker!",
   img: "/hbd/85-happy-birthday-bouncy-castle-with-slide-red-and-blue.png",
   images: [
     "/hbd/85-happy-birthday-bouncy-castle-with-slide-red-and-blue-1.png",
@@ -3900,7 +3900,7 @@ size:{
   additionalInfo: {
     fiveStarReviews: "100% Five-Star Reviews Delivering on All Promises.",
     premiumGuarantees: [
-      "New fully sanitised 2024 Premium Inflatables & accessories.",
+      "New fully sanitised 2024 funrides & accessories.",
       "Delivering on time every time!",
       "Punctual collections.",
       "Approachable friendly polite RPii trained team dedicated to making your event safe & successful every time!",
@@ -3909,7 +3909,7 @@ size:{
     googleReviewsLink: "/google-reviews",
     contactDetails: {
       phone: "0113 460 1386",
-      email: "info@premiuminflatables.co.uk",
+      email: "enquiries@funrides.co.uk",
       contactPage: "/contact"
     },
     bookingOptions: {
@@ -3971,7 +3971,7 @@ size:{
   nextMorningCollectionFee: 50,
   s1 :'s78',
   title: "Happy Birthday Bouncy Castle with Slide - Pink & Purple",
-  description: "The Happy Birthday Themed bouncy castle with slide is an amazing addition to any birthday party or event, boasting the classic cartoon birthday celebrations artwork which is finished in a modern gloss to match the premium gloss finish on all our inflatables. Ideal for all your indoor and outdoor events and special occasions. Upgrade to include disco lights & a big Bluetooth speaker!",
+  description: "The Happy Birthday Themed bouncy castle with slide is an amazing addition to any birthday party or event, boasting the classic cartoon birthday celebrations artwork which is finished in a modern gloss to match the funrides gloss finish on all our inflatables. Ideal for all your indoor and outdoor events and special occasions. Upgrade to include disco lights & a big Bluetooth speaker!",
   img: "/hbd/86-happy-birthday-bouncy-castle-with-slide-pink-and-purple.png",
   images: [
     "/hbd/86-happy-birthday-bouncy-castle-with-slide-pink-and-purple-1.png",
@@ -3981,7 +3981,7 @@ size:{
   additionalInfo: {
     fiveStarReviews: "100% Five-Star Reviews Delivering on All Promises.",
     premiumGuarantees: [
-      "New fully sanitised 2024 Premium Inflatables & accessories.",
+      "New fully sanitised 2024 funrides & accessories.",
       "Delivering on time every time!",
       "Punctual collections.",
       "Approachable friendly polite RPii trained team dedicated to making your event safe & successful every time!",
@@ -3990,7 +3990,7 @@ size:{
     googleReviewsLink: "/google-reviews",
     contactDetails: {
       phone: "0113 460 1386",
-      email: "info@premiuminflatables.co.uk",
+      email: "enquiries@funrides.co.uk",
       contactPage: "/contact"
     },
     bookingOptions: {
@@ -4061,7 +4061,7 @@ size:{
   additionalInfo: {
     fiveStarReviews: "100% Five-Star Reviews Delivering on All Promises.",
     premiumGuarantees: [
-      "New fully sanitised 2024 Premium Inflatables & accessories.",
+      "New fully sanitised 2024 funrides & accessories.",
       "Delivering on time every time!",
       "Punctual collections.",
       "Approachable friendly polite RPii trained team dedicated to making your event safe & successful every time!",
@@ -4070,7 +4070,7 @@ size:{
     googleReviewsLink: "/google-reviews",
     contactDetails: {
       phone: "0113 460 1386",
-      email: "info@premiuminflatables.co.uk",
+      email: "enquiries@funrides.co.uk",
       contactPage: "/contact"
     },
     bookingOptions: {
@@ -4140,7 +4140,7 @@ size:{
   additionalInfo: {
     fiveStarReviews: "100% Five-Star Reviews Delivering on All Promises.",
     premiumGuarantees: [
-      "New fully sanitised 2024 Premium Inflatables & accessories.",
+      "New fully sanitised 2024 funrides & accessories.",
       "Delivering on time every time!",
       "Punctual collections.",
       "Approachable friendly polite RPii trained team dedicated to making your event safe & successful every time!",
@@ -4149,7 +4149,7 @@ size:{
     googleReviewsLink: "/google-reviews",
     contactDetails: {
       phone: "0113 460 1386",
-      email: "info@premiuminflatables.co.uk",
+      email: "enquiries@funrides.co.uk",
       contactPage: "/contact"
     },
     bookingOptions: {
@@ -4261,7 +4261,7 @@ size:{
   additionalInfo: {
     fiveStarReviews: "100% Five-Star Reviews Delivering on All Promises.",
     premiumGuarantees: [
-      "New fully sanitised 2024 Premium Inflatables & accessories.",
+      "New fully sanitised 2024 funrides & accessories.",
       "Delivering on time every time!",
       "Punctual collections.",
       "Approachable friendly polite RPii trained team dedicated to making your event safe & successful every time!",
@@ -4270,7 +4270,7 @@ size:{
     googleReviewsLink: "/google-reviews",
     contactDetails: {
       phone: "0113 460 1386",
-      email: "info@premiuminflatables.co.uk",
+      email: "enquiries@funrides.co.uk",
       contactPage: "/contact"
     },
     bookingOptions: {
@@ -4373,13 +4373,13 @@ size:{
   price: 105,
   s1:'s82',
   title: "Happy Birthday Bouncy Castle - Green & Light Blue",
-  description: "Premium Inflatables offers the #1 Google Review Rated bouncy castle hire service for Leeds, Wakefield, and surrounding areas. Our under 5's / Toddlers Happy Birthday themed bouncy castle features vibrant cartoon party artwork finished in a modern gloss, perfect for any birthday event. It can be easily paired with matching toddler slides, ball pools, and soft play for an incredible deluxe package. Safety and hygiene are our top priorities; all inflatables are fully sanitized for every use.",
+  description: "funrides offers the #1 Google Review Rated bouncy castle hire service for Leeds, Wakefield, and surrounding areas. Our under 5's / Toddlers Happy Birthday themed bouncy castle features vibrant cartoon party artwork finished in a modern gloss, perfect for any birthday event. It can be easily paired with matching toddler slides, ball pools, and soft play for an incredible deluxe package. Safety and hygiene are our top priorities; all inflatables are fully sanitized for every use.",
   img: "/hbd/245-happy-birthday-bouncy-castle-green-and-light-blue.png",
   images: [
     "/hbd/245-happy-birthday-bouncy-castle-green-and-light-blue.png"
   ],
   additionalInfo: {
-    fiveStarReviews: "Premium Inflatables is known for outstanding service and top-quality inflatables.",
+    fiveStarReviews: "funrides is known for outstanding service and top-quality inflatables.",
     premiumGuarantees: [
       "The latest, most on-trend new purchases in our outstanding 2024 fleet.",
       "Our inflatables are not to be mistaken for older, lower-quality options.",
@@ -4389,7 +4389,7 @@ size:{
     googleReviewsLink: "/google-reviews",
     contactDetails: {
       phone: "0113 460 1386",
-      email: "info@premiuminflatables.co.uk",
+      email: "enquiries@funrides.co.uk",
       contactPage: "/contact"
     },
     bookingOptions: {
@@ -4441,7 +4441,7 @@ size:{
   price: 175,
   s1:'s83',
   title: "Adults Happy Birthday Themed Bouncy Castle - Green & Light Blue",
-  description: "One of our new additions to the outstanding premium 2024 fleet! This Happy Birthday themed bouncy castle features classic cartoon happy birthday artwork finished in a modern gloss. It's perfect for elevating any birthday party or event. For an unforgettable experience, upgrade to include disco lights and a big Bluetooth speaker. Ideal for all indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups for an incredible package.",
+  description: "One of our new additions to the outstanding funrides 2024 fleet! This Happy Birthday themed bouncy castle features classic cartoon happy birthday artwork finished in a modern gloss. It's perfect for elevating any birthday party or event. For an unforgettable experience, upgrade to include disco lights and a big Bluetooth speaker. Ideal for all indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups for an incredible package.",
   img: "/hbd/adults-happy-birthday-themed-bouncy-castle-green-and-light-blue.png",
   images: [
     "/hbd/adults-happy-birthday-themed-bouncy-castle-green-and-light-blue.png"
@@ -4496,7 +4496,7 @@ size:{
   price: 175,
   s1:'s84',
   title: "Adults Happy Birthday Themed Bouncy Castle - Red & Blue",
-  description: "One of our new additions to the outstanding premium 2024 fleet! This Happy Birthday themed bouncy castle features classic cartoon happy birthday artwork finished in a modern gloss. It's perfect for elevating any birthday party or event. For an unforgettable experience, upgrade to include disco lights and a big Bluetooth speaker. Ideal for all indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups for an incredible package.",
+  description: "One of our new additions to the outstanding funrides 2024 fleet! This Happy Birthday themed bouncy castle features classic cartoon happy birthday artwork finished in a modern gloss. It's perfect for elevating any birthday party or event. For an unforgettable experience, upgrade to include disco lights and a big Bluetooth speaker. Ideal for all indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups for an incredible package.",
   img: "/hbd/adults-happy-birthday-themed-bouncy-castle-red-and-blue.png",
   images: [
     "/hbd/adults-happy-birthday-themed-bouncy-castle-red-and-blue.png"
@@ -4560,7 +4560,7 @@ size:{
     softPlayNote: "We do not hire our soft play & foam ball pools for outdoor use. Please make inquiries for alternatives on our Contact Page.",
     bookingDetails: {
       contactNumber: "0113 460 1386",
-      email: "info@premiuminflatables.co.uk",
+      email: "enquiries@funrides.co.uk",
       onlineBooking: "Make a booking online using the 'Check Availability' and 'Book Online' buttons."
     }
   },
@@ -4637,7 +4637,7 @@ size:{
     softPlayNote: "We do not hire our soft play & foam ball pools for outdoor use. Please make inquiries for alternatives on our Contact Page.",
     bookingDetails: {
       contactNumber: "0113 460 1386",
-      email: "info@premiuminflatables.co.uk",
+      email: "enquiries@funrides.co.uk",
       onlineBooking: "Make a booking online using the 'Check Availability' and 'Book Online' buttons."
     }
   },
@@ -4715,7 +4715,7 @@ s1:'s87',
     contactDetails: {
       officePhone: "0113 460 1386",
       mobileWhatsApp: "07482511995",
-      email: "info@premiuminflatables.co.uk",
+      email: "enquiries@funrides.co.uk",
       contactForm: "Use the contact form on our website."
     }
   },
@@ -4759,7 +4759,7 @@ s1:'s87',
   price: 195,
   s1:'s88',
   specialOfferPrice: null,
-  description: "The Butterflies Juniors Slide and Bouncy Castle package, available in vibrant pink and purple, is perfect for children's parties. With the classic butterflies artwork finished in modern gloss, this premium inflatable set is suitable for both indoor and outdoor events. With a low height of 8ft, it fits perfectly in low-roof venues. Enjoy a safe and fun experience, delivered on time with unmatched customer service.",
+  description: "The Butterflies Juniors Slide and Bouncy Castle package, available in vibrant pink and purple, is perfect for children's parties. With the classic butterflies artwork finished in modern gloss, this funrides set is suitable for both indoor and outdoor events. With a low height of 8ft, it fits perfectly in low-roof venues. Enjoy a safe and fun experience, delivered on time with unmatched customer service.",
   img: "/ji/Butterflies-Juniors-Slide-Bouncy-Castle-Pink-Purple.png",
   images: [
     "/ji/Butterflies-Juniors-Slide-Bouncy-Castle-Pink-Purple.png"
@@ -4768,7 +4768,7 @@ s1:'s87',
     contactDetails: {
       officePhone: "0113 460 1386",
       mobileWhatsApp: "07482511995",
-      email: "info@premiuminflatables.co.uk",
+      email: "enquiries@funrides.co.uk",
       contactForm: "Use the contact form on our website."
     }
   },
@@ -4836,7 +4836,7 @@ s1:'s87',
   price: 195,
   s1:'s89',
   specialOfferPrice: 50, // Next morning collection for £50
-  description: "The Dinosaurs Juniors Slide and Bouncy Castle package, in vibrant green and light blue, is an excellent choice for children's parties. Premium Inflatables offers the latest on-trend inflatables for 2024. This package ensures safety, fun, and hygiene, with fully sanitised units for every hire. Suitable for both indoor and outdoor events, it is perfect for birthdays and other celebrations.",
+  description: "The Dinosaurs Juniors Slide and Bouncy Castle package, in vibrant green and light blue, is an excellent choice for children's parties. funrides offers the latest on-trend inflatables for 2024. This package ensures safety, fun, and hygiene, with fully sanitised units for every hire. Suitable for both indoor and outdoor events, it is perfect for birthdays and other celebrations.",
   img: "/ji/Dinosaurs-Juniors-Slide-Bouncy-Castle-Green-Light-Blue.png",
   images: [
     "/ji/Dinosaurs-Juniors-Slide-Bouncy-Castle-Green-Light-Blue.png"
@@ -4844,7 +4844,7 @@ s1:'s87',
   additionalInfo: {
     contactDetails: {
       officePhone: "0113 460 1386",
-      email: "info@premiuminflatables.co.uk",
+      email: "enquiries@funrides.co.uk",
       contactForm: "Check out our contact page for more information."
     }
   },
@@ -4901,7 +4901,7 @@ s1:'s87',
   price: 195,
   s1:'s90',
   specialOfferPrice: 50, // Next morning collection for £50
-  description: "The Football Juniors Slide and Bouncy Castle in green and light blue is part of Premium Inflatables' 2024 fleet. It provides fun and safety for children's events, ensuring a fully sanitised inflatable for every hire. Ideal for birthdays and parties, this inflatable can be used both indoors and outdoors.",
+  description: "The Football Juniors Slide and Bouncy Castle in green and light blue is part of funrides' 2024 fleet. It provides fun and safety for children's events, ensuring a fully sanitised inflatable for every hire. Ideal for birthdays and parties, this inflatable can be used both indoors and outdoors.",
   img: "/ji/Football-Juniors-Slide-Bouncy-Castle-Green-Light-Blue.png",
   images: [
     "/ji/Football-Juniors-Slide-Bouncy-Castle-Green-Light-Blue.png"
@@ -4909,7 +4909,7 @@ s1:'s87',
   additionalInfo: {
     contactDetails: {
       officePhone: "0113 460 1386",
-      email: "info@premiuminflatables.co.uk",
+      email: "enquiries@funrides.co.uk",
       contactForm: "Check out our contact page for more information."
     }
   },
@@ -4977,7 +4977,7 @@ s1:'s87',
   price: 195,
   s1:'91',
   specialOfferPrice: 50, // Next morning collection for £50
-  description: "The Jungle Juniors Slide and Bouncy Castle package is part of Premium Inflatables' 2024 fleet. This package is ideal for under 5's toddlers and is perfect for both indoor and outdoor events. Featuring modern Jungle artwork with a gloss finish, this package is a great addition to children's birthday parties or events. It comes fully sanitised and includes a 9x11x8ft bouncy castle and a 12x12x8ft juniors slide.",
+  description: "The Jungle Juniors Slide and Bouncy Castle package is part of funrides' 2024 fleet. This package is ideal for under 5's toddlers and is perfect for both indoor and outdoor events. Featuring modern Jungle artwork with a gloss finish, this package is a great addition to children's birthday parties or events. It comes fully sanitised and includes a 9x11x8ft bouncy castle and a 12x12x8ft juniors slide.",
   img: "/ji/Jungle-Juniors-Slide-Bouncy-Castle-Green-Light-Blue.png",
   images: [
     "/ji/Jungle-Juniors-Slide-Bouncy-Castle-Green-Light-Blue.png"
@@ -4986,7 +4986,7 @@ s1:'s87',
     contactDetails: {
       officePhone: "0113 460 1386",
       callOrWhatsApp: "07482511995",
-      email: "info@premiuminflatables.co.uk",
+      email: "enquiries@funrides.co.uk",
       contactForm: "Check out our contact page for more information."
     }
   },
@@ -5087,7 +5087,7 @@ export const products = [
          ],
          "contact_info": {
            "phone": "0113 460 1386",
-           "email": "info@premiuminflatables.co.uk"
+           "email": "enquiries@funrides.co.uk"
          },
          "availability": "Available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
        },
@@ -5155,7 +5155,7 @@ export const products = [
          "subtitle": "ADULTS & CHILDREN READY!!",
          "image": {
              "alt": "30ft Jungle Mini Assault Course Fun Run",
-             "url": "a8a1aa6a18cb38284ef025e4140ac3bc"   
+             "url": "2.png"   
          },
          "price": "£175",
          "description": {
@@ -5172,7 +5172,7 @@ export const products = [
           ],
           "contact_info": {
             "phone": "0113 460 1386",
-            "email": "info@premiuminflatables.co.uk"
+            "email": "enquiries@funrides.co.uk"
           },
           "availability": "Available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
         },
@@ -5262,7 +5262,7 @@ export const products = [
           ],
           "contact_info": {
             "phone": "0113 460 1386",
-            "email": "info@premiuminflatables.co.uk"
+            "email": "enquiries@funrides.co.uk"
           },
           "availability": "Available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
         },
@@ -5330,7 +5330,7 @@ export const products = [
           ],
           "contact_info": {
             "phone": "0113 460 1386",
-            "email": "info@premiuminflatables.co.uk"
+            "email": "enquiries@funrides.co.uk"
           },
           "availability": "Available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
         },
@@ -5398,13 +5398,13 @@ export const products = [
            "subtitle": "Children's 12ft x 15ft",
            "image": {
              "alt": "3D Dinosaur Bouncy Castle With Front Slide",
-             "url": "cc9d63065bfc55a6e4ab4c6bb8220041"
+             "url": "3.png"
            },
            "price": "£145",
            "overnight_collection_price": "£50",
            "description": {
              "overview": [
-               "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+               "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
                "The 3D Dinosaur Bouncy Castle is a fantastic addition to any party, featuring vibrant dinosaur artwork.",
                "Ideal for all indoor and outdoor events."
              ],
@@ -5466,8 +5466,8 @@ export const products = [
            },
            "contact_info": {
              "phone": "0113 460 1386",
-             "email": "info@premiuminflatables.co.uk",
-             "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+             "email": "enquiries@funrides.co.uk",
+             "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
            },
            "locations_available": [
              "Leeds", "Wakefield", "Moortown", "Adel", "Shadwell", "Tingley", "Morley", "Gildersome", "Birstall",
@@ -5489,14 +5489,14 @@ export const products = [
            "subtitle": "Children's 12ft x 16ft",
            "image": {
              "alt": "3D Lion Bouncy Castle With Front Slide",
-             "url": "3aefdf485d6f639bfe65e0f12fb04537"  
+             "url": "4.png"  
            },
            "price": "£145",
            "overnight_collection_price": "£50",
            "description": {
              "overview": [
                "3D Lion Jungle Theme Bounce N' Slide.",
-               "Contact Premium Inflatables for more information.",
+               "Contact funrides for more information.",
                "Ideal for children's parties."
              ],
              "features": [
@@ -5559,8 +5559,8 @@ export const products = [
            },
            "contact_info": {
              "phone": "0113 460 1386",
-             "email": "info@premiuminflatables.co.uk",
-             "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+             "email": "enquiries@funrides.co.uk",
+             "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
            },
            "locations_available": [
              "Leeds", "Wakefield", "Moortown", "Adel", "Shadwell", "Tingley", "Morley", "Gildersome", "Birstall",
@@ -5584,7 +5584,7 @@ export const products = [
            "subtitle": "Children's 12ft x 16ft",
            "image": {
              "alt": "3D Monster Truck Bouncy Castle With Front Slide",
-             "url": "095f98c8fd92e51c05b2f2620716efc9"  
+             "url": "5.png"  
            },
            "price": "£145",
            "original_price": "£175",
@@ -5598,8 +5598,8 @@ export const products = [
              "contact_info": {
                "phone": "0113 460 1386",
                "mobile": "07482511995",
-               "email": "info@premiuminflatables.co.uk",
-               "contact_page": "../../../pages/contact-premium-inflatables.html"
+               "email": "enquiries@funrides.co.uk",
+               "contact_page": "../../../pages/contact-funrides-inflatables.html"
              }
            },
            "size": {
@@ -5668,53 +5668,13 @@ export const products = [
          
            
      ,
-     {
-           "title": "4x Didi Cars Plus 4x Animal Hoppers",
-           "url": "unisex-inflatables/49/4x-didi-cars-plus-4x-animal-hoppers.html#BodyContent",
-           "image": {
-             "alt": "4x Didi Cars Plus 4x Animal Hoppers",
-             "url": "502bb2d0314101cb6755c5dd3f963417"
-           },
-           "price": "£50",
-           "overnight_collection_price": "£50",
-           "description": {
-             "overview": [
-               "Premium Inflatables brings you one of our new purchases and additions to our outstanding 2024 fleet.",
-               "The Didi Cars and Hoppers are super fun, safe, and easy to use, perfect for both indoor and outdoor events."
-             ],
-             "features": [
-               "4x Didi Cars",
-               "4x Hoppers",
-               "All inflatables come fully sanitized for every use."
-             ]
-           },
-           "suitability": {
-             "suitable_surfaces": [
-               "Indoors on Hard Surface",
-               "Outdoors on Artificial Grass",
-               "Outdoors on Flags",
-               "Outdoors on Grass",
-               "Outdoors on Hard Surface"
-             ],
-             "unsuitable_surfaces": []
-           },
-           "contact_info": {
-             "phone": "0113 460 1386",
-             "email": "info@premiuminflatables.co.uk",
-             "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
-           },
-           "locations_available": [
-             "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", 
-             "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", 
-             "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
-           ]
-         }
+     
          
            
          , 
          {
            "title": "75ft Premium Obstacle Assault Course",
-           "url": "premium-inflatables/75ft-premium-obstacle-assault-course.html#BodyContent",
+           "url": "funrides-inflatables/75ft-funrides-obstacle-assault-course.html#BodyContent",
            "subtitle": "75ft - Any Age - Party Time - Assault / Obstacle Course",
            "image": {
              "alt": "75ft Premium Obstacle Assault Course",
@@ -5787,8 +5747,8 @@ export const products = [
            },
            "contact_info": {
              "phone": "07482 511995",
-             "email": "info@premiuminflatables.co.uk",
-             "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+             "email": "enquiries@funrides.co.uk",
+             "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
            },
            "locations_available": [
              "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone",
@@ -5808,11 +5768,11 @@ export const products = [
      "description": {
        "overview": [
          "100% Five-Star Reviews Delivering All Promises",
-         "At Premium Inflatables, our commitment to excellence is reflected in our 100% five-star rating on Google. With hundreds of reviews from satisfied customers, we take pride in consistently delivering premium products and service.",
+         "At funrides, our commitment to excellence is reflected in our 100% five-star rating on Google. With hundreds of reviews from satisfied customers, we take pride in consistently delivering funrides products and service.",
          "The Plain No Theme bouncy castle is an amazing addition to any birthday party or event, offering a modern gloss finish."
        ],
        "features": [
-         "New fully sanitised 2024 Premium Inflatables & accessories",
+         "New fully sanitised 2024 funrides & accessories",
          "Bouncy castle upgrade includes disco lights and a big Bluetooth speaker."
        ]
      },
@@ -5870,8 +5830,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -5894,8 +5854,8 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
-         "The Plain No Theme bouncy castle is an amazing addition to any birthday party or event, a modern gloss to match the premium gloss finish on all our inflatables.",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
+         "The Plain No Theme bouncy castle is an amazing addition to any birthday party or event, a modern gloss to match the funrides gloss finish on all our inflatables.",
          "Ideal for all your indoor and outdoor events, this castle can be easily paired with slides, ball pools, soft play, and matching mat setup to create an incredible package."
        ],
        "features": [
@@ -5939,8 +5899,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -5963,12 +5923,12 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
-         "The Plain No Theme bouncy castle is an amazing addition to any birthday party or event, a modern gloss to match the premium gloss finish on all our inflatables.",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
+         "The Plain No Theme bouncy castle is an amazing addition to any birthday party or event, a modern gloss to match the funrides gloss finish on all our inflatables.",
          "If this amazing inflatable wasn't already good enough, why not take your special event to the next level by adding the ultimate bouncy castle upgrade to include disco lights & big Bluetooth speaker.",
          "The Plain No Theme bouncy castle is ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with slides, ball pools, soft play, and matching mat setups to create an incredible package.",
          "Have our trained team deliver and setup this inflatable at your home or chosen venue.",
-         "Premium Inflatables now available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
+         "funrides now available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
        ],
        "features": [
          "Bouncy castle upgrade includes disco lights and a big Bluetooth speaker."
@@ -6028,8 +5988,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -6039,7 +5999,7 @@ export const products = [
    ,
    {
      "title": "Adults Bouncy Castle Disco Theme 15ft x 15ft",
-     "url": "premium-inflatables/adults-bouncy-castle-disco-theme-15ft-x-15ft.html#BodyContent",
+     "url": "funrides-inflatables/adults-bouncy-castle-disco-theme-15ft-x-15ft.html#BodyContent",
      "subtitle": "Adults 15ft x 15ft",
      "image": {
        "alt": "Adults Bouncy Castle Disco Theme",
@@ -6049,7 +6009,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "Welcome to Premium Inflatables - Your Number #1 Choice for Adults bouncy castle hire in Leeds, Wakefield and the surrounding areas.",
+         "Welcome to funrides - Your Number #1 Choice for Adults bouncy castle hire in Leeds, Wakefield and the surrounding areas.",
          "Delivering you a choice of UK's latest most on trend adults bouncy castles and Promotional Price Premium Packages.",
          "Our Famous Disco Bouncy Castle is an amazing addition to any birthday party or event, boasting the classic disco artwork which is finished in a modern gloss.",
          "If this amazing inflatable wasn't already good enough being super reinforced structurally to take even adults weight, we’ve now included for FREE our Premium Entertainment Experience so you can take your special event to the next level with disco lights & BIG Bluetooth speaker.",
@@ -6114,8 +6074,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", 
@@ -6137,7 +6097,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Butterflies Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon butterflies artwork finished in a modern gloss.",
          "Ideal for all your indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
        ],
@@ -6199,8 +6159,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "path/to/contact-premium-inflatables.html"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "path/to/contact-funrides-inflatables.html"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -6223,7 +6183,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Cars Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon cars artwork finished in a modern gloss.",
          "Ideal for all your indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
        ],
@@ -6285,8 +6245,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -6309,7 +6269,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Party Time Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork finished in a modern gloss.",
          "Ideal for all your indoor and outdoor events and special occasions, this castle can be easily paired with slides, ball pools, soft play, and matching mat setup to create an incredible package."
        ],
@@ -6371,8 +6331,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -6395,7 +6355,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Party Time Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork which is finished in a modern gloss.",
          "Ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with slides, ball pools, soft play and matching mat set up to make an incredible package."
        ],
@@ -6457,8 +6417,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -6479,7 +6439,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Circus Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon circus artwork finished in a modern gloss.",
          "Ideal for all your indoor and outdoor events, this castle can be easily paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
        ],
@@ -6542,8 +6502,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", 
@@ -6555,7 +6515,7 @@ export const products = [
 ,
 {
  "title": "Adults Circus Themed Bouncy Castle - Green & Light Blue",
- "url": "premium-inflatables/adults-circus-themed-bouncy-castle-green-and-light-blue.html#BodyContent",
+ "url": "funrides-inflatables/adults-circus-themed-bouncy-castle-green-and-light-blue.html#BodyContent",
  "subtitle": "Adults 15ft x 15ft",
  "image": {
    "alt": "Adults Circus Themed Bouncy Castle - Green & Light Blue",
@@ -6567,10 +6527,10 @@ export const products = [
    "overview": [
      "100% Five-Star Reviews Delivering All Promises.",
      "Our commitment to excellence is reflected in our 100% five-star rating on Google.",
-     "With hundreds of reviews from satisfied customers, we take pride in delivering premium products and service."
+     "With hundreds of reviews from satisfied customers, we take pride in delivering funrides products and service."
    ],
    "features": [
-     "New fully sanitised 2024 Premium Inflatables & accessories.",
+     "New fully sanitised 2024 funrides & accessories.",
      "All our Hire Inflatables + Equipment is Certified To EN14960 & HSE Guidelines as Standard."
    ]
  },
@@ -6628,8 +6588,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386", 
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Moortown", "Adel", "Shadwell", "Tingley", "Morley", "Gildersome", 
@@ -6656,7 +6616,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Diggers Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon diggers artwork which is finished in a modern gloss.",
          "Ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with slides, ball pools, soft play and matching mat setup to create an incredible package."
        ],
@@ -6718,8 +6678,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -6742,7 +6702,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Diggers Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon diggers artwork finished in a modern gloss.",
          "Ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with slides, ball pools, soft play and matching mat setup to make an incredible package."
        ],
@@ -6805,8 +6765,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -6891,8 +6851,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -6905,7 +6865,7 @@ export const products = [
    ,
    {
      "title": "Adults Dinosaurs Themed Bouncy Castle - Red & Blue",
-     "url": "premium-inflatables/adults-dinosaurs-themed-bouncy-castle-red-and-blue.html#BodyContent",
+     "url": "funrides-inflatables/adults-dinosaurs-themed-bouncy-castle-red-and-blue.html#BodyContent",
      "subtitle": "Adults 15ft x 15ft",
      "image": {
        "alt": "Adults Dinosaurs Themed Bouncy Castle - Red & Blue",
@@ -6915,7 +6875,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Dinosaurs Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon dinosaurs artwork finished in a modern gloss.",
          "Ideal for all indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
        ],
@@ -6977,8 +6937,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -7001,7 +6961,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Football Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon football artwork finished in a modern gloss.",
          "Ideal for all your indoor and outdoor events and special occasions, this castle can be easily paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
        ],
@@ -7063,8 +7023,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -7086,7 +7046,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Football Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon football artwork finished in a modern gloss.",
          "Ideal for all your indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
        ],
@@ -7149,8 +7109,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", 
@@ -7172,7 +7132,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Football Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon football artwork finished in a modern gloss.",
          "Ideal for all indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
        ],
@@ -7234,8 +7194,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone",
@@ -7257,7 +7217,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Happy Birthday Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon happy birthday artwork finished in a modern gloss.",
          "Ideal for all your indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
        ],
@@ -7319,8 +7279,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -7343,7 +7303,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Happy Birthday Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon happy birthday artwork finished in a modern gloss.",
          "Ideal for all your indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
        ],
@@ -7405,8 +7365,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -7429,7 +7389,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Ice Queen Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork finished in a modern gloss.",
          "Ideal for all your indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
        ],
@@ -7491,8 +7451,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -7515,7 +7475,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Circus Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon circus artwork finished in a modern gloss.",
          "Ideal for all your indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
        ],
@@ -7577,8 +7537,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", 
@@ -7663,8 +7623,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -7687,7 +7647,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Jungle Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon jungle artwork finished in a modern gloss.",
          "Ideal for all your indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
        ],
@@ -7749,8 +7709,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract",
@@ -7772,7 +7732,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Jungle Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon jungle artwork finished in a modern gloss.",
          "Ideal for all your indoor and outdoor events, this castle can be easily paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
        ],
@@ -7834,8 +7794,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley",
@@ -7858,7 +7818,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Mermaids Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon mermaids artwork which is finished in a modern gloss.",
          "Ideal for all indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
        ],
@@ -7920,8 +7880,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -7942,7 +7902,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Party Time Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork finished in a modern gloss.",
          "Ideal for all indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
        ],
@@ -8004,8 +7964,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -8028,7 +7988,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Party Time Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork finished in a modern gloss.",
          "Ideal for all your indoor and outdoor events and special occasions, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
        ],
@@ -8090,8 +8050,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby", "surroundings"
@@ -8112,7 +8072,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "The New 2024 Adults / Any Age Premium Bouncy Castle is now available to hire at Premium Inflatables.",
+         "The New 2024 Adults / Any Age Premium Bouncy Castle is now available to hire at funrides.",
          "The Party Time Themed bouncy castle is an amazing addition to any birthday party or event, boasting classic cartoon party time celebrations artwork.",
          "Ideal for all your indoor birthday bouncy castle parties and outdoor events."
        ],
@@ -8175,8 +8135,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -8199,7 +8159,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+     "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
      "The Princess Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon princess artwork finished in a modern gloss.",
      "Ideal for all indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
    ],
@@ -8261,8 +8221,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone",
@@ -8286,7 +8246,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Sea World Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon sea world artwork finished in a modern gloss.",
          "Ideal for all your indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
        ],
@@ -8348,8 +8308,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -8372,7 +8332,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Sea World Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon sea world artwork which is finished in a modern gloss.",
          "Ideal for all your indoor and outdoor events, this castle can be paired with slides, ball pools, soft play and matching mat setup to make an incredible package."
        ],
@@ -8434,8 +8394,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone",
@@ -8519,8 +8479,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", 
@@ -8543,7 +8503,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Superheroes Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon superheroes artwork finished in a modern gloss.",
          "Ideal for all indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
        ],
@@ -8605,8 +8565,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -8621,7 +8581,7 @@ export const products = [
    ,
    {
      "title": "Adults Unicorn Themed Bouncy Castle Hire - Pink & Purple",
-     "url": "premium-inflatables/adults-unicorn-themed-bouncy-castle-pink-and-purple.html#BodyContent",
+     "url": "funrides-inflatables/adults-unicorn-themed-bouncy-castle-pink-and-purple.html#BodyContent",
      "subtitle": "Adults 15ft x 15ft",
      "image": {
        "alt": "Adults Unicorn Themed Bouncy Castle Hire - Pink & Purple",
@@ -8631,7 +8591,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Unicorns Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon unicorns artwork finished in a modern gloss.",
          "Ideal for all your indoor and outdoor events, this castle can be easily paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
        ],
@@ -8693,8 +8653,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", 
@@ -8707,7 +8667,7 @@ export const products = [
    },
  {
      "title": "Axe Throwing Game",
-     "url": "premium-inflatables/axe-throwing-game.html#BodyContent",
+     "url": "funrides-inflatables/axe-throwing-game.html#BodyContent",
      "subtitle": "Inflatable Game for Events",
      "image": {
        "alt": "Axe Throwing Game",
@@ -8781,8 +8741,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley",
@@ -8795,7 +8755,7 @@ export const products = [
    {
      "title": "Axe Throwing Game 1",
      "url": "unisex-inflatables/1/axe-throwing-game-1.html#BodyContent",
-     "subtitle": "Premium Inflatable Game",
+     "subtitle": "funrides Game",
      "image": {
        "alt": "Axe Throwing Game 1",
        "url": "60248c5b710459c2e7f17c78756d42cf"  
@@ -8866,8 +8826,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell",
@@ -8889,7 +8849,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "Plain themed ball pool, ideal for indoor use."
        ],
        "features": [
@@ -8950,8 +8910,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -8964,7 +8924,7 @@ export const products = [
    ,
    {
      "title": "Basketball Shootout Game",
-     "url": "premium-inflatables/basketball-shootout-game.html#BodyContent",
+     "url": "funrides-inflatables/basketball-shootout-game.html#BodyContent",
      "subtitle": "Children's 12ft x 12ft",
      "image": {
        "alt": "Basketball Shootout Game",
@@ -8979,7 +8939,7 @@ export const products = [
          "Balls are included."
        ],
        "features": [
-         "New fully sanitised 2024 Premium Inflatables & accessories.",
+         "New fully sanitised 2024 funrides & accessories.",
          "Delivering on time every time!!",
          "Around the clock customer service team to answer all your calls and messages."
        ]
@@ -9038,8 +8998,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", 
@@ -9060,7 +9020,7 @@ export const products = [
      "overnight_collection_price": null,
      "description": {
        "overview": [
-         "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "The Mega Soft Play Package is an amazing set up! It will keep all your Princesses entertained throughout the day! Its Pink/Purple colours are a fabulous addition to your birthday celebrations.",
          "The bouncy castle with Slide 12x16ft is perfect for all your indoor and outdoor events and special occasions."
        ],
@@ -9123,8 +9083,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", 
@@ -9147,7 +9107,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "Premium Inflatables is your local bouncy castle hire service.",
+         "funrides is your local bouncy castle hire service.",
          "The Mega Soft Play Plain Red/Blue Castle with Slide Package is an amazing addition to any birthday party or event.",
          "This castle is paired with a foam ball pool, 17 pieces of soft play, and matching 9 mat setup."
        ],
@@ -9210,8 +9170,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", 
@@ -9237,10 +9197,10 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "Premium Inflatables your local bouncy castle hire near you.",
+         "funrides your local bouncy castle hire near you.",
          "Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
          "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
-         "The Plain No Theme bouncy castle is an amazing addition to any birthday party or event, a modern gloss to match the premium gloss finish on all our inflatables."
+         "The Plain No Theme bouncy castle is an amazing addition to any birthday party or event, a modern gloss to match the funrides gloss finish on all our inflatables."
        ],
        "features": [
          "Upgrade to include disco lights and a big Bluetooth speaker."
@@ -9301,8 +9261,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -9314,7 +9274,7 @@ export const products = [
    ,
    {
      "title": "Bouncy Castle Hire - Plain No Theme - Red & Blue",
-     "url": "premium-castle-description-outer",
+     "url": "funrides-castle-description-outer",
      "subtitle": "Children's 12ft x 15ft",
      "image": {
        "alt": "Bouncy Castle Hire - Plain No Theme - Red & Blue",
@@ -9324,7 +9284,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "The Plain No Theme bouncy castle is an amazing addition to any birthday party or event, a modern gloss to match the premium gloss finish on all our inflatables.",
+         "The Plain No Theme bouncy castle is an amazing addition to any birthday party or event, a modern gloss to match the funrides gloss finish on all our inflatables.",
          "Ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
        ],
        "features": [
@@ -9386,8 +9346,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone",
@@ -9413,7 +9373,7 @@ export const products = [
          "This amazing inflatable boasts a modern gloss finish, ideal for any birthday party or event."
        ],
        "features": [
-         "New fully sanitised 2024 Premium Inflatables & accessories.",
+         "New fully sanitised 2024 funrides & accessories.",
          "Disco lights & big Bluetooth speaker available as an upgrade."
        ]
      },
@@ -9472,8 +9432,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -9486,7 +9446,7 @@ export const products = [
    ,
    {
      "title": "Bouncy Castle with slide Combo - Red & Blue",
-     "url": "premium-inflatables/bouncy-castle-with-slide-combo-red-and-blue.html#BodyContent",
+     "url": "funrides-inflatables/bouncy-castle-with-slide-combo-red-and-blue.html#BodyContent",
      "subtitle": "Children's 12ft x 16ft",
      "image": {
        "alt": "Bouncy Castle with slide Combo - Red & Blue",
@@ -9497,11 +9457,11 @@ export const products = [
      "description": {
        "overview": [
          "100% Five-Star Reviews Delivering All Promises",
-         "At Premium Inflatables, our commitment to excellence is reflected in our 100% five-star rating on Google.",
+         "At funrides, our commitment to excellence is reflected in our 100% five-star rating on Google.",
          "This bouncy castle with slide is ideal for all your indoor and outdoor events and special occasions."
        ],
        "features": [
-         "New fully sanitised 2024 Premium Inflatables & accessories.",
+         "New fully sanitised 2024 funrides & accessories.",
          "Around the clock customer service team to answer all your calls and messages."
        ]
      },
@@ -9560,8 +9520,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell",
@@ -9590,7 +9550,7 @@ export const products = [
          "With its vibrant colors and eye-catching design, it’s suitable for both children and adults."
        ],
        "features": [
-         "New fully sanitised 2024 Premium Inflatables & accessories.",
+         "New fully sanitised 2024 funrides & accessories.",
          "All our Hire Inflatables + Equipment is Certified To EN14960 & HSE Guidelines as Standard."
        ]
      },
@@ -9649,8 +9609,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -9670,14 +9630,14 @@ export const products = [
      "overnight_collection_price": "Not specified",
      "description": {
        "overview": [
-         "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer for Leeds and Wakefield brings you choice of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "funrides your number #1 Google Review Rated bouncy castle hirer for Leeds and Wakefield brings you choice of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "Introducing our new Amazing Mega Pink and Purple Butterflies Soft Play Package for all your beautiful little girls out there!!",
          "It contains our highly sought-after 12ft x 16ft x 9.5ft (Width/Length/Height) Bouncy Castle with slide combination featuring a colorful butterfly theme, paired with our foam ball pool, 9x Mega Mat setup with matching 17 pieces of soft play!",
          "This is a must for Indoor Bounce n' Slide, Soft Play, Birthday Celebrations—such a beautiful pink package for your little girls."
        ],
        "features": [
          "Safety and Hygiene are the Paramount Priority.",
-         "All our Premium Inflatables come Fully Sanitised for Every Use."
+         "All our funrides come Fully Sanitised for Every Use."
        ]
      },
      "size": {
@@ -9735,8 +9695,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby", "surroundings"
@@ -9819,8 +9779,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -9843,7 +9803,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "Premium Inflatables, your local bouncy castle hire near you.",
+         "funrides, your local bouncy castle hire near you.",
          "The Butterflies Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon butterflies artwork finished in a modern gloss.",
          "Ideal for all indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
        ],
@@ -9906,8 +9866,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -9931,7 +9891,7 @@ export const products = [
          "The Butterfly Themed bouncy castle with slide is an amazing addition to any birthday party or event, boasting the classic cartoon Butterflies artwork finished in a modern gloss."
        ],
        "features": [
-         "New fully sanitised 2024 Premium Inflatables & accessories.",
+         "New fully sanitised 2024 funrides & accessories.",
          "Punctual collections.",
          "Disco lights & big Bluetooth speaker upgrade available."
        ]
@@ -9991,8 +9951,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley",
@@ -10015,12 +9975,12 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "Premium Inflatables your local bouncy castle hire near you. #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
+         "funrides your local bouncy castle hire near you. #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
          "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
          "Wow look at this Mega Pink and Purple Butterflies Soft Play Package! It contains our highly sought after 12x15ft Bouncy Castle with the butterfly theme, also a foam ball pool, and matching 17 pieces of soft play. This is a must for Indoor Birthday Celebrations!"
        ],
        "features": [
-         "Safety and Hygiene are the Paramount Priority here at Premium Inflatables. All our inflatables and soft play are fully sanitised for every use."
+         "Safety and Hygiene are the Paramount Priority here at funrides. All our inflatables and soft play are fully sanitised for every use."
        ]
      },
      "size": {
@@ -10078,8 +10038,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -10163,8 +10123,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell",
@@ -10188,7 +10148,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "Premium Inflatables, your local bouncy castle hire near you. #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
+         "funrides, your local bouncy castle hire near you. #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
          "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
          "The Cars Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon cars artwork finished in a modern gloss.",
          "Ideal for all your indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
@@ -10252,8 +10212,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -10279,7 +10239,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "Premium Inflatables your local bouncy castle hire near you. #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
+         "funrides your local bouncy castle hire near you. #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
          "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
          "The Cars Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon cars artwork finished in a modern gloss.",
          "Ideal for all your indoor and outdoor events, this castle can be easily paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
@@ -10343,8 +10303,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -10369,7 +10329,7 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
+         "funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
          "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
          "The Cars Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon cars artwork finished in a modern gloss.",
          "Ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with slides, ball pools, soft play, and matching mat set up to make an incredible package."
@@ -10433,8 +10393,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", 
@@ -10454,7 +10414,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables, your local bouncy castle hire near you.",
+     "funrides, your local bouncy castle hire near you.",
      "The Cars Themed bouncy castle is an amazing addition to any birthday party or event, boasting classic cartoon cars artwork finished in a modern gloss.",
      "Ideal for all indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
    ],
@@ -10517,8 +10477,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -10602,8 +10562,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -10629,10 +10589,10 @@ export const products = [
    "overview": [
      "The Cars Themed Mega Soft Play Package is an amazing addition to any birthday party or event, boasting the classic cartoon cars artwork finished in a modern gloss.",
      "This castle is paired with a foam ball pool, 17 pieces of soft play, and a matching 9 mat setup to create an incredible package.",
-     "Safety and Hygiene are the Paramount Priority here at Premium Inflatables!"
+     "Safety and Hygiene are the Paramount Priority here at funrides!"
    ],
    "features": [
-     "All our Premium Inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
+     "All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
    ]
  },
  "size": {
@@ -10690,8 +10650,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone",
@@ -10711,12 +10671,12 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
      "The Cars Themed Mega Soft Play Package is an amazing addition to any birthday party or event, boasting the classic cartoon cars artwork."
    ],
    "features": [
-     "All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
+     "All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
    ]
  },
  "size": {
@@ -10774,8 +10734,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell",
@@ -10786,7 +10746,7 @@ export const products = [
 ,
 {
  "title": "Christmas Bouncy Castle - Green & Light Blue",
- "url": "premium-inflatables/christmas-bouncy-castle-green-and-light-blue.html#BodyContent",
+ "url": "funrides-inflatables/christmas-bouncy-castle-green-and-light-blue.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
    "alt": "Christmas Bouncy Castle - Green & Light Blue",
@@ -10858,8 +10818,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley",
@@ -10880,10 +10840,10 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "#1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
-     "The Christmas Theme bouncy castle is an amazing addition to any birthday party or event, a modern gloss to match the premium gloss finish on all our inflatables.",
+     "The Christmas Theme bouncy castle is an amazing addition to any birthday party or event, a modern gloss to match the funrides gloss finish on all our inflatables.",
      "Ideal for all your indoor and outdoor events and special occasions."
    ],
    "features": [
@@ -10945,8 +10905,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -10969,7 +10929,7 @@ export const products = [
    "overview": [
      "Roll up Roll up come into our Amazing Premium Circus! This Mega Pack includes our Bouncy Slide Castle, with matching Circus foam ball pool and Soft play keeping the under 5’s & toddlers entertained.",
      "We've paired the bouncy castle slide, ball pool with matching Red/Blue colour coordinated soft play and matching mat set completing your Circus Mega Package fit for your Best Birthday Party Celebrations of the Year!!!",
-     "Safety and Hygiene are the Paramount Priority here at Premium Inflatables!! All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
+     "Safety and Hygiene are the Paramount Priority here at funrides!! All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
    ],
    "features": []
  },
@@ -11028,8 +10988,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -11053,7 +11013,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
+     "funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
      "The Circus Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon circus artwork finished in a modern gloss.",
      "Take your special event to the next level by adding our Premium Entertainment Experience."
@@ -11117,8 +11077,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -11139,7 +11099,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
      "The Circus Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon circus artwork which is finished in a modern gloss.",
      "If this amazing inflatable wasn't already good enough, why not take your special event to the next level by adding our Premium Entertainment Experience package."
@@ -11203,8 +11163,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -11217,7 +11177,7 @@ export const products = [
 ,
 {
  "title": "Circus Bouncy Castle - Red & Blue",
- "url": "premium-inflatables/your-url-here",  
+ "url": "funrides-inflatables/your-url-here",  
  "subtitle": "Children's 12ft x 15ft",
  "image": {
    "alt": "Circus Bouncy Castle - Red & Blue",
@@ -11227,7 +11187,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
      "The Circus Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon circus artwork.",
      "Ideal for all your indoor and outdoor events and special occasions."
@@ -11291,8 +11251,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -11303,7 +11263,7 @@ export const products = [
 ,
 {
  "title": "Circus Bouncy Castle - Red & Blue",
- "url": "premium-inflatables/circus-bouncy-castle-red-and-blue.html#BodyContent",
+ "url": "funrides-inflatables/circus-bouncy-castle-red-and-blue.html#BodyContent",
  "subtitle": "Children's 12ft x 11.5ft",
  "image": {
    "alt": "Circus Bouncy Castle - Red & Blue",
@@ -11375,8 +11335,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone",
@@ -11397,7 +11357,7 @@ export const products = [
  "description": {
    "overview": [
      "The Circus Themed bouncy castle and matching ball pool are amazing additions to any birthday party or event, boasting classic cartoon circus artwork finished in a modern gloss.",
-     "Our premium circus themed ball pool comes with commercial colour coordinated balls to put the ‘icing on the cake’ for this amazing children’s / toddlers birthday party set up.",
+     "Our funrides circus themed ball pool comes with commercial colour coordinated balls to put the ‘icing on the cake’ for this amazing children’s / toddlers birthday party set up.",
      "Ideal for all indoor and outdoor events, this castle can be easily paired with slides, soft play, and matching mat setups to create an incredible package."
    ],
    "features": [
@@ -11459,8 +11419,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", 
@@ -11544,8 +11504,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -11554,7 +11514,7 @@ export const products = [
 ,
 {
  "title": "Circus Inflatable Ball Pool",
- "url": "premium-inflatables/circus-inflatable-ball-pool.html#BodyContent",
+ "url": "funrides-inflatables/circus-inflatable-ball-pool.html#BodyContent",
  "subtitle": "Children's inflatable ball pool",
  "image": {
    "alt": "Circus Inflatable Ball Pool",
@@ -11606,8 +11566,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -11628,7 +11588,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
  "overview": [
- "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!!",
+ "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!!",
  "The Circus Themed Super size package which includes our amazing Toddlers Circus Bouncy Castle, Mini Slide, Soft Play + Mega Mat set up and Matching Foam Ball Pool is the ultimate addition to any under 5's, Toddlers Birthday party or event !",
  "The Circus Themed bouncy castle and Mini Slide is Ideal for all your indoor events and special occasions.",
  "This Super Sized Soft Play Package is perfect for our under 5's to build, play and roll in a safe enclosed area. Bringing your children the most fun and entertaining party of the year!!!"
@@ -11677,8 +11637,8 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "info@premiuminflatables.co.uk",
- "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+ "email": "enquiries@funrides.co.uk",
+ "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
  "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -11759,8 +11719,8 @@ export const products = [
    },
    "contact_info": {
      "phone": "0113 460 1386",
-     "email": "info@premiuminflatables.co.uk",
-     "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+     "email": "enquiries@funrides.co.uk",
+     "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
    },
    "locations_available": [
      "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -11781,7 +11741,7 @@ export const products = [
  "overnight_collection_price": "N/A", 
  "description": {
    "overview": [
-     "Premium Inflatables is your local bouncy castle hire service.",
+     "funrides is your local bouncy castle hire service.",
      "Offering the latest and most on-trend bouncy castles for hire.",
      "This Green and Light Blue Circus Mega Pack includes a 12x15ft bouncy castle, a foam ball pool, and a 17-piece soft play set."
    ],
@@ -11844,8 +11804,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -11866,12 +11826,12 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
+     "funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
      "We've carefully selected our Circus Mega Pack, putting together our highly demanded 12ft x 15ft bouncy castle perfect fit for all your indoor hires."
    ],
    "features": [
-     "All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
+     "All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
    ]
  },
  "size": {
@@ -11929,8 +11889,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -11949,7 +11909,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer for Leeds and Wakefield brings you choice of our new purchases and additions to our outstanding premium 2024 fleet!",
+     "funrides your number #1 Google Review Rated bouncy castle hirer for Leeds and Wakefield brings you choice of our new purchases and additions to our outstanding funrides 2024 fleet!",
      "The Diggers Themed Mega Soft Play Package is where your little boys can jump, bounce, slide and play at being mini Diggers as we all know boys love their big toys!",
      "The Diggers Themed bouncy castle with Slide combination is a perfect choice for all your indoor and outdoor events and special occasions."
    ],
@@ -12012,8 +11972,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone",
@@ -12033,7 +11993,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
      "The Diggers Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon diggers artwork which is finished in a modern gloss.",
      "Ideal for all your indoor and outdoor events and special occasions."
@@ -12097,8 +12057,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -12119,7 +12079,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you. #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
+     "funrides your local bouncy castle hire near you. #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
      "The Diggers Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon diggers artwork which is finished in a modern gloss.",
      "Ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with slides, ball pools, soft play, and matching mat setup to make an incredible package."
@@ -12183,8 +12143,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -12198,7 +12158,7 @@ export const products = [
 ,
 {
  "title": "Diggers Bouncy Castle - Pink & Purple",
- "url": "premium-inflatables/diggers-bouncy-castle-pink-and-purple.html#BodyContent",
+ "url": "funrides-inflatables/diggers-bouncy-castle-pink-and-purple.html#BodyContent",
  "subtitle": "Children's 9ft x 11.5ft",
  "image": {
    "alt": "Diggers Bouncy Castle - Pink & Purple",
@@ -12208,9 +12168,9 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+     "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
      "Our under 5's / Toddlers Diggers Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork finished in a modern gloss.",
-     "Ideal for all your indoor and outdoor events, this castle can be paired with matching toddlers slides, ball pools, soft play, and matching mat set up to make an incredible premium deluxe package."
+     "Ideal for all your indoor and outdoor events, this castle can be paired with matching toddlers slides, ball pools, soft play, and matching mat set up to make an incredible funrides deluxe package."
    ],
    "features": []
  },
@@ -12269,8 +12229,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", 
@@ -12291,7 +12251,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables, your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
+     "funrides, your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
      "The Diggers Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon diggers artwork."
    ],
@@ -12354,8 +12314,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract",
@@ -12365,7 +12325,7 @@ export const products = [
 ,
 {
  "title": "Diggers Bouncy Castle - Red & Blue",
- "url": "premium-inflatables/diggers-bouncy-castle-red-and-blue.html#BodyContent",
+ "url": "funrides-inflatables/diggers-bouncy-castle-red-and-blue.html#BodyContent",
  "subtitle": "Children's 9ft x 11.5ft",
  "image": {
    "alt": "Diggers Bouncy Castle - Red & Blue",
@@ -12375,7 +12335,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+     "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
      "Our under 5's / Toddlers Diggers Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork which is finished in a modern gloss.",
      "The Diggers Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions."
    ],
@@ -12436,8 +12396,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley",
@@ -12448,7 +12408,7 @@ export const products = [
 ,
 {
  "title": "Diggers Bouncy Castle with slide - Red & Blue",
- "url": "premium-inflatables/diggers-bouncy-castle-with-slide-red-and-blue.html#BodyContent",
+ "url": "funrides-inflatables/diggers-bouncy-castle-with-slide-red-and-blue.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
    "alt": "Diggers Bouncy Castle with slide - Red & Blue",
@@ -12463,7 +12423,7 @@ export const products = [
      "This castle can be easily paired with ball pools, soft play, matching mat setups and even bigger super slides to create an incredible package."
    ],
    "features": [
-     "New fully sanitised 2024 Premium Inflatables & accessories",
+     "New fully sanitised 2024 funrides & accessories",
      "Bouncy castle upgrade includes disco lights and a big Bluetooth speaker."
    ]
  },
@@ -12522,8 +12482,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", 
@@ -12543,9 +12503,9 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
+         "funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
          "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
-         "The Dinosaurs Themed Mega Soft Play Package is an amazing addition to any birthday party or event, boasting the classic cartoon dinosaurs artwork which is finished in a modern gloss to match the premium gloss finish on all our inflatables.",
+         "The Dinosaurs Themed Mega Soft Play Package is an amazing addition to any birthday party or event, boasting the classic cartoon dinosaurs artwork which is finished in a modern gloss to match the funrides gloss finish on all our inflatables.",
          "The Dinosaurs Themed bouncy castle 9x11ft is Ideal for all your indoor(only 8ft in height) and outdoor events and special occasions. This castle is paired with a ball pool, 18 pieces of soft play and 9 matching mat set up to make an incredible soft play package."
        ],
        "features": [
@@ -12591,8 +12551,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -12675,8 +12635,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", 
@@ -12697,7 +12657,7 @@ export const products = [
  "overnight_collection_price": "N/A", 
  "description": {
    "overview": [
-     "Premium Inflatables brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+     "funrides brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
      "The Dinosaurs Themed Mega Soft Play Package is an amazing addition to any birthday party or event, boasting the classic cartoon dinosaurs artwork.",
      "Ideal for all your indoor and outdoor events, this castle is paired with a ball pool, 17 pieces of soft play, and a 9 matching mat setup."
    ],
@@ -12760,8 +12720,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell",
@@ -12782,7 +12742,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "We have the perfect package for your older kids parties with our Dinosaur Mega Soft Play Package.",
      "This package includes a 12ft x 15ft Bouncy Castle, Premium Dinosaur soft play, and ball pool."
    ],
@@ -12845,8 +12805,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -12857,8 +12817,8 @@ export const products = [
 ,
 {
  "title": "Disco Dome 15ft x 20ft",
- "url": "premium-inflatables/disco-dome-15ft-x-20ft.html#BodyContent",
- "subtitle": "Premium Inflatable",
+ "url": "funrides-inflatables/disco-dome-15ft-x-20ft.html#BodyContent",
+ "subtitle": "funrides",
  "image": {
    "alt": "Disco Dome 15ft x 20ft",
    "url": "37a141207f65531b1ef1d60cc8ba704f" 
@@ -12867,14 +12827,14 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Welcome to Premium Inflatables-Your Premier Destination For Disco Dome Hire Leeds and Wakefield.",
+     "Welcome to funrides-Your Premier Destination For Disco Dome Hire Leeds and Wakefield.",
      "The Disco Dome bouncy castle comes with our Premium Entertainment Experience disco lights & BIG Bluetooth speaker as complimentary free of charge.",
      "A great addition to any party or event, boasting classic celebrations & dancers artwork.",
      "Ideal for all your indoor or outdoor events and entertainment."
    ],
    "features": [
-     "Safety and Hygiene are the Paramount Priority here at Premium Inflatables.",
-     "All our Premium inflatables come fully sanitised for every use."
+     "Safety and Hygiene are the Paramount Priority here at funrides.",
+     "All our funrides come fully sanitised for every use."
    ]
  },
  "size": {
@@ -12932,8 +12892,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell",
@@ -13015,8 +12975,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", 
@@ -13037,7 +12997,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables is your local bouncy castle hire near you, rated #1 on Google for Leeds and Wakefield.",
+     "funrides is your local bouncy castle hire near you, rated #1 on Google for Leeds and Wakefield.",
      "Our Dinosaurs Themed bouncy castle is an amazing addition to any birthday party or event, featuring classic cartoon artwork.",
      "Ideal for indoor and outdoor events, this castle can be paired with matching slides, ball pools, and soft play."
    ],
@@ -13080,8 +13040,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", 
@@ -13101,7 +13061,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
      "The Dinosaurs Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon dinosaurs artwork finished in a modern gloss.",
      "Ideal for all your indoor and outdoor events and special occasions."
@@ -13165,8 +13125,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -13190,7 +13150,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
      "The Dinosaurs Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon dinosaurs artwork finished in a modern gloss.",
      "Ideal for all your indoor and outdoor events and special occasions."
@@ -13254,8 +13214,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -13266,7 +13226,7 @@ export const products = [
 ,
 {
  "title": "Dinosaurs Bouncy Castle - Red & Blue",
- "url": "premium-inflatables/dinosaurs-bouncy-castle-red-and-blue.html#BodyContent",
+ "url": "funrides-inflatables/dinosaurs-bouncy-castle-red-and-blue.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
    "alt": "Dinosaurs Bouncy Castle - Red & Blue",
@@ -13338,8 +13298,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", 
@@ -13359,7 +13319,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you. #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
+     "funrides your local bouncy castle hire near you. #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
      "Our under 5's / Toddlers Dinosaurs Themed bouncy castle is a amazing addition to any birthday party or event."
    ],
@@ -13422,8 +13382,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley",
@@ -13507,8 +13467,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby", "surroundings"
@@ -13527,11 +13487,11 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables, your local bouncy castle hire near you.",
+     "funrides, your local bouncy castle hire near you.",
      "#1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
-     "Safety and Hygiene are the Paramount Priority here at Premium Inflatables!",
-     "All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
+     "Safety and Hygiene are the Paramount Priority here at funrides!",
+     "All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
    ],
    "features": [
      "Trained team to deliver and setup this inflatable at your chosen home or venue."
@@ -13593,8 +13553,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone",
@@ -13617,8 +13577,8 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hire company brings you one of our new purchases and additions to our outstanding premium 2024 fleet!!",
-     "The Dinosaurs Themed is an amazing addition to our Toddler Soft Play Bouncy Castles & Junior Slides packages perfect for any birthday party or event, boasting the classic cartoon dinosaurs artwork which is finished in a modern gloss to match the premium gloss finish on all our inflatables.",
+     "funrides your number #1 Google Review Rated bouncy castle hire company brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!!",
+     "The Dinosaurs Themed is an amazing addition to our Toddler Soft Play Bouncy Castles & Junior Slides packages perfect for any birthday party or event, boasting the classic cartoon dinosaurs artwork which is finished in a modern gloss to match the funrides gloss finish on all our inflatables.",
      "The Dinosaurs Themed bouncy castle 9x11ft is Ideal for all your indoor(only 8ft height) and outdoor events and special occasions. This castle is paired with a Juniors 5ft platform slide, matching ball pool, 18 pieces of soft play and 9 matching mat set up to make an incredible package."
    ],
    "features": [
@@ -13680,8 +13640,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -13699,12 +13659,12 @@ export const products = [
      "overnight_collection_price": "£50",
      "description": {
        "overview": [
-         "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer for Leeds and Wakefield.",
+         "funrides your number #1 Google Review Rated bouncy castle hirer for Leeds and Wakefield.",
          "The Football Mega Soft Play Package is an amazing addition to any birthday party or event if your boys are Footy Fans.",
          "This castle is paired with a foam ball pool, 17 pieces of soft play, and a matching 9 mat set up."
        ],
        "features": [
-         "Safety and Hygiene are the Paramount Priority here at Premium Inflatables."
+         "Safety and Hygiene are the Paramount Priority here at funrides."
        ]
      },
      "size": {
@@ -13762,8 +13722,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley",
@@ -13784,7 +13744,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "Our under 5's / Toddlers Football Themed bouncy castle is an amazing addition to any birthday party or event.",
      "Ideal for all indoor and outdoor events and special occasions."
    ],
@@ -13846,8 +13806,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse",
@@ -13931,8 +13891,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone",
@@ -13952,7 +13912,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+     "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
      "The Football Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon football artwork finished in a modern gloss.",
      "Ideal for all your indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
    ],
@@ -14015,8 +13975,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -14035,7 +13995,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "#1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
      "The Football Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon football artwork finished in a modern gloss.",
@@ -14100,8 +14060,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -14120,12 +14080,12 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+     "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
      "Our under 5's / Toddlers Football Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork finished in a modern gloss.",
-     "Ideal for all your indoor and outdoor events, this castle can be easily paired with matching toddlers slides, ball pools, soft play, and matching mat setup to create an incredible premium deluxe package."
+     "Ideal for all your indoor and outdoor events, this castle can be easily paired with matching toddlers slides, ball pools, soft play, and matching mat setup to create an incredible funrides deluxe package."
    ],
    "features": [
-     "All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
+     "All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
    ]
  },
  "size": {
@@ -14183,8 +14143,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract",
@@ -14209,7 +14169,7 @@ export const products = [
      "Ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with ball pools, soft play, matching mat set up and even bigger super slides to make an incredible package."
    ],
    "features": [
-     "New fully sanitised 2024 Premium Inflatables & accessories.",
+     "New fully sanitised 2024 funrides & accessories.",
      "Upgrade includes disco lights and a big Bluetooth speaker."
    ]
  },
@@ -14268,8 +14228,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -14290,12 +14250,12 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
-     "Safety and Hygiene are the Paramount Priority here at Premium Inflatables!"
+     "Safety and Hygiene are the Paramount Priority here at funrides!"
    ],
    "features": [
-     "All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
+     "All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
    ]
  },
  "size": {
@@ -14335,8 +14295,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", 
@@ -14421,8 +14381,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -14443,7 +14403,7 @@ export const products = [
  "overnight_collection_price": null,
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
      "Never to be mistaken with lesser lower services offering low quality older cheap bouncy castles for hire!!"
    ],
@@ -14504,8 +14464,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -14588,8 +14548,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -14600,7 +14560,7 @@ export const products = [
 ,
 // {
 //  "title": "Generator Fuel",
-//  "url": "premium-inflatables/generator-fuel.html#BodyContent",
+//  "url": "funrides-inflatables/generator-fuel.html#BodyContent",
 //  "subtitle": "Generator Hire",
 //  "image": {
 //    "alt": "Generator Fuel",
@@ -14609,7 +14569,7 @@ export const products = [
 //  "price": "£25",
 //  "description": {
 //    "overview": [
-//      "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer for Premium Inflatables Events & Entertainment Leeds, Wakefield and all of Yorkshire brings you choice of our new Generator purchases and additions to our outstanding premium 2024 fleet!!",
+//      "funrides your number #1 Google Review Rated bouncy castle hirer for funrides Events & Entertainment Leeds, Wakefield and all of Yorkshire brings you choice of our new Generator purchases and additions to our outstanding funrides 2024 fleet!!",
 //      "Extra hours run time of Fuel - ADD ON for Generator hire",
 //      "Call us today for more information regarding power for your event."
 //    ],
@@ -14654,8 +14614,8 @@ export const products = [
 //  },
 //  "contact_info": {
 //    "phone": "0113 460 1386",
-//    "email": "info@premiuminflatables.co.uk",
-//    "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+//    "email": "enquiries@funrides.co.uk",
+//    "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
 //  },
 //  "locations_available": [
 //    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -14674,7 +14634,7 @@ export const products = [
  "overnight_collection_price": "N/A",
  "description": {
    "overview": [
-     "Our new purchases and additions to our outstanding premium 2024 fleet!",
+     "Our new purchases and additions to our outstanding funrides 2024 fleet!",
      "Here is our New Giant Connect 4 Game its a 3-in-1 design of 4-in-a-row game for lots of fun.",
      "It's the classic connect 4 game just on a bigger scale it's a perfect addition for indoor and outdoor events, suitable for both adults and children."
    ],
@@ -14722,8 +14682,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -14744,8 +14704,8 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
-     "Have you been searching for the ultimate adrenaline rush events mega slide?!?!! Stop!!! Your search is over we've got you a new 2024 Pristine Premium Inflatable ready to keep even adults entertained!",
+     "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
+     "Have you been searching for the ultimate adrenaline rush events mega slide?!?!! Stop!!! Your search is over we've got you a new 2024 Pristine funrides ready to keep even adults entertained!",
      "Take your party or special event to the next level by upgrading from our ultimate events packages including assault courses and entertainment bouncy castles."
    ],
    "features": [
@@ -14807,8 +14767,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone",
@@ -14818,7 +14778,7 @@ export const products = [
 ,
 {
  "title": "Giant Inflatable Events Mega Slide - Red & Blue",
- "url": "premium-inflatables/giant-inflatable-events-mega-slide-red-and-blue.html#BodyContent",
+ "url": "funrides-inflatables/giant-inflatable-events-mega-slide-red-and-blue.html#BodyContent",
  "subtitle": "Children & Adults 16ft x 23ft",
  "image": {
    "alt": "Giant Inflatable Events Mega Slide - Red & Blue",
@@ -14833,7 +14793,7 @@ export const products = [
      "Ideal for all indoor and outdoor events, this slide can be paired with other inflatables to create an incredible package."
    ],
    "features": [
-     "New fully sanitised 2024 Premium Inflatables & accessories.",
+     "New fully sanitised 2024 funrides & accessories.",
      "Punctual collections and a friendly, dedicated team."
    ]
  },
@@ -14892,8 +14852,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -14904,7 +14864,7 @@ export const products = [
 ,
 {
  "title": "Giant Velcro Dartboard Game",
- "url": "premium-inflatables/giant-velcro-dartboard-game.html#BodyContent",
+ "url": "funrides-inflatables/giant-velcro-dartboard-game.html#BodyContent",
  "subtitle": "Inflatable Velcro 8ft Dart Board Throwing Game",
  "image": {
    "alt": "Giant Velcro Dartboard Game",
@@ -14918,7 +14878,7 @@ export const products = [
      "Perfect for all age groups from children's Birthday Parties to adults super fun competitions."
    ],
    "features": [
-     "New fully sanitised 2024 Premium Inflatables & accessories.",
+     "New fully sanitised 2024 funrides & accessories.",
      "Around the clock customer service team to answer all your calls and messages."
    ]
  },
@@ -14977,8 +14937,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley",
@@ -14989,7 +14949,7 @@ export const products = [
 ,
 {
  "title": "Girly Pink Bouncy Castle - Pink & Purple",
- "url": "premium-inflatables/girly-pink-bouncy-castle.html#BodyContent",
+ "url": "funrides-inflatables/girly-pink-bouncy-castle.html#BodyContent",
  "subtitle": "Children's 9ft x 11.5ft",
  "image": {
    "alt": "Girly Pink Bouncy Castle - Pink & Purple",
@@ -14999,7 +14959,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
+     "funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
      "Our under 5's / Toddlers Plain No Theme bouncy castle is an amazing addition to any birthday party or event."
    ],
@@ -15062,8 +15022,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",  
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract",
@@ -15083,12 +15043,12 @@ export const products = [
  "overnight_collection_price": "N/A",
  "description": {
    "overview": [
-     "Welcome to The Ultimate Premium Inflatable showdown with our Gladiator Duel Rock N' Roller!",
-     "Elevate your events to extraordinary heights with our premium inflatables, designed for corporate events, team building, and family fun days.",
+     "Welcome to The Ultimate funrides showdown with our Gladiator Duel Rock N' Roller!",
+     "Elevate your events to extraordinary heights with our funrides, designed for corporate events, team building, and family fun days.",
      "Dive into a world of excitement with our Gladiator Duel Rock N' Roller."
    ],
    "features": [
-     "New fully sanitised 2024 Premium Inflatables & accessories.",
+     "New fully sanitised 2024 funrides & accessories.",
      "Punctual collections.",
      "Around the clock customer service team."
    ]
@@ -15148,8 +15108,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -15160,7 +15120,7 @@ export const products = [
 ,
 {
  "title": "Happy Birthday Bounce N' Slide Soft Play Package - Pink / Purple",
- "url": "premium-inflatables/happy-birthday-bounce-n-slide-soft-play-package-pink-purple.html#BodyContent",
+ "url": "funrides-inflatables/happy-birthday-bounce-n-slide-soft-play-package-pink-purple.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
    "alt": "Happy Birthday Bounce N' Slide Soft Play Package - Pink / Purple",
@@ -15214,8 +15174,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", 
@@ -15227,7 +15187,7 @@ export const products = [
 ,
 {
  "title": "Happy Birthday Bounce N' Slide Soft Play Package - Red / Blue",
- "url": "premium-inflatables/happy-birthday-bounce-n-slide-soft-play-package-red-blue.html#BodyContent",
+ "url": "funrides-inflatables/happy-birthday-bounce-n-slide-soft-play-package-red-blue.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
    "alt": "Happy Birthday Bounce N' Slide Soft Play Package - Red / Blue",
@@ -15237,7 +15197,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+     "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
      "The Happy Birthday Themed Mega Soft Play Package is an amazing setup! It will keep all your guests entertained throughout the day! Its Red and Blue colors are a fabulous addition to your birthday celebrations.",
      "The Happy Birthday Themed bouncy castle with Slide 12x16ft is perfect for all your indoor and outdoor events and special occasions."
    ],
@@ -15300,8 +15260,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -15310,7 +15270,7 @@ export const products = [
 ,
 {
  "title": "Happy Birthday Bouncy Castle - Green & Light Blue",
- "url": "premium-inflatables/happy-birthday-bouncy-castle-green-and-light-blue.html#BodyContent",
+ "url": "funrides-inflatables/happy-birthday-bouncy-castle-green-and-light-blue.html#BodyContent",
  "subtitle": "Children's 9ft x 11.5ft",
  "image": {
    "alt": "Happy Birthday Bouncy Castle - Green & Light Blue",
@@ -15362,8 +15322,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract",
@@ -15445,8 +15405,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone",
@@ -15456,7 +15416,7 @@ export const products = [
 ,
 {
  "title": "Happy Birthday Bouncy Castle - Pink & Purple",
- "url": "premium-inflatables/48/happy-birthday-bouncy-castle-pink-and-purple.html#BodyContent",
+ "url": "funrides-inflatables/48/happy-birthday-bouncy-castle-pink-and-purple.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
    "alt": "Happy Birthday Bouncy Castle - Pink & Purple",
@@ -15466,7 +15426,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "The Happy Birthday Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon happy birthday artwork finished in a modern gloss.",
      "Ideal for all your indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
    ],
@@ -15529,8 +15489,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell",
@@ -15552,7 +15512,7 @@ export const products = [
  "overnight_collection_price": "N/A",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+     "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
      "Our under 5's / Toddlers Happy Birthday Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork which is finished in a modern gloss.",
      "The Happy Birthday Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions."
    ],
@@ -15615,8 +15575,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -15637,7 +15597,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
      "The Happy Birthday Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon happy birthday artwork which is finished in a modern gloss.",
      "Ideal for all your indoor and outdoor events and special occasions."
@@ -15701,8 +15661,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -15726,7 +15686,7 @@ export const products = [
  "overnight_collection_price": "N/A",
  "description": {
    "overview": [
-     "Premium Inflatables, your local bouncy castle hire near you.",
+     "funrides, your local bouncy castle hire near you.",
      "Number 1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
      "Ideal for all your indoor and outdoor events and special occasions."
    ],
@@ -15790,8 +15750,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract",
@@ -15816,7 +15776,7 @@ export const products = [
      "We understand as parents it can be stressful organizing your children's special day."
    ],
    "features": [
-     "New fully sanitised 2024 Premium Inflatables & accessories.",
+     "New fully sanitised 2024 funrides & accessories.",
      "Punctual collections and a friendly RPii trained team."
    ]
  },
@@ -15875,8 +15835,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -15887,7 +15847,7 @@ export const products = [
 ,
 {
  "title": "Happy Birthday Bouncy Castle with slide - Red & Blue",
- "url": "premium-inflatables/happy-birthday-bouncy-castle-with-slide-red-and-blue.html#BodyContent",
+ "url": "funrides-inflatables/happy-birthday-bouncy-castle-with-slide-red-and-blue.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
    "alt": "Happy Birthday Bouncy Castle with slide - Red & Blue",
@@ -15898,11 +15858,11 @@ export const products = [
  "description": {
    "overview": [
      "100% Five-Star Reviews Delivering on All Promises",
-     "At Premium Inflatables, our commitment to excellence is reflected in our 100% five-star rating on Google.",
+     "At funrides, our commitment to excellence is reflected in our 100% five-star rating on Google.",
      "The Happy Birthday Themed bouncy castle with slide is an amazing addition to any birthday party or event."
    ],
    "features": [
-     "New fully sanitised 2024 Premium Inflatables & accessories",
+     "New fully sanitised 2024 funrides & accessories",
      "Ideal for all indoor and outdoor events",
      "Can be paired with ball pools, soft play, and slides"
    ]
@@ -15962,8 +15922,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -16024,8 +15984,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "your-phone-number-here", 
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": []
 }
@@ -16093,7 +16053,7 @@ export const products = [
 ,
 {
  "title": "Inflatable Bouncy Slide - Multicoloured",
- "url": "premium-inflatables/inflatables/1/inflatable-bouncy-slide-multicoloured.html#BodyContent",
+ "url": "funrides-inflatables/inflatables/1/inflatable-bouncy-slide-multicoloured.html#BodyContent",
  "subtitle": "Children's 12ft x 18ft",
  "image": {
    "alt": "Inflatable Bouncy Slide - Multicoloured",
@@ -16103,9 +16063,9 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+     "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
      "The Super Slide is an amazing addition to any birthday party or event, keeping all the children entertained with its adrenaline-filled drop.",
-     "Our multicoloured bouncy slide is finished in a modern gloss to match the premium gloss finish on all our inflatables."
+     "Our multicoloured bouncy slide is finished in a modern gloss to match the funrides gloss finish on all our inflatables."
    ],
    "features": [
      "Ideal for all your indoor and outdoor events and special occasions."
@@ -16166,8 +16126,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -16188,15 +16148,15 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Welcome to Premium Inflatables, your number #1 review rated inflatable slide hire company in Leeds and Wakefield.",
-     "Together let's create The Best Birthday Party of 2024 with our New premium model bouncy slide.",
+     "Welcome to funrides, your number #1 review rated inflatable slide hire company in Leeds and Wakefield.",
+     "Together let's create The Best Birthday Party of 2024 with our New funrides model bouncy slide.",
      "The Super Slide is an amazing addition to any birthday party or event, keeping all the children entertained with its adrenaline filled drop."
    ],
    "features": [
-     "New 2024 model premium inflatables",
+     "New 2024 model funrides",
      "100% turn up rate! Always punctual & never late for an event hire",
      "Fully trained staff for a safe & fun day for you, your children, friends & family",
-     "Fully Sanitised Premium Inflatables for every use including accessories"
+     "Fully Sanitised funrides for every use including accessories"
    ]
  },
  "size": {
@@ -16253,8 +16213,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley",
@@ -16275,14 +16235,14 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Welcome to Premium Inflatables, your number #1 review rated inflatable slide hire company in Leeds and Wakefield. Together let's create The Best Birthday Party of 2024 with our New premium model bouncy slide.",
+     "Welcome to funrides, your number #1 review rated inflatable slide hire company in Leeds and Wakefield. Together let's create The Best Birthday Party of 2024 with our New funrides model bouncy slide.",
      "The Super Slide is an amazing addition to any birthday party or event, keeping all the children entertained with its adrenaline-filled drop.",
-     "Our bouncy slide is finished in a modern gloss to match the premium gloss finish on all our inflatables."
+     "Our bouncy slide is finished in a modern gloss to match the funrides gloss finish on all our inflatables."
    ],
    "features": [
      "100% turn up rate! Always punctual & never late for an event hire.",
      "Fully trained staff for a safe & fun day for you, your children, friends & family.",
-     "Fully Sanitised Premium Inflatables for every use including accessories."
+     "Fully Sanitised funrides for every use including accessories."
    ]
  },
  "size": {
@@ -16340,8 +16300,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -16362,7 +16322,7 @@ export const products = [
  "overnight_collection_price": "N/A", 
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
      "All the toddlers will love this Jungle inflatable air juggler ball pool."
    ],
@@ -16424,8 +16384,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -16510,8 +16470,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell",
@@ -16522,7 +16482,7 @@ export const products = [
 ,
 {
  "title": "Jungle Bouncy Castle - Green & Light Blue",
- "url": "premium-inflatables/jungle-bouncy-castle-green-and-light-blue.html#BodyContent",
+ "url": "funrides-inflatables/jungle-bouncy-castle-green-and-light-blue.html#BodyContent",
  "subtitle": "Children's 9ft x 11.5ft",
  "image": {
    "alt": "Jungle Bouncy Castle - Green & Light Blue",
@@ -16594,8 +16554,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -16614,7 +16574,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you. #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
+     "funrides your local bouncy castle hire near you. #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
      "The Jungle Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon jungle artwork finished in a modern gloss.",
      "Ideal for all your indoor and outdoor events and special occasions."
@@ -16678,8 +16638,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -16700,7 +16660,7 @@ export const products = [
    "overview": [
      "The Jungle Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon jungle artwork which is finished in a modern gloss.",
      "Ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with slides, ball pools, soft play, and matching mat setups to make an incredible package.",
-     "Safety and Hygiene are the Paramount Priority here at Premium Inflatables!"
+     "Safety and Hygiene are the Paramount Priority here at funrides!"
    ],
    "features": [
      "Upgrade includes disco lights and a big Bluetooth speaker."
@@ -16761,8 +16721,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -16783,7 +16743,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+     "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
      "Our under 5's / Toddlers Jungle Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork finished in a modern gloss.",
      "The Jungle Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions."
    ],
@@ -16844,8 +16804,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell",
@@ -16929,8 +16889,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell",
@@ -16941,7 +16901,7 @@ export const products = [
 ,
 {
  "title": "Jungle Bouncy Castle - Red & Blue",
- "url": "premium-inflatables/jungle-bouncy-castle-red-and-blue.html#BodyContent",
+ "url": "funrides-inflatables/jungle-bouncy-castle-red-and-blue.html#BodyContent",
  "subtitle": "Children's 9ft x 11.5ft",
  "image": {
    "alt": "Jungle Bouncy Castle - Red & Blue",
@@ -16951,7 +16911,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
      "Our under 5's / Toddlers Jungle Themed bouncy castle is an amazing addition to any birthday party or event."
    ],
@@ -17014,8 +16974,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell",
@@ -17026,7 +16986,7 @@ export const products = [
 ,
 {
  "title": "Jungle Bouncy Castle with slide - Pink & Purple",
- "url": "premium-inflatables/your-url-here",
+ "url": "funrides-inflatables/your-url-here",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
    "alt": "Jungle Bouncy Castle with slide - Pink & Purple",
@@ -17036,7 +16996,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+     "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
      "The Jungle Themed bouncy castle with slide is an amazing addition to any birthday party or event, boasting the classic cartoon jungle artwork finished in a modern gloss.",
      "Ideal for all indoor and outdoor events, this castle can be paired with ball pools, soft play, matching mat setup and even bigger super slides to create an incredible package."
    ],
@@ -17099,8 +17059,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -17114,7 +17074,7 @@ export const products = [
 ,
 {
  "title": "Jungle Bouncy Castle with slide - Red & Blue",
- "url": "premium-inflatables/48/jungle-bouncy-castle-with-slide-red-and-blue.html#BodyContent",
+ "url": "funrides-inflatables/48/jungle-bouncy-castle-with-slide-red-and-blue.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
    "alt": "Jungle Bouncy Castle with slide - Red & Blue",
@@ -17187,8 +17147,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", 
@@ -17208,9 +17168,9 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
+     "funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
-     "The Dinosaurs Themed Mega Soft Play Package is an amazing addition to any birthday party or event, boasting the classic cartoon dinosaurs artwork which is finished in a modern gloss to match the premium gloss finish on all our inflatables.",
+     "The Dinosaurs Themed Mega Soft Play Package is an amazing addition to any birthday party or event, boasting the classic cartoon dinosaurs artwork which is finished in a modern gloss to match the funrides gloss finish on all our inflatables.",
      "The Dinosaurs Themed bouncy castle 9x11ft is Ideal for all your indoor(only 8ft in height) and outdoor events and special occasions. This castle is paired with a ball pool, 18 pieces of soft play and 9 matching mat set up to make an incredible soft play package."
    ],
    "features": [
@@ -17256,8 +17216,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -17277,7 +17237,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle company brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+     "funrides your number #1 Google Review Rated bouncy castle company brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
      "The Jungle Super size package includes our amazing Bouncy Castle, Juniors 5ft Platform Slide, Soft Play + Mega Mat setup, and Matching Foam Ball Pool.",
      "Ideal for all under 5's, Toddlers Birthday parties or events, boasting classic cartoon jungle artwork finished in a modern gloss."
    ],
@@ -17341,8 +17301,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -17363,7 +17323,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer for Leeds and Wakefield.",
+     "funrides your number #1 Google Review Rated bouncy castle hirer for Leeds and Wakefield.",
      "The Jungle themed Mega Soft Play Under 5's Package is an amazing addition to any birthday party or event.",
      "This bouncy castle is paired with a matching gloss luxury low height foam ball pool perfect for handling toddlers."
    ],
@@ -17425,8 +17385,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -17447,7 +17407,7 @@ export const products = [
  "overnight_collection_price": null,
  "description": {
    "overview": [
-     "Premium Inflatables, your local bouncy castle hire near you.",
+     "funrides, your local bouncy castle hire near you.",
      "Delivering a choice of the UK's latest and most on-trend new purchases and additions to our outstanding Premium 2024 Fleet!",
      "Never to be mistaken with lesser services offering low quality older cheap bouncy castles for hire!"
    ],
@@ -17509,8 +17469,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", 
@@ -17531,7 +17491,7 @@ export const products = [
  "overnight_collection_price": null,
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "#1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
      "Never to be mistaken with lesser lower services offering low quality older cheap bouncy castles for hire!!",
@@ -17594,8 +17554,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract",
@@ -17615,7 +17575,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
      "Our under 5's / Toddlers Plain No Theme bouncy castle is an amazing addition to any birthday party or event."
    ],
@@ -17678,8 +17638,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", 
@@ -17690,7 +17650,7 @@ export const products = [
 ,
 {
  "title": "Juniors Bouncy Castle + Soft Play + Super Slide",
- "url": "premium-inflatables/juniors-bouncy-castle-soft-play-super-slide.html#BodyContent",
+ "url": "funrides-inflatables/juniors-bouncy-castle-soft-play-super-slide.html#BodyContent",
  "subtitle": "Children's 9ft x 11.5ft",
  "image": {
    "alt": "Juniors Bouncy Castle + Soft Play + Super Slide",
@@ -17742,8 +17702,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Moortown", "Adel", "Shadwell", "Tingley", "Morley", "Gildersome", "Birstall",
@@ -17757,7 +17717,7 @@ export const products = [
 ,
 {
  "title": "Juniors Inflatable Bouncy Slide - Green & Light Blue",
- "url": "premium-inflatables/juniors-inflatable-bouncy-slide-green-light-blue.html#BodyContent",
+ "url": "funrides-inflatables/juniors-inflatable-bouncy-slide-green-light-blue.html#BodyContent",
  "subtitle": "Children's 12ft x 12ft",
 "image": {
            "alt": "Juniors Inflatable Bouncy Slide - Green & Light Blue",
@@ -17768,7 +17728,7 @@ export const products = [
  "description": {
    "overview": [
      "The under 5’s / Toddlers Green and Light Blue 5ft Platform slide is a great addition to any party or event.",
-     "Our bouncy inflatable slide is finished in a modern gloss to match the premium gloss finish on all our inflatables.",
+     "Our bouncy inflatable slide is finished in a modern gloss to match the funrides gloss finish on all our inflatables.",
      "Ideal for all your indoor or outdoor events and entertainment."
    ],
    "features": []
@@ -17828,8 +17788,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", 
@@ -17851,7 +17811,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "Number 1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
      "The under 5’s / Toddlers Red and Blue 5ft Platform slide is a great addition to any party or event."
    ],
@@ -17914,8 +17874,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -17941,7 +17901,7 @@ export const products = [
      "This package can be easily upgraded and paired with ball pools, soft play, and matching mat setup to make an incredible package."
    ],
    "features": [
-     "Safety and Hygiene are the Paramount Priority here at Premium Inflatables! All our inflatables come fully sanitised for every use."
+     "Safety and Hygiene are the Paramount Priority here at funrides! All our inflatables come fully sanitised for every use."
    ]
  },
  "size": {
@@ -17999,8 +17959,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", 
@@ -18022,11 +17982,11 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "#1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
-     "Safety and Hygiene are the Paramount Priority here at Premium Inflatables!!",
-     "All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
+     "Safety and Hygiene are the Paramount Priority here at funrides!!",
+     "All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
    ],
    "features": []
  },
@@ -18085,8 +18045,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley",
@@ -18172,8 +18132,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley",
@@ -18184,7 +18144,7 @@ export const products = [
 ,    
 {
  "title": "Mermaids Bounce N' Slide Soft Play Package - Pink / Purple",
- "url": "premium-inflatables/mermaids-bounce-n-slide-soft-play-package-pink-purple.html#BodyContent",
+ "url": "funrides-inflatables/mermaids-bounce-n-slide-soft-play-package-pink-purple.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
    "alt": "Mermaids Bounce N' Slide Soft Play Package - Pink / Purple",
@@ -18194,7 +18154,7 @@ export const products = [
  "overnight_collection_price": null,
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases.",
+     "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases.",
      "The Mermaids Mega Soft Play Package is an amazing addition to any birthday party or event.",
      "The Mermaids Themed bouncy castle with Slide combination is perfect for all your indoor and outdoor events."
    ],
@@ -18257,8 +18217,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell",
@@ -18270,7 +18230,7 @@ export const products = [
 ,
 {
  "title": "Mermaids Bouncy Castle - Pink & Purple",
- "url": "premium-inflatables/mermaids-bouncy-castle-pink-and-purple.html#BodyContent",
+ "url": "funrides-inflatables/mermaids-bouncy-castle-pink-and-purple.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
    "alt": "Mermaids Bouncy Castle - Pink & Purple",
@@ -18280,7 +18240,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
      "The Mermaids Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon mermaids artwork finished in a modern gloss.",
      "Ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
@@ -18344,8 +18304,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract",
@@ -18365,14 +18325,14 @@ export const products = [
  "overnight_collection_price": "N/A",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
+     "funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
      "Our under 5's / Toddlers Mermaids Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork finished in a modern gloss.",
      "The Mermaids Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions."
    ],
    "features": [
-     "Safety and Hygiene are the Paramount Priority here at Premium Inflatables!",
-     "All our Premium Inflatables come fully sanitised for every use."
+     "Safety and Hygiene are the Paramount Priority here at funrides!",
+     "All our funrides come fully sanitised for every use."
    ]
  },
  "size": {
@@ -18430,8 +18390,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract",
@@ -18456,7 +18416,7 @@ export const products = [
      "This castle can be easily paired with ball pools, soft play, and matching mat setups to make an incredible package."
    ],
    "features": [
-     "New fully sanitised 2024 Premium Inflatables & accessories.",
+     "New fully sanitised 2024 funrides & accessories.",
      "Upgrade to include disco lights & big Bluetooth speaker."
    ]
  },
@@ -18515,8 +18475,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley",
@@ -18600,8 +18560,8 @@ export const products = [
      },
      "contact_info": {
        "phone": "0113 460 1386",
-       "email": "info@premiuminflatables.co.uk",
-       "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+       "email": "enquiries@funrides.co.uk",
+       "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
      },
      "locations_available": [
        "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell",
@@ -18622,9 +18582,9 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
+     "funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
-     "The Party Time Themed bouncy castle and inflatable ball pool is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork which is finished in a modern gloss to match the premium gloss finish on all our inflatables.",
+     "The Party Time Themed bouncy castle and inflatable ball pool is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork which is finished in a modern gloss to match the funrides gloss finish on all our inflatables.",
      "Ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with slides, soft play and matching mat set up to make an incredible package."
    ],
    "features": [
@@ -18686,8 +18646,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract",
@@ -18699,7 +18659,7 @@ export const products = [
 ,
 {
  "title": "Party Time Bouncy Castle Printed - Red & Blue",
- "url": "premium-inflatables/party-time-bouncy-castle-printed-red-and-blue.html#BodyContent",
+ "url": "funrides-inflatables/party-time-bouncy-castle-printed-red-and-blue.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
    "alt": "Party Time Bouncy Castle Printed - Red & Blue",
@@ -18710,7 +18670,7 @@ export const products = [
  "description": {
    "overview": [
      "The Party Time Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork.",
-     "Finished in a modern gloss to match the premium gloss finish on all our inflatables.",
+     "Finished in a modern gloss to match the funrides gloss finish on all our inflatables.",
      "Ideal for all your indoor and outdoor events and special occasions."
    ],
    "features": [
@@ -18772,8 +18732,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell",
@@ -18856,8 +18816,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", 
@@ -18877,10 +18837,10 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "#1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet.",
-     "Safety and Hygiene are the Paramount Priority here at Premium Inflatables. All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
+     "Safety and Hygiene are the Paramount Priority here at funrides. All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
    ],
    "features": [
      "Includes next morning collection service."
@@ -18941,8 +18901,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -18961,13 +18921,13 @@ export const products = [
  "overnight_collection_price": "N/A",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you. #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
+     "funrides your local bouncy castle hire near you. #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
      "The Party Time Themed bouncy castle paired with matching pink & purple slide is an amazing addition to any children's birthday party or event."
    ],
    "features": [
-     "Safety and Hygiene are the Paramount Priority here at Premium Inflatables!",
-     "All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
+     "Safety and Hygiene are the Paramount Priority here at funrides!",
+     "All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
    ]
  },
  "size": {
@@ -19025,8 +18985,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -19109,8 +19069,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -19131,7 +19091,7 @@ export const products = [
  "overnight_collection_price": "N/A",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer for Leeds and Wakefield brings you choice of our new purchases and additions to our outstanding premium 2024 fleet!",
+     "funrides your number #1 Google Review Rated bouncy castle hirer for Leeds and Wakefield brings you choice of our new purchases and additions to our outstanding funrides 2024 fleet!",
      "The Party Time Themed bouncy castle with Slide is perfect for all your indoor and outdoor events and special occasions.",
      "This castle is paired with a foam ball pool, 17 pieces of soft play and matching 9 Mega mat set up to make an incredible package."
    ],
@@ -19192,8 +19152,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -19212,7 +19172,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+     "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
      "The Party Time Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork which is finished in a modern gloss.",
      "Ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with slides, ball pools, soft play, and matching mat set up to make an incredible package."
    ],
@@ -19275,8 +19235,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Moortown", "Adel", "Shadwell", "Tingley", "Morley", "Gildersome", "Birstall",
@@ -19300,7 +19260,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables, your local bouncy castle hire near you. #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
+     "funrides, your local bouncy castle hire near you. #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
      "Our under 5's / Toddlers Party Time Themed bouncy castle is an amazing addition to any birthday party or event, boasting classic cartoon party time artwork."
    ],
@@ -19363,8 +19323,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley",
@@ -19375,7 +19335,7 @@ export const products = [
 ,
 {
  "title": "Party Time Pink Bouncy Castle Hire - Pink & Purple",
- "url": "premium-inflatables/party-time-pink-bouncy-castle.html#BodyContent",
+ "url": "funrides-inflatables/party-time-pink-bouncy-castle.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
    "alt": "Party Time Pink Bouncy Castle Hire - Pink & Purple",
@@ -19447,8 +19407,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -19459,7 +19419,7 @@ export const products = [
 ,
 {
  "title": "Party Time Pink Bouncy Castle Printed - Pink & Purple",
- "url": "premium-inflatables/party-time-pink-bouncy-castle.html#BodyContent",
+ "url": "funrides-inflatables/party-time-pink-bouncy-castle.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
    "alt": "Party Time Pink Bouncy Castle Printed - Pink & Purple",
@@ -19530,8 +19490,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone",
@@ -19541,7 +19501,7 @@ export const products = [
 ,
 {
  "title": "Party Time Pink Bouncy Castle with slide - Pink & Purple",
- "url": "premium-inflatables/party-time-pink-bouncy-castle-with-slide-pink-and-purple.html#BodyContent",
+ "url": "funrides-inflatables/party-time-pink-bouncy-castle-with-slide-pink-and-purple.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
    "alt": "Party Time Pink Bouncy Castle with slide - Pink & Purple",
@@ -19556,7 +19516,7 @@ export const products = [
      "Ideal for all indoor and outdoor events and special occasions."
    ],
    "features": [
-     "New fully sanitised 2024 Premium Inflatables & accessories.",
+     "New fully sanitised 2024 funrides & accessories.",
      "Disco lights & big Bluetooth speaker upgrade available."
    ]
  },
@@ -19615,8 +19575,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", 
@@ -19636,7 +19596,7 @@ export const products = [
  "overnight_collection_price": null,
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!!",
+     "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!!",
      "Celebrate in style with our Super Size Party Time Themed Package in Pink/Purple colours perfect for the girly girls out there ! This will definitely keep them entertained throughout their party.",
      "The Party Time Themed bouncy castle 9x11ft is Ideal for all your indoor and outdoor events and special occasions. This castle is paired with a Mini platform slide, ball pool, 17 pieces of soft play and 9 matching mat set up to make an incredible package."
    ],
@@ -19685,8 +19645,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -19706,13 +19666,13 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
      "The Party Time Themed Mega Soft Play Package is an amazing addition to any birthday party or event, boasting the classic cartoon Party Time artwork finished in a modern gloss.",
      "This castle is paired with a foam ball pool, 17 pieces of soft play and matching 9 Mega mat set up to make an incredible package."
    ],
    "features": [
-     "Safety and Hygiene are the Paramount Priority here at Premium Inflatables! All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
+     "Safety and Hygiene are the Paramount Priority here at funrides! All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
    ]
  },
  "size": {
@@ -19770,8 +19730,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -19793,11 +19753,11 @@ export const products = [
  "description": {
    "overview": [
      "Our under 5's / Toddlers Party Time Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon artwork finished in a modern gloss.",
-     "Ideal for all your indoor and outdoor events, this castle can be paired with matching toddlers slides, ball pools, soft play, and matching mat setups to create an incredible premium deluxe package."
+     "Ideal for all your indoor and outdoor events, this castle can be paired with matching toddlers slides, ball pools, soft play, and matching mat setups to create an incredible funrides deluxe package."
    ],
    "features": [
-     "Safety and Hygiene are the Paramount Priority here at Premium Inflatables.",
-     "All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
+     "Safety and Hygiene are the Paramount Priority here at funrides.",
+     "All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
    ]
  },
  "size": {
@@ -19854,8 +19814,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -19864,7 +19824,7 @@ export const products = [
 ,
 {
  "title": "Party Time Red Blue Bouncy Castle - Pink & Purple",
- "url": "premium-castles/party-time-red-blue-bouncy-castle-pink-purple.html#BodyContent",
+ "url": "funrides-castles/party-time-red-blue-bouncy-castle-pink-purple.html#BodyContent",
  "subtitle": "Children's 9ft x 11.5ft",
 "image": {
            "alt": "Party Time Red Blue Bouncy Castle - Pink & Purple",
@@ -19874,7 +19834,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+     "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
      "Our under 5's / Toddlers Party Time Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon artwork which is finished in a modern gloss.",
      "The Party Time Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions."
    ],
@@ -19935,8 +19895,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -19957,7 +19917,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you. #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
+     "funrides your local bouncy castle hire near you. #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
      "The Party Time Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork which is finished in a modern gloss.",
      "Ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with slides, ball pools, soft play and matching mat set up to make an incredible package."
@@ -20021,8 +19981,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -20041,9 +20001,9 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
      "overview": [
-         "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+         "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
          "Our under 5's / Toddlers Party Time Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon artwork finished in a modern gloss.",
-         "Ideal for all your indoor and outdoor events, this castle can be paired with matching toddlers slides, ball pools, soft play, and matching mat setup to create an incredible premium deluxe package."
+         "Ideal for all your indoor and outdoor events, this castle can be paired with matching toddlers slides, ball pools, soft play, and matching mat setup to create an incredible funrides deluxe package."
      ],
      "features": [
          "Have our trained team deliver and setup this inflatable at your home or chosen venue."
@@ -20104,8 +20064,8 @@ export const products = [
  },
  "contact_info": {
      "phone": "0113 460 1386",
-     "email": "info@premiuminflatables.co.uk",
-     "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+     "email": "enquiries@funrides.co.uk",
+     "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
      "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby", "surroundings."
@@ -20124,7 +20084,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+     "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
      "The Party Time Themed bouncy castle with slide is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork finished in a modern gloss.",
      "Ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with ball pools, soft play, and matching mat setup."
    ],
@@ -20187,8 +20147,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -20272,8 +20232,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", 
@@ -20289,7 +20249,7 @@ export const products = [
 ,
 {
  "title": "Party Time Red Blue Themed Bouncy Castle - Green / Light Blue",
- "url": "premium-inflatables/party-time-red-blue-themed-bouncy-castle.html#BodyContent",
+ "url": "funrides-inflatables/party-time-red-blue-themed-bouncy-castle.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
 "image": {
            "alt": "Party Time Red Blue Themed Bouncy Castle - Green / Light Blue",
@@ -20299,7 +20259,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables is your local bouncy castle hire near you.",
+     "funrides is your local bouncy castle hire near you.",
      "We offer a choice of UK's latest and most on-trend new purchases.",
      "Safety and Hygiene are our paramount priority. All our inflatables come fully sanitised for every use."
    ],
@@ -20361,8 +20321,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Moortown", "Adel", "Shadwell", "Tingley", "Morley", "Gildersome", "Birstall",
@@ -20390,7 +20350,7 @@ export const products = [
      "Assorted 16 pieces of different shapes and sizes soft play so your toddlers can roll, play and enjoy in the safe environment we have developed for them.",
      "Why not add our package of Didi Cars and Hoppers to your party, they are Safe, Fun and easy to use the kids can just hop on and start wiggling! They are versatile as can be used inside and outside perfect addition to any event.",
      "Have our trained team deliver and setup this inflatable at your home or chosen venue.",
-     "Premium Inflatables now available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
+     "funrides now available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
    ],
    "features": []
  },
@@ -20431,8 +20391,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract",
@@ -20452,14 +20412,14 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "#1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
      "Never to be mistaken with lesser lower services offering low quality older cheap bouncy castles for hire!"
    ],
    "features": [
-     "Safety and Hygiene are the Paramount Priority here at Premium Inflatables!",
-     "All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
+     "Safety and Hygiene are the Paramount Priority here at funrides!",
+     "All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
    ]
  },
  "size": {
@@ -20517,8 +20477,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", 
@@ -20539,8 +20499,8 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables offers you one of our new purchases and additions to our outstanding premium 2024 fleet!!",
-     "The Party Time Themed Super size package which includes our amazing Bouncy Castle, Mini Slide, Soft Play + Mega Mat set up and Matching Foam Ball Pool is the ultimate addition to any under 5's, Toddlers Birthday party or event, boasting the classic Party Time Celebrations artwork which is finished in a modern gloss to match the premium gloss finish on all our accessories and inflatables."
+     "funrides offers you one of our new purchases and additions to our outstanding funrides 2024 fleet!!",
+     "The Party Time Themed Super size package which includes our amazing Bouncy Castle, Mini Slide, Soft Play + Mega Mat set up and Matching Foam Ball Pool is the ultimate addition to any under 5's, Toddlers Birthday party or event, boasting the classic Party Time Celebrations artwork which is finished in a modern gloss to match the funrides gloss finish on all our accessories and inflatables."
    ],
    "features": [
      "9x11ft Party Time Bouncy Castle",
@@ -20587,8 +20547,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -20608,7 +20568,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
+     "funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
      "The Party Time Themed Mega Soft Play Under 5's Package is where your children and their friends can run, bounce and play.",
      "This Part Time Themed bouncy castle measurements 9ft x 11ft x 8ft (Width/Length/Height) is Ideal for all your local indoor low ceilings halls/venues and outdoor events and special occasions."
@@ -20617,7 +20577,7 @@ export const products = [
      "Paired with a matching gloss luxury low height foam ball pool",
      "Matching luxury gloss quality finish 18 pieces of soft play",
      "9x matching mega mat set up",
-     "All Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use"
+     "All funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use"
    ]
  },
  "size": {
@@ -20657,8 +20617,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -20678,8 +20638,8 @@ export const products = [
  "overnight_collection_price": null,
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer for Leeds and Wakefield brings you choice of our new purchases and additions to our outstanding premium 2024 fleet!!",
-     "The Party Time Themed Mega Soft Play Package is an amazing addition to any birthday party or event, boasting the classic cartoon Party Time artwork which is finished in a modern gloss to match the premium gloss finish on all our inflatables.",
+     "funrides your number #1 Google Review Rated bouncy castle hirer for Leeds and Wakefield brings you choice of our new purchases and additions to our outstanding funrides 2024 fleet!!",
+     "The Party Time Themed Mega Soft Play Package is an amazing addition to any birthday party or event, boasting the classic cartoon Party Time artwork which is finished in a modern gloss to match the funrides gloss finish on all our inflatables.",
      "The Party Time Themed bouncy castle is 9x11ft Ideal for all your indoor and outdoor events and special occasions Your little ones will be able to play the day away in this Superb Package"
    ],
    "features": [
@@ -20726,8 +20686,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -20747,7 +20707,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables offers your local bouncy castle hire.",
+     "funrides offers your local bouncy castle hire.",
      "We deliver a choice of the UK's latest and most on-trend new purchases.",
      "Our Red and Blue Party Time Mega Pack includes a Toddler Bouncy Castle and a foam ball pool for toddlers."
    ],
@@ -20810,8 +20770,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", 
@@ -20899,8 +20859,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Moortown", "Adel", "Shadwell", "Tingley", "Morley", "Gildersome", "Birstall",
@@ -20924,12 +20884,12 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
      "Our Red and Blue Party Time Mega Pack includes a highly demanded 12ft x 15ft bouncy castle and a foam ball pool, perfect for all indoor hires."
    ],
    "features": [
-     "Safety and Hygiene are the Paramount Priority here at Premium Inflatables! All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
+     "Safety and Hygiene are the Paramount Priority here at funrides! All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
    ]
  },
  "size": {
@@ -20987,8 +20947,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -21074,8 +21034,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", 
@@ -21086,7 +21046,7 @@ export const products = [
 ,
 {
  "title": "Peppa Pig Soft Play & Bouncy Castle Package",
- "url": "premium-inflatables/peppa-pig-soft-play-and-bouncy-castle-package.html#BodyContent",
+ "url": "funrides-inflatables/peppa-pig-soft-play-and-bouncy-castle-package.html#BodyContent",
  "subtitle": "Children's 12ft x 12ft",
  "image": {
    "alt": "Peppa Pig Soft Play & Bouncy Castle Package",
@@ -21098,10 +21058,10 @@ export const products = [
    "overview": [
      "The Official Licensed Peppa Pig Bouncy Castle has arrived come along and play with Peppa Pig and George meet all her friends!",
      "This will truly be the most entertaining party of the year!",
-     "Safety and Hygiene are the Paramount Priority here at Premium Inflatables!"
+     "Safety and Hygiene are the Paramount Priority here at funrides!"
    ],
    "features": [
-     "All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
+     "All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
    ]
  },
  "size": {
@@ -21159,8 +21119,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -21181,7 +21141,7 @@ export const products = [
 //  "overnight_collection_price": "",
 //  "description": {
 //    "overview": [
-//      "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer for Premium Inflatables Events & Entertainment Leeds, Wakefield and all of Yorkshire brings you choice of our new Generator purchases and additions to our outstanding premium 2024 fleet!!",
+//      "funrides your number #1 Google Review Rated bouncy castle hirer for funrides Events & Entertainment Leeds, Wakefield and all of Yorkshire brings you choice of our new Generator purchases and additions to our outstanding funrides 2024 fleet!!",
 //      "Call us today on 0113 460 1386 for more information regarding power for your event.",
 //      "Alternatively Text or WhatsApp our team for advice and assistance 0748 251 1995."
 //    ],
@@ -21215,8 +21175,8 @@ export const products = [
 //  },
 //  "contact_info": {
 //    "phone": "0113 460 1386",
-//    "email": "info@premiuminflatables.co.uk",
-//    "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+//    "email": "enquiries@funrides.co.uk",
+//    "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
 //  },
 //  "locations_available": [
 //    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -21225,7 +21185,7 @@ export const products = [
 ,
 {
  "title": "Pirates Bounce N' Slide Soft Play Package - Red / Blue",
- "url": "premium-castle-description.html#BodyContent",
+ "url": "funrides-castle-description.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
    "alt": "Pirates Bounce N' Slide Soft Play Package - Red / Blue",
@@ -21235,7 +21195,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+     "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
      "The Pirates Themed Mega Soft Play Package includes a 12x16ft Bouncy castle with Slide, foam ball pool and Matching soft play with a Mega Mat set up!",
      "This castle can be easily paired with slides, ball pools, soft play and matching mat set up to make an incredible package."
    ],
@@ -21298,8 +21258,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", 
@@ -21322,7 +21282,7 @@ export const products = [
    "overview": [
      "Ahoy there Matey! The Pirates Themed bouncy castle is an amazing addition to any birthday party or event, boasting classic cartoon pirates artwork finished in a modern gloss.",
      "Ideal for all indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package.",
-     "One of our new purchases and additions to our outstanding premium 2024 fleet!"
+     "One of our new purchases and additions to our outstanding funrides 2024 fleet!"
    ],
    "features": [
      "Bouncy castle upgrade includes disco lights and a big Bluetooth speaker."
@@ -21383,8 +21343,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -21393,7 +21353,7 @@ export const products = [
 ,
 {
  "title": "Pirates Bouncy Castle - Red & Blue",
- "url": "premium-inflatables/pirates-bouncy-castle-red-and-blue.html#BodyContent",
+ "url": "funrides-inflatables/pirates-bouncy-castle-red-and-blue.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
    "alt": "Pirates Bouncy Castle - Red & Blue",
@@ -21403,7 +21363,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
+     "funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
      "The Pirates Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork finished in a modern gloss.",
      "Ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with slides, ball pools, soft play and matching mat setup."
@@ -21467,8 +21427,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract",
@@ -21553,8 +21513,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley",
@@ -21575,7 +21535,7 @@ export const products = [
  "overnight_collection_price": "N/A",
  "description": {
    "overview": [
-     "One of our new purchases and additions to our outstanding premium 2024 fleet!!",
+     "One of our new purchases and additions to our outstanding funrides 2024 fleet!!",
      "The Pirates Themed Mega Soft Play Package includes a 12x15ft bouncy castle, foam ball pool, and Matching soft play with a Mega Mat set up!",
      "This is an amazing addition to any birthday party or event, boasting the classic cartoon pirates artwork finished in a modern gloss."
    ],
@@ -21638,8 +21598,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -21650,7 +21610,7 @@ export const products = [
 ,
 {
  "title": "Pirates Soft Play Bouncy Castle Package - Red / Blue",
- "url": "premium-castles/pirates-soft-play-bouncy-castle-package-red-blue.html#BodyContent",
+ "url": "funrides-castles/pirates-soft-play-bouncy-castle-package-red-blue.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
    "alt": "Pirates Soft Play Bouncy Castle Package - Red / Blue",
@@ -21660,13 +21620,13 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+     "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
      "We’ve carefully selected our Red and Blue Pirate Mega Pack, putting together our highly demanded 12x15ft bouncy castle which measures 10ft in height perfect fit for all your indoor hires.",
      "Coupled with the foam ball pool keeping the under 5’s & toddlers entertained, not forgetting our 16pc matching Pirate Soft Play set + matching Mega Mat set completing your Pirate Mega Package fit for your Pirate Birthday Party Celebrations."
    ],
    "features": [
-     "Safety and Hygiene are the Paramount Priority here at Premium Inflatables.",
-     "All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
+     "Safety and Hygiene are the Paramount Priority here at funrides.",
+     "All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
    ]
  },
  "size": {
@@ -21724,8 +21684,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -21746,12 +21706,12 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
-     "Upgrade now to your ultimate premium entertainment experience BIG Bluetooth speaker that easily pairs with your devices / mobile phones playing your favourite playlists from Spotify/Apple Music/Sound Cloud/You Tube & all your favourite platforms.",
+     "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
+     "Upgrade now to your ultimate funrides entertainment experience BIG Bluetooth speaker that easily pairs with your devices / mobile phones playing your favourite playlists from Spotify/Apple Music/Sound Cloud/You Tube & all your favourite platforms.",
      "Paired with our amazing Revolving Disco Lights bringing your inflatables to life when the sun goes down."
    ],
    "features": [
-     "All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
+     "All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
    ]
  },
  "size": {
@@ -21808,8 +21768,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", 
@@ -21819,7 +21779,7 @@ export const products = [
 ,
 {
  "title": "Premium Jungle Soft Play with Air Juggler Ball pool - Green / Light Blue",
- "url": "premium-jungle-soft-play-green-light-blue.html#BodyContent",
+ "url": "funrides-jungle-soft-play-green-light-blue.html#BodyContent",
  "subtitle": "Children's Soft Play Package",
  "image": {
    "alt": "Premium Jungle Soft Play with Air Juggler Ball pool - Green / Light Blue",
@@ -21829,7 +21789,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+     "funrides #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
      "The Premium Jungle Package is perfect for all your indoor hires, featuring a floating ball feature on our matching air juggler ball pool, keeping toddlers entertained.",
      "Includes a 16pc matching Jungle Soft Play set and matching Green/Blue Mega Mat set for your little ones' birthday party."
    ],
@@ -21893,8 +21853,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse",
@@ -21979,8 +21939,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", 
@@ -21991,7 +21951,7 @@ export const products = [
 ,
 {
  "title": "Princess Bouncy Castle - Pink & Purple",
- "url": "premium-inflatables/princess-bouncy-castle-pink-purple.html#BodyContent",
+ "url": "funrides-inflatables/princess-bouncy-castle-pink-purple.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
    "alt": "Princess Bouncy Castle - Pink & Purple",
@@ -22001,8 +21961,8 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
-     "The Princess Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon princess artwork which is finished in a modern gloss to match the premium gloss finish on all our inflatables.",
+     "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
+     "The Princess Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon princess artwork which is finished in a modern gloss to match the funrides gloss finish on all our inflatables.",
      "This castle can be easily paired with slides, ball pools, soft play and matching mat set up to make an incredible package."
    ],
    "features": [
@@ -22064,8 +22024,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Selby", "Barnsley"
@@ -22148,8 +22108,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Moortown", "Adel", "Shadwell", "Tingley", "Morley", "Gildersome",
@@ -22176,11 +22136,11 @@ export const products = [
  "description": {
    "overview": [
      "100% Five-Star Reviews Delivering on All Promises",
-     "The Princess Themed bouncy castle with a slide is an amazing addition to any birthday party or event, boasting the classic cartoon Princess artwork which is finished in a modern gloss to match the premium gloss finish on all our inflatables.",
+     "The Princess Themed bouncy castle with a slide is an amazing addition to any birthday party or event, boasting the classic cartoon Princess artwork which is finished in a modern gloss to match the funrides gloss finish on all our inflatables.",
      "Ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with ball pools, soft play, matching mat set up and even bigger super slides to make an incredible package catering for a variety of age groups."
    ],
    "features": [
-     "New fully sanitised 2024 Premium Inflatables & accessories.",
+     "New fully sanitised 2024 funrides & accessories.",
      "Upgrade to include disco lights & big Bluetooth speaker."
    ]
  },
@@ -22239,8 +22199,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -22261,7 +22221,7 @@ export const products = [
  "overnight_collection_price": "N/A",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you.",
+     "funrides your local bouncy castle hire near you.",
      "Delivering you a choice of UK's latest most on trend new purchases.",
      "The Princess Themed bouncy castle paired with a matching Pink & Purple slide is an amazing addition to any children's birthday party or event."
    ],
@@ -22324,8 +22284,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse",
@@ -22347,7 +22307,7 @@ export const products = [
  "overnight_collection_price": null,
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
+     "funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
      "Never to be mistaken with lesser lower services offering low quality older cheap bouncy castles for hire!!",
      "The Princess Themed Super Size Soft Play package with Mini platform slide is a Fantastic way to celebrate your own Princess's birthday Party",
@@ -22396,8 +22356,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -22417,7 +22377,7 @@ export const products = [
  "overnight_collection_price": null,
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
+     "funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
      "The Princess Themed Mega Soft Play Under 5's Package is an amazing addition to any birthday party or celebrations!",
      "All little girls dream of being Princesses, let them play in the Kingdom, make their dreams come true for their Birthday Celebrations.",
@@ -22469,8 +22429,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -22480,7 +22440,7 @@ export const products = [
 },
 {
  "title": "Princess Soft Play Bouncy Castle Package - Pink / Purple",
- "url": "premium-castles/princess-soft-play-bouncy-castle-package-pink-purple.html#BodyContent",
+ "url": "funrides-castles/princess-soft-play-bouncy-castle-package-pink-purple.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
    "alt": "Princess Soft Play Bouncy Castle Package - Pink / Purple",
@@ -22490,7 +22450,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+     "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
      "The Princess Themed Mega Soft Play Package is an amazing addition to any birthday party or celebrations!",
      "All little girls dream of being Princesses, let them play in the Kingdom, make their dreams come true for their Birthday Celebrations."
    ],
@@ -22553,8 +22513,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby", "surroundings"
@@ -22563,7 +22523,7 @@ export const products = [
 
 // {
 //  "title": "Safety Supervisors Staffing",
-//  "url": "premium-inflatables/safety-supervisors-staffing.html#BodyContent",
+//  "url": "funrides-inflatables/safety-supervisors-staffing.html#BodyContent",
 //  "subtitle": "1x Supervisor per inflatable",
 //  "image": {
 //    "alt": "SAFETY SUPERVISORS STAFFING",
@@ -22617,7 +22577,7 @@ export const products = [
 ,
 {
  "title": "Sea World Bounce N' Slide Soft Play Package - Red / Blue",
- "url": "premium-inflatables/sea-world-bounce-n-slide-soft-play-package-red-blue.html#BodyContent",
+ "url": "funrides-inflatables/sea-world-bounce-n-slide-soft-play-package-red-blue.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
    "alt": "Sea World Bounce N' Slide Soft Play Package - Red / Blue",
@@ -22627,7 +22587,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+     "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
      "If your children are fans of Sea World or just love the ocean then look no further as we have the perfect package for your under 5's, toddlers and older children.",
      "We've carefully selected our Blue and Red Seaworld Mega Pack, putting together our highly demanded Castle with Slide perfect fit for all your indoor hires."
    ],
@@ -22690,8 +22650,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -22710,13 +22670,13 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
    "overview": [
-     "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
+     "funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
      "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
      "Our under 5's / Toddlers Sea World Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon artwork which is finished in a modern gloss.",
      "The Sea World bouncy castle is Ideal for all your indoor and outdoor events and special occasions."
    ],
    "features": [
-     "This castle can be easily paired with matching toddlers slides, ball pools, soft play and matching mat set up to make an incredible premium deluxe package."
+     "This castle can be easily paired with matching toddlers slides, ball pools, soft play and matching mat set up to make an incredible funrides deluxe package."
    ]
  },
  "size": {
@@ -22773,8 +22733,8 @@ export const products = [
  },
  "contact_info": {
    "phone": "0113 460 1386",
-   "email": "info@premiuminflatables.co.uk",
-   "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+   "email": "enquiries@funrides.co.uk",
+   "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
  },
  "locations_available": [
    "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", 
@@ -22798,7 +22758,7 @@ export const products = [
     "overnight_collection_price": "£50",
     "description": {
       "overview": [
-        "Premium Inflatables your local bouncy castle hire near you.",
+        "funrides your local bouncy castle hire near you.",
         "The Sea World Themed bouncy castle is an amazing addition to any birthday party or event, boasting classic cartoon sea world artwork finished in a modern gloss.",
         "Ideal for all your indoor and outdoor events, this castle can be easily paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
       ],
@@ -22861,8 +22821,8 @@ export const products = [
     },
     "contact_info": {
       "phone": "07482511995",
-      "email": "info@premiuminflatables.co.uk",
-      "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+      "email": "enquiries@funrides.co.uk",
+      "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
     },
     "locations_available": [
       "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -22883,9 +22843,9 @@ export const products = [
 "overnight_collection_price": "£50",
 "description": {
   "overview": [
-    "Premium Inflatables your local bouncy castle hire near you.",
+    "funrides your local bouncy castle hire near you.",
     "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
-    "The Sea World Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon sea world artwork which is finished in a modern gloss to match the premium gloss finish on all our inflatables."
+    "The Sea World Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon sea world artwork which is finished in a modern gloss to match the funrides gloss finish on all our inflatables."
   ],
   "features": [
     "Ultimate bouncy castle upgrade to include disco lights & big Bluetooth speaker."
@@ -22946,8 +22906,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell",
@@ -22959,7 +22919,7 @@ export const products = [
 ,
 {
 "title": "Sea World Bouncy Castle - Red & Blue",
-"url": "premium-inflatables/sea-world-bouncy-castle-red-and-blue.html#BodyContent",
+"url": "funrides-inflatables/sea-world-bouncy-castle-red-and-blue.html#BodyContent",
 "subtitle": "Children's 9ft x 11.5ft",
 "image": {
   "alt": "Sea World Bouncy Castle - Red & Blue",
@@ -22969,7 +22929,7 @@ export const products = [
 "overnight_collection_price": "£50",
 "description": {
   "overview": [
-    "Premium Inflatables your local bouncy castle hire near you.",
+    "funrides your local bouncy castle hire near you.",
     "Our under 5's / Toddlers Sea World Themed bouncy castle is an amazing addition to any birthday party or event.",
     "Ideal for all your indoor and outdoor events and special occasions."
   ],
@@ -23032,8 +22992,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -23054,7 +23014,7 @@ export const products = [
 "overnight_collection_price": "£50",
 "description": {
   "overview": [
-    "Premium Inflatables, your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
+    "funrides, your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
     "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
     "The Sea World Themed bouncy castle is an amazing addition to any birthday party or event, boasting classic cartoon sea world artwork."
   ],
@@ -23117,8 +23077,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone",
@@ -23138,7 +23098,7 @@ export const products = [
 "overnight_collection_price": "£50",
 "description": {
   "overview": [
-    "Premium Inflatables, your local bouncy castle hire near you.",
+    "funrides, your local bouncy castle hire near you.",
     "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
     "The Sea World Themed bouncy castle is an amazing addition to any birthday party or event, boasting classic cartoon sea world artwork finished in a modern gloss."
   ],
@@ -23201,8 +23161,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", 
@@ -23223,12 +23183,12 @@ export const products = [
 "overnight_collection_price": "£50",
 "description": {
   "overview": [
-    "Premium Inflatables your local bouncy castle hire near you.",
+    "funrides your local bouncy castle hire near you.",
     "#1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
     "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!"
   ],
   "features": [
-    "All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
+    "All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
   ]
 },
 "size": {
@@ -23286,8 +23246,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -23300,7 +23260,7 @@ export const products = [
 },
   {
     "title": "Sea World Themed Bouncy Castle - Pink & Purple",
-    "url": "premium-inflatables/sea-world-themed-bouncy-castle-pink-and-purple.html#BodyContent",
+    "url": "funrides-inflatables/sea-world-themed-bouncy-castle-pink-and-purple.html#BodyContent",
     "subtitle": "Children's 12ft x 15ft",
     "image": {
       "alt": "Sea World Themed Bouncy Castle - Pink & Purple",
@@ -23310,7 +23270,7 @@ export const products = [
     "overnight_collection_price": "£50",
     "description": {
       "overview": [
-        "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!!",
+        "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!!",
         "The Sea World Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon sea world artwork which is finished in a modern gloss.",
         "Ideal for all your indoor and outdoor events and special occasions, this castle can be easily paired with slides, ball pools, soft play and matching mat set up to make an incredible package."
       ],
@@ -23373,8 +23333,8 @@ export const products = [
     },
     "contact_info": {
       "phone": "0113 460 1386",
-      "email": "info@premiuminflatables.co.uk",
-      "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+      "email": "enquiries@funrides.co.uk",
+      "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
     },
     "locations_available": [
       "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", 
@@ -23395,11 +23355,11 @@ export const products = [
 "overnight_collection_price": "£50",
 "description": {
   "overview": [
-    "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+    "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
     "New 17pc Soft Play Set with Matching Foam Ball Pool set out on colour coordinated 9x Mega Mat perfect Toddler package.",
     "Why not add our package of Didi Cars and Hoppers to your party? They are Safe, Fun, and easy to use—the kids can just hop on and start wiggling! They are versatile as they can be used inside and outside, perfect addition to any event.",
     "Have our trained team deliver and setup this inflatable at your home or chosen venue.",
-    "Premium Inflatables now available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
+    "funrides now available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
   ],
   "features": []
 },
@@ -23457,8 +23417,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -23477,7 +23437,7 @@ export const products = [
 "overnight_collection_price": "£50",
 "description": {
   "overview": [
-    "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+    "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
     "Premium Soft Play Collection with Themed Foam Ball Pool and Soft Play with Matching coloured mats. Assorted 17 pieces of different shapes and sizes soft play so your toddlers can roll, play and enjoy in the safe environment we have developed for them.",
     "Why not add our package of Didi Cars and Hoppers to your party, they are Safe, Fun and easy to use the kids can just hop on and start wiggling! They are versatile as can be used inside and outside perfect addition to any event."
   ],
@@ -23520,8 +23480,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -23540,8 +23500,8 @@ export const products = [
 "overnight_collection_price": "£50",
 "description": {
   "overview": [
-    "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you two of our new purchases and additions to our outstanding premium 2024 fleet!!",
-    "This Plain Green/ Light Blue Super Soft Play Package is an amazing addition to any birthday party or event, which is finished in a modern gloss to match the premium gloss finish on all our inflatables.",
+    "funrides your number #1 Google Review Rated bouncy castle hirer brings you two of our new purchases and additions to our outstanding funrides 2024 fleet!!",
+    "This Plain Green/ Light Blue Super Soft Play Package is an amazing addition to any birthday party or event, which is finished in a modern gloss to match the funrides gloss finish on all our inflatables.",
     "The Plain No Themed bouncy castle 9x11ft is Ideal for all your indoor and outdoor events and special occasions. This castle is paired with a Mini platform slide, ball pool, 17 pieces of soft play and 9 matching mat set up to make an incredible package."
   ],
   "features": [
@@ -23589,8 +23549,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -23610,9 +23570,9 @@ export const products = [
 "overnight_collection_price": "", 
 "description": {
   "overview": [
-    "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
+    "funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
     "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
-    "The Plain No Theme Pink / Purple Super size package which includes our amazing Bouncy Castle, Mini Slide, Soft Play + Mega Mat set up and Matching Foam Ball Pool is the ultimate addition to any under 5's, Toddlers Birthday party or event, boasting our amazing pink and purple girly colours which are finished in a modern gloss to match the premium gloss finish on all our accessories and inflatables."
+    "The Plain No Theme Pink / Purple Super size package which includes our amazing Bouncy Castle, Mini Slide, Soft Play + Mega Mat set up and Matching Foam Ball Pool is the ultimate addition to any under 5's, Toddlers Birthday party or event, boasting our amazing pink and purple girly colours which are finished in a modern gloss to match the funrides gloss finish on all our accessories and inflatables."
   ],
   "features": [
     "9x11ft Plain Pink/Purple Bouncy Castle",
@@ -23659,8 +23619,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", 
@@ -23741,8 +23701,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Moortown", "Adel", "Shadwell", "Tingley", "Morley", "Gildersome", "Birstall",
@@ -23809,7 +23769,7 @@ export const products = [
 "contact_info": {
   "phone": "Your phone number", 
   "email": "Your email", 
-  "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+  "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Moortown", "Adel", "Shadwell", "Tingley", "Morley", "Gildersome", "Birstall",
@@ -23896,8 +23856,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Moortown", "Adel", "Shadwell", "Tingley", "Morley", "Gildersome", "Birstall",
@@ -23921,12 +23881,12 @@ export const products = [
 "overnight_collection_price": "N/A",
 "description": {
   "overview": [
-    "Premium Inflatables your local bouncy castle hire near you.",
+    "funrides your local bouncy castle hire near you.",
     "Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
     "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!"
   ],
   "features": [
-    "All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
+    "All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
   ]
 },
 "size": {
@@ -23984,8 +23944,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone",
@@ -23995,7 +23955,7 @@ export const products = [
 ,
 {
 "title": "Soft Play Bouncy Castle Package - Pink / Purple",
-"url": "unisex-inflatables/premium-castle-description.html#BodyContent",
+"url": "unisex-inflatables/funrides-castle-description.html#BodyContent",
 "subtitle": "Children's 12ft x 15ft",
 "image": {
   "alt": "Soft Play Bouncy Castle Package - Pink / Purple",
@@ -24005,9 +23965,9 @@ export const products = [
 "overnight_collection_price": "£50",
 "description": {
   "overview": [
-    "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer for Leeds and Wakefield brings you choice of our new purchases and additions to our outstanding premium 2024 fleet!!",
-    "Safety and Hygiene are the Paramount Priority here at Premium Inflatables!!",
-    "All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use.",
+    "funrides your number #1 Google Review Rated bouncy castle hirer for Leeds and Wakefield brings you choice of our new purchases and additions to our outstanding funrides 2024 fleet!!",
+    "Safety and Hygiene are the Paramount Priority here at funrides!!",
+    "All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use.",
     "Now available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
   ],
   "features": []
@@ -24067,8 +24027,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract",
@@ -24088,7 +24048,7 @@ export const products = [
 "overnight_collection_price": "£50",
 "description": {
   "overview": [
-    "Premium Inflatables your local bouncy castle hire near you.",
+    "funrides your local bouncy castle hire near you.",
     "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
     "Never to be mistaken with lesser lower services offering low quality older cheap bouncy castles for hire!"
   ],
@@ -24151,8 +24111,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell",
@@ -24174,7 +24134,7 @@ export const products = [
 "overnight_collection_price": "£50",
 "description": {
   "overview": [
-    "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+    "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
     "Our Super Impressive Superheroes Mega Package is a fantastic addition for your party!",
     "Whether they are Superman or Batman, our Castle with Slide is the perfect choice for all your little Superheroes!"
   ],
@@ -24237,8 +24197,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby", "surroundings."
@@ -24257,7 +24217,7 @@ export const products = [
 "overnight_collection_price": "£50",
 "description": {
   "overview": [
-    "Premium Inflatables, your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
+    "funrides, your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
     "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
     "Our under 5's / Toddlers Superheroes Themed bouncy castle is an amazing addition to any birthday party or event, boasting classic cartoon artwork."
   ],
@@ -24300,8 +24260,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone",
@@ -24386,8 +24346,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -24397,7 +24357,7 @@ export const products = [
 },
 {
 "title": "Superheroes Bouncy Castle - Red & Blue",
-"url": "premium-inflatables/superheroes-bouncy-castle-red-and-blue.html#BodyContent",
+"url": "funrides-inflatables/superheroes-bouncy-castle-red-and-blue.html#BodyContent",
 "subtitle": "Children's 12ft x 15ft",
 "image": {
   "alt": "Superheroes Bouncy Castle - Red & Blue",
@@ -24407,7 +24367,7 @@ export const products = [
 "overnight_collection_price": "£50",
 "description": {
   "overview": [
-    "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!",
+    "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
     "The Superheroes Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon superheroes artwork finished in a modern gloss.",
     "Ideal for all your indoor and outdoor events and special occasions, this castle can be easily paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
   ],
@@ -24470,8 +24430,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -24490,7 +24450,7 @@ export const products = [
 "overnight_collection_price": "£50",
 "description": {
   "overview": [
-    "Premium Inflatables your local bouncy castle hire near you.",
+    "funrides your local bouncy castle hire near you.",
     "#1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
     "Our under 5's / Toddlers Superheroes Themed bouncy castle is an amazing addition to any birthday party or event, boasting classic cartoon artwork finished in a modern gloss.",
     "Ideal for all your indoor and outdoor events and special occasions."
@@ -24554,8 +24514,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -24638,8 +24598,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton",
@@ -24653,7 +24613,7 @@ export const products = [
 ,
 {
 "title": "Superheroes Juniors Slide + Bouncy Castle - Green / Light Blue",
-"url": "premium-inflatables/251/superheroes-bouncy-castle-green-and-light-blue.html#BodyContent",
+"url": "funrides-inflatables/251/superheroes-bouncy-castle-green-and-light-blue.html#BodyContent",
 "subtitle": "Children's 12ft x 12ft",
 "image": {
   "alt": "Superheroes Juniors Slide + Bouncy Castle - Green / Light Blue",
@@ -24667,7 +24627,7 @@ export const products = [
     "Ideal for all your indoor and outdoor events and special occasions. This package can be easily upgraded and paired with a foam ball pool, soft play, and matching mats."
   ],
   "features": [
-    "All our Premium inflatables come fully sanitised for every use."
+    "All our funrides come fully sanitised for every use."
   ]
 },
 "size": {
@@ -24725,8 +24685,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", 
@@ -24810,8 +24770,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Moortown", "Adel", "Shadwell", "Tingley", "Morley", "Gildersome", "Birstall",
@@ -24835,13 +24795,13 @@ export const products = [
 "overnight_collection_price": "£50",
 "description": {
   "overview": [
-    "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+    "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
     "Premium Superheroes Soft Play Collection with Themed Foam Ball Pool and Soft Play with Matching coloured mats.",
     "Assorted 16 pieces of different shapes and sizes soft play so your toddlers can roll, play and enjoy in the safe environment we have developed for them.",
     "Why not add our package of Didi Cars and Hoppers to your party, they are Safe, Fun and easy to use the kids can just hop on and start wiggling!",
     "They are versatile as can be used inside and outside perfect addition to any event.",
     "Have our trained team deliver and setup this inflatable at your home or chosen venue.",
-    "Premium Inflatables now available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
+    "funrides now available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
   ],
   "features": []
 },
@@ -24882,8 +24842,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -24902,8 +24862,8 @@ export const products = [
 "overnight_collection_price": "£50",
 "description": {
   "overview": [
-    "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding premium 2024 fleet!!",
-    "The Superhero Themed Super size package which includes our amazing Bouncy Castle, Mini Slide, Soft play, Mega mat set up as well as matching Foam Ball Pool is the ultimate addition to any under 5's, Toddlers Birthday party or event, boasting the classic cartoon Superhero artwork which is finished in a modern gloss to match the premium gloss finish on all our accessories and inflatables.",
+    "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!!",
+    "The Superhero Themed Super size package which includes our amazing Bouncy Castle, Mini Slide, Soft play, Mega mat set up as well as matching Foam Ball Pool is the ultimate addition to any under 5's, Toddlers Birthday party or event, boasting the classic cartoon Superhero artwork which is finished in a modern gloss to match the funrides gloss finish on all our accessories and inflatables.",
     "If this amazing Superhero Bouncy Castle and Soft Play package wasn't already good enough why not take your special event to the next level by adding our matching Didi Cars & Hoppers package have your children and their friends enjoying being Superheroes for the day!",
     "The Superhero Themed bouncy castle and Mini Slide is Ideal for all your indoor events and special occasions. This Super Sized Soft Play Package is perfect for our under 5's to build, play and roll in a safe enclosed area. Bringing your children the most fun and entertaining party of the year!!!"
   ],
@@ -24951,8 +24911,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -24972,7 +24932,7 @@ export const products = [
 "overnight_collection_price": "£50",
 "description": {
   "overview": [
-    "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
+    "funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
     "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
     "Never to be mistaken with lesser lower services offering low quality older cheap bouncy castles for hire!!",
     "Don't we all love a Superhero? Then make your Superheroes dreams come true with this Amazing Superheroes Themed Super Size Soft Play package ! Perfect for their Birthday celebrations which includes our amazing Bouncy Castle, Mini Slide, Soft Play + Mega Mat set up and Matching Foam Ball Pool ! This Superheroes Themed bouncy castle and Mini Slide Package is ideal for all your indoor and outdoor events and special occasions. , it's the perfect choice for the under 5's to build, play and roll in a safe environment Bringing your children the most fun and entertaining party of the year!"
@@ -25036,8 +24996,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -25055,7 +25015,7 @@ export const products = [
 "overnight_collection_price": "£50",
 "description": {
   "overview": [
-    "Premium Inflatables your local bouncy castle hire near you.",
+    "funrides your local bouncy castle hire near you.",
     "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
     "The Superheroes Themed Mega Soft Play Under 5's Package is an amazing addition to any birthday party or event."
   ],
@@ -25117,8 +25077,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -25144,7 +25104,7 @@ export const products = [
     "Ideal for both indoor and outdoor hires."
   ],
   "features": [
-    "All Premium inflatables, Soft Play, and Mats come fully sanitised for every use."
+    "All funrides, Soft Play, and Mats come fully sanitised for every use."
   ]
 },
 "size": {
@@ -25202,8 +25162,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", 
@@ -25287,8 +25247,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", 
@@ -25309,7 +25269,7 @@ export const products = [
 "overnight_collection_price": "£50",
 "description": {
   "overview": [
-    "Premium Inflatables your local bouncy castle hire near you.",
+    "funrides your local bouncy castle hire near you.",
     "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
     "We've carefully selected our Superheroes Mega Pack, putting together our highly demanded 12ft x 15ft Superheroes Bouncy castle which measures 9.5ft in height perfect fit for all your indoor hires."
   ],
@@ -25372,8 +25332,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell",
@@ -25394,9 +25354,9 @@ export const products = [
 "overnight_collection_price": "£50",
 "description": {
   "overview": [
-    "One of our latest additions to our outstanding premium 2024 fleet!",
+    "One of our latest additions to our outstanding funrides 2024 fleet!",
     "The Plain No Theme bouncy castle is an amazing addition to any birthday party or event, featuring a modern gloss finish.",
-    "Ideal for all indoor and outdoor events, this castle can be paired with matching slides, ball pools, soft play, and mat setups to create an incredible premium deluxe package."
+    "Ideal for all indoor and outdoor events, this castle can be paired with matching slides, ball pools, soft play, and mat setups to create an incredible funrides deluxe package."
   ],
   "features": []
 },
@@ -25455,8 +25415,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley",
@@ -25478,7 +25438,7 @@ export const products = [
 "description": {
   "overview": [
     "New!! Girly Glossy Pink Soft Play Package Hire Leeds, Wakefield, Selby & Barnsley",
-    "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
+    "funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
     "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
     "Never to be mistaken with lesser lower services offering low quality older cheap bouncy castles for hire!!",
     "If your little girls love My Little Pony then we have a Mega Soft Play Package for them, with our colourful Unicorn Themed Bouncy Castle with Slide, foam ball pool with its matching 18pieces of soft play and matching 9x Mat Set up.",
@@ -25528,8 +25488,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -25549,7 +25509,7 @@ export const products = [
 "overnight_collection_price": "£50",
 "description": {
   "overview": [
-    "One of our new purchases and additions to our outstanding premium 2024 fleet!",
+    "One of our new purchases and additions to our outstanding funrides 2024 fleet!",
     "The Unicorns Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon unicorn artwork finished in a modern gloss.",
     "Ideal for all indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
   ],
@@ -25612,8 +25572,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Moortown", "Adel", "Shadwell", "Tingley", "Morley", "Gildersome", "Birstall",
@@ -25627,7 +25587,7 @@ export const products = [
 ,
 {
 "title": "Unicorn Bouncy Castle - Pink & Purple",
-"url": "premium-inflatables/unicorn-bouncy-castle-pink-and-purple.html#BodyContent",
+"url": "funrides-inflatables/unicorn-bouncy-castle-pink-and-purple.html#BodyContent",
 "subtitle": "Children's 9ft x 11.5ft",
 "image": {
   "alt": "Unicorn Bouncy Castle - Pink & Purple",
@@ -25642,7 +25602,7 @@ export const products = [
     "Ideal for all your indoor and outdoor events and special occasions."
   ],
   "features": [
-    "New fully sanitised 2024 Premium Inflatables & accessories",
+    "New fully sanitised 2024 funrides & accessories",
     "Fully compliant with the European standard EN14960"
   ]
 },
@@ -25701,8 +25661,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Moortown", "Adel", "Shadwell", "Tingley", "Morley", "Gildersome", "Birstall",
@@ -25726,7 +25686,7 @@ export const products = [
 "overnight_collection_price": "£50",
 "description": {
   "overview": [
-    "Premium Inflatables, your local bouncy castle hire near you.",
+    "funrides, your local bouncy castle hire near you.",
     "The Unicorns Themed bouncy castle is an amazing addition to any birthday party or event, boasting classic cartoon unicorns artwork finished in a modern gloss.",
     "Ideal for all indoor and outdoor events, this castle can be paired with slides, ball pools, soft play, and matching mat setups to create an incredible package."
   ],
@@ -25789,8 +25749,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract",
@@ -25876,8 +25836,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", 
@@ -25906,8 +25866,8 @@ export const products = [
     "This package can be easily upgraded and paired with ball pools, soft play and matching mat setups to create an incredible package."
   ],
   "features": [
-    "Safety and Hygiene are the Paramount Priority here at Premium Inflatables!",
-    "All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
+    "Safety and Hygiene are the Paramount Priority here at funrides!",
+    "All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
   ]
 },
 "size": {
@@ -25965,8 +25925,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", 
@@ -25987,7 +25947,7 @@ export const products = [
 "overnight_collection_price": null,
 "description": {
   "overview": [
-    "Premium Inflatables your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
+    "funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
     "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
     "The Unicorn Themed Super Soft Play Package has a mystical theme for all the girls that believe Unicorns exist! This Pink and Purple collection is the perfect package for your Birthday Celebrations.",
     "The Unicorn Themed bouncy castle 9x11ft is Ideal for all your indoor and outdoor events and special occasions. This castle is paired with a Mini platform slide, foam ball pool and 17 pieces of soft play and 9 matching mat set up to make an incredible package."
@@ -26036,8 +25996,8 @@ export const products = [
 },
 "contact_info": {
   "phone": "0113 460 1386",
-  "email": "info@premiuminflatables.co.uk",
-  "contact_page": "pages/contact-premium-inflatables.html#BodyContent"
+  "email": "enquiries@funrides.co.uk",
+  "contact_page": "pages/contact-funrides-inflatables.html#BodyContent"
 },
 "locations_available": [
   "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone",
@@ -26056,12 +26016,12 @@ export const products = [
   "overnight_collection_price": "£50",
   "description": {
     "overview": [
-      "Premium Inflatables your number #1 Google Review Rated bouncy castle hirer for Leeds and Wakefield brings you choice of our new purchases and additions to our outstanding premium 2024 fleet!",
+      "funrides your number #1 Google Review Rated bouncy castle hirer for Leeds and Wakefield brings you choice of our new purchases and additions to our outstanding funrides 2024 fleet!",
       "If your little girls love My Little Pony then we have a Mega Soft Play Package for them, with our colourful Unicorn Themed Bouncy Castle, foam ball pool with its matching 17 pieces of soft play and matching 9 Mat Set up.",
       "These spectacular Unicorns are what little girls dream of! Let them roll, play and run round pretending to be pretty Unicorns in our safe environment we have created for them! This is an ideal package for all your Indoor venues too."
     ],
     "features": [
-      "Safety and Hygiene are the Paramount Priority here at Premium Inflatables! All our Premium inflatables, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
+      "Safety and Hygiene are the Paramount Priority here at funrides! All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use."
     ]
   },
   "size": {
@@ -26119,8 +26079,8 @@ export const products = [
   },
   "contact_info": {
     "phone": "0113 460 1386",
-    "email": "info@premiuminflatables.co.uk",
-    "contact_page": "../../pages/contact-premium-inflatables.html#BodyContent"
+    "email": "enquiries@funrides.co.uk",
+    "contact_page": "../../pages/contact-funrides-inflatables.html#BodyContent"
   },
   "locations_available": [
     "Leeds", "Wakefield", "Tingley", "Morley", "Lofthouse", "Rothwell", "Methley", "Normanton", "Featherstone", "Pontefract", "Castleford", "Knottingley", "Darrington", "Wentbridge", "Sherburn in Elmet", "Selby"
@@ -26203,26 +26163,26 @@ export const navData = [
   },
   {
     title: "Products",
-    url: "#",
-    submenu: [
-      { title: "New For 2024!", url: "/category/news-2024" },
-      { title: "Indoor Soft Play Packages", url: "/category/indoor-soft-play" },
-      { title: "Christmas Inflatables", url: "/category/chrismis-inflatables" },
-      { title: "Bouncy Castles", url: "/category/bouncy-castles" },
-      { title: "Disco Domes", url: "/category/disco-domes" },
-      { title: "Assault Course", url: "/category/asult-course" },
-      { title: "Bounce & Slide Combos", url: "/category/bounce-slide-combos" },
-      { title: "ADULT CASTLES", url: "/category/adult-castles" },
-      { title: "Soft Play", url: "/category/soft-play" },
-      { title: "Party Add-ons", url: "/category/party-add-ons" },
-      { title: "Music Amps", url: "/category/music-amps" },
-      { title: "Inflatable Games", url: "/category/inflatable-games" },
-      {
-        title: "Generator Hire Section",
-        url: "/category/generator-hier-section",
-      },
-      { title: "Party Entertainer", url: "/category/party-entertainer" },
-    ],
+    url: "/all-products",
+    // submenu: [
+    //   { title: "New For 2024!", url: "/category/news-2024" },
+    //   { title: "Indoor Soft Play Packages", url: "/category/indoor-soft-play" },
+    //   { title: "Christmas Inflatables", url: "/category/chrismis-inflatables" },
+    //   { title: "Bouncy Castles", url: "/category/bouncy-castles" },
+    //   { title: "Disco Domes", url: "/category/disco-domes" },
+    //   { title: "Assault Course", url: "/category/asult-course" },
+    //   { title: "Bounce & Slide Combos", url: "/category/bounce-slide-combos" },
+    //   { title: "ADULT CASTLES", url: "/category/adult-castles" },
+    //   { title: "Soft Play", url: "/category/soft-play" },
+    //   { title: "Party Add-ons", url: "/category/party-add-ons" },
+    //   { title: "Music Amps", url: "/category/music-amps" },
+    //   { title: "Inflatable Games", url: "/category/inflatable-games" },
+    //   {
+    //     title: "Generator Hire Section",
+    //     url: "/category/generator-hier-section",
+    //   },
+    //   { title: "Party Entertainer", url: "/category/party-entertainer" },
+    // ],
   },
   {
     title: "Events",

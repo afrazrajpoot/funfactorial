@@ -22,58 +22,24 @@ const getCurrentYearMonth = () => {
 
 const Contact = () => {
   const postCodes = [
-    "BD11",
-    "HD8",
-    "LS1",
-    "LS2",
-    "LS3",
-    "LS4",
-    "LS5",
-    "LS6",
-    "LS7",
-    "LS8",
-    "LS9",
-    "LS10",
-    "LS11",
-    "LS12",
-    "LS13",
-    "LS14",
-    "LS15",
-    "LS16",
-    "LS17",
-    "LS18",
-    "LS19",
-    "LS20",
-    "WF1",
-    "WF2",
-    "WF3",
-    "WF4",
-    "WF5",
-    "WF6",
-    "WF7",
-    "WF8",
-    "WF9",
-    "WF10",
+    "BD11", "HD8", "LS1", "LS2", "LS3", "LS4", "LS5", "LS6", "LS7",
+    "LS8", "LS9", "LS10", "LS11", "LS12", "LS13", "LS14", "LS15",
+    "LS16","LS17","LS18","LS19","LS20","WF1","WF2","WF3","WF4",
+    "WF5","WF6","WF7","WF8","WF9", "WF10",
   ];
+
+
   const { year, month } = getCurrentYearMonth();
   const [isLoading, setLoading] = useState(false);
   const [decryptedData, setDecryptedData] = useState({});
-  const [payment, setPAyment] = useState({});
   const { itemDetail, setItemDetail } = useGlobalState();
 
-  console.log(itemDetail.image,'image')
-  // const [booking, { isLoading, isError, error, isSuccess, data: responseData }] = useCreateBookingMutation();
-  const stripe = useStripe();
 
+  const stripe = useStripe();
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const {
-    handleSubmit,
-    control,
-    watch,
-    reset,
-    formState: { errors },
-  } = useForm({
+    handleSubmit, control, watch, formState: { errors }} = useForm({
     defaultValues: {
       startDate: `${year}-${month}-01`,
       endDate: `${year}-${month}-31`,
@@ -82,8 +48,6 @@ const Contact = () => {
   });
 
   const startDate = watch("startDate");
-  // const endDate = watch("endDate");
-  // const currentDate = new Date()
   const onSubmit = async (data) => {
     const today = new Date();
     today.setHours(0, 0, 0, 0); // Set time to 00:00:00 for comparison
@@ -123,12 +87,8 @@ const Contact = () => {
       localStorage.setItem(
         "bookingData",
         JSON.stringify({
-          name: data.name,
-          email: data.email,
-          phone: data.phone,
-          address: data.address,
-          startDate: data.startDate,
-          endDate: data.endDate,
+          name: data.name, email: data.email,  phone: data.phone,
+          address: data.address, startDate: data.startDate, endDate: data.endDate,
           itemDetail,
         })
       );
@@ -139,15 +99,15 @@ const Contact = () => {
         return;
       }
   
-      const amount = parseInt(decryptedData); // Assuming amount is in cents
-  
+      const amount = decryptedData.price; // Assuming amount is in cents
+     
       // Payment processing
       const {
         data: { sessionId },
-      } = await axios.post("https://api.funrides.co.uk/payment-sheet", {
-        amount,
+      } = await axios.post("http://localhost:9000/payment-sheet", {
+        amount: amount + 125 ,
         currency: "gbp",
-        img: itemDetail.image,
+        img: itemDetail?.image.length < 6 ? `https://www.funrides.co.uk/images/${itemDetail?.image}` : `https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_700/${itemDetail?.image}`,
       });
   
       const paymentResponse = await stripe.redirectToCheckout({ sessionId });
@@ -183,10 +143,8 @@ const Contact = () => {
   useEffect(() => {
     const decryptedData = decryptAndGetFromLocalStorage("data");
     setItemDetail(decryptedData);
-    setDecryptedData(decryptedData?.price);
-    // console.log(payment, "payment");
+    setDecryptedData(decryptedData);
   }, [setItemDetail]);
-
   return (
     <LocalizationProvider dateAdapter={AdapterDateFns}>
       <Box

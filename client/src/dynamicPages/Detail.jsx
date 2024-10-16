@@ -197,14 +197,23 @@ const ImagePreview = ({ image }) => {
   const prevImage = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + image.length) % image.length);
   };
-
+  let imgUrl = `https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/${image[currentIndex]}`
+  if(image[0] ==='2.png'){
+    imgUrl = '/images/2.png'
+  }else if(image[0] ==='3.png'){
+    imgUrl='/images/3.png'
+  }else if(image[0] ==='4.png'){
+    imgUrl='/images/4.png'
+  }else if(image[0] ==='5.png'){
+    imgUrl='/images/5.png'
+  }
   return (
     <div className="relative w-full h-64 lg:h-96">
       <AnimatePresence initial={false}>
         <motion.img
           key={currentIndex}
           // src={}
-          src={`https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/${image[currentIndex]}`}
+          src={`${imgUrl}`}
           alt={`Image ${currentIndex + 1}`}
           className="absolute w-full h-full object-cover rounded-lg shadow-md"
           initial={{ opacity: 0 }}
@@ -229,8 +238,19 @@ const ImagePreview = ({ image }) => {
   );
 };
 
-const ImageModal = ({ image, onClose }) => (
-  <motion.div
+const ImageModal = ({ image, onClose }) => {
+  let imgUrl = `https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/${image}`
+  if(image ==='2.png'){
+    imgUrl = '/images/2.png'
+  }else if(image ==='3.png'){
+    imgUrl='/images/3.png'
+  }else if(image ==='4.png'){
+    imgUrl='/images/4.png'
+  }else if(image ==='5.png'){
+    imgUrl='/images/5.png'
+  }
+  return (
+    <motion.div
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     exit={{ opacity: 0 }}
@@ -244,7 +264,7 @@ const ImageModal = ({ image, onClose }) => (
       className="relative max-w-3xl max-h-[90vh] overflow-hidden"
       onClick={(e) => e.stopPropagation()}
     >
-      <img src={`https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/${image}`} alt="Full size preview" className="w-full h-full object-contain" />
+      <img src={`${imgUrl}`} alt="Full size preview" className="w-full h-full object-contain" />
       <button
         onClick={onClose}
         className="absolute top-4 right-4 text-white bg-black bg-opacity-50 rounded-full p-2"
@@ -253,11 +273,21 @@ const ImageModal = ({ image, onClose }) => (
       </button>
     </motion.div>
   </motion.div>
-);
+  )
+}
 
 const ImageGrid = ({ images }) => {
   const [selectedImage, setSelectedImage] = useState(null);
-
+  let imgUrl = `https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/${images[0]}`
+  if(images[0] ==='2.png'){
+    imgUrl = '/images/2.png'
+  }else if(images[0]==='3.png'){
+    imgUrl='/images/3.png'
+  }else if(images[0]==='4.png'){
+    imgUrl='/images/4.png'
+  }else if(images[0]==='5.png'){
+    imgUrl='/images/5.png'
+  }
   return (
     <>
       <div className="grid grid-cols-3 gap-2 mt-4">
@@ -269,7 +299,7 @@ const ImageGrid = ({ images }) => {
             className="cursor-pointer overflow-hidden rounded-lg shadow-md"
             onClick={() => setSelectedImage(image)}
           >
-            <img src={`https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/${image}`} alt={`Thumbnail ${index + 1}`} className="w-full object-cover" />
+            <img src={`${imgUrl}`} alt={`Thumbnail ${index + 1}`} className="w-full object-cover" />
           </motion.div>
         ))}
       </div>
@@ -293,9 +323,7 @@ const Detail = () => {
   const navigate = useNavigate();
   const index = Number(id);
   const itemData =  products[index];
-  console.log('====================================');
-  console.log('itemData', itemData);
-  console.log('====================================');
+
 
   const buttons = [
     { name: "Description", icon: <FaInfoCircle /> },
@@ -333,12 +361,13 @@ const Detail = () => {
       });
     }
     if (isError) {
-      setItemDetail({ name: itemData?.title, price: itemData?.price, id: id });
-      encryptAndSaveToLocalStorage('data', { name: itemData?.title, price: itemData?.price, id: id, image: itemData?.img });
+
+      setItemDetail({ name: itemData?.title, price: parseFloat(itemData.price.replace(/£/, '')), id: id, image: itemData?.image?.url });
+      encryptAndSaveToLocalStorage('data', { name: itemData?.title, price: parseFloat(itemData.price.replace(/£/, '')) ,id: id, image: itemData?.image?.url });
       navigate(`/contact`);
     }
   }, [isSuccess, isError, itemData]);
-  console.log(itemData,'itemData')
+
   const renderContent = () => {
     switch (activeTab) {
       case "Description":
@@ -406,7 +435,7 @@ const Detail = () => {
                     className="mt-8 p-4 bg-green-500 hover:bg-green-600 transition duration-300 w-full text-lg font-bold"
                     startIcon={<FaShoppingCart className="text-2xl" />}
                   >
-                    {isLoading ? <Loading /> : `Book now for ${itemData.price}`}
+                    {isLoading ? <Loading /> : `Book now for ${Number(itemData.price.replace(/[^0-9.-]+/g, "")) + 125}`}
                   </Button>
                 </section>
               </article>

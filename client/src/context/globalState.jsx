@@ -6,6 +6,7 @@ export const GlobalState = ({ children }) => {
   const [itemDetail, setItemDetail] = useState({
     name: "",
     price: "",
+    image: "",
   });
   return (
     <globalContext.Provider value={{ itemDetail, setItemDetail, data, setData, search, setSearch }}>

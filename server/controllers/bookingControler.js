@@ -6,9 +6,6 @@ exports.createBooking = async (req, res, next) => {
   try {
     const { name, email, phone, address, startDate, endDate, itemDetail } = req.body;
 
-    // Log input data for debugging
-    console.log("create booking", name, email, phone, address, startDate, endDate, itemDetail);
-
     // Validate all required fields
     if (!name || !email || !phone || !address || !startDate || !endDate || !itemDetail) {
       throw new CustomError("All fields are required", 400);
@@ -35,7 +32,6 @@ exports.createBooking = async (req, res, next) => {
     const currentDate = new Date();
 
     if (start < currentDate.setHours(0, 0, 0, 0)) {
-      console.log("create booking", name, email, phone, address, startDate, endDate, itemDetail);
       throw new CustomError("Start date cannot be in the past", 400);
     }
 
@@ -112,7 +108,6 @@ async function sendBookingConfirmationEmail(booking) {
 exports.checkinAvailibility = async (req, res, next) => {
   try {
     const { itemName } = req.body;
-    console.log(itemName, "itemName");
     // Find a single booking document
     const conflictingBookings = await Booking.findOne({
       "itemDetail.name": itemName,
