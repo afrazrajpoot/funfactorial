@@ -92,7 +92,7 @@ const Contact = () => {
       // Payment processing
       const {
         data: { sessionId },
-      } = await axios.post("https://www.funrides.co.uk/payment-sheet", {
+      } = await axios.post("https://api.funrides.co.uk/payment-sheet", {
         amount: amount + 125 ,
         currency: "gbp",
         img: itemDetail?.image.length < 6 ? `https://www.funrides.co.uk/images/${itemDetail?.image}` : `https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_700/${itemDetail?.image}`,
