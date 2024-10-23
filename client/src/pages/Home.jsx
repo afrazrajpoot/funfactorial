@@ -7,6 +7,7 @@ import Details from "../components/Details";
 import { useInView } from "react-intersection-observer";
 import { useGlobalState } from "../context/globalState";
 import Ribbons from "../components/Ribbons";
+import Loading from "../components/Loader";
 
 const Home = () => {
   const { data, setData, search } = useGlobalState();
@@ -230,7 +231,7 @@ const Home = () => {
           onClick={() => setShowRibbons(!showRibbons)}
           className="lg:hidden mt-4 p-2 ml-[2vw] bg-pink-500 text-white rounded-md"
         >
-          Cattegories
+          Categories
         </button>
 
         <AnimatePresence>
@@ -277,17 +278,20 @@ const Home = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
+      style={{marginTop: "5vw"}}
       className="flex justify-center items-center mt-4 text-lg font-semibold text-gray-500"
     >
       No Products Found
     </motion.div>
   ) : (
-    <motion.div
-      key="loading-spinner"
-      className="flex justify-center items-center mt-4"
-    >
-      <CircularProgress />
-    </motion.div>
+    <Loading />
+    // <motion.div
+    //   key="loading-spinner"
+    //   className="flex justify-center items-center mt-[20vw]"
+    //   style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "20vw" }}
+    // >
+    //   <CircularProgress />
+    // </motion.div>
   )}
 </AnimatePresence>
 

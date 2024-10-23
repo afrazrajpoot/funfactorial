@@ -12,10 +12,11 @@ const Ribbons = ({ handleRibbonClick, getRibbonClasses }) => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: (ind + 1) * 0.1 }}
           key={ind}
+          style={{backgroundColor: '#b694c8'}}
           onClick={() => handleRibbonClick(elem.title)}
           className={`${getRibbonClasses(elem.title)} bg-[#b694c8] p-[3vw] lg:p-2 rounded w-full lg:max-w-[20vw] max-w-[100vw]`} // Apply bg color here
         >
-          <p className="transition-all duration-300 text-white  text-black ml-[2vw] font-ab font-bold text-[3vw] lg:text-[1.5vw]">
+          <p className="transition-all duration-300 text-white  ml-[2vw] font-ab font-bold text-[3vw] lg:text-[1.5vw]">
             {elem.title}
           </p>
         </motion.div>
@@ -25,6 +26,7 @@ const Ribbons = ({ handleRibbonClick, getRibbonClasses }) => {
         initial={{ opacity: 0, x: -50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5, delay: (ribbons.length + 1) * 0.1 }}
+        style={{backgroundColor: '#b694c8'}}
         onClick={() => handleRibbonClick("Other Products")}
         className={`${getRibbonClasses("Other Products")} bg-[#b694c8] lg:p-2 p-[3vw] rounded w-full lg:max-w-[20vw] max-w-[100vw]`} // Apply bg color here
       >
