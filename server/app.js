@@ -17,9 +17,8 @@ app.use("/api/v1", userRoute);
 app.post('/payment-sheet', async (req, res) => {
   try {
     const { amount, img } = req.body; // Amount in pounds
-    console.log(amount,img, 'amount');
-    let productImages = `https://www.funrides.co.uk${img}`
-    console.log(productImages, 'productImages')
+
+    let productImages = img
     // Check if the amount is valid
     if (typeof amount !== 'number' || amount <= 0) {
       return res.status(400).send('Invalid amount');
@@ -46,9 +45,7 @@ app.post('/payment-sheet', async (req, res) => {
       success_url: `https://www.funrides.co.uk/success`,
       cancel_url: `https://www.funrides.co.uk/`,
     });
-    
-    console.log(session, 'session');
-    
+        
     // Respond with the sessionId
     res.json({ sessionId: session.id });
   } catch (error) {

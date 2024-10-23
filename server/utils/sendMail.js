@@ -27,7 +27,6 @@ function sendEmail(to, subject, text, html, email) {
     if (error) {
       return console.log("Error occurred:", error.message);
     }
-    console.log("Email sent:", info.response);
   });
 }
 

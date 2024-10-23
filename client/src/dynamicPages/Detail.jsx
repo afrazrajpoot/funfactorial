@@ -197,7 +197,6 @@ const ImagePreview = ({ image }) => {
   const prevImage = () => {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + image.length) % image.length);
   };
-  // console.log(image,'imagw')
   let imgUrl = `https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_900/${image[currentIndex]}`
   if(image[0] ==='2.png'){
     imgUrl = '/images/2.png'
@@ -250,7 +249,6 @@ const ImageModal = ({ image, onClose }) => {
   }else if(image ==='5.png'){
     imgUrl='/images/5.png'
   }
-console.log(image,'modal image')
   return (
     <motion.div
     initial={{ opacity: 0 }}
@@ -290,7 +288,6 @@ const ImageGrid = ({ images }) => {
   }else if(images[0]==='5.png'){
     imgUrl='/images/5.png'
   }
-  console.log(images,'grid images')
   return (
     <>
       <div className="grid grid-cols-3 gap-2 mt-4">
@@ -327,9 +324,6 @@ const Detail = () => {
   const navigate = useNavigate();
   const index = Number(id);
   const itemData =  products[index];
-  // console.log('====================================');
-  // console.log('itemData', itemData);
-  // console.log('====================================');
 
   const buttons = [
     { name: "Description", icon: <FaInfoCircle /> },
@@ -368,8 +362,8 @@ const Detail = () => {
     }
     if (isError) {
 
-      setItemDetail({ name: itemData?.title, price: parseFloat(itemData.price.replace(/£/, '')), id: id });
-      encryptAndSaveToLocalStorage('data', { name: itemData?.title, price: parseFloat(itemData.price.replace(/£/, '')) ,id: id, image: itemData?.img });
+      setItemDetail({ name: itemData?.title, price: parseFloat(itemData.price.replace(/£/, '')), id: id, image: itemData?.image?.url });
+      encryptAndSaveToLocalStorage('data', { name: itemData?.title, price: parseFloat(itemData.price.replace(/£/, '')) ,id: id, image: itemData?.image?.url });
       navigate(`/contact`);
     }
   }, [isSuccess, isError, itemData]);
@@ -441,7 +435,7 @@ const Detail = () => {
                     className="mt-8 p-4 bg-green-500 hover:bg-green-600 transition duration-300 w-full text-lg font-bold"
                     startIcon={<FaShoppingCart className="text-2xl" />}
                   >
-                    {isLoading ? <Loading /> : `Book now for ${itemData.price}`}
+                    {isLoading ? <Loading /> : `Book now for ${Number(itemData.price.replace(/[^0-9.-]+/g, "")) + 125}`}
                   </Button>
                 </section>
               </article>
