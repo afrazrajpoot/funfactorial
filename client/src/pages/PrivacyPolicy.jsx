@@ -1,5 +1,5 @@
 import React from "react";
-import Ribbons from "../components/Ribbons";
+
 
 const PrivacyPolicy = () => {
   const privacyPolicyData = [
@@ -51,29 +51,46 @@ const PrivacyPolicy = () => {
     },
   ];
   return (
-    <main className="flex gap-[2vw]">
-      <section className="mt-[1vw] hidden lg:block">
-        <Ribbons />
-      </section>
-
-      <section className="flex flex-col gap-[5vw] lg:gap-[2vw] p-[1vw]">
-        <h1 className="text-[#ed145b] text-[10vw] text-center lg:text-left lg:mt-[2vw] mt-[10vw] lg:text-[2.3vw] font-medium font-ab">
-          PRIVACY POLICY
-        </h1>
-        {privacyPolicyData.map((item, index) => {
-          return (
-            <div key={index}>
-              <h2 className="lg:text-[1.3vw]  text-center lg:text-left font-bold ">
-                {item.title}
+    <div className="container mx-auto px-4 py-8">
+      <h1 className="text-4xl md:text-5xl font-bold text-pink-600 mb-8 text-center md:text-left">
+        Cancellation and Adverse Weather Policy
+      </h1>
+      
+      <div className="space-y-6">
+        {privacyPolicyData.map((section, index) => (
+          <div key={index} className="bg-white rounded-lg shadow-md border border-gray-200">
+            <div className="p-6">
+              <h2 className="text-xl md:text-2xl font-semibold mb-4 text-gray-800">
+                {section.title}
               </h2>
-              <p className="lg:text-[1vw] text-center lg:text-left text-[3.5vw]">
-                {item.info}
-              </p>
+              
+              {section.info && (
+                <p className="text-gray-600 leading-relaxed mb-4">
+                  {section.info}
+                </p>
+              )}
+              
+              {section.lists && (
+                <ul className="list-disc list-inside space-y-3 text-gray-600">
+                  {section.lists.map((item, idx) => (
+                    <li key={idx} className="leading-relaxed pl-4">
+                      <span className="ml-[-1.5rem]">•</span> {item}
+                    </li>
+                  ))}
+                </ul>
+              )}
             </div>
-          );
-        })}
-      </section>
-    </main>
+          </div>
+        ))}
+        
+        <div className="mt-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
+          <p className="text-gray-700 font-medium text-center">
+            Our delivery driver's decision is final. They have the rights to make any cancellations
+            and their decision cannot be overturned.
+          </p>
+        </div>
+      </div>
+    </div>
   );
 };
 

@@ -1,17 +1,19 @@
 import React, { useEffect, useState, useRef } from "react";
 import { motion, AnimatePresence } from 'framer-motion';
+import { CircularProgress } from '@mui/material';
 import Card from "../components/Card";
-import { cardData, products, ribbons } from "../data";
+import { products, ribbons } from "../data";
 import Details from "../components/Details";
 import { useInView } from "react-intersection-observer";
 import { useGlobalState } from "../context/globalState";
-import Popup from "../components/Popup";
-import Ribbons from "../components/Ribbons.jsx"
+import Ribbons from "../components/Ribbons";
+
 const Home = () => {
   const { data, setData, search } = useGlobalState();
   const [popup, showPopup] = useState(false);
   const [activeRibbon, setActiveRibbon] = useState("All Products");
   const [isAnimating, setIsAnimating] = useState(false);
+  const [showRibbons, setShowRibbons] = useState(false); // State to toggle ribbons
   const productsRef = useRef(null);
   
   const { ref, inView } = useInView({
@@ -42,6 +44,28 @@ const Home = () => {
     }));
     setData(productsWithIds);
   }, []);
+
+  const isProductInMainCategories = (product) => {
+    const mainCategories = ribbons
+      .filter(ribbon => ribbon.title !== "All Products")
+      .map(ribbon => ribbon.title.toLowerCase());
+    
+    const productTitle = product.title.toLowerCase();
+    const productDescription = (product.description || '').toLowerCase();
+    
+    return mainCategories.some(category => 
+      productTitle.includes(category.split(' ')[0]) || 
+      productDescription.includes(category.split(' ')[0])
+    );
+  };
+
+  const isAdultContent = (product) => {
+    const adultKeywords = ['Adult', 'Mermaid'];
+    return adultKeywords.some(keyword => 
+      product.title.toLowerCase().includes(keyword.toLowerCase()) || 
+      (product.description || '').toLowerCase().includes(keyword.toLowerCase())
+    );
+  };
 
   useEffect(() => {
     if (search) {
@@ -88,22 +112,21 @@ const Home = () => {
   
     if (ribbonTitle === "All Products") {
       filteredProducts = productsWithIds;
-    } else if (ribbonTitle === "Other Products") {
-      // Simply take the last 20 products
-      filteredProducts = productsWithIds.slice(-20);
-    } else {
+    } 
+    else if (ribbonTitle === "Other Products") {
+      filteredProducts = productsWithIds.filter(product => 
+        !isProductInMainCategories(product) && !isAdultContent(product)
+      );
+    } 
+    else {
       const ribbonWords = ribbonTitle.toLowerCase().split(" ");
       filteredProducts = productsWithIds.filter((item) => {
         const productTitle = item.title.toLowerCase();
-        const productDescription = (item.description || '').toLowerCase();
-        return ribbonWords.some((word) => 
-          productTitle.includes(word) || productDescription.includes(word)
-        );
+        return ribbonWords.some((word) => productTitle.includes(word));
       });
     }
   
     setData([]); 
-  
     setTimeout(() => {
       setData(filteredProducts);
       setIsAnimating(false);
@@ -161,92 +184,118 @@ const Home = () => {
     }
   };
 
+  const ribbonVariants = {
+    hidden: { x: "-100%" },
+    visible: { 
+      x: "0%",
+      transition: { type: "spring", stiffness: 100 }
+    },
+    exit: { x: "-100%", transition: { duration: 0.3 } }
+  };
+
   return (
-    <>
-      {popup && <Popup />}
-      <main className="min-h-screen pb-[5vw]">
-        <section>
-          <section className="grid grid-cols-1 mt-[3vw] lg:grid-cols-2 gap-[10vw]">
-            <article className="w-full">
-              <Details />
-            </article>
-            <article>
-              <div className="grid grid-cols-2 gap-2 pr-[2vw]">
-                {images.map((img, index) => (
-                  <motion.div
-                    key={index}
-                    initial={{ opacity: 0, scale: 0.9 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.5, delay: index * 0.2 }}
-                    className="relative overflow-hidden rounded-lg shadow-lg aspect-square group"
-                  >
-                    <img
-                      src={img}
-                      alt={`Image ${index + 1}`}
-                      className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-                    />
-                    <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-opacity duration-300 flex items-center justify-center">
-                      <span className="text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        View Image
-                      </span>
-                    </div>
-                  </motion.div>
-                ))}
-              </div>
+    <main className="min-h-screen pb-[5vw]">
+      <section>
+        <section className="grid grid-cols-1 mt-[3vw] lg:grid-cols-2 gap-[10vw]">
+          <article className="w-full">
+            <Details />
+          </article>
+          <article>
+            <div className="grid grid-cols-2 gap-2 pr-[2vw]">
+              {images.map((img, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.5, delay: index * 0.2 }}
+                  className="relative overflow-hidden rounded-lg shadow-lg aspect-square group"
+                >
+                  <img
+                    src={img}
+                    alt={`Image ${index + 1}`}
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-opacity duration-300 flex items-center justify-center">
+                    <span className="text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      View Image
+                    </span>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          </article>
+        </section>
+
+        <button
+          onClick={() => setShowRibbons(!showRibbons)}
+          className="lg:hidden mt-4 p-2 ml-[2vw] bg-pink-500 text-white rounded-md"
+        >
+          Cattegories
+        </button>
+
+        <AnimatePresence>
+          {showRibbons && (
+            <motion.section
+              key="mobile-ribbons"
+              initial="hidden"
+              animate="visible"
+              exit="exit"
+              variants={ribbonVariants}
+              className="lg:hidden mt-4 p-4 bg-white shadow-md"
+            >
+              <Ribbons handleRibbonClick={handleRibbonClick} getRibbonClasses={getRibbonClasses} />
+            </motion.section>
+          )}
+        </AnimatePresence>
+
+        <div className="mt-16 pt-[9vw]" ref={productsRef}>
+          <section className="flex flex-col lg:flex-row gap-8">
+            <section className="lg:w-1/4 hidden lg:block">
+              <Ribbons handleRibbonClick={handleRibbonClick} getRibbonClasses={getRibbonClasses} />
+            </section>
+
+            <article className="lg:w-3/4">
+            <AnimatePresence mode="wait">
+  {!isAnimating && data && data.length > 0 ? (
+    <motion.div
+      key="product-grid"
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
+      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"
+    >
+      {data.map((elem, ind) => (
+        <motion.div key={elem.id} variants={itemVariants} layout>
+          <Card {...elem} ind={ind} />
+        </motion.div>
+      ))}
+    </motion.div>
+  ) : !isAnimating && data.length === 0 ? (
+    <motion.div
+      key="no-products"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="flex justify-center items-center mt-4 text-lg font-semibold text-gray-500"
+    >
+      No Products Found
+    </motion.div>
+  ) : (
+    <motion.div
+      key="loading-spinner"
+      className="flex justify-center items-center mt-4"
+    >
+      <CircularProgress />
+    </motion.div>
+  )}
+</AnimatePresence>
+
             </article>
           </section>
-
-          <div className="mt-16 pt-[9vw]" ref={productsRef}>
-            <section className="flex flex-col lg:flex-row gap-8">
-              <section className="lg:w-1/4 hidden lg:block">
-              <Ribbons 
-                activeRibbon={activeRibbon}
-                handleRibbonClick={handleRibbonClick}
-                ribbons={ribbons}
-              />
-              </section>
-            
-              <article className="lg:w-3/4">
-                <AnimatePresence mode="wait">
-                  {!isAnimating && data && data.length > 0 ? (
-                    <motion.div
-                      key="product-grid"
-                      variants={containerVariants}
-                      initial="hidden"
-                      animate="visible"
-                      exit="exit"
-                      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"
-                    >
-                      {data?.map((elem) => (
-                        <motion.div
-                          key={elem.id}
-                          variants={itemVariants}
-                          layout
-                        >
-                          <Card {...elem} />
-                        </motion.div>
-                      ))}
-                    </motion.div>
-                  ) : (
-                    <motion.div
-                      key="no-products"
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      exit={{ opacity: 0 }}
-                      className="flex items-center justify-center h-[200px] w-full"
-                    >
-                      <p className="text-2xl text-gray-500 font-semibold">
-                        {isAnimating ? "Loading..." : "No products found"}
-                      </p>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </article>
-            </section>
-          </div>
-        </section>
-      </main>
-    </>
+        </div>
+      </section>
+    </main>
   );
 };
 

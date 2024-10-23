@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import Card from '../components/Card';
 import { products } from '../data';
 import { useGlobalState } from '../context/globalState';
-import Ribbons from '../components/Ribbons';
+
 
 const AllProducts = () => {
   const { data, setData, search } = useGlobalState();
@@ -21,9 +21,7 @@ const AllProducts = () => {
 
   return (
     <section className='flex gap-[2vw]'>
-      <article className='hidden lg:block'>
-        <Ribbons />
-      </article>
+   
          <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}

@@ -388,10 +388,7 @@ const Detail = () => {
   return (
     <main className="flex mt-8 w-full bg-gray-100 min-h-screen">
 
-      <section className="mt-4 hidden lg:block">
-        <Ribbons />
-      </section>
-      <section className="p-8 w-full lg:max-w-[80vw]">
+      <section className="p-8 w-full lg:max-w-[100vw]">
         {itemData ? (
           <Grow in={true} timeout={800}>
             <div className="bg-white rounded-lg shadow-xl overflow-hidden">

@@ -1,8 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
-import Ribbons from "../components/Ribbons";
 import { DownloadPartiesData } from "../data";
-import { Link } from "react-router-dom";
 
 const DownloadParties = () => {
   const links = [
@@ -12,73 +9,93 @@ const DownloadParties = () => {
     },
     {
       url: "/bouncyCastels",
-      title: "/Bouncy Castles",
+      title: "Bouncy Castles",
     },
     {
       url: "/discoDomes",
-      title: "/Disco domes",
+      title: "Disco Domes",
     },
     {
       url: "/softPlay",
-      title: "/Soft play",
+      title: "Soft Play",
     },
   ];
 
   return (
-    <main className="">
-      <section className="mt-[1vw] flex gap-[2vw] items-start">
-        <aside className="hidden lg:block">
-          <Ribbons />
-        </aside>
-        <section>
-          <p className="text-[#ed145b] mt-[10vw] lg:mt-[1vw] text-center lg:text-left lg:text-[2.3vw] font-medium font-ab text-[10vw]">
-            DOWNLOAD PARTY INVITATIONS
-          </p>
-          <div className="mt-[1vw]">
-            <p className=" lg:text-[1vw] text-center lg:text-left">
-              Use the links below to download invites for your party!
+    <main className="container mx-auto px-4 py-8">
+      <div className="max-w-6xl mx-auto">
+        {/* Hero Section */}
+        <div className="text-center mb-12">
+          <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-500 to-purple-600 text-transparent bg-clip-text mb-6">
+            Party Invitations
+          </h1>
+          <div className="space-y-4">
+            <p className="text-lg md:text-xl text-gray-700">
+              Download and customize perfect invites for your special celebration!
             </p>
-            <p className="lg:text-[1vw] text-center lg:text-left mt-[2vw]">
-              Free for everyone to download and print.
+            <p className="text-lg md:text-xl text-gray-700">
+              <span className="font-semibold text-purple-600">100% Free</span> for everyone to download and print.
             </p>
           </div>
-          <div className="flex ">
-            {links.map((elem, ind) => (
-              <Link
-                to={elem.url}
-                key={ind}
-                className="text-[#256ec2] text-[3.5vw] px-[0.5vw]  lg:text-[1vw] hover:text-[black] transition-all duration-300"
-              >
-                {elem.title}
-              </Link>
-            ))}
-          </div>
-          <article className="grid grid-cols-2 lg:grid-cols-4 lg:ml-[0vw] gap-[5vw]  p-[5vw]  lg:gap-[2vw] mt-[3vw] lg:p-[2vw]">
-            {DownloadPartiesData?.map((elem, ind) => (
-              <motion.main
-                key={ind}
-                className="shadow-lg  bg-[#def0fc] rounded-md"
-                whileHover={{
-                  scale: 1.05,
-                  boxShadow: "0 10px 20px rgba(0, 0, 0, 0.2)",
-                  transition: { duration: 0.3 },
-                }}
-              >
-                <p className="text-[#256ec2] lg:text-[1.3vw] font-bold text-center p-[3vw] lg:p-[1vw]">
+        </div>
+
+        {/* Navigation Links */}
+        <div className="flex flex-wrap justify-center gap-4 mb-12">
+          {links.map((elem, ind) => (
+            <a
+              key={ind}
+              href={elem.url}
+              className="px-4 py-2 rounded-md border border-gray-200 hover:bg-purple-50 hover:border-purple-200 transition-all duration-300 text-gray-700 hover:text-purple-700"
+            >
+              {elem.title}
+            </a>
+          ))}
+        </div>
+
+        {/* Download Cards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {DownloadPartiesData?.map((elem, ind) => (
+            <div 
+              key={ind}
+              className="group bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+            >
+              {/* Card Header */}
+              <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-4 rounded-t-lg">
+                <h3 className="text-xl text-center text-gray-800 font-semibold">
                   {elem.title}
-                </p>
-                <motion.figure className="w-full lg:max-w-[15vw] p-[1vw] bg-white rounded-md overflow-hidden cursor-pointer">
-                  <img src={elem.img} alt="img" className="w-full object-cover" />
-                  <p className="text-center text-[1.2vw]">
-                    Download: <span className="text-[#256ec2] font-bold">PDF</span> /{" "}
-                    <span className="text-[#256ec2] font-bold">JPG</span>
-                  </p>
-                </motion.figure>
-              </motion.main>
-            ))}
-          </article>
-        </section>
-      </section>
+                </h3>
+              </div>
+
+              {/* Card Content */}
+              <div className="p-6">
+                <div className="relative overflow-hidden rounded-lg">
+                  <img
+                    src={elem.img}
+                    alt={elem.title}
+                    className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
+                </div>
+                
+                <div className="mt-4 flex justify-center gap-4">
+                  <button 
+                    className="px-4 py-2 rounded-md border border-gray-200 hover:bg-blue-50 hover:border-blue-200 transition-all duration-300 flex items-center space-x-2"
+                    onClick={() => window.open(elem.pdfUrl)}
+                  >
+                    <span className="text-blue-600">Download PDF</span>
+                  </button>
+                  <button
+                    className="px-4 py-2 rounded-md border border-gray-200 hover:bg-blue-50 hover:border-blue-200 transition-all duration-300 flex items-center space-x-2"
+                    onClick={() => window.open(elem.jpgUrl)}
+                  >
+                    <span className="text-blue-600">Download JPG</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </main>
   );
 };

@@ -12,6 +12,7 @@ const Card = ({ title, price, ind,image, rating = 4.5, w }) => {
     setItemDetail({ name: title, price: price });
     navigate(`/${ind}`);
   };
+  console.log(ind,'index')
   return (
     <motion.div
       initial={{ opacity: 0 }}

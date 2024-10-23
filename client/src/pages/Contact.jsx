@@ -21,12 +21,7 @@ const getCurrentYearMonth = () => {
 };
 
 const Contact = () => {
-  const postCodes = [
-    "BD11", "HD8", "LS1", "LS2", "LS3", "LS4", "LS5", "LS6", "LS7",
-    "LS8", "LS9", "LS10", "LS11", "LS12", "LS13", "LS14", "LS15",
-    "LS16","LS17","LS18","LS19","LS20","WF1","WF2","WF3","WF4",
-    "WF5","WF6","WF7","WF8","WF9", "WF10",
-  ];
+
 
 
   const { year, month } = getCurrentYearMonth();
@@ -69,16 +64,9 @@ const Contact = () => {
     }
   
     // Postal code validation
-    const isValidPostalCode = postCodes.some(
-      (code) => code === data.postalCode
-    );
+   
     
-    if (!isValidPostalCode) {
-      toast.error(`Invalid delivery area: ${data.postalCode}`, {
-        position: "top-center",
-      });
-      return; // Prevent submission
-    }
+  
   
     try {
       setLoading(true);
@@ -104,7 +92,7 @@ const Contact = () => {
       // Payment processing
       const {
         data: { sessionId },
-      } = await axios.post("http://localhost:9000/payment-sheet", {
+      } = await axios.post("https://www.funrides.co.uk/payment-sheet", {
         amount: amount + 125 ,
         currency: "gbp",
         img: itemDetail?.image.length < 6 ? `https://www.funrides.co.uk/images/${itemDetail?.image}` : `https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_700/${itemDetail?.image}`,
@@ -155,11 +143,7 @@ const Contact = () => {
           gap: 8,
         }}
       >
-        <Box
-          sx={{ display: { xs: "none", lg: "block" }, width: { lg: "25%" } }}
-        >
-          <Ribbons />
-        </Box>
+      
         <Box sx={{ flex: 1 }}>
           <Typography
             variant="h2"
