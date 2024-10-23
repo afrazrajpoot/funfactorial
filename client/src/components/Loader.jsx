@@ -29,3 +29,14 @@ const Loading = ({ h, w }) => {
 };
 
 export default Loading;
+
+
+// import React from "react";
+// import { Icon } from '@iconify/react'
+// const Loading = ({ h, w }) => {
+//   return (
+//     <div className="w-full h-screen flex justify-center items-center">
+//     <Icon className="w-10 h-10 text-[#F97316]" icon="eos-icons:bubble-loading" />
+//   </div>
+//   );
+// };
