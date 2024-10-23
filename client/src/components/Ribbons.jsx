@@ -15,7 +15,7 @@ const Ribbons = ({ handleRibbonClick, getRibbonClasses }) => {
           onClick={() => handleRibbonClick(elem.title)}
           className={`${getRibbonClasses(elem.title)} bg-[#b694c8] p-[3vw] lg:p-2 rounded w-full lg:max-w-[20vw] max-w-[100vw]`} // Apply bg color here
         >
-          <p className="transition-all duration-300  text-black ml-[2vw] font-ab font-bold text-[3vw] lg:text-[1.5vw]">
+          <p className="transition-all duration-300 text-white  text-black ml-[2vw] font-ab font-bold text-[3vw] lg:text-[1.5vw]">
             {elem.title}
           </p>
         </motion.div>
@@ -28,7 +28,7 @@ const Ribbons = ({ handleRibbonClick, getRibbonClasses }) => {
         onClick={() => handleRibbonClick("Other Products")}
         className={`${getRibbonClasses("Other Products")} bg-[#b694c8] lg:p-2 p-[3vw] rounded w-full lg:max-w-[20vw] max-w-[100vw]`} // Apply bg color here
       >
-        <p className="transition-all duration-300 text-black ml-[2vw] font-ab font-bold text-[3vw] lg:text-[1.5vw]">
+        <p className="transition-all duration-300 text-white  ml-[2vw] font-ab font-bold text-[3vw] lg:text-[1.5vw]">
           Other Products
         </p>
       </motion.div>

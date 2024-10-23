@@ -112,13 +112,9 @@ const Home = () => {
   
     if (ribbonTitle === "All Products") {
       filteredProducts = productsWithIds;
-    } 
-    else if (ribbonTitle === "Other Products") {
-      filteredProducts = productsWithIds.filter(product => 
-        !isProductInMainCategories(product) && !isAdultContent(product)
-      );
-    } 
-    else {
+    } else if (ribbonTitle === "Other Products") {
+      filteredProducts = productsWithIds;
+    } else {
       const ribbonWords = ribbonTitle.toLowerCase().split(" ");
       filteredProducts = productsWithIds.filter((item) => {
         const productTitle = item.title.toLowerCase();
@@ -126,18 +122,22 @@ const Home = () => {
       });
     }
   
+    // Limit the results to the last 30 products
+    filteredProducts = filteredProducts.slice(-30); 
+  
     setData([]); 
     setTimeout(() => {
       setData(filteredProducts);
       setIsAnimating(false);
     }, 300);
   };
+  
 
   const getRibbonClasses = (ribbonTitle) => {
     const baseClasses = "relative w-[23vw] p-[1vw] rounded-md transition-all duration-300 hover:shadow-lg hover:shadow-pink-300/50 hover:-translate-y-1 cursor-pointer";
     const activeClasses = activeRibbon === ribbonTitle 
-      ? "bg-[#d44a8a] ring-2 ring-pink-400" 
-      : "bg-[#f06eaa]";
+      ? "bg-[#b694c8] ring-2 ring-pink-400" 
+      : "bg-[#b694c8]";
     return `${baseClasses} ${activeClasses}`;
   };
 

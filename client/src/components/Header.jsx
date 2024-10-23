@@ -206,7 +206,7 @@ const Header = () => {
             {index === 5 && (
               <div className="flex lg:translate-x-[15vw] w-full lg:max-w-[18vw]  items-center bg-white border-[1px] pr-[1vw] pl-[0.5vw] rounded-md relative">
                 <Search className="text-[#40327a] w-5 h-5 mr-[0.5vw]" />
-                <form action="" className="w-[15vw]">
+                <form action="" className="lg:w-[15vw] w-full">
                   <input
                     type="text"
                     onChange={handleSearch}

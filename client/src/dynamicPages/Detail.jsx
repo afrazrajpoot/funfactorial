@@ -189,7 +189,7 @@ const TestsContent = ({ itemData }) => (
 
 const ImagePreview = ({ image }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-
+console.log(image,'image')
   const nextImage = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % image.length);
   };
@@ -206,6 +206,20 @@ const ImagePreview = ({ image }) => {
     imgUrl='/images/4.png'
   }else if(image[0] ==='5.png'){
     imgUrl='/images/5.png'
+  }else if(image[0] ==='/images/zorbBalls.jpg'){
+imgUrl = '/images/zorbBalls.jpg'
+  }else if(image[0] =='/images/fountain.jpg'){
+    imgUrl='/images/fountain.jpg'
+  }else if( image[0] == '/images/img2.jpg') {
+    imgUrl ='/images/img2.jpg'
+  }else if(image[0] ==='/images/megaWave.png'){
+    imgUrl='/images/megaWave.png'
+  }else if(image[0] === '/images/toddlerSlide.jpg'){
+    imgUrl='/images/toddlerSlide.jpg'
+  }else if(image[0] ==='/images/bouncyCastle.png'){
+    imgUrl='/images/bouncyCastle.png'
+  }else if(image[0] === '/images/shootOut.jpg'){
+    imgUrl ='/images/shootOut.jpg'
   }
   return (
     <div className="relative w-full h-64 lg:h-96">
@@ -248,6 +262,20 @@ const ImageModal = ({ image, onClose }) => {
     imgUrl='/images/4.png'
   }else if(image ==='5.png'){
     imgUrl='/images/5.png'
+  }else if(image ==='/images/zorbBalls.jpg'){
+    imgUrl='/images/zorbBalls.jpg'
+  }else if(image ==='/images/fountain.jpg'){
+    imgUrl ='/images/fountain.jpg'
+  }else if(image ==='/images/img2.jpg'){
+    imgUrl ='/images/img2.jpg'
+  }else if(image === '/images/megaWave.png'){
+    imgUrl='/images/megaWave.png'
+  }else if(image === '/images/toddlerSlide.jpg'){
+    imgUrl='/images/toddlerSlide.jpg'
+  }else if(image === '/images/bouncyCastle.png'){
+    imgUrl='/images/bouncyCastle.png'
+  }else if(image === '/images/shootOut.jpg'){
+    imgUrl ='/images/shootOut.jpg'
   }
   return (
     <motion.div
@@ -287,6 +315,20 @@ const ImageGrid = ({ images }) => {
     imgUrl='/images/4.png'
   }else if(images[0]==='5.png'){
     imgUrl='/images/5.png'
+  }else if(images[0]==='/images/zorbBalls.jpg'){
+imgUrl='/images/zorbBalls.jpg'
+  }else if(images[0] === '/images/fountain.jpg'){
+    imgUrl='/images/fountain.jpg'
+  }else if(images[0] ==='/images/img2.jpg'){
+imgUrl='/images/img2.jpg'
+  }else if(images[0] === '/images/megaWave.png'){
+    imgUrl='/images/megaWave.png'
+  }else if(images[0] === '/images/toddlerSlide.jpg'){
+    imgUrl='/images/toddlerSlide.jpg'
+  }else if(images[0] === '/images/bouncyCastle.png'){
+    imgUrl='/images/bouncyCastle.png'
+  }else if(images[0] === '/images/shootOut.jpg'){
+    imgUrl='/images/shootOut.jpg'
   }
   return (
     <>
