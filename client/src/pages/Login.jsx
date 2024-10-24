@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Eye, EyeOff, Lock, Mail, ShieldAlert } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'sonner';
+import CryptoJS from 'crypto-js'; // Import CryptoJS
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -19,6 +20,16 @@ const Login = () => {
       // Check admin credentials
       if (email === 'admin@gmail.com' && password === 'admin') {
         await new Promise(resolve => setTimeout(resolve, 1000)); // Simulate API call
+        
+        // Encrypt the email and password
+        const SECRET_KEY = import.meta.env.VITE_SECRET_KEY;
+        const encryptedEmail = CryptoJS.AES.encrypt(email, SECRET_KEY).toString();
+        const encryptedPassword = CryptoJS.AES.encrypt(password, SECRET_KEY).toString();
+
+        // Save encrypted credentials in localStorage
+        localStorage.setItem('adminEmail', encryptedEmail);
+        localStorage.setItem('adminPassword', encryptedPassword);
+
         toast.success('Login successful!');
         navigate('/admin');
       } else {

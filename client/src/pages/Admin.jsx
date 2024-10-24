@@ -1,12 +1,42 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useGetBookingDetailQuery } from '../store/storeApi';
-import { FaUsers, FaCalendarCheck, FaMoneyBillWave, FaSpinner, FaInfoCircle, FaTimes } from 'react-icons/fa';
+import { FaUsers, FaCalendarCheck, FaMoneyBillWave, FaSpinner, FaTimes } from 'react-icons/fa';
+import CryptoJS from 'crypto-js';
+import { useNavigate } from 'react-router-dom'; // Use react-router-dom for routing
 
 const Admin = () => {
   const { isLoading, isError, error, isSuccess, data } = useGetBookingDetailQuery();
   const [selectedBooking, setSelectedBooking] = useState(null);
-console.log(data,'my data')
+  const navigate = useNavigate(); // Initialize navigate for redirection
+
+  // Replace with your actual encryption key
+  const encryptionKey = import.meta.env.VITE_SECRET_KEY; 
+
+  // Predefined admin credentials
+  const adminEmail = 'admin@gmail.com';
+  const adminPassword = 'admin';
+
+  useEffect(() => {
+    // Retrieve and decrypt the stored credentials
+    const storedEmail = localStorage.getItem('adminEmail');
+    const storedPassword = localStorage.getItem('adminPassword');
+
+    if (storedEmail && storedPassword) {
+      const decryptedEmail = CryptoJS.AES.decrypt(storedEmail, encryptionKey).toString(CryptoJS.enc.Utf8);
+      const decryptedPassword = CryptoJS.AES.decrypt(storedPassword, encryptionKey).toString(CryptoJS.enc.Utf8);
+
+      // Check if the decrypted credentials match the predefined ones
+      if (decryptedEmail !== adminEmail || decryptedPassword !== adminPassword) {
+        // Redirect to home if credentials do not match
+        navigate('/'); // Change to your home route
+      }
+    } else {
+      // Redirect if no credentials are found
+      navigate('/');
+    }
+  }, [navigate]);
+
   if (isLoading) {
     return (
       <div className="flex items-center justify-center h-screen">
@@ -154,10 +184,10 @@ console.log(data,'my data')
                   <td className="p-3">${booking.total.toFixed(2)}</td>
                   <td className="p-3">
                     <button
+                      className="text-blue-600 hover:underline"
                       onClick={() => setSelectedBooking(booking)}
-                      className="text-blue-500 hover:text-blue-700"
                     >
-                      <FaInfoCircle />
+                      View Details
                     </button>
                   </td>
                 </motion.tr>
@@ -169,13 +199,11 @@ console.log(data,'my data')
 
       <AnimatePresence>
         {selectedBooking && (
-          <BookingModal
-            booking={selectedBooking}
-            onClose={() => setSelectedBooking(null)}
-          />
+          <BookingModal booking={selectedBooking} onClose={() => setSelectedBooking(null)} />
         )}
       </AnimatePresence>
     </motion.div>
   );
 };
-export default Admin
+
+export default Admin;
