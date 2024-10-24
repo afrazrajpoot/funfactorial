@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { navData } from '../data'; // Ensure navData is structured correctly
 
 const MobileHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
-
+const location = useLocation()
   return (
-    <div className="relative z-10 lg:hidden">
+    <div className={`relative z-10 lg:hidden ${location.pathname === '/login' && 'hidden'}`}>
       <header className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-4 flex justify-between items-center shadow-md">
         <Link to="/" className="block">
           <p className="font-genty text-[#f06eaa] text-[6vw] text-center">Fun</p>

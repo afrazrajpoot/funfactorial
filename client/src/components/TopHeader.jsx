@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import MobileHeader from "./MobileHeader";
 import Slider from "react-slick";
 import { slideImages } from "../data";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const TopHeader = () => {
+  const location = useLocation()
+  console.log(location.pathname,'path name')
   const sliderSettings = {
     dots: true,
     infinite: true,
@@ -23,12 +25,15 @@ const TopHeader = () => {
       img: "https://www.funfactorleeds.co.uk/theme/phone-number-1@1x.png",
     },
   ];
-
+const [showHeader,setShowHeader] = useState()
+useEffect(()=>{
+  setShowHeader(location.pathname)
+},[])
   return (
     <>
       <MobileHeader />
 
-      <div className="relative overflow-hidden">
+      <div className={`relative overflow-hidden ${showHeader === '/login' && 'hidden'}`}>
         {/* <Slider {...sliderSettings} className="h-[50vw] lg:h-[25vw]">
           {slideImages.map((image, index) => (
             <div key={index} className="relative h-[50vw] lg:h-[25vw]">

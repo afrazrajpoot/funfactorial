@@ -6,6 +6,8 @@ import Loading from "./components/Loader";
 import { Toaster } from "sonner";
 import Success from "./pages/Success";
 import AllProducts from "./pages/AllProducts";
+import SearchProducts from "./pages/SearchProducts";
+import Login from "./pages/Login";
 
 
 // Lazy load the pages
@@ -66,7 +68,9 @@ const App = () => {
         <Route path="/booking" element={<BookingForm />} />
         <Route path="/:id" element={<Detail />} />
         <Route path="/success" element={<Success />} />
-        <Route path="admin" element ={<Admin />} />
+        <Route path="/admin" element ={<Admin />} />
+        <Route path="/search-products" element={<SearchProducts />} />
+        <Route path ='/login' element={<Login />} />
       </Routes>
     </Suspense>
   );

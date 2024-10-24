@@ -6,7 +6,7 @@ import { FaUsers, FaCalendarCheck, FaMoneyBillWave, FaSpinner, FaInfoCircle, FaT
 const Admin = () => {
   const { isLoading, isError, error, isSuccess, data } = useGetBookingDetailQuery();
   const [selectedBooking, setSelectedBooking] = useState(null);
-
+console.log(data,'my data')
   if (isLoading) {
     return (
       <div className="flex items-center justify-center h-screen">

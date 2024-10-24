@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { navData } from "../data"; // Assuming navData contains your navigation items
 import { Search } from "lucide-react";
@@ -18,15 +18,16 @@ const Header = () => {
   const { search, setSearch } = useGlobalState();
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [deliveryArea, setDeliveryArea] = useState("");
-  const [firstDate, setFirstDate] = useState("");
+  const [category, setCategory] = useState("");
   const [suggestions, setSuggestions] = useState([]);
 
   const handleDeliveryChange = (event) => {
     setDeliveryArea(event.target.value);
   };
 
-  const handleClickFirstDate = (event) => {
-    setFirstDate(event.target.value);
+  const handleCategory = (event) => {
+    setCategory(event.target.value);
+    console.log(event.target.value, 'selected category');
   };
 
   const handleSearch = (e) => {
@@ -103,23 +104,30 @@ const Header = () => {
       "WF10",
     ],
     [
-      "New For 2024",
-      "Indoor Soft Play Packages",
-      "Christmas Inflatable",
-      "Bouncy Castles",
-      "Disco Domes",
-      "Assault Course",
-      "Bouncy & Slides Combos",
-      "ADULT CASTLES",
-      "Soft Play",
-      "Party Add-ons",
-      "Inflatable Games",
+      "Fun Fairs",
+      "Birthday Parties",
+      "Indoor Bouncy Castles",
+      "Bouncy castels",
+      "Go Karting",
+      "Zorb balls",
+      "Football Penalty Shoutout",
+      "Obstode Assault Course",
+      "Other inflatables",
+      "Disco Dome",
+      "Inflatable Slides",
       "Generator Hire Section",
+      'Obstacle Assult Course',
+      'All Products',
+      'Other Products'
     ],
   ];
-
+const [showHeader,setShowHeader] = useState()
+const location = useLocation()
+  useEffect(()=>{
+    setShowHeader(location.pathname)
+  },[])
   return (
-    <header>
+    <header className={`${showHeader === '/login' && 'hidden'}`}>
       <article>
         <section>
           <article className="bg-[#b694c8] mt-[4vw] mb-[2vw] p-[2vw] w-full max-w-[95vw] lg:mt-[1vw] m-auto rounded-md flex lg:justify-around lg:flex-row flex-col lg:gap-[0vw] gap-[4vw]">
@@ -139,8 +147,8 @@ const Header = () => {
                   margin="dense"
                   InputLabelProps={{ shrink: true }}
                   className="rounded-md w-full lg:max-w-[15vw] bg-white"
-                  value={deliveryArea} // Bind the value of the TextField to deliveryArea state
-                  onChange={handleDeliveryChange} // Update state on input change
+                  value={deliveryArea}
+                  onChange={handleDeliveryChange}
                 />
               </FormControl>
               <TextField
@@ -151,12 +159,13 @@ const Header = () => {
               />
               <FormControl className="w-full lg:max-w-[15vw]">
                 <InputLabel shrink={false}>
-                  {!firstDate && "Select Category First"}
+                  {!category && "Select Category First"}
                 </InputLabel>
                 <Select
-                  value={firstDate}
-                  onChange={handleClickFirstDate}
+                  value={category}
+                  onChange={handleCategory}
                   className="bg-white rounded-md w-full"
+                  displayEmpty
                 >
                   {selectOptions[1].map((option, index) => (
                     <MenuItem key={index} value={option}>
@@ -165,7 +174,9 @@ const Header = () => {
                   ))}
                 </Select>
               </FormControl>
-              <Button
+            <Link to={`/search-products?search=${category}`}>
+            <Button
+               
                 variant="contained"
                 className="bg-[#40327a] lg:p-[1vw] h-[7vh] w-full lg:max-w-[10vw] rounded-md mt-[0.3vw]"
                 style={{
@@ -176,12 +187,13 @@ const Header = () => {
               >
                 Search
               </Button>
+            </Link>
             </form>
           </article>
         </section>
       </article>
       <nav
-        className={`bg-[#b694c8]  lg:flex gap-[3vw] shadow-lg p-[4vw] lg:p-[2vw] justify-center ${
+        className={`bg-[#b694c8] lg:flex gap-[3vw] shadow-lg p-[4vw] lg:p-[2vw] justify-center ${
           scrollPosition > 500 && "mt-[-1.1px] opacity-95"
         } transition-all duration-300 ${
           scrollPosition > 500 ? "sticky left-0 top-0 w-full z-50" : ""
@@ -204,7 +216,7 @@ const Header = () => {
               </motion.div>
             </Link>
             {index === 5 && (
-              <div className="flex lg:translate-x-[15vw] w-full lg:max-w-[18vw]  items-center bg-white border-[1px] pr-[1vw] pl-[0.5vw] rounded-md relative">
+              <div className="flex lg:translate-x-[15vw] w-full lg:max-w-[18vw] items-center bg-white border-[1px] pr-[1vw] pl-[0.5vw] rounded-md relative">
                 <Search className="text-[#40327a] w-5 h-5 mr-[0.5vw]" />
                 <form action="" className="lg:w-[15vw] w-full">
                   <input

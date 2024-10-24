@@ -115,6 +115,7 @@ const Home = () => {
       filteredProducts = productsWithIds;
     } else if (ribbonTitle === "Other Products") {
       filteredProducts = productsWithIds;
+      filteredProducts = filteredProducts.slice(-30); 
     } else {
       const ribbonWords = ribbonTitle.toLowerCase().split(" ");
       filteredProducts = productsWithIds.filter((item) => {
@@ -124,7 +125,7 @@ const Home = () => {
     }
   
     // Limit the results to the last 30 products
-    filteredProducts = filteredProducts.slice(-30); 
+  
   
     setData([]); 
     setTimeout(() => {
