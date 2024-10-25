@@ -11,6 +11,7 @@ import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 import Ribbons from "../components/Ribbons";
 import { contactData, contactFormData } from "../data";
 import { useGlobalState } from "../context/globalState";
+import Layout from "../components/Layout";
 
 const getCurrentYearMonth = () => {
   const now = new Date();
@@ -134,7 +135,8 @@ const Contact = () => {
     setDecryptedData(decryptedData);
   }, [setItemDetail]);
   return (
-    <LocalizationProvider dateAdapter={AdapterDateFns}>
+   <Layout>
+     <LocalizationProvider dateAdapter={AdapterDateFns}>
       <Box
         sx={{
           display: "flex",
@@ -256,6 +258,7 @@ const Contact = () => {
         </Box>
       </Box>
     </LocalizationProvider>
+   </Layout>
   );
 };
 

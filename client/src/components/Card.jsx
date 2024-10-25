@@ -12,7 +12,7 @@ const Card = ({ title, price, ind,image, rating = 4.5, w }) => {
     setItemDetail({ name: title, price: price });
     navigate(`/${ind}`);
   };
-  console.log(ind,'index')
+  // console.log(ind,'index')
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -31,7 +31,63 @@ const Card = ({ title, price, ind,image, rating = 4.5, w }) => {
         alt={title}
         className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
       />
-      ) : 
+      ): title === 'Go karts' ? (
+        <img
+        src={`/images/img2.jpg`}
+        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
+        alt={title}
+        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+      />
+      ):
+      title === 'Zorb Balls' ? (
+        <img
+        src={`/images/zorbBalls.jpg`}
+        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
+        alt={title}
+        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+      />
+      ):
+      title === 'MEGA WAVE BOUNCY SLIDE' ? (
+        <img
+        src={`/images/megaWave.png`}
+        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
+        alt={title}
+        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+      />
+      ):
+      title === 'TODDLER SLIDE' ? (
+        <img
+        src={`/images/toddlerSlide.jpg`}
+        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
+        alt={title}
+        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+      />
+      ):
+      title === 'Bouncy Castle' ? (
+        <img
+        src={`/images/bouncyCastle.png`}
+        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
+        alt={title}
+        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+      />
+      ):
+      title === 'Penalty Shoot Out' ? (
+        <img
+        src={`/images/shootOut.jpg`}
+        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
+        alt={title}
+        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+      />
+      ):
+      title === 'Chocolate Fountain' ? (
+        <img
+        src={`/images/fountain.jpg`}
+        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
+        alt={title}
+        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
+      />
+      ):
+    
       title === '3D Dinosaur Bouncy Castle With Front Slide' ? (
         <img
         src={`/images/dainosor-gr.png`}
@@ -67,7 +123,7 @@ const Card = ({ title, price, ind,image, rating = 4.5, w }) => {
       )
       : (
       <img
-        src={`https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_700/${image?.url}`}
+        src={`https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_700/${image?.url}` || image?.img}
         onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
         alt={title}
         className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"

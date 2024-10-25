@@ -47,9 +47,9 @@ const bookingSchema = new mongoose.Schema(
       type: itemSchema,
       required: true,
     },
-    book: {
-      type: Boolean,
-      default: false,
+    status: {
+      type: String,
+      default: 'pendenig',
     },
     total: {
       type: Number,

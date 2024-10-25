@@ -12,7 +12,7 @@ export const storeApi = createApi({
         method: "POST",
         body: data,
       }),
-      invalidatesTags:['booking']
+      // invalidatesTags:['booking']
     }),
     getBookingDetail: builder.query({
       query: () => ({
@@ -28,7 +28,15 @@ export const storeApi = createApi({
         body: data,
       }),
     }),
+    approvebooking: builder.mutation({
+      query: (data) => ({
+        url: "/api/v1/approve-booking",
+        method: "POST",
+        body: data,
+      }),
+      invalidatesTags:['booking']
+    }),
   }),
 });
 
-export const { useCreateBookingMutation,useAvalbilityMutation,useGetBookingDetailQuery } = storeApi;
+export const { useCreateBookingMutation,useAvalbilityMutation,useGetBookingDetailQuery ,useApprovebookingMutation} = storeApi;

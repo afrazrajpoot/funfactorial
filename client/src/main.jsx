@@ -24,8 +24,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <GlobalState>
           <Elements stripe={stripePromise}>
             <main className="bg-white font-Genty" style={{ backgroundAttachment: "fixed" }}>
-              <TopHeader />
-              <Header />
+              {/* <TopHeader />
+              <Header /> */}
               <Toaster />
               <App />
               {/* <Footer /> */}

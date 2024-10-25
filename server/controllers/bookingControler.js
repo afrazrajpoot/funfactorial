@@ -26,11 +26,21 @@ exports.createBooking = async (req, res, next) => {
       throw new CustomError("Item price must be a valid number", 400);
     }
 
-    // Validate and parse startDate and endDate
-    const start = new Date(startDate);
-    const end = new Date(endDate);
-    const currentDate = new Date();
+    // Parse dates and ensure they're valid
+    let start, end;
+    try {
+      start = new Date(startDate);
+      end = new Date(endDate);
+      
+      // Validate that the dates are valid
+      if (isNaN(start.getTime()) || isNaN(end.getTime())) {
+        throw new Error('Invalid date format');
+      }
+    } catch (error) {
+      throw new CustomError("Invalid date format provided", 400);
+    }
 
+    const currentDate = new Date();
     if (start < currentDate.setHours(0, 0, 0, 0)) {
       throw new CustomError("Start date cannot be in the past", 400);
     }
@@ -70,9 +80,21 @@ exports.createBooking = async (req, res, next) => {
 
     const savedBooking = await newBooking.save();
 
-    // Send confirmation email
-    // await sendEmail(savedBooking);
+    // Format dates for email template - use simple date strings
+    const templateData = {
+      name: savedBooking.name,
+      itemDetail: savedBooking.itemDetail,
+      startDate: start.toString(), // Convert to string format
+      endDate: end.toString(),     // Convert to string format
+      total: savedBooking.total,
+      admin:true
+    };
 
+    // Send confirmation email after booking is created
+    const subject = `Booking Confirmation for ${itemName}`;
+    await sendEmail('funride907@gmail.com', subject, templateData);
+
+    // Respond to the client
     res.status(201).json({
       message: `Booking successful for ${itemName} from ${start.toDateString()} to ${end.toDateString()}`,
       booking: savedBooking,
@@ -83,28 +105,9 @@ exports.createBooking = async (req, res, next) => {
   }
 };
 
-async function sendBookingConfirmationEmail(booking) {
-  const { email, name, phone, address, startDate, endDate, time, itemDetail, total, days } =
-    booking;
-  const subject = "Booking Confirmation";
-  const text = "Your booking has been confirmed!";
-  const html = `
-    <b>Your booking details:</b><br>
-    Name: ${name}<br>
-    Email: ${email}<br>
-    Phone: ${phone}<br>
-    Address: ${address}<br>
-    Start Date: ${startDate}<br>
-    End Date: ${endDate}<br>
-    Time: ${time || "N/A"}<br>
-    Item: ${itemDetail.name}<br>
-    Price per day: ${itemDetail.price}<br>
-    Number of days: ${days}<br>
-    Total Price: ${total}
-  `;
 
-  await sendEmail(email, subject, text, html);
-}
+
+
 exports.checkinAvailibility = async (req, res, next) => {
   try {
     const { itemName } = req.body;
@@ -112,7 +115,7 @@ exports.checkinAvailibility = async (req, res, next) => {
     const conflictingBookings = await Booking.findOne({
       "itemDetail.name": itemName,
     });
-    console.log(conflictingBookings, "single booking");
+    // console.log(conflictingBookings, "single booking");
     // If no booking is found, it means the item is available
     if (!conflictingBookings) {
       return next(new CustomError("Booking available", 404));
@@ -143,6 +146,35 @@ exports.getBookingDetail = async (req,res,next)=>{
     })
   }catch(err){
     console.error("Error getting booking detail:", err);
+    next(err); // Pass the correct error object
+  }
+}
+exports.approveBooking = async(req,res,next)=>{
+  try{
+    const {email,id} = req.body;
+    const savedBooking = await Booking.findById(id);
+    if(!savedBooking){
+      return next(new CustomError('No booking found',404))
+    }
+
+    savedBooking.status = 'approved';
+    await savedBooking.save();
+    const templateData = {
+      name: savedBooking.name,
+      itemDetail: savedBooking.itemDetail,
+      startDate: savedBooking?.start?.toString(), // Convert to string format
+      endDate: savedBooking?.end?.toString(),     // Convert to string format
+      total: savedBooking.total,
+      user :true
+    };
+    const subject = `Booking Confirmation for ${templateData?.itemDetail?.name}`;
+    await sendEmail(email, subject, templateData);
+    res.status(200).json({
+      message: 'Booking approved',
+      savedBooking
+    })
+  }catch(err){
+    console.error("Error approving booking:", err);
     next(err); // Pass the correct error object
   }
 }

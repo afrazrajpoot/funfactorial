@@ -1,4 +1,5 @@
 import React from 'react';
+import Layout from '../components/Layout';
 
 const Cancellations = () => {
   const cancellationData = [
@@ -38,7 +39,8 @@ const Cancellations = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8">
+  <Layout>
+      <div className="container mx-auto px-4 py-8">
       <h1 className="text-4xl md:text-5xl font-bold text-pink-600 mb-8 text-center md:text-left">
         Cancellation and Adverse Weather Policy
       </h1>
@@ -78,6 +80,7 @@ const Cancellations = () => {
         </div>
       </div>
     </div>
+  </Layout>
   );
 };
 
