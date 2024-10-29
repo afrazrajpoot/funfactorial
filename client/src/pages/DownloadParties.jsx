@@ -9,7 +9,7 @@ const DownloadParties = () => {
       title: "Back to Home Page",
     },
     {
-      url: "/bouncyCastels",
+      url: "/bouncycastles",
       title: "Bouncy Castles",
     },
     {

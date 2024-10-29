@@ -107,7 +107,7 @@ const Header = () => {
       "Fun Fairs",
       "Birthday Parties",
       "Indoor Bouncy Castles",
-      "Bouncy castels",
+      "Bouncy castles",
       "Go Karting",
       "Zorb balls",
       "Football Penalty Shoutout",

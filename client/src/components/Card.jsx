@@ -10,9 +10,9 @@ const Card = ({ title, price, ind,image, rating = 4.5, w }) => {
 
   const handleClick = () => {
     setItemDetail({ name: title, price: price });
-    navigate(`/${ind}`);
+    navigate(`/${title}`);
   };
-  // console.log(ind,'index')
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -134,17 +134,10 @@ const Card = ({ title, price, ind,image, rating = 4.5, w }) => {
       <div className="absolute bottom-0 left-0 right-0 p-4 bg-white">
         <h3 className="text-gray-800 text-xl font-bold mb-2 truncate">{title}</h3>
         <div className="flex justify-between items-center mb-3">
-          {/* <div className="flex items-center">
-            <FaStar className="text-yellow-400 mr-1" />
-            <span className="text-gray-700 font-semibold">{rating}</span>
-          </div> */}
-          {/* <div className="text-gray-600 flex items-center text-sm">
-            <FaEye className="mr-1" /> 1.2k views
-          </div> */}
         </div>
         <div className="flex justify-between items-center">
           <Link
-            to={`/${ind}`}
+            to={`/${title}`}
             className="text-blue-500 hover:text-blue-700 transition-colors duration-300 flex items-center text-sm"
           >
             <FaInfoCircle className="mr-1" />

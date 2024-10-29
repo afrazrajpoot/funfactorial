@@ -24,6 +24,7 @@ import {
   FaTimes,
 } from "react-icons/fa";
 import {SizeTable, InflatableDetailsTable, UsersTable} from "../components/InflatableDetailsTable";
+import Layout from "../components/Layout";
 
 const DetailContent = ({ itemData }) => ( 
   <Fade in={true} timeout={500}>
@@ -189,7 +190,6 @@ const TestsContent = ({ itemData }) => (
 
 const ImagePreview = ({ image }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-console.log(image,'image')
   const nextImage = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % image.length);
   };
@@ -362,17 +362,16 @@ imgUrl='/images/img2.jpg'
 const Detail = () => {
   const [activeTab, setActiveTab] = useState("Description");
   const { id } = useParams();
-  const [numberPrice, setNumberPrice] = useState()
+  console.log(id,'title')
   const navigate = useNavigate();
-  const index = Number(id);
-  const itemData =  products[index];
+  // const { products } = useGlobalState(); // Assuming products are available in global state
+  const itemData = products.find(product => product?.title === id); // Find the product by title
 
   const buttons = [
     { name: "Description", icon: <FaInfoCircle /> },
-    { name: itemData?.size ? "Size":null, icon: itemData?.size ? <FaRuler />:null },
+    { name: itemData?.size ? "Size" : null, icon: itemData?.size ? <FaRuler /> : null },
     { name: "Suitability", icon: <FaUsers /> },
     { name: "Users", icon: <FaUsers /> },
- 
   ];
 
   const { itemDetail, setItemDetail } = useGlobalState();
@@ -390,7 +389,7 @@ const Detail = () => {
   };
 
   useEffect(() => {
-    if (itemData === null) {
+    if (!itemData) {
       navigate('/');
     }
 
@@ -403,9 +402,18 @@ const Detail = () => {
       });
     }
     if (isError) {
-
-      setItemDetail({ name: itemData?.title, price: parseFloat(itemData.price.replace(/£/, '')), id: id, image: itemData?.image?.url });
-      encryptAndSaveToLocalStorage('data', { name: itemData?.title, price: parseFloat(itemData.price.replace(/£/, '')) ,id: id, image: itemData?.image?.url });
+      setItemDetail({
+        name: itemData?.title,
+        price: parseFloat(itemData.price.replace(/£/, '')),
+        id: id,
+        image: itemData?.image?.url,
+      });
+      encryptAndSaveToLocalStorage('data', {
+        name: itemData?.title,
+        price: parseFloat(itemData.price.replace(/£/, '')),
+        id: id,
+        image: itemData?.image?.url,
+      });
       navigate(`/contact`);
     }
   }, [isSuccess, isError, itemData]);
@@ -428,8 +436,8 @@ const Detail = () => {
   };
 
   return (
-    <main className="flex mt-8 w-full bg-gray-100 min-h-screen">
-
+    <Layout>
+      <main className="flex mt-8 w-full bg-gray-100 min-h-screen">
       <section className="p-8 w-full lg:max-w-[100vw]">
         {itemData ? (
           <Grow in={true} timeout={800}>
@@ -442,25 +450,27 @@ const Detail = () => {
 
               <article className="flex lg:flex-row flex-col p-6">
                 <div className="w-full lg:w-1/3 p-4">
-                  <ImagePreview image={ [itemData?.image?.url]} />
+                  <ImagePreview image={[itemData?.image?.url]} />
                   <ImageGrid images={[itemData?.image?.url]} />
                 </div>
 
                 <section className="lg:w-2/3 lg:ml-8 flex flex-col">
                   <div className="flex flex-col lg:flex-row mb-6 bg-gray-200 rounded-lg p-2">
                     {buttons?.map((button, i) => (
-                      <button
-                        onClick={() => setActiveTab(button.name)}
-                        key={i}
-                        className={`flex items-center justify-center w-full px-4 py-3 text-sm lg:text-base font-medium transition duration-300 rounded-md ${
-                          activeTab === button.name
-                            ? "bg-red-600 text-white shadow-md"
-                            : "text-gray-700 hover:bg-gray-300"
-                        }`}
-                      >
-                        {button.icon}
-                        <span className="ml-2">{button.name}</span>
-                      </button>
+                      button.name && (
+                        <button
+                          onClick={() => setActiveTab(button.name)}
+                          key={i}
+                          className={`flex items-center justify-center w-full px-4 py-3 text-sm lg:text-base font-medium transition duration-300 rounded-md ${
+                            activeTab === button.name
+                              ? "bg-red-600 text-white shadow-md"
+                              : "text-gray-700 hover:bg-gray-300"
+                          }`}
+                        >
+                          {button.icon}
+                          <span className="ml-2">{button.name}</span>
+                        </button>
+                      )
                     ))}
                   </div>
 
@@ -474,7 +484,7 @@ const Detail = () => {
                     className="mt-8 p-4 bg-green-500 hover:bg-green-600 transition duration-300 w-full text-lg font-bold"
                     startIcon={<FaShoppingCart className="text-2xl" />}
                   >
-                    {isLoading ? <Loading /> : `Book now for ${Number(itemData.price.replace(/[^0-9.-]+/g, "")) + 125}`}
+                    {isLoading ? <Loading h={'2vh'} w={'2vw'} isButtonLoader ={true}/> : `Book now for ${Number(itemData.price.replace(/[^0-9.-]+/g, "")) + 125}`}
                   </Button>
                 </section>
               </article>
@@ -484,9 +494,10 @@ const Detail = () => {
           <p className="text-center text-gray-600 text-xl">Data not found</p>
         )}
       </section>
-      
     </main>
+    </Layout>
   );
 };
 
 export default Detail;
+

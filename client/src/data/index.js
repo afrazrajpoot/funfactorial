@@ -109,7 +109,7 @@ export const ribbons = [
   },
   {
     img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-pink.png",
-    title: "Bouncy castels",
+    title: "Bouncy castles",
     url: "/category/bouncy-castles",
   },
   {
