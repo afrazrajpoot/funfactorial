@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { products } from '../data';
 import Card from '../components/Card';
 import Loading from '../components/Loader';
 import Layout from '../components/Layout';
+import { ArrowLeft } from 'lucide-react';
 
 const SearchProducts = () => {
   const location = useLocation();
@@ -97,9 +98,14 @@ const SearchProducts = () => {
   <Layout>
       <div className="min-h-screen p-8">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-3xl font-bold mb-8 text-gray-800">
+       <section className='flex items-center'>
+       <Link to='/' className='cursor-pointer p-[0.5vw] rounded-md border hover:bg-gray-100'>
+       <ArrowLeft />
+       </Link>
+       <h1 className="text-3xl ml-[2vw] font-bold text-gray-800">
           Search Results for: "{searchQuery}"
         </h1>
+       </section>
 
         <AnimatePresence mode="wait">
           {!isLoading ? (
