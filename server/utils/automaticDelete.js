@@ -36,6 +36,8 @@ function startBookingCleanupJob() {
     scheduled: true,
     timezone: 'Asia/Karachi'  // Set to Pakistan timezone
   });
+
+  console.log('Booking cleanup job scheduled');
 }
 
 module.exports = startBookingCleanupJob;

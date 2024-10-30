@@ -13,6 +13,7 @@ import Pagination from '../components/Pagination';
 const Admin = () => {
   const { isLoading, isError, error, isSuccess, data } = useGetBookingDetailQuery();
   const [selectedBooking, setSelectedBooking] = useState(null);
+  console.log(data,'booking data')
   const [bookings, setBookings] = useState([]);
   const navigate = useNavigate();
   const [approveBooking, { isLoading: approveLoading }] = useApprovebookingMutation();

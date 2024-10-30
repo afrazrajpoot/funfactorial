@@ -17,6 +17,7 @@ exports.createBooking = async (req, res, next) => {
     }
 
     const { name: itemName, price: itemPrice } = itemDetail;
+    console.log(itemDetail,'item detail')
     if (!itemName || typeof itemName !== "string") {
       throw new CustomError("Item detail must include a valid name", 400);
     }

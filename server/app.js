@@ -44,15 +44,15 @@ app.post('/payment-sheet', async (req, res) => {
         quantity: 1,
       }],
       mode: 'payment',
-      success_url: `https://www.funrides.co.uk/success`,
-      // success_url: `http://localhost:5173/success`,
+      // success_url: `https://www.funrides.co.uk/success`,
+      success_url: `http://localhost:5173/success`,
 
-      cancel_url: `https://www.funrides.co.uk/`,
-      // cancel_url: `http://localhost:5173`,
+      // cancel_url: `https://www.funrides.co.uk/`,
+      cancel_url: `http://localhost:5173`,
 
     });
         
-    // Respond with the sessionId
+    // Respond with the sessionIdbookingDetai
     res.json({ sessionId: session.id });
   } catch (error) {
     console.error('Error creating Checkout Session:', error);

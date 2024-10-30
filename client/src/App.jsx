@@ -14,6 +14,7 @@ import ReadSingleBlog from "./pages/ReadSingleBlog";
 
 
 
+
 // Lazy load the pages
 const Home = lazy(() => import("./pages/Home"));
 const Ribbons = lazy(() => import("./components/Ribbons"));
