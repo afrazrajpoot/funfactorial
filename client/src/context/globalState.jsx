@@ -8,8 +8,9 @@ export const GlobalState = ({ children }) => {
     price: "",
     image: "",
   });
+  const [availableData,setAvailableData] = useState();
   return (
-    <globalContext.Provider value={{ itemDetail, setItemDetail, data, setData, search, setSearch }}>
+    <globalContext.Provider value={{ itemDetail, setItemDetail, data, setData, search, setSearch ,availableData,setAvailableData}}>
       {children}
     </globalContext.Provider>
   );

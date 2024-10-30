@@ -4,10 +4,10 @@ const ejs = require("ejs");
 const path = require("path");
 const fs = require("fs").promises;
 
-const CLIENT_ID = process.env.CLIENT_ID;
-const CLIENT_SECRET = process.env.CLIENT_SECRET;
-const REDIRECT_URL = process.env.REDIRECT_URL;
-const REFRESH_TOKEN = process.env.REFRESH_TOKEN;
+const CLIENT_ID = process.env.CLIENT_ID
+const CLIENT_SECRET = process.env.CLIENT_SECRET
+const REDIRECT_URL = process.env.REDIRECT_URL
+const REFRESH_TOKEN = process.env.REFRESH_TOKEN
 
 // Set up OAuth2 client
 const oAuth2Client = new google.auth.OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URL);

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { navData } from "../data"; // Assuming navData contains your navigation items
 import { Search } from "lucide-react";
@@ -12,15 +12,18 @@ import {
   Button,
 } from "@mui/material";
 import { useGlobalState } from "../context/globalState";
+import { useCheckAvailibilityMutation } from "../store/storeApi";
 
 const Header = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
-  const { search, setSearch } = useGlobalState();
+  const { search, setSearch,availableData,setAvailableData } = useGlobalState();
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [deliveryArea, setDeliveryArea] = useState("");
   const [category, setCategory] = useState("");
   const [suggestions, setSuggestions] = useState([]);
+  const [date,setDate] = useState("");
 
+const navigate = useNavigate()
   const handleDeliveryChange = (event) => {
     setDeliveryArea(event.target.value);
   };
@@ -123,9 +126,22 @@ const Header = () => {
   ];
 const [showHeader,setShowHeader] = useState()
 const location = useLocation()
+const [checkAvailibility,{isLoading,isError,isSuccess,data}] = useCheckAvailibilityMutation()
+const searchProduct = async ()=>{
+  if(date){
+ const res = await checkAvailibility({date})
+    setAvailableData(res.data.existingBookings)
+  
+    navigate('/check-availibility')
+    return
+  }
+  navigate(`/search-products?search=${category}`)
+}
+
   useEffect(()=>{
     setShowHeader(location.pathname)
   },[])
+
   return (
     <header className={`${showHeader === '/login' || showHeader === '/admin' && 'hidden'}`}>
       <article>
@@ -153,6 +169,7 @@ const location = useLocation()
               </FormControl>
               <TextField
                 type="date"
+                onChange={(e)=>setDate(e.target.value)}
                 margin="dense"
                 InputLabelProps={{ shrink: true }}
                 className="rounded-md w-full lg:max-w-[15vw] bg-white"
@@ -174,9 +191,9 @@ const location = useLocation()
                   ))}
                 </Select>
               </FormControl>
-            <Link to={`/search-products?search=${category}`}>
+       
             <Button
-               
+               onClick={searchProduct}
                 variant="contained"
                 className="bg-[#40327a] lg:p-[1vw] h-[7vh] w-full lg:max-w-[10vw] rounded-md mt-[0.3vw]"
                 style={{
@@ -187,7 +204,7 @@ const location = useLocation()
               >
                 Search
               </Button>
-            </Link>
+   
             </form>
           </article>
         </section>

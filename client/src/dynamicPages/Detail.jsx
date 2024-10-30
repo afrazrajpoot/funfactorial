@@ -362,7 +362,7 @@ imgUrl='/images/img2.jpg'
 const Detail = () => {
   const [activeTab, setActiveTab] = useState("Description");
   const { id } = useParams();
-  console.log(id,'title')
+
   const navigate = useNavigate();
   // const { products } = useGlobalState(); // Assuming products are available in global state
   const itemData = products.find(product => product?.title === id); // Find the product by title

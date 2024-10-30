@@ -17,11 +17,13 @@ exports.createBooking = async (req, res, next) => {
     }
 
     const { name: itemName, price: itemPrice } = itemDetail;
+    console.log(itemDetail,'item detail')
     if (!itemName || typeof itemName !== "string") {
       throw new CustomError("Item detail must include a valid name", 400);
     }
 
-    const pricePerDay = parseFloat(itemPrice);
+    const pricePerDay = parseFloat(itemPrice) + 125;
+    console.log(pricePerDay,'price per day')
     if (isNaN(pricePerDay)) {
       throw new CustomError("Item price must be a valid number", 400);
     }
@@ -178,3 +180,163 @@ exports.approveBooking = async(req,res,next)=>{
     next(err); // Pass the correct error object
   }
 }
+
+
+
+
+// exports.checkAvailibility = async (req, res, next) => {
+//   try {
+//     const { date } = req.body;
+
+//     if (!date) {
+//       return res.status(400).json({
+//         success: false,
+//         message: 'Please provide a date'
+//       });
+//     }
+
+//     // Convert input date to a Date object
+//     const targetDate = new Date(date);
+    
+//     // Make sure targetDate is at the start of the day (midnight)
+//     targetDate.setHours(0, 0, 0, 0);
+// console.log(targetDate,'target date')
+//     // Query to find bookings that overlap with the target date
+//     const bookings = await Booking.find({
+//       $or: [
+//         // Check if target date is between startDate and endDate
+//         {
+//           $and: [
+//             { startDate: { $lte: targetDate } },
+//             { endDate: { $gte: targetDate } }
+//           ]
+//         },
+//         // Check if the start date or end date matches the target date
+//         {
+//           $or: [
+//             { startDate: targetDate },
+//             { endDate: targetDate }
+//           ]
+//         }
+//       ]
+//     });
+
+//     // Check if there are any overlapping bookings
+//     if (bookings.length > 0) {
+//       return res.status(200).json({
+//         success: true,
+//         available: false,
+//         message: 'Date is not available',
+//         existingBookings: bookings, // Return the overlapping bookings
+//         requestedDate: targetDate
+//       });
+//     }
+
+//     return res.status(200).json({
+//       success: true,
+//       available: true,
+//       message: 'Date is available for booking',
+//       requestedDate: targetDate
+//     });
+
+//   } catch (err) {
+//     console.error("Error checking booking availability:", err);
+//     return res.status(500).json({
+//       success: false,
+//       message: 'Error checking availability',
+//       error: err.message
+//     });
+//   }
+// };
+
+
+exports.checkAvailibility = async (req, res, next) => {
+  try {
+    const { date } = req.body;
+
+    if (!date) {
+      return res.status(400).json({
+        success: false,
+        message: 'Please provide a date'
+      });
+    }
+
+    // Convert input date to a Date object and ensure it's valid
+    const targetDate = new Date(date);
+    if (isNaN(targetDate.getTime())) {
+      return res.status(400).json({
+        success: false,
+        message: 'Invalid date format'
+      });
+    }
+
+    // Set time to start of day in Pakistan timezone (UTC+5)
+    const startOfDay = new Date(targetDate);
+    startOfDay.setUTCHours(-5, 0, 0, 0);  // Adjust for Pakistan timezone
+
+    // Set time to end of day in Pakistan timezone (UTC+5)
+    const endOfDay = new Date(targetDate);
+    endOfDay.setUTCHours(18, 59, 59, 999);  // Adjust for Pakistan timezone
+
+    // Query to find bookings that overlap with the target date
+    const bookings = await Booking.find({}).lean();
+    
+    // Filter bookings manually to handle string dates
+    const overlappingBookings = bookings.filter(booking => {
+      const bookingStartDate = new Date(booking.startDate);
+      const bookingEndDate = new Date(booking.endDate);
+      
+      // Convert booking dates to UTC for consistent comparison
+      const bookingStart = new Date(bookingStartDate);
+      const bookingEnd = new Date(bookingEndDate);
+
+      // Check if booking overlaps with target date
+      return (
+        // Case 1: Booking starts during target date
+        (bookingStart >= startOfDay && bookingStart <= endOfDay) ||
+        // Case 2: Booking ends during target date
+        (bookingEnd >= startOfDay && bookingEnd <= endOfDay) ||
+        // Case 3: Booking spans over target date
+        (bookingStart <= startOfDay && bookingEnd >= endOfDay)
+      );
+    });
+
+    // Log for debugging
+    console.log({
+      targetDate: startOfDay,
+      targetDateEnd: endOfDay,
+      bookingsFound: overlappingBookings.length,
+      bookings: overlappingBookings.map(b => ({
+        startDate: b.startDate,
+        endDate: b.endDate,
+        startDateObj: new Date(b.startDate),
+        endDateObj: new Date(b.endDate)
+      }))
+    });
+
+    if (overlappingBookings.length > 0) {
+      return res.status(200).json({
+        success: true,
+        available: false,
+        message: 'Date is not available',
+        existingBookings: overlappingBookings,
+        requestedDate: startOfDay
+      });
+    }
+
+    return res.status(200).json({
+      success: true,
+      available: true,
+      message: 'Date is available for booking',
+      requestedDate: startOfDay
+    });
+
+  } catch (err) {
+    console.error("Error checking booking availability:", err);
+    return res.status(500).json({
+      success: false,
+      message: 'Error checking availability',
+      error: err.message
+    });
+  }
+};

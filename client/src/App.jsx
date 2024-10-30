@@ -10,6 +10,7 @@ import SearchProducts from "./pages/SearchProducts";
 import Login from "./pages/Login";
 
 
+
 // Lazy load the pages
 const Home = lazy(() => import("./pages/Home"));
 const Ribbons = lazy(() => import("./components/Ribbons"));
@@ -37,6 +38,7 @@ const PartyEntertainer = lazy(() => import("./pages/PartyEntertainer"));
 const BookingForm = lazy(() => import("./pages/Booking"));
 const Detail = lazy(() => import("./dynamicPages/Detail"));
 const Admin = lazy(() => import("./pages/Admin"));
+const CheckAvailibility = lazy(() => import("./pages/CheckAvailibility"));
 const App = () => {
   return (
     <Suspense fallback={<Loading />}>
@@ -71,6 +73,7 @@ const App = () => {
         <Route path="/admin" element ={<Admin />} />
         <Route path="/search-products" element={<SearchProducts />} />
         <Route path ='/login' element={<Login />} />
+        <Route path="/check-availibility" element={<CheckAvailibility />} />
       </Routes>
     </Suspense>
   );

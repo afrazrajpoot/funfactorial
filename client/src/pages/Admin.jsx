@@ -149,7 +149,7 @@ const Admin = () => {
             </div>
             <div>
               <p className="text-sm text-gray-500">Total Amount</p>
-              <p className="font-semibold text-green-600">${booking.total.toFixed(2)}</p>
+              <p className="font-semibold text-green-600">${booking.total}</p>
             </div>
           </div>
         </div>

@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { products } from '../data';
 import Card from '../components/Card';
 import Loading from '../components/Loader';
+import Layout from '../components/Layout';
 
 const SearchProducts = () => {
   const location = useLocation();
@@ -93,7 +94,8 @@ const SearchProducts = () => {
   }, [location.search]);
 
   return (
-    <div className="min-h-screen p-8">
+  <Layout>
+      <div className="min-h-screen p-8">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-3xl font-bold mb-8 text-gray-800">
           Search Results for: "{searchQuery}"
@@ -142,6 +144,7 @@ const SearchProducts = () => {
         </AnimatePresence>
       </div>
     </div>
+  </Layout>
   );
 };
 
