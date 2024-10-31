@@ -68,7 +68,7 @@ useEffect(()=>{
             <h1 className="text-[7vw] lg:text-[2vw] text-center font-bold">CALL US TODAY ON</h1>
 
             <figure className="flex flex-col gap-[1vw] mt-[2vw] lg:mt-[1vw]">
-              <h1 className="text-[6vw] lg:text-[2.5vw] text-center font-bold">+44 7815 935423</h1>
+              <h1 className="text-[6vw] lg:text-[2.5vw] text-center font-bold">07815 935423</h1>
               <p className="font-bold text-purple-900 text-[4vw] lg:text-[1.2vw]">
                 We deliver across West Yorkshire area
               </p>

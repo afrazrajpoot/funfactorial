@@ -13,7 +13,6 @@ import {
 } from "@mui/material";
 import { useGlobalState } from "../context/globalState";
 import { useCheckAvailibilityMutation } from "../store/storeApi";
-import BasicDatePicker from "./BasicDatePicker";
 
 const Header = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -155,7 +154,7 @@ const searchProduct = async ()=>{
               Check Availability & Book Online
             </motion.p>
             <form className="flex lg:flex-row flex-col gap-[3vw] lg:ml-[5vw] w-full items-center">
-              {/* <FormControl className="w-full lg:max-w-[15vw]">
+              <FormControl className="w-full lg:max-w-[15vw]">
                 <InputLabel shrink={false}>
                   {!deliveryArea && "Set delivery area"}
                 </InputLabel>
@@ -167,15 +166,14 @@ const searchProduct = async ()=>{
                   value={deliveryArea}
                   onChange={handleDeliveryChange}
                 />
-              </FormControl> */}
-              <BasicDatePicker onSelectDate={(date)=>setDate(date)}/>
-              {/* <TextField
+              </FormControl>
+              <TextField
                 type="date"
                 onChange={(e)=>setDate(e.target.value)}
                 margin="dense"
                 InputLabelProps={{ shrink: true }}
                 className="rounded-md w-full lg:max-w-[15vw] bg-white"
-              /> */}
+              />
               <FormControl className="w-full lg:max-w-[15vw]">
                 <InputLabel shrink={false}>
                   {!category && "Select Category First"}

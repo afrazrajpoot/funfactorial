@@ -9,9 +9,9 @@ export default function BasicDatePicker({ onSelectDate }) {
     <LocalizationProvider dateAdapter={AdapterDayjs}>
       <DemoContainer components={["DatePicker"]}>
         <DatePicker
-          label="Select Date"
+          label="Basic date picker"
           inputVariant="outlined"
-          className="w-full mt-2 bg-white focus:outline-none rounded-md"
+          className="w-full mt-2"
           style={{ maxWidth: 300 }}
           onChange={(date) => onSelectDate(date)}
           // You can add more custom styles here

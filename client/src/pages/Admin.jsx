@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useApprovebookingMutation, useGetBookingDetailQuery } from '../store/storeApi';
+import { useApprovebookingMutation, useGetBookingDetailQuery, useRejectbookingMutation } from '../store/storeApi';
 import { FaUsers, FaCalendarCheck, FaMoneyBillWave, FaSpinner, FaTimes, FaCheckCircle, FaTimesCircle } from 'react-icons/fa';
 import CryptoJS from 'crypto-js';
 import { useNavigate } from 'react-router-dom';
@@ -9,11 +9,12 @@ import { toast } from 'sonner';
 const Admin = () => {
   const { isLoading, isError, error, isSuccess, data } = useGetBookingDetailQuery();
   const [selectedBooking, setSelectedBooking] = useState(null);
+  console.log(data,'booking data')
   const [bookings, setBookings] = useState([]);
   const navigate = useNavigate();
   const [approveBooking, { isLoading: approveLoading }] = useApprovebookingMutation();
   const [processingBooking, setProcessingBooking] = useState(null);
-
+const [rejectBooking,{isError:rejectError,isLoading:rejectLoading}] = useRejectbookingMutation()
   const encryptionKey = import.meta.env.VITE_SECRET_KEY;
   const adminEmail = 'admin@gmail.com';
   const adminPassword = 'admin';
@@ -46,7 +47,7 @@ const Admin = () => {
   const handleApproval = async (booking, status) => {
     setProcessingBooking(booking._id);
     try {
-      const promise = approveBooking({ email: booking.email, id:booking._id }).unwrap();
+      const promise = approveBooking({ email: booking.email, id: booking._id }).unwrap();
       
       toast.promise(promise, {
         loading: 'Processing booking...',
@@ -56,6 +57,7 @@ const Admin = () => {
               b._id === booking._id ? { ...b, status } : b
             )
           );
+          setSelectedBooking(null); // Close the modal on success
           return `Booking ${status === 'approved' ? 'approved' : 'rejected'} successfully`;
         },
         error: (err) => `Error: ${err.message || 'Something went wrong'}`,
@@ -69,6 +71,29 @@ const Admin = () => {
     }
   };
 
+  const handleReject = async (booking) => {
+    try {
+      const promise = rejectBooking({ id: booking._id }).unwrap();
+      
+      toast.promise(promise, {
+        loading: 'Processing rejection...',
+        success: () => {
+          setBookings(prev =>
+            prev.map(b =>
+              b._id === booking._id ? { ...b, status: 'rejected' } : b
+            )
+          );
+          setSelectedBooking(null); // Close the modal on success
+          return 'Booking rejected successfully';
+        },
+        error: (err) => `Error: ${err.message || 'Something went wrong'}`,
+      });
+
+      await promise;
+    } catch (error) {
+      // Error is handled by toast.promise
+    }
+  };
   if (isLoading) {
     return (
       <div className="flex items-center justify-center h-screen bg-gradient-to-br from-blue-50 to-purple-50">
@@ -176,7 +201,7 @@ const Admin = () => {
               Approve
             </button>
             <button
-              onClick={() => handleApproval(booking, 'rejected')}
+              onClick={() => handleReject(booking)}
               disabled={processingBooking === booking._id}
               className={`px-4 py-2 rounded-lg flex items-center gap-2 transition-colors ${
                 booking.status === 'rejected'
@@ -187,7 +212,7 @@ const Admin = () => {
               }`}
             >
               <FaTimesCircle />
-              Reject
+              {rejectLoading ?'processing...':'Reject'}
             </button>
           </div>
         </div>

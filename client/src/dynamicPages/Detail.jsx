@@ -61,7 +61,7 @@ const DetailContent = ({ itemData }) => (
          {itemData?.description?.features && itemData?.description?.features?.map((item, index) => (
           <div key={index}>
             <p className="lg:text-[1vw] text-[3.5vw] text-gray-700 mb-2">
-              {item}
+              {item === 'A' ? '' : item}
             </p>
             </div>
         ))}
@@ -220,6 +220,8 @@ imgUrl = '/images/zorbBalls.jpg'
     imgUrl='/images/bouncyCastle.png'
   }else if(image[0] === '/images/shootOut.jpg'){
     imgUrl ='/images/shootOut.jpg'
+  }else if(image[0] === '/images/giant.png'){
+    imgUrl='/images/giant.png'
   }
   return (
     <div className="relative w-full h-64 lg:h-96">
@@ -276,6 +278,8 @@ const ImageModal = ({ image, onClose }) => {
     imgUrl='/images/bouncyCastle.png'
   }else if(image === '/images/shootOut.jpg'){
     imgUrl ='/images/shootOut.jpg'
+  }else if(image ==='/images/giant.png'){
+    imgUrl='/images/giant.png'
   }
   return (
     <motion.div
@@ -329,6 +333,8 @@ imgUrl='/images/img2.jpg'
     imgUrl='/images/bouncyCastle.png'
   }else if(images[0] === '/images/shootOut.jpg'){
     imgUrl='/images/shootOut.jpg'
+  }else if(images[0] === '/images/giant.png'){
+    imgUrl='/images/giant.png'
   }
   return (
     <>

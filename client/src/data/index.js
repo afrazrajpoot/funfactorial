@@ -5159,7 +5159,8 @@ export const products = [
     "alt": "15ft x 15ft Inflatable VIP Nightclub",
     "url": "/images/img2.jpg"
   },
-  "price": "£900",
+  "price": "£775",
+  "operator": "Operator only",
   "description": {
     "overview": [
       "The Go karts allow a child to drive around a track without any parent assistance. It's often the first time they have driven a car, so you can see their eyes light up with joy. This attraction is a real winner. It always attracts large queues, and the kids absolutely love it and our friendly staff. The track size is 16m x 12m, and can go against any walls if space is restricted."
@@ -5188,24 +5189,24 @@ export const products = [
     }
   },
   "suitability": {
-    "suitable_for": [
-      {
-        "category": "Children",
-        "suitable": true
-      },
-      {
-        "category": "Adults",
-        "suitable": true
-      }
-    ],
+    // "suitable_for": [
+    //   {
+    //     "category": "Age – 4+",
+    //     "suitable": true
+    //   },
+    //   {
+    //     "category": "Age – 4+",
+    //     "suitable": true
+    //   }
+    // ],
     "suitable_surfaces": [
-      "Indoors on Hard Surface",
-      "Outdoors on Grass",
-      "Outdoors on Hard Surface"
+      "Age – 4+",
+      "Indoor on hard surface – yes",
+      "Outdoor on grass – yes",
+      "Outdoor on hard surface - yes"
     ],
     "unsuitable_surfaces": [
-      "Outdoors on Artificial Grass",
-      "Outdoors on Flags"
+      
     ]
   }
 }
@@ -5218,7 +5219,8 @@ export const products = [
     "alt": "15ft x 15ft Inflatable VIP Nightclub",
     "url": "/images/zorbBalls.jpg"
   },
-  "price": "£900",
+  "price": "£775",
+  "operator": "Operator only",
   "description": {
     "overview": [
       "Let's dive into the thrill of the unknown! The Zorb Ball is perfect for those craving excitement. It's a safe and exhilarating experience where you roll downhill inside a transparent plastic orb. The Zorb consists of two balls with an air layer in between, making the ride both fun and secure. In essence, Zorb experiences are all about enjoyment with a touch of adventure, rather than fear."
@@ -5237,7 +5239,7 @@ export const products = [
   },
   "size": {
     "unit_size": {
-      "width": "11 m(L)X7m(W)X6(H)",
+      "width": "25m (L) x 25m (W) = 192m2",
       "length": "15 ft",
       "height": "14 ft"
     },
@@ -5247,24 +5249,24 @@ export const products = [
     }
   },
   "suitability": {
-    "suitable_for": [
-      {
-        "category": "Children",
-        "suitable": true
-      },
-      {
-        "category": "Adults",
-        "suitable": true
-      }
-    ],
+    // "suitable_for": [
+    //   {
+    //     "category": "Age – 4+",
+    //     "suitable": true
+    //   },
+    //   {
+    //     "category": "Age – 4+",
+    //     "suitable": true
+    //   }
+    // ],
     "suitable_surfaces": [
-      "Indoors on Hard Surface",
-      "Outdoors on Grass",
-      "Outdoors on Hard Surface"
+      "Age – 5+ & adults",
+      "Indoor on hard surface – yes",
+      "Outdoor on grass – yes",
+      "Outdoor on hard surface - no"
     ],
     "unsuitable_surfaces": [
-      "Outdoors on Artificial Grass",
-      "Outdoors on Flags"
+      
     ]
   }
 },
@@ -5277,7 +5279,68 @@ export const products = [
     "alt": "15ft x 15ft Inflatable VIP Nightclub",
     "url": "/images/megaWave.png"
   },
-  "price": "£800",
+  "price": "£725",
+  "operator": "Operator only",
+  "description": {
+    "overview": [
+      "Rainbow Slide is a fantastic addition to any birthday party or event, guaranteed to keep children entertained with its exhilarating drop. Its vibrant, multicolored design adds a touch of excitement. With its thrilling ride and eye-catching appearance, the Rainbow slide is sure to be a hit at any celebration."
+    ],
+    "features": [
+      "A"
+    ],
+    "contact_info": {
+      "phone": "0113 460 1386",
+      "email": "enquiries@funrides.co.uk"
+    },
+    "availability": "Available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
+  },
+  "video": {
+    "url": "https://www.youtube.com/embed/EQ-liIDbd7I?si=ll9JiokK8nW0JRLP"
+  },
+  "size": {
+    "unit_size": {
+      "width": "11m(L) x 7m(W) x 6(H) ",
+      "length": "15 ft",
+      "height": "14 ft"
+    },
+    "required_space": {
+      "width": "10 m X 7 m",
+      "length": "15 m"
+    }
+  },
+  "suitability": {
+    // "suitable_for": [
+    //   {
+    //     "category": "Age – 4+",
+    //     "suitable": true
+    //   },
+    //   {
+    //     "category": "Age – 4+",
+    //     "suitable": true
+    //   }
+    // ],
+    "suitable_surfaces": [
+      "Age – 5 +",
+      "Indoor on hard surface – yes, if ceiling is high enough",
+      "Outdoor on grass – yes",
+    
+    ],
+    "unsuitable_surfaces": [
+      
+    ]
+  }
+}
+,
+{
+  "title": "Rainbow Giant Slide",
+  "url": "adult-bouncy-castle-hire/33/15ft-x-15ft-inflatable-vip-nightclub.html#BodyContent",
+  "subtitle": "BIG BLUETOOTH SPEAKER + DISCO LIGHT INCLUDED",
+  "image": {
+    "alt": "15ft x 15ft Inflatable VIP Nightclub",
+    "url": "/images/giant.png"
+  },
+  "price": "£675",
+  "operator": "Operator only -y/n",
   "description": {
     "overview": [
       "Rainbow Slide is a fantastic addition to any birthday party or event, guaranteed to keep children entertained with its exhilarating drop. Its vibrant, multicolored design adds a touch of excitement. With its thrilling ride and eye-catching appearance, the Rainbow slide is sure to be a hit at any celebration."
@@ -5297,33 +5360,33 @@ export const products = [
   "size": {
     "unit_size": {
       "width": "9 m (L) X 7 m (W)",
-      "length": "15 ft",
-      "height": "14 ft"
+      // "length": "15 ft",
+      // "height": "14 ft"
     },
     "required_space": {
       "width": "10 m X 8 m",
-      "length": "15 m"
+      // "length": "15 m"
     }
   },
   "suitability": {
-    "suitable_for": [
-      {
-        "category": "Children",
-        "suitable": true
-      },
-      {
-        "category": "Adults",
-        "suitable": true
-      }
-    ],
+    // "suitable_for": [
+    //   {
+    //     "category": "Age – 4+",
+    //     "suitable": true
+    //   },
+    //   {
+    //     "category": "Age – 4+",
+    //     "suitable": true
+    //   }
+    // ],
     "suitable_surfaces": [
-      "Indoors on Hard Surface",
-      "Outdoors on Grass",
-      "Outdoors on Hard Surface"
+      "Age – 3+",
+      "Indoor on hard surface – yes",
+      "Outdoor on grass – yes",
+    
     ],
     "unsuitable_surfaces": [
-      "Outdoors on Artificial Grass",
-      "Outdoors on Flags"
+      
     ]
   }
 }
@@ -5336,7 +5399,8 @@ export const products = [
     "alt": "15ft x 15ft Inflatable VIP Nightclub",
     "url": "/images/toddlerSlide.jpg"
   },
-  "price": "£700",
+  "price": "£575",
+  "operator": "Operator only -no",
   "description": {
     "overview": [
       "Designed for the under 6's. This attraction is a bouncy castle and 10ft slide attached. The under 6's find the slide easy to climb and whizz down to the bouncy area that is surrounded by images of Disney characters."
@@ -5365,24 +5429,23 @@ export const products = [
     }
   },
   "suitability": {
-    "suitable_for": [
-      {
-        "category": "Children",
-        "suitable": true
-      },
-      {
-        "category": "Adults",
-        "suitable": true
-      }
-    ],
+    // "suitable_for": [
+    //   {
+    //     "category": "Children",
+    //     "suitable": true
+    //   },
+    //   {
+    //     "category": "Adults",
+    //     "suitable": true
+    //   }
+    // ],
     "suitable_surfaces": [
-      "Indoors on Hard Surface",
-      "Outdoors on Grass",
-      "Outdoors on Hard Surface"
+      "Age – under 6",
+      "Indoor on hard surface – yes",
+    
     ],
     "unsuitable_surfaces": [
-      "Outdoors on Artificial Grass",
-      "Outdoors on Flags"
+    
     ]
   }
 }
@@ -5395,7 +5458,8 @@ export const products = [
     "alt": "15ft x 15ft Inflatable VIP Nightclub",
     "url": "/images/bouncyCastle.png"
   },
-  "price": "£300",
+  "price": "£175",
+  "operator": "Operator only -no",
   "description": {
     "overview": [
       "Introducing our Bouncy Castle – the ultimate attraction for kids under 6! This delightful bouncy castle is perfect for adding a splash of fun and excitement to any birthday party or event. With its vibrant colors and playful design, it’s sure to captivate young imaginations and keep little ones entertained for hours. Ideal for creating unforgettable memories, this bouncy castle combines safety with joy, making it a fantastic choice for any celebration."
@@ -5424,24 +5488,24 @@ export const products = [
     }
   },
   "suitability": {
-    "suitable_for": [
-      {
-        "category": "Children",
-        "suitable": true
-      },
-      {
-        "category": "Adults",
-        "suitable": true
-      }
-    ],
+    // "suitable_for": [
+    //   {
+    //     "category": "Age – 4+",
+    //     "suitable": true
+    //   },
+    //   {
+    //     "category": "Age – 4+",
+    //     "suitable": true
+    //   }
+    // ],
     "suitable_surfaces": [
-      "Indoors on Hard Surface",
-      "Outdoors on Grass",
-      "Outdoors on Hard Surface"
+      "Age – under 6",
+      "ndoor on hard surface – yes",
+      "Outdoor on grass – yes",
+      'Outdoor on hard surface - yes'
     ],
     "unsuitable_surfaces": [
-      "Outdoors on Artificial Grass",
-      "Outdoors on Flags"
+      
     ]
   }
 }
@@ -5454,7 +5518,8 @@ export const products = [
       "alt": "15ft x 15ft Inflatable VIP Nightclub",
       "url": "/images/shootOut.jpg"
     },
-    "price": "£200",
+    "price": "£75",
+    "operator": "Operator only -no",
     "description": {
       "overview": [
         "Try your hand at scoring a goal with this exciting attraction that appeals to all ages! Kids are drawn in by the fun cartoon characters, while adults are eager to show off their skills. This engaging challenge is perfect for testing your accuracy and coordination. It's a fantastic way to get into the spirit of the World Cup and adds a lively, competitive edge to any event. Get ready to kick, score, and enjoy the fun!"
@@ -5483,24 +5548,24 @@ export const products = [
       }
     },
     "suitability": {
-      "suitable_for": [
-        {
-          "category": "Children",
-          "suitable": true
-        },
-        {
-          "category": "Adults",
-          "suitable": true
-        }
-      ],
+      // "suitable_for": [
+      //   {
+      //     "category": "Age – 4+",
+      //     "suitable": true
+      //   },
+      //   {
+      //     "category": "Age – 4+",
+      //     "suitable": true
+      //   }
+      // ],
       "suitable_surfaces": [
-        "Indoors on Hard Surface",
-        "Outdoors on Grass",
-        "Outdoors on Hard Surface"
+        "Age – 3+ and Adult",
+        "Indoor on hard surface – yes",
+        "Outdoor on grass – yes",
+        'Outdoor on hard surface - yes'
       ],
       "unsuitable_surfaces": [
-        "Outdoors on Artificial Grass",
-        "Outdoors on Flags"
+        
       ]
     }
   }
@@ -5513,7 +5578,8 @@ export const products = [
       "alt": "15ft x 15ft Inflatable VIP Nightclub",
       "url": "/images/fountain.jpg"
     },
-    "price": "£400",
+    "price": "£275",
+    "operator": "Operator cost included",
     "description": {
       "overview": [
         "Indulge in a luxurious treat with our Chocolate Fountain, featuring five cascading levels and a large capacity that holds up to 6 kg of your favorite ingredients. This delightful centerpiece is perfect for any event or celebration, creating a continuous flow of rich, melted chocolate that invites guests to dip fruits, marshmallows, and other treats. With its sleek stainless steel design and user-friendly operation, the Chocolate Fountain adds a touch of decadence and interactive fun to your gathering, ensuring a memorable experience for everyone. Our service provides Choice of 10 Dips, Unlimited Belgian Chocolate for up to 200 people (more available on request)"
@@ -5543,23 +5609,23 @@ export const products = [
     },
     "suitability": {
       "suitable_for": [
-        {
-          "category": "Children",
-          "suitable": true
-        },
-        {
-          "category": "Adults",
-          "suitable": true
-        }
+        // {
+        //   "category": "Children",
+        //   "suitable": true
+        // },
+        // {
+        //   "category": "Adults",
+        //   "suitable": true
+        // }
       ],
       "suitable_surfaces": [
-        "Indoors on Hard Surface",
-        "Outdoors on Grass",
-        "Outdoors on Hard Surface"
+        // "Indoors on Hard Surface",
+        // "Outdoors on Grass",
+        // "Outdoors on Hard Surface"
       ],
       "unsuitable_surfaces": [
-        "Outdoors on Artificial Grass",
-        "Outdoors on Flags"
+        // "Outdoors on Artificial Grass",
+        // "Outdoors on Flags"
       ]
     }
   } ,  {

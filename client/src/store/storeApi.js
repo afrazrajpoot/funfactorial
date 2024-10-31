@@ -36,6 +36,14 @@ export const storeApi = createApi({
       }),
       invalidatesTags:['booking']
     }),
+    rejectbooking: builder.mutation({
+      query:(data) => ({
+        url: "/api/v1/reject-booking",
+        method: "POST",
+        body: data,
+      }),
+      invalidatesTags:['booking']
+    }),
     checkAvailibility:builder.mutation({
       query: (data) => ({
         url: "/api/v1/check-availibility",
@@ -46,4 +54,4 @@ export const storeApi = createApi({
   }),
 });
 
-export const { useCreateBookingMutation,useAvalbilityMutation,useGetBookingDetailQuery ,useApprovebookingMutation,useCheckAvailibilityMutation} = storeApi;
+export const { useCreateBookingMutation,useAvalbilityMutation,useGetBookingDetailQuery ,useApprovebookingMutation,useCheckAvailibilityMutation,useRejectbookingMutation} = storeApi;
