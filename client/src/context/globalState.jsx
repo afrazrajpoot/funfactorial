@@ -3,6 +3,7 @@ const globalContext = createContext();
 export const GlobalState = ({ children }) => {
   const [data, setData] = useState([]);
   const [search, setSearch] = useState("");
+  const [newBlog, setNewBlog] = useState(null);
   const [itemDetail, setItemDetail] = useState({
     name: "",
     price: "",
@@ -10,7 +11,7 @@ export const GlobalState = ({ children }) => {
   });
   const [availableData,setAvailableData] = useState();
   return (
-    <globalContext.Provider value={{ itemDetail, setItemDetail, data, setData, search, setSearch ,availableData,setAvailableData}}>
+    <globalContext.Provider value={{ itemDetail, setItemDetail, data, setData, search, setSearch ,availableData,setAvailableData, newBlog, setNewBlog}}>
       {children}
     </globalContext.Provider>
   );

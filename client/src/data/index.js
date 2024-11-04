@@ -5159,8 +5159,7 @@ export const products = [
     "alt": "15ft x 15ft Inflatable VIP Nightclub",
     "url": "/images/img2.jpg"
   },
-  "price": "£775",
-  "operator": "Operator only",
+  "price": "£875",
   "description": {
     "overview": [
       "The Go karts allow a child to drive around a track without any parent assistance. It's often the first time they have driven a car, so you can see their eyes light up with joy. This attraction is a real winner. It always attracts large queues, and the kids absolutely love it and our friendly staff. The track size is 16m x 12m, and can go against any walls if space is restricted."
@@ -5220,7 +5219,6 @@ export const products = [
     "url": "/images/zorbBalls.jpg"
   },
   "price": "£775",
-  "operator": "Operator only",
   "description": {
     "overview": [
       "Let's dive into the thrill of the unknown! The Zorb Ball is perfect for those craving excitement. It's a safe and exhilarating experience where you roll downhill inside a transparent plastic orb. The Zorb consists of two balls with an air layer in between, making the ride both fun and secure. In essence, Zorb experiences are all about enjoyment with a touch of adventure, rather than fear."
@@ -5239,7 +5237,7 @@ export const products = [
   },
   "size": {
     "unit_size": {
-      "width": "25m (L) x 25m (W) = 192m2",
+      "width": "11 m(L)X7m(W)X6(H)",
       "length": "15 ft",
       "height": "14 ft"
     },
@@ -5279,8 +5277,7 @@ export const products = [
     "alt": "15ft x 15ft Inflatable VIP Nightclub",
     "url": "/images/megaWave.png"
   },
-  "price": "£725",
-  "operator": "Operator only",
+  "price": "£675",
   "description": {
     "overview": [
       "Rainbow Slide is a fantastic addition to any birthday party or event, guaranteed to keep children entertained with its exhilarating drop. Its vibrant, multicolored design adds a touch of excitement. With its thrilling ride and eye-catching appearance, the Rainbow slide is sure to be a hit at any celebration."
@@ -5299,12 +5296,12 @@ export const products = [
   },
   "size": {
     "unit_size": {
-      "width": "11m(L) x 7m(W) x 6(H) ",
+      "width": "9 m (L) X 7 m (W)",
       "length": "15 ft",
       "height": "14 ft"
     },
     "required_space": {
-      "width": "10 m X 7 m",
+      "width": "10 m X 8 m",
       "length": "15 m"
     }
   },
@@ -5340,7 +5337,6 @@ export const products = [
     "url": "/images/giant.png"
   },
   "price": "£675",
-  "operator": "Operator only -y/n",
   "description": {
     "overview": [
       "Rainbow Slide is a fantastic addition to any birthday party or event, guaranteed to keep children entertained with its exhilarating drop. Its vibrant, multicolored design adds a touch of excitement. With its thrilling ride and eye-catching appearance, the Rainbow slide is sure to be a hit at any celebration."
@@ -5399,8 +5395,7 @@ export const products = [
     "alt": "15ft x 15ft Inflatable VIP Nightclub",
     "url": "/images/toddlerSlide.jpg"
   },
-  "price": "£575",
-  "operator": "Operator only -no",
+  "price": "£700",
   "description": {
     "overview": [
       "Designed for the under 6's. This attraction is a bouncy castle and 10ft slide attached. The under 6's find the slide easy to climb and whizz down to the bouncy area that is surrounded by images of Disney characters."
@@ -5459,7 +5454,6 @@ export const products = [
     "url": "/images/bouncyCastle.png"
   },
   "price": "£175",
-  "operator": "Operator only -no",
   "description": {
     "overview": [
       "Introducing our Bouncy Castle – the ultimate attraction for kids under 6! This delightful bouncy castle is perfect for adding a splash of fun and excitement to any birthday party or event. With its vibrant colors and playful design, it’s sure to captivate young imaginations and keep little ones entertained for hours. Ideal for creating unforgettable memories, this bouncy castle combines safety with joy, making it a fantastic choice for any celebration."
@@ -5519,7 +5513,6 @@ export const products = [
       "url": "/images/shootOut.jpg"
     },
     "price": "£75",
-    "operator": "Operator only -no",
     "description": {
       "overview": [
         "Try your hand at scoring a goal with this exciting attraction that appeals to all ages! Kids are drawn in by the fun cartoon characters, while adults are eager to show off their skills. This engaging challenge is perfect for testing your accuracy and coordination. It's a fantastic way to get into the spirit of the World Cup and adds a lively, competitive edge to any event. Get ready to kick, score, and enjoy the fun!"
@@ -5579,7 +5572,6 @@ export const products = [
       "url": "/images/fountain.jpg"
     },
     "price": "£275",
-    "operator": "Operator cost included",
     "description": {
       "overview": [
         "Indulge in a luxurious treat with our Chocolate Fountain, featuring five cascading levels and a large capacity that holds up to 6 kg of your favorite ingredients. This delightful centerpiece is perfect for any event or celebration, creating a continuous flow of rich, melted chocolate that invites guests to dip fruits, marshmallows, and other treats. With its sleek stainless steel design and user-friendly operation, the Chocolate Fountain adds a touch of decadence and interactive fun to your gathering, ensuring a memorable experience for everyone. Our service provides Choice of 10 Dips, Unlimited Belgian Chocolate for up to 200 people (more available on request)"
@@ -26689,6 +26681,10 @@ export const navData = [
     url: "/contact",
   },
   {
+    title: "Blogs",
+    url: "/blogs",
+  },
+  {
     type: "text",
     placeholder: "search",
   },
@@ -27105,3 +27101,326 @@ export const contactFormData = [
     }
   }
 ];
+
+
+export const blogsForm = [
+  {
+      name: "metaTitle",
+      label: "Meta Title",
+      placeholder: "enter the meta title",
+      type: "text",
+      rules: {
+        required: "meta title is required",
+        pattern: {
+          message: "meta title is required",
+        }
+      }
+     
+  },
+  {
+      name: "metaDescription",
+      label: "Meta Description",
+      placeholder: "enter the meta description",
+      type: "text",
+      rules: {
+        required: "meta description is required",
+        pattern: {
+          message: "meta description is required",
+        }
+      }
+  },
+  {
+    name: "keywords",
+    type: "text",
+    label: "Perma Link",
+    placeholder: "enter the perma link",
+    rules: {
+      // required: "perma link is required",
+      pattern: {
+        value: /^\S+$/,
+        message: "Enter a valid keyword (no spaces allowed)",
+      }
+    }
+  },  
+  {
+      name: "heading1",
+      label: "Heading",
+      type: "text",
+    
+  },
+  {
+      name: "image1",
+      type: "file",
+    
+  },
+  {
+      name: "info1",
+      label: "Description",
+      placeholder: "enter the description",
+      type: "textarea",
+    
+  },
+  {
+      name: "heading2",
+      label: "Heading",
+      type: "text",
+    
+  },
+  {
+      name: "image2",
+      type: "file",
+    
+  },
+  {
+      name: "info2",
+      label: "Description",
+      placeholder: "enter the description",
+      type: "textarea",
+    
+  },
+  {
+      name: "heading3",
+      label: "Heading",
+      type: "text",
+    
+  },
+  {
+      name: "image3",
+      type: "file",
+    
+  },
+  {
+      name: "info3",
+      label: "Description",
+      placeholder: "enter the description",
+      type: "textarea",
+    
+  },
+  {
+      name: "heading4",
+      label: "Heading",
+      type: "text",
+    
+  },
+  {
+      name: "image4",
+      type: "file",
+    
+  },
+  {
+      name: "info4",
+      label: "Description",
+      placeholder: "enter the description",
+      type: "textarea",
+    
+  },
+  {
+      name: "heading5",
+      label: "Heading",
+      type: "text",
+    
+  },
+  {
+      name: "image5",
+      type: "file",
+    
+  },
+  {
+      name: "info5",
+      label: "Description",
+      placeholder: "enter the description",
+      type: "textarea",
+    
+  },
+  {
+      name: "heading6",
+      label: "Heading",
+      type: "text",
+    
+  },
+  {
+      name: "image6",
+      type: "file",
+    
+  },
+  {
+      name: "info6",
+      label: "Description",
+      placeholder: "enter the description",
+      type: "textarea",
+    
+  },
+  {
+      name: "heading7",
+      label: "Heading",
+      type: "text",
+    
+  },
+  {
+      name: "image7",
+      type: "file",
+    
+  },
+  {
+      name: "info7",
+      label: "Description",
+      placeholder: "enter the description",
+      type: "textarea",
+    
+  },
+  {
+      name: "heading8",
+      label: "Heading",
+      type: "text",
+    
+  },
+  {
+      name: "image8",
+      type: "file",
+    
+  },
+  {
+      name: "info8",
+      label: "Description",
+      placeholder: "enter the description",
+      type: "textarea",
+    
+  },
+  {
+      name: "heading9",
+      label: "Heading",
+      type: "text",
+    
+  },
+  {
+      name: "image9",
+      type: "file",
+    
+  },
+  {
+      name: "info9",
+      label: "Description",
+      placeholder: "enter the description",
+      type: "textarea",
+    
+  },
+  {
+      name: "heading10",
+      label: "Heading",
+      type: "text",
+    
+  },
+  {
+      name: "image10",
+      type: "file",
+    
+  },
+  {
+      name: "info10",
+      label: "Description",
+      placeholder: "enter the description",
+      type: "textarea",
+    
+  },
+  {
+    name: "heading11",
+    label: "Heading",
+    type: "text",
+  
+},
+{
+    name: "image11",
+    
+    type: "file",
+  
+},
+{
+    name: "info11",
+    label: "Description",
+    placeholder: "enter the description",
+    type: "textarea",
+  
+},
+{
+  name: "heading12",
+  label: "Heading",
+  type: "text",
+
+},
+{
+  name: "image12",
+  
+  type: "file",
+
+},
+{
+  name: "info12",
+  label: "Description",
+  placeholder: "enter the description",
+  type: "textarea",
+
+},
+{
+  name: "heading13",
+  label: "Heading",
+  type: "text",
+
+},
+{
+  name: "image13",
+  
+  type: "file",
+
+},
+{
+  name: "info13",
+  label: "Description",
+  placeholder: "enter the description",
+  type: "textarea",
+
+},
+{
+  name: "heading14",
+  label: "Heading",
+  type: "text",
+
+},
+{
+  name: "image14",
+  
+  type: "file",
+
+},
+{
+  name: "info14",
+  label: "Description",
+  placeholder: "enter the description",
+  type: "textarea",
+
+},
+{
+  name: "heading15",
+  label: "Heading",
+  type: "text",
+
+},
+{
+  name: "image15",
+  
+  type: "file",
+
+},
+{
+  name: "info15",
+  label: "Description",
+  placeholder: "enter the description",
+  type: "textarea",
+
+},
+  {
+      name: "name",
+      label: "Name",
+      placeholder: "enter your name",
+      type: "text"
+  },
+]

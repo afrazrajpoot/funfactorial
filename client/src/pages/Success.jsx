@@ -24,7 +24,6 @@ const Success = () => {
           throw new Error('No booking data found');
         }
       } catch (err) {
-        console.error('Error retrieving booking data:', err.message);
         toast.error('Error processing booking, redirecting...');
         navigate('/');
       }
@@ -46,7 +45,6 @@ const Success = () => {
         localStorage.removeItem('bookingData'); // Clear booking data after successful booking
         navigate('/'); // Navigate back to the home page after success
       } catch (err) {
-        console.error('Error creating booking:', err);
         toast.error('Error creating booking, please try again');
       }
     };

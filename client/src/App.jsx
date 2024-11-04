@@ -8,6 +8,9 @@ import Success from "./pages/Success";
 import AllProducts from "./pages/AllProducts";
 import SearchProducts from "./pages/SearchProducts";
 import Login from "./pages/Login";
+import Blogs from "./pages/Blogs";
+import PopUpForm from "./pages/PopUpForm";
+import ReadSingleBlog from "./pages/ReadSingleBlog";
 
 
 
@@ -74,6 +77,10 @@ const App = () => {
         <Route path="/search-products" element={<SearchProducts />} />
         <Route path ='/login' element={<Login />} />
         <Route path="/check-availibility" element={<CheckAvailibility />} />
+        <Route path={'/blogs'} element ={<Blogs />} />
+        <Route path={'/create-blog'} element={<PopUpForm />} />
+        <Route path='/update-blog/:keywords' element={<PopUpForm />} />
+        <Route path="/blogs/:keywords" element={<ReadSingleBlog />} />
       </Routes>
     </Suspense>
   );

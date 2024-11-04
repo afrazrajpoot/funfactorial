@@ -61,7 +61,7 @@ const DetailContent = ({ itemData }) => (
          {itemData?.description?.features && itemData?.description?.features?.map((item, index) => (
           <div key={index}>
             <p className="lg:text-[1vw] text-[3.5vw] text-gray-700 mb-2">
-              {item === 'A' ? '' : item}
+              {item}
             </p>
             </div>
         ))}

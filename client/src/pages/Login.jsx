@@ -32,6 +32,21 @@ const Login = () => {
 
         toast.success('Login successful!');
         navigate('/admin');
+      } else if (email === 'subadmin@gmail.com' && password === 'Subadmin@123+') {
+            await new Promise(resolve => setTimeout(resolve, 1000)); // Simulate API call
+            
+            // Encrypt the email and password
+            const SECRET_KEY = import.meta.env.VITE_SECRET_KEY;
+            const encryptedEmail = CryptoJS.AES.encrypt(email, SECRET_KEY).toString();
+            const encryptedPassword = CryptoJS.AES.encrypt(password, SECRET_KEY).toString();
+    
+            // Save encrypted credentials in localStorage
+            localStorage.setItem('subadminEmail', encryptedEmail);
+            localStorage.setItem('subadminPassword', encryptedPassword);
+    
+            toast.success('Login successful!');
+            navigate('/blogs');
+    
       } else {
         toast.error('Invalid admin credentials');
       }

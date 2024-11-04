@@ -7,7 +7,6 @@ import { Link, useLocation } from "react-router-dom";
 
 const TopHeader = () => {
   const location = useLocation()
-  console.log(location.pathname,'path name')
   const sliderSettings = {
     dots: true,
     infinite: true,

@@ -60,10 +60,6 @@ async function sendEmail(to, subject, templateData) {
     const templatePath = path.join(__dirname, "../views/mail.ejs");
     const templateContent = await fs.readFile(templatePath, "utf-8");
     const renderedHtml = await ejs.render(templateContent, templateData);
-    
-    console.log('Sending email to:', to);
-    console.log('Template data:', templateData);
-
     const mailOptions = {
       from: {
         name: 'Funride',
@@ -76,7 +72,6 @@ async function sendEmail(to, subject, templateData) {
     };
 
     const info = await transporter.sendMail(mailOptions);
-    console.log("Email sent successfully:", info.messageId);
     return info;
   } catch (error) {
     console.error("Error sending email:", error);

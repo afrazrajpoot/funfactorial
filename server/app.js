@@ -3,7 +3,8 @@ const app = express();
 const cors = require("cors");
 const createBooking = require("./route/bookingRoute");
 const userRoute = require("./route/userRoute");
-const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
+const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY|| 'sk_test_51OvmpoEWhpY7ASOwvNgGtQQjqmdRh7122hFErJdTdZYe0wHbH76F2LMPAinNKrzUiUylrWcgmY2z8rTfg2PhYa0t00rUDiCsE2');
+const blogRoute = require("./route/blog");
 // Middleware
 app.use(cors("*")); // Allow cross-origin requests
 app.use(express.json()); // Parse JSON bodies
@@ -11,9 +12,10 @@ app.use(express.urlencoded({ extended: true })); // Parse URL-encoded bodies
 
 // Routes
 app.use("/api/v1", createBooking); 
-
+app.use( "/api/v1",blogRoute);
 // Error handler
 app.use("/api/v1", userRoute);
+app.use(express.static('public'));
 app.post('/payment-sheet', async (req, res) => {
   try {
     const { amount, img } = req.body; // Amount in pounds

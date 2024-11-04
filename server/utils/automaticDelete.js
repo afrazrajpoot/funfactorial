@@ -9,10 +9,6 @@ async function cleanupExpiredBookings() {
     // Get the current date and time in Pakistan timezone
     const now = new Date().toLocaleString('en-US', { timeZone: 'Asia/Karachi' });
     const pktDate = new Date(now); // pktDate is the current date in Pakistan time
-
-    // Log the current date for debugging
-    console.log(`Current date and time in PKT: ${pktDate}`);
-
     // Find bookings where endDate is less than the current date and time
     const expiredBookings = await BookingModel.find({
       endDate: { $lt: pktDate } // Find expired bookings
@@ -24,9 +20,6 @@ async function cleanupExpiredBookings() {
       const result = await BookingModel.deleteMany({
         endDate: { $lt: pktDate }
       });
-
-      console.log(`Cleanup completed at ${new Date().toISOString()}`);
-      console.log(`Deleted ${result.deletedCount} expired bookings`);
     } else {
       console.log('No expired bookings found.');
     }
@@ -38,14 +31,11 @@ async function cleanupExpiredBookings() {
 
 function startBookingCleanupJob() {
   cron.schedule(CLEANUP_INTERVAL, () => {
-    console.log('Running booking cleanup job...');
     cleanupExpiredBookings();
   }, {
     scheduled: true,
     timezone: 'Asia/Karachi'  // Set to Pakistan timezone
   });
-
-  console.log('Booking cleanup job scheduled');
 }
 
 module.exports = startBookingCleanupJob;

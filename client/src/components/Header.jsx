@@ -13,6 +13,8 @@ import {
 } from "@mui/material";
 import { useGlobalState } from "../context/globalState";
 import { useCheckAvailibilityMutation } from "../store/storeApi";
+import { DatePicker } from "@mui/x-date-pickers/DatePicker";
+import BasicDatePicker from "./BasicDatePicker";
 
 const Header = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -30,7 +32,6 @@ const navigate = useNavigate()
 
   const handleCategory = (event) => {
     setCategory(event.target.value);
-    console.log(event.target.value, 'selected category');
   };
 
   const handleSearch = (e) => {
@@ -149,7 +150,7 @@ const searchProduct = async ()=>{
           <article className="bg-[#b694c8] mt-[4vw] mb-[2vw] p-[2vw] w-full max-w-[95vw] lg:mt-[1vw] m-auto rounded-md flex lg:justify-around lg:flex-row flex-col lg:gap-[0vw] gap-[4vw]">
             <motion.p
               whileHover={{ scale: 1.1 }}
-              className="font-genty text-[12vw] lg:text-[2vw] text-purple-600"
+              className="font-genty text-[9vw]  lg:text-[2vw] text-purple-600"
             >
               Check Availability & Book Online
             </motion.p>
@@ -167,13 +168,6 @@ const searchProduct = async ()=>{
                   onChange={handleDeliveryChange}
                 />
               </FormControl>
-              <TextField
-                type="date"
-                onChange={(e)=>setDate(e.target.value)}
-                margin="dense"
-                InputLabelProps={{ shrink: true }}
-                className="rounded-md w-full lg:max-w-[15vw] bg-white"
-              />
               <FormControl className="w-full lg:max-w-[15vw]">
                 <InputLabel shrink={false}>
                   {!category && "Select Category First"}
@@ -191,7 +185,8 @@ const searchProduct = async ()=>{
                   ))}
                 </Select>
               </FormControl>
-       
+              <BasicDatePicker onSelectDate={(date)=> setDate(date)}
+              />
             <Button
                onClick={searchProduct}
                 variant="contained"
@@ -232,7 +227,7 @@ const searchProduct = async ()=>{
                 <span className="text-[1.3vw] font-ab mr-1">{item.title}</span>
               </motion.div>
             </Link>
-            {index === 5 && (
+            {index === 6 && (
               <div className="flex lg:translate-x-[15vw] w-full lg:max-w-[18vw] items-center bg-white border-[1px] pr-[1vw] pl-[0.5vw] rounded-md relative">
                 <Search className="text-[#40327a] w-5 h-5 mr-[0.5vw]" />
                 <form action="" className="lg:w-[15vw] w-full">
@@ -241,7 +236,7 @@ const searchProduct = async ()=>{
                     onChange={handleSearch}
                     value={search}
                     placeholder="Search"
-                    className="p-[0.5vw] text-[#40327a] focus:outline-none w-full"
+                    className="p-[2.5vw] md:p-[0.5vw] text-[#40327a] focus:outline-none w-full"
                   />
                 </form>
                 {showSuggestions && suggestions.length > 0 && (

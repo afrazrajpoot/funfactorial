@@ -17,13 +17,11 @@ exports.createBooking = async (req, res, next) => {
     }
 
     const { name: itemName, price: itemPrice } = itemDetail;
-    console.log(itemDetail,'item detail')
     if (!itemName || typeof itemName !== "string") {
       throw new CustomError("Item detail must include a valid name", 400);
     }
 
     const pricePerDay = parseFloat(itemPrice) + 125;
-    console.log(pricePerDay,'price per day')
     if (isNaN(pricePerDay)) {
       throw new CustomError("Item price must be a valid number", 400);
     }
@@ -117,7 +115,6 @@ exports.checkinAvailibility = async (req, res, next) => {
     const conflictingBookings = await Booking.findOne({
       "itemDetail.name": itemName,
     });
-    // console.log(conflictingBookings, "single booking");
     // If no booking is found, it means the item is available
     if (!conflictingBookings) {
       return next(new CustomError("Booking available", 404));
@@ -181,73 +178,24 @@ exports.approveBooking = async(req,res,next)=>{
   }
 }
 
-
-
-
-// exports.checkAvailibility = async (req, res, next) => {
-//   try {
-//     const { date } = req.body;
-
-//     if (!date) {
-//       return res.status(400).json({
-//         success: false,
-//         message: 'Please provide a date'
-//       });
-//     }
-
-//     // Convert input date to a Date object
-//     const targetDate = new Date(date);
-    
-//     // Make sure targetDate is at the start of the day (midnight)
-//     targetDate.setHours(0, 0, 0, 0);
-// console.log(targetDate,'target date')
-//     // Query to find bookings that overlap with the target date
-//     const bookings = await Booking.find({
-//       $or: [
-//         // Check if target date is between startDate and endDate
-//         {
-//           $and: [
-//             { startDate: { $lte: targetDate } },
-//             { endDate: { $gte: targetDate } }
-//           ]
-//         },
-//         // Check if the start date or end date matches the target date
-//         {
-//           $or: [
-//             { startDate: targetDate },
-//             { endDate: targetDate }
-//           ]
-//         }
-//       ]
-//     });
-
-//     // Check if there are any overlapping bookings
-//     if (bookings.length > 0) {
-//       return res.status(200).json({
-//         success: true,
-//         available: false,
-//         message: 'Date is not available',
-//         existingBookings: bookings, // Return the overlapping bookings
-//         requestedDate: targetDate
-//       });
-//     }
-
-//     return res.status(200).json({
-//       success: true,
-//       available: true,
-//       message: 'Date is available for booking',
-//       requestedDate: targetDate
-//     });
-
-//   } catch (err) {
-//     console.error("Error checking booking availability:", err);
-//     return res.status(500).json({
-//       success: false,
-//       message: 'Error checking availability',
-//       error: err.message
-//     });
-//   }
-// };
+exports.rejectBooking = async (req,res,next)=>{
+  try{
+    const {id} = req.body
+    const savedBooking = await Booking.findById(id);
+    if(!savedBooking){
+      return next(new CustomError('No booking found',404))
+    }
+    savedBooking.status ='rejected';
+    await savedBooking.save();
+    res.status(200).json({
+      message: 'Booking rejected',
+      savedBooking
+    })
+  }catch(err){
+    console.error("Error rejecting booking:", err);
+    next(err); // Pass the correct error object
+  }
+}
 
 
 exports.checkAvailibility = async (req, res, next) => {
@@ -340,3 +288,4 @@ exports.checkAvailibility = async (req, res, next) => {
     });
   }
 };
+

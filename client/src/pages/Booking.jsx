@@ -52,7 +52,6 @@ const BookingForm = () => {
 
       // Optionally, clear form fields or show success message
     } catch (error) {
-      console.error("Error creating booking:", error);
       toast.error("Failed to create booking", {
         position: "top-center",
       });

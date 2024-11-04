@@ -129,7 +129,6 @@ const Contact = () => {
       }
       
       toast.error(errorMessage, { position: "top-center" });
-      console.error("Submission error:", error);
     } finally {
       setLoading(false);
       setIsSubmitting(false);
@@ -147,7 +146,6 @@ const Contact = () => {
       const decryptedData = bytes.toString(CryptoJS.enc.Utf8);
       return JSON.parse(decryptedData);
     } catch (error) {
-      console.error("Error decrypting data:", error);
       toast.error("Error loading saved data");
       return null;
     }

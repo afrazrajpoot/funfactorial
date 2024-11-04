@@ -14,7 +14,7 @@ const location = useLocation()
       <header className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-4 flex justify-between items-center shadow-md">
         <Link to="/" className="block">
           <p className="font-genty text-[#f06eaa] text-[6vw] text-center">Fun</p>
-          <p className="font-genty text-[#f06eaa] text-[6vw] absolute top-[5.5vw]">Rides</p>
+          <p className="font-genty text-[#f06eaa] text-[6vw] absolute top-[8.5vw] sm:top-[7.5vw] md:top-[6.5vw] lg:top-[5.5vw]">Rides</p>
         </Link>
         <button 
           onClick={toggleMenu} 
