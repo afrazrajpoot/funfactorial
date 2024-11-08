@@ -26680,10 +26680,16 @@ export const navData = [
     title: "Contact us",
     url: "/contact",
   },
+ 
   {
     title: "Blogs",
     url: "/blogs",
   },
+  //  {
+  //   title: "Login",
+  //   url: "/login",
+  // },
+ 
   {
     type: "text",
     placeholder: "search",
@@ -27330,7 +27336,6 @@ export const blogsForm = [
 },
 {
     name: "image11",
-    
     type: "file",
   
 },

@@ -5,7 +5,7 @@ import { FaUsers, FaCalendarCheck, FaMoneyBillWave, FaSpinner, FaTimes, FaCheckC
 import CryptoJS from 'crypto-js';
 import { Link, useNavigate } from 'react-router-dom';
 import { toast } from 'sonner';
-import CreateBlogButton from '../components/CreateBlogButton';
+// import CreateBlogButton from '../components/CreateBlogButton';
 import { BookingModal } from '../components/BookingModal';
 import Pagination from '../components/Pagination';
 // import Pagination from '../components/Pagination';
@@ -237,7 +237,7 @@ const Admin = () => {
         </motion.div>
       <Link to={'/create-blog'}>
       <div className='mt-[3vw]'>
-       <CreateBlogButton />
+       {/* <CreateBlogButton /> */}
        </div>
       </Link>
       </div>
