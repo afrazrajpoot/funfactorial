@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useGlobalState } from '../context/globalState';
 import { products } from '../data';
 import { motion } from 'framer-motion';
@@ -6,14 +6,14 @@ import Card from '../components/Card';
 import Layout from '../components/Layout';
 
 const CheckAvailibility = () => {
-  const { availableData } = useGlobalState();
+  const { availableData, data, setData, search } = useGlobalState();
 
   // Check if availableData exists and has items
   const unavailableTitles = availableData?.length > 0 
     ? availableData.map(item => item.itemDetail.name)
     : [];
 
-  // If availableData is empty or undefined, show all products; otherwise, filter based on unavailableTitles
+  // Filter the products based on unavailable titles
   const filteredProducts = unavailableTitles.length === 0 
     ? products 
     : products.filter(product => !unavailableTitles.includes(product.title));
@@ -39,10 +39,22 @@ const CheckAvailibility = () => {
     }
   };
 
+  // Update the data when the search changes or when the component is mounted
+  useEffect(() => {
+    const filteredBySearch = search
+      ? filteredProducts.filter((item) =>
+          item.title[0].toLowerCase().includes(search.toLowerCase())
+        )
+      : filteredProducts;
+
+    // Set the data state with the filtered products
+    setData(filteredBySearch);
+  }, [search, availableData, setData]);
+
   return (
     <Layout>
-      <div className="grid grid-cols-1  ml-[5vw] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
-        {filteredProducts.map((elem, ind) => (
+      <div className="grid grid-cols-1 ml-[5vw] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
+        {data.map((elem, ind) => (
           <motion.div key={elem.id} variants={itemVariants} layout>
             <Card {...elem} ind={ind} />
           </motion.div>

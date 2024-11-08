@@ -198,94 +198,45 @@ exports.rejectBooking = async (req,res,next)=>{
 }
 
 
-exports.checkAvailibility = async (req, res, next) => {
+exports.checkAvailibility = async (req, res) => {
   try {
     const { date } = req.body;
 
-    if (!date) {
-      return res.status(400).json({
-        success: false,
-        message: 'Please provide a date'
-      });
+    // Parse the date from client input in UTC (assuming it's in UTC format)
+    const requestedDate = new Date(date);
+    console.log('Requested Date:', requestedDate);
+
+    // Ensure the date is valid
+    if (isNaN(requestedDate.getTime())) {
+      return res.status(400).json({ message: 'Invalid date format.' });
     }
 
-    // Convert input date to a Date object and ensure it's valid
-    const targetDate = new Date(date);
-    if (isNaN(targetDate.getTime())) {
-      return res.status(400).json({
-        success: false,
-        message: 'Invalid date format'
-      });
-    }
+    // Normalize the requested date to remove any time component for comparison (if required)
+    const normalizedRequestedDate = new Date(requestedDate.toISOString().split('T')[0]);
 
-    // Set time to start of day in Pakistan timezone (UTC+5)
-    const startOfDay = new Date(targetDate);
-    startOfDay.setUTCHours(-5, 0, 0, 0);  // Adjust for Pakistan timezone
+    console.log('Normalized Requested Date:', normalizedRequestedDate);
 
-    // Set time to end of day in Pakistan timezone (UTC+5)
-    const endOfDay = new Date(targetDate);
-    endOfDay.setUTCHours(18, 59, 59, 999);  // Adjust for Pakistan timezone
-
-    // Query to find bookings that overlap with the target date
-    const bookings = await Booking.find({}).lean();
-    
-    // Filter bookings manually to handle string dates
-    const overlappingBookings = bookings.filter(booking => {
-      const bookingStartDate = new Date(booking.startDate);
-      const bookingEndDate = new Date(booking.endDate);
-      
-      // Convert booking dates to UTC for consistent comparison
-      const bookingStart = new Date(bookingStartDate);
-      const bookingEnd = new Date(bookingEndDate);
-
-      // Check if booking overlaps with target date
-      return (
-        // Case 1: Booking starts during target date
-        (bookingStart >= startOfDay && bookingStart <= endOfDay) ||
-        // Case 2: Booking ends during target date
-        (bookingEnd >= startOfDay && bookingEnd <= endOfDay) ||
-        // Case 3: Booking spans over target date
-        (bookingStart <= startOfDay && bookingEnd >= endOfDay)
-      );
+    // Find all bookings where the requested date is between startDate and endDate
+    const bookingsWithinRange = await Booking.find({
+      startDate: { $lte: normalizedRequestedDate },  // Requested date should be after or equal to startDate
+      endDate: { $gte: normalizedRequestedDate },    // Requested date should be before or equal to endDate
     });
 
-    // Log for debugging
-    console.log({
-      targetDate: startOfDay,
-      targetDateEnd: endOfDay,
-      bookingsFound: overlappingBookings.length,
-      bookings: overlappingBookings.map(b => ({
-        startDate: b.startDate,
-        endDate: b.endDate,
-        startDateObj: new Date(b.startDate),
-        endDateObj: new Date(b.endDate)
-      }))
-    });
-
-    if (overlappingBookings.length > 0) {
+    // If there are bookings within the date range
+    if (bookingsWithinRange.length > 0) {
       return res.status(200).json({
-        success: true,
+        available: true,
+        message: 'Bookings are available for this date.',
+        bookings: bookingsWithinRange,
+      });
+    } else {
+      return res.status(200).json({
         available: false,
-        message: 'Date is not available',
-        existingBookings: overlappingBookings,
-        requestedDate: startOfDay
+        message: 'No bookings available for this date.',
       });
     }
-
-    return res.status(200).json({
-      success: true,
-      available: true,
-      message: 'Date is available for booking',
-      requestedDate: startOfDay
-    });
-
   } catch (err) {
-    console.error("Error checking booking availability:", err);
-    return res.status(500).json({
-      success: false,
-      message: 'Error checking availability',
-      error: err.message
-    });
+    console.error(err);
+    return res.status(500).json({ message: 'Server error.' });
   }
 };
-
