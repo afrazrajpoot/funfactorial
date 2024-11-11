@@ -202,41 +202,61 @@ exports.checkAvailibility = async (req, res) => {
   try {
     const { date } = req.body;
 
-    // Parse the date from client input in UTC (assuming it's in UTC format)
+    // Parse the date from client input in UTC
     const requestedDate = new Date(date);
     console.log('Requested Date:', requestedDate);
 
-    // Ensure the date is valid
+    // Validate the date format
     if (isNaN(requestedDate.getTime())) {
       return res.status(400).json({ message: 'Invalid date format.' });
     }
 
-    // Normalize the requested date to remove any time component for comparison (if required)
-    const normalizedRequestedDate = new Date(requestedDate.toISOString().split('T')[0]);
+    // Normalize the requested date by setting time to 00:00:00 for comparison
+    const normalizedRequestedDate = new Date(
+      requestedDate.getFullYear(),
+      requestedDate.getMonth(),
+      requestedDate.getDate()
+    );
 
     console.log('Normalized Requested Date:', normalizedRequestedDate);
 
-    // Find all bookings where the requested date is between startDate and endDate
+    // Query bookings with dates that overlap the normalized date
     const bookingsWithinRange = await Booking.find({
-      startDate: { $lte: normalizedRequestedDate },  // Requested date should be after or equal to startDate
-      endDate: { $gte: normalizedRequestedDate },    // Requested date should be before or equal to endDate
+      $or: [
+        // Bookings that start and end on the requested date
+        {
+          startDate: { $lte: normalizedRequestedDate },
+          endDate: { $gte: normalizedRequestedDate },
+        },
+        // Bookings that start on or before the requested date and end after the requested date
+        {
+          startDate: { $lte: normalizedRequestedDate },
+          endDate: { $gt: normalizedRequestedDate },
+        },
+        // Bookings that start after the requested date and end on or after the requested date
+        {
+          startDate: { $gte: normalizedRequestedDate },
+          endDate: { $gte: normalizedRequestedDate },
+        },
+      ],
     });
 
-    // If there are bookings within the date range
+    // Check if there are any bookings within the date range
     if (bookingsWithinRange.length > 0) {
       return res.status(200).json({
-        available: true,
-        message: 'Bookings are available for this date.',
+        available: false,
+        message: 'No bookings available for this date.',
         bookings: bookingsWithinRange,
       });
     } else {
       return res.status(200).json({
-        available: false,
-        message: 'No bookings available for this date.',
+        available: true,
+        message: 'Bookings are available for this date.',
+        bookings: [],
       });
     }
   } catch (err) {
     console.error(err);
     return res.status(500).json({ message: 'Server error.' });
   }
-};
+};  

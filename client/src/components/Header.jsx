@@ -13,7 +13,6 @@ import {
 } from "@mui/material";
 import { useGlobalState } from "../context/globalState";
 import { useCheckAvailibilityMutation } from "../store/storeApi";
-import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import BasicDatePicker from "./BasicDatePicker";
 
 const Header = () => {
@@ -131,7 +130,8 @@ const [checkAvailibility,{isLoading,isError,isSuccess,data}] = useCheckAvailibil
 const searchProduct = async ()=>{
   if(date){
  const res = await checkAvailibility({date})
-    setAvailableData(res.data.existingBookings)
+ console.log(res)
+    setAvailableData(res.data.bookings)
   
     navigate('/check-availibility')
     return
