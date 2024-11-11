@@ -1,4 +1,9 @@
-export const BookingModal = ({ booking, onClose }) => (
+import {motion} from 'framer-motion'
+import { FaCheckCircle, FaSpinner, FaTimes, FaTimesCircle } from 'react-icons/fa';
+
+export const BookingModal = ({ booking, onClose ,handleApproval,handleReject,processingBooking
+  ,rejectLoading
+}) => (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -51,7 +56,7 @@ export const BookingModal = ({ booking, onClose }) => (
             </div>
             <div>
               <p className="text-sm text-gray-500">Total Amount</p>
-              <p className="font-semibold text-green-600">${booking.total}</p>
+              <p className="font-semibold text-green-600">£{booking.total}</p>
             </div>
           </div>
         </div>

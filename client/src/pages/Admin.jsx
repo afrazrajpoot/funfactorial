@@ -22,7 +22,7 @@ const Admin = () => {
   const adminEmail = 'admin@gmail.com';
   const adminPassword = 'admin';
   const [currentPage, setCurrentPage] = useState(1);
-  const [bookingsPerPage] = useState(10);
+  const [bookingsPerPage] = useState(5);
 
   useEffect(() => {
     if (data?.bookingDetail) {
@@ -150,7 +150,7 @@ const Admin = () => {
             { title: 'Total Bookings', value: totalBookings, icon: FaUsers, color: 'from-blue-400 to-blue-600' },
             { title: 'Active Bookings', value: activeBookings, icon: FaCalendarCheck, color: 'from-green-400 to-green-600' },
             { title: 'Approved Bookings', value: approvedBookings, icon: FaCheckCircle, color: 'from-purple-400 to-purple-600' },
-            { title: 'Total Revenue', value: `$${totalRevenue.toFixed(2)}`, icon: FaMoneyBillWave, color: 'from-yellow-400 to-yellow-600' },
+            { title: 'Total Revenue', value: `${totalRevenue.toFixed(2)}`, icon: FaMoneyBillWave, color: 'from-yellow-400 to-yellow-600' },
           ].map((item, index) => (
             <motion.div
               key={index}
@@ -203,7 +203,7 @@ const Admin = () => {
                     <td className="p-4">{booking.email}</td>
                     <td className="p-4">{new Date(booking.startDate).toLocaleDateString()}</td>
                     <td className="p-4">{new Date(booking.endDate).toLocaleDateString()}</td>
-                    <td className="p-4 font-semibold text-green-600">${booking.total.toFixed(2)}</td>
+                    <td className="p-4 font-semibold text-green-600">£{booking.total.toFixed(2)}</td>
                     <td className="p-4">
                       <span className={`px-3 py-1 rounded-full text-sm ${
                         booking.status === 'approved' ? 'bg-green-100 text-green-800' :
@@ -244,11 +244,11 @@ const Admin = () => {
 
       <AnimatePresence>
         {selectedBooking && (
-          <BookingModal booking={selectedBooking} onClose={() => setSelectedBooking(null)} handleApproval={handleApproval} handleReject={handleReject} />
+          <BookingModal booking={selectedBooking} rejectError={rejectError} rejectLoading={rejectLoading} processingBooking={processingBooking} onClose={() => setSelectedBooking(null)} handleApproval={handleApproval} handleReject={handleReject} />
         )}
       </AnimatePresence>
     </motion.div>
   );
 };
 
-export default Admin;
+export default Admin; 
