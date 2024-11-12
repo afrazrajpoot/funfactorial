@@ -5159,13 +5159,14 @@ export const products = [
     "alt": "15ft x 15ft Inflatable VIP Nightclub",
     "url": "/images/img2.jpg"
   },
-  "price": "£875",
+  "price": "£775",
   "description": {
     "overview": [
       "The Go karts allow a child to drive around a track without any parent assistance. It's often the first time they have driven a car, so you can see their eyes light up with joy. This attraction is a real winner. It always attracts large queues, and the kids absolutely love it and our friendly staff. The track size is 16m x 12m, and can go against any walls if space is restricted."
     ],
     "features": [
-      "A"
+      
+      'Opertors only'
     ],
     "contact_info": {
       "phone": "0113 460 1386",
@@ -5224,7 +5225,7 @@ export const products = [
       "Let's dive into the thrill of the unknown! The Zorb Ball is perfect for those craving excitement. It's a safe and exhilarating experience where you roll downhill inside a transparent plastic orb. The Zorb consists of two balls with an air layer in between, making the ride both fun and secure. In essence, Zorb experiences are all about enjoyment with a touch of adventure, rather than fear."
     ],
     "features": [
-      "A"
+      'Operators only'
     ],
     "contact_info": {
       "phone": "0113 460 1386",
@@ -5277,13 +5278,13 @@ export const products = [
     "alt": "15ft x 15ft Inflatable VIP Nightclub",
     "url": "/images/megaWave.png"
   },
-  "price": "£675",
+  "price": "£825",
   "description": {
     "overview": [
-      "Rainbow Slide is a fantastic addition to any birthday party or event, guaranteed to keep children entertained with its exhilarating drop. Its vibrant, multicolored design adds a touch of excitement. With its thrilling ride and eye-catching appearance, the Rainbow slide is sure to be a hit at any celebration."
+      "This 25ft Wave slide is designed for the over 5's and also for adults. The wave slide is an added dimension to the standard slide, and side by side a standard slide, this one is more attractive giving the think of the wave. Kids absolutely love the wave slide which is seen when you see them racing to climb it again."
     ],
     "features": [
-      "A"
+      "Operators only"
     ],
     "contact_info": {
       "phone": "0113 460 1386",
@@ -5306,27 +5307,15 @@ export const products = [
     }
   },
   "suitability": {
-    // "suitable_for": [
-    //   {
-    //     "category": "Age – 4+",
-    //     "suitable": true
-    //   },
-    //   {
-    //     "category": "Age – 4+",
-    //     "suitable": true
-    //   }
-    // ],
     "suitable_surfaces": [
       "Age – 5 +",
       "Indoor on hard surface – yes, if ceiling is high enough",
-      "Outdoor on grass – yes",
-    
+      "Outdoor on grass – yes"
     ],
-    "unsuitable_surfaces": [
-      
-    ]
+    "unsuitable_surfaces": []
   }
 }
+,
 ,
 {
   "title": "Rainbow Giant Slide",
@@ -5336,13 +5325,13 @@ export const products = [
     "alt": "15ft x 15ft Inflatable VIP Nightclub",
     "url": "/images/giant.png"
   },
-  "price": "£675",
+  "price": "£575",
   "description": {
     "overview": [
       "Rainbow Slide is a fantastic addition to any birthday party or event, guaranteed to keep children entertained with its exhilarating drop. Its vibrant, multicolored design adds a touch of excitement. With its thrilling ride and eye-catching appearance, the Rainbow slide is sure to be a hit at any celebration."
     ],
     "features": [
-      "A"
+      "Operators only"
     ],
     "contact_info": {
       "phone": "0113 460 1386",

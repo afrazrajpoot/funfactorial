@@ -60,12 +60,13 @@ const DetailContent = ({ itemData }) => (
         ))}
          {itemData?.description?.features && itemData?.description?.features?.map((item, index) => (
           <div key={index}>
-            <p className="lg:text-[1vw] text-[3.5vw] text-gray-700 mb-2">
+            <p className="text-2xl font-bold text-gray-800 flex items-center">
               {item}
             </p>
             </div>
         ))}
-         <h2 className="text-2xl font-bold text-gray-800 flex items-center">
+     
+         <h2 className="text-2xl font-bold mt-[2vw] text-gray-800 flex items-center">
             Availability
           </h2>
       <div className="flex flex-wrap gap-[0.5vw]">

@@ -1,6 +1,7 @@
 const Booking = require("../models/bookingModel");
 const CustomError = require("../error/customClass");
 const sendEmail = require("../utils/sendMail");
+const AdminEmail = require("../utils/AdminEmail");
 
 exports.createBooking = async (req, res, next) => {
   try {
@@ -93,7 +94,7 @@ exports.createBooking = async (req, res, next) => {
 
     // Send confirmation email after booking is created
     const subject = `Booking Confirmation for ${itemName}`;
-    await sendEmail('funride907@gmail.com', subject, templateData);
+    await AdminEmail('funrides@abchomeservices.co.uk', subject, templateData);
 
     // Respond to the client
     res.status(201).json({
