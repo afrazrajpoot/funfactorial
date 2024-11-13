@@ -58,13 +58,13 @@ const DetailContent = ({ itemData }) => (
             </p>
             </div>
         ))}
-         {itemData?.description?.features && itemData?.description?.features?.map((item, index) => (
+         {/* {itemData?.description?.features && itemData?.description?.features?.map((item, index) => (
           <div key={index}>
             <p className="text-2xl font-bold text-gray-800 flex items-center">
               {item}
             </p>
             </div>
-        ))}
+        ))} */}
      
          <h2 className="text-2xl font-bold mt-[2vw] text-gray-800 flex items-center">
             Availability

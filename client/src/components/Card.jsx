@@ -5,7 +5,7 @@ import { FaShoppingCart, FaInfoCircle, FaStar, FaTag, FaEye } from "react-icons/
 import { motion } from "framer-motion";
 import { Calendar, Truck } from "lucide-react";
 
-const Card = ({ title, price, ind,image, rating = 4.5, w }) => {
+const Card = ({ title, price, ind,image, rating = 4.5, w ,description }) => {
   const { setItemDetail } = useGlobalState();
   const navigate = useNavigate();
 
@@ -21,14 +21,20 @@ const Card = ({ title, price, ind,image, rating = 4.5, w }) => {
       className="relative w-[75vw] ml-[13vw] my-[2vw] lg:w-[17vw] lg:ml-[0vw] lg:h-[25vw] h-[100vw] overflow-hidden rounded-2xl shadow-lg transition-all duration-300 hover:shadow-xl bg-white"
     >
        <div className="absolute top-4 right-4 flex items-center gap-2">
-        <button className="bg-blue-500 text-white p-2 rounded-full shadow-md hover:bg-blue-600 transition-colors">
+        {/* <button className="bg-blue-500 text-white p-2 rounded-full shadow-md hover:bg-blue-600 transition-colors">
           <span>Pick</span>
-          {/* <Truck size={16} /> */}
+       
         </button>
         <button className="bg-red-500 text-white p-2 rounded-full shadow-md hover:bg-red-600 transition-colors">
           <span>Drop</span>
-          {/* <Calendar size={16} /> */}
-        </button>
+         
+        </button> */}
+    {
+      description?.operator && ( <button className="bg-blue-500 text-white p-2 rounded-full shadow-md hover:bg-blue-600 transition-colors">
+        <span>{description?.operator}</span>
+     
+      </button>)
+    }
         <div className="bg-green-500 text-white px-3 py-1 rounded-full shadow-md z-10">
           <p className="font-bold text-lg flex items-center">
             £{Number(price?.replace(/[^0-9.-]+/g, "")) + 125}

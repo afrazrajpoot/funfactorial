@@ -5166,8 +5166,9 @@ export const products = [
     ],
     "features": [
       
-      'Opertors only'
+      ''
     ],
+    'operator':"Operators only",
     "contact_info": {
       "phone": "0113 460 1386",
       "email": "enquiries@funrides.co.uk"
@@ -5225,8 +5226,9 @@ export const products = [
       "Let's dive into the thrill of the unknown! The Zorb Ball is perfect for those craving excitement. It's a safe and exhilarating experience where you roll downhill inside a transparent plastic orb. The Zorb consists of two balls with an air layer in between, making the ride both fun and secure. In essence, Zorb experiences are all about enjoyment with a touch of adventure, rather than fear."
     ],
     "features": [
-      'Operators only'
+      ''
     ],
+    'operator':"Operators only",
     "contact_info": {
       "phone": "0113 460 1386",
       "email": "enquiries@funrides.co.uk"
@@ -5284,8 +5286,9 @@ export const products = [
       "This 25ft Wave slide is designed for the over 5's and also for adults. The wave slide is an added dimension to the standard slide, and side by side a standard slide, this one is more attractive giving the think of the wave. Kids absolutely love the wave slide which is seen when you see them racing to climb it again."
     ],
     "features": [
-      "Operators only"
+      ""
     ],
+    'operator':"Operators only",
     "contact_info": {
       "phone": "0113 460 1386",
       "email": "enquiries@funrides.co.uk"
@@ -5331,8 +5334,9 @@ export const products = [
       "Rainbow Slide is a fantastic addition to any birthday party or event, guaranteed to keep children entertained with its exhilarating drop. Its vibrant, multicolored design adds a touch of excitement. With its thrilling ride and eye-catching appearance, the Rainbow slide is sure to be a hit at any celebration."
     ],
     "features": [
-      "Operators only"
+      ""
     ],
+    'operator':"Operators only",
     "contact_info": {
       "phone": "0113 460 1386",
       "email": "enquiries@funrides.co.uk"
