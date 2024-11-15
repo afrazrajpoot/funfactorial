@@ -3,7 +3,7 @@ const app = express();
 const cors = require("cors");
 const createBooking = require("./route/bookingRoute");
 const userRoute = require("./route/userRoute");
-const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY|| 'sk_test_51OvmpoEWhpY7ASOwvNgGtQQjqmdRh7122hFErJdTdZYe0wHbH76F2LMPAinNKrzUiUylrWcgmY2z8rTfg2PhYa0t00rUDiCsE2');
+const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 const blogRoute = require("./route/blog");
 // Middleware
 app.use(cors("*")); // Allow cross-origin requests
@@ -44,11 +44,11 @@ app.post('/payment-sheet', async (req, res) => {
         quantity: 1,
       }],
       mode: 'payment',
-      // success_url: `https://www.funrides.co.uk/success`,
-      success_url: `http://localhost:5173/success`,
+      success_url: `https://www.funrides.co.uk/success`,
+      // success_url: `http://localhost:5173/success`,
 
-      // cancel_url: `https://www.funrides.co.uk/`,
-      cancel_url: `http://localhost:5173`,
+      cancel_url: `https://www.funrides.co.uk/`,
+      // cancel_url: `http://localhost:5173`,
 
     });
         
