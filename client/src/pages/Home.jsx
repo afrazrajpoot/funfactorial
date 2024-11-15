@@ -251,8 +251,9 @@ const Home = () => {
             </motion.section>
           )}
         </AnimatePresence>
+        <h1 className="text-center text-[#ffff] bg-[#b694c8] p-[0.5vw] mt-[vw] lg:mt-[2vw] font-bold text-[7vw] lg:text-[2.5vw] lg:w-full">Our Rides</h1>
 
-        <div className="mt-16 pt-[9vw]" ref={productsRef}>
+        <div className="mt-[2vw] pt-[2vw]" ref={productsRef}>
           <section className="flex flex-col lg:flex-row gap-8">
             <section className="lg:w-1/4 hidden lg:block">
               <Ribbons handleRibbonClick={handleRibbonClick} getRibbonClasses={getRibbonClasses} />
@@ -267,7 +268,7 @@ const Home = () => {
       initial="hidden"
       animate="visible"
       exit="exit"
-      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"
+      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 h-[80vw] overflow-y-scroll"
     >
       {data.map((elem, ind) => (
         <motion.div key={elem.id} variants={itemVariants} layout>

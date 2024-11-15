@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { readBlogs, createBlog, readSingleBlog, deleteBlog, updateBlog, deleteImages } = require("../controllers/blog");
+const { readBlogs, createBlog, readSingleBlog, deleteBlog, updateBlog, deleteImages, updateProductInfo, getProductInfo } = require("../controllers/blog");
 const multer = require("multer");
 const path = require('path');
 const { v4: uuidv4 } = require('uuid');
@@ -53,4 +53,6 @@ router.route("/blogs/:keywords").get(readSingleBlog);
 router.route("/deleteBlog/:id").delete(deleteBlog);
 router.route("/updateBlog/:id").put(uploadFiles, updateBlog); // Use uploadFiles middleware
 router.route('/deleteImages/:id').delete(deleteImages);
+router.route('/updateProductInfo').put(updateProductInfo);
+router.route('/getProductInfo').get(getProductInfo);
 module.exports = router;

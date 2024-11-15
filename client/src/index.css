@@ -60,3 +60,24 @@ body {
 .scrollbar-hide::-webkit-scrollbar {
   display: none;  /* Chrome, Safari and Opera */
 }
+
+
+/* For Webkit browsers like Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 0.8vw; /* Width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #40327a; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners of the scrollbar thumb */
+  border: 3px solid #f1f1f1; /* Adds a border to separate thumb from track */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b694c8; /* Thumb color on hover */
+  cursor: pointer;
+}

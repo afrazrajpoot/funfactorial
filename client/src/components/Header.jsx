@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate, NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import { navData } from "../data"; // Assuming navData contains your navigation items
 import { Search } from "lucide-react";
@@ -14,6 +14,7 @@ import {
 import { useGlobalState } from "../context/globalState";
 import { useCheckAvailibilityMutation } from "../store/storeApi";
 import BasicDatePicker from "./BasicDatePicker";
+import CryptoJS from 'crypto-js';
 
 const Header = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -23,6 +24,13 @@ const Header = () => {
   const [category, setCategory] = useState("");
   const [suggestions, setSuggestions] = useState([]);
   const [date,setDate] = useState("");
+
+  const encryptionKey = import.meta.env.VITE_SECRET_KEY;
+  const adminEmail = 'subadmin@gmail.com';
+  const adminPassword = 'Subadmin@123+';
+  const [admin, setAdmin] = useState(false);
+
+  
 
 const navigate = useNavigate()
   const handleDeliveryChange = (event) => {
@@ -143,6 +151,18 @@ const searchProduct = async ()=>{
     setShowHeader(location.pathname)
   },[])
 
+  useEffect(() => {
+    const storedEmail = localStorage.getItem('subadminEmail');
+    const storedPassword = localStorage.getItem('subadminPassword');
+    if (storedEmail && storedPassword) {
+      const decryptedEmail = CryptoJS.AES.decrypt(storedEmail, encryptionKey).toString(CryptoJS.enc.Utf8);
+      const decryptedPassword = CryptoJS.AES.decrypt(storedPassword, encryptionKey).toString(CryptoJS.enc.Utf8);
+      if (decryptedEmail === adminEmail && decryptedPassword === adminPassword) {
+        setAdmin(true);
+      }
+    } 
+  }, []);
+
   return (
     <header className={`${showHeader === '/login' || showHeader === '/admin' && 'hidden'}`}>
       <article>
@@ -155,7 +175,7 @@ const searchProduct = async ()=>{
               Check Availability & Book Online
             </motion.p>
             <form className="flex lg:flex-row flex-col gap-[3vw] lg:ml-[5vw] w-full items-center">
-              <FormControl className="w-full lg:max-w-[15vw]">
+              {/* <FormControl className="w-full lg:max-w-[15vw]">
                 <InputLabel shrink={false}>
                   {!deliveryArea && "Set delivery area"}
                 </InputLabel>
@@ -167,7 +187,7 @@ const searchProduct = async ()=>{
                   value={deliveryArea}
                   onChange={handleDeliveryChange}
                 />
-              </FormControl>
+              </FormControl> */}
               <FormControl className="w-full lg:max-w-[15vw]">
                 <InputLabel shrink={false}>
                   {!category && "Select Category First"}
@@ -185,8 +205,7 @@ const searchProduct = async ()=>{
                   ))}
                 </Select>
               </FormControl>
-              <BasicDatePicker onSelectDate={(date)=> setDate(date)}
-              />
+              <BasicDatePicker onSelectDate={(date)=> setDate(date)}/>
             <Button
                onClick={searchProduct}
                 variant="contained"
@@ -199,6 +218,8 @@ const searchProduct = async ()=>{
               >
                 Search
               </Button>
+
+              { admin && <Link to="/dashboard" className="bg-[#40327a] text-white p-[1vw] text-center rounded-md text-[1vw] font-medium ">Dashboard</Link>}
    
             </form>
           </article>
@@ -214,9 +235,9 @@ const searchProduct = async ()=>{
       >
         {navData?.map((item, index) => (
           <div key={index} className="flex">
-            <Link
+            <NavLink
               to={item.url}
-              className="text-white hidden lg:block font-bold items-center hover:text-[#40327a] transition-colors duration-300"
+              className={` hidden lg:block font-bold items-center ${item.url === location.pathname ? "text-[#40327a]" : 'text-white'} hover:text-[#40327a] transition-colors duration-300`}
             >
               <motion.div
                 className="flex items-center"
@@ -226,7 +247,7 @@ const searchProduct = async ()=>{
               >
                 <span className="text-[1.3vw] font-ab mr-1">{item.title}</span>
               </motion.div>
-            </Link>
+            </NavLink>
             {index === 6 && (
               <div className="flex lg:translate-x-[15vw] w-full lg:max-w-[18vw] items-center bg-white border-[1px] pr-[1vw] pl-[0.5vw] rounded-md relative">
                 <Search className="text-[#40327a] w-5 h-5 mr-[0.5vw]" />

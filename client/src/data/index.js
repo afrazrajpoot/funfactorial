@@ -93,6 +93,11 @@ export const submenuItems = [
 ];
 export const ribbons = [
   {
+    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-orange.png",
+    title: "All Products",    
+    url: "/all-products",
+  },
+  {
     img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-blue.png",
     title: "Fun Fairs",
     url: "/category/news-2024",
@@ -158,11 +163,7 @@ export const ribbons = [
     title: "Obstacle Assult Course",
     url: "/category/party-entertainer",
   },
-  {
-    img: "https://files.bookingonline.co.uk/image/upload/f_auto/themes/009/category-orange.png",
-    title: "All Products",    
-    url: "/all-products",
-  },
+  
 ];
 export let cardData = [
   {

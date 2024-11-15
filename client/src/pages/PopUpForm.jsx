@@ -5,10 +5,10 @@ import { toast, Toaster } from "sonner";
 import { useNavigate, useParams } from "react-router-dom";
 import { Icon } from "@iconify/react";
 import { Trash2 } from 'lucide-react';
-import Layout from "../components/Layout";
 import { blogsForm } from "../data";
 import { useGlobalState } from "../context/globalState";
 import CryptoJS from 'crypto-js';
+import Layout from "../Layout/Layout";
 
 const BlogForm = () => {
   const { keywords: blogKeyword } = useParams();

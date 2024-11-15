@@ -7,18 +7,51 @@ import Layout from '../components/Layout';
 
 
 const AllProducts = () => {
-  const { data, setData, search } = useGlobalState();
+  const { data, setData, search, setSearch } = useGlobalState();
+
+
+
 
   useEffect(() => {
     setData(products);
+  }, []);
+
+  // useEffect(() => {
+  //   setData(products);
+  //   if (search) {
+  //     setData(
+  //       products.filter((item) =>
+  //         item.title[0].toLowerCase().includes(search.toLowerCase())
+  //       )
+  //     );
+  //   }
+  // }, [search, setData]);
+
+
+  useEffect(() => {
     if (search) {
-      setData(
-        products.filter((item) =>
-          item.title[0].toLowerCase().includes(search.toLowerCase())
-        )
-      );
+      // setIsAnimating(true);
+      const searchWords = search.toLowerCase().split(" ");
+      const filteredData = products
+        .map((product, index) => ({
+          ...product,
+          id: product.id || `product-${index}`
+        }))
+        .filter((item) =>
+          searchWords.some((word) =>
+            item.title.toLowerCase().includes(word)
+          )
+        );
+      
+      setTimeout(() => {
+        setData(filteredData);
+        setSearch("")
+        // setActiveRibbon("");
+        // scrollToProducts();
+        // setIsAnimating(false);
+      }, 1000);
     }
-  }, [search, setData]);
+  }, [search]);
 
   return (
 <Layout>

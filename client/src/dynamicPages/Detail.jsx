@@ -449,7 +449,7 @@ const Detail = () => {
         {itemData ? (
           <Grow in={true} timeout={800}>
             <div className="bg-white rounded-lg shadow-xl overflow-hidden">
-              <div className="bg-gradient-to-r from-red-600 to-red-800 w-full p-6">
+              <div className="bg-gradient-to-r from-[#40327a] to-[#8d6194] w-full p-6">
                 <h1 className="font-bold text-center text-4xl lg:text-5xl text-white">
                   {itemData?.title}
                 </h1>
@@ -470,7 +470,7 @@ const Detail = () => {
                           key={i}
                           className={`flex items-center justify-center w-full px-4 py-3 text-sm lg:text-base font-medium transition duration-300 rounded-md ${
                             activeTab === button.name
-                              ? "bg-red-600 text-white shadow-md"
+                              ? "bg-[#40327a] text-white shadow-md"
                               : "text-gray-700 hover:bg-gray-300"
                           }`}
                         >
@@ -485,10 +485,10 @@ const Detail = () => {
                     {renderContent()}
                   </div>
 
-                  <Button
+                  <Button style={{ backgroundColor: "#40327a" }}
                     onClick={handleClick}
                     variant="contained"
-                    className="mt-8 p-4 bg-green-500 hover:bg-green-600 transition duration-300 w-full text-lg font-bold"
+                    className="mt-8 p-4 bg-[#40327a] hover:bg-green-600 transition duration-300 w-full text-lg font-bold"
                     startIcon={<FaShoppingCart className="text-2xl" />}
                   >
                     {isLoading ? <Loading h={'2vh'} w={'2vw'} isButtonLoader ={true}/> : `Book now for ${Number(itemData.price.replace(/[^0-9.-]+/g, "")) + 125}`}

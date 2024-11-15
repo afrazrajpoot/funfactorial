@@ -110,7 +110,7 @@ const Contact = () => {
         currency: "gbp",
         img:
           itemDetail?.image.length < 6
-            ? `https://www.funrides.co.uk/images/${itemDetail?.image}`
+            ? `https://${import.meta.env.VITE_API_URL}/images/${itemDetail?.image}`
             : `https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_700/${itemDetail?.image}`,
       });
 
@@ -169,7 +169,7 @@ const Contact = () => {
           }}
         >
           <Box sx={{ flex: 1 }}>
-            <Typography variant="h2" color="primary" textAlign={{ xs: "center", lg: "left" }} mb={4}>
+            <Typography variant="h2" color="#40327a" textAlign={{ xs: "center", lg: "left" }} mb={4}>
               Contact Form
             </Typography>
             <Box component="ul" sx={{ listStyleType: "disc", pl: 4, mb: 3 }}>
@@ -188,7 +188,7 @@ const Contact = () => {
               We operate 7 days a week, 365 days a year.
             </Typography>
             <Paper elevation={3} sx={{ p: 4 }} className="w-full lg:max-w-[60vw] lg:ml-[37vw] lg:mt-[-17vw]">
-              <Typography variant="h4" color="primary" textAlign="center" mb={4}>
+              <Typography variant="h4" color="#40327a" textAlign="center" mb={4} fontWeight={600}>
                 Quick Enquiry Form
               </Typography>
               <form onSubmit={handleSubmit(onSubmit)} noValidate>
@@ -267,7 +267,7 @@ const Contact = () => {
                   </Grid>
                 </Grid>
                 <Box sx={{ display: "flex", justifyContent: "flex-end", mt: 4 }}>
-                  <Button
+                  <Button className="bg-gradient-to-r from-[#40327a] to-purple-600 text-white"
                     type="submit"
                     variant="contained"
                     color="primary"

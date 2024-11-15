@@ -3,6 +3,7 @@ const Blog = require("../models/blogsModel");
 // const { v4: uuidv4 } = require('uuid'); // Import uuid package for generating unique IDs
 const path = require('path');
 const fs = require('fs');
+const Product = require("../models/Product");
 exports.createBlog = async (req, res) => {
   try {
     const { keywords, info1, info2, info3, info4, info5, info6, info7, info8, info9, info10, info11, info12, info13, info14, info15,
@@ -180,3 +181,58 @@ exports.deleteImages = async (req, res, next) => {
   }
 };
 
+
+exports.updateProductInfo = async (req, res) => {
+  const { title, metaTitle, metaDescription, longDescription } = req.body;
+
+  try {
+    // Check if the product already exists
+    let product = await Product.findOne({ title });
+
+    if (product) {
+      // If the product exists, update it
+      product.metaTitle = metaTitle;
+      product.metaDescription = metaDescription;
+      product.longDescription = longDescription;
+
+      // Save the updated product
+      await product.save();
+
+      return res.status(200).json({ message: 'Product updated successfully', product });
+    } else {
+      // If the product does not exist, create a new one
+      product = new Product({
+        title,
+        metaTitle,
+        metaDescription,
+        longDescription
+      });
+
+      // Save the new product
+      await product.save();
+
+      return res.status(201).json({ message: 'Product created successfully', product });
+    }
+  } catch (err) {
+    res.status(500).json({ message: 'Error updating or creating product', error: err.message });
+  }
+};
+
+
+exports.getProductInfo = async (req, res) => {
+  const { title } = req.query;
+
+  try {
+    // Find the product by title
+    const product = await Product.findOne({ title });
+
+    if (!product) {
+      return res.status(404).json({ message: 'Product not found' });
+    }
+
+    // Return the product information
+    res.status(200).json(product);
+  } catch (err) {
+    res.status(500).json({ message: 'Error fetching product data', error: err.message });
+  }
+};

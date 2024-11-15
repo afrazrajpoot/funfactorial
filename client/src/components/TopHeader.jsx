@@ -71,13 +71,13 @@ useEffect(()=>{
               <p className="font-bold text-purple-900 text-[4vw] lg:text-[1.2vw]">
                 We deliver across West Yorkshire area
               </p>
-              <figure className="w-full max-w-[50vw] hidden lg:block lg:max-w-[17vw] lg:ml-[3vw] mt-[4vw] lg:mt-[1vw]">
+              <Link to="/contact" className="w-full max-w-[50vw] hidden lg:block lg:max-w-[17vw] lg:ml-[3vw] mt-[4vw] lg:mt-[1vw]">
                 <img
                   src="https://www.funfactorleeds.co.uk/theme/email-address@1x.png"
                   alt="img"
                   className="w-full"
                 />
-              </figure>
+              </Link>
             </figure>
           </section>
         </header>

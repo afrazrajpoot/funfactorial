@@ -11,6 +11,9 @@ import Login from "./pages/Login";
 import Blogs from "./pages/Blogs";
 import PopUpForm from "./pages/PopUpForm";
 import ReadSingleBlog from "./pages/ReadSingleBlog";
+import Dashboard from "./pages/Dashboard";
+import BlogPosts from "./components/dashboardItems/BlogPosts";
+import AddProductInfo from "./components/dashboardItems/AddProductInfo";
 
 
 
@@ -82,6 +85,8 @@ const App = () => {
         <Route path={'/create-blog'} element={<PopUpForm />} />
         <Route path='/update-blog/:keywords' element={<PopUpForm />} />
         <Route path="/blogs/:keywords" element={<ReadSingleBlog />} />
+        <Route path="/add-product-info" element={<AddProductInfo />} />
+        <Route path="/dashboard" element={<BlogPosts />} />
       </Routes>
     </Suspense>
   );

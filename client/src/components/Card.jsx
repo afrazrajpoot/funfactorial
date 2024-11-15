@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { Calendar, Truck } from "lucide-react";
 import { alertTitleClasses } from "@mui/material";
 
-const Card = ({ title, price, ind,image, rating = 4.5, w ,description }) => {
+const Card = ({ title, price, ind,image, rating = 4.5, w ,description, updateInfo, onUpdateClick }) => {
   const { setItemDetail } = useGlobalState();
   const navigate = useNavigate();
 
@@ -22,26 +22,18 @@ const Card = ({ title, price, ind,image, rating = 4.5, w ,description }) => {
       className="relative w-[75vw] ml-[13vw] my-[2vw] lg:w-[17vw] lg:ml-[0vw] lg:h-[25vw] h-[100vw] overflow-hidden rounded-2xl shadow-lg transition-all duration-300 hover:shadow-xl bg-white"
     >
        <div className="absolute top-4 right-4 flex items-center gap-2">
-        {/* <button className="bg-blue-500 text-white p-2 rounded-full shadow-md hover:bg-blue-600 transition-colors">
-          <span>Pick</span>
-       
-        </button>
-        <button className="bg-red-500 text-white p-2 rounded-full shadow-md hover:bg-red-600 transition-colors">
-          <span>Drop</span>
-         
-        </button> */}
   {
   title && (
-    <button className="bg-blue-500 text-white p-2 rounded-full shadow-md hover:bg-blue-600 transition-colors">
-      <span>
+    <button className="bg-blue-500 text-[4vw] md:text-[1.5vw] lg:text-[1vw] text-white p-2 rounded-full shadow-md hover:bg-blue-600 transition-colors">
+      <span className="">
         {{
-          'Go karts': 'Deliver and Staff Incl',
-          'Zorb Balls': 'Deliver and Staff Incl',
-          'Rainbow Giant Slide':'Deliver and Staff Incl',
-          'MEGA WAVE BOUNCY SLIDE': 'Deliver and Staff Incl',
-          'Bouncy Castle':'Deliver and Staff Incl',
-          'TODDLER SLIDE':'Deliver and Staff Incl',
-          'Penalty Shoot Out':'Deliver and Staff Incl',
+          'Go karts': 'Delivery and Staff Incl.',
+          'Zorb Balls': 'Delivery and Staff Incl.',
+          'Rainbow Giant Slide':'Delivery and Staff Incl.',
+          'MEGA WAVE BOUNCY SLIDE': 'Delivery and Staff Incl.',
+          'Bouncy Castle':'Delivery and Staff Incl.',
+          'TODDLER SLIDE':'Delivery and Staff Incl.',
+          'Penalty Shoot Out':'Delivery and Staff Incl.',
         }[title] || 'Deliver & Install'}
       </span>
     </button>
@@ -174,6 +166,11 @@ const Card = ({ title, price, ind,image, rating = 4.5, w ,description }) => {
         <div className="flex justify-between items-center mb-3">
         </div>
         <div className="flex justify-between items-center">
+          {updateInfo ? (
+            <p onClick={onUpdateClick} className="text-white bg-[#0d6efd] p-[0.5vw] rounded-md cursor-pointer text-sm">
+              Update-info
+            </p>
+          ) : (
           <Link
             to={`/${title}`}
             className="text-blue-500 hover:text-blue-700 transition-colors duration-300 flex items-center text-sm"
@@ -181,6 +178,7 @@ const Card = ({ title, price, ind,image, rating = 4.5, w ,description }) => {
             <FaInfoCircle className="mr-1" />
             Details
           </Link>
+          )}
           <button
             onClick={handleClick}
             className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition-all duration-300 transform hover:scale-105 flex items-center text-sm"
