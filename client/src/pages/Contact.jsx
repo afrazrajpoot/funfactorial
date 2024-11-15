@@ -110,7 +110,7 @@ const Contact = () => {
         currency: "gbp",
         img:
           itemDetail?.image.length < 6
-            ? `https://${import.meta.env.VITE_API_URL}/images/${itemDetail?.image}`
+            ? `${import.meta.env.VITE_API_URL}/images/${itemDetail?.image}`
             : `https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_700/${itemDetail?.image}`,
       });
 
