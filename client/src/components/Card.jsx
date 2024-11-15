@@ -4,6 +4,7 @@ import { useGlobalState } from "../context/globalState";
 import { FaShoppingCart, FaInfoCircle, FaStar, FaTag, FaEye } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { Calendar, Truck } from "lucide-react";
+import { alertTitleClasses } from "@mui/material";
 
 const Card = ({ title, price, ind,image, rating = 4.5, w ,description }) => {
   const { setItemDetail } = useGlobalState();
@@ -29,12 +30,24 @@ const Card = ({ title, price, ind,image, rating = 4.5, w ,description }) => {
           <span>Drop</span>
          
         </button> */}
-    {
-      description?.operator && ( <button className="bg-blue-500 text-white p-2 rounded-full shadow-md hover:bg-blue-600 transition-colors">
-        <span>{description?.operator}</span>
-     
-      </button>)
-    }
+  {
+  title && (
+    <button className="bg-blue-500 text-white p-2 rounded-full shadow-md hover:bg-blue-600 transition-colors">
+      <span>
+        {{
+          'Go karts': 'Deliver and Staff Incl',
+          'Zorb Balls': 'Deliver and Staff Incl',
+          'Rainbow Giant Slide':'Deliver and Staff Incl',
+          'MEGA WAVE BOUNCY SLIDE': 'Deliver and Staff Incl',
+          'Bouncy Castle':'Deliver and Staff Incl',
+          'TODDLER SLIDE':'Deliver and Staff Incl',
+          'Penalty Shoot Out':'Deliver and Staff Incl',
+        }[title] || 'Deliver & Install'}
+      </span>
+    </button>
+  )
+}
+
         <div className="bg-green-500 text-white px-3 py-1 rounded-full shadow-md z-10">
           <p className="font-bold text-lg flex items-center">
             £{Number(price?.replace(/[^0-9.-]+/g, "")) + 125}
