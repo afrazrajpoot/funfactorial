@@ -26764,7 +26764,7 @@ export const faqData = [
 export const contactData = [
   {
     title: "Call or Text us on:",
-    info: "07531522289",
+    info: "07815 935423",
   },
   {
     title: "Email us:",
@@ -26773,18 +26773,22 @@ export const contactData = [
   {
     title: "Add us on:",
     info: "Facebook",
+    link: "https://www.facebook.com/profile.php?id=61568404854289"
   },
   {
     title: "Follow us on:",
-    info: "Twitter",
+    info: "TikTok",
+    link: "https://www.tiktok.com/@funridesleeds?fbclid=IwZXh0bgNhZW0CMTAAAR2TezGqzaxTO8XLj_NA7ssV256fx5RA8acU5gMFw3FMqpu1IfiKdPtWk-s_aem_oRTw_zkhsjEYXfTBJa9l2A"
   },
   {
     title: "Leave us a review on:",
     info: "Google+",
+    link: "https://www.google.com/+FunRidesUK"
   },
   {
     title: "Subscribe to our:",
-    info: "YouTube Channel",
+    info: "Instagram",
+    link: "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Ffunridesleeds%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR29tBIqmcCbgbZEh928WWHSB9vSQx0CKrQtznzQyVfw2TL9T6N4ALePvFY_aem_5aYeu5Oq6AWh8F30kj5HQg&h=AT2JVKSJx9jXPcRFfEjUMpnE5BVOz3q2ktvqD7KE2QOEx6AmXCRcciVjiGM5PAPpm4G2NvAl_lZkzRkHkWi6yYvcdkc1fa124e8RHPDJi8dol1Zh051x2ONTS8MzfqEveijfzP3jQi8v"
   },
 ];
 export const termandconditionData = [

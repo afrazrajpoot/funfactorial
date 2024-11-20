@@ -37,12 +37,12 @@ export const InflatableDetailsTable = ({ suitability }) => {
           {suitable_for?.map((item, index) => (
             <tr key={index}>
               <td className="border px-4 py-2 font-semibold whitespace-nowrap">
-                {item?.suitable === "Yes" ? (
+                {item?.suitable  ? (
                   <FaCheck className="mr-2 text-green-500 inline" />
                 ) : (
                   <FaTimes className="mr-2 text-red-500 inline" />
                 )}
-                {item?.suitable === "Yes" ? "Suitable for" : "Not Suitable for"}
+                {item?.suitable ? "Suitable for" : "Not Suitable for"}
               </td>
               <td className="border px-4 py-2">
                 {item?.category === "Children" && <FaChild className="mr-2 text-yellow-500 inline" />}

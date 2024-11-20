@@ -13,6 +13,7 @@ import Ribbons from "../components/Ribbons";
 import { contactData, contactFormData } from "../data";
 import { useGlobalState } from "../context/globalState";
 import Layout from "../components/Layout";
+import { Link } from "react-router-dom";
 
 const getCurrentYearMonth = () => {
   const now = new Date();
@@ -176,10 +177,12 @@ const Contact = () => {
               {contactData.map((elem, ind) => (
                 <Box component="li" key={ind} mb={1}>
                   <Typography component="span" fontWeight="bold">
-                    {elem.title}:
+                    {elem.title}
                   </Typography>{" "}
                   <Typography component="span" color={ind === 0 ? "text.primary" : "primary"}>
+                    <Link to={elem?.link} target="_blank">
                     {elem.info}
+                    </Link>
                   </Typography>
                 </Box>
               ))}
