@@ -14,6 +14,7 @@ import { motion } from "framer-motion";
 const Card = ({ 
   title, 
   price, 
+  caption,
   image, 
   rating = 4.5, 
   description, 
@@ -103,7 +104,7 @@ const Card = ({
         <div className="absolute top-4 right-4 z-10 flex space-x-2">
           <span className="bg-blue-500 text-white text-xs px-3 py-1 rounded-full shadow-md 
             group-hover:bg-blue-600 transition-colors">
-            Delivery Included
+           {caption ? caption : 'Deliver & Install'}
           </span>
           <span className="bg-green-500 text-white text-sm px-3 py-1 rounded-full shadow-md 
             flex items-center group-hover:bg-green-600 transition-colors">

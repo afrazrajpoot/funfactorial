@@ -491,7 +491,7 @@ const Detail = () => {
                     className="mt-8 p-4 bg-[#40327a] hover:bg-green-600 transition duration-300 w-full text-lg font-bold"
                     startIcon={<FaShoppingCart className="text-2xl" />}
                   >
-                    {isLoading ? <Loading h={'2vh'} w={'2vw'} isButtonLoader ={true}/> : `Book now for ${Number(itemData.price.replace(/[^0-9.-]+/g, "")) + 125}`}
+                    {isLoading ? <Loading h={'2vh'} w={'2vw'} isButtonLoader ={true}/> : `Book now for £${Number(itemData.price.replace(/[^0-9.-]+/g, "")) + 125}`}
                   </Button>
                 </section>
               </article>

@@ -5154,6 +5154,7 @@ export const products = [
  },
  {
   "title": "Go karts",
+  "caption": "Delivery & Staff Incl.",
   "url": "adult-bouncy-castle-hire/33/15ft-x-15ft-inflatable-vip-nightclub.html#BodyContent",
   "subtitle": "BIG BLUETOOTH SPEAKER + DISCO LIGHT INCLUDED",
   "image": {
@@ -5215,6 +5216,7 @@ export const products = [
 ,
 {
   "title": "Zorb Balls",
+  "caption": "Delivery & Staff Incl.",
   "url": "adult-bouncy-castle-hire/33/15ft-x-15ft-inflatable-vip-nightclub.html#BodyContent",
   "subtitle": "BIG BLUETOOTH SPEAKER + DISCO LIGHT INCLUDED",
   "image": {
@@ -5275,6 +5277,7 @@ export const products = [
 
 {
   "title": "MEGA WAVE BOUNCY SLIDE",
+  "caption": "Delivery & Staff Incl.",
   "url": "adult-bouncy-castle-hire/33/15ft-x-15ft-inflatable-vip-nightclub.html#BodyContent",
   "subtitle": "BIG BLUETOOTH SPEAKER + DISCO LIGHT INCLUDED",
   "image": {
@@ -5323,6 +5326,7 @@ export const products = [
 ,
 {
   "title": "Rainbow Giant Slide",
+  "caption": "Delivery & Staff Incl.",
   "url": "adult-bouncy-castle-hire/33/15ft-x-15ft-inflatable-vip-nightclub.html#BodyContent",
   "subtitle": "BIG BLUETOOTH SPEAKER + DISCO LIGHT INCLUDED",
   "image": {
@@ -5383,6 +5387,7 @@ export const products = [
 ,
 {
   "title": "TODDLER SLIDE",
+  "caption": "Delivery & Staff Incl.",
   "url": "adult-bouncy-castle-hire/33/15ft-x-15ft-inflatable-vip-nightclub.html#BodyContent",
   "subtitle": "BIG BLUETOOTH SPEAKER + DISCO LIGHT INCLUDED",
   "image": {
@@ -5441,6 +5446,7 @@ export const products = [
 ,
 {
   "title": "Bouncy Castle",
+  "caption": "Delivery & Staff Incl.",
   "url": "adult-bouncy-castle-hire/33/15ft-x-15ft-inflatable-vip-nightclub.html#BodyContent",
   "subtitle": "BIG BLUETOOTH SPEAKER + DISCO LIGHT INCLUDED",
   "image": {
@@ -5500,6 +5506,7 @@ export const products = [
   ,
   {
     "title": "Penalty Shoot Out",
+    "caption": "Delivery & Staff Incl.",
     "url": "adult-bouncy-castle-hire/33/15ft-x-15ft-inflatable-vip-nightclub.html#BodyContent",
     "subtitle": "BIG BLUETOOTH SPEAKER + DISCO LIGHT INCLUDED",
     "image": {
@@ -5559,6 +5566,7 @@ export const products = [
   ,
   {
     "title": "Chocolate Fountain",
+    "caption": "Dips & Staff Incl.",
     "url": "adult-bouncy-castle-hire/33/15ft-x-15ft-inflatable-vip-nightclub.html#BodyContent",
     "subtitle": "BIG BLUETOOTH SPEAKER + DISCO LIGHT INCLUDED",
     "image": {
