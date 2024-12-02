@@ -251,7 +251,7 @@ const Home = () => {
             </motion.section>
           )}
         </AnimatePresence>
-        <h1 className="text-center text-[#ffff] bg-[#b694c8] p-[0.5vw] mt-[vw] lg:mt-[2vw] font-bold text-[7vw] lg:text-[2.5vw] lg:w-full">Our Rides</h1>
+        {/* <h1 className="text-center text-[#ffff] bg-[#b694c8] p-[0.5vw] mt-[vw] lg:mt-[2vw] font-bold text-[7vw] lg:text-[2.5vw] lg:w-full">Our Rides</h1> */}
 
         <div className="mt-[2vw] pt-[2vw]" ref={productsRef}>
           <section className="flex flex-col lg:flex-row gap-8">
@@ -268,10 +268,10 @@ const Home = () => {
       initial="hidden"
       animate="visible"
       exit="exit"
-      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 h-[80vw] overflow-y-scroll"
+      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"
     >
       {data.map((elem, ind) => (
-        <motion.div key={elem.id} variants={itemVariants} layout>
+        <motion.div className="mt-[3vw] p-[3vw] md:p-[0vw] lg:pr-[1vw]" key={elem.id} variants={itemVariants} layout>
           <Card {...elem} ind={ind} />
         </motion.div>
       ))}
@@ -289,13 +289,7 @@ const Home = () => {
     </motion.div>
   ) : (
     <Loading />
-    // <motion.div
-    //   key="loading-spinner"
-    //   className="flex justify-center items-center mt-[20vw]"
-    //   style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: "20vw" }}
-    // >
-    //   <CircularProgress />
-    // </motion.div>
+
   )}
 </AnimatePresence>
 

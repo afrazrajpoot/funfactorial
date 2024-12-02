@@ -1,187 +1,180 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useGlobalState } from "../context/globalState";
-import { FaShoppingCart, FaInfoCircle, FaStar, FaTag, FaEye } from "react-icons/fa";
+import { 
+  FaShoppingCart, 
+  FaInfoCircle, 
+  FaTag, 
+  FaStar, 
+  FaHeart,
+  FaCheckCircle 
+} from "react-icons/fa";
 import { motion } from "framer-motion";
-import { Calendar, Truck } from "lucide-react";
-import { alertTitleClasses } from "@mui/material";
 
-const Card = ({ title, price, ind,image, rating = 4.5, w ,description, updateInfo, onUpdateClick }) => {
+const Card = ({ 
+  title, 
+  price, 
+  image, 
+  rating = 4.5, 
+  description, 
+  updateInfo, 
+  onUpdateClick 
+}) => {
   const { setItemDetail } = useGlobalState();
   const navigate = useNavigate();
+  const [isFavorite, setIsFavorite] = useState(false);
+
+  // Utility function to get image source
+  const getImageSrc = () => {
+    const staticImages = {
+      "30ft Jungle Mini Assault Course Fun Run": "30ft-jun.png",
+      "Go karts": "img2.jpg",
+      "Zorb Balls": "zorbBalls.jpg",
+      "MEGA WAVE BOUNCY SLIDE": "megaWave.png",
+      "TODDLER SLIDE": "toddlerSlide.jpg",
+      "Bouncy Castle": "bouncyCastle.png",
+      "Penalty Shoot Out": "shootOut.jpg",
+      "Chocolate Fountain": "fountain.jpg",
+      "Rainbow Giant Slide": "giant.png",
+      "3D Dinosaur Bouncy Castle With Front Slide": "dainosor-gr.png",
+      "3D Lion Bouncy Castle With Front Slide": "lion-ye.png",
+      "3D Monster Truck Bouncy Castle With Front Slide": "truck-bl.png",
+      "Bungee Run Hire 35ft": "bungee.png"
+    };
+
+    return (
+      staticImages[title] 
+        ? `/images/${staticImages[title]}` 
+        : image?.url 
+          ? `https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_700/${image.url}` 
+          : image?.img 
+            ? image.img 
+            : "https://via.placeholder.com/300"
+    );
+  };
+
+  // Calculate price with additional fee
+  const calculatedPrice = Number(price?.replace(/[^0-9.-]+/g, "") || 0) + 125;
 
   const handleClick = () => {
-    setItemDetail({ name: title, price: price });
+    setItemDetail({ name: title, price: calculatedPrice });
     navigate(`/${title}`);
+  };
+
+  // Render star rating
+  const renderStarRating = () => {
+    return [...Array(5)].map((_, index) => (
+      <FaStar 
+        key={index} 
+        className={`
+          ${index < Math.floor(rating) ? 'text-yellow-400' : 'text-gray-300'}
+          inline-block mr-1 transition-colors duration-200
+        `}
+      />
+    ));
   };
 
   return (
     <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      className="relative w-[75vw] ml-[13vw] my-[2vw] lg:w-[17vw] lg:ml-[0vw] lg:h-[25vw] h-[100vw] overflow-hidden rounded-2xl shadow-lg transition-all duration-300 hover:shadow-xl bg-white"
+      initial={{ opacity: 0, scale: 0.95 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.3 }}
+      className="group relative w-full max-w-sm mx-auto bg-white rounded-2xl shadow-lg overflow-hidden 
+        transform transition-all duration-300 hover:shadow-2xl hover:-translate-y-3 
+        border border-gray-100 hover:border-transparent"
     >
-       <div className="absolute top-4 right-4 flex items-center gap-2">
-  {
-  title && (
-    <button className="bg-blue-500 text-[4vw] md:text-[1.5vw] lg:text-[1vw] text-white p-2 rounded-full shadow-md hover:bg-blue-600 transition-colors">
-      <span className="">
-        {{
-          'Go karts': 'Delivery and Staff Incl.',
-          'Zorb Balls': 'Delivery and Staff Incl.',
-          'Rainbow Giant Slide':'Delivery and Staff Incl.',
-          'MEGA WAVE BOUNCY SLIDE': 'Delivery and Staff Incl.',
-          'Bouncy Castle':'Delivery and Staff Incl.',
-          'TODDLER SLIDE':'Delivery and Staff Incl.',
-          'Penalty Shoot Out':'Delivery and Staff Incl.',
-        }[title] || 'Deliver & Install'}
-      </span>
-    </button>
-  )
-}
+      {/* Image Section */}
+      <div className="relative h-64 w-full overflow-hidden">
+        {/* Favorite Button */}
+        <button 
+          onClick={() => setIsFavorite(!isFavorite)}
+          className="absolute top-4 left-4 z-10 bg-white/70 p-2 rounded-full shadow-md 
+            hover:bg-white transition-all duration-300"
+        >
+          <FaHeart 
+            className={`
+              ${isFavorite ? 'text-red-500' : 'text-gray-400'}
+              transition-colors duration-200
+            `} 
+          />
+        </button>
 
-        <div className="bg-green-500 text-white px-3 py-1 rounded-full shadow-md z-10">
-          <p className="font-bold text-lg flex items-center">
-            £{Number(price?.replace(/[^0-9.-]+/g, "")) + 125}
+        {/* Price and Delivery Badges */}
+        <div className="absolute top-4 right-4 z-10 flex space-x-2">
+          <span className="bg-blue-500 text-white text-xs px-3 py-1 rounded-full shadow-md 
+            group-hover:bg-blue-600 transition-colors">
+            Delivery Included
+          </span>
+          <span className="bg-green-500 text-white text-sm px-3 py-1 rounded-full shadow-md 
+            flex items-center group-hover:bg-green-600 transition-colors">
+            £{calculatedPrice.toFixed(2)}
             <FaTag className="ml-1" />
-          </p>
+          </span>
+        </div>
+
+        {/* Image with Overlay */}
+        <div className="relative w-full h-full">
+          <img
+            src={getImageSrc()}
+            alt={title}
+            onError={(e) => {
+              e.target.src = "https://via.placeholder.com/300";
+            }}
+            className="absolute inset-0 w-full h-full object-cover 
+              transition-transform duration-300 group-hover:scale-110 
+              brightness-90 group-hover:brightness-100"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/30 
+            opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </div>
       </div>
-      {title === '30ft Jungle Mini Assault Course Fun Run' ? (
-        <img
-        src={`/images/30ft-jun.png`}
-        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
-        alt={title}
-        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
-      />
-      ): title === 'Go karts' ? (
-        <img
-        src={`/images/img2.jpg`}
-        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
-        alt={title}
-        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
-      />
-      ):
-      title === 'Zorb Balls' ? (
-        <img
-        src={`/images/zorbBalls.jpg`}
-        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
-        alt={title}
-        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
-      />
-      ):
-      title === 'MEGA WAVE BOUNCY SLIDE' ? (
-        <img
-        src={`/images/megaWave.png`}
-        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
-        alt={title}
-        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
-      />
-      ):
-      title === 'TODDLER SLIDE' ? (
-        <img
-        src={`/images/toddlerSlide.jpg`}
-        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
-        alt={title}
-        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
-      />
-      ):
-      title === 'Bouncy Castle' ? (
-        <img
-        src={`/images/bouncyCastle.png`}
-        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
-        alt={title}
-        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
-      />
-      ):
-      title === 'Penalty Shoot Out' ? (
-        <img
-        src={`/images/shootOut.jpg`}
-        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
-        alt={title}
-        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
-      />
-      ):
-      title === 'Chocolate Fountain' ? (
-        <img
-        src={`/images/fountain.jpg`}
-        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
-        alt={title}
-        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
-      />
-      ):
-      title === 'Rainbow Giant Slide' ? (
-        <img
-        src={`/images/giant.png`}
-        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
-        alt={title}
-        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
-      />
-      ):
-      title === '3D Dinosaur Bouncy Castle With Front Slide' ? (
-        <img
-        src={`/images/dainosor-gr.png`}
-        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
-        alt={title}
-        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
-      />
-      ) : 
-      title === '3D Lion Bouncy Castle With Front Slide' ? (
-        <img
-        src={`/images/lion-ye.png`}
-        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
-        alt={title}
-        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
-      />
-      ) : 
-      title === '3D Monster Truck Bouncy Castle With Front Slide' ? (
-        <img
-        src={`/images/truck-bl.png`}
-        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
-        alt={title}
-        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
-      />
-      ) 
-      : 
-      title === 'Bungee Run Hire 35ft' ? (
-        <img
-        src={`/images/bungee.png`}
-        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
-        alt={title}
-        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
-      />
-      )
-      : (
-      <img
-        src={`https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_700/${image?.url}` || image?.img}
-        onError={(e)=> (e.target.src=`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE_yw4uHAx7GG3au9rfReqDruLTXC39TYJxTxcsPcerxT4bHboHgYDQ1aNe_Ys8emA_38&usqp=CAU`)}
-        alt={title}
-        className="absolute lg:h-[15vw] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 object-cover rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
-      />)
-      }
-      
 
-      <div className="absolute bottom-0 left-0 right-0 p-4 bg-white">
-        <h3 className="text-gray-800 text-xl font-bold mb-2 truncate">{title}</h3>
-        <div className="flex justify-between items-center mb-3">
-        </div>
+      {/* Content Section */}
+      <div className="p-5 bg-white space-y-3">
+        {/* Title and Rating */}
         <div className="flex justify-between items-center">
+          <h3 className="text-xl font-bold text-gray-800 truncate pr-2 
+            group-hover:text-blue-600 transition-colors">
+            {title}
+          </h3>
+          <div className="flex items-center">
+            {renderStarRating()}
+            <span className="text-sm text-gray-500 ml-2">
+              ({rating})
+            </span>
+          </div>
+        </div>
+
+        {/* Action Buttons */}
+        <div className="grid grid-cols-2 gap-3">
           {updateInfo ? (
-            <p onClick={onUpdateClick} className="text-white bg-[#0d6efd] p-[0.5vw] rounded-md cursor-pointer text-sm">
-              Update-info
-            </p>
+            <button 
+              onClick={onUpdateClick} 
+              className="w-full text-blue-500 border border-blue-500 
+                hover:bg-blue-500 hover:text-white px-4 py-2 rounded-lg 
+                text-sm transition-all flex items-center justify-center"
+            >
+              <FaCheckCircle className="mr-2" />
+              Update Info
+            </button>
           ) : (
-          <Link
-            to={`/${title}`}
-            className="text-blue-500 hover:text-blue-700 transition-colors duration-300 flex items-center text-sm"
-          >
-            <FaInfoCircle className="mr-1" />
-            Details
-          </Link>
+            <Link
+              to={`/${title}`}
+              className="w-full text-center text-gray-600 hover:text-blue-600 
+                flex items-center justify-center text-sm transition-colors 
+                border border-gray-300 rounded-lg py-2 hover:border-blue-500"
+            >
+              <FaInfoCircle className="mr-2" />
+              View Details
+            </Link>
           )}
+          
           <button
             onClick={handleClick}
-            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition-all duration-300 transform hover:scale-105 flex items-center text-sm"
+            className="w-full bg-purple-500 hover:bg-purple-600 text-white 
+              font-bold py-3 px-4 rounded-lg transition-all transform 
+              hover:scale-105 flex items-center justify-center text-sm 
+              shadow-md hover:shadow-lg"
           >
             <FaShoppingCart className="mr-2" />
             Add to Cart
