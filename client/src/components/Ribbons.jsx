@@ -9,7 +9,7 @@ const Ribbons = ({ handleRibbonClick, getRibbonClasses,activeRibbon }) => {
         <motion.div
           initial={{ x: -50 }} // Only slide animation
           animate={{ x: 0 }}
-          transition={{ duration: 0.5, delay: ind * 0.1 }}
+          // transition={{ duration: 0.5, delay: ind * 0.1 }}
           key={ind}
           onClick={() => {
             handleRibbonClick(elem.title)
@@ -43,7 +43,7 @@ const Ribbons = ({ handleRibbonClick, getRibbonClasses,activeRibbon }) => {
       <motion.div
         initial={{ x: -50 }} // Only slide animation
         animate={{ x: 0 }}
-        transition={{ duration: 0.5, delay: ribbons.length * 0.1 }}
+        // transition={{ duration: 0.5, delay: ribbons.length * 0.1 }}
         onClick={() => handleRibbonClick("Other Products")}
         className={`
           ${getRibbonClasses("Other Products")} 

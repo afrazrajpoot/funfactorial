@@ -9,6 +9,7 @@ import { useGlobalState } from "../context/globalState";
 import Ribbons from "../components/Ribbons";
 import Loading from "../components/Loader";
 import Layout from "../components/Layout";
+import { Menu, X } from "lucide-react";
 
 const Home = () => {
   const { data, setData, search } = useGlobalState();
@@ -234,7 +235,7 @@ const Home = () => {
           onClick={() => setShowRibbons(!showRibbons)}
           className="lg:hidden mt-4 p-2 ml-[2vw] bg-pink-500 text-white rounded-md"
         >
-          Categories
+         {showRibbons?<X className="h-6 w-6" />:<Menu className="h-6 w-6 " />}
         </button>
 
         <AnimatePresence>
@@ -245,7 +246,7 @@ const Home = () => {
               animate="visible"
               exit="exit"
               variants={ribbonVariants}
-              className="lg:hidden mt-4 p-4 bg-white shadow-md absolute z-50 w-full"
+              className="lg:hidden mt-4 p-4 bg-white shadow-md absolute z-10 w-full"
             >
               <Ribbons handleRibbonClick={handleRibbonClick} getRibbonClasses={getRibbonClasses} activeRibbon={setShowRibbons} />
             </motion.section>

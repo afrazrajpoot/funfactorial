@@ -26,7 +26,7 @@ import {
 import {SizeTable, InflatableDetailsTable, UsersTable} from "../components/InflatableDetailsTable";
 import Layout from "../components/Layout";
 
-const DetailContent = ({ itemData }) => ( 
+const DetailContent = ({ itemData,longDescription }) => ( 
   <Fade in={true} timeout={500}>
     <div className="space-y-6">
       <h1 className="text-3xl lg:text-4xl font-bold text-gray-800 flex items-center">
@@ -426,10 +426,10 @@ const Detail = () => {
     }
   }, [isSuccess, isError, itemData]);
 
-  const renderContent = () => {
+  const renderContent = (longDescription) => {
     switch (activeTab) {
       case "Description":
-        return <DetailContent itemData={itemData} />;
+        return <DetailContent itemData={itemData} longDescription={longDescription} />;
       case "Size":
         return itemData.size && <SizeContent itemData={itemData} />;
       case "Suitability":
@@ -483,7 +483,7 @@ const Detail = () => {
                   </div>
 
                   <div className="flex-grow">
-                    {renderContent()}
+                    {renderContent(itemData?.longDescription)}
                   </div>
 
                   <Button style={{ backgroundColor: "#40327a" }}
