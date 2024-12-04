@@ -4,7 +4,7 @@ import { TextField } from "@mui/material";
 import { toast } from "sonner";
 import { useCreateBookingMutation } from "../store/storeApi";
 import BasicTimePicker from "../components/BasicTimePicker";
-import BasicDatePicker from "../components/BasicDatePicker";
+import {BasicDatePicker} from "../components/BasicDatePicker";
 import { bookingFormData } from "../data";
 
 const BookingForm = () => {
