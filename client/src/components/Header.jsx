@@ -13,7 +13,7 @@ import {
 } from "@mui/material";
 import { useGlobalState } from "../context/globalState";
 import { useCheckAvailibilityMutation } from "../store/storeApi";
-import BasicDatePicker from "./BasicDatePicker";
+import {BasicDatePicker, MobileDatePicker} from "./BasicDatePicker";
 import CryptoJS from 'crypto-js';
 
 const Header = () => {
@@ -188,7 +188,7 @@ const searchProduct = async ()=>{
                   onChange={handleDeliveryChange}
                 />
               </FormControl> */}
-              <FormControl className="w-full lg:max-w-[15vw]">
+              <FormControl className="w-full lg:max-w-[15vw] flex">
                 <InputLabel shrink={false}>
                   {!category && "Select Category First"}
                 </InputLabel>
@@ -204,8 +204,14 @@ const searchProduct = async ()=>{
                     </MenuItem>
                   ))}
                 </Select>
+                <div className="lg:hidden">
+                  <MobileDatePicker onSelectDate={(date)=> setDate(date)} />
+                </div>
               </FormControl>
+              <div className="hidden lg:block"> 
               <BasicDatePicker onSelectDate={(date)=> setDate(date)}/>
+              </div>
+             
             <Button
                onClick={searchProduct}
                 variant="contained"
@@ -219,7 +225,7 @@ const searchProduct = async ()=>{
                 Search
               </Button>
 
-              { admin && <Link to="/dashboard" className="bg-[#40327a] text-white p-[1vw] text-center rounded-md text-[1vw] font-medium ">Dashboard</Link>}
+              { admin && <Link to="/dashboard" className="bg-[#40327a] text-white lg:p-[1vw] lg:w-[10vw] p-[3vw] text-center rounded-md lg:text-[1vw] text-[4vw]  font-medium w-full  h-[7vh]">Dashboard</Link>}
    
             </form>
           </article>

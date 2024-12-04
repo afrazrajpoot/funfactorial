@@ -50,8 +50,14 @@ export const storeApi = createApi({
         method: "POST",
         body: data,
       }),
+    }),
+    getProductIngfo : builder.query({
+      query: (title) => ({
+        url: `/api/v1/getProductInfo?title=${title}`,
+        method: "GET",
+      }),
     })
   }),
 });
 
-export const { useCreateBookingMutation,useAvalbilityMutation,useGetBookingDetailQuery ,useApprovebookingMutation,useCheckAvailibilityMutation,useRejectbookingMutation} = storeApi;
+export const { useCreateBookingMutation,useAvalbilityMutation,useGetBookingDetailQuery ,useApprovebookingMutation,useCheckAvailibilityMutation,useRejectbookingMutation,useGetProductIngfoQuery} = storeApi;

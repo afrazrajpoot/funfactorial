@@ -87,7 +87,7 @@ const Card = ({
       {/* Image Section */}
       <div className="relative h-64 w-full overflow-hidden">
         {/* Favorite Button */}
-        <button 
+        {/* <button 
           onClick={() => setIsFavorite(!isFavorite)}
           className="absolute top-4 left-4 z-10 bg-white/70 p-2 rounded-full shadow-md 
             hover:bg-white transition-all duration-300"
@@ -98,7 +98,7 @@ const Card = ({
               transition-colors duration-200
             `} 
           />
-        </button>
+        </button> */}
 
         {/* Price and Delivery Badges */}
         <div className="absolute top-4 right-4 z-10 flex space-x-2">
@@ -106,7 +106,7 @@ const Card = ({
             group-hover:bg-blue-600 transition-colors">
            {caption ? caption : 'Deliver & Install'}
           </span>
-          <span className="bg-green-500 text-white text-sm px-3 py-1 rounded-full shadow-md 
+          <span className="bg-green-500  text-white text-sm px-3 py-1 rounded-full shadow-md 
             flex items-center group-hover:bg-green-600 transition-colors">
             £{calculatedPrice.toFixed(2)}
             <FaTag className="ml-1" />
@@ -138,12 +138,12 @@ const Card = ({
             group-hover:text-blue-600 transition-colors">
             {title}
           </h3>
-          <div className="flex items-center">
+          {/* <div className="flex items-center">
             {renderStarRating()}
             <span className="text-sm text-gray-500 ml-2">
               ({rating})
             </span>
-          </div>
+          </div> */}
         </div>
 
         {/* Action Buttons */}
@@ -151,7 +151,7 @@ const Card = ({
           {updateInfo ? (
             <button 
               onClick={onUpdateClick} 
-              className="w-full text-blue-500 border border-blue-500 
+              className="w-full col-span-2 text-blue-500 border border-blue-500 
                 hover:bg-blue-500 hover:text-white px-4 py-2 rounded-lg 
                 text-sm transition-all flex items-center justify-center"
             >
@@ -159,18 +159,21 @@ const Card = ({
               Update Info
             </button>
           ) : (
-            <Link
-              to={`/${title}`}
-              className="w-full text-center text-gray-600 hover:text-blue-600 
-                flex items-center justify-center text-sm transition-colors 
-                border border-gray-300 rounded-lg py-2 hover:border-blue-500"
-            >
-              <FaInfoCircle className="mr-2" />
-              View Details
-            </Link>
+            // <Link
+            //   to={`/${title}`}
+            //   className="w-full text-center text-gray-600 hover:text-blue-600 
+            //     flex items-center justify-center text-sm transition-colors 
+            //     border border-gray-300 rounded-lg py-2 hover:border-blue-500"
+            // >
+            //   <FaInfoCircle className="mr-2" />
+            //   View Details
+            // </Link>
+            <></>
           )}
           
-          <button
+        
+        </div>
+        <button
             onClick={handleClick}
             className="w-full bg-purple-500 hover:bg-purple-600 text-white 
               font-bold py-3 px-4 rounded-lg transition-all transform 
@@ -180,7 +183,6 @@ const Card = ({
             <FaShoppingCart className="mr-2" />
             Add to Cart
           </button>
-        </div>
       </div>
     </motion.div>
   );

@@ -114,12 +114,15 @@ exports.readBlogs = async (req, res) => {
 exports.readSingleBlog = async (req, res) => {
   try {
     const { keywords } = req.params;
-    const blog = await Blog.findById({ _id:keywords });
+    // const blog = await Blog.findById({ _id:keywords });
+    const blog = await Blog.findOne({ keywords });
+
     if (!blog) {
       return res.status(404).json({ error: 'Blog not found' });
     }
     res.status(200).json(blog);
   } catch (err) {
+    console.log(err,'key words')
     res.status(500).json({ error: err.message });
   }
 };

@@ -133,7 +133,7 @@ const Blogs = () => {
                   "
                 >
                   <BlogCard 
-                    keywords={item._id} 
+                    keywords={item.keywords} 
                     info={item?.info1} 
                     img={`${import.meta.env.VITE_API_URL}/${item?.image1?.fileName}`} 
                     {...item} 

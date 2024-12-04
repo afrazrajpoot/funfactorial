@@ -2,16 +2,19 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ribbons } from '../data';
 
-const Ribbons = ({ handleRibbonClick, getRibbonClasses }) => {
+const Ribbons = ({ handleRibbonClick, getRibbonClasses,activeRibbon }) => {
   return (
-    <aside className="ml-[-1vw] flex flex-col mt-4 gap-4 sticky top-4 max-w-xs">
+    <aside className="lg:ml-[-1vw] ml-[4vw] flex flex-col mt-4 gap-4 max-w-xs ">
       {ribbons?.map((elem, ind) => (
         <motion.div
-          initial={{ opacity: 0, x: -50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5, delay: (ind + 1) * 0.1 }}
+          initial={{ x: -50 }} // Only slide animation
+          animate={{ x: 0 }}
+          transition={{ duration: 0.5, delay: ind * 0.1 }}
           key={ind}
-          onClick={() => handleRibbonClick(elem.title)}
+          onClick={() => {
+            handleRibbonClick(elem.title)
+            activeRibbon(false)
+          }}
           className={`
             ${getRibbonClasses(elem.title)} 
             bg-purple-300 
@@ -36,11 +39,11 @@ const Ribbons = ({ handleRibbonClick, getRibbonClasses }) => {
           </p>
         </motion.div>
       ))}
-      
+
       <motion.div
-        initial={{ opacity: 0, x: -50 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.5, delay: (ribbons.length + 1) * 0.1 }}
+        initial={{ x: -50 }} // Only slide animation
+        animate={{ x: 0 }}
+        transition={{ duration: 0.5, delay: ribbons.length * 0.1 }}
         onClick={() => handleRibbonClick("Other Products")}
         className={`
           ${getRibbonClasses("Other Products")} 

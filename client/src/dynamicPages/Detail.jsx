@@ -5,7 +5,7 @@ import { products, } from "../data";
 import Ribbons from "../components/Ribbons";
 import { Button, Fade, Grow } from "@mui/material";
 import { useGlobalState } from "../context/globalState";
-import { useAvalbilityMutation } from "../store/storeApi";
+import { useAvalbilityMutation, useGetProductIngfoQuery } from "../store/storeApi";
 import Loading from "../components/Loader";
 import { toast } from "sonner";
 import CryptoJS from 'crypto-js';
@@ -369,11 +369,12 @@ imgUrl='/images/img2.jpg'
 const Detail = () => {
   const [activeTab, setActiveTab] = useState("Description");
   const { id } = useParams();
-
+ 
   const navigate = useNavigate();
   // const { products } = useGlobalState(); // Assuming products are available in global state
   const itemData = products.find(product => product?.title === id); // Find the product by title
-
+  const {isLoading:productLoading,isError:productError,data:productData} = useGetProductIngfoQuery(itemData?.title)
+  console.log(productData,'api data')
   const buttons = [
     { name: "Description", icon: <FaInfoCircle /> },
     { name: itemData?.size ? "Size" : null, icon: itemData?.size ? <FaRuler /> : null },
@@ -451,7 +452,7 @@ const Detail = () => {
             <div className="bg-white rounded-lg shadow-xl overflow-hidden">
               <div className="bg-gradient-to-r from-[#40327a] to-[#8d6194] w-full p-6">
                 <h1 className="font-bold text-center text-4xl lg:text-5xl text-white">
-                  {itemData?.title}
+                  {productData?.metaTitle||itemData?.title}
                 </h1>
               </div>
 

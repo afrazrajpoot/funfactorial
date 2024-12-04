@@ -139,7 +139,7 @@ const BlogCard = ({ img, title, info, avatar, name, keywords,_id }) => {
 
           {/* Read More Button */}
           <Link 
-            to={`/blogs/${_id}`} 
+            to={`/blogs/${keywords}`} 
             className="group"
           >
             <button className="
