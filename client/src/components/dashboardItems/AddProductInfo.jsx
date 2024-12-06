@@ -46,7 +46,7 @@ const ModalForm = ({ title, isOpen, onClose, onSave }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+    <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex justify-center items-center">
       <motion.div
         className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md"
         initial={{ opacity: 0, y: -20 }}
