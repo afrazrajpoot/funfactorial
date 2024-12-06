@@ -26,8 +26,21 @@ import {
 import {SizeTable, InflatableDetailsTable, UsersTable} from "../components/InflatableDetailsTable";
 import Layout from "../components/Layout";
 
-const DetailContent = ({ itemData,longDescription }) => ( 
-  <Fade in={true} timeout={500}>
+const DetailContent = ({ itemData,productData }) => {
+
+   // Set meta title and description dynamically
+   useEffect(() => {
+    if (productData?.metaTitle) {
+      document.title = productData?.metaTitle;
+    }
+    if (productData?.metaDescription) {
+      document.querySelector('meta[name="description"]')?.setAttribute('content', productData?.metaDescription);
+    }
+  }, [productData]);
+
+
+  return (
+    <Fade in={true} timeout={500}>
     <div className="space-y-6">
       <h1 className="text-3xl lg:text-4xl font-bold text-gray-800 flex items-center">
         <FaStar className="text-yellow-400 mr-3" />
@@ -73,7 +86,7 @@ const DetailContent = ({ itemData,longDescription }) => (
       {
           itemData?.locations_available?.map((item, index) => (
             <div key={index} className="">
-              <p className="text-[1vw] text-gray-700">
+              <p className="text-[3vw] md:text-[1vw] text-gray-700">
                 {item}
               </p>
               </div>
@@ -92,7 +105,8 @@ const DetailContent = ({ itemData,longDescription }) => (
       </div>
     </div>
   </Fade>
-);
+  )
+}
 
 const SizeContent = ({ itemData }) => (
   <Fade in={true} timeout={500}>
@@ -426,10 +440,10 @@ const Detail = () => {
     }
   }, [isSuccess, isError, itemData]);
 
-  const renderContent = (longDescription) => {
+  const renderContent = () => {
     switch (activeTab) {
       case "Description":
-        return <DetailContent itemData={itemData} longDescription={longDescription} />;
+        return <DetailContent itemData={itemData} productData={productData} />;
       case "Size":
         return itemData.size && <SizeContent itemData={itemData} />;
       case "Suitability":
@@ -452,7 +466,7 @@ const Detail = () => {
             <div className="bg-white rounded-lg shadow-xl overflow-hidden">
               <div className="bg-gradient-to-r from-[#40327a] to-[#8d6194] w-full p-6">
                 <h1 className="font-bold text-center text-4xl lg:text-5xl text-white">
-                  {productData?.metaTitle||itemData?.title}
+                  {itemData?.title}
                 </h1>
               </div>
 
@@ -483,7 +497,7 @@ const Detail = () => {
                   </div>
 
                   <div className="flex-grow">
-                    {renderContent(itemData?.longDescription)}
+                    {renderContent(itemData)}
                   </div>
 
                   <Button style={{ backgroundColor: "#40327a" }}
@@ -496,6 +510,10 @@ const Detail = () => {
                   </Button>
                 </section>
               </article>
+              <div className="w-full max-w-[70vw] flex flex-col items-start justify-center m-auto mt-[2vw] py-[3vw]">
+                <h2 className="text-[4vw] lg:text-[1vw] font-bold text-gray-800 flex items-center">{productData?.metaTitle}</h2>
+                <p className="text-[3.5vw] md:text-[1vw] mt-[2vw]">{productData?.metaDescription}</p>
+              </div>
             </div>
           </Grow>
         ) : (
