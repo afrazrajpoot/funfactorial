@@ -186,7 +186,7 @@ exports.deleteImages = async (req, res, next) => {
 
 
 exports.updateProductInfo = async (req, res) => {
-  const { title, metaTitle, metaDescription, longDescription } = req.body;
+  const { title, metaTitle, metaDescription, longDescription1 ,heading1,heading2,longDescription2} = req.body;
 
   try {
     // Check if the product already exists
@@ -196,8 +196,10 @@ exports.updateProductInfo = async (req, res) => {
       // If the product exists, update it
       product.metaTitle = metaTitle;
       product.metaDescription = metaDescription;
-      product.longDescription = longDescription;
-
+      product.longDescription1 = longDescription1;
+      product.heading1 = heading1;
+      product.longDescription2 = longDescription2;
+      product.heading2 = heading2;
       // Save the updated product
       await product.save();
 
@@ -208,7 +210,7 @@ exports.updateProductInfo = async (req, res) => {
         title,
         metaTitle,
         metaDescription,
-        longDescription
+        longDescription1 ,heading1,heading2,longDescription2
       });
 
       // Save the new product
