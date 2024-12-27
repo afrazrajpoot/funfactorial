@@ -14,6 +14,7 @@ import { contactData, contactFormData } from "../data";
 import { useGlobalState } from "../context/globalState";
 import Layout from "../components/Layout";
 import { Link } from "react-router-dom";
+import Header from "../components/Header";
 
 const getCurrentYearMonth = () => {
   const now = new Date();
@@ -99,9 +100,9 @@ const Contact = () => {
         })
       );
 
-      if (!stripe) {
-        throw new Error("Stripe is not initialized");
-      }
+      // if (!stripe) {
+      //   throw new Error("Stripe is not initialized");
+      // }
 
       const amount = decryptedData.price;
       const {
@@ -122,6 +123,7 @@ const Contact = () => {
       }
 
     } catch (error) {
+      console.log(error,'error')
       let errorMessage = "An error occurred during submission.";
       if (error.response?.data?.message) {
         errorMessage = error.response.data.message;
@@ -159,7 +161,8 @@ const Contact = () => {
   }, [setItemDetail]);
 
   return (
-    <Layout>
+    <>
+    <Header />
       <LocalizationProvider dateAdapter={AdapterDateFns}>
         <Box
           sx={{
@@ -285,7 +288,7 @@ const Contact = () => {
           </Box>
         </Box>
       </LocalizationProvider>
-    </Layout>
+    </>
   );
 };
 

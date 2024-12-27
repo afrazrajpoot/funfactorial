@@ -4,6 +4,7 @@ import { products } from '../data';
 import { motion } from 'framer-motion';
 import Card from '../components/Card';
 import Layout from '../components/Layout';
+import Header from '../components/Header';
 
 const CheckAvailibility = () => {
   const { availableData, data, setData, search } = useGlobalState();
@@ -52,15 +53,16 @@ const CheckAvailibility = () => {
   }, [search, availableData, setData]);
 
   return (
-    <Layout>
-      <div className="grid grid-cols-1 ml-[5vw] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
+    <>
+    <Header />
+      <div className="grid grid-cols-1 ml-[1vw] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
         {data.map((elem, ind) => (
           <motion.div key={elem.id} variants={itemVariants} layout>
             <Card {...elem} ind={ind} />
           </motion.div>
         ))}
       </div>
-    </Layout>
+    </>
   );
 };
 

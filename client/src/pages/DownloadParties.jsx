@@ -1,6 +1,7 @@
 import React from "react";
 import { DownloadPartiesData } from "../data";
 import Layout from "../components/Layout";
+import Header from "../components/Header";
 
 const DownloadParties = () => {
   const links = [
@@ -23,7 +24,8 @@ const DownloadParties = () => {
   ];
 
   return (
-  <Layout>
+  <>
+  <Header />
       <main className="container mx-auto px-4 py-8">
       <div className="max-w-6xl mx-auto">
         {/* Hero Section */}
@@ -99,7 +101,7 @@ const DownloadParties = () => {
         </div>
       </div>
     </main>
-  </Layout>
+  </>
   );
 };
 

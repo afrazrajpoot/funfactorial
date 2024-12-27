@@ -5,6 +5,7 @@ import { products } from '../data';
 import Card from '../components/Card';
 import Loading from '../components/Loader';
 import Layout from '../components/Layout';
+import Header from '../components/Header';
 
 const SearchProducts = () => {
   const location = useLocation();
@@ -94,7 +95,8 @@ const SearchProducts = () => {
   }, [location.search]);
 
   return (
-  <Layout>
+  <>
+  <Header />
       <div className="min-h-screen p-8">
       <div className="max-w-7xl mx-auto">
         <h1 className="text-3xl font-bold mb-8 text-gray-800">
@@ -144,7 +146,7 @@ const SearchProducts = () => {
         </AnimatePresence>
       </div>
     </div>
-  </Layout>
+  </>
   );
 };
 

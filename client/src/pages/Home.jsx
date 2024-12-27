@@ -10,6 +10,8 @@ import Ribbons from "../components/Ribbons";
 import Loading from "../components/Loader";
 import Layout from "../components/Layout";
 import { Menu, X } from "lucide-react";
+import TopHeader from "../components/TopHeader";
+import Header from "../components/Header";
 
 const Home = () => {
   const { data, setData, search } = useGlobalState();
@@ -198,7 +200,9 @@ const Home = () => {
   };
 
   return (
- <Layout>
+ <>
+   <TopHeader />
+   <Header />
      <main className="min-h-screen pb-[5vw]">
       <section>
         <section className="grid grid-cols-1 mt-[3vw] lg:grid-cols-2 gap-[10vw]">
@@ -305,7 +309,7 @@ const Home = () => {
        }
       </section>
     </main>
- </Layout>
+ </>
   );
 };
 

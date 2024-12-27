@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import BlogCard from '../components/BlogCard';
 import { useGlobalState } from "../context/globalState";
 import CryptoJS from 'crypto-js';
+import Header from "../components/Header";
 
 const Blogs = () => {
   const [blogsPosts, setBlogsPosts] = useState([]);
@@ -46,7 +47,8 @@ const Blogs = () => {
     getBlogData();
   }, [newBlog]);
   return (
-    <Layout>
+    <>
+    <Header />
       <main className="bg-white min-h-screen py-8 px-4">
         {/* Page Header */}
         <div className="text-center mb-8 relative">
@@ -144,7 +146,7 @@ const Blogs = () => {
           </div>
         )}
       </main>
-    </Layout>
+    </>
   );
 };
 

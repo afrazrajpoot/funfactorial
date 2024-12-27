@@ -4,6 +4,8 @@ import { products } from '../../data';
 import Card from '../Card';
 import { motion } from 'framer-motion';
 import { toast } from 'sonner';
+import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css';
 
 const ModalForm = ({ title, isOpen, onClose, onSave }) => {
   const [metaTitle, setMetaTitle] = useState('');
@@ -13,6 +15,23 @@ const ModalForm = ({ title, isOpen, onClose, onSave }) => {
   const [longDescription2, setLongDescription2] = useState('');
   const [heading2, setHeading2] = useState('');
   const [loading, setLoading] = useState(false);
+
+  const modules = {
+    toolbar: [
+      [{ 'header': [1, 2, false] }],
+      ['bold', 'italic', 'underline', 'strike'],
+      [{ 'list': 'ordered'}, { 'list': 'bullet' }],
+      ['link'],
+      ['clean']
+    ],
+  };
+
+  const formats = [
+    'header',
+    'bold', 'italic', 'underline', 'strike',
+    'list', 'bullet',
+    'link'
+  ];
 
   // Fetch existing product data when the modal opens
   useEffect(() => {
@@ -32,7 +51,6 @@ const ModalForm = ({ title, isOpen, onClose, onSave }) => {
           setHeading2(data.heading2 || '');
         } catch (err) {
           console.error(err);
-        
         } finally {
           setLoading(false);
         }
@@ -62,7 +80,7 @@ const ModalForm = ({ title, isOpen, onClose, onSave }) => {
   return (
     <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex justify-center items-center">
       <motion.div
-        className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md overflow-y-auto max-h-[90vh]"
+        className="bg-white p-6 rounded-lg shadow-lg w-full max-w-4xl overflow-y-auto max-h-[90vh]"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -20 }}
@@ -102,11 +120,17 @@ const ModalForm = ({ title, isOpen, onClose, onSave }) => {
             </div>
             <div className="mb-4">
               <label className="block text-sm font-medium mb-1">Long Description 1</label>
-              <textarea
-                value={longDescription1}
-                onChange={(e) => setLongDescription1(e.target.value)}
-                className="w-full border rounded p-2"
-              />
+              <div className="border rounded">
+                <ReactQuill
+                  theme="snow"
+                  value={longDescription1}
+                  onChange={setLongDescription1}
+                  modules={modules}
+                  formats={formats}
+                  className="bg-white"
+                  style={{ height: '200px' }}
+                />
+              </div>
             </div>
             
             {/* Second Section */}
@@ -121,14 +145,20 @@ const ModalForm = ({ title, isOpen, onClose, onSave }) => {
             </div>
             <div className="mb-4">
               <label className="block text-sm font-medium mb-1">Long Description 2</label>
-              <textarea
-                value={longDescription2}
-                onChange={(e) => setLongDescription2(e.target.value)}
-                className="w-full border rounded p-2"
-              />
+              <div className="border rounded">
+                <ReactQuill
+                  theme="snow"
+                  value={longDescription2}
+                  onChange={setLongDescription2}
+                  modules={modules}
+                  formats={formats}
+                  className="bg-white"
+                  style={{ height: '200px' }}
+                />
+              </div>
             </div>
             
-            <div className="flex justify-end">
+            <div className="flex justify-end mt-16">
               <button
                 type="button"
                 onClick={handleSubmit}

@@ -4,6 +4,7 @@ import Card from '../components/Card';
 import { products } from '../data';
 import { useGlobalState } from '../context/globalState';
 import Layout from '../components/Layout';
+import Header from '../components/Header';
 
 
 const AllProducts = () => {
@@ -54,7 +55,8 @@ const AllProducts = () => {
   }, [search]);
 
   return (
-<Layout>
+<>
+<Header />
 <section className='flex gap-[2vw]'>
    
    <motion.div
@@ -92,7 +94,7 @@ className="container mx-auto px-4 py-8"
 </motion.div>
 </motion.div>
 </section>
-</Layout>
+</>
   );
 };
 

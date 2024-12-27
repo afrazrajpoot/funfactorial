@@ -7,6 +7,7 @@ import { Helmet } from "react-helmet";
 import SocialShare from "../components/SocialShare";
 import Layout from "../components/Layout";
 import { useGlobalState } from "../context/globalState";
+import Header from "../components/Header";
 
 const ReadSingleBlog = () => {
   const { keywords } = useParams();
@@ -118,7 +119,8 @@ const ReadSingleBlog = () => {
   };
 
   return (
-    <Layout>
+    <>
+    <Header />
       <Helmet>
         {metaTitle && <meta property="og:title" content={metaTitle} />}
         {metaDescription && <meta property="og:description" content={metaDescription} />}
@@ -215,7 +217,7 @@ const ReadSingleBlog = () => {
           {blogData?.name ? `By: ${blogData.name}` : ""}
         </p>
       </div>
-    </Layout>
+    </>
   );
 };
 
