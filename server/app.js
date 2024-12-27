@@ -44,11 +44,15 @@ app.post('/payment-sheet', async (req, res) => {
         quantity: 1,
       }],
       mode: 'payment',
-      // success_url: `https://www.funrides.co.uk/success`,
-      success_url: `http://localhost:5173/success`,
+      success_url: `https://www.funrides.co.uk/success`,
+      success_url: process.env.SUCCESS_URL,
 
-      // cancel_url: `https://www.funrides.co.uk/`,
-      cancel_url: `http://localhost:5173`,
+      // success_url: `http://localhost:5173/success`,
+
+      cancel_url: `https://www.funrides.co.uk/`,
+      cancel_url: process.env.CANCEL_URL,
+
+      // cancel_url: `http://localhost:5173`,
 
     });
         
