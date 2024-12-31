@@ -26636,7 +26636,7 @@ url: "/",
 },
 {
 title: "Products",
-url: "/all products",
+url: "/all-products",
 // submenu: [
 // { title: "New For 2024!", url: "/category/news 2024" },
 // { title: "Indoor Soft Play Packages", url: "/category/indoor soft play" },
@@ -26657,10 +26657,10 @@ url: "/all products",
 // { title: "Party Entertainer", url: "/category/party entertainer" },
 // ],
 },
-{
-title: "Events",
-url: "/downloadParty",
-},
+// {
+// title: "Events",
+// url: "/downloadParty",
+// },
 
 // {
 // title: "About",
