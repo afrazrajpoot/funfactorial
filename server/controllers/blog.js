@@ -226,10 +226,17 @@ exports.updateProductInfo = async (req, res) => {
 
 exports.getProductInfo = async (req, res) => {
   const { title } = req.query;
-
+  console.log('====================================');
+  console.log(title, "title");
+  console.log('====================================');
   try {
     // Find the product by title
-    const product = await Product.findOne({ title });
+    const product = await Product.findOne({
+      title: { $regex: title, $options: 'i' }
+    });
+        console.log('====================================');
+    console.log(product, "product");
+    console.log('====================================');
 
     if (!product) {
       return res.status(404).json({ message: 'Product not found' });

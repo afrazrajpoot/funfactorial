@@ -425,13 +425,13 @@ bgImg: "/p3i/Adults Christmas Theme Bouncy Castle Hire Pink & Purple.png",
 title: "3D Lion Bouncy Castle With Front Slide",
 img: "/p3i/p6.png",
 images:['/p3i/p2.png','/p3i/p3.png','/p3i/p4.png','/p3i/p5.png'],
- description:`3D Lion Jungle Theme Bounce N' Slide
+ description:`3D Lion Jungle Theme Bounce N Slide
 Contact funrides
 It couldn't be easier to get in touch with the team here at funrides. 
 You can use the contact form or:
 
 Call our office on: 0113 460 1386
-Mobile / WhatsApp / Text us on: 07482511995
+Mobile WhatsApp Text us on: 07482511995
 Email us at: enquiries@funrides.co.uk`,
 
 size:[' 12ft,16ft,9.5ft',
@@ -458,7 +458,7 @@ bgImg: "/p3i/3DDinosaurBouncyCastleWithFrontSlide.png",
 title: "3D Monster Truck Bouncy Castle With Front Slide",
 img: "/p3i/p8.png",
 images:['/p3i/p7.png','/p3i/p8.png','/p3i/p9.png'],
- description:`3D Unicorn Bounce N' Slide
+ description:`3D Unicorn Bounce N Slide
 Available to hire from November
 Click Here For Reservations
 Contact funrides
@@ -466,7 +466,7 @@ It couldn't be easier to get in touch with the team here at
 funrides. You can use the contact form or:
 
 Call our office on: 0113 460 1386
-Mobile / WhatsApp / Text us on: 07482511995
+Mobile WhatsApp Text us on: 07482511995
 Email us at: enquiries@funrides.co.uk`,
 
 size:[' 12ft,	15ft	,9.5ft',
@@ -490,8 +490,8 @@ users:['Max Users @ 1.0	6',
 price: 245,
 nextMorningCollection: 50,
 s1:'s1',
-bgImg: "/cProduct/Bounce N' Slide Soft Play Package Red & Blued.png",
-title: "Bounce N' Slide Soft Play Package Red / Blue",
+bgImg: "/cProduct/Bounce N Slide Soft Play Package Red & Blued.png",
+title: "Bounce N Slide Soft Play Package Red Blue",
 img: "/newProducts/bounceSlide.png",
 images:[" /newProducts/bounceSlide2.png"],
 description: `The Mega Soft Play Plain Red/Blue Castle with Slide Package is one of the top rated 2024 Premium additions, perfect for all your birthday parties and special events. This amazing package includes a 12x16ft bouncy castle with a slide, a foam ball pool, 17 pieces of soft play, and a 9 mat setup, all finished in a funrides gloss to match the rest of our inflatables.
@@ -530,10 +530,10 @@ additionalInformation: `Next morning collection available for £50. For bookings
 {
 price: 245,
 s1:'s2',
-title: "Butterflies Bounce N' Slide Soft Play Package Pink / Purple",
+title: "Butterflies Bounce N Slide Soft Play Package Pink Purple",
 bgImg: "/cProduct/Butterflies Soft Play Package Pink & Purple.png",
-img: "/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple3.png",
-images:["/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple5.png","/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple6.png","/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple7.png","/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple8.png","/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple9.png","/newProducts/Butterflies Bounce N' Slide Soft Play PackagePink Purple10.png",],
+img: "/newProducts/Butterflies Bounce N Slide Soft Play PackagePink Purple3.png",
+images:["/newProducts/Butterflies Bounce N Slide Soft Play PackagePink Purple5.png","/newProducts/Butterflies Bounce N Slide Soft Play PackagePink Purple6.png","/newProducts/Butterflies Bounce N Slide Soft Play PackagePink Purple7.png","/newProducts/Butterflies Bounce N Slide Soft Play PackagePink Purple8.png","/newProducts/Butterflies Bounce N Slide Soft Play PackagePink Purple9.png","/newProducts/Butterflies Bounce N Slide Soft Play PackagePink Purple10.png",],
 description: `Introducing the amazing Mega Pink and Purple Butterflies Soft Play Package, designed for beautiful little girls and perfect for birthday celebrations! This highly sought after 12x16ft butterfly themed bouncy castle with a slide is paired with a foam ball pool, a 9 mat setup, and 17 matching soft play pieces. With a pretty butterfly theme and funrides gloss finish, this package is ideal for any indoor bounce and slide party.
 
 funrides prioritizes safety and hygiene. All inflatables, soft play, ball pools, and mats are fully sanitized after every use. Why not add fun with 4x Didi Cars and animal hoppers to keep the kids entertained?
@@ -567,9 +567,9 @@ additionalInformation: `For bookings and enquiries, contact us at 0113 460 1386 
 {
 price: 295,
 s1:'s3',
-title: "Butterflies Soft Play + Slide + Bouncy Castle Pink / Purple",
-bgImg: "/cProduct/Butterflies Soft Play + Slide + Bouncy Castle Pink & Purple.png",
-img: "/newProducts/Butterflies Soft Play + Slide + BouncyCastlePinkPurple.png",
+title: "Butterflies Soft Play Slide Bouncy Castle Pink Purple",
+bgImg: "/cProduct/Butterflies Soft Play Slide Bouncy Castle Pink & Purple.png",
+img: "/newProducts/Butterflies Soft Play Slide BouncyCastlePinkPurple.png",
 description: `Introducing the Amazing Super Size Soft Play Package with Pink and Purple Butterflies Theme. This beautiful package is perfect for all butterfly lovers and is guaranteed to keep kids entertained! It includes a 9x11ft Bouncy Castle with a butterfly theme, a Juniors 5ft platform glossy Pink Slide, a foam ball pool, and a 9 Mega Mat setup with 18 matching pieces of soft play.
 
 This package is ideal for indoor birthday celebrations and comes with a total height of just 8ft for both the Bouncy Castle and Juniors Slide. Our funrides are fully sanitized for every use to ensure safety and hygiene.
@@ -610,7 +610,7 @@ price: 195,
 Offer: null,
 s1 :'s4',
 bgImg: "/p3i/ButterfliesBouncyCastleJuniorsPackage.png",
-title: "Butterflies Soft Play Bouncy Castle Juniors Package Pink / Purple",
+title: "Butterflies Soft Play Bouncy Castle Juniors Package Pink Purple",
 img: "/newProducts/Butterflies Soft Play Bouncy Castle Juniors Package Pink Purple.png",
 images: ["/newProducts/Butterflies Soft Play Bouncy Castle Juniors Package Pink Purple1.png","/newProducts/Butterflies Soft Play Bouncy Castle Juniors Package Pink Purple2.png","/newProducts/Butterflies Soft Play Bouncy Castle Juniors Package Pink Purple.png","/newProducts/Butterflies Soft Play Bouncy Castle Juniors Package Pink Purple2.png"],
 description: `This Butterflies Bouncy Castle & Ball pool, Soft Play Package is made
@@ -668,7 +668,7 @@ videoLink: "https://youtu.be/aft2d6uo0tI"
 price: 245,
 nextMorningCollection: 50,
 s1:'s5',
-title: "Butterflies Soft Play Bouncy Castle Package Pink / Purple",
+title: "Butterflies Soft Play Bouncy Castle Package Pink Purple",
 img: "/newProducts/Butterflies Soft Play Bouncy Castle Package PinkPurple1.png",
 images: [
 "/newProducts/butterFliesBounce.png",
@@ -723,19 +723,19 @@ videoLink: "https://youtu.be/aft2d6uo0tI"
 price: 245,
 nextMorningCollection: 50,
 s1:'s6',
-title: "Cars Bounce N' Slide Soft Play Package Red / Blue",
-img: "/newProducts/Cars Bounce N' Slide Soft Play PackageRed Blue.png",
+title: "Cars Bounce N Slide Soft Play Package Red Blue",
+img: "/newProducts/Cars Bounce N Slide Soft Play PackageRed Blue.png",
 images: [
-"/newProducts/Cars Bounce N' Slide Soft Play PackageRedBlue1.png",
-"/newProducts/Cars Bounce N' Slide Soft Play PackageRedBlue2.png",
-"/newProducts/Cars Bounce N' Slide Soft Play PackageRedBlue3.png",
-"/newProducts/Cars Bounce N' Slide Soft Play PackageRedBlue4.png",
-"/newProducts/Cars Bounce N' Slide Soft Play PackageRedBlue5.png",
-"/newProducts/Cars Bounce N' Slide Soft Play PackageRedBlue6.png",
-"/newProducts/Cars Bounce N' Slide Soft Play PackageRedBlue7.png"
+"/newProducts/Cars Bounce N Slide Soft Play PackageRedBlue1.png",
+"/newProducts/Cars Bounce N Slide Soft Play PackageRedBlue2.png",
+"/newProducts/Cars Bounce N Slide Soft Play PackageRedBlue3.png",
+"/newProducts/Cars Bounce N Slide Soft Play PackageRedBlue4.png",
+"/newProducts/Cars Bounce N Slide Soft Play PackageRedBlue5.png",
+"/newProducts/Cars Bounce N Slide Soft Play PackageRedBlue6.png",
+"/newProducts/Cars Bounce N Slide Soft Play PackageRedBlue7.png"
 ],
 description: `The Cars Themed Mega Soft Play Package is an amazing addition to any birthday party or event. If your boys love fast cars, then this is the castle for them! It features our classic cartoon cars artwork on a bouncy castle with a slide combination finished in a funrides gloss. It also includes a foam ball pool, 17 pieces of soft play, and a matching 9 mat setup, creating an incredible package for indoor and outdoor events.`,
-safetyHygiene: "Safety and Hygiene are the Paramount Priority here at funrides. All our funrides, Bouncy N' Slide Bouncy Castles, Soft Play, Ball Pools, Balls, and Mats come fully sanitized after every use.",
+safetyHygiene: "Safety and Hygiene are the Paramount Priority here at funrides. All our funrides, Bouncy N Slide Bouncy Castles, Soft Play, Ball Pools, Balls, and Mats come fully sanitized after every use.",
 // size: ['12ft x 16ft x 9.5ft', '3.7m x 4.9m x 2.9m'],
 suitability: [
 'Indoor on Hard Surface',
@@ -775,7 +775,7 @@ videoLink: "",
 {
 price: 245,
 s1:'s7',
-title: "Cars Soft Play Bouncy Castle Package Green / Light Blue",
+title: "Cars Soft Play Bouncy Castle Package Green Light Blue",
 img: "/newProducts/Cars Soft Play Bouncy Castle PackageGreen Light Blue.png",
 images: [
 "/newProducts/Cars Soft Play Bouncy CastlePackageGreenLight Blue1.png",
@@ -821,7 +821,7 @@ availableLocations: [
 price: 245,
 Offer: 50,
 s1:'s8',
-title: "Cars Soft Play Bouncy Castle Package Red / Blue",
+title: "Cars Soft Play Bouncy Castle Package Red Blue",
 img: "/newProducts/CarsSoftPlayBouncyCastlePackageRedBlue.png",
 images: [
 "/newProducts/CarsSoftPlayBouncyCastlePackageRedBlue1.png",
@@ -871,7 +871,7 @@ availableLocations: [
 price: 245,
 Offer: 50,
 s1:'s9',
-title: "Circus Bounce N' Slide Soft Play Package Red / Blue",
+title: "Circus Bounce N Slide Soft Play Package Red Blue",
 img: "/newProducts/Circus Bouncy Castle & Matching inflatable Ball Pool.png",
 images: [
 "/newProducts/CircusBouncyCastleBallPool2.png"
@@ -1024,7 +1024,7 @@ videoLink: "https://youtu.be/vO9JZOY8wrA"
 {
 price: 245,
 s1 :'s12',
-title: "Circus Soft Play Bouncy Castle Package Green / Light Blue",
+title: "Circus Soft Play Bouncy Castle Package Green Light Blue",
 img: "/newProducts/CircusSoftPlayBouncyCastleJuniorsPackageRedBlue.png",
 images: [
 "/newProducts/CircusSoftPlayBouncyCastleJuniorsPackageRedBlue1.png",
@@ -1037,7 +1037,7 @@ images: [
 "/newProducts/CircusSoftPlayBouncyCastleJuniorsPackageRedBlue7.png",
 
 ],
-description: `We’ve carefully selected our Green and Light Blue Circus Mega Pack, featuring a highly demanded 12x15ft bouncy castle measuring 9.5ft in height, perfect for all your indoor hires. This package is coupled with a foam ball pool, keeping the under 5’s & toddlers entertained, along with a 17 piece matching Soft Play set and matching Green / Light Blue Mega Mat set, completing your Circus Mega Package fit for your Circus Theme Birthday Party Celebrations.`,
+description: `We’ve carefully selected our Green and Light Blue Circus Mega Pack, featuring a highly demanded 12x15ft bouncy castle measuring 9.5ft in height, perfect for all your indoor hires. This package is coupled with a foam ball pool, keeping the under 5’s & toddlers entertained, along with a 17 piece matching Soft Play set and matching Green Light Blue Mega Mat set, completing your Circus Mega Package fit for your Circus Theme Birthday Party Celebrations.`,
 safetyHygiene: "Safety and Hygiene are the Paramount Priority here at funrides! All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitized for every use.",
 // size: ['12ft , 15ft , 9.5ft', '3.7m , 4.6m , 2.9m'],
 suitability: [
@@ -1075,7 +1075,7 @@ availableLocations: [
 {
 price: 245,
 s1:'s13',
-title: "Circus Soft Play Bouncy Castle Package Red / Blue",
+title: "Circus Soft Play Bouncy Castle Package Red Blue",
 img: "/newProducts/CircusSoftPlayBouncyCastleJuniorsPackageRedBlue9.png",
 images: [
 "/newProducts/CircusSoftPlayBouncyCastleJuniorsPackageRedBlue9.png",
@@ -1129,7 +1129,7 @@ availableLocations: [
 {
 price: 245,
 s1 :'s14',
-title: "Diggers Bounce N' Slide Soft Play Package Red / Blue",
+title: "Diggers Bounce N Slide Soft Play Package Red Blue",
 img: "/newProducts/diggers soft play bouncy castle package green light blue.png",
 images: [
 "/newProducts/diggers soft play bouncy castle package green light blue1.png",
@@ -1176,7 +1176,7 @@ availableLocations: [
 
 {
 price: 195,
-title: "Diggers Soft Play Bouncy Castle Juniors Package Red / Blue",
+title: "Diggers Soft Play Bouncy Castle Juniors Package Red Blue",
 s1:'s15',
 img: "/newProducts/DiggersSoftPlayBouncyCastleJuniorsPackageRedBlue.png",
 images: [
@@ -1224,7 +1224,7 @@ availableLocations: [
 
 {
 price: 245,
-title: "Diggers Soft Play Bouncy Castle Package Green / Light Blue",
+title: "Diggers Soft Play Bouncy Castle Package Green Light Blue",
 s1:'s16',
 img: "/newProducts/DiggersSoftPlayBouncyCastleJuniorsPackageRedBlue3.png",
 images: [
@@ -1273,7 +1273,7 @@ availableLocations: [
 {
 price: 195,
 s1:'s17',
-title: "Dinosaurs Juniors Slide + Bouncy Castle Green / Light Blue",
+title: "Dinosaurs Juniors Slide Bouncy Castle Green Light Blue",
 img: "/newProducts/dinosaurs soft play bouncy castle juniors package green light blue.png",
 images: [
 "/newProducts/dinosaurs soft play bouncy castle juniors package green light blue.png",
@@ -1327,7 +1327,7 @@ availableLocations: [
 {
 price: 195,
 s1:'s18',
-title: "Dinosaurs Soft Play Bouncy Castle Juniors Package Red / Blue",
+title: "Dinosaurs Soft Play Bouncy Castle Juniors Package Red Blue",
 img: "/newProducts/dinosaurs soft play bouncy castle juniors package red blue1.png",
 images: [
 "/newProducts/dinosaurs soft play bouncy castle juniors package red blue2.png",
@@ -1356,7 +1356,7 @@ suitability: [
 ],
 ballPool: {
 description: "Foam ball pool included in the package, suitable for both indoor and outdoor events.",
-size: ['Foam Ball Pool: Red / Blue'],
+size: ['Foam Ball Pool: Red Blue'],
 suitability: [
 'Indoor on Hard Surface',
 'Outdoor on Grass',
@@ -1407,7 +1407,7 @@ videoLink: "https://youtu.be/i0Eha00_I3U"
 {
 price: 245,
 s1 :'s19',
-title: "Dinosaurs Soft Play Bouncy Castle Package Green / Light Blue",
+title: "Dinosaurs Soft Play Bouncy Castle Package Green Light Blue",
 img: "/newProducts/dinosaurs soft play bouncy castle package green light blue1.png",
 images: [
 "/newProducts/dinosaurs soft play bouncy castle package green light blue2.png",
@@ -1432,7 +1432,7 @@ suitability: [
 ],
 ballPool: {
 description: "Foam ball pool included in the package, suitable for both indoor and outdoor events.",
-size: ['Foam Ball Pool: Green / Light Blue'],
+size: ['Foam Ball Pool: Green Light Blue'],
 suitability: [
 'Indoor on Hard Surface',
 'Outdoor on Grass',
@@ -1480,7 +1480,7 @@ videoLink: "https://youtu.be/i0Eha00_I3U"
 {
 price: 245,
 s1:'s20',
-title: "Football Bounce N' Slide Soft Play Package Red / Blue",
+title: "Football Bounce N Slide Soft Play Package Red Blue",
 img: "/newProducts/football bounce n slide soft play package red blue.png",
 images: [
 "/newProducts/FootballBounceSlideSoftPlayPackage1.png",
@@ -1504,7 +1504,7 @@ suitability: [
 ],
 ballPool: {
 description: "Foam ball pool included, suitable for indoor use only.",
-size: ['Foam Ball Pool: Red / Blue'],
+size: ['Foam Ball Pool: Red Blue'],
 suitability: [
 'Indoor on Hard Surface'
 ]
@@ -1560,7 +1560,7 @@ videoLink: "https://youtu.be/i0Eha00_I3U"
 {
 price: 245,
 s1:'s21',
-title: "Happy Birthday Soft Play Bouncy Castle Package Green / Light Blue",
+title: "Happy Birthday Soft Play Bouncy Castle Package Green Light Blue",
 img: "/newProducts/happy birthday soft play bouncy castle package red blue.png",
 images: [
 "/newProducts/happy birthday soft play bouncy castle package green light blue.png",
@@ -1581,7 +1581,7 @@ suitability: [
 ],
 ballPool: {
 description: "Foam ball pool included, matching the green/light blue theme.",
-size: ['Foam Ball Pool: Green / Light Blue'],
+size: ['Foam Ball Pool: Green Light Blue'],
 suitability: [
 'Indoor on Hard Surface'
 ]
@@ -1632,7 +1632,7 @@ videoLink: "https://youtu.be/HappyBirthdayBouncyCastleVideo"
 {
 price: 195,
 s1:'s52',
-title: "Jungle Soft Play Bouncy Castle Juniors Package Green / Light Blue",
+title: "Jungle Soft Play Bouncy Castle Juniors Package Green Light Blue",
 img: "/newProducts/jungle soft play bouncy castle juniors package green light blue1.png",
 images: [
 "/newProducts/jungle soft play bouncy castle juniors package green light blue2.png",
@@ -1687,7 +1687,7 @@ extras: [
 {
 price: 195,
 s1:'s51',
-title: "Jungle Soft Play Bouncy Castle Juniors Package Green / Light Blue",
+title: "Jungle Soft Play Bouncy Castle Juniors Package Green Light Blue",
 img: "/newProducts/jungle soft play bouncy castle juniors package green light blue1.png",
 images: [
 "/newProducts/jungle soft play bouncy castle juniors package green light blue2.png",
@@ -1745,7 +1745,7 @@ extras: [
 {
 price: 195,
 s1:'s50',
-title: "Juniors Slide + Bouncy Castle Green / Light Blue",
+title: "Juniors Slide Bouncy Castle Green Light Blue",
 img: "/newProducts/juniors slide bouncy castle green light blue.png",
 images: [
 "/newProducts/juniors slide bouncy castle pink purple.png",
@@ -1756,7 +1756,7 @@ description: `funrides your local bouncy castle hire near you. Number #1 Google
 Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings. Delivering you a choice of UK's latest most on trend new purchases and additions 
 to our outstanding Premium 2024 Fleet!! Never to be mistaken with lesser lower services offering low quality older cheap bouncy castles for hire!!
 
-The Plain No Theme Bouncy Castle in Green / Light blue paired with matching Green / Light blue Slide is an amazing 
+The Plain No Theme Bouncy Castle in Green Light blue paired with matching Green Light blue Slide is an amazing 
 addition to any children's birthday party or event, boasting the classic plain no theme colour way which is finished 
 in a modern gloss to match the funrides gloss finish on all our inflatables. The Plain no Themed bouncy castle and slide package is Ideal for all your indoor and outdoor events and special occasions. 
 This package can be easily upgraded and paired with ball pools, soft play and matching mat set up to make an incredible package.`,
@@ -1805,7 +1805,7 @@ extras: [
 
 {
 price: 245,
-title: "Mega Pack Soft Play with Air Juggler & Large Castle Jungle Green / Light Blue",
+title: "Mega Pack Soft Play with Air Juggler & Large Castle Jungle Green Light Blue",
 img: "/newProducts/mega pack soft play with air juggler and large castle jungle green light blue.png",
 images: [
 "/newProducts/mega pack soft play with air juggler and large castle jungle green light blue1.png",
@@ -1827,7 +1827,7 @@ to our outstanding Premium 2024 Fleet!! Never to be mistaken with lesser lower s
 We’ve carefully selected our Green & Light Blue Jungle Mega Pack, putting together our highly demanded 12ft x 15ft Jungle 
 bouncy castle which measures 9.5ft in height perfect fit for all your indoor hires, coupled with the floating ball feature 
 on our matching air juggler Jungle ball pool keeping the under 5’s & toddlers entertained every time, not forgetting our 17pc 
-matching Jungle Soft Play set + matching Green / Light Blue Mega Mat set completing your Green Jungle Mega Package fit for your 
+matching Jungle Soft Play set matching Green Light Blue Mega Mat set completing your Green Jungle Mega Package fit for your 
 Jungle themed Birthday Party Celebrations.`,
 safetyHygiene: "Safety and Hygiene are the Paramount Priority here at funrides!! All our funrides, Soft Play, Ball Pools, Balls, Mats come fully sanitised for every use.",
 premiumGuarantees: [
@@ -1878,7 +1878,7 @@ extras: [
 {
 price: 195,
 s1:'s24',
-title: "Mermaids Juniors Slide + Bouncy Castle Pink / Purple",
+title: "Mermaids Juniors Slide Bouncy Castle Pink Purple",
 img: "/newProducts/mermaids juniors slide bouncy castle pink purple.png",
 images: [
 "/newProducts/mermaids juniors slide bouncy castle pink purple1.png",
@@ -1973,7 +1973,7 @@ extras: [
 {
 price: 195,
 s1:'s26',
-title: "Party Time Juniors Slide + Bouncy Castle Green / Light Blue",
+title: "Party Time Juniors Slide Bouncy Castle Green Light Blue",
 nextMorningCollection: 50,
 img: "/newProducts/party time juniors slide bouncy castle green light blue1.png",
 images: [
@@ -2032,7 +2032,7 @@ extras: [
 {
 price: 195,
 s1:'s27',
-title: "Party Time Soft Play Bouncy Castle Juniors Package Pink / Purple",
+title: "Party Time Soft Play Bouncy Castle Juniors Package Pink Purple",
 img: "/newProducts/party time soft play bouncy castle juniors package red blue.png",
 images: [
 "/newProducts/party time soft play bouncy castle juniors package pink purple1.png",
@@ -2083,7 +2083,7 @@ availableLocations: [
 {
 price: 245,
 s1:'s28',
-title: "Party Time Soft Play Bouncy Castle Package Green / Light Blue",
+title: "Party Time Soft Play Bouncy Castle Package Green Light Blue",
 img: "/newProducts/party time soft play bouncy castle package red blue.png",
 images: [
 "/newProducts/party time soft play bouncy castle package red blue1.png",
@@ -2186,7 +2186,7 @@ extras: [
 {
 price: 155,
 s1:'s30',
-title: "Premium Jungle Soft Play with Air Juggler Ball Pool Green / Light Blue",
+title: "Premium Jungle Soft Play with Air Juggler Ball Pool Green Light Blue",
 nextMorningCollection: 50,
 img: "/newProducts/funrides jungle soft play with air juggler ball pool green light blue.png",
 images: [
@@ -2238,7 +2238,7 @@ extras: [
 {
 price: 245,
 s1:'s31',
-title: "Princess Bounce N' Slide Soft Play Package Pink / Purple",
+title: "Princess Bounce N Slide Soft Play Package Pink Purple",
 img: "/newProducts/princess juniors slide bouncy castle pink purple.png",
 images: [
 "/newProducts/princess bounce n slide soft play package pink purple1.png",
@@ -2305,7 +2305,7 @@ extras: [
 {
 price: 195,
 s1:'s32',
-title: "Princess Juniors Slide + Bouncy Castle Pink / Purple",
+title: "Princess Juniors Slide Bouncy Castle Pink Purple",
 img: "/newProducts/princess soft play slide bouncy castle pink purple.png",
 images: [
 "/newProducts/princess soft play bouncy castle package pink purple1.png",
@@ -2379,7 +2379,7 @@ extras: [
 {
 price: 295,
 s1:'s33',
-title: "Princess Soft Play + Slide + Bouncy Castle Pink / Purple",
+title: "Princess Soft Play Slide Bouncy Castle Pink Purple",
 img: "/newProducts/princess soft play slide bouncy castle pink purple.png",
 images: [
 "/newProducts/princess soft play slide bouncy castle pink purple.png",
@@ -2451,7 +2451,7 @@ extras: [
 price: 195,
 nextMorningCollection: 50,
 s1:'s34',
-title: "Sea World Juniors Slide + Bouncy Castle Green / Light Blue",
+title: "Sea World Juniors Slide Bouncy Castle Green Light Blue",
 img: "/newProducts/sea world juniors slide bouncy castle green light blue.png",
 images: [
 "/newProducts/sea world juniors slide bouncy castle green light blue.png",
@@ -2507,7 +2507,7 @@ suitability: [
 price: 195,
 nextMorningCollection: 50,
 s1:'s35',
-title: "Soft Play Bouncy Castle Juniors Package Green / Light Blue",
+title: "Soft Play Bouncy Castle Juniors Package Green Light Blue",
 img: "/newProducts/soft play bouncy castle juniors package green light blue.png",
 images: [
 "/newProducts/soft play bouncy castle juniors package green light blue.png",
@@ -2532,8 +2532,8 @@ imperial: { width: '9ft', length: '11.5ft', height: '8ft', requiredSpace: { widt
 metric: { width: '2.7m', length: '3.5m', height: '2.4m', requiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' }, accessWidth: '0.9m' }
 },
  },
-ballPool: "Plain Green / Light Blue",
-softPlay: "18pc & 9xMega Mat Set Up Green / Light Blue"
+ballPool: "Plain Green Light Blue",
+softPlay: "18pc & 9xMega Mat Set Up Green Light Blue"
 },
 suitability: [
 'Indoors on Hard Surface',
@@ -2555,7 +2555,7 @@ suitability: [
 price: 195,
 nextMorningCollection: 50,
 s1:'s36',
-title: "Soft Play Bouncy Castle Juniors Package Red / Blue",
+title: "Soft Play Bouncy Castle Juniors Package Red Blue",
 img: "/newProducts/soft play bouncy castle juniors package red blue.png",
 images: [
 "/newProducts/soft play bouncy castle juniors package red blue.png",
@@ -2580,9 +2580,9 @@ imperial: { width: '9ft', length: '11.5ft', height: '8ft', requiredSpace: { widt
 metric: { width: '2.7m', length: '3.5m', height: '2.4m', requiredSpace: { width: '3.7m', length: '5.2m', height: '2.6m' } }
 },
 },
-ballPool: "Plain Red / Blue",
-foamBallPool: "Foam Ball Pool Red / Blue",
-softPlay: "18pc & 9xMega Mat Set Up Red / Blue"
+ballPool: "Plain Red Blue",
+foamBallPool: "Foam Ball Pool Red Blue",
+softPlay: "18pc & 9xMega Mat Set Up Red Blue"
 },
 suitability: [
 'Indoors on Hard Surface',
@@ -2603,7 +2603,7 @@ suitability: [
 {
 price: 245,
 s1:'s37',
-title: "Soft Play Bouncy Castle Package Green / Light Blue",
+title: "Soft Play Bouncy Castle Package Green Light Blue",
 img: "/newProducts/soft play bouncy castle package green light blue.png",
 images: [
 "/newProducts/soft play bouncy castle package green light blue1.png",
@@ -2634,8 +2634,8 @@ metric: { width: '4.6m', length: '3.7m', height: '2.9m', requiredSpace: { width:
 },
 
 },
-ballPool: "Plain Green / Light Blue",
-softPlay: "18pc & 9xMega Mat Set Up Green / Light Blue"
+ballPool: "Plain Green Light Blue",
+softPlay: "18pc & 9xMega Mat Set Up Green Light Blue"
 },
 suitability: [
 'Indoors on Hard Surface',
@@ -2662,7 +2662,7 @@ suitability: [
 price: 245,
 s1:'s38',
 
-title: "Soft Play Bouncy Castle Package Pink / Purple",
+title: "Soft Play Bouncy Castle Package Pink Purple",
 img: "/newProducts/soft play bouncy castle package pink purple.png",
 images: [
 "/newProducts/soft play bouncy castle package pink purple.png",
@@ -2689,8 +2689,8 @@ metric: { width: '3.7m', length: '4.6m', height: '2.9m', requiredSpace: { width:
 },
  
 },
- ballPool: "Plain Pink / Purple",
-softPlay: "18pc & 9xMega Mat Set Up Pink / Purple"
+ ballPool: "Plain Pink Purple",
+softPlay: "18pc & 9xMega Mat Set Up Pink Purple"
 },
 suitability: [
 'Indoors on Hard Surface',
@@ -2711,12 +2711,12 @@ suitability: [
 {
 price: 295,
 s1:'s39',
-title: "Soft Play + Slide + Bouncy Castle Green / Light Blue",
+title: "Soft Play Slide Bouncy Castle Green Light Blue",
 img: "/newProducts/soft play slide bouncy castle green light blue.png",
 images: [
  "/newProducts/soft play slide bouncy castle green light blue.png",
 ],
-description: `funrides brings you the Soft Play + Slide + Bouncy Castle Package in Green & Light Blue. This funrides package includes a bouncy castle, mini platform slide, foam ball pool, soft play pieces, and matching mats. Ideal for children's parties and events, this modern setup with a gloss finish is designed to keep kids entertained both indoors and outdoors.`,
+description: `funrides brings you the Soft Play Slide Bouncy Castle Package in Green & Light Blue. This funrides package includes a bouncy castle, mini platform slide, foam ball pool, soft play pieces, and matching mats. Ideal for children's parties and events, this modern setup with a gloss finish is designed to keep kids entertained both indoors and outdoors.`,
 safetyHygiene: "All inflatables, soft play items, ball pools, and mats are fully sanitized for each hire, ensuring maximum safety and hygiene.",
 note: "This soft play and foam ball pool are not suitable for outdoor use. Please contact us for alternatives.",
 contactInfo: {
@@ -2740,8 +2740,8 @@ slide: {
 imperial: { width: '12ft', length: '12ft', height: '8ft', slidePlatformHeight: '5ft' },
 metric: { width: '3.7m', length: '3.7m', height: '2.4m', slidePlatformHeight: '1.5m' }
 },
-foamBallPool: "Foam Ball Pool Green / Light Blue",
-softPlay: "18pc & 9xMega Mat Set Up Green / Light Blue"
+foamBallPool: "Foam Ball Pool Green Light Blue",
+softPlay: "18pc & 9xMega Mat Set Up Green Light Blue"
 },
 },
 suitability: [
@@ -2762,7 +2762,7 @@ suitability: [
 {
 price: 195,
 s1:'s40',
-title: "Superheroes Juniors Slide + Bouncy Castle Green / Light Blue",
+title: "Superheroes Juniors Slide Bouncy Castle Green Light Blue",
 img: "/newProducts/superheroes juniors slide bouncy castle green light blue.png",
 images: [
 "/newProducts/superheroes juniors slide bouncy castle green light blue.png",
@@ -2811,13 +2811,13 @@ suitability: [
 {
 price: 195,
 s1:'s41',
-title: "Superheroes Juniors Slide + Bouncy Castle Red / Blue",
+title: "Superheroes Juniors Slide Bouncy Castle Red Blue",
 img: "/newProducts/superheroes juniors slide bouncy castle red blue.png",
 images: [
 "/newProducts/superheroes juniors slide bouncy castle red blue.png",
 
 ],
-description: `The Superheroes Juniors Slide + Bouncy Castle in Red & Blue is a fantastic choice for children's parties or events. Featuring superheroes themed designs, this bouncy castle and slide combo offers both fun and safety for the kids. The package showcases vibrant colors and a modern glossy finish, suitable for both indoor and outdoor use.`,
+description: `The Superheroes Juniors Slide Bouncy Castle in Red & Blue is a fantastic choice for children's parties or events. Featuring superheroes themed designs, this bouncy castle and slide combo offers both fun and safety for the kids. The package showcases vibrant colors and a modern glossy finish, suitable for both indoor and outdoor use.`,
 safetyHygiene: "All inflatables, soft play items, ball pools, and mats are thoroughly sanitized before every use, prioritizing safety and hygiene.",
 note: "Consider adding Didi Cars and Hoppers to the package, which are versatile and fun for kids, suitable for both indoor and outdoor events.",
 contactInfo: {
@@ -2861,7 +2861,7 @@ suitability: [
 {
 price: 195,
 s1:'s42',
-title: "Superheroes Soft Play Bouncy Castle Juniors Package Green / Light Blue",
+title: "Superheroes Soft Play Bouncy Castle Juniors Package Green Light Blue",
 img: "/newProducts/superheroes soft play bouncy castle juniors package green light blue.png",
 images: [
 "/newProducts/superheroes soft play bouncy castle juniors package green light blue!!!.png",
@@ -2931,7 +2931,7 @@ whyChoose: "Choose funrides for trained delivery and setup at your chosen home o
 {
 price: 195,
 s1:'s43',
-title: "Superheroes Soft Play Bouncy Castle Juniors Package Red / Blue",
+title: "Superheroes Soft Play Bouncy Castle Juniors Package Red Blue",
 img: "/newProducts/superheroes soft play bouncy castle juniors package red blue.png",
 images: [
 "/newProducts/superheroes soft play bouncy castle juniors package red blue1.png",
@@ -3001,7 +3001,7 @@ whyChoose: "Choose funrides for trained delivery and setup at your chosen home o
 {
 price: 245,
 s1:'s44',
-title: "Superheroes Soft Play Bouncy Castle Package Red / Blue",
+title: "Superheroes Soft Play Bouncy Castle Package Red Blue",
 img: "/newProducts/superheroes soft play bouncy castle package red blue.png",
 images: [
 "/newProducts/superheroes soft play bouncy castle package red blue1.png",
@@ -3069,7 +3069,7 @@ whyChoose: "Choose funrides for trained delivery and setup at your chosen home o
 {
 price: 195,
 s1:'s45',
-title: "Bouncy Castle Pink / Purple",
+title: "Bouncy Castle Pink Purple",
 img: "/newProducts/unicorn juniors slide bouncy castle pink purple.png",
 images: [
 "/newProducts/unicorn juniors slide bouncy castle pink purple1.png",
@@ -3120,7 +3120,7 @@ whyChoose: "Choose funrides for trained delivery and setup at your chosen home o
 {
 price: 195,
 s1:'s46',
-title: "Unicorn Soft Play Bouncy Castle Juniors Package Pink / Purple",
+title: "Unicorn Soft Play Bouncy Castle Juniors Package Pink Purple",
 img: "/newProducts/unicorn soft play bouncy castle juniors package pink purple.png",
 images: [
 "/newProducts/unicorn soft play bouncy castle juniors package pink purple1.png",
@@ -3179,7 +3179,7 @@ whyChoose: "Choose funrides for trained delivery and setup at your chosen home o
 {
 price: 245,
 s1:'s47',
-title: "Unicorn Soft Play Bouncy Castle Package Pink / Purple",
+title: "Unicorn Soft Play Bouncy Castle Package Pink Purple",
 img: "/newProducts/unicorn soft play bouncy castle package pink purple.png",
 images: [
 "/newProducts/unicorn soft play bouncy castle package pink purple1.png",
@@ -3240,13 +3240,13 @@ fee: 50
 {
 price: 295,
 s1:'s48',
-title: "Unicorn Soft Play + Slide + Bouncy Castle Pink / Purple",
+title: "Unicorn Soft Play Slide Bouncy Castle Pink Purple",
 img: "/newProducts/unicorn soft play slide bouncy castle pink purple.png",
 images: [
 "/newProducts/unicorn soft play slide bouncy castle pink purple1.png",
 
 ],
-description: `Introducing the Unicorn Soft Play + Slide + Bouncy Castle Package in Pink and Purple! Perfect for birthday celebrations, this mystical themed package includes a 9x11ft Unicorn Bouncy Castle, a 12ft x 12ft Mini Pink Purple Slide, a foam ball pool, 17 pieces of soft play, and a matching 9 mat setup. It's ideal for both indoor and outdoor events, allowing your little ones to celebrate their special day in style!`,
+description: `Introducing the Unicorn Soft Play Slide Bouncy Castle Package in Pink and Purple! Perfect for birthday celebrations, this mystical themed package includes a 9x11ft Unicorn Bouncy Castle, a 12ft x 12ft Mini Pink Purple Slide, a foam ball pool, 17 pieces of soft play, and a matching 9 mat setup. It's ideal for both indoor and outdoor events, allowing your little ones to celebrate their special day in style!`,
 safetyHygiene: "Safety and Hygiene are paramount at funrides! All inflatables, soft play, ball pools, and mats come fully sanitized for every use.",
 additionalActivities: [
 {
@@ -3376,7 +3376,7 @@ fee: 50
 {
 price: 195,
 s1:'s71',
-title: "Juniors Slide + Bouncy Castle Green / Light Blue",
+title: "Juniors Slide Bouncy Castle Green Light Blue",
 description: "This package includes a Green and Light Blue themed Juniors Inflatable Slide and a Toddlers Bouncy Castle. Perfect for children’s parties or events, it offers fun for young kids with both a slide and bouncy castle.",
 img: "/glossy/133 juniors slide bouncy castle green light blue.png",
 images: [
@@ -3457,7 +3457,7 @@ fee: 50
 {
 price: 245,
 s1:'s72',
-title: "Soft Play Bouncy Castle Package Green / Light Blue",
+title: "Soft Play Bouncy Castle Package Green Light Blue",
 description: "This funrides package includes a Green and Light Blue Bouncy Castle and a Soft Play set. Ideal for children's parties and events, delivered and set up by our trained team across Leeds, Wakefield, and surrounding areas. Our inflatables and soft play items are sanitized before every use for maximum hygiene and safety.",
 img: "/glossy/152 soft play bouncy castle package green light blue.png",
 images: [
@@ -3632,7 +3632,7 @@ price: 105,
 nextMorningCollectionFee: 50,
 s1: 's74',
 title: "Toddlers Bouncy Castle Green & Light Blue",
-description: "Our under 5's / Toddlers Plain No Theme bouncy castle is an amazing addition to any birthday party or event, a modern gloss to match the funrides gloss finish on all our inflatables. Ideal for all your indoor and outdoor events and special occasions.",
+description: "Our under 5's Toddlers Plain No Theme bouncy castle is an amazing addition to any birthday party or event, a modern gloss to match the funrides gloss finish on all our inflatables. Ideal for all your indoor and outdoor events and special occasions.",
 img: "/glossy/252 toddlers bouncy castle green and light blue.png",
 images: [
 "/glossy/252 toddlers bouncy castle green and light blue.png"
@@ -4052,7 +4052,7 @@ userLimits: [
 price: 245,
 nextMorningCollectionFee: 50,
 s1: "s79",
-title: "Happy Birthday Soft Play Bouncy Castle Package Pink / Purple",
+title: "Happy Birthday Soft Play Bouncy Castle Package Pink Purple",
 description: "The Happy Birthday themed bouncy castle is an amazing addition to any birthday party or event, boasting vibrant pink and purple colors, perfect for celebrations. Ideal for both indoor and outdoor events, this package ensures fun for children with its soft play features. Upgrade to include additional items like foam ball pools!",
 img: "/hbd/189 happy birthday soft play bouncy castle package pink purple.png",
 images: [
@@ -4132,7 +4132,7 @@ userLimits: [
 price: 245,
 nextMorningCollectionFee: 50,
 s1: "s80",
-title: "Happy Birthday Soft Play Bouncy Castle Package Green / Light Blue",
+title: "Happy Birthday Soft Play Bouncy Castle Package Green Light Blue",
 description: "The Happy Birthday themed bouncy castle is an amazing addition to any birthday party or event, boasting vibrant green and light blue colors, perfect for celebrations. Ideal for both indoor and outdoor events, this package ensures fun for children with its soft play features. Upgrade to include additional items like foam ball pools!",
 img: "/hbd/198 happy birthday soft play bouncy castle package green light blue.png",
 images: [
@@ -4216,7 +4216,7 @@ suitableFor: [
 ]
 },
 {
-name: "Ball Pool Plain Green / Light Blue",
+name: "Ball Pool Plain Green Light Blue",
 suitableFor: [
 "Indoor Indoors on Hard Surface",
 "Outdoor Outdoors on Artificial Grass",
@@ -4226,7 +4226,7 @@ suitableFor: [
 ]
 },
 {
-name: "FOAM BALL POOL GREEN / LIGHT BLUE",
+name: "FOAM BALL POOL GREEN LIGHT BLUE",
 suitableFor: [
 "Indoor Indoors on Hard Surface",
 "Outdoor Outdoors on Artificial Grass",
@@ -4236,7 +4236,7 @@ suitableFor: [
 ]
 },
 {
-name: "Soft Play 18pc & 9xMega Mat Set Up Green / Light Blue",
+name: "Soft Play 18pc & 9xMega Mat Set Up Green Light Blue",
 suitableFor: [
 "Indoor Indoors on Hard Surface",
 "Outdoor Outdoors on Artificial Grass",
@@ -4253,7 +4253,7 @@ price: 245,
 nextMorningCollectionFee: 50,
 
 s1: "s81",// Assuming a unique identifier for the item
-title: "Happy Birthday Soft Play Bouncy Castle Package Red / Blue",
+title: "Happy Birthday Soft Play Bouncy Castle Package Red Blue",
 description: "The Happy Birthday themed bouncy castle is a fantastic addition to any birthday party or event, featuring vibrant red and blue colors. Perfect for both indoor and outdoor celebrations, this package guarantees fun for children with its soft play features. Enhance your party by including additional items like foam ball pools!",
 img: "/hbd/199 happy birthday soft play bouncy castle package red blue.png",
 images: [
@@ -4337,7 +4337,7 @@ suitableFor: [
 ]
 },
 {
-name: "Ball Pool Plain Red / Blue",
+name: "Ball Pool Plain Red Blue",
 suitableFor: [
 "Indoor Indoors on Hard Surface",
 "Outdoor Outdoors on Artificial Grass",
@@ -4347,7 +4347,7 @@ suitableFor: [
 ]
 },
 {
-name: "FOAM BALL POOL RED / BLUE",
+name: "FOAM BALL POOL RED BLUE",
 suitableFor: [
 "Indoor Indoors on Hard Surface",
 "Outdoor Outdoors on Artificial Grass",
@@ -4357,7 +4357,7 @@ suitableFor: [
 ]
 },
 {
-name: "Soft Play 18pc & 9xMega Mat Set Up Red / Blue",
+name: "Soft Play 18pc & 9xMega Mat Set Up Red Blue",
 suitableFor: [
 "Indoor Indoors on Hard Surface",
 "Outdoor Outdoors on Artificial Grass",
@@ -4374,7 +4374,7 @@ suitableFor: [
 price: 105,
 s1:'s82',
 title: "Happy Birthday Bouncy Castle Green & Light Blue",
-description: "funrides offers the #1 Google Review Rated bouncy castle hire service for Leeds, Wakefield, and surrounding areas. Our under 5's / Toddlers Happy Birthday themed bouncy castle features vibrant cartoon party artwork finished in a modern gloss, perfect for any birthday event. It can be easily paired with matching toddler slides, ball pools, and soft play for an incredible deluxe package. Safety and hygiene are our top priorities; all inflatables are fully sanitized for every use.",
+description: "funrides offers the #1 Google Review Rated bouncy castle hire service for Leeds, Wakefield, and surrounding areas. Our under 5's Toddlers Happy Birthday themed bouncy castle features vibrant cartoon party artwork finished in a modern gloss, perfect for any birthday event. It can be easily paired with matching toddler slides, ball pools, and soft play for an incredible deluxe package. Safety and hygiene are our top priorities; all inflatables are fully sanitized for every use.",
 img: "/hbd/245 happy birthday bouncy castle green and light blue.png",
 images: [
 "/hbd/245 happy birthday bouncy castle green and light blue.png"
@@ -4551,7 +4551,7 @@ suitability: [
 {
 price: 245,
 s1:'s85',
-title: "Happy Birthday Bounce N' Slide Soft Play Package Pink / Purple",
+title: "Happy Birthday Bounce N Slide Soft Play Package Pink Purple",
 description: "The Happy Birthday Themed Mega Soft Play Package is an amazing setup that will keep all your guests entertained throughout the day! Its pink and purple colors are a fabulous addition to your birthday celebrations. This package includes a 12x16ft Happy Birthday themed bouncy castle with slide, foam ball pool, 17 pieces of soft play, and matching 9 Mega mat setup, making it an incredible package. You can also add our Didi Cars and Hoppers for extra fun!",
 img: "/hbd/happy birthday bounce n slide soft play package pink purple.png",
 images: [
@@ -4627,7 +4627,7 @@ suitability:
 {
 price: 245,
 s1:'s86',
-title: "Happy Birthday Bounce N' Slide Soft Play Package Red / Blue",
+title: "Happy Birthday Bounce N Slide Soft Play Package Red Blue",
 description: "The Happy Birthday Themed Mega Soft Play Package is an amazing setup that will keep all your guests entertained throughout the day! Its red and blue colors are a fabulous addition to your birthday celebrations. This package includes a 12x16ft Happy Birthday themed bouncy castle with slide, foam ball pool, 17 pieces of soft play, and matching 9 Mega mat setup, making it an incredible package. You can also add our Didi Cars and Hoppers for extra fun!",
 img: "/hbd/happy birthday bouncy castle green and light blue.png",
 images: [
@@ -4703,7 +4703,7 @@ suitableFor: [
 }
 ,
 {
-title: "3D Lion Jungle Theme Bounce N' Slide",
+title: "3D Lion Jungle Theme Bounce N Slide",
 price: 175,
 s1:'s87',
 specialOfferPrice: 145,
@@ -4756,7 +4756,7 @@ suitability: [
 }
 ,
 {
-title: "Butterflies Juniors Slide + Bouncy Castle Pink / Purple",
+title: "Butterflies Juniors Slide Bouncy Castle Pink Purple",
 price: 195,
 s1:'s88',
 specialOfferPrice: null,
@@ -4833,7 +4833,7 @@ suitability: [
 }
 ,
 {
-title: "Dinosaurs Juniors Slide + Bouncy Castle Green / Light Blue",
+title: "Dinosaurs Juniors Slide Bouncy Castle Green Light Blue",
 price: 195,
 s1:'s89',
 specialOfferPrice: 50, // Next morning collection for £50
@@ -4898,7 +4898,7 @@ suitability: [
 }
 ,
 {
-title: "Football Juniors Slide + Bouncy Castle Green / Light Blue",
+title: "Football Juniors Slide Bouncy Castle Green Light Blue",
 price: 195,
 s1:'s90',
 specialOfferPrice: 50, // Next morning collection for £50
@@ -4974,7 +4974,7 @@ suitability: [
 },
 
 {
-title: "Jungle Juniors Slide + Bouncy Castle Green / Light Blue",
+title: "Jungle Juniors Slide Bouncy Castle Green Light Blue",
 price: 195,
 s1:'91',
 specialOfferPrice: 50, // Next morning collection for £50
@@ -5968,7 +5968,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
  "overview": [
- "3D Lion Jungle Theme Bounce N' Slide.",
+ "3D Lion Jungle Theme Bounce N Slide.",
  "Contact funrides for more information.",
  "Ideal for children's parties."
  ],
@@ -6064,7 +6064,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
  "overview": [
- "3D Monster Truck Bounce N' Slide.",
+ "3D Monster Truck Bounce N Slide.",
  "Available to hire from November.",
  "Click here for reservations."
  ],
@@ -6148,7 +6148,7 @@ export const products = [
  {
  "title": "75ft Premium Obstacle Assault Course",
  "url": "funrides inflatables/75ft funrides obstacle assault course.html#BodyContent",
- "subtitle": "75ft Any Age Party Time Assault / Obstacle Course",
+ "subtitle": "75ft Any Age Party Time Assault Obstacle Course",
  "image": {
  "alt": "75ft Premium Obstacle Assault Course",
  "url": "b4223acce8933a8f6b9c367520afbdbd" 
@@ -6159,7 +6159,7 @@ export const products = [
  "overview": [
  "Perfect for any occasion, whether it's a birthday party, corporate team building event or just a day of fun with friends.",
  "At 75ft in length, this two part assault course is designed to challenge everyone with a range of obstacles and a slide to finish.",
- "Made from British manufacturers and regularly inspected using the PIPA / RPII scheme to ensure safety."
+ "Made from British manufacturers and regularly inspected using the PIPA RPII scheme to ensure safety."
  ],
  "features": [
  "Includes a range of obstacles and a slide."
@@ -8545,7 +8545,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
  "overview": [
- "The New 2024 Adults / Any Age Premium Bouncy Castle is now available to hire at funrides.",
+ "The New 2024 Adults Any Age Premium Bouncy Castle is now available to hire at funrides.",
  "The Party Time Themed bouncy castle is an amazing addition to any birthday party or event, boasting classic cartoon party time celebrations artwork.",
  "Ideal for all your indoor birthday bouncy castle parties and outdoor events."
  ],
@@ -9311,11 +9311,11 @@ export const products = [
  
  ,
  {
- "title": "Ball Pool Plain Red / Blue",
+ "title": "Ball Pool Plain Red Blue",
  "url": "unisex inflatables/48/ball pool plain red blue.html#BodyContent",
  "subtitle": "Children's Soft Play",
  "image": {
- "alt": "Ball Pool Plain Red / Blue",
+ "alt": "Ball Pool Plain Red Blue",
  "url": "d96e1b0f7bb03ed246755c91037a1ea6"
  },
  "price": "£95",
@@ -9482,11 +9482,11 @@ export const products = [
  
  ,
  {
- "title": "Bounce N' Slide Soft Play Package Pink / Purple",
+ "title": "Bounce N Slide Soft Play Package Pink Purple",
  "url": "Premium_CastleDescriptionOuter",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
- "alt": "Bounce N' Slide Soft Play Package Pink / Purple",
+ "alt": "Bounce N Slide Soft Play Package Pink Purple",
  "url": "16964edf510ee88fc353198a9d0a0dc1"
  },
  "price": "£245",
@@ -9569,11 +9569,11 @@ export const products = [
  
  ,
  {
- "title": "Bounce N' Slide Soft Play Package Red / Blue",
+ "title": "Bounce N Slide Soft Play Package Red Blue",
  "url": "bouncy castle with slide hire wakefield/95/bouncy castle with slide combo red and blue.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
- "alt": "Bounce N' Slide Soft Play Package Red / Blue",
+ "alt": "Bounce N Slide Soft Play Package Red Blue",
  "url": "f4667eff4e18a497719b80d7013a1777"
  },
  "price": "£245",
@@ -10092,11 +10092,11 @@ export const products = [
  
  ,
  {
- "title": "Butterflies Bounce N' Slide Soft Play Package Pink / Purple",
+ "title": "Butterflies Bounce N Slide Soft Play Package Pink Purple",
  "url": "unisex inflatables/310/butterflies bouncy castle with slide pink and purple.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
- "alt": "Butterflies Bounce N' Slide Soft Play Package Pink / Purple",
+ "alt": "Butterflies Bounce N Slide Soft Play Package Pink Purple",
  "url": "741667b46fcb70718241168c170f57c4"
  },
  "price": "£245",
@@ -10437,11 +10437,11 @@ export const products = [
  ]
  },
  {
- "title": "Butterflies Soft Play Bouncy Castle Package Pink / Purple",
+ "title": "Butterflies Soft Play Bouncy Castle Package Pink Purple",
  "url": "unisex inflatables/10/butterflies soft play bouncy castle pink purple.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
- "alt": "Butterflies Soft Play Bouncy Castle Package Pink / Purple",
+ "alt": "Butterflies Soft Play Bouncy Castle Package Pink Purple",
  "url": "9be8b55cecb08f3d27742ed643fd4f2e"
  },
  "price": "£245",
@@ -10522,11 +10522,11 @@ export const products = [
  
  ,
  {
- "title": "Cars Bounce N' Slide Soft Play Package Red / Blue",
+ "title": "Cars Bounce N Slide Soft Play Package Red Blue",
  "url": "bouncy castle with slide hire wakefield/15/cars bouncy castle with slide red and blue.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
- "alt": "Cars Bounce N' Slide Soft Play Package Red / Blue",
+ "alt": "Cars Bounce N Slide Soft Play Package Red Blue",
  "url": "119e50b3f08a9fa1fa52e49655cad503"
  },
  "price": "£245",
@@ -11049,11 +11049,11 @@ export const products = [
 }
 ,
 {
- "title": "Cars Soft Play Bouncy Castle Package Green / Light Blue",
+ "title": "Cars Soft Play Bouncy Castle Package Green Light Blue",
  "url": "unisex inflatables/13/cars bouncy castle green and light blue.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
- "alt": "Cars Soft Play Bouncy Castle Package Green / Light Blue",
+ "alt": "Cars Soft Play Bouncy Castle Package Green Light Blue",
  "url": "7b9b5671f34457f8d9228c50b5e897f4" 
  },
  "price": "£245",
@@ -11133,11 +11133,11 @@ export const products = [
 }
 ,
 {
- "title": "Cars Soft Play Bouncy Castle Package Red / Blue",
+ "title": "Cars Soft Play Bouncy Castle Package Red Blue",
  "url": "unisex inflatables/23/cars soft play bouncy castle package red blue.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
- "alt": "Cars Soft Play Bouncy Castle Package Red / Blue",
+ "alt": "Cars Soft Play Bouncy Castle Package Red Blue",
  "url": "8db0dfa2a8eacd928caec8b749597e84"
  },
  "price": "£245",
@@ -11389,11 +11389,11 @@ export const products = [
 }
 ,
 {
- "title": "Circus Bounce N' Slide Soft Play Package Red / Blue",
+ "title": "Circus Bounce N Slide Soft Play Package Red Blue",
  "url": "bouncy castle with slide hire wakefield/16/circus bouncy castle with slide red and blue.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
- "alt": "Circus Bounce N' Slide Soft Play Package Red / Blue",
+ "alt": "Circus Bounce N Slide Soft Play Package Red Blue",
  "url": "db4a9b0ae2f30f473beec8496dcd9fa7" 
  },
  "price": "£245",
@@ -11830,7 +11830,7 @@ export const products = [
  "description": {
  "overview": [
  "The Circus Themed bouncy castle and matching ball pool are amazing additions to any birthday party or event, boasting classic cartoon circus artwork finished in a modern gloss.",
- "Our funrides circus themed ball pool comes with commercial colour coordinated balls to put the ‘icing on the cake’ for this amazing children’s / toddlers birthday party set up.",
+ "Our funrides circus themed ball pool comes with commercial colour coordinated balls to put the ‘icing on the cake’ for this amazing children’s toddlers birthday party set up.",
  "Ideal for all indoor and outdoor events, this castle can be easily paired with slides, soft play, and matching mat setups to create an incredible package."
  ],
  "features": [
@@ -12050,11 +12050,11 @@ export const products = [
 }
 ,
 {
- "title": "Circus Soft Play + Slide + Bouncy Castle Red / Blue",
+ "title": "Circus Soft Play Slide Bouncy Castle Red Blue",
  "url": "unisex inflatables/48/circus soft play slide bouncy castle red blue.html#BodyContent",
  "subtitle": "Children's 9ft x 11.5ft",
  "image": {
- "alt": "Circus Soft Play + Slide + Bouncy Castle Red / Blue",
+ "alt": "Circus Soft Play + Slide + Bouncy Castle Red Blue",
  "url": "7e2c2eeaf1a2d35d9ce4d72ec81423c8"
  },
  "price": "£295",
@@ -12118,11 +12118,11 @@ export const products = [
  ]
  },
  {
- "title": "Circus Soft Play Bouncy Castle Juniors Package Red / Blue",
+ "title": "Circus Soft Play Bouncy Castle Juniors Package Red Blue",
  "url": "unisex inflatables/131/circus soft play bouncy castle juniors package red blue.html#BodyContent",
  "subtitle": "Children's 9ft x 11ft",
  "image": {
- "alt": "Circus Soft Play Bouncy Castle Juniors Package Red / Blue",
+ "alt": "Circus Soft Play Bouncy Castle Juniors Package Red Blue",
  "url": "26085da2defcd331e165b87270f7bee5" 
  },
  "price": "£195",
@@ -12203,11 +12203,11 @@ export const products = [
  }
 ,
 {
- "title": "Circus Soft Play Bouncy Castle Package Green / Light Blue",
+ "title": "Circus Soft Play Bouncy Castle Package Green Light Blue",
  "url": "unisex inflatables/37/circus bouncy castle green and light blue.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
- "alt": "Circus Soft Play Bouncy Castle Package Green / Light Blue",
+ "alt": "Circus Soft Play Bouncy Castle Package Green Light Blue",
  "url": "fbc2d032c637696938e16e40b9f8caa0"
  },
  "price": "£245",
@@ -12288,11 +12288,11 @@ export const products = [
 }
 ,
 {
- "title": "Circus Soft Play Bouncy Castle Package Red / Blue",
+ "title": "Circus Soft Play Bouncy Castle Package Red Blue",
  "url": "unisex inflatables/48/circus soft play bouncy castle red blue.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
- "alt": "Circus Soft Play Bouncy Castle Package Red / Blue",
+ "alt": "Circus Soft Play Bouncy Castle Package Red Blue",
  "url": "ef57c054adac4a3476359aaa1ca0c031" 
  },
  "price": "£245",
@@ -12371,11 +12371,11 @@ export const products = [
 }
 ,
 {
- "title": "Diggers Bounce N' Slide Soft Play Package Red / Blue",
+ "title": "Diggers Bounce N Slide Soft Play Package Red Blue",
  "url": "bouncy castle with slide hire wakefield/82/diggers bouncy castle with slide red and blue.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
- "alt": "Diggers Bounce N' Slide Soft Play Package Red / Blue",
+ "alt": "Diggers Bounce N Slide Soft Play Package Red Blue",
  "url": "76936524ec484e0b105c30d20424d60a"
  },
  "price": "£245",
@@ -12642,7 +12642,7 @@ export const products = [
  "description": {
  "overview": [
  "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
- "Our under 5's / Toddlers Diggers Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork finished in a modern gloss.",
+ "Our under 5's Toddlers Diggers Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork finished in a modern gloss.",
  "Ideal for all your indoor and outdoor events, this castle can be paired with matching toddlers slides, ball pools, soft play, and matching mat set up to make an incredible funrides deluxe package."
  ],
  "features": []
@@ -12809,7 +12809,7 @@ export const products = [
  "description": {
  "overview": [
  "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
- "Our under 5's / Toddlers Diggers Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork which is finished in a modern gloss.",
+ "Our under 5's Toddlers Diggers Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork which is finished in a modern gloss.",
  "The Diggers Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions."
  ],
  "features": []
@@ -12965,11 +12965,11 @@ export const products = [
  ]
 },
  {
- "title": "Dinosaurs Soft Play Bouncy Castle Juniors Package Green / Light Blue",
+ "title": "Dinosaurs Soft Play Bouncy Castle Juniors Package Green Light Blue",
  "url": "category/under 5s toddler bouncy castles/243/dinosaurs bouncy castle green and light blue.html#BodyContent",
- "subtitle": "Under 5's / Toddler 9ft x 11.5ft",
+ "subtitle": "Under 5's Toddler 9ft x 11.5ft",
  "image": {
- "alt": "Dinosaurs Soft Play Bouncy Castle Juniors Package Green / Light Blue",
+ "alt": "Dinosaurs Soft Play Bouncy Castle Juniors Package Green Light Blue",
  "url": "556875dd7d075bd55e259c508bca8648" 
  },
  "price": "£195",
@@ -13034,11 +13034,11 @@ export const products = [
  ]
  },
  {
- "title": "Dinosaurs Soft Play Bouncy Castle Juniors Package Red / Blue",
+ "title": "Dinosaurs Soft Play Bouncy Castle Juniors Package Red Blue",
  "url": "unisex inflatables/dinosaurs soft play bouncy castle red and blue.html#BodyContent",
  "subtitle": "Children's 9ft x 11.5ft",
  "image": {
- "alt": "Dinosaurs Soft Play Bouncy Castle Juniors Package Red / Blue",
+ "alt": "Dinosaurs Soft Play Bouncy Castle Juniors Package Red Blue",
  "url": "5c7f5f97e32ad0fbaf8f89d85a0b4a46"
  },
  "price": "£195",
@@ -13119,11 +13119,11 @@ export const products = [
  }
 ,
 {
- "title": "Dinosaurs Soft Play Bouncy Castle Package Green / Light Blue",
+ "title": "Dinosaurs Soft Play Bouncy Castle Package Green Light Blue",
  "url": "category/unisex inflatables/14/dinosaurs bouncy castle green and light blue.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
- "alt": "Dinosaurs Soft Play Bouncy Castle Package Green / Light Blue",
+ "alt": "Dinosaurs Soft Play Bouncy Castle Package Green Light Blue",
  "url": "28f039bfe1fad33f8be17b18a6e773e6" 
  },
  "price": "£245",
@@ -13204,11 +13204,11 @@ export const products = [
 }
 ,
 {
- "title": "Dinosaurs Soft Play Bouncy Castle Package Red / Blue",
+ "title": "Dinosaurs Soft Play Bouncy Castle Package Red Blue",
  "url": "category/boys collection/43/dinosaurs bouncy castle red and blue.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
- "alt": "Dinosaurs Soft Play Bouncy Castle Package Red / Blue",
+ "alt": "Dinosaurs Soft Play Bouncy Castle Package Red Blue",
  "url": "c6789ee82d6e3ffd0584f66d79d292f2"
  },
  "price": "£245",
@@ -13375,11 +13375,11 @@ export const products = [
  ]
 },
  {
- "title": "Dinosaurs Bounce N' Slide Soft Play Package Red / Blue",
+ "title": "Dinosaurs Bounce N Slide Soft Play Package Red Blue",
  "url": "bouncy castle with slide hire wakefield/83/dinosaurs bouncy castle with slide red and blue.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
- "alt": "Dinosaurs Bounce N' Slide Soft Play Package Red / Blue",
+ "alt": "Dinosaurs Bounce N Slide Soft Play Package Red Blue",
  "url": "5c7f5f97e32ad0fbaf8f89d85a0b4a46" 
  },
  "price": "£245",
@@ -13794,7 +13794,7 @@ export const products = [
  "overview": [
  "funrides your local bouncy castle hire near you. #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
  "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
- "Our under 5's / Toddlers Dinosaurs Themed bouncy castle is a amazing addition to any birthday party or event."
+ "Our under 5's Toddlers Dinosaurs Themed bouncy castle is a amazing addition to any birthday party or event."
  ],
  "features": [
  "The Dinosaurs Themed bouncy castle is Ideal for all your indoor and outdoor events and special occasions."
@@ -13949,11 +13949,11 @@ export const products = [
 }
 ,
 {
- "title": "Dinosaurs Juniors Slide + Bouncy Castle Green / Light Blue",
+ "title": "Dinosaurs Juniors Slide Bouncy Castle Green Light Blue",
  "url": "unisex inflatables/48/dinosaurs juniors slide bouncy castle green and light blue.html#BodyContent",
- "subtitle": "Children's 9ft x 11.5ft / 12ft x 12ft",
+ "subtitle": "Children's 9ft x 11.5ft 12ft x 12ft",
  "image": {
- "alt": "Dinosaurs Juniors Slide + Bouncy Castle Green / Light Blue",
+ "alt": "Dinosaurs Juniors Slide + Bouncy Castle Green Light Blue",
  "url": "b818c1e79345c304f04b27442062153c"
  },
  "price": "£195",
@@ -13972,14 +13972,14 @@ export const products = [
  },
  "size": {
  "unit_size": {
- "width": "9ft / 12ft",
- "length": "11.5ft / 12ft",
- "height": "8ft / 8ft"
+ "width": "9ft 12ft",
+ "length": "11.5ft 12ft",
+ "height": "8ft 8ft"
  },
  "required_space": {
- "width": "12ft / 21ft",
- "length": "17ft / 15ft",
- "height": "8.5ft / 10ft"
+ "width": "12ft 21ft",
+ "length": "17ft 15ft",
+ "height": "8.5ft 10ft"
  }
  },
  "suitability": {
@@ -14039,11 +14039,11 @@ export const products = [
 }
 ,
 {
- "title": "Dinosaurs Soft Play + Slide + Bouncy Castle Green / Light Blue",
+ "title": "Dinosaurs Soft Play Slide Bouncy Castle Green Light Blue",
  "url": "unisex inflatables/114/dinosaurs soft play bouncy castle juniors package green light blue.html#BodyContent",
  "subtitle": "Children's 9ft x 11.5ft",
  "image": {
- "alt": "Dinosaurs Soft Play + Slide + Bouncy Castle Green / Light Blue",
+ "alt": "Dinosaurs Soft Play + Slide + Bouncy Castle Green Light Blue",
  "url": "760394ede1bf7ec9524b59cffd374a5d"
  },
  "price": "£295",
@@ -14121,11 +14121,11 @@ export const products = [
  ]
 },
  {
- "title": "Football Bounce N' Slide Soft Play Package Red / Blue",
+ "title": "Football Bounce N Slide Soft Play Package Red Blue",
  "url": "unisex inflatables/football bounce n slide soft play package red blue.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
- "alt": "Football Bounce N' Slide Soft Play Package Red / Blue",
+ "alt": "Football Bounce N Slide Soft Play Package Red Blue",
  "url": "aacf6e29c64ed666a7c0b37e911771c1"
  },
  "price": "£245",
@@ -14218,7 +14218,7 @@ export const products = [
  "description": {
  "overview": [
  "funrides your local bouncy castle hire near you.",
- "Our under 5's / Toddlers Football Themed bouncy castle is an amazing addition to any birthday party or event.",
+ "Our under 5's Toddlers Football Themed bouncy castle is an amazing addition to any birthday party or event.",
  "Ideal for all indoor and outdoor events and special occasions."
  ],
  "features": [
@@ -14554,7 +14554,7 @@ export const products = [
  "description": {
  "overview": [
  "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
- "Our under 5's / Toddlers Football Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork finished in a modern gloss.",
+ "Our under 5's Toddlers Football Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork finished in a modern gloss.",
  "Ideal for all your indoor and outdoor events, this castle can be easily paired with matching toddlers slides, ball pools, soft play, and matching mat setup to create an incredible funrides deluxe package."
  ],
  "features": [
@@ -14712,11 +14712,11 @@ export const products = [
 }
 ,
 {
- "title": "Football Juniors Slide + Bouncy Castle Green / Light Blue",
+ "title": "Football Juniors Slide Bouncy Castle Green Light Blue",
  "url": "unisex inflatables/football juniors slide bouncy castle green light blue.html#BodyContent",
  "subtitle": "Children's 9ft x 11.5ft",
  "image": {
- "alt": "Football Juniors Slide + Bouncy Castle Green / Light Blue",
+ "alt": "Football Juniors Slide + Bouncy Castle Green Light Blue",
  "url": "0553b05f35d82fba6bab7e2e1817b2e2"
  },
  "price": "£195",
@@ -14865,11 +14865,11 @@ export const products = [
 }
 ,
 {
- "title": "Football Soft Play Bouncy Castle Package Green / Light Blue",
+ "title": "Football Soft Play Bouncy Castle Package Green Light Blue",
  "url": "unisex inflatables/football soft play bouncy castle green light blue.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
- "alt": "Football Soft Play Bouncy Castle Package Green / Light Blue",
+ "alt": "Football Soft Play Bouncy Castle Package Green Light Blue",
  "url": "4cf53a59e53c1b39d5de0f866bae0afd"
  },
  "price": "£245",
@@ -14950,11 +14950,11 @@ export const products = [
 }
 ,
 {
- "title": "Football Soft Play Bouncy Castle Package Red / Blue",
+ "title": "Football Soft Play Bouncy Castle Package Red Blue",
  "url": "unisex inflatables/football soft play bouncy castle red blue.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
- "alt": "Football Soft Play Bouncy Castle Package Red / Blue",
+ "alt": "Football Soft Play Bouncy Castle Package Red Blue",
  "url": "4cf53a59e53c1b39d5de0f866bae0afd"
  },
  "price": "£245",
@@ -15434,7 +15434,7 @@ export const products = [
  "overview": [
  "funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
  "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
- "Our under 5's / Toddlers Plain No Theme bouncy castle is an amazing addition to any birthday party or event."
+ "Our under 5's Toddlers Plain No Theme bouncy castle is an amazing addition to any birthday party or event."
  ],
  "features": [
  "Ideal for all your indoor and outdoor events and special occasions."
@@ -15516,9 +15516,9 @@ export const products = [
  "overnight_collection_price": "N/A",
  "description": {
  "overview": [
- "Welcome to The Ultimate funrides showdown with our Gladiator Duel Rock N' Roller!",
+ "Welcome to The Ultimate funrides showdown with our Gladiator Duel Rock N Roller!",
  "Elevate your events to extraordinary heights with our funrides, designed for corporate events, team building, and family fun days.",
- "Dive into a world of excitement with our Gladiator Duel Rock N' Roller."
+ "Dive into a world of excitement with our Gladiator Duel Rock N Roller."
  ],
  "features": [
  "New fully sanitised 2024 funrides & accessories.",
@@ -15592,11 +15592,11 @@ export const products = [
 }
 ,
 {
- "title": "Happy Birthday Bounce N' Slide Soft Play Package Pink / Purple",
+ "title": "Happy Birthday Bounce N Slide Soft Play Package Pink Purple",
  "url": "funrides inflatables/happy birthday bounce n slide soft play package pink purple.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
- "alt": "Happy Birthday Bounce N' Slide Soft Play Package Pink / Purple",
+ "alt": "Happy Birthday Bounce N Slide Soft Play Package Pink Purple",
  "url": "c1265eaeafd592f43eca72467431e54d" 
  },
  "price": "£245",
@@ -15659,11 +15659,11 @@ export const products = [
 }
 ,
 {
- "title": "Happy Birthday Bounce N' Slide Soft Play Package Red / Blue",
+ "title": "Happy Birthday Bounce N Slide Soft Play Package Red Blue",
  "url": "funrides inflatables/happy birthday bounce n slide soft play package red blue.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
- "alt": "Happy Birthday Bounce N' Slide Soft Play Package Red / Blue",
+ "alt": "Happy Birthday Bounce N Slide Soft Play Package Red Blue",
  "url": "f9faa7279cb710d2b1e3d011350c87d0"
  },
  "price": "£245",
@@ -15753,7 +15753,7 @@ export const products = [
  "overnight_collection_price": null,
  "description": {
  "overview": [
- "Our under 5's / Toddlers Happy Birthday Themed bouncy castle is an amazing addition to any birthday party or event, boasting classic cartoon party time artwork finished in a modern gloss.",
+ "Our under 5's Toddlers Happy Birthday Themed bouncy castle is an amazing addition to any birthday party or event, boasting classic cartoon party time artwork finished in a modern gloss.",
  "Ideal for all your indoor and outdoor events and special occasions. This castle can be easily paired with matching toddlers slides, ball pools, soft play, and matching mat setups."
  ],
  "features": []
@@ -15986,7 +15986,7 @@ export const products = [
  "description": {
  "overview": [
  "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
- "Our under 5's / Toddlers Happy Birthday Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork which is finished in a modern gloss.",
+ "Our under 5's Toddlers Happy Birthday Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork which is finished in a modern gloss.",
  "The Happy Birthday Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions."
  ],
  "features": [
@@ -16406,11 +16406,11 @@ export const products = [
 }
 ,
 {
- "title": "Happy Birthday Soft Play Bouncy Castle Package Green / Light Blue",
+ "title": "Happy Birthday Soft Play Bouncy Castle Package Green Light Blue",
  "url": "unisex inflatables/40/happy birthday soft play bouncy castle package green light blue.html#BodyContent",
  "subtitle": "Children's 15ft x 12ft",
  "image": {
- "alt": "Happy Birthday Soft Play Bouncy Castle Package Green / Light Blue",
+ "alt": "Happy Birthday Soft Play Bouncy Castle Package Green Light Blue",
  "url": "9977f01e9ae12eb7bf8417d326f6c80c"
  },
  "price": "£245",
@@ -16463,11 +16463,11 @@ export const products = [
  "locations_available": []
 }
 ,{
- "title": "Happy Birthday Soft Play Bouncy Castle Package Pink / Purple",
+ "title": "Happy Birthday Soft Play Bouncy Castle Package Pink Purple",
  "url": "unisex inflatables/your url here.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
- "alt": "Happy Birthday Soft Play Bouncy Castle Package Pink / Purple",
+ "alt": "Happy Birthday Soft Play Bouncy Castle Package Pink Purple",
  "url": "f7cd4480b3b05e179e7a1de4cf58c20f"
  },
  "price": "£245",
@@ -16868,11 +16868,11 @@ export const products = [
 }
 ,
 {
- "title": "Jungle Bounce N' Slide Soft Play Package Red / Blue",
+ "title": "Jungle Bounce N Slide Soft Play Package Red Blue",
  "url": "category/bouncy castle with slide hire wakefield/20/jungle bouncy castle with slide red and blue.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
- "alt": "Jungle Bounce N' Slide Soft Play Package Red / Blue",
+ "alt": "Jungle Bounce N Slide Soft Play Package Red Blue",
  "url": "ea0f06d5aeef6465a0f11c4032993df3" 
  },
  "price": "£245",
@@ -16965,7 +16965,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
  "overview": [
- "Our under 5's / Toddlers Jungle Themed bouncy castle is an amazing addition to any birthday party or event.",
+ "Our under 5's Toddlers Jungle Themed bouncy castle is an amazing addition to any birthday party or event.",
  "Boasting classic cartoon party time artwork finished in a modern gloss.",
  "Ideal for all indoor and outdoor events, this castle can be paired with matching toddlers slides, ball pools, soft play, and matching mat setups."
  ],
@@ -17217,7 +17217,7 @@ export const products = [
  "description": {
  "overview": [
  "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
- "Our under 5's / Toddlers Jungle Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork finished in a modern gloss.",
+ "Our under 5's Toddlers Jungle Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork finished in a modern gloss.",
  "The Jungle Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions."
  ],
  "features": []
@@ -17386,7 +17386,7 @@ export const products = [
  "overview": [
  "funrides your local bouncy castle hire near you.",
  "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
- "Our under 5's / Toddlers Jungle Themed bouncy castle is an amazing addition to any birthday party or event."
+ "Our under 5's Toddlers Jungle Themed bouncy castle is an amazing addition to any birthday party or event."
  ],
  "features": [
  "Ideal for all your indoor and outdoor events and special occasions."
@@ -17630,11 +17630,11 @@ export const products = [
 }
 ,
 {
- "title": "Dinosaurs Soft Play Bouncy Castle Juniors Package Green / Light Blue",
+ "title": "Dinosaurs Soft Play Bouncy Castle Juniors Package Green Light Blue",
  "url": "category/under 5s toddler bouncy castles/243/dinosaurs bouncy castle green and light blue.html#BodyContent",
- "subtitle": "Under 5's / Toddler 9ft x 11.5ft",
+ "subtitle": "Under 5's Toddler 9ft x 11.5ft",
  "image": {
- "alt": "Dinosaurs Soft Play Bouncy Castle Juniors Package Green / Light Blue",
+ "alt": "Dinosaurs Soft Play Bouncy Castle Juniors Package Green Light Blue",
  "url": "b07218d476ec156ff1d88c22f2236175"
  },
  "price": "£195",
@@ -17699,11 +17699,11 @@ export const products = [
  ]
 },
 {
- "title": "Jungle Soft Play + Slide + Bouncy Castle Green / Light Blue",
+ "title": "Jungle Soft Play Slide Bouncy Castle Green Light Blue",
  "url": "unisex inflatables/jungle soft play bouncy castle green light blue.html#BodyContent",
  "subtitle": "Children's 9ft x 11.5ft",
  "image": {
- "alt": "Jungle Soft Play + Slide + Bouncy Castle Green / Light Blue",
+ "alt": "Jungle Soft Play + Slide + Bouncy Castle Green Light Blue",
  "url": "51d7fd2c39e8f8109478c20028cfde1e"
  },
  "price": "£295",
@@ -17785,11 +17785,11 @@ export const products = [
 }
 ,
 {
- "title": "Jungle Soft Play Bouncy Castle Juniors Package Green / Light Blue",
+ "title": "Jungle Soft Play Bouncy Castle Juniors Package Green Light Blue",
  "url": "jungle soft play bouncy castle juniors package green light blue.html#BodyContent",
  "subtitle": "Children's 9ft x 11ft",
  "image": {
- "alt": "Jungle Soft Play Bouncy Castle Juniors Package Green / Light Blue",
+ "alt": "Jungle Soft Play Bouncy Castle Juniors Package Green Light Blue",
  "url": "9c61806bdf3f0cf776fff1584c968f0b"
  },
  "price": "£195",
@@ -17869,11 +17869,11 @@ export const products = [
 }
 ,
 {
- "title": "Jungle Soft Play Bouncy Castle Package Green / Light Blue",
+ "title": "Jungle Soft Play Bouncy Castle Package Green Light Blue",
  "url": "unisex inflatables/1/jungle bouncy castle green and light blue.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
- "alt": "Jungle Soft Play Bouncy Castle Package Green / Light Blue",
+ "alt": "Jungle Soft Play Bouncy Castle Package Green Light Blue",
  "url": "3044b6efc8592ef17cc850dcad248b7a"
  },
  "price": "£245",
@@ -17953,11 +17953,11 @@ export const products = [
 }
 ,
 {
- "title": "Jungle Soft Play Bouncy Castle Package Red / Blue",
+ "title": "Jungle Soft Play Bouncy Castle Package Red Blue",
  "url": "unisex inflatables/48/jungle soft play bouncy castle red blue.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
- "alt": "Jungle Soft Play Bouncy Castle Package Red / Blue",
+ "alt": "Jungle Soft Play Bouncy Castle Package Red Blue",
  "url": "94e77c3dc121dffba66e9767323b8945"
  },
  "price": "£245",
@@ -18050,7 +18050,7 @@ export const products = [
  "overview": [
  "funrides your local bouncy castle hire near you.",
  "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
- "Our under 5's / Toddlers Plain No Theme bouncy castle is an amazing addition to any birthday party or event."
+ "Our under 5's Toddlers Plain No Theme bouncy castle is an amazing addition to any birthday party or event."
  ],
  "features": [
  "Ideal for all your indoor and outdoor events and special occasions."
@@ -18122,7 +18122,7 @@ export const products = [
 }
 ,
 {
- "title": "Juniors Bouncy Castle + Soft Play + Super Slide",
+ "title": "Juniors Bouncy Castle Soft Play Super Slide",
  "url": "funrides inflatables/juniors bouncy castle soft play super slide.html#BodyContent",
  "subtitle": "Children's 9ft x 11.5ft",
  "image": {
@@ -18133,7 +18133,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
  "overview": [
- "Soft Play Bouncy Castle Juniors Package Green / Light Blue",
+ "Soft Play Bouncy Castle Juniors Package Green Light Blue",
  "Inflatable Bouncy Slide Multicoloured"
  ],
  "features": []
@@ -18200,7 +18200,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
  "overview": [
- "The under 5’s / Toddlers Green and Light Blue 5ft Platform slide is a great addition to any party or event.",
+ "The under 5’s Toddlers Green and Light Blue 5ft Platform slide is a great addition to any party or event.",
  "Our bouncy inflatable slide is finished in a modern gloss to match the funrides gloss finish on all our inflatables.",
  "Ideal for all your indoor or outdoor events and entertainment."
  ],
@@ -18286,7 +18286,7 @@ export const products = [
  "overview": [
  "funrides your local bouncy castle hire near you.",
  "Number 1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
- "The under 5’s / Toddlers Red and Blue 5ft Platform slide is a great addition to any party or event."
+ "The under 5’s Toddlers Red and Blue 5ft Platform slide is a great addition to any party or event."
  ],
  "features": [
  "Ideal for all your indoor or outdoor events and entertainment."
@@ -18359,11 +18359,11 @@ export const products = [
 ,
 
 {
- "title": "Juniors Slide + Bouncy Castle Green / Light Blue",
+ "title": "Juniors Slide Bouncy Castle Green Light Blue",
  "url": "unisex inflatables/juniors slide bouncy castle green light blue.html#BodyContent",
  "subtitle": "Children's 12ft x 12ft",
  "image": {
- "alt": "Juniors Slide + Bouncy Castle Green / Light Blue",
+ "alt": "Juniors Slide + Bouncy Castle Green Light Blue",
  "url": "de4538c8e2e9af9764ebe1631d9799f3"
 },
  "price": "£195",
@@ -18444,11 +18444,11 @@ export const products = [
 }
 ,
 {
- "title": "Juniors Slide + Bouncy Castle Red / Blue",
+ "title": "Juniors Slide Bouncy Castle Red Blue",
  "url": "unisex inflatables/47/juniors slide bouncy castle red and blue.html#BodyContent",
  "subtitle": "Children's 9ft x 11.5ft",
  "image": {
- "alt": "Juniors Slide + Bouncy Castle Red / Blue",
+ "alt": "Juniors Slide + Bouncy Castle Red Blue",
  "url": "ab149844219884a9d8ed9bb1ffdc2533"
 },
  "price": "£195",
@@ -18531,11 +18531,11 @@ export const products = [
  ]
 },
  {
- "title": "Mega pack soft play with Air Juggler & large castle Jungle Green / Light blue",
+ "title": "Mega pack soft play with Air Juggler & large castle Jungle Green Light blue",
  "url": "unisex inflatables/1/jungle bouncy castle green and light blue.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
- "alt": "Mega pack soft play with Air Juggler & large castle Jungle Green / Light blue",
+ "alt": "Mega pack soft play with Air Juggler & large castle Jungle Green Light blue",
  "url": "04e0be965052430c1ce68552b33a8c1a"
  },
  "price": "£245",
@@ -18616,11 +18616,11 @@ export const products = [
  }
 ,
 {
- "title": "Mermaids Bounce N' Slide Soft Play Package Pink / Purple",
+ "title": "Mermaids Bounce N Slide Soft Play Package Pink Purple",
  "url": "funrides inflatables/mermaids bounce n slide soft play package pink purple.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
- "alt": "Mermaids Bounce N' Slide Soft Play Package Pink / Purple",
+ "alt": "Mermaids Bounce N Slide Soft Play Package Pink Purple",
  "url": "5766b70339158ab60721dc97682f0dbb"
 },
  "price": "£245",
@@ -18800,7 +18800,7 @@ export const products = [
  "overview": [
  "funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
  "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
- "Our under 5's / Toddlers Mermaids Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork finished in a modern gloss.",
+ "Our under 5's Toddlers Mermaids Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon party time artwork finished in a modern gloss.",
  "The Mermaids Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions."
  ],
  "features": [
@@ -18958,11 +18958,11 @@ export const products = [
  ]
 },
  {
- "title": "Mermaids Soft Play Bouncy Castle Package Pink / Purple",
+ "title": "Mermaids Soft Play Bouncy Castle Package Pink Purple",
  "url": "unisex inflatables/45/mermaids bouncy castle pink and purple.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
- "alt": "Mermaids Soft Play Bouncy Castle Package Pink / Purple",
+ "alt": "Mermaids Soft Play Bouncy Castle Package Pink Purple",
  "url": "e3e8b61ed7792605726519d4be7d5758"
  },
  "price": "£245",
@@ -19227,7 +19227,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
  "overview": [
- "The Party Time Themed inflatable ball pool is a great addition to any toddler / under 5's party or event, boasting the classic celebrations & balloons artwork.",
+ "The Party Time Themed inflatable ball pool is a great addition to any toddler under 5's party or event, boasting the classic celebrations & balloons artwork.",
  "Ideal for all your indoor or outdoor events and entertainment.",
  "Complete with matching colour coordinated Red/Blue balls."
  ],
@@ -19299,11 +19299,11 @@ export const products = [
 }
 ,
 {
- "title": "Party Time Juniors Slide + Bouncy Castle Green / Light Blue",
+ "title": "Party Time Juniors Slide Bouncy Castle Green Light Blue",
  "url": "unisex inflatables/249/party time juniors slide bouncy castle green light blue.html#BodyContent",
  "subtitle": "Children's 12ft x 12ft",
  "image": {
- "alt": "Party Time Juniors Slide + Bouncy Castle Green / Light Blue",
+ "alt": "Party Time Juniors Slide + Bouncy Castle Green Light Blue",
  "url": "e67b3dbdc16ae8868a221ff394fa27f2"
 },
  "price": "£195",
@@ -19383,11 +19383,11 @@ export const products = [
 }
 ,
 {
- "title": "Party Time Juniors Slide + Bouncy Castle Pink / Purple",
+ "title": "Party Time Juniors Slide Bouncy Castle Pink Purple",
  "url": "unisex inflatables/25/party time juniors slide bouncy castle pink purple.html#BodyContent",
  "subtitle": "Children's 12ft x 12ft",
  "image": {
- "alt": "Party Time Juniors Slide + Bouncy Castle Pink / Purple",
+ "alt": "Party Time Juniors Slide + Bouncy Castle Pink Purple",
  "url": "a02e013e75fb4364dd5dd4ab78aa86c2"
 },
  "price": "£195",
@@ -19469,11 +19469,11 @@ export const products = [
 }
 ,
 {
- "title": "Party Time Juniors Slide + Bouncy Castle Red / Blue",
+ "title": "Party Time Juniors Slide Bouncy Castle Red Blue",
  "url": "unisex inflatables/29/party time juniors slide bouncy castle red blue.html#BodyContent",
  "subtitle": "Children's 12ft x 12ft",
  "image": {
- "alt": "Party Time Juniors Slide + Bouncy Castle Red / Blue",
+ "alt": "Party Time Juniors Slide + Bouncy Castle Red Blue",
  "url": "073889c332e84699e25a665f0a6d88c7"
 },
  "price": "£195",
@@ -19553,11 +19553,11 @@ export const products = [
 }
 ,
 {
- "title": "Party Time Pink Bounce N' Slide Soft Play Package Pink / Purple",
+ "title": "Party Time Pink Bounce N Slide Soft Play Package Pink Purple",
  "url": "category/bouncy castle with slide hire wakefield/92/party time pink bouncy castle with slide pink and purple.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
- "alt": "Party Time Pink Bounce N' Slide Soft Play Package Pink / Purple",
+ "alt": "Party Time Pink Bounce N Slide Soft Play Package Pink Purple",
  "url": "d88fc2a4471836892210208ffdfdf1fd"
 },
  "price": "£245",
@@ -19735,7 +19735,7 @@ export const products = [
  "overview": [
  "funrides, your local bouncy castle hire near you. #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
  "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
- "Our under 5's / Toddlers Party Time Themed bouncy castle is an amazing addition to any birthday party or event, boasting classic cartoon party time artwork."
+ "Our under 5's Toddlers Party Time Themed bouncy castle is an amazing addition to any birthday party or event, boasting classic cartoon party time artwork."
  ],
  "features": [
  "Ideal for all your indoor and outdoor events and special occasions."
@@ -20058,11 +20058,11 @@ export const products = [
 }
 ,
 {
- "title": "Party Time Pink Soft Play + Slide + Bouncy Castle Pink / Purple",
+ "title": "Party Time Pink Soft Play Slide Bouncy Castle Pink Purple",
  "url": "under 5s toddler bouncy castles/25/party time pink bouncy castle pink and purple.html#BodyContent",
  "subtitle": "Children's 9ft x 11.5ft",
  "image": {
- "alt": "Party Time Pink Soft Play + Slide + Bouncy Castle Pink / Purple",
+ "alt": "Party Time Pink Soft Play + Slide + Bouncy Castle Pink Purple",
  "url": "a2fa3f6e8deacbed6494c02c29fe8df8"
 },
  "price": "£295",
@@ -20128,11 +20128,11 @@ export const products = [
  ]
 },
 {
- "title": "Party Time Pink Soft Play Bouncy Castle Package Pink / Purple",
+ "title": "Party Time Pink Soft Play Bouncy Castle Package Pink Purple",
  "url": "unisex inflatables/7/party time pink soft play bouncy castle package pink purple.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
 "image": {
- "alt": "Party Time Pink Soft Play Bouncy Castle Package Pink / Purple",
+ "alt": "Party Time Pink Soft Play Bouncy Castle Package Pink Purple",
  "url": "1731525a07ffa44ee02403044e0e2c99"
  },
  "price": "£245",
@@ -20225,7 +20225,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
  "overview": [
- "Our under 5's / Toddlers Party Time Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon artwork finished in a modern gloss.",
+ "Our under 5's Toddlers Party Time Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon artwork finished in a modern gloss.",
  "Ideal for all your indoor and outdoor events, this castle can be paired with matching toddlers slides, ball pools, soft play, and matching mat setups to create an incredible funrides deluxe package."
  ],
  "features": [
@@ -20308,7 +20308,7 @@ export const products = [
  "description": {
  "overview": [
  "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
- "Our under 5's / Toddlers Party Time Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon artwork which is finished in a modern gloss.",
+ "Our under 5's Toddlers Party Time Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon artwork which is finished in a modern gloss.",
  "The Party Time Themed bouncy castle is ideal for all your indoor and outdoor events and special occasions."
  ],
  "features": []
@@ -20475,7 +20475,7 @@ export const products = [
  "description": {
  "overview": [
  "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
- "Our under 5's / Toddlers Party Time Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon artwork finished in a modern gloss.",
+ "Our under 5's Toddlers Party Time Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon artwork finished in a modern gloss.",
  "Ideal for all your indoor and outdoor events, this castle can be paired with matching toddlers slides, ball pools, soft play, and matching mat setup to create an incredible funrides deluxe package."
  ],
  "features": [
@@ -20721,11 +20721,11 @@ export const products = [
 }
 ,
 {
- "title": "Party Time Red Blue Themed Bouncy Castle Green / Light Blue",
+ "title": "Party Time Red Blue Themed Bouncy Castle Green Light Blue",
  "url": "funrides inflatables/party time red blue themed bouncy castle.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
 "image": {
- "alt": "Party Time Red Blue Themed Bouncy Castle Green / Light Blue",
+ "alt": "Party Time Red Blue Themed Bouncy Castle Green Light Blue",
  "url": "738234423df80fadf88d55b537d0eb0f"
  },
  "price": "£135",
@@ -20808,11 +20808,11 @@ export const products = [
 }
 ,
 {
- "title": "Party Time Soft Play & Ball Pool Red / Blue",
+ "title": "Party Time Soft Play & Ball Pool Red Blue",
  "url": "soft play/party time soft play ball pool red blue.html#BodyContent",
  "subtitle": "Children's Soft Play and Ball Pool",
  "image": {
- "alt": "Party Time Soft Play & Ball Pool Red / Blue",
+ "alt": "Party Time Soft Play & Ball Pool Red Blue",
  "url": "c30da821bae78f9124007168d1427a38"
 },
  "price": "£155",
@@ -20874,11 +20874,11 @@ export const products = [
 }
 ,
 {
- "title": "Party Time Soft Play + Slide + Bouncy Castle Green / Light Blue",
+ "title": "Party Time Soft Play Slide Bouncy Castle Green Light Blue",
  "url": "unisex inflatables/249/party time red blue bouncy castle green and light blue.html#BodyContent",
  "subtitle": "Children's 9ft x 11ft",
  "image": {
- "alt": "Party Time Soft Play + Slide + Bouncy Castle Green / Light Blue",
+ "alt": "Party Time Soft Play + Slide + Bouncy Castle Green Light Blue",
  "url": "7655fca68a4a8c117c4041f5ce85e80e"
 },
  "price": "£295",
@@ -20961,11 +20961,11 @@ export const products = [
 }
 ,
 {
- "title": "Party Time Soft Play + Slide + Bouncy Castle Red / Blue",
+ "title": "Party Time Soft Play Slide Bouncy Castle Red Blue",
  "url": "party time soft play slide bouncy castle red blue.html#BodyContent",
  "subtitle": "Children's Package",
  "image": {
- "alt": "Party Time Soft Play + Slide + Bouncy Castle Red / Blue",
+ "alt": "Party Time Soft Play + Slide + Bouncy Castle Red Blue",
  "url": "fa5f4e79475f8fc7c88da066d7bafcfe"
 },
  "price": "£295",
@@ -21030,11 +21030,11 @@ export const products = [
  ]
 },
 {
- "title": "Party Time Soft Play Bouncy Castle Juniors Package Green / Light Blue",
+ "title": "Party Time Soft Play Bouncy Castle Juniors Package Green Light Blue",
  "url": "category/under 5s toddler bouncy castles/132/diggers bouncy castle red and blue.html#BodyContent",
  "subtitle": "Under 5's Package",
  "image": {
- "alt": "Party Time Soft Play Bouncy Castle Juniors Package Green / Light Blue",
+ "alt": "Party Time Soft Play Bouncy Castle Juniors Package Green Light Blue",
  "url": "efaed210df5bbfd3fd098d734959a9cd"
 },
  "price": "£195",
@@ -21100,11 +21100,11 @@ export const products = [
  ]
 },
 {
- "title": "Party Time Soft Play Bouncy Castle Juniors Package Pink / Purple",
+ "title": "Party Time Soft Play Bouncy Castle Juniors Package Pink Purple",
  "url": "party time soft play bouncy castle juniors package pink purple.html#BodyContent",
  "subtitle": "Children's 9ft x 11.5ft",
  "image": {
- "alt": "Party Time Soft Play Bouncy Castle Juniors Package Pink / Purple",
+ "alt": "Party Time Soft Play Bouncy Castle Juniors Package Pink Purple",
  "url": "5e9ec2ead8031396f72bc2e7b51a1b3b"
 },
  "price": "£195",
@@ -21169,11 +21169,11 @@ export const products = [
  ]
 },
 {
- "title": "Party Time Soft Play Bouncy Castle Juniors Package Red / Blue",
+ "title": "Party Time Soft Play Bouncy Castle Juniors Package Red Blue",
  "url": "category/under 5s toddler bouncy castles/140/party time red blue bouncy castle red and blue.html#BodyContent",
  "subtitle": "Children's 9ft x 11ft",
  "image": {
- "alt": "Party Time Soft Play Bouncy Castle Juniors Package Red / Blue",
+ "alt": "Party Time Soft Play Bouncy Castle Juniors Package Red Blue",
  "url": "dfaec48ed0ae6bc0312ae7719467bbca"
 },
  "price": "£195",
@@ -21259,11 +21259,11 @@ export const products = [
 }
 ,
 {
- "title": "Party Time Soft Play Bouncy Castle Package Green / Light Blue",
+ "title": "Party Time Soft Play Bouncy Castle Package Green Light Blue",
  "url": "unisex inflatables/48/party time soft play bouncy castle green light blue.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
- "alt": "Party Time Soft Play Bouncy Castle Package Green / Light Blue",
+ "alt": "Party Time Soft Play Bouncy Castle Package Green Light Blue",
  "url": "2507f4c92d9be400499f61871a42e67f"
 },
  "price": "£245",
@@ -21346,11 +21346,11 @@ export const products = [
 }
 ,
 {
- "title": "Party Time Soft Play Bouncy Castle Package Red / Blue",
+ "title": "Party Time Soft Play Bouncy Castle Package Red Blue",
  "url": "boys collection/2/party time red blue bouncy castle red and blue.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
 "image": {
- "alt": "Party Time Soft Play Bouncy Castle Package Red / Blue",
+ "alt": "Party Time Soft Play Bouncy Castle Package Red Blue",
  "url": "56c0390c87ccad869f2f14b18a8fccc5"
  },
  "price": "£245",
@@ -21657,11 +21657,11 @@ export const products = [
 // }
 ,
 {
- "title": "Pirates Bounce N' Slide Soft Play Package Red / Blue",
+ "title": "Pirates Bounce N Slide Soft Play Package Red Blue",
  "url": "funrides castle description.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
- "alt": "Pirates Bounce N' Slide Soft Play Package Red / Blue",
+ "alt": "Pirates Bounce N Slide Soft Play Package Red Blue",
  "url": "fd74f1b02dcfb8d7a6d826db4d9a78a8"
 },
  "price": "£245",
@@ -21997,11 +21997,11 @@ export const products = [
 }
 ,
 {
- "title": "Pirates Soft Play Bouncy Castle Package Green / Light Blue",
+ "title": "Pirates Soft Play Bouncy Castle Package Green Light Blue",
  "url": "unisex inflatables/288/pirates bouncy castle green and light blue.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
- "alt": "Pirates Soft Play Bouncy Castle Package Green / Light Blue",
+ "alt": "Pirates Soft Play Bouncy Castle Package Green Light Blue",
  "url": "5af06470283ec4505fc3e8697393b282"
 },
  "price": "£245",
@@ -22082,11 +22082,11 @@ export const products = [
 }
 ,
 {
- "title": "Pirates Soft Play Bouncy Castle Package Red / Blue",
+ "title": "Pirates Soft Play Bouncy Castle Package Red Blue",
  "url": "funrides castles/pirates soft play bouncy castle package red blue.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
- "alt": "Pirates Soft Play Bouncy Castle Package Red / Blue",
+ "alt": "Pirates Soft Play Bouncy Castle Package Red Blue",
  "url": "f7fd95209c74514f890a29bf075fefac"
 },
  "price": "£245",
@@ -22180,7 +22180,7 @@ export const products = [
  "description": {
  "overview": [
  "funrides your number #1 Google Review Rated bouncy castle hirer brings you one of our new purchases and additions to our outstanding funrides 2024 fleet!",
- "Upgrade now to your ultimate funrides entertainment experience BIG Bluetooth speaker that easily pairs with your devices / mobile phones playing your favourite playlists from Spotify/Apple Music/Sound Cloud/You Tube & all your favourite platforms.",
+ "Upgrade now to your ultimate funrides entertainment experience BIG Bluetooth speaker that easily pairs with your devices mobile phones playing your favourite playlists from Spotify/Apple Music/Sound Cloud/You Tube & all your favourite platforms.",
  "Paired with our amazing Revolving Disco Lights bringing your inflatables to life when the sun goes down."
  ],
  "features": [
@@ -22251,11 +22251,11 @@ export const products = [
 }
 ,
 {
- "title": "Premium Jungle Soft Play with Air Juggler Ball pool Green / Light Blue",
+ "title": "Premium Jungle Soft Play with Air Juggler Ball pool Green Light Blue",
  "url": "funrides jungle soft play green light blue.html#BodyContent",
  "subtitle": "Children's Soft Play Package",
  "image": {
- "alt": "Premium Jungle Soft Play with Air Juggler Ball pool Green / Light Blue",
+ "alt": "Premium Jungle Soft Play with Air Juggler Ball pool Green Light Blue",
  "url": "594d759b146b2a8715c27962be10856d"
 },
  "price": "£155",
@@ -22338,11 +22338,11 @@ export const products = [
 }
 ,
 {
- "title": "Princess Bounce N' Slide Soft Play Package Pink / Purple",
+ "title": "Princess Bounce N Slide Soft Play Package Pink Purple",
  "url": "path/to/princess bounce n slide.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
 "image": {
- "alt": "Princess Bounce N' Slide Soft Play Package Pink / Purple",
+ "alt": "Princess Bounce N Slide Soft Play Package Pink Purple",
  "url": "61ef0938d1ddfc1198bab432b354a093"
  },
  "price": "£245",
@@ -22517,7 +22517,7 @@ export const products = [
  "overnight_collection_price": "£50",
  "description": {
  "overview": [
- "Our under 5's / Toddlers Princess Themed bouncy castle is an amazing addition to any birthday party or event.",
+ "Our under 5's Toddlers Princess Themed bouncy castle is an amazing addition to any birthday party or event.",
  "It boasts classic cartoon artwork finished in a modern gloss.",
  "Ideal for all your indoor and outdoor events and special occasions."
  ],
@@ -22683,11 +22683,11 @@ export const products = [
 }
 ,
 {
- "title": "Princess Juniors Slide + Bouncy Castle Pink / Purple",
+ "title": "Princess Juniors Slide Bouncy Castle Pink Purple",
  "url": "unisex inflatables/30/princess juniors slide bouncy castle pink purple.html#BodyContent",
  "subtitle": "Children's 12ft x 12ft",
  "image": {
- "alt": "Princess Juniors Slide + Bouncy Castle Pink / Purple",
+ "alt": "Princess Juniors Slide + Bouncy Castle Pink Purple",
  "url": "942bb5369794b6dc184bab67f5d8db47"
 },
  "price": "£195",
@@ -22769,11 +22769,11 @@ export const products = [
 }
 ,
 {
- "title": "Princess Soft Play + Slide + Bouncy Castle Pink / Purple",
+ "title": "Princess Soft Play Slide Bouncy Castle Pink Purple",
  "url": "princess soft play bouncy castle juniors package pink purple.html",
  "subtitle": "Children's Soft Play Package",
  "image": {
- "alt": "Princess Soft Play + Slide + Bouncy Castle Pink / Purple",
+ "alt": "Princess Soft Play + Slide + Bouncy Castle Pink Purple",
  "url": "9993912870251e845d47f5e91a8ab00c"
 },
  "price": "£295",
@@ -22787,7 +22787,7 @@ export const products = [
  "The Princess Themed Super Size is Ideal for all your indoor and outdoor events and special occasions. This castle is paired with a foam ball pool, soft play, matching 9 mat set up and Slide it makes an incredible package for your little ones to roll play and entertain themselves!"
  ],
  "features": [
- "Princess Soft Play Bouncy Castle Juniors Package Pink / Purple",
+ "Princess Soft Play Bouncy Castle Juniors Package Pink Purple",
  "Juniors Inflatable Bouncy Slide Pink & Purple"
  ]
  },
@@ -22839,11 +22839,11 @@ export const products = [
  ]
 },
 {
- "title": "Princess Soft Play Bouncy Castle Juniors Package Pink / Purple",
+ "title": "Princess Soft Play Bouncy Castle Juniors Package Pink Purple",
  "url": "princess soft play bouncy castle juniors package pink purple.html#BodyContent",
  "subtitle": "Children's 9ft x 11.5ft",
  "image": {
- "alt": "Princess Soft Play Bouncy Castle Juniors Package Pink / Purple",
+ "alt": "Princess Soft Play Bouncy Castle Juniors Package Pink Purple",
  "url": "54cd24f549dbbde932b5450cfe8fa2a6"
 },
  "price": "£195",
@@ -22854,14 +22854,14 @@ export const products = [
  "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
  "The Princess Themed Mega Soft Play Under 5's Package is an amazing addition to any birthday party or celebrations!",
  "All little girls dream of being Princesses, let them play in the Kingdom, make their dreams come true for their Birthday Celebrations.",
- "Our popular Under 5's / Toddlers Princess Themed Pink and Purple bouncy castle measuring 9 x 11 x 8ft(width/length/height) perfect for all your indoor events and special occasions.",
+ "Our popular Under 5's Toddlers Princess Themed Pink and Purple bouncy castle measuring 9 x 11 x 8ft(width/length/height) perfect for all your indoor events and special occasions.",
  "This castle is paired with a low height foam ball pool designed & built for getting toddlers in and out safely, super easy to supervise keeping a eye on them at all times.",
  "18 pieces of soft play and matching 9 Mega mat set up to make an incredible package. Your little ones will be Princess's for the day in this Superb Package!"
  ],
  "features": [
  "Princess Themed Bouncy Castle",
- "Pink / Purple Foam Ball pool",
- "Matching Pink / Purple Soft Play Set + Mega Mat"
+ "Pink Purple Foam Ball pool",
+ "Matching Pink Purple Soft Play Set + Mega Mat"
  ]
  },
  "size": {
@@ -22912,11 +22912,11 @@ export const products = [
  ]
 },
 {
- "title": "Princess Soft Play Bouncy Castle Package Pink / Purple",
+ "title": "Princess Soft Play Bouncy Castle Package Pink Purple",
  "url": "funrides castles/princess soft play bouncy castle package pink purple.html#BodyContent",
  "subtitle": "Children's 12ft x 15ft",
  "image": {
- "alt": "Princess Soft Play Bouncy Castle Package Pink / Purple",
+ "alt": "Princess Soft Play Bouncy Castle Package Pink Purple",
  "url": "79bec50689beb3df3e8ec95eb66d4fc6"
 },
  "price": "£245",
@@ -23049,11 +23049,11 @@ export const products = [
 // }
 ,
 {
- "title": "Sea World Bounce N' Slide Soft Play Package Red / Blue",
+ "title": "Sea World Bounce N Slide Soft Play Package Red Blue",
  "url": "funrides inflatables/sea world bounce n slide soft play package red blue.html#BodyContent",
  "subtitle": "Children's 12ft x 16ft",
  "image": {
- "alt": "Sea World Bounce N' Slide Soft Play Package Red / Blue",
+ "alt": "Sea World Bounce N Slide Soft Play Package Red Blue",
  "url": "3b8a6b5ad91d173c653533f49b7fab42"
 },
  "price": "£245",
@@ -23145,7 +23145,7 @@ export const products = [
  "overview": [
  "funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
  "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
- "Our under 5's / Toddlers Sea World Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon artwork which is finished in a modern gloss.",
+ "Our under 5's Toddlers Sea World Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon artwork which is finished in a modern gloss.",
  "The Sea World bouncy castle is Ideal for all your indoor and outdoor events and special occasions."
  ],
  "features": [
@@ -23403,7 +23403,7 @@ export const products = [
 "description": {
 "overview": [
 "funrides your local bouncy castle hire near you.",
-"Our under 5's / Toddlers Sea World Themed bouncy castle is an amazing addition to any birthday party or event.",
+"Our under 5's Toddlers Sea World Themed bouncy castle is an amazing addition to any birthday party or event.",
 "Ideal for all your indoor and outdoor events and special occasions."
 ],
 "features": [
@@ -23645,11 +23645,11 @@ export const products = [
 }
 ,
 {
-"title": "Sea World Juniors Slide + Bouncy Castle Green / Light Blue",
+"title": "Sea World Juniors Slide Bouncy Castle Green Light Blue",
 "url": "category/under 5s toddler bouncy castles/254/sea world bouncy castle green and light blue.html#BodyContent",
 "subtitle": "Children's 12ft x 12ft",
 "image": {
-"alt": "Sea World Juniors Slide + Bouncy Castle Green / Light Blue",
+"alt": "Sea World Juniors Slide + Bouncy Castle Green Light Blue",
 "url": "2fe6d544e8975b2aed5468a93de9e43d"
 },
 "price": "£195",
@@ -23817,11 +23817,11 @@ export const products = [
 }
 ,
 {
-"title": "Soft Play & Ball Pool Green / Light Blue",
+"title": "Soft Play & Ball Pool Green Light Blue",
 "url": "unisex inflatables/48/soft play and ball pool green and light blue.html#BodyContent",
 "subtitle": "Children's 9ft x Mega Mat",
 "image": {
-"alt": "Soft Play & Ball Pool Green / Light Blue",
+"alt": "Soft Play & Ball Pool Green Light Blue",
 "url": "aaa021d5c88e9e357d4d9b1bc7fd8006"
 },
 "price": "£155",
@@ -23899,11 +23899,11 @@ export const products = [
 }
 ,
 {
-"title": "Soft Play & Ball Pool Pink / Purple",
+"title": "Soft Play & Ball Pool Pink Purple",
 "url": "unisex inflatables/49/soft play and ball pool pink purple.html#BodyContent",
 "subtitle": "Children's Soft Play Collection",
 "image": {
-"alt": "Soft Play & Ball Pool Pink / Purple",
+"alt": "Soft Play & Ball Pool Pink Purple",
 "url": "92151b6746312c13b23dff2811b9f349"
 },
 "price": "£155",
@@ -23962,11 +23962,11 @@ export const products = [
 }
 ,
 {
-"title": "Soft Play + Slide + Bouncy Castle Green / Light Blue",
+"title": "Soft Play Slide Bouncy Castle Green Light Blue",
 "url": "soft play slide bouncy castle green and light blue.html#BodyContent",
 "subtitle": "Children's 9ft x 11.5ft",
 "image": {
-"alt": "Soft Play + Slide + Bouncy Castle Green / Light Blue",
+"alt": "Soft Play + Slide + Bouncy Castle Green Light Blue",
 "url": "a5ae398180289e414a553828d70fa9d6"
 },
 "price": "£295",
@@ -24032,11 +24032,11 @@ export const products = [
 ]
 },
 {
-"title": "Soft Play + Slide + Bouncy Castle Pink / Purple",
+"title": "Soft Play Slide Bouncy Castle Pink Purple",
 "url": "category/under 5s toddler bouncy castles/112/girly pink bouncy castle pink and purple.html#BodyContent",
 "subtitle": "Children's 9ft x 11.5ft",
 "image": {
-"alt": "Soft Play + Slide + Bouncy Castle Pink / Purple",
+"alt": "Soft Play + Slide + Bouncy Castle Pink Purple",
 "url": "ba73598e67ac345815d2a0e03c438db1"
 },
 "price": "£295",
@@ -24045,7 +24045,7 @@ export const products = [
 "overview": [
 "funrides your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
 "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!!",
-"The Plain No Theme Pink / Purple Super size package which includes our amazing Bouncy Castle, Mini Slide, Soft Play + Mega Mat set up and Matching Foam Ball Pool is the ultimate addition to any under 5's, Toddlers Birthday party or event, boasting our amazing pink and purple girly colours which are finished in a modern gloss to match the funrides gloss finish on all our accessories and inflatables."
+"The Plain No Theme Pink Purple Super size package which includes our amazing Bouncy Castle, Mini Slide, Soft Play + Mega Mat set up and Matching Foam Ball Pool is the ultimate addition to any under 5's, Toddlers Birthday party or event, boasting our amazing pink and purple girly colours which are finished in a modern gloss to match the funrides gloss finish on all our accessories and inflatables."
 ],
 "features": [
 "9x11ft Plain Pink/Purple Bouncy Castle",
@@ -24101,11 +24101,11 @@ export const products = [
 ]
 },
 {
-"title": "Soft Play + Slide + Bouncy Castle Red / Blue",
+"title": "Soft Play Slide Bouncy Castle Red Blue",
 "url": "unisex inflatables/48/soft play slide bouncy castle red and blue.html#BodyContent",
 "subtitle": "Children's 9ft x 11.5ft",
 "image": {
-"alt": "Soft Play + Slide + Bouncy Castle Red / Blue",
+"alt": "Soft Play + Slide + Bouncy Castle Red Blue",
 "url": "5faf99c23345319bd513cb35c924dd9e"
 },
 "price": "£295",
@@ -24188,11 +24188,11 @@ export const products = [
 }
 ,
 {
-"title": "Soft Play Bouncy Castle Juniors Package Green / Light Blue",
+"title": "Soft Play Bouncy Castle Juniors Package Green Light Blue",
 "url": "unisex inflatables/48/soft play bouncy castle juniors package green light blue.html#BodyContent",
 "subtitle": "Toddlers Bouncy Castle Green & Light Blue",
 "image": {
-"alt": "Soft Play Bouncy Castle Juniors Package Green / Light Blue",
+"alt": "Soft Play Bouncy Castle Juniors Package Green Light Blue",
 "url": "361008796387a60525ab4dc0b88f0b00"
 },
 "price": "£195",
@@ -24255,11 +24255,11 @@ export const products = [
 }
 ,
 {
-"title": "Soft Play Bouncy Castle Juniors Package Red / Blue",
+"title": "Soft Play Bouncy Castle Juniors Package Red Blue",
 "url": "unisex inflatables/47/soft play bouncy castle juniors package red blue.html#BodyContent",
 "subtitle": "Children's 9ft x 11.5ft",
 "image": {
-"alt": "Soft Play Bouncy Castle Juniors Package Red / Blue",
+"alt": "Soft Play Bouncy Castle Juniors Package Red Blue",
 "url": "8691d44e42f0fb6aee65a7ae9287c1ba"
 },
 "price": "£195",
@@ -24343,11 +24343,11 @@ export const products = [
 }
 ,
 {
-"title": "Soft Play Bouncy Castle Package Green / Light Blue",
+"title": "Soft Play Bouncy Castle Package Green Light Blue",
 "url": "unisex inflatables/48/soft play bouncy castle package green light blue.html#BodyContent",
 "subtitle": "Children's 15ft x 12ft",
 "image": {
-"alt": "Soft Play Bouncy Castle Package Green / Light Blue",
+"alt": "Soft Play Bouncy Castle Package Green Light Blue",
 "url": "41778ccb3a19f0bdf324e68df832e230"
 },
 "price": "£245",
@@ -24427,11 +24427,11 @@ export const products = [
 }
 ,
 {
-"title": "Soft Play Bouncy Castle Package Pink / Purple",
+"title": "Soft Play Bouncy Castle Package Pink Purple",
 "url": "unisex inflatables/funrides castle description.html#BodyContent",
 "subtitle": "Children's 12ft x 15ft",
 "image": {
-"alt": "Soft Play Bouncy Castle Package Pink / Purple",
+"alt": "Soft Play Bouncy Castle Package Pink Purple",
 "url": "cea19b1b0c5ede1519f4a256452c16b3"
 },
 "price": "£245",
@@ -24510,11 +24510,11 @@ export const products = [
 }
 ,
 {
-"title": "Soft Play Bouncy Castle Package Red / Blue",
+"title": "Soft Play Bouncy Castle Package Red Blue",
 "url": "unisex inflatables/48/soft play bouncy castle package red blue.html#BodyContent",
 "subtitle": "Children's 12ft x 15ft",
 "image": {
-"alt": "Soft Play Bouncy Castle Package Red / Blue",
+"alt": "Soft Play Bouncy Castle Package Red Blue",
 "url": "03330b9fcc1288638e10e25f263fe7cd"
 },
 "price": "£245",
@@ -24596,11 +24596,11 @@ export const products = [
 }
 ,
 {
-"title": "Superheroes Bounce N' Slide Soft Play Package Red / Blue",
+"title": "Superheroes Bounce N Slide Soft Play Package Red Blue",
 "url": "category/bouncy castle with slide hire wakefield/18/superheroes bouncy castle with slide red and blue.html#BodyContent",
 "subtitle": "Children's 12ft x 16ft",
 "image": {
-"alt": "Superheroes Bounce N' Slide Soft Play Package Red / Blue",
+"alt": "Superheroes Bounce N Slide Soft Play Package Red Blue",
 "url": "1a9b512837806417f4cef45b54e3091d"
 },
 "price": "£245",
@@ -24692,7 +24692,7 @@ export const products = [
 "overview": [
 "funrides, your local bouncy castle hire near you. Number #1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield.",
 "Delivering you a choice of UK's latest most on trend new purchases and additions to our outstanding Premium 2024 Fleet!",
-"Our under 5's / Toddlers Superheroes Themed bouncy castle is an amazing addition to any birthday party or event, boasting classic cartoon artwork."
+"Our under 5's Toddlers Superheroes Themed bouncy castle is an amazing addition to any birthday party or event, boasting classic cartoon artwork."
 ],
 "features": []
 },
@@ -24925,7 +24925,7 @@ export const products = [
 "overview": [
 "funrides your local bouncy castle hire near you.",
 "#1 Google Review Rated Bouncy Castle Hirer for Leeds and Wakefield and surroundings.",
-"Our under 5's / Toddlers Superheroes Themed bouncy castle is an amazing addition to any birthday party or event, boasting classic cartoon artwork finished in a modern gloss.",
+"Our under 5's Toddlers Superheroes Themed bouncy castle is an amazing addition to any birthday party or event, boasting classic cartoon artwork finished in a modern gloss.",
 "Ideal for all your indoor and outdoor events and special occasions."
 ],
 "features": [
@@ -25085,11 +25085,11 @@ export const products = [
 }
 ,
 {
-"title": "Superheroes Juniors Slide + Bouncy Castle Green / Light Blue",
+"title": "Superheroes Juniors Slide Bouncy Castle Green Light Blue",
 "url": "funrides inflatables/251/superheroes bouncy castle green and light blue.html#BodyContent",
 "subtitle": "Children's 12ft x 12ft",
 "image": {
-"alt": "Superheroes Juniors Slide + Bouncy Castle Green / Light Blue",
+"alt": "Superheroes Juniors Slide + Bouncy Castle Green Light Blue",
 "url": "8342963473b0f7eb608db0114504bb82"
 },
 "price": "£195",
@@ -25169,11 +25169,11 @@ export const products = [
 }
 ,
 {
-"title": "Superheroes Juniors Slide + Bouncy Castle Red / Blue",
+"title": "Superheroes Juniors Slide Bouncy Castle Red Blue",
 "url": "your url here",
 "subtitle": "Children's 12ft x 12ft",
 "image": {
-"alt": "Superheroes Juniors Slide + Bouncy Castle Red / Blue",
+"alt": "Superheroes Juniors Slide + Bouncy Castle Red Blue",
 "url": "9df6de7751111eb9ed551e5cb862c1d5"
 },
 "price": "£195",
@@ -25257,11 +25257,11 @@ export const products = [
 }
 ,
 {
-"title": "Superheroes Soft Play & Ball Pool Red / Blue",
+"title": "Superheroes Soft Play & Ball Pool Red Blue",
 "url": "path/to/product/page.html#BodyContent",
 "subtitle": "Children's Soft Play",
 "image": {
-"alt": "Superheroes Soft Play & Ball Pool Red / Blue",
+"alt": "Superheroes Soft Play & Ball Pool Red Blue",
 "url": "8ee287378cbba89f4129c57541a73e7a"
 },
 "price": "£155",
@@ -25324,11 +25324,11 @@ export const products = [
 }
 ,
 {
-"title": "Superheroes Soft Play + Slide + Bouncy Castle Green / Light Blue",
+"title": "Superheroes Soft Play Slide Bouncy Castle Green Light Blue",
 "url": "category/under 5s toddler bouncy castles/251/superheroes bouncy castle green and light blue.html#BodyContent",
 "subtitle": "Children's 9ft x 11.5ft",
 "image": {
-"alt": "Superheroes Soft Play + Slide + Bouncy Castle Green / Light Blue",
+"alt": "Superheroes Soft Play + Slide + Bouncy Castle Green Light Blue",
 "url": "54ed652c95645cb8ec38c2f0e7b31dd1"
 },
 "price": "£295",
@@ -25394,11 +25394,11 @@ export const products = [
 ]
 },
 {
-"title": "Superheroes Soft Play + Slide + Bouncy Castle Red / Blue",
+"title": "Superheroes Soft Play Slide Bouncy Castle Red Blue",
 "url": "unisex inflatables/48/superheroes soft play slide bouncy castle red blue.html#BodyContent",
 "subtitle": "Children's 12ft x 15ft",
 "image": {
-"alt": "Superheroes Soft Play + Slide + Bouncy Castle Red / Blue",
+"alt": "Superheroes Soft Play + Slide + Bouncy Castle Red Blue",
 "url": "aceb3a038010de0ebed0f545e38f2cbb"
 },
 "price": "£295",
@@ -25477,11 +25477,11 @@ export const products = [
 ]
 },
 {
-"title": "Superheroes Soft Play Bouncy Castle Juniors Package Green / Light Blue",
+"title": "Superheroes Soft Play Bouncy Castle Juniors Package Green Light Blue",
 "url": "category/under 5s toddler bouncy castles/251/superheroes bouncy castle green and light blue.html#BodyContent",
 "subtitle": "Children's 9ft x 11ft",
 "image": {
-"alt": "Superheroes Soft Play Bouncy Castle Juniors Package Green / Light Blue",
+"alt": "Superheroes Soft Play Bouncy Castle Juniors Package Green Light Blue",
 "url": "b5967a0357229c55f09dd9406c058aa9"
 },
 "price": "£195",
@@ -25561,11 +25561,11 @@ export const products = [
 }
 ,
 {
-"title": "Superheroes Soft Play Bouncy Castle Juniors Package Red / Blue",
+"title": "Superheroes Soft Play Bouncy Castle Juniors Package Red Blue",
 "url": "path/to/product", 
 "subtitle": "Children's 9ft x 11.5ft",
 "image": {
-"alt": "Superheroes Soft Play Bouncy Castle Juniors Package Red / Blue",
+"alt": "Superheroes Soft Play Bouncy Castle Juniors Package Red Blue",
 "url": "de3ec100d2fac421984fdb985fbbed4f"
 },
 "price": "£195",
@@ -25646,11 +25646,11 @@ export const products = [
 }
 ,
 {
-"title": "Superheroes Soft Play Bouncy Castle Package Green / Light Blue",
+"title": "Superheroes Soft Play Bouncy Castle Package Green Light Blue",
 "url": "unisex inflatables/34/superheroes bouncy castle green and light blue.html#BodyContent",
 "subtitle": "Children's 12ft x 15ft",
 "image": {
-"alt": "Superheroes Soft Play Bouncy Castle Package Green / Light Blue",
+"alt": "Superheroes Soft Play Bouncy Castle Package Green Light Blue",
 "url": "a9efd741ccd8fe89964b193be875aca3"
 },
 "price": "£245",
@@ -25731,11 +25731,11 @@ export const products = [
 }
 ,
 {
-"title": "Superheroes Soft Play Bouncy Castle Package Red / Blue",
+"title": "Superheroes Soft Play Bouncy Castle Package Red Blue",
 "url": "unisex inflatables/6/superheroes bouncy castle red and blue.html#BodyContent",
 "subtitle": "Children's 12ft x 15ft",
 "image": {
-"alt": "Superheroes Soft Play Bouncy Castle Package Red / Blue",
+"alt": "Superheroes Soft Play Bouncy Castle Package Red Blue",
 "url": "3bd9eb16730cf17afecaeaa4cf793f5b"
 },
 "price": "£245",
@@ -25899,11 +25899,11 @@ export const products = [
 }
 ,
 {
-"title": "Unicorn Bounce N' Slide Soft Play Package Pink / Purple",
+"title": "Unicorn Bounce N Slide Soft Play Package Pink Purple",
 "url": "category/bouncy castle with slide hire wakefield/101/unicorn bouncy castle with slide pink and purple.html#BodyContent",
 "subtitle": "Children's 12ft x 16ft",
 "image": {
-"alt": "Unicorn Bounce N' Slide Soft Play Package Pink / Purple",
+"alt": "Unicorn Bounce N Slide Soft Play Package Pink Purple",
 "url": "c35bdadd94a810fab0c1e08644a45e95"
 },
 "price": "£245",
@@ -26071,7 +26071,7 @@ export const products = [
 "description": {
 "overview": [
 "100% Five Star Reviews Delivering All Promises",
-"Our under 5's / Toddlers Unicorn Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon artwork finished in a modern gloss.",
+"Our under 5's Toddlers Unicorn Themed bouncy castle is an amazing addition to any birthday party or event, boasting the classic cartoon artwork finished in a modern gloss.",
 "Ideal for all your indoor and outdoor events and special occasions."
 ],
 "features": [
@@ -26323,11 +26323,11 @@ export const products = [
 }
 ,
 {
-"title": "Unicorn Juniors Slide + Bouncy Castle Pink / Purple",
+"title": "Unicorn Juniors Slide Bouncy Castle Pink Purple",
 "url": "unisex inflatables/48/unicorn bouncy castle pink and purple.html#BodyContent",
 "subtitle": "Children's 12ft x 12ft",
 "image": {
-"alt": "Unicorn Juniors Slide + Bouncy Castle Pink / Purple",
+"alt": "Unicorn Juniors Slide + Bouncy Castle Pink Purple",
 "url": "0ff7e3792a90a351bb8f2121a911d34e"
 },
 "price": "£195",
@@ -26409,11 +26409,11 @@ export const products = [
 }
 ,
 {
-"title": "Unicorn Soft Play + Slide + Bouncy Castle Pink / Purple",
+"title": "Unicorn Soft Play Slide Bouncy Castle Pink Purple",
 "url": "category/under 5s toddler bouncy castles/22/unicorn bouncy castle pink and purple.html#BodyContent",
 "subtitle": "Children's Package",
 "image": {
-"alt": "Unicorn Soft Play + Slide + Bouncy Castle Pink / Purple",
+"alt": "Unicorn Soft Play Slide Bouncy Castle Pink Purple",
 "url": "782aca3c21cf35ead64bf0adafa2aabc"
 },
 "price": "£295",
@@ -26478,11 +26478,11 @@ export const products = [
 ]
 },
 {
-"title": "Unicorn Soft Play Bouncy Castle Package Pink / Purple",
+"title": "Unicorn Soft Play Bouncy Castle Package Pink Purple",
 "url": "unisex inflatables/unicorn soft play bouncy castle package pink purple.html#BodyContent",
 "subtitle": "Children's 12ft x 15ft",
 "image": {
-"alt": "Unicorn Soft Play Bouncy Castle Package Pink / Purple",
+"alt": "Unicorn Soft Play Bouncy Castle Package Pink Purple",
 "url": "8667a3176fdeec5e43103e4c9aab018d"
 },
 "price": "£245",
