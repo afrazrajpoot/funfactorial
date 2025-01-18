@@ -29,7 +29,7 @@ createPatientRecord = async (req, res, next) => {
 };
 
 
-getPatientRecord = async (req, res) => {
+const getPatientRecord = async (req, res) => {
   try {
       // Get the page number from the query string, default to page 1 if not provided
       const page = parseInt(req.query.page) || 1;
@@ -41,13 +41,14 @@ getPatientRecord = async (req, res) => {
       const skip = (page - 1) * limit;
       
       // First, get the total count of documents
-      const totalDocs = await Patient.countDocuments()
+      const totalDocs = await Patient.countDocuments();
       
       // Calculate total pages
       const totalPages = Math.ceil(totalDocs / limit);
       
-      // Fetch the patient records with pagination
+      // Fetch the patient records with pagination and sort by latest
       const patients = await Patient.find()
+          .sort({ createdAt: -1 }) // Sort by `createdAt` field in descending order (latest first)
           .skip(skip)
           .limit(limit);
       
@@ -65,6 +66,7 @@ getPatientRecord = async (req, res) => {
       res.status(500).json({ message: err.message || 'Server Error' });
   }
 };
+
 
 getPatientRecordById = async (req,res)=>{
     try{

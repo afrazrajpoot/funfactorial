@@ -17,5 +17,5 @@ router.route('/update-patient/:id').put(authMiddleware,updatePatientRecord)
 router.route('/delete-patient/:id').delete(authMiddleware,adminMiddleware, deletePatient)
 
 router.route('/sign-in').post(signIn)
-router.route('/sign-up').post(signUp)
+// router.route('/sign-up').post(signUp)
 module.exports = router;
