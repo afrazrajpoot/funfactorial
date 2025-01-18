@@ -41,7 +41,7 @@ getPatientRecord = async (req, res) => {
       const skip = (page - 1) * limit;
       
       // First, get the total count of documents
-      const totalDocs = await Patient.countDocuments();
+      const totalDocs = await Patient.countDocuments()
       
       // Calculate total pages
       const totalPages = Math.ceil(totalDocs / limit);
