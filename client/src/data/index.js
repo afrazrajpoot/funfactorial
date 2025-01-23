@@ -273,7 +273,7 @@ description: "The 2024 model includes a built in Bluetooth speaker for added ent
 ],
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
 availableLocations: [
@@ -348,7 +348,7 @@ suitability:[
 "Outdoors on Hard Surface"
 ]
 ,
-additionalInformation: `Next morning collection available for £50. Have this bouncy castle delivered and set up by our RPii trained team at your chosen venue across Leeds and Wakefield areas. Contact us at 0113 460 138 or email enquiries@funrides.co.uk.`
+additionalInformation: `Next morning collection available for £50. Have this bouncy castle delivered and set up by our RPii trained team at your chosen venue across Leeds and Wakefield areas. Contact us at 0113 460 138 or email info@funrides.co.uk.`
 }
 
 
@@ -384,7 +384,7 @@ suitability:[
 "Outdoors on Hard Surface"
 ]
 ,
-additionalInformation: `Next morning collection available for £50. For bookings and enquiries, contact us at 0113 460 138 or via email at enquiries@funrides.co.uk. You can also check availability and book online.`
+additionalInformation: `Next morning collection available for £50. For bookings and enquiries, contact us at 0113 460 138 or via email at info@funrides.co.uk. You can also check availability and book online.`
 }
 
 ,
@@ -408,7 +408,7 @@ suitability:['Not Suitable For Adults','Indoors on Hard Surface',
 'Outdoors on Grass',	
 'Outdoors on Hard Surface'],
 
-additionalInformation :"If you'd like to speak with us, call on 0113 460 138 alternatively email us at enquiries@funrides.co.uk or take a look at our contact page You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
+additionalInformation :"If you'd like to speak with us, call on 0113 460 138 alternatively email us at info@funrides.co.uk or take a look at our contact page You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
 users:['Max Users @ 1.0	6',
 'Max Users @ 1.25	5',
 'Max Users @ 1.5	4',
@@ -432,7 +432,7 @@ You can use the contact form or:
 
 Call our office on: 0113 460 1386
 Mobile WhatsApp Text us on: 07482511995
-Email us at: enquiries@funrides.co.uk`,
+Email us at: info@funrides.co.uk`,
 
 size:[' 12ft,16ft,9.5ft',
 '16ft,22ft,10ft','4.9m,6.7m,3.0m','3.7m,4.9m,2.9m'	],
@@ -442,7 +442,7 @@ suitability:['Not Suitable For Adults	','Indoors on Hard Surface',
 'Outdoors on Grass',	
 'Outdoors on Hard Surface'],
 
-additionalInformation :"If you'd like to speak with us, call on 0113 460 138 alternatively email us at enquiries@funrides.co.uk or take a look at our contact page You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
+additionalInformation :"If you'd like to speak with us, call on 0113 460 138 alternatively email us at info@funrides.co.uk or take a look at our contact page You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
 users:['Max Users @ 1.0	6',
 'Max Users @ 1.25	5',
 'Max Users @ 1.5	4',
@@ -467,7 +467,7 @@ funrides. You can use the contact form or:
 
 Call our office on: 0113 460 1386
 Mobile WhatsApp Text us on: 07482511995
-Email us at: enquiries@funrides.co.uk`,
+Email us at: info@funrides.co.uk`,
 
 size:[' 12ft,	15ft	,9.5ft',
 '3.7m	,4.6m	,2.9m'	],
@@ -478,7 +478,7 @@ suitability:['Suitable For',
 'Outdoors on Grass',	
 'Outdoors on Hard Surface'],
 
-additionalInformation :"If you'd like to speak with us, call on 0113 460 138 alternatively email us at enquiries@funrides.co.uk or take a look at our contact page You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
+additionalInformation :"If you'd like to speak with us, call on 0113 460 138 alternatively email us at info@funrides.co.uk or take a look at our contact page You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
 users:['Max Users @ 1.0	6',
 'Max Users @ 1.25	5',
 'Max Users @ 1.5	4',
@@ -521,7 +521,7 @@ suitability: [
 'Outdoors on Grass',
 'Outdoors on Hard Surface'
 ],
-additionalInformation: `Next morning collection available for £50. For bookings and enquiries, contact us at 0113 460 1386 or via email at enquiries@funrides.co.uk. You can also check availability and book online using the 'Check Availability' and 'Book Online' buttons.`
+additionalInformation: `Next morning collection available for £50. For bookings and enquiries, contact us at 0113 460 1386 or via email at info@funrides.co.uk. You can also check availability and book online using the 'Check Availability' and 'Book Online' buttons.`
 }
 ,
 
@@ -560,7 +560,7 @@ suitability: [
 'Outdoors on Hard Surface'
 ],
 
-additionalInformation: `For bookings and enquiries, contact us at 0113 460 1386 or via email at enquiries@funrides.co.uk. You can also check availability and book online using the 'Check Availability' and 'Book Online' buttons.`
+additionalInformation: `For bookings and enquiries, contact us at 0113 460 1386 or via email at info@funrides.co.uk. You can also check availability and book online using the 'Check Availability' and 'Book Online' buttons.`
 }
 
 ,
@@ -599,7 +599,7 @@ suitability: [
 'Outdoors on Grass',
 'Outdoors on Hard Surface'
 ],
-additionalInformation: `For bookings and enquiries, contact us at 0113 460 1386 or via email at enquiries@funrides.co.uk. You can also check availability and book online using the 'Check Availability' and 'Book Online' buttons.`
+additionalInformation: `For bookings and enquiries, contact us at 0113 460 1386 or via email at info@funrides.co.uk. You can also check availability and book online using the 'Check Availability' and 'Book Online' buttons.`
 }
 
 ,
@@ -626,7 +626,7 @@ Foam Ball Pool
 Matching Soft Play
 
 *We do not hire our soft play & foam ball pools for outdoor use. For alternatives, 
-make enquiries on our Contact Page. Call on 0113 460 1386 or email at enquiries@funrides.co.uk.`,
+make enquiries on our Contact Page. Call on 0113 460 1386 or email at info@funrides.co.uk.`,
 // size: ['9ft, 11.5ft, 8ft', '2.7m, 3.5m, 2.4m'],
 suitability: [
 'Suitable For',
@@ -636,7 +636,7 @@ suitability: [
 'Outdoors on Grass',
 'Outdoors on Hard Surface'
 ],
-additionalInformation: "For enquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
+additionalInformation: "For enquiries, call 0113 460 1386 or email info@funrides.co.uk. You can also make a booking online using the 'Check Availability' and 'Book Online' buttons!",
 users: [
 'Max Users @ 1.0 6',
 'Max Users @ 1.25 5',
@@ -689,7 +689,7 @@ suitability: [
 'Outdoors on Grass',
 'Outdoors on Hard Surface'
 ],
-additionalInformation: "For enquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.",
+additionalInformation: "For enquiries, call 0113 460 1386 or email info@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.",
 users: [
 'Max Users @ 1.0 7',
 'Max Users @ 1.25 6',
@@ -746,7 +746,7 @@ suitability: [
 'Suitable for Children',
 'Not Suitable for Adults'
 ],
-additionalInformation: `We do not hire our soft play & foam ball pools for outdoor use. Please make enquiries for alternatives on our Contact Page. For enquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+additionalInformation: `We do not hire our soft play & foam ball pools for outdoor use. Please make enquiries for alternatives on our Contact Page. For enquiries, call 0113 460 1386 or email info@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
 users: [
 
 ],
@@ -793,7 +793,7 @@ suitability: [
  'Suitable for Children',
 'Not Suitable for Adults'
 ],
-additionalInformation: `For enquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+additionalInformation: `For enquiries, call 0113 460 1386 or email info@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
 users: [
  
 ],
@@ -841,7 +841,7 @@ suitability: [
 'Suitable for Children',
 'Not Suitable for Adults'
 ],
-additionalInformation: `For enquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+additionalInformation: `For enquiries, call 0113 460 1386 or email info@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
 users: [
 
 ],
@@ -888,7 +888,7 @@ suitability: [
  'Suitable for Children',
 'Not Suitable for Adults'
 ],
-additionalInformation: `For enquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+additionalInformation: `For enquiries, call 0113 460 1386 or email info@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
 users: [
  
 ],
@@ -943,7 +943,7 @@ suitability: [
 'Suitable for Children',
 'Not Suitable for Adults'
 ],
-additionalInformation: `For inquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+additionalInformation: `For inquiries, call 0113 460 1386 or email info@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
 users: [
 
 ],
@@ -997,7 +997,7 @@ suitability: [
 'Suitable for Children',
 'Not Suitable for Adults'
 ],
-additionalInformation: `Why not add our fun 4x didi cars and 4x animal hoppers to your package? They will definitely keep your little monkeys entertained. For inquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+additionalInformation: `Why not add our fun 4x didi cars and 4x animal hoppers to your package? They will definitely keep your little monkeys entertained. For inquiries, call 0113 460 1386 or email info@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
 users: [
 
 ],
@@ -1047,7 +1047,7 @@ suitability: [
  'Suitable for Children',
 'Not Suitable for Adults'
 ],
-additionalInformation: `Why not add our fun 4x didi cars and 4x animal hoppers to your package? They will definitely keep your little monkeys entertained. For inquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+additionalInformation: `Why not add our fun 4x didi cars and 4x animal hoppers to your package? They will definitely keep your little monkeys entertained. For inquiries, call 0113 460 1386 or email info@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
 users: [
  
 ],
@@ -1101,7 +1101,7 @@ suitability: [
 'Suitable for Children',
 'Not Suitable for Adults'
 ],
-additionalInformation: `Why not add our fun 4x didi cars and 4x animal hoppers to your package? They will definitely keep your little monkeys entertained. For inquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
+additionalInformation: `Why not add our fun 4x didi cars and 4x animal hoppers to your package? They will definitely keep your little monkeys entertained. For inquiries, call 0113 460 1386 or email info@funrides.co.uk. You can also book online using the 'Check Availability' and 'Book Online' buttons.`,
 users: [
 
 ],
@@ -1149,7 +1149,7 @@ suitability: [
  'Suitable for Children',
 'Not Suitable for Adults'
 ],
-additionalInformation: `Why not add our fun 4x Didi cars and animal hoppers to your package? They'll keep the kids entertained throughout your party. For inquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
+additionalInformation: `Why not add our fun 4x Didi cars and animal hoppers to your package? They'll keep the kids entertained throughout your party. For inquiries, call 0113 460 1386 or email info@funrides.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
 users: [
  
 ],
@@ -1197,7 +1197,7 @@ suitability: [
 'Suitable for Children',
 'Not Suitable for Adults'
 ],
-additionalInformation: `Need more for bigger parties? Add our popular 4x Didi Cars, Hoppers, or Giant Connect 4 to keep everyone entertained. For inquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
+additionalInformation: `Need more for bigger parties? Add our popular 4x Didi Cars, Hoppers, or Giant Connect 4 to keep everyone entertained. For inquiries, call 0113 460 1386 or email info@funrides.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
 users: [
 
 ],
@@ -1245,7 +1245,7 @@ suitability: [
  'Suitable for Children',
 'Not Suitable for Adults'
 ],
-additionalInformation: `Add optional extras like 4x Didi Cars and 4x Animal Hoppers to keep the little ones entertained. For inquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
+additionalInformation: `Add optional extras like 4x Didi Cars and 4x Animal Hoppers to keep the little ones entertained. For inquiries, call 0113 460 1386 or email info@funrides.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
 users: [
  
 ],
@@ -1293,7 +1293,7 @@ suitability: [
  'Suitable for Children',
 'Not Suitable for Adults'
 ],
-additionalInformation: `Add optional extras like 4x Didi Cars and 4x Animal Hoppers to keep the little ones entertained. For inquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
+additionalInformation: `Add optional extras like 4x Didi Cars and 4x Animal Hoppers to keep the little ones entertained. For inquiries, call 0113 460 1386 or email info@funrides.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
 users: [
  
 ],
@@ -1958,7 +1958,7 @@ availableLocations: [
 ],
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
 videoLink: "https://youtu.be/EFeBLmetHes",
@@ -1992,7 +1992,7 @@ availableLocations: [
 ],
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
  size:{
@@ -2054,7 +2054,7 @@ suitability: [
 'Suitable for Children',
 'Not Suitable for Adults'
 ],
-additionalInformation: `Consider adding our package of Didi Cars and Hoppers for safe, fun, and easy entertainment. For inquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
+additionalInformation: `Consider adding our package of Didi Cars and Hoppers for safe, fun, and easy entertainment. For inquiries, call 0113 460 1386 or email info@funrides.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
 users: [
 
 ],
@@ -2103,7 +2103,7 @@ suitability: [
 'Suitable for Children',
 'Not Suitable for Adults'
 ],
-additionalInformation: `Add optional extras like a ball pool and soft play sets to enhance your party experience. For inquiries, call 0113 460 1386 or email enquiries@funrides.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
+additionalInformation: `Add optional extras like a ball pool and soft play sets to enhance your party experience. For inquiries, call 0113 460 1386 or email info@funrides.co.uk. Book online using the 'Check Availability' and 'Book Online' buttons.`,
 users: [
 
 ],
@@ -2154,7 +2154,7 @@ availableLocations: [
 ],
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
 // size:['12ft,12ft,9.5ft','3.7m,3.7m,2.9m'],
@@ -2204,7 +2204,7 @@ availableLocations: [
 ],
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
 size:{
@@ -2262,7 +2262,7 @@ availableLocations: [
 ],
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
 size: {
@@ -2329,7 +2329,7 @@ availableLocations: [
 ],
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
 // size:['12ft,12ft,8ft','3.7m,3.7m,2.7m'],
@@ -2395,7 +2395,7 @@ availableLocations: [
 ],
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
  size:{
@@ -2467,7 +2467,7 @@ availableLocations: [
 ],
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
  size:{
@@ -2522,7 +2522,7 @@ availableLocations: [
 ],
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
  size:{
@@ -2570,7 +2570,7 @@ availableLocations: [
 ],
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
 size:{
@@ -2617,7 +2617,7 @@ safetyHygiene: "All inflatables, soft play items, ball pools, and mats are fully
 note: "Soft play and foam ball pools are not available for outdoor use. Please contact us for alternatives.",
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
 availableLocations: [
@@ -2672,7 +2672,7 @@ safetyHygiene: "All inflatables, soft play items, ball pools, and mats are fully
 note: "Soft play and foam ball pools are not available for outdoor use. Please contact us for alternatives.",
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
 availableLocations: [
@@ -2721,7 +2721,7 @@ safetyHygiene: "All inflatables, soft play items, ball pools, and mats are fully
 note: "This soft play and foam ball pool are not suitable for outdoor use. Please contact us for alternatives.",
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
 availableLocations: [
@@ -2773,7 +2773,7 @@ safetyHygiene: "All inflatables, soft play items, ball pools, and mats are fully
 note: "Add ons like Didi Cars and Hoppers are available to enhance the package, providing fun and versatility for both indoor and outdoor use.",
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
 availableLocations: [
@@ -2822,7 +2822,7 @@ safetyHygiene: "All inflatables, soft play items, ball pools, and mats are thoro
 note: "Consider adding Didi Cars and Hoppers to the package, which are versatile and fun for kids, suitable for both indoor and outdoor events.",
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
 availableLocations: [
@@ -2874,7 +2874,7 @@ safetyHygiene: "Safety and Hygiene are the paramount priority at funrides! All o
 note: "Consider adding Didi Cars and Hoppers for extra fun. These safe, easy to use toys are perfect for indoor and outdoor events.",
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
 availableLocations: [
@@ -2948,7 +2948,7 @@ safetyHygiene: "Safety and Hygiene are paramount at funrides! All inflatables, s
 note: "Consider adding our fun 4x Didi Cars and 4x Animal Hoppers to keep your little Superheroes entertained!",
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
 availableLocations: [
@@ -3016,7 +3016,7 @@ safetyHygiene: "Safety and Hygiene are paramount at funrides! All inflatables, s
 note: "Consider adding our fun 4x Didi Cars and 4x Hoppers to keep your little monkeys entertained!",
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
 availableLocations: [
@@ -3082,7 +3082,7 @@ safetyHygiene: "Safety and Hygiene are paramount at funrides! All inflatables, s
 note: "Consider adding our package of Didi Cars and Hoppers to your party for extra fun!",
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
 availableLocations: [
@@ -3142,7 +3142,7 @@ description: "Every child loves the challenge of catching 4x in a row with our G
 ],
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
 availableLocations: [
@@ -3199,7 +3199,7 @@ description: "Add fun Didi cars and animal hoppers to your package to keep the k
 ],
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
 availableLocations: [
@@ -3256,7 +3256,7 @@ description: "Add 4 Didi cars and 4 hoppers to your package for extra fun and en
 ],
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
 availableLocations: [
@@ -3315,7 +3315,7 @@ description: "Upgrade your bouncy castle with disco lights & a big Bluetooth spe
 ],
 contactInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 bookingOnline: true
 },
 availableLocations: [
@@ -3384,7 +3384,7 @@ images: [
 ],
 additionalInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 contactPage: "/contact",
 bookingOnline: true,
 bookingMessage: "You can make a booking online using the 'Check Availability' and 'Book Online' buttons!"
@@ -3469,7 +3469,7 @@ images: [
 ],
 additionalInfo: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 contactPage: "/contact",
 googleReviewsLink: "/google reviews",
 bookingOnline: true,
@@ -3557,7 +3557,7 @@ premiumGuarantees: [
 googleReviewsLink: "/google reviews",
 contactDetails: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 contactPage: "/contact"
 },
 bookingOptions: {
@@ -3648,7 +3648,7 @@ premiumGuarantees: [
 googleReviewsLink: "/google reviews",
 contactDetails: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 contactPage: "/contact"
 },
 bookingOptions: {
@@ -3739,7 +3739,7 @@ premiumGuarantees: [
 googleReviewsLink: "/google reviews",
 contactDetails: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 contactPage: "/contact"
 },
 bookingOptions: {
@@ -3828,7 +3828,7 @@ premiumGuarantees: [
 googleReviewsLink: "/google reviews",
 contactDetails: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 contactPage: "/contact"
 },
 bookingOptions: {
@@ -3910,7 +3910,7 @@ premiumGuarantees: [
 googleReviewsLink: "/google reviews",
 contactDetails: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 contactPage: "/contact"
 },
 bookingOptions: {
@@ -3991,7 +3991,7 @@ premiumGuarantees: [
 googleReviewsLink: "/google reviews",
 contactDetails: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 contactPage: "/contact"
 },
 bookingOptions: {
@@ -4071,7 +4071,7 @@ premiumGuarantees: [
 googleReviewsLink: "/google reviews",
 contactDetails: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 contactPage: "/contact"
 },
 bookingOptions: {
@@ -4150,7 +4150,7 @@ premiumGuarantees: [
 googleReviewsLink: "/google reviews",
 contactDetails: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 contactPage: "/contact"
 },
 bookingOptions: {
@@ -4271,7 +4271,7 @@ premiumGuarantees: [
 googleReviewsLink: "/google reviews",
 contactDetails: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 contactPage: "/contact"
 },
 bookingOptions: {
@@ -4390,7 +4390,7 @@ premiumGuarantees: [
 googleReviewsLink: "/google reviews",
 contactDetails: {
 phone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 contactPage: "/contact"
 },
 bookingOptions: {
@@ -4561,7 +4561,7 @@ additionalInfo: {
 softPlayNote: "We do not hire our soft play & foam ball pools for outdoor use. Please make inquiries for alternatives on our Contact Page.",
 bookingDetails: {
 contactNumber: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 onlineBooking: "Make a booking online using the 'Check Availability' and 'Book Online' buttons."
 }
 },
@@ -4638,7 +4638,7 @@ nextMorningCollection: "Next morning collection available for £50",
 softPlayNote: "We do not hire our soft play & foam ball pools for outdoor use. Please make inquiries for alternatives on our Contact Page.",
 bookingDetails: {
 contactNumber: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 onlineBooking: "Make a booking online using the 'Check Availability' and 'Book Online' buttons."
 }
 },
@@ -4716,7 +4716,7 @@ additionalInfo: {
 contactDetails: {
 officePhone: "0113 460 1386",
 mobileWhatsApp: "07482511995",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 contactForm: "Use the contact form on our website."
 }
 },
@@ -4769,7 +4769,7 @@ additionalInfo: {
 contactDetails: {
 officePhone: "0113 460 1386",
 mobileWhatsApp: "07482511995",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 contactForm: "Use the contact form on our website."
 }
 },
@@ -4845,7 +4845,7 @@ images: [
 additionalInfo: {
 contactDetails: {
 officePhone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 contactForm: "Check out our contact page for more information."
 }
 },
@@ -4910,7 +4910,7 @@ images: [
 additionalInfo: {
 contactDetails: {
 officePhone: "0113 460 1386",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 contactForm: "Check out our contact page for more information."
 }
 },
@@ -4987,7 +4987,7 @@ additionalInfo: {
 contactDetails: {
 officePhone: "0113 460 1386",
 callOrWhatsApp: "07482511995",
-email: "enquiries@funrides.co.uk",
+email: "info@funrides.co.uk",
 contactForm: "Check out our contact page for more information."
 }
 },
@@ -5090,7 +5090,7 @@ export const products = [
  ],
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk"
+ "email": "info@funrides.co.uk"
  },
  "availability": "Available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
  },
@@ -5173,7 +5173,7 @@ export const products = [
 'operator':"Operators only",
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk"
+"email": "info@funrides.co.uk"
 },
 "availability": "Available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
 },
@@ -5234,7 +5234,7 @@ export const products = [
 'operator':"Operators only",
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk"
+"email": "info@funrides.co.uk"
 },
 "availability": "Available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
 },
@@ -5295,7 +5295,7 @@ export const products = [
 'operator':"Operators only",
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk"
+"email": "info@funrides.co.uk"
 },
 "availability": "Available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
 },
@@ -5344,7 +5344,7 @@ export const products = [
 'operator':"Operators only",
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk"
+"email": "info@funrides.co.uk"
 },
 "availability": "Available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
 },
@@ -5404,7 +5404,7 @@ export const products = [
 ],
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk"
+"email": "info@funrides.co.uk"
 },
 "availability": "Available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
 },
@@ -5463,7 +5463,7 @@ export const products = [
 ],
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk"
+"email": "info@funrides.co.uk"
 },
 "availability": "Available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
 },
@@ -5523,7 +5523,7 @@ export const products = [
 ],
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk"
+"email": "info@funrides.co.uk"
 },
 "availability": "Available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
 },
@@ -5583,7 +5583,7 @@ export const products = [
 ],
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk"
+"email": "info@funrides.co.uk"
 },
 "availability": "Available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
 },
@@ -5645,7 +5645,7 @@ export const products = [
 ],
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk"
+"email": "info@funrides.co.uk"
 },
 "availability": "Available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
 },
@@ -5735,7 +5735,7 @@ export const products = [
 ],
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk"
+"email": "info@funrides.co.uk"
 },
 "availability": "Available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
 },
@@ -5803,7 +5803,7 @@ export const products = [
 ],
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk"
+"email": "info@funrides.co.uk"
 },
 "availability": "Available to hire across Leeds, Wakefield, Tingley, Morley, Lofthouse, Rothwell, Methley, Normanton, Featherstone, Pontefract, Castleford, Knottingley, Darrington, Wentbridge, Sherburn in Elmet, Selby & surroundings."
 },
@@ -5939,7 +5939,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -6032,7 +6032,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -6071,7 +6071,7 @@ export const products = [
  "contact_info": {
  "phone": "0113 460 1386",
  "mobile": "07482511995",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html"
  }
  },
@@ -6220,7 +6220,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "07482 511995",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -6303,7 +6303,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -6372,7 +6372,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -6461,7 +6461,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -6547,7 +6547,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -6632,7 +6632,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "path/to/contact funrides inflatables.html"
  },
  "locations_available": [
@@ -6718,7 +6718,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -6804,7 +6804,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -6890,7 +6890,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -6975,7 +6975,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -7061,7 +7061,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386", 
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -7151,7 +7151,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -7238,7 +7238,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -7324,7 +7324,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -7410,7 +7410,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -7496,7 +7496,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -7582,7 +7582,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -7667,7 +7667,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -7752,7 +7752,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -7838,7 +7838,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -7924,7 +7924,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -8010,7 +8010,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -8096,7 +8096,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -8182,7 +8182,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -8267,7 +8267,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -8353,7 +8353,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -8437,7 +8437,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -8523,7 +8523,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -8608,7 +8608,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -8694,7 +8694,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -8781,7 +8781,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -8867,7 +8867,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -8952,7 +8952,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -9038,7 +9038,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -9126,7 +9126,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -9214,7 +9214,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -9299,7 +9299,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -9383,7 +9383,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -9471,7 +9471,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -9556,7 +9556,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -9643,7 +9643,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -9734,7 +9734,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -9819,7 +9819,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -9905,7 +9905,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -9993,7 +9993,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -10082,7 +10082,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -10168,7 +10168,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -10252,7 +10252,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -10339,7 +10339,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -10424,7 +10424,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -10511,7 +10511,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -10596,7 +10596,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -10685,7 +10685,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -10776,7 +10776,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -10866,7 +10866,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -10950,7 +10950,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -11035,7 +11035,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -11123,7 +11123,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -11207,7 +11207,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -11291,7 +11291,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -11378,7 +11378,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -11461,7 +11461,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -11550,7 +11550,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -11636,7 +11636,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -11724,7 +11724,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -11808,7 +11808,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -11892,7 +11892,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -11977,7 +11977,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -12039,7 +12039,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -12110,7 +12110,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -12192,7 +12192,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -12277,7 +12277,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -12362,7 +12362,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -12445,7 +12445,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -12530,7 +12530,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -12616,7 +12616,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -12702,7 +12702,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -12787,7 +12787,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -12869,7 +12869,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -12955,7 +12955,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -13024,7 +13024,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -13108,7 +13108,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -13193,7 +13193,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -13278,7 +13278,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -13365,7 +13365,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -13448,7 +13448,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -13513,7 +13513,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -13598,7 +13598,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -13687,7 +13687,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -13771,7 +13771,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -13855,7 +13855,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -13940,7 +13940,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -14026,7 +14026,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -14113,7 +14113,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -14195,7 +14195,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -14279,7 +14279,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -14364,7 +14364,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -14448,7 +14448,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -14533,7 +14533,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -14616,7 +14616,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -14701,7 +14701,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -14768,7 +14768,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -14854,7 +14854,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -14937,7 +14937,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -15021,7 +15021,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -15087,7 +15087,7 @@ export const products = [
 //},
 //"contact_info": {
 //"phone": "0113 460 1386",
-//"email": "enquiries@funrides.co.uk",
+//"email": "info@funrides.co.uk",
 //"contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
 //},
 //"locations_available": [
@@ -15155,7 +15155,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -15240,7 +15240,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -15325,7 +15325,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -15410,7 +15410,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -15495,7 +15495,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -15581,7 +15581,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -15647,7 +15647,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -15733,7 +15733,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -15795,7 +15795,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -15878,7 +15878,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -15962,7 +15962,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -16048,7 +16048,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -16134,7 +16134,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -16223,7 +16223,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -16308,7 +16308,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -16395,7 +16395,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -16457,7 +16457,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "your phone number here", 
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": []
@@ -16599,7 +16599,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -16686,7 +16686,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -16773,7 +16773,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -16857,7 +16857,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -16943,7 +16943,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -17027,7 +17027,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -17111,7 +17111,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -17194,7 +17194,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -17277,7 +17277,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -17362,7 +17362,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -17447,7 +17447,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -17532,7 +17532,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -17620,7 +17620,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -17689,7 +17689,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -17774,7 +17774,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -17858,7 +17858,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -17942,7 +17942,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -18027,7 +18027,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -18111,7 +18111,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -18175,7 +18175,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -18261,7 +18261,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -18347,7 +18347,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -18432,7 +18432,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -18518,7 +18518,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -18605,7 +18605,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -18690,7 +18690,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -18777,7 +18777,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -18863,7 +18863,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -18948,7 +18948,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -19033,7 +19033,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -19119,7 +19119,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -19205,7 +19205,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -19289,7 +19289,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -19374,7 +19374,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -19458,7 +19458,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -19542,7 +19542,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -19625,7 +19625,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -19708,7 +19708,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -19796,7 +19796,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -19880,7 +19880,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -19963,7 +19963,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -20048,7 +20048,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -20118,7 +20118,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -20203,7 +20203,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -20287,7 +20287,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -20368,7 +20368,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -20454,7 +20454,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -20537,7 +20537,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -20620,7 +20620,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -20705,7 +20705,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -20794,7 +20794,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -20864,7 +20864,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -20950,7 +20950,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -21020,7 +21020,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -21090,7 +21090,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -21159,7 +21159,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -21243,7 +21243,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -21332,7 +21332,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -21420,7 +21420,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -21507,7 +21507,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -21592,7 +21592,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -21648,7 +21648,7 @@ export const products = [
 //},
 //"contact_info": {
 //"phone": "0113 460 1386",
-//"email": "enquiries@funrides.co.uk",
+//"email": "info@funrides.co.uk",
 //"contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
 //},
 //"locations_available": [
@@ -21731,7 +21731,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -21816,7 +21816,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -21900,7 +21900,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -21986,7 +21986,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -22071,7 +22071,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -22157,7 +22157,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -22241,7 +22241,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -22326,7 +22326,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -22412,7 +22412,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -22497,7 +22497,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -22581,7 +22581,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -22672,7 +22672,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -22757,7 +22757,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -22829,7 +22829,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -22902,7 +22902,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -22986,7 +22986,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -23123,7 +23123,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -23206,7 +23206,7 @@ export const products = [
  },
  "contact_info": {
  "phone": "0113 460 1386",
- "email": "enquiries@funrides.co.uk",
+ "email": "info@funrides.co.uk",
  "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
  },
  "locations_available": [
@@ -23294,7 +23294,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "07482511995",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -23379,7 +23379,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -23465,7 +23465,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -23550,7 +23550,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -23634,7 +23634,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -23719,7 +23719,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -23806,7 +23806,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -23890,7 +23890,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -23953,7 +23953,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -24022,7 +24022,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -24092,7 +24092,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -24174,7 +24174,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -24329,7 +24329,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -24417,7 +24417,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -24500,7 +24500,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -24584,7 +24584,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -24670,7 +24670,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -24733,7 +24733,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -24819,7 +24819,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -24903,7 +24903,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -24987,7 +24987,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -25071,7 +25071,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -25158,7 +25158,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -25243,7 +25243,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -25315,7 +25315,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -25384,7 +25384,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -25469,7 +25469,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -25550,7 +25550,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -25635,7 +25635,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -25720,7 +25720,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -25805,7 +25805,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -25888,7 +25888,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -25961,7 +25961,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -26045,7 +26045,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -26134,7 +26134,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -26222,7 +26222,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -26309,7 +26309,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -26398,7 +26398,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -26469,7 +26469,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -26552,7 +26552,7 @@ export const products = [
 },
 "contact_info": {
 "phone": "0113 460 1386",
-"email": "enquiries@funrides.co.uk",
+"email": "info@funrides.co.uk",
 "contact_page": "../../pages/contact funrides inflatables.html#BodyContent"
 },
 "locations_available": [
@@ -26776,7 +26776,7 @@ info: "07815 935423",
 },
 {
 title: "Email us:",
-info: "enquiries@funrides.co.uk",
+info: "info@funrides.co.uk",
 },
 {
 title: "Add us on:",
