@@ -72,7 +72,7 @@ const Blogs = () => {
             max-w-2xl 
             mx-auto
           ">
-            All you want to know about our landlords and tenants
+            All you want to know about our rides and funfare
           </p>
         </div>
 
