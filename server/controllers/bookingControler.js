@@ -2,6 +2,7 @@ const Booking = require("../models/bookingModel");
 const CustomError = require("../error/customClass");
 const sendEmail = require("../utils/sendMail");
 const AdminEmail = require("../utils/AdminEmail");
+const contactMail = require("../utils/contactMail");
 
 exports.createBooking = async (req, res, next) => {
   try {
@@ -335,3 +336,52 @@ exports.checkAvailibility = async (req, res) => {
 };
 
 
+
+const ADMIN_EMAIL = process.env.ADMIN_EMAIL || "info@funrides.co.uk";
+
+exports.contact = async (req, res, next) => {
+  try {
+    const { name, email, phone, message } = req.body;
+
+    // Input validation
+    if (!name || !email || !phone || !message) {
+      return res.status(400).json({
+        success: false,
+        message: "All fields (name, email, phone, message) are required.",
+      });
+    }
+
+    // Prepare template data
+    const templateData = {
+      name,
+      email,
+      phone,
+      message,
+    };
+
+    // Send email to the admin
+    const subject = "New Contact Form Submission";
+    const info = await contactMail(ADMIN_EMAIL, subject, templateData);
+
+    // Respond to the client
+    res.status(200).json({
+      success: true,
+      message: "Your message has been sent successfully.",
+      emailInfo: info, // Optional: Include email info for debugging (remove in production)
+    });
+  } catch (err) {
+    console.error("Error contacting:", err.message);
+
+    // Handle nodemailer-specific errors or rethrow for middleware
+    if (err.response) {
+      return res.status(500).json({
+        success: false,
+        message: "Failed to send the email. Please try again later.",
+        error: err.response,
+      });
+    }
+
+    // Pass other errors to error-handling middleware
+    next(err);
+  }
+};

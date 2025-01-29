@@ -56,8 +56,15 @@ export const storeApi = createApi({
         url: `/api/v1/getProductInfo?title=${title}`,
         method: "GET",
       }),
-    })
+    }),
+    contactUse:builder.mutation({
+      query: (data) => ({
+        url: "/api/v1/contact",
+        method: "POST",
+        body: data,
+      }),
+    }),
   }),
 });
 
-export const { useCreateBookingMutation,useAvalbilityMutation,useGetBookingDetailQuery ,useApprovebookingMutation,useCheckAvailibilityMutation,useRejectbookingMutation,useGetProductIngfoQuery} = storeApi;
+export const { useCreateBookingMutation,useAvalbilityMutation,useGetBookingDetailQuery ,useApprovebookingMutation,useCheckAvailibilityMutation,useRejectbookingMutation,useGetProductIngfoQuery,useContactUseMutation} = storeApi;

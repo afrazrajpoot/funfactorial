@@ -197,7 +197,7 @@ useEffect(()=>{
           />
           <div className="absolute inset-0 bg-green-200 opacity-50"></div>
         </div>
-        <header className="absolute top-0 left-0 w-full h-[30vw] flex items-center justify-center p-[2vw] lg:justify-between lg:p-[4vw]">
+        <header className="absolute top-0 left-0 w-full h-full flex items-center justify-center p-[2vw] lg:justify-between lg:p-[4vw]">
           <motion.section whileHover={{scale:1.1}} className="mt-[-18vw] relative hidden lg:block">
             <Link to="/" className="w-full block">
               <p className="font-genty text-[#f06eaa] text-[6vw] text-center">Fun</p>
@@ -284,7 +284,7 @@ useEffect(()=>{
                 Search
               </Button>
 
-              { admin && <Link to={'/dashboard'} className="bg-[#40327a] text-white lg:p-[1vw] lg:w-[10vw] p-[3vw] text-center rounded-md lg:text-[1vw] text-[4vw]  font-medium w-full  h-[7vh]">Dashboard</Link>}
+              { admin && <Link to="/dashboard" className="bg-[#40327a] text-white lg:p-[1vw] lg:w-[10vw] p-[3vw] text-center rounded-md lg:text-[1vw] text-[4vw]  font-medium w-full  h-[7vh]">Dashboard</Link>}
    
             </form>
           </article>

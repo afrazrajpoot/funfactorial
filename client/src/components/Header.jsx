@@ -35,7 +35,7 @@ const Header = () => {
   const [localSearch, setLocalSearch] = useState("");
 
   // Debounce the search term with a 300ms delay
-  const debouncedSearchTerm = useDebounce(localSearch, 300);
+  const debouncedSearchTerm = useDebounce(localSearch, 1000);
 
   const encryptionKey = import.meta.env.VITE_SECRET_KEY;
   const adminEmail = 'subadmin@gmail.com';

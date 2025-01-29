@@ -14,6 +14,7 @@ import ReadSingleBlog from "./pages/ReadSingleBlog";
 import Dashboard from "./pages/Dashboard";
 import BlogPosts from "./components/dashboardItems/BlogPosts";
 import AddProductInfo from "./components/dashboardItems/AddProductInfo";
+import ContactUs from "./pages/COntactUs";
 
 
 
@@ -56,7 +57,7 @@ const App = () => {
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/about" element={<About />} />
         <Route path="/faqs" element={<Faqs />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact/:product" element={<Contact />} />
         <Route path="/termandcondition" element={<TermAndCondition />} />
         <Route path="/cancellation" element={<Cancellations />} />
         <Route path="/category/news-2024" element={<News2024 />} />
@@ -87,6 +88,8 @@ const App = () => {
         <Route path="/blogs/:keywords" element={<ReadSingleBlog />} />
         <Route path="/add-product-info" element={<AddProductInfo />} />
         <Route path="/dashboard" element={<BlogPosts />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/" element={<Ribbons />} />
       </Routes>
     </Suspense>
   );

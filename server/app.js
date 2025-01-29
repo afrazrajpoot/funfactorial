@@ -5,7 +5,6 @@ const createBooking = require("./route/bookingRoute");
 const userRoute = require("./route/userRoute");
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 const blogRoute = require("./route/blog");
-const patientRoute = require("./route/patientRoute");
 // Middleware
 app.use(cors("*")); // Allow cross-origin requests
 app.use(express.json()); // Parse JSON bodies
@@ -16,7 +15,6 @@ app.use("/api/v1", createBooking);
 app.use( "/api/v1",blogRoute);
 // Error handler
 app.use("/api/v1", userRoute);
-app.use('/api/v1', patientRoute);
 app.use(express.static('public'));
 app.post('/payment-sheet', async (req, res) => {
   try {

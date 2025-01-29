@@ -100,9 +100,9 @@ const Contact = () => {
         })
       );
 
-      // if (!stripe) {
-      //   throw new Error("Stripe is not initialized");
-      // }
+      if (!stripe) {
+        throw new Error("Stripe is not initialized");
+      }
 
       const amount = decryptedData.price;
       const {
@@ -235,7 +235,6 @@ const Contact = () => {
                         render={({ field }) => (
                           <DatePicker
                             {...field}
-                            format="dd/MM/yyyy"
                             label="Start Date"
                             // minDate={addDays(new Date(), 5)}
                             slotProps={{
@@ -259,7 +258,6 @@ const Contact = () => {
                           <DatePicker
                             {...field}
                             label="End Date"
-                            format="dd/MM/yyyy"
                             minDate={startDate ? new Date(startDate) : undefined}
                             slotProps={{
                               textField: {

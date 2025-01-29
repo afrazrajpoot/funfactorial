@@ -25,10 +25,11 @@ const Detail = () => {
   
   // Replace hyphens with spaces in the ID to match the product title
   let id2 = id.replace(/-/g, ' ');
-
+ 
 
   const navigate = useNavigate();
-  const itemData = products.find(product => product?.title?.toLocaleUpperCase() === id2?.toLocaleUpperCase()); // Find the product by title
+  const itemData = products.find(product => product?.title === id2); // Find the product by title
+console.log(itemData, 'itemData');
   const { isLoading: productLoading, isError: productError, data: productData } = useGetProductIngfoQuery(itemData?.title);
 
   const buttons = [
@@ -74,7 +75,8 @@ const Detail = () => {
         id: id,
         image: itemData?.image?.url,
       });
-      navigate(`/contact`);
+      const slugTitle = itemData?.title.replace(/\s+/g, '-');  // Replace spaces with hyphens
+      navigate(`/contact/${slugTitle}`);
     }
   }, [isSuccess, isError, itemData]);
 
@@ -168,15 +170,15 @@ const Detail = () => {
                 )}
   
                 {/* Section 3 */}
-                {productData && productData?.heading2 && (
+                {productData && (
                   <div className="bg-gray-100 p-[3vw] rounded-lg shadow-lg">
                     <h2 className="text-[3vw] lg:text-[1.5vw] font-bold flex items-center">
                       {productData?.heading2}
                     </h2>
                     <p
-                      className="text-[2.5vw] md:text-[1vw] mt-[1.5vw] text-gray-600"
-                      dangerouslySetInnerHTML={{ __html: productData?.longDescription2 }}
-                    />
+      className="text-[2.5vw] md:text-[1vw] mt-[1.5vw] text-gray-600"
+      dangerouslySetInnerHTML={{ __html: productData?.longDescription2 }}
+    />
                   </div>
                 )}
               </div>
