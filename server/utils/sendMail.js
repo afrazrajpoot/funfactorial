@@ -1,33 +1,22 @@
 const nodemailer = require("nodemailer");
-const { google } = require("googleapis");
 const ejs = require("ejs");
 const path = require("path");
 const fs = require("fs").promises;
 
-const CLIENT_ID = process.env.CLIENT_ID
-const CLIENT_SECRET = process.env.CLIENT_SECRET
-const REDIRECT_URL = process.env.REDIRECT_URL
-const REFRESH_TOKEN = process.env.REFRESH_TOKEN
-
-// Set up OAuth2 client
-const oAuth2Client = new google.auth.OAuth2(CLIENT_ID, CLIENT_SECRET, REDIRECT_URL);
-oAuth2Client.setCredentials({ refresh_token: REFRESH_TOKEN });
 
 // Create a transporter object with OAuth2 configuration
 async function createTransporter() {
   try {
-    const accessToken = await oAuth2Client.getAccessToken();
     const transporter = nodemailer.createTransport({
-      service: 'gmail',
+      host: "smtp.hostinger.com",
+      port: "465", // usually 587 for TLS or 465 for SSL
+      secure: true, // true for 465, false for other ports
       auth: {
-        type: 'OAuth2',
-        user: 'funride907@gmail.com',
-        clientId: CLIENT_ID,
-        clientSecret: CLIENT_SECRET,
-        refreshToken: REFRESH_TOKEN,
-        accessToken: accessToken.token,
+        user: "info@funrides.co.uk", // your Hostinger email address
+        pass: "Muzamil1234+", // your Hostinger email password
       },
     });
+    
     
     // Verify transporter configuration
     await transporter.verify();
@@ -63,9 +52,9 @@ async function sendEmail(to, subject, templateData) {
     const mailOptions = {
       from: {
         name: 'Funride',
-        address: 'funride907@gmail.com'
+        address: 'info@funrides.co.uk'
       },
-      to: to.trim(), // Ensure no whitespace in email address
+      to: to.trim(), 
       subject: subject,
       text: `Hello, your booking has been confirmed!`,
       html: renderedHtml,
