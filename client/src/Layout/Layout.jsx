@@ -1,3 +1,4 @@
+'use client'
 import React, { useState } from 'react';
 import { Package, LayoutDashboard, ChevronLeft, ChevronRight, ShoppingCart } from 'lucide-react';
 import Link from 'next/link';
@@ -30,7 +31,7 @@ const Layout = ({ children }) => {
           {menuItems.map((item, index) => (
             <Link
               key={index}
-              to={item.href}
+              href = {item.href}
               className="flex items-center p-4 hover:bg-gray-800 transition-colors"
             >
               <span className="flex-shrink-0">{item.icon}</span>
