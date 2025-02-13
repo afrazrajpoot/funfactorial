@@ -107,7 +107,7 @@ const BlogContentClient = ({ blogData, metaTitle, metaImage }) => {
         const imageUrl = getImageUrl(sectionIndex);
         const heading = blogData[`heading${sectionIndex}`] ?? "";
         const info = blogData[`info${sectionIndex}`] ?? "";
-
+       
         return (
           <div className="my-8" key={index}>
             {imageUrl ? (

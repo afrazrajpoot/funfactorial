@@ -42,7 +42,7 @@ const BlogContent = async ({ params }) => {
   const metaTitle = blogData?.metaTitle ?? blogData?.title ?? "Default Blog Title";
   const metaDescription = blogData?.metaDescription ?? "Default Blog Description";
   const metaImage = blogData?.image1?.fileName 
-    ? `${process.env.NEXT_PUBLIC_API_URL}/blogsPosts/${blogData.image1.fileName}`
+    ? `${process.env.NEXT_PUBLIC_API_URL}/${blogData.image1.fileName}`
     : `${process.env.NEXT_PUBLIC_API_URL}/default-image.jpg`; // Fallback image if no blog image
 
   // If no data is found, show a message
@@ -55,7 +55,7 @@ const BlogContent = async ({ params }) => {
       </Layout>
     );
   }
-
+console.log(metaImage,'meta image')
   return (
     <>
       <Header />
@@ -66,7 +66,7 @@ const BlogContent = async ({ params }) => {
         <meta property="og:description" content={metaDescription} />
         <meta property="og:image" content={metaImage} />
         <meta property="og:site_name" content="Danhamz" />
-        <meta property="og:url" content={`https://yourwebsite.com/blogs/${keywords}`} />
+        <meta property="og:url" content={`https://api.funrides.co.uk/blogs/${keywords}`} />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@Danhamz" />
