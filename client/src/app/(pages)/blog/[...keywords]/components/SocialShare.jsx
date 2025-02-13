@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import { FacebookShareButton, FacebookIcon, TwitterShareButton, TwitterIcon, WhatsappShareButton, WhatsappIcon } from 'react-share';
 

@@ -1,78 +1,215 @@
-// page.js
-import { Metadata } from 'next';
-import BlogContent from "./components/BlogContent";
+import { Toaster } from 'sonner';
+import { Suspense } from 'react';
+import Image from 'next/image';
+import { headers } from 'next/headers';
 
-// This generates metadata at build time for static pages
-// and on-demand for dynamic pages
-export async function generateMetadata({ params }) {
-  const keywords = params.keywords[0];
-  
+import SocialShare from './components/SocialShare';
+import { BlogActions } from './components/BlogActions';
+
+async function fetchBlogData(keywords) {
+  console.log(keywords, 'my keywords');
   try {
-    const blogData = await readBlog(keywords);
+    const url = `https://api.funrides.co.uk/api/v1/blogs/${keywords}`;
     
-    const metaTitle = blogData?.metaTitle ?? blogData?.title ?? "Default Blog Title";
-    const metaDescription = blogData?.metaDescription ?? "Default Blog Description";
-    const metaImage = blogData?.image1?.fileName
-      ? `${process.env.NEXT_PUBLIC_API_URL}/${blogData.image1.fileName}`
-      : `${process.env.NEXT_PUBLIC_API_URL}/default-image.jpg`;
-    
+    const response = await fetch(url, {
+      method: 'GET',
+      headers: {
+        'Accept': 'application/json',
+        'User-Agent': 'Next.js Server'
+      }
+    });
 
-      console.log(metaImage,'meta image')
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
+    const contentType = response.headers.get('content-type');
+    console.log('Content-Type:', contentType);
+
+    if (contentType && contentType.includes('application/json')) {
+      const blogData = await response.json();
+      console.log(blogData, 'my blog data');
+      return blogData;
+    } else {
+      const textResponse = await response.text();
+      console.error('Response is not JSON. Raw response:', textResponse);
+      throw new Error('Response is not JSON');
+    }
+  } catch (error) {
+    console.error('Fetch Error:', {
+      message: error.message,
+      stack: error.stack
+    });
+    return null;
+  }
+}
+
+export async function generateMetadata({ params }) {
+  const { keywords } = params;
+
+  // Fetch the blog data dynamically based on keywords
+  const blogData = await fetchBlogData(keywords[0]);
+
+  // If the blog data isn't found, return default metadata
+  if (!blogData) {
     return {
-      metadataBase: new URL('https://api.funrides.co.uk'),
-      title: metaTitle,
-      description: metaDescription,
+      title: 'Danhamz Blog',
+      description: 'Read this blog post to learn more.',
       openGraph: {
-        title: metaTitle,
-        description: metaDescription,
-        icons: {
-          icon: metaImage,  // This is the basic favicon
-        },
-        images: [{
-          url: metaImage,
-          width: 1200,
-          height: 630,
-          alt: metaTitle,
-        }],
-        siteName: "Danhamz",
-        url: `/blogs/${keywords}`,
-        type: "article",
+        type: 'article',
+        locale: 'en_US',
+        url: `https://danhamz.co.uk/blogs/${keywords[0]}`,
+        title: 'Danhamz Blog',
+        description: 'Read this blog post to learn more.',
+        images: [
+          {
+            url: 'https://danhamz.co.uk/images/danhamz_logo.jpg',
+            width: 1200,
+            height: 630,
+            alt: 'Danhamz Logo',
+          },
+        ],
       },
       twitter: {
-        card: "summary_large_image",
-        site: "@Funfactorial",
-        creator: "@Funfactorial",
-        title: metaTitle,
-        description: metaDescription,
-        images: [metaImage],
+        card: 'summary_large_image',
+        site: '@yourTwitterHandle',
+        creator: '@yourTwitterHandle',
+        title: 'Danhamz Blog',
+        description: 'Read this blog post to learn more.',
+        images: ['https://danhamz.co.uk/images/danhamz_logo.jpg'],
       },
-   
-    };
-  } catch (error) {
-    console.error('Error generating metadata:', error);
-    return {
-      title: 'Blog Post',
-      description: 'Default blog description',
     };
   }
+
+  // Enhanced URL generation
+  const canonicalUrl = `https://tokensclubhouse.com/read-blog/${keywords[0]}`;
+  console.log(canonicalUrl, 'url');
+
+  const getFullImageUrl = (fileName) => {
+    if (!fileName) return 'https://danhamz.co.uk/images/danhamz_logo.jpg';
+    return `https://api.funrides.co.uk/api/v1/${fileName}`.replace(/([^:]\/)\/+/g, '$1');
+  };
+
+  const imageUrl = getFullImageUrl(blogData.image1?.fileName);
+  console.log(imageUrl, 'image url meta');
+
+  return {
+    metadataBase: new URL('https://funrides.co.uk'),
+    title: blogData.keywords,
+    description: blogData.info1 || 'Read this blog post to learn more.',
+    canonical: canonicalUrl,
+    openGraph: {
+      type: 'article',
+      locale: 'en_US',
+      url: canonicalUrl,
+      title: blogData.keywords,
+      description: blogData.info1 || 'Read this blog post to learn more.',
+      images: [
+        {
+          url: imageUrl,
+          width: 1200,
+          height: 630,
+          alt: blogData.keywords,
+        },
+      ],
+      publishedTime: blogData.createdAt,
+      authors: [blogData.name],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      site: '@yourTwitterHandle',
+      creator: '@yourTwitterHandle',
+      title: blogData.keywords,
+      description: blogData.info1 || 'Read this blog post to learn more.',
+      images: [imageUrl],
+    },
+  };
 }
 
-// Fetch function
-async function readBlog(keywords) {
-  try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_API_URL}/api/v1/blogs/${keywords}`,
-      { next: { revalidate: 3600 } } // Cache for 1 hour
-    );
-    
-    if (!res.ok) throw new Error('Failed to fetch blog data');
-    return res.json();
-  } catch (err) {
-    console.error("Error fetching blog:", err);
-    return {};
+export default async function ReadSingleBlog({ params }) {
+  const { keywords } = params;
+
+  if (!keywords || !keywords[0]) {
+    return <p>Invalid blog keywords.</p>;
   }
-}
+  const blogData = await fetchBlogData(keywords[0]);
 
-export default function ReadSingleBlog({ params }) {
-  return <BlogContent params={params} />;
+  if (!blogData) {
+    return <p>Failed to load blog data.</p>;
+  }
+
+  const headersList = headers();
+  const activePath = headersList.get('x-invoke-path') || '';
+
+  const getFullImageUrl = (fileName) => {
+    if (!fileName) return '/images/danhamz_logo.jpg';
+    return `https://api.funrides.co.uk/${fileName}`.replace(/([^:]\/)\/+/g, '$1');
+  };
+
+  return (
+    <main>
+      <Toaster />
+      <Suspense fallback={<h1>Loading...</h1>}>
+        {blogData && (
+          <>
+            <BlogActions
+              blogId={blogData._id}
+              keywords={keywords}
+              admin={activePath.includes('/admin') ? 'admin' : 'user'}
+            />
+            <section className="p-[2vw] bg-white">
+              <h1 className="text-[#152347] text-center text-[5vw] md:text-2vw font-medium">
+                All you want to know about us
+              </h1>
+              <div className="flex items-center flex-col my-[4vw] md:my-[2vw]">
+                <SocialShare
+                  fbURL={`https://funrides.co.uk${activePath}`}
+                  twURL={`https://funrides.co.uk${activePath}`}
+                  waURL={`https://funrides.co.uk${activePath}`}
+                  title={blogData.title}
+                  image={getFullImageUrl(blogData.image1?.fileName)}
+                />
+                <p>Click here to share this article</p>
+              </div>
+
+              {[...Array(15)].map((_, index) => (
+                <main className="my-[1vw]" key={index}>
+                  <article className="flex flex-col w-full my-[5vw] justify-around items-center">
+                    {blogData[`image${index + 1}`] && (
+                      <figure className="w-full max-w-[80vw] md:max-w-[50vw] rounded-md">
+                        <img
+                          src={getFullImageUrl(blogData[`image${index + 1}`]?.fileName)}
+                          alt="blog_image"
+                          className="w-full rounded-md"
+                        />
+                      </figure>
+                    )}
+                    {blogData[`heading${index + 1}`] && (
+                      <h1 className="text-[#152347] font-semibold text-start w-full max-w-[70vw] md:max-w-[50vw] text-[4.5vw] md:text-[1.5vw] mt-[5vw] md:mt-2vw">
+                        {blogData[`heading${index + 1}`]}
+                      </h1>
+                    )}
+                  </article>
+                  {blogData[`info${index + 1}`] && (
+                    <div className="text-[#152347] mt-[5vw] md:[mt-3vw] w-full max-w-[70vw] md:max-w-[50vw] mx-auto text-[3vw] md:text-vw">
+                      {blogData[`info${index + 1}`]?.split('\n')?.map((paragraph, idx) => (
+                        <div key={idx}>
+                          <p>{paragraph}</p>
+                          {idx !== blogData[`info${index + 1}`]?.split('\n')?.length - 1 && <br />}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </main>
+              ))}
+
+              <p className="text-[#152347] mt-[5vw] md:[mt-3vw] font-medium w-full max-w-[80vw] mx-auto text-[3vw] md:text-vw">
+                By: {blogData?.name}
+              </p>
+            </section>
+          </>
+        )}
+      </Suspense>
+    </main>
+  );
 }

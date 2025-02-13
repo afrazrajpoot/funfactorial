@@ -10,7 +10,8 @@ import SocialShare from "./SocialShare";
 // import SocialShare from '@/components/SocialShare';
 
 const BlogContentClient = ({ blogData, metaTitle, metaImage }) => {
-  console.log(metaTitle,'meta title')
+
+  console.log(blogData,'meta title')
   const router = useRouter();
   const [admin, setAdmin] = useState(false);
   const encryptionKey = process.env.NEXT_PUBLIC_SECRET_KEY;
@@ -64,7 +65,10 @@ const BlogContentClient = ({ blogData, metaTitle, metaImage }) => {
     const fileName = blogData[`image${index}`]?.fileName;
     return fileName ? `${process.env.NEXT_PUBLIC_API_URL}/${fileName}` : "";
   };
-
+  const getFullImageUrl = (fileName) => {
+    if (!fileName) return '/images/danhamz_logo.jpg';
+    return`  https://api.funrides.co.uk/api/v1/${fileName}.replace(/([^:]\/)\/+/g, '$1')`;
+  };
   return (
     <div className="bg-white p-8 md:p-12 lg:p-16">
       {admin && (
@@ -94,8 +98,8 @@ const BlogContentClient = ({ blogData, metaTitle, metaImage }) => {
             fbURL={typeof window !== 'undefined' ? window.location.href : ''}
             twURL={typeof window !== 'undefined' ? window.location.href : ''}
             waURL={typeof window !== 'undefined' ? window.location.href : ''}
-            title={metaTitle}
-            image={metaImage}
+            title={blogData.title}
+            image={getFullImageUrl(blogData.image1?.fileName)}
           />
           <p className="text-sm md:text-base lg:text-lg ml-4">Click here to share this article</p>
         </div>
@@ -105,6 +109,7 @@ const BlogContentClient = ({ blogData, metaTitle, metaImage }) => {
         if (!hasSectionContent(sectionIndex)) return null;
 
         const imageUrl = getImageUrl(sectionIndex);
+        console.log(imageUrl,'get image')
         const heading = blogData[`heading${sectionIndex}`] ?? "";
         const info = blogData[`info${sectionIndex}`] ?? "";
        
