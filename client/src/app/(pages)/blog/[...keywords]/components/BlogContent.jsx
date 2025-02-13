@@ -12,7 +12,9 @@ const readBlog = async (keywords) => {
     const res = await axios.get(
       `${process.env.NEXT_PUBLIC_API_URL}/api/v1/blogs/${keywords}`
     );
+  
     return res.data;
+
   } catch (err) {
     console.error("Error fetching blog:", err);
     return {};
@@ -30,7 +32,7 @@ export async function generateMetadata({ params }) {
     ? `${process.env.NEXT_PUBLIC_API_URL}/${blogData.image1.fileName}`
     : `${process.env.NEXT_PUBLIC_API_URL}/default-image.jpg`;
 
-  return {
+  return {  
     title: metaTitle,
     description: metaDescription,
     openGraph: {
@@ -44,6 +46,10 @@ export async function generateMetadata({ params }) {
           alt: metaTitle,
         },
       ],
+     icons:{
+      icon: "/images/icon.jpg",
+      },
+    
       siteName: "Danhamz",
       url: `https://api.funrides.co.uk/blogs/${keywords}`,
       type: "article",
