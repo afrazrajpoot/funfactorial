@@ -40,7 +40,7 @@ export async function generateMetadata({ params }) {
       description: metaDescription,
       images: [
         {
-          url: metaImage,
+          url: '/images/megaWave.png',
           width: 800,
           height: 600,
           alt: metaTitle,
