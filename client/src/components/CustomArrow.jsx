@@ -2,7 +2,7 @@ import React from "react";
 import { IconButton } from "@mui/material";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import { cardSlidesImagesData } from "../data";
+import { cardSlidesImagesData } from "@/app/data";
 import Slider from "react-slick";
 
 const CustomArrow = ({ className, style, onClick, direction }) => {
@@ -49,7 +49,7 @@ export const cardSlidesImages = () => {
   return (
     <section className="mt-[1vw] w-full max-w-[96vw] m-auto">
       <Slider {...settings2}>
-        {cardSlidesImagesData?.map((image, index) => {
+        { cardSlidesImagesData && cardSlidesImagesData.length > 0 && cardSlidesImagesData?.map((image, index) => {
           return (
             <div key={index} className="flex gap-[1vw]">
               <img src={image.img} alt="slide image" className="" />

@@ -1,11 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ribbons } from '../data';
+import { ribbons } from '@/app/data';
 
 const Ribbons = ({ handleRibbonClick, getRibbonClasses,activeRibbon }) => {
   return (
     <aside className="lg:ml-[-1vw] ml-[4vw] flex flex-col mt-4 gap-4 max-w-xs ">
-      {ribbons?.map((elem, ind) => (
+      { ribbons && ribbons.length > 0 && ribbons?.map((elem, ind) => (
         <motion.div
           initial={{ x: -50 }} // Only slide animation
           animate={{ x: 0 }}
@@ -35,7 +35,7 @@ const Ribbons = ({ handleRibbonClick, getRibbonClasses,activeRibbon }) => {
           `}
         >
           <p className="text-white font-bold text-lg tracking-wide ml-4">
-            {elem.title}
+            {elem?.title}
           </p>
         </motion.div>
       ))}

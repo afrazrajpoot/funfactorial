@@ -1,8 +1,8 @@
+'use client';
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import MobileHeader from "./MobileHeader";
-
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import Link from 'next/link';
 
 import {
   FormControl,
@@ -12,14 +12,12 @@ import {
   TextField,
   Button,
 } from "@mui/material";
-import { useGlobalState } from "../context/globalState";
-import { useCheckAvailibilityMutation } from "../store/storeApi";
+import { useGlobalState } from "@/context/globalState";
 import {BasicDatePicker, MobileDatePicker} from "./BasicDatePicker";
 import CryptoJS from 'crypto-js';
+import { useRouter } from "next/navigation";
+import { useCheckAvailibilityMutation } from "@/app/store/storeApi";
 const TopHeader = () => {
-  const location = useLocation()
-
-
 
 const [showHeader,setShowHeader] = useState()
 const [scrollPosition, setScrollPosition] = useState(0);
@@ -30,14 +28,14 @@ const [category, setCategory] = useState("");
 const [suggestions, setSuggestions] = useState([]);
 const [date,setDate] = useState("");
 
-const encryptionKey = import.meta.env.VITE_SECRET_KEY;
+const encryptionKey = process.env.NEXT_PUBLIC_SECRET_KEY;
 const adminEmail = 'subadmin@gmail.com';
 const adminPassword = 'Subadmin@123+';
 const [admin, setAdmin] = useState(false);
 
 
 
-const navigate = useNavigate()
+  const {push: navigate} = useRouter();
 const handleDeliveryChange = (event) => {
   setDeliveryArea(event.target.value);
 };
@@ -157,6 +155,7 @@ useEffect(()=>{
 },[])
 
 useEffect(() => {
+  if (typeof window !== 'undefined') {
   const storedEmail = localStorage.getItem('subadminEmail');
   const storedPassword = localStorage.getItem('subadminPassword');
   if (storedEmail && storedPassword) {
@@ -166,6 +165,7 @@ useEffect(() => {
       setAdmin(true);
     }
   } 
+  }
 }, []);
 useEffect(()=>{
   setShowHeader(location.pathname)
@@ -197,9 +197,9 @@ useEffect(()=>{
           />
           <div className="absolute inset-0 bg-green-200 opacity-50"></div>
         </div>
-        <header className="absolute top-0 left-0 w-full h-full flex items-center justify-center p-[2vw] lg:justify-between lg:p-[4vw]">
+        <header className="absolute top-0 left-0 w-full h-[30vw] flex items-center justify-center p-[2vw] lg:justify-between lg:p-[4vw]">
           <motion.section whileHover={{scale:1.1}} className="mt-[-18vw] relative hidden lg:block">
-            <Link to="/" className="w-full block">
+            <Link href="/" className="w-full block">
               <p className="font-genty text-[#f06eaa] text-[6vw] text-center">Fun</p>
               <p className="font-genty text-[#f06eaa] text-[6vw] absolute top-[5.5vw]">Rides</p>
 
@@ -213,7 +213,7 @@ useEffect(()=>{
               <p className="font-bold text-purple-900 text-[4vw] lg:text-[1.2vw]">
                 We deliver across West Yorkshire area
               </p>
-              <Link to="/contact" className="w-full max-w-[50vw] hidden lg:block lg:max-w-[17vw] lg:ml-[3vw] mt-[4vw] lg:mt-[0vw]">
+              <Link href="/contact" className="w-full max-w-[50vw] hidden lg:block lg:max-w-[17vw] lg:ml-[3vw] mt-[4vw] lg:mt-[0vw]">
                 <img
                   src="https://www.funfactorleeds.co.uk/theme/email-address@1x.png"
                   alt="img"
@@ -284,7 +284,7 @@ useEffect(()=>{
                 Search
               </Button>
 
-              { admin && <Link to="/dashboard" className="bg-[#40327a] text-white lg:p-[1vw] lg:w-[10vw] p-[3vw] text-center rounded-md lg:text-[1vw] text-[4vw]  font-medium w-full  h-[7vh]">Dashboard</Link>}
+              { admin && <Link href={'/dashboard'} className="bg-[#40327a] text-white lg:p-[1vw] lg:w-[10vw] p-[3vw] text-center rounded-md lg:text-[1vw] text-[4vw]  font-medium w-full  h-[7vh]">Dashboard</Link>}
    
             </form>
           </article>

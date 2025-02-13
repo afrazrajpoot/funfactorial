@@ -1,5 +1,6 @@
+'use client'
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const BlogCard = ({ img, title, info, avatar, name, keywords,_id }) => {
 
@@ -139,7 +140,7 @@ const BlogCard = ({ img, title, info, avatar, name, keywords,_id }) => {
 
           {/* Read More Button */}
           <Link 
-            to={`/blogs/${keywords}`} 
+            href={`/blogs/${keywords}`} 
             className="group"
           >
             <button className="

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Package, LayoutDashboard, ChevronLeft, ChevronRight, ShoppingCart } from 'lucide-react';
-import { Link } from 'react-router-dom';
-
+import Link from 'next/link';
 const Layout = ({ children }) => {
   const [isCollapsed, setIsCollapsed] = useState(false);
 

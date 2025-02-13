@@ -1,11 +1,12 @@
+'use client'
 import React, { useState, useEffect } from 'react';
-import Layout from '../../Layout/Layout';
-import { products } from '../../data';
-import Card from '../Card';
 import { motion } from 'framer-motion';
 import { toast } from 'sonner';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
+import { products } from '@/app/data';
+import Layout from '@/Layout/Layout';
+import Card from '../Card';
 
 const ModalForm = ({ title, isOpen, onClose, onSave }) => {
   const [metaTitle, setMetaTitle] = useState('');
@@ -39,7 +40,7 @@ const ModalForm = ({ title, isOpen, onClose, onSave }) => {
       if (title) {
         setLoading(true);
         try {
-          const res = await fetch(`${import.meta.env.VITE_API_URL}/api/v1/getProductInfo?title=${title}`);
+          const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/getProductInfo?title=${title}`);
           if (!res.ok) throw new Error('Failed to fetch product data');
           const data = await res.json();
 
@@ -200,7 +201,7 @@ const AddProductInfo = () => {
 
   const handleSave = async (formData) => {
     try {
-      const res = await fetch(`${import.meta.env.VITE_API_URL}/api/v1/updateProductInfo`, {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/updateProductInfo`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
@@ -222,9 +223,9 @@ const AddProductInfo = () => {
           key="product-grid"
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 h-[80vw] overflow-y-scroll"
         >
-          {products.map((elem) => (
-            <motion.div key={elem.id}>
-              <Card
+          { products && products.length > 0 && products?.map((elem, index) => (
+            <motion.div key={index}>
+              <Card 
                 {...elem}
                 updateInfo={true}
                 onUpdateClick={() => handleUpdateClick(elem.title)}

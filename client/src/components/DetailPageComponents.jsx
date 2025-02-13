@@ -17,7 +17,7 @@ import {
   FaTimes,
 } from "react-icons/fa";
 import { SizeTable,InflatableDetailsTable } from "./InflatableDetailsTable";
-// import {SizeTable, InflatableDetailsTable} from "../components/InflatableDetailsTable";
+// import {SizeTable, InflatableDetailsTable} from "@/components/InflatableDetailsTable";
 
 
 

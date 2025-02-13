@@ -1,3 +1,4 @@
+'use client'
 import React, { createContext, useContext, useState } from "react";
 const globalContext = createContext();
 export const GlobalState = ({ children }) => {

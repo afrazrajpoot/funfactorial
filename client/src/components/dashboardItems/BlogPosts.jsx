@@ -1,8 +1,9 @@
+'use client'
 import React, { useEffect, useState } from 'react'
-import { useGlobalState } from '../../context/globalState';
-import Layout from '../../Layout/Layout';
-import BlogCard from '../BlogCard';
+import { useGlobalState } from '../@/context/globalState';
+import Layout from '@/Layout/Layout';
 import axios from 'axios';
+import BlogCard from '../BlogCard';
 
 const BlogPosts = () => {
     const [blogsPosts, setBlogsPosts] = useState([]);
@@ -14,7 +15,7 @@ const BlogPosts = () => {
     const getBlogData = async () => {
       try {
         setLoading(true);
-        const res = await axios.get(`${import.meta.env.VITE_API_URL}/api/v1/readBlogs`);
+        const res = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/readBlogs`);
         setBlogsPosts(res.data);
         setError(null);
       } catch (err) {
@@ -51,7 +52,7 @@ const BlogPosts = () => {
         max-w-2xl 
         mx-auto
       ">
-        All you want to know about our landlords and tenants
+        All you want to know about our rides and funfair
       </p>
     </div>
 
@@ -116,7 +117,7 @@ const BlogPosts = () => {
               <BlogCard 
                 keywords={item._id} 
                 info={item?.info1} 
-                img={`${import.meta.env.VITE_API_URL}/${item?.image1?.fileName}`} 
+                img={`${process.env.NEXT_PUBLIC_API_URL}/${item?.image1?.fileName}`} 
                 {...item} 
               />
             </div>

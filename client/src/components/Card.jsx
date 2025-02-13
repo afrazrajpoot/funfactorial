@@ -1,6 +1,6 @@
+'use client'
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { useGlobalState } from "../context/globalState";
+import { useGlobalState } from "@/context/globalState";
 import { 
   FaShoppingCart, 
   FaInfoCircle, 
@@ -10,6 +10,7 @@ import {
   FaCheckCircle 
 } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { useRouter } from "next/navigation";
 
 const Card = ({ 
   title, 
@@ -22,9 +23,7 @@ const Card = ({
   onUpdateClick 
 }) => {
   const { setItemDetail } = useGlobalState();
-  const navigate = useNavigate();
-  const [isFavorite, setIsFavorite] = useState(false);
-
+  const {push: navigate} = useRouter();
   // Utility function to get image source
   const getImageSrc = () => {
     const staticImages = {
@@ -58,7 +57,7 @@ const Card = ({
   const calculatedPrice = Number(price?.replace(/[^0-9.-]+/g, "") || 0) + 125;
 
   const handleClick = () => {
-    const slugTitle = title.replace(/\s+/g, '-');  // Replace spaces with hyphens
+    const slugTitle = title.replace(/\s+/g, '-').toLowerCase();  // Replace spaces with hyphens
     setItemDetail({ name: title, price: calculatedPrice });
     console.log(slugTitle); // Log the original title
     navigate(`/${slugTitle}`);  // use "replace: true" if you don't want to push a new entry in the history stack

@@ -1,11 +1,14 @@
+'use client';
+
 import React, { useState, useEffect, useCallback } from "react";
-import { Link, useLocation, useNavigate, NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
-import { navData } from "../data";
+import { navData } from "@/app/data";
 import { Search } from "lucide-react";
-import { useGlobalState } from "../context/globalState";
-import { useCheckAvailibilityMutation } from "../store/storeApi";
+import { useGlobalState } from "@/context/globalState";
 import CryptoJS from 'crypto-js';
+import { useCheckAvailibilityMutation } from "@/app/store/storeApi";
+import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 // Custom debounce hook
 const useDebounce = (value, delay) => {
@@ -35,15 +38,15 @@ const Header = () => {
   const [localSearch, setLocalSearch] = useState("");
 
   // Debounce the search term with a 300ms delay
-  const debouncedSearchTerm = useDebounce(localSearch, 1000);
+  const debouncedSearchTerm = useDebounce(localSearch, 300);
 
-  const encryptionKey = import.meta.env.VITE_SECRET_KEY;
+  const encryptionKey = process.env.NEXT_PUBLIC_SECRET_KEY;
   const adminEmail = 'subadmin@gmail.com';
   const adminPassword = 'Subadmin@123+';
   const [admin, setAdmin] = useState(false);
 
-  const navigate = useNavigate();
-  const location = useLocation();
+  const router = useRouter(); // Next.js router instance
+  const { query, pathname } = router; // Access query params and pathname
   const [showHeader, setShowHeader] = useState();
   const [checkAvailibility, { isLoading, isError, isSuccess, data }] = useCheckAvailibilityMutation();
 
@@ -99,17 +102,19 @@ const Header = () => {
     if (date) {
       const res = await checkAvailibility({ date });
       setAvailableData(res.data.bookings);
-      navigate('/check-availibility');
+      router.push('/check-availibility');
       return;
     }
-    navigate(`/search-products?search=${category}`);
+    router.push(`/search-products?search=${category}`);
   };
 
   useEffect(() => {
-    setShowHeader(location.pathname);
-  }, []);
+    setShowHeader(pathname); // Use pathname from Next.js router
+  }, [pathname]);
+
 
   useEffect(() => {
+    if (typeof window !== 'undefined') {
     const storedEmail = localStorage.getItem('subadminEmail');
     const storedPassword = localStorage.getItem('subadminPassword');
     if (storedEmail && storedPassword) {
@@ -119,6 +124,7 @@ const Header = () => {
         setAdmin(true);
       }
     }
+  }
   }, []);
 
   return (
@@ -131,12 +137,12 @@ const Header = () => {
         }`}
         style={{ position: scrollPosition > 500 ? "fixed" : "relative" }}
       >
-        {navData?.map((item, index) => (
+        { navData && navData.length > 0 && navData?.map((item, index) => (
           <div key={index} className="flex">
-            <NavLink
-              to={item.url}
+            <Link
+              href={`${item?.url}`}
               className={`hidden lg:block font-bold items-center ${
-                item.url === location.pathname ? "text-[#40327a]" : 'text-white'
+                item.url === pathname ? "text-[#40327a]" : 'text-white'
               } hover:text-[#40327a] transition-colors duration-300`}
             >
               <motion.div
@@ -145,9 +151,9 @@ const Header = () => {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
-                <span className="text-[1.3vw] font-ab mr-1">{item.title}</span>
+                <span className="text-[1.3vw] font-ab mr-1">{item?.title}</span>
               </motion.div>
-            </NavLink>
+            </Link>
             {index === 6 && (
               <div className="flex lg:translate-x-[15vw] w-full lg:max-w-[18vw] items-center bg-white border-[1px] pr-[1vw] pl-[0.5vw] rounded-md relative">
                 <Search className="text-[#40327a] w-5 h-5 mr-[0.5vw]" />
