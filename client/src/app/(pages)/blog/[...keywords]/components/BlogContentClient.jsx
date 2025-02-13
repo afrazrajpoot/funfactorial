@@ -10,6 +10,7 @@ import SocialShare from "./SocialShare";
 // import SocialShare from '@/components/SocialShare';
 
 const BlogContentClient = ({ blogData, metaTitle, metaImage }) => {
+  console.log(metaTitle,'meta title')
   const router = useRouter();
   const [admin, setAdmin] = useState(false);
   const encryptionKey = process.env.NEXT_PUBLIC_SECRET_KEY;
@@ -87,8 +88,8 @@ const BlogContentClient = ({ blogData, metaTitle, metaImage }) => {
         {blogData?.title ?? ""}
       </h1>
 
-      {(metaTitle ?? "") !== "" && (
-        <div className="flex flex-col justify-center items-center my-8">
+
+<div className="flex flex-col justify-center items-center my-8">
           <SocialShare
             fbURL={typeof window !== 'undefined' ? window.location.href : ''}
             twURL={typeof window !== 'undefined' ? window.location.href : ''}
@@ -98,7 +99,6 @@ const BlogContentClient = ({ blogData, metaTitle, metaImage }) => {
           />
           <p className="text-sm md:text-base lg:text-lg ml-4">Click here to share this article</p>
         </div>
-      )}
 
       {[...Array(15)].map((_, index) => {
         const sectionIndex = index + 1;

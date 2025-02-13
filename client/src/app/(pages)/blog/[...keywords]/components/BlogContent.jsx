@@ -1,16 +1,17 @@
-import React from "react";
-import axios from "axios";
-import Layout from "@/Layout/Layout";
-import Header from "@/components/Header";
-import BlogContentClient from "./BlogContentClient";
+// BlogContent.server.js
+import React from 'react';
+import axios from 'axios';
+import Layout from '@/Layout/Layout';
+import Header from '@/components/Header';
+import BlogContentClient from './BlogContentClient';
+import SocialShare from './SocialShare';
 
-// Fetch blog data
-const getBlogData = async (slug) => {
+// Function to fetch blog data
+const readBlog = async (keywords) => {
   try {
     const res = await axios.get(
-      `${process.env.NEXT_PUBLIC_API_URL}/api/v1/blogs/${slug}`
+      `${process.env.NEXT_PUBLIC_API_URL}/api/v1/blogs/${keywords}`
     );
-    console.log("API Response:", res.data);
     return res.data;
   } catch (err) {
     console.error("Error fetching blog:", err);
@@ -21,47 +22,48 @@ const getBlogData = async (slug) => {
 // Generate metadata dynamically
 export async function generateMetadata({ params }) {
   const keywords = params.keywords[0];
-  const blogData = await getBlogData(keywords);
+  const blogData = await readBlog(keywords);
+
+  const metaTitle = blogData?.metaTitle ?? blogData?.title ?? "Default Blog Title";
+  const metaDescription = blogData?.metaDescription ?? "Default Blog Description";
+  const metaImage = blogData?.image1?.fileName
+    ? `${process.env.NEXT_PUBLIC_API_URL}/${blogData.image1.fileName}`
+    : `${process.env.NEXT_PUBLIC_API_URL}/default-image.jpg`;
 
   return {
-    title: blogData?.metaTitle ?? blogData?.title ?? "Default Blog Title",
-    description: blogData?.metaDescription ?? "Default Blog Description",
+    title: metaTitle,
+    description: metaDescription,
     openGraph: {
-      title: blogData?.metaTitle ?? blogData?.title ?? "Default Blog Title",
-      description: blogData?.metaDescription ?? "Default Blog Description",
-      url: `https://api.funrides.co.uk/blogs/${keywords}`,
-      siteName: "Danhamz",
-      type: "article",
+      title: metaTitle,
+      description: metaDescription,
       images: [
         {
-          url: blogData?.image1?.fileName
-            ? `${process.env.NEXT_PUBLIC_API_URL}/${blogData.image1.fileName}`
-            : `${process.env.NEXT_PUBLIC_API_URL}/default-image.jpg`,
-          width: 1200,
-          height: 630,
-          alt: blogData?.metaTitle ?? "Blog Image",
+          url: metaImage,
+          width: 800,
+          height: 600,
+          alt: metaTitle,
         },
       ],
+      siteName: "Danhamz",
+      url: `https://api.funrides.co.uk/blogs/${keywords}`,
+      type: "article",
     },
     twitter: {
       card: "summary_large_image",
       site: "@Funfactorial",
       creator: "@Funfactorial",
-      title: blogData?.metaTitle ?? blogData?.title ?? "Default Blog Title",
-      description: blogData?.metaDescription ?? "Default Blog Description",
-      images: [
-        blogData?.image1?.fileName
-          ? `${process.env.NEXT_PUBLIC_API_URL}/${blogData.image1.fileName}`
-          : `${process.env.NEXT_PUBLIC_API_URL}/default-image.jpg`,
-      ],
+      title: metaTitle,
+      description: metaDescription,
+      images: [metaImage],
     },
   };
 }
 
 const BlogContent = async ({ params }) => {
   const keywords = params.keywords[0];
-  const blogData = await getBlogData(keywords);
+  const blogData = await readBlog(keywords);
 
+  // If no data is found, show a message
   if (Object.keys(blogData).length === 0) {
     return (
       <Layout>
@@ -75,6 +77,7 @@ const BlogContent = async ({ params }) => {
   return (
     <>
       <Header />
+   
       <BlogContentClient blogData={blogData} />
     </>
   );
