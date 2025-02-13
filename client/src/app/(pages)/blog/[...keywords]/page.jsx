@@ -16,6 +16,8 @@ export async function generateMetadata({ params }) {
       ? `${process.env.NEXT_PUBLIC_API_URL}/${blogData.image1.fileName}`
       : `${process.env.NEXT_PUBLIC_API_URL}/default-image.jpg`;
     
+
+      console.log(metaImage,'meta image')
     return {
       metadataBase: new URL('https://api.funrides.co.uk'),
       title: metaTitle,
@@ -28,8 +30,8 @@ export async function generateMetadata({ params }) {
         },
         images: [{
           url: metaImage,
-          width: 800,
-          height: 600,
+          width: 1200,
+          height: 630,
           alt: metaTitle,
         }],
         siteName: "Danhamz",
