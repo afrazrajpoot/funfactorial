@@ -49,7 +49,7 @@ export async function generateMetadata({ params }) {
 
   // Fetch the blog data dynamically based on keywords
   const blogData = await fetchBlogData(keywords[0]);
-
+console.log(keywords[0],'key word')
   // If the blog data isn't found, return default metadata
   if (!blogData) {
     return {
@@ -82,12 +82,13 @@ export async function generateMetadata({ params }) {
   }
 
   // Enhanced URL generation
-  const canonicalUrl = `https://tokensclubhouse.com/read-blog/${keywords[0]}`;
+  const canonicalUrl = ` https://funrides.co.uk/blog/${keywords[0]}`;
+ 
   console.log(canonicalUrl, 'url');
 
   const getFullImageUrl = (fileName) => {
     if (!fileName) return 'https://danhamz.co.uk/images/danhamz_logo.jpg';
-    return `https://api.funrides.co.uk/api/v1/${fileName}`.replace(/([^:]\/)\/+/g, '$1');
+    return `https://api.funrides.co.uk/${fileName}`.replace(/([^:]\/)\/+/g, '$1');
   };
 
   const imageUrl = getFullImageUrl(blogData.image1?.fileName);
