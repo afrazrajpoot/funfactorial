@@ -140,7 +140,7 @@ const BlogCard = ({ img, title, info, avatar, name, keywords,_id }) => {
 
           {/* Read More Button */}
           <Link 
-            href={`/blogs/${keywords}`} 
+            href={`/blog/${keywords}`} 
             className="group"
           >
             <button className="

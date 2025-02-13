@@ -5,8 +5,9 @@ import axios from "axios";
 import { Toaster, toast } from "sonner";
 import CryptoJS from 'crypto-js';
 import Head from 'next/head';
-import { useRouter, useSearchParams } from 'next/navigation'; // Use Next.js navigation for routing
+import { usePathname, useRouter } from 'next/navigation'; // Use Next.js navigation for routing
 import dynamic from 'next/dynamic';
+import { useGlobalState } from "@/context/globalState";
 
 // Dynamically import components
 const Header = dynamic(() => import('@/components/Header'), { ssr: false });
@@ -16,8 +17,8 @@ const Loading = dynamic(() => import('@/components/Loader'), { ssr: false });
 
 const BlogContent = () => {
   const router = useRouter();  // Next.js navigation hook for routing
-  const searchParams = useSearchParams()  // Get query params directly from the router
-  const keywords = searchParams.get('keywords');  // Access 'keywords' from query params
+  const pathname = usePathname();   // Get query params directly from the router
+  const keywords = pathname.split('/')[2]
   const [blogId, setBlogId] = useState(null);
   const [blogData, setBlogData] = useState({});
   const [loading, setLoading] = useState(false);
