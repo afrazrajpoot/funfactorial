@@ -176,33 +176,40 @@ export default async function ReadSingleBlog({ params }) {
               {[...Array(15)].map((_, index) => (
                 <main className="my-[1vw]" key={index}>
                   <article className="flex flex-col w-full my-[5vw] justify-around items-center">
-                    {blogData[`image${index + 1}`] && (
+                    {blogData[`image${index + 1}`]?.fileName && (
                       <figure className="w-full max-w-[80vw] md:max-w-[50vw] rounded-md">
                         <img
                           src={getFullImageUrl(blogData[`image${index + 1}`]?.fileName)}
-                          alt="blog_image"
+                          alt={`blog_image_${index + 1}`}
                           className="w-full rounded-md"
                         />
                       </figure>
                     )}
-                    {blogData[`heading${index + 1}`] && (
+                    {blogData[`heading${index + 1}`]?.trim() && (
                       <h1 className="text-[#152347] font-semibold text-start w-full max-w-[70vw] md:max-w-[50vw] text-[4.5vw] md:text-[1.5vw] mt-[5vw] md:mt-2vw">
                         {blogData[`heading${index + 1}`]}
                       </h1>
                     )}
                   </article>
-                  {blogData[`info${index + 1}`] && (
-                    <div className="text-[#152347] mt-[5vw] md:[mt-3vw] w-full max-w-[70vw] md:max-w-[50vw] mx-auto text-[3vw] md:text-vw">
-                      {blogData[`info${index + 1}`]?.split('\n')?.map((paragraph, idx) => (
-                        <div key={idx}>
-                          <p>{paragraph}</p>
-                          {idx !== blogData[`info${index + 1}`]?.split('\n')?.length - 1 && <br />}
-                        </div>
-                      ))}
+                  {blogData[`info${index + 1}`]?.trim() && (
+                    <div className="text-[#152347] mt-[5vw] md:[mt-3vw] w-full max-w-[70vw] md:max-w-[50vw] mx-auto text-[3vw] md:text-[2vw] lg:text-[1vw]">
+                      {blogData[`info${index + 1}`]
+                        ?.split('\n')
+                        .filter((paragraph) => paragraph.trim() !== '') // Filter out empty paragraphs
+                        .map((paragraph, idx) => (
+                          <div key={idx}>
+                            <p>{paragraph}</p>
+                            {idx !==
+                              blogData[`info${index + 1}`]
+                                ?.split('\n')
+                                .filter((paragraph) => paragraph.trim() !== '').length - 1 && <br />}
+                          </div>
+                        ))}
                     </div>
                   )}
                 </main>
               ))}
+
 
               <p className="text-[#152347] mt-[5vw] md:[mt-3vw] font-medium w-full max-w-[80vw] mx-auto text-[3vw] md:text-vw">
                 By: {blogData?.name}
