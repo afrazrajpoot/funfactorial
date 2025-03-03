@@ -1,23 +1,23 @@
 'use client'
-import React, { useEffect, useState, Suspense } from "react";
+import React, { useEffect, useState } from "react";
 import { Controller, useForm } from "react-hook-form";
 import axios from "axios";
 import { toast, Toaster } from "sonner";
+import { useRouter, useParams } from "next/navigation";
+import { Icon } from "@iconify/react";
 import { Trash2 } from 'lucide-react';
+// import { blogsForm } from "../data";
+// import { useGlobalState } from "../context/globalState";
+import CryptoJS from 'crypto-js';
 import { blogsForm } from "@/app/data";
 import { useGlobalState } from "@/context/globalState";
-import CryptoJS from 'crypto-js';
-import { useSearchParams, useRouter } from "next/navigation";
-import dynamic from "next/dynamic";
 import Layout from "@/Layout/Layout";
-// import Layout from "@/components/Layout";
-// import Loading from "@/components/Loader";
+// import Layout from "../Layout/Layout";
 
-const Loading = dynamic(() => import('@/components/Loader'), { ssr: false });
-
-const BlogFormContent = () => {
-  const searchParams = useSearchParams();
-  const blogKeyword = searchParams.get("keywords");
+const BlogForm = () => {
+  const router = useRouter();
+  const params = useParams();
+  const blogKeyword = params?.keywords;
   const { setNewBlog } = useGlobalState();
   const [blogId, setBlogId] = useState(null);
   const [authAdmin, setAuthAdmin] = useState(null);
@@ -31,7 +31,6 @@ const BlogFormContent = () => {
   const [loading, setLoading] = useState(false);
   const [files, setFiles] = useState([]);
   const [imageURLs, setImageURLs] = useState([]);
-  const {push: navigate} = useRouter();
   const { formState: { errors }, control, handleSubmit, setValue, reset } = useForm({
     defaultValues: blogPostData,
   });
@@ -72,16 +71,13 @@ const BlogFormContent = () => {
   const handleImageDelete = async (index) => {
     try {
       setLoading(true);
-      // Get the fileName from the imageURLs
-      const fileName = imageURLs[index].split('/').pop(); // Extract the file name from the URL
-  
-      // Ensure the fileName is valid before making the request
+      const fileName = imageURLs[index].split('/').pop();
       if (!fileName) {
         throw new Error("File name is undefined");
       }
 
       await axios.delete(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/deleteImages/${blogKeyword}`, {
-        data: { fileName: fileName } // Ensure the fileName is sent in the request body
+        data: { fileName: fileName }
       });
   
       setImageURLs(prev => prev.filter((_, i) => i !== index));
@@ -108,19 +104,18 @@ const BlogFormContent = () => {
       setLoading(false);
       setNewBlog(res.data);
       toast.success(blogKeyword ? "Blog updated successfully" : "Blog created successfully");
-      navigate("/blogs");
+      router.push("/blogs");
     } catch (err) {
       setLoading(false);
       console.error(err);
     }
   };
 
-  const encryptionKey = process.env.NEXT_PUBLIC_ENCRYPTION_KEY;
+  const encryptionKey = process.env.NEXT_PUBLIC_SECRET_KEY;
   const adminEmail = 'subadmin@gmail.com';
   const adminPassword = 'Subadmin@123+';
 
   useEffect(() => {
-    if (typeof window !== 'undefined') {
     const storedEmail = localStorage.getItem('subadminEmail');
     const storedPassword = localStorage.getItem('subadminPassword');
 
@@ -132,13 +127,12 @@ const BlogFormContent = () => {
         password: decryptedPassword
       });
       if (decryptedEmail !== adminEmail || decryptedPassword !== adminPassword) {
-        navigate('/');
+        router.push('/');
       }
     } else {
-      navigate('/');
+      router.push('/');
     }
-    }
-  }, [navigate]);
+  }, [router]);
 
   useEffect(() => {
     if (blogKeyword) getBlogPost();
@@ -146,10 +140,10 @@ const BlogFormContent = () => {
 
   return (
     <Layout>
-   
-        <form onSubmit={handleSubmit(onSubmit)} className="w-full ml-[28vw]   bg-white rounded-lg p-8 shadow-lg">
+  
+        <form onSubmit={handleSubmit(onSubmit)} className='w-full ml-[28vw]   bg-white rounded-lg p-8 shadow-lg'>
           <h1 className="text-center text-2xl font-bold mb-6">{blogKeyword ? "Update Blog" : "Create Blog"}</h1>
-          { blogsForm && blogsForm?.map((item, index) => (
+          {blogsForm?.map((item, index) => (
             <section key={index} className="mb-6">
               <label htmlFor={item.label} className="block capitalize font-medium mb-1 text-gray-700">
                 {item.label}
@@ -235,14 +229,5 @@ const BlogFormContent = () => {
     </Layout>
   );
 };
-
-const BlogForm = () => {
-  return (
-    <Suspense fallback={<Loading />}>
-      <BlogFormContent />
-    </Suspense>
-  );
-};
-
 
 export default BlogForm;

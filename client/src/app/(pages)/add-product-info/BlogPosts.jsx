@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { useGlobalState } from '../@/context/globalState';
 import Layout from '@/Layout/Layout';
 import axios from 'axios';
-import BlogCard from '../BlogCard';
+import BlogCard from '../../../components/BlogCard';
 
 const BlogPosts = () => {
     const [blogsPosts, setBlogsPosts] = useState([]);

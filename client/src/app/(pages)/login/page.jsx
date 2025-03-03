@@ -24,7 +24,7 @@ const Login = () => {
         await new Promise(resolve => setTimeout(resolve, 1000)); // Simulate API call
         
         // Encrypt the email and password
-        const SECRET_KEY = process.env.NEXT_PUBLIC_SECRET_KEY;
+        const SECRET_KEY = process.env.NEXT_PUBLIC_ENCRYPTION_KEY;
         const encryptedEmail = CryptoJS.AES.encrypt(email, SECRET_KEY).toString();
         const encryptedPassword = CryptoJS.AES.encrypt(password, SECRET_KEY).toString();
 
@@ -38,7 +38,7 @@ const Login = () => {
             await new Promise(resolve => setTimeout(resolve, 1000)); // Simulate API call
             
             // Encrypt the email and password
-            const SECRET_KEY = process.env.NEXT_PUBLIC_SECRET_KEY;
+            const SECRET_KEY = process.env.NEXT_PUBLIC_ENCRYPTION_KEY;
             const encryptedEmail = CryptoJS.AES.encrypt(email, SECRET_KEY).toString();
             const encryptedPassword = CryptoJS.AES.encrypt(password, SECRET_KEY).toString();
     

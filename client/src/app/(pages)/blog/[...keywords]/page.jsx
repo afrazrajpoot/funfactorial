@@ -49,7 +49,7 @@ export async function generateMetadata({ params }) {
 
   // Fetch the blog data dynamically based on keywords
   const blogData = await fetchBlogData(keywords[0]);
-console.log(keywords[0],'key word')
+
   // If the blog data isn't found, return default metadata
   if (!blogData) {
     return {
@@ -134,14 +134,14 @@ export default async function ReadSingleBlog({ params }) {
     return <p>Invalid blog keywords.</p>;
   }
   const blogData = await fetchBlogData(keywords[0]);
-
+  console.log(blogData,'blog dataaaaaaaa')
   if (!blogData) {
     return <p>Failed to load blog data.</p>;
   }
 
   const headersList = headers();
   const activePath = headersList.get('x-invoke-path') || '';
-
+console.log(activePath,'active path')
   const getFullImageUrl = (fileName) => {
     if (!fileName) return '/images/danhamz_logo.jpg';
     return `https://api.funrides.co.uk/${fileName}`.replace(/([^:]\/)\/+/g, '$1');
@@ -159,7 +159,7 @@ export default async function ReadSingleBlog({ params }) {
               admin={activePath.includes('/admin') ? 'admin' : 'user'}
             />
             <section className="p-[2vw] bg-white">
-              <h1 className="text-[#152347] text-center text-[5vw] md:text-2vw font-medium">
+              <h1 className="text-[#152347] text-center text-[5vw] md:text-[3vw] font-medium">
                 All you want to know about us
               </h1>
               <div className="flex items-center flex-col my-[4vw] md:my-[2vw]">
@@ -211,7 +211,7 @@ export default async function ReadSingleBlog({ params }) {
               ))}
 
 
-              <p className="text-[#152347] mt-[5vw] md:[mt-3vw] font-medium w-full max-w-[80vw] mx-auto text-[3vw] md:text-vw">
+              <p className="text-[#152347] mt-[5vw] md:[mt-3vw] font-medium w-full max-w-[80vw] mx-auto text-[3vw] md:text-[2vw]">
                 By: {blogData?.name}
               </p>
             </section>

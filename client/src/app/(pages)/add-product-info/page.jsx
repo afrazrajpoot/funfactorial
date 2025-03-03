@@ -2,11 +2,144 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { toast } from 'sonner';
-import ReactQuill from 'react-quill';
-import 'react-quill/dist/quill.snow.css';
 import { products } from '@/app/data';
 import Layout from '@/Layout/Layout';
-import Card from '../Card';
+import Card from '../../../components/Card';
+import { useEditor, EditorContent } from '@tiptap/react';
+import StarterKit from '@tiptap/starter-kit';
+import Placeholder from '@tiptap/extension-placeholder';
+import Link from '@tiptap/extension-link';
+
+// TipTap MenuBar Component
+const MenuBar = ({ editor }) => {
+  if (!editor) {
+    return null;
+  }
+
+  return (
+    <div className="flex flex-wrap gap-1 p-2 bg-gray-100 border-b">
+      <button
+        type="button" // Add this line
+        onClick={() => editor.chain().focus().toggleBold().run()}
+        disabled={!editor.can().chain().focus().toggleBold().run()}
+        className={`px-2 py-1 border rounded ${
+          editor.isActive('bold') ? 'bg-gray-300' : 'bg-white'
+        }`}
+      >
+        <strong>B</strong>
+      </button>
+      <button
+        type="button" // Add this line
+        onClick={() => editor.chain().focus().toggleItalic().run()}
+        disabled={!editor.can().chain().focus().toggleItalic().run()}
+        className={`px-2 py-1 border rounded ${
+          editor.isActive('italic') ? 'bg-gray-300' : 'bg-white'
+        }`}
+      >
+        <em>I</em>
+      </button>
+      <button
+        type="button" // Add this line
+        onClick={() => editor.chain().focus().toggleHeading({ level: 1 }).run()}
+        disabled={!editor.can().chain().focus().toggleHeading({ level: 1 }).run()}
+        className={`px-2 py-1 border rounded ${
+          editor.isActive('heading', { level: 1 }) ? 'bg-gray-300' : 'bg-white'
+        }`}
+      >
+        H1
+      </button>
+      <button
+        type="button" // Add this line
+        onClick={() => editor.chain().focus().toggleHeading({ level: 2 }).run()}
+        disabled={!editor.can().chain().focus().toggleHeading({ level: 2 }).run()}
+        className={`px-2 py-1 border rounded ${
+          editor.isActive('heading', { level: 2 }) ? 'bg-gray-300' : 'bg-white'
+        }`}
+      >
+        H2
+      </button>
+      <button
+        type="button" // Add this line
+        onClick={() => editor.chain().focus().toggleBulletList().run()}
+        disabled={!editor.can().chain().focus().toggleBulletList().run()}
+        className={`px-2 py-1 border rounded ${
+          editor.isActive('bulletList') ? 'bg-gray-300' : 'bg-white'
+        }`}
+      >
+        • List
+      </button>
+      <button
+        type="button" // Add this line
+        onClick={() => editor.chain().focus().toggleOrderedList().run()}
+        disabled={!editor.can().chain().focus().toggleOrderedList().run()}
+        className={`px-2 py-1 border rounded ${
+          editor.isActive('orderedList') ? 'bg-gray-300' : 'bg-white'
+        }`}
+      >
+        1. List
+      </button>
+      <button
+        type="button" // Add this line
+        onClick={() => {
+          const url = window.prompt('Enter URL')
+          if (url) {
+            editor.chain().focus().setLink({ href: url }).run()
+          }
+        }}
+        disabled={!editor.can().chain().focus().setLink({ href: '' }).run()}
+        className={`px-2 py-1 border rounded ${
+          editor.isActive('link') ? 'bg-gray-300' : 'bg-white'
+        }`}
+      >
+        Link
+      </button>
+      <button
+        type="button" // Add this line
+        onClick={() => editor.chain().focus().unsetLink().run()}
+        disabled={!editor.isActive('link')}
+        className="px-2 py-1 border rounded bg-white"
+      >
+        Unlink
+      </button>
+    </div>
+  );
+};
+
+// TipTap Editor Component
+const TipTapEditor = ({ value, onChange, placeholder }) => {
+  const editor = useEditor({
+    extensions: [
+      StarterKit,
+      Placeholder.configure({
+        placeholder: placeholder || 'Write something...',
+      }),
+      Link.configure({
+        openOnClick: false,
+      }),
+    ],
+    content: value,
+    onUpdate: ({ editor }) => {
+      onChange(editor.getHTML());
+    },
+  });
+
+  // Update content from external changes
+  useEffect(() => {
+    if (editor && value !== editor.getHTML()) {
+      editor.commands.setContent(value);
+    }
+  }, [value, editor]);
+
+  return (
+    <div className="tiptap-editor border rounded">
+      <MenuBar editor={editor} />
+      <EditorContent 
+        editor={editor} 
+        className="p-2 min-h-[200px] prose prose-sm max-w-none" 
+      />
+    </div>
+  );
+};
 
 const ModalForm = ({ title, isOpen, onClose, onSave }) => {
   const [metaTitle, setMetaTitle] = useState('');
@@ -16,23 +149,6 @@ const ModalForm = ({ title, isOpen, onClose, onSave }) => {
   const [longDescription2, setLongDescription2] = useState('');
   const [heading2, setHeading2] = useState('');
   const [loading, setLoading] = useState(false);
-
-  const modules = {
-    toolbar: [
-      [{ 'header': [1, 2, false] }],
-      ['bold', 'italic', 'underline', 'strike'],
-      [{ 'list': 'ordered'}, { 'list': 'bullet' }],
-      ['link'],
-      ['clean']
-    ],
-  };
-
-  const formats = [
-    'header',
-    'bold', 'italic', 'underline', 'strike',
-    'list', 'bullet',
-    'link'
-  ];
 
   // Fetch existing product data when the modal opens
   useEffect(() => {
@@ -121,17 +237,11 @@ const ModalForm = ({ title, isOpen, onClose, onSave }) => {
             </div>
             <div className="mb-4">
               <label className="block text-sm font-medium mb-1">Long Description 1</label>
-              <div className="border rounded">
-                <ReactQuill
-                  theme="snow"
-                  value={longDescription1}
-                  onChange={setLongDescription1}
-                  modules={modules}
-                  formats={formats}
-                  className="bg-white"
-                  style={{ height: '200px' }}
-                />
-              </div>
+              <TipTapEditor
+                value={longDescription1}
+                onChange={setLongDescription1}
+                placeholder="Enter the first long description..."
+              />
             </div>
             
             {/* Second Section */}
@@ -146,17 +256,11 @@ const ModalForm = ({ title, isOpen, onClose, onSave }) => {
             </div>
             <div className="mb-4">
               <label className="block text-sm font-medium mb-1">Long Description 2</label>
-              <div className="border rounded">
-                <ReactQuill
-                  theme="snow"
-                  value={longDescription2}
-                  onChange={setLongDescription2}
-                  modules={modules}
-                  formats={formats}
-                  className="bg-white"
-                  style={{ height: '200px' }}
-                />
-              </div>
+              <TipTapEditor
+                value={longDescription2}
+                onChange={setLongDescription2}
+                placeholder="Enter the second long description..."
+              />
             </div>
             
             <div className="flex justify-end mt-16">
@@ -217,8 +321,8 @@ const AddProductInfo = () => {
 
   return (
     <Layout>
-      <div>
-        <h2 className="text-2xl font-bold w-full text-center mb-4">ALL Products</h2>
+      <div className='ml-[14vw] mt-[2vw]'>
+        <h2 className="text-2xl font-bold  w-full text-center mb-4">ALL Products</h2>
         <motion.div
           key="product-grid"
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 h-[80vw] overflow-y-scroll"

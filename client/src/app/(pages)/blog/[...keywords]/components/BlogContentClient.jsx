@@ -4,7 +4,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Toaster, toast } from "sonner";
-import CryptoJS from 'crypto-js';
+
 import { useRouter } from 'next/navigation';
 import SocialShare from "./SocialShare";
 // import SocialShare from '@/components/SocialShare';
@@ -13,43 +13,9 @@ const BlogContentClient = ({ blogData, metaTitle, metaImage }) => {
 
   console.log(blogData,'meta title')
   const router = useRouter();
-  const [admin, setAdmin] = useState(false);
-  const encryptionKey = process.env.NEXT_PUBLIC_SECRET_KEY;
-  const adminEmail = 'subadmin@gmail.com';
-  const adminPassword = 'Subadmin@123+';
 
-  // Check admin credentials from localStorage
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const storedEmail = localStorage.getItem('subadminEmail');
-      const storedPassword = localStorage.getItem('subadminPassword');
-      if (storedEmail && storedPassword) {
-        const decryptedEmail = CryptoJS.AES.decrypt(storedEmail, encryptionKey).toString(CryptoJS.enc.Utf8);
-        const decryptedPassword = CryptoJS.AES.decrypt(storedPassword, encryptionKey).toString(CryptoJS.enc.Utf8);
-        if (decryptedEmail === adminEmail && decryptedPassword === adminPassword) {
-          setAdmin(true);
-        }
-      }
-    }
-  }, []);
 
-  // Function to delete the blog
-  const deleteBlog = async () => {
-    try {
-      const res = await axios.delete(
-        `${process.env.NEXT_PUBLIC_API_URL}/api/v1/deleteBlog/${blogData._id}`
-      );
-      if (res) {
-        toast.success("Delete successfully", {
-          position: "top-center",
-        });
-        router.push("/blogs");
-      }
-    } catch (err) {
-      toast.error("Failed to delete blog");
-      console.error("Error deleting blog:", err);
-    }
-  };
+
 
   // Function to safely check if a section has content
   const hasSectionContent = (index) => {
@@ -71,22 +37,7 @@ const BlogContentClient = ({ blogData, metaTitle, metaImage }) => {
   };
   return (
     <div className="bg-white p-8 md:p-12 lg:p-16">
-      {admin && (
-        <div className="flex justify-end mb-4">
-          <button
-            className="bg-[#152347] text-white px-4 py-2 rounded-md hover:shadow-lg mr-2"
-            onClick={() => router.push(`/update-blog/${blogData._id}`)}
-          >
-            Update Blog
-          </button>
-          <button
-            className="bg-amber-500 text-white px-4 py-2 rounded-md hover:shadow-lg"
-            onClick={deleteBlog}
-          >
-            Delete Blog
-          </button>
-        </div>
-      )}
+     
       
       <h1 className="text-[#152347] text-3xl md:text-4xl lg:text-5xl font-semibold mb-8 text-center">
         {blogData?.title ?? ""}
@@ -109,7 +60,7 @@ const BlogContentClient = ({ blogData, metaTitle, metaImage }) => {
         if (!hasSectionContent(sectionIndex)) return null;
 
         const imageUrl = getImageUrl(sectionIndex);
-        console.log(imageUrl,'get image')
+     
         const heading = blogData[`heading${sectionIndex}`] ?? "";
         const info = blogData[`info${sectionIndex}`] ?? "";
        
