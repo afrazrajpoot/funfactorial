@@ -126,7 +126,7 @@ const BlogForm = () => {
         email: decryptedEmail,
         password: decryptedPassword
       });
-      if (decryptedEmail !== adminEmail || decryptedPassword !== adminPassword) {
+      if (decryptedEmail !== adminEmail || decryptedPassword !== adminPassword || storedEmail) {
         router.push('/');
       }
     } else {
