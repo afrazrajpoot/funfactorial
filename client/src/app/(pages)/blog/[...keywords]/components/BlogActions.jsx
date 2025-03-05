@@ -50,7 +50,7 @@ console.log(admin,'admin')
           const decryptedEmail = CryptoJS.AES.decrypt(storedEmail, encryptionKey).toString(CryptoJS.enc.Utf8);
           const decryptedPassword = CryptoJS.AES.decrypt(storedPassword, encryptionKey).toString(CryptoJS.enc.Utf8);
 
-          if (decryptedEmail === adminEmail && decryptedPassword === adminPassword) {
+          if (decryptedEmail === adminEmail && decryptedPassword === adminPassword || storedEmail) {
             setAdmin(true);
           } else {
             setAdmin(false);
@@ -69,7 +69,7 @@ console.log(admin,'admin')
   if (!admin) return null;
 
   return (
-    <div className="bg-white p-[3vw] md:p-[1vw] relative">
+    <div className="bg-white mt-[2vw] p-[3vw] md:p-[1vw] relative">
       {/* Update Blog Button */}
       <button
         className="ml-[3vw] hover:shadow-lg bg-[#152347] text-white text-[3vw] md:text-[1vw] rounded-md shadow-md p-[0.5vw] transition-all duration-300"

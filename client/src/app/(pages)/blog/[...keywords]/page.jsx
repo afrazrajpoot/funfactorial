@@ -7,7 +7,6 @@ import SocialShare from './components/SocialShare';
 import { BlogActions } from './components/BlogActions';
 
 async function fetchBlogData(keywords) {
-  console.log(keywords, 'my keywords');
   try {
     const url = `https://api.funrides.co.uk/api/v1/blogs/${keywords}`;
     
@@ -83,16 +82,12 @@ export async function generateMetadata({ params }) {
 
   // Enhanced URL generation
   const canonicalUrl = ` https://funrides.co.uk/blog/${keywords[0]}`;
- 
-  console.log(canonicalUrl, 'url');
-
   const getFullImageUrl = (fileName) => {
     if (!fileName) return 'https://danhamz.co.uk/images/danhamz_logo.jpg';
     return `https://api.funrides.co.uk/${fileName}`.replace(/([^:]\/)\/+/g, '$1');
   };
 
   const imageUrl = getFullImageUrl(blogData.image1?.fileName);
-  console.log(imageUrl, 'image url meta');
 
   return {
     metadataBase: new URL('https://funrides.co.uk'),
@@ -134,14 +129,12 @@ export default async function ReadSingleBlog({ params }) {
     return <p>Invalid blog keywords.</p>;
   }
   const blogData = await fetchBlogData(keywords[0]);
-  console.log(blogData,'blog dataaaaaaaa')
   if (!blogData) {
     return <p>Failed to load blog data.</p>;
   }
 
   const headersList = headers();
   const activePath = headersList.get('x-invoke-path') || '';
-console.log(activePath,'active path')
   const getFullImageUrl = (fileName) => {
     if (!fileName) return '/images/danhamz_logo.jpg';
     return `https://api.funrides.co.uk/${fileName}`.replace(/([^:]\/)\/+/g, '$1');
@@ -156,7 +149,6 @@ console.log(activePath,'active path')
             <BlogActions
               blogId={blogData._id}
               keywords={keywords}
-              admin={activePath.includes('/admin') ? 'admin' : 'user'}
             />
             <section className="p-[2vw] bg-white">
               <h1 className="text-[#152347] text-center text-[5vw] md:text-[3vw] font-medium">
