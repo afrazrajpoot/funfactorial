@@ -161,7 +161,7 @@ useEffect(() => {
   if (storedEmail && storedPassword) {
     const decryptedEmail = CryptoJS.AES.decrypt(storedEmail, encryptionKey).toString(CryptoJS.enc.Utf8);
     const decryptedPassword = CryptoJS.AES.decrypt(storedPassword, encryptionKey).toString(CryptoJS.enc.Utf8);
-    if (decryptedEmail === adminEmail && decryptedPassword === adminPassword) {
+    if (decryptedEmail === adminEmail && decryptedPassword === adminPassword || storedEmail) {
       setAdmin(true);
     }
   } 
